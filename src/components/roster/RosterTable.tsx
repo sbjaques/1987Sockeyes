@@ -1,7 +1,7 @@
 import { isSkater, isGoalie, type RosterEntry, type Skater, type Goalie } from '../../types/roster';
 import { useSortableTable } from '../../hooks/useSortableTable';
 
-function SkaterTable({ rows }: { rows: Skater[] }) {
+function SkaterTable({ rows, onRowClick }: { rows: Skater[]; onRowClick?: (entry: RosterEntry) => void }) {
   const flat = rows.map(s => ({ ...s, ...s.playoffStats }));
   const { sorted, sortKey, sortDir, toggleSort } = useSortableTable(flat, 'pts', 'desc');
 
@@ -23,7 +23,9 @@ function SkaterTable({ rows }: { rows: Skater[] }) {
       </thead>
       <tbody>
         {sorted.map(r => (
-          <tr key={r.id} className="odd:bg-cream even:bg-cream-200">
+          <tr key={r.id}
+              className={`odd:bg-cream even:bg-cream-200${onRowClick ? ' cursor-pointer hover:bg-cream-200' : ''}`}
+              onClick={() => onRowClick?.(r)}>
             <td className="px-3 py-2">{r.number ?? ''}</td>
             <td className="px-3 py-2 font-semibold">{r.name}</td>
             <td className="px-3 py-2">{r.position}</td>
@@ -40,7 +42,7 @@ function SkaterTable({ rows }: { rows: Skater[] }) {
   );
 }
 
-function GoalieTable({ rows }: { rows: Goalie[] }) {
+function GoalieTable({ rows, onRowClick }: { rows: Goalie[]; onRowClick?: (entry: RosterEntry) => void }) {
   const flat = rows.map(g => ({ ...g, ...g.playoffStats }));
   const { sorted, sortKey, sortDir, toggleSort } = useSortableTable(flat, 'gaa', 'asc');
   const col = (key: keyof typeof flat[number], label: string) => (
@@ -60,7 +62,9 @@ function GoalieTable({ rows }: { rows: Goalie[] }) {
       </thead>
       <tbody>
         {sorted.map(r => (
-          <tr key={r.id}>
+          <tr key={r.id}
+              className={onRowClick ? 'cursor-pointer hover:bg-cream-200' : ''}
+              onClick={() => onRowClick?.(r)}>
             <td className="px-3 py-2">{r.number ?? ''}</td>
             <td className="px-3 py-2 font-semibold">{r.name}</td>
             <td className="px-3 py-2">{r.hometown}</td>
@@ -77,21 +81,23 @@ function GoalieTable({ rows }: { rows: Goalie[] }) {
   );
 }
 
-export function RosterTable({ entries }: { entries: RosterEntry[] }) {
+export function RosterTable({ entries, onRowClick }: { entries: RosterEntry[]; onRowClick?: (entry: RosterEntry) => void }) {
   const skaters = entries.filter(isSkater);
   const goalies = entries.filter(isGoalie);
   const staff   = entries.filter(e => e.role !== 'player');
 
   return (
     <div>
-      {skaters.length > 0 && <SkaterTable rows={skaters} />}
-      {goalies.length > 0 && <GoalieTable rows={goalies} />}
+      {skaters.length > 0 && <SkaterTable rows={skaters} onRowClick={onRowClick} />}
+      {goalies.length > 0 && <GoalieTable rows={goalies} onRowClick={onRowClick} />}
       {staff.length > 0 && (
         <>
           <h3 className="font-display text-2xl mt-12 mb-4">Coaches &amp; Staff</h3>
           <ul className="grid gap-2 md:grid-cols-2">
             {staff.map(s => (
-              <li key={s.id} className="border-l-4 border-crimson pl-3">
+              <li key={s.id}
+                  className={`border-l-4 border-crimson pl-3${onRowClick ? ' cursor-pointer hover:bg-cream-200' : ''}`}
+                  onClick={() => onRowClick?.(s)}>
                 <span className="font-semibold">{s.name}</span> — {s.role.replace('-', ' ')}
               </li>
             ))}
