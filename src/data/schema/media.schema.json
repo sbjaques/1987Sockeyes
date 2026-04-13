@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id","type","title","file","caption","tags"],
+    "properties": {
+      "id":          { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "type":        { "enum": ["newspaper","program","photo","video","document"] },
+      "title":       { "type": "string" },
+      "publication": { "type": "string" },
+      "date":        { "type": "string", "format": "date" },
+      "file":        { "type": "string" },
+      "thumb":       { "type": "string" },
+      "caption":     { "type": "string" },
+      "tags":        { "type": "array", "items": { "type": "string" } },
+      "relatedGames":{ "type": "array", "items": { "type": "string" } }
+    },
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "hometown", "role"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "name": { "type": "string", "minLength": 1 },
+      "position": { "enum": ["F", "D", "G"] },
+      "number": { "type": "integer", "minimum": 1, "maximum": 99 },
+      "hometown": { "type": "string" },
+      "role": { "enum": ["player", "head-coach", "assistant-coach", "trainer", "staff"] },
+      "notes": { "type": "string" },
+      "playoffStats": {
+        "oneOf": [
+          { "type": "object", "required": ["gp","g","a","pts","pim"],
+            "properties": {
+              "gp": {"type":"integer","minimum":0}, "g":{"type":"integer","minimum":0},
+              "a":  {"type":"integer","minimum":0}, "pts":{"type":"integer","minimum":0},
+              "pim":{"type":"integer","minimum":0}
+            }, "additionalProperties": false },
+          { "type": "object", "required": ["gp","w","l","gaa","svpct","so"],
+            "properties": {
+              "gp":{"type":"integer","minimum":0}, "w":{"type":"integer","minimum":0},
+              "l":{"type":"integer","minimum":0}, "gaa":{"type":"number","minimum":0},
+              "svpct":{"type":"number","minimum":0,"maximum":1}, "so":{"type":"integer","minimum":0}
+            }, "additionalProperties": false }
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

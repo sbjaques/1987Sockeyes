@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id","date","series","round","opponent","location","result","score","highlights","sources"],
+    "properties": {
+      "id":       { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "date":     { "type": "string", "format": "date" },
+      "series":   { "enum": ["Mowat","Doyle","Abbott","Centennial"] },
+      "round":    { "type": "string" },
+      "opponent": { "type": "string" },
+      "location": { "type": "string" },
+      "result":   { "enum": ["W","L","T"] },
+      "score": {
+        "type": "object", "required": ["for","against"],
+        "properties": { "for": {"type":"integer","minimum":0}, "against":{"type":"integer","minimum":0} },
+        "additionalProperties": false
+      },
+      "highlights": { "type": "array", "items": { "type": "string" } },
+      "sources":    { "type": "array", "items": { "type": "string" } }
+    },
+    "additionalProperties": false
+  }
+}
