@@ -1,1 +1,135 @@
-[]
+[
+  {
+    "id": "1987-03-24-kelowna-bcjhl-clincher",
+    "date": "1987-03-24",
+    "series": "Mowat",
+    "round": "BCJHL Final",
+    "opponent": "Kelowna Packers",
+    "location": "Richmond, BC",
+    "result": "W",
+    "score": { "for": 0, "against": 0 },
+    "highlights": ["Richmond swept the Kelowna Packers in the BCJHL final series."],
+    "sources": ["vansun-1987-03-25-sockeyes-beat-kelowna", "province-1987-03-25-richmond-vs-kelowna-photo"]
+  },
+  {
+    "id": "1987-doyle-cup-vs-red-deer-series",
+    "date": "1987-04-09",
+    "series": "Doyle",
+    "round": "Final",
+    "opponent": "Red Deer Rustlers",
+    "location": "Richmond, BC / Red Deer, AB",
+    "result": "W",
+    "score": { "for": 0, "against": 0 },
+    "highlights": ["Richmond defeated the Red Deer Rustlers four games to three to win the Doyle Cup."],
+    "sources": [
+      "red-deer-advocate-1987-04-09-richmond-vs-red-deer",
+      "vansun-1987-04-08-photo-vs-red-deer",
+      "vansun-1987-04-09-red-deer-fan-incident",
+      "quesnel-cariboo-observer-1987-04-08-sockeyes",
+      "red-deer-advocate-1987-04-13-richmond-vs-red-deer",
+      "red-deer-advocate-1987-04-18-richmond-vs-red-deer",
+      "red-deer-advocate-1987-04-18-richmond-vs-red-deer-box",
+      "red-deer-advocate-1987-04-19-box-score"
+    ]
+  },
+  {
+    "id": "1987-abbott-cup-vs-humboldt-series",
+    "date": "1987-04-29",
+    "series": "Abbott",
+    "round": "Final",
+    "opponent": "Humboldt Broncos",
+    "location": "Richmond, BC / Humboldt, SK",
+    "result": "W",
+    "score": { "for": 0, "against": 0 },
+    "highlights": ["Richmond defeated the Humboldt Broncos to win the Abbott Cup, the Western Canadian Junior A championship."],
+    "sources": [
+      "vansun-1987-04-29-mcdougall-headbutt",
+      "province-1987-04-29-richmond-vs-humboldt-photo",
+      "province-1987-04-30-richmond-vs-humboldt",
+      "abbott-cup-program"
+    ]
+  },
+  {
+    "id": "1987-05-03-dartmouth-round-robin",
+    "date": "1987-05-03",
+    "series": "Centennial",
+    "round": "Round-Robin",
+    "opponent": "Dartmouth Fuel Kids",
+    "location": "Humboldt, SK",
+    "result": "W",
+    "score": { "for": 7, "against": 3 },
+    "highlights": ["Richmond opened the Centennial Cup tournament with a 7-3 win over the Dartmouth Fuel Kids."],
+    "sources": [
+      "times-colonist-1987-05-04-sockeyes-vs-dartmouth",
+      "vansun-1987-05-04-centennial-cup"
+    ]
+  },
+  {
+    "id": "1987-05-05-humboldt-round-robin",
+    "date": "1987-05-05",
+    "series": "Centennial",
+    "round": "Round-Robin",
+    "opponent": "Humboldt Broncos",
+    "location": "Humboldt, SK",
+    "result": "L",
+    "score": { "for": 1, "against": 6 },
+    "highlights": ["Richmond lost 6-1 to the host Humboldt Broncos in round-robin play."],
+    "sources": [
+      "star-phoenix-1987-05-05-centennial-cup-quote",
+      "star-phoenix-1987-05-06-humboldt-handshake-debate",
+      "star-phoenix-1987-05-07-centennial-cup",
+      "vansun-1987-05-07-centennial-cup-vs-humboldt"
+    ]
+  },
+  {
+    "id": "1987-05-07-pembroke-round-robin",
+    "date": "1987-05-07",
+    "series": "Centennial",
+    "round": "Round-Robin",
+    "opponent": "Pembroke Lumber Kings",
+    "location": "Humboldt, SK",
+    "result": "W",
+    "score": { "for": 4, "against": 1 },
+    "highlights": ["Richmond defeated the Pembroke Lumber Kings 4-1 to finish round-robin play at 2-1."],
+    "sources": [
+      "times-colonist-1987-05-08-sockeyes-vs-pembroke",
+      "times-colonist-1987-05-08-sockeyes-vs-pembroke-box",
+      "leader-post-1987-05-08-centennial-cup",
+      "vansun-1987-05-08-lumber-kings"
+    ]
+  },
+  {
+    "id": "1987-05-09-pembroke-semifinal",
+    "date": "1987-05-09",
+    "series": "Centennial",
+    "round": "Semifinal",
+    "opponent": "Pembroke Lumber Kings",
+    "location": "Humboldt, SK",
+    "result": "W",
+    "score": { "for": 9, "against": 3 },
+    "highlights": ["Richmond defeated the Pembroke Lumber Kings 9-3 in the Centennial Cup semifinal."],
+    "sources": []
+  },
+  {
+    "id": "1987-05-10-humboldt-final",
+    "date": "1987-05-10",
+    "series": "Centennial",
+    "round": "Final",
+    "opponent": "Humboldt Broncos",
+    "location": "Humboldt, SK",
+    "result": "W",
+    "score": { "for": 5, "against": 2 },
+    "highlights": ["Richmond defeated the Humboldt Broncos 5-2 to win the Centennial Cup, the national Junior A championship."],
+    "sources": [
+      "star-phoenix-1987-05-11-centennial-cup",
+      "star-phoenix-1987-05-11-centennial-cup-box",
+      "vansun-1987-05-11-centennial-cup",
+      "vansun-1987-05-11-sockeyes-win-centennial-cup",
+      "richmond-review-1987-05-13-centennial-cup",
+      "richmond-review-1987-05-13-centennial-cup-page-2",
+      "richmond-review-1987-05-13-centennial-cup-page-3",
+      "richmond-review-1987-05-13-hervey-romeo",
+      "centennial-cup-team-photo"
+    ]
+  }
+]
