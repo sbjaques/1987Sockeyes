@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <style>
+      .bg-cream{fill:#F2EDDC;}
+      .logo-red{fill:#D8282B;}
+      .text-black{fill:#231F20;}
+      @font-face {
+        font-family: 'Cooper Black';
+        src: url('https://fonts.gstatic.com/s/cooperblack/v1/cooperblack.woff2') format('woff2'); /* A web-safe approximation */
+      }
+      .logo-text {
+        font-family: 'Cooper Black', 'Cooper Std Black', serif;
+        font-size: 80px;
+        letter-spacing: -1px;
+      }
+    </style>
+  </defs>
+  <rect width="800" height="600" fill="#231F20"/>
+  <g transform="translate(400, 300) scale(1.1)">
+    <path class="bg-cream" d="M0-220 C150-220, 240-150, 240-50 L240,0 L270,0 L270,30 L240,30 L240,150 C240,200 150,220 0,220 C-150,220 -240,200 -240,150 L-240,30 L-270,30 L-270,0 L-240,0 L-240-50 C-240-150 -150-220 0-220Z"/>
+    
+    <g class="logo-red">
+      <path d="M-15-135 C-70-160, -170-120, -165-40 C-160,30 -90,90 -20,110 S 80,100 110,50 C140,0 125-90 60-125 C-5,-160 -40-150 -15-135Z M-18, -118 C-40,-135 5,-145 45,-115 C100,-80 110,-10 90,40 C70,90 10,95 -15,95 C-70,95 -145,50 -150,-30 C-155,-100 -80,-140 -18,-118Z"/>
+      <path d="M-13, -112 L-40, -12 L-100,-7 Z"/>
+      <path d="M10, -110 L80, 0 L30, -5 Z"/>
+      <path d="M12, -90 L-10, -88 L-10,-55 L12,-55 Z"/>
+      <path d="M-2,-50 L-18,-50 L-18,-35 L-2,-35 Z"/>
+      <path d="M-8,-30 L-24,-30 L-24,-15 L-8,-15 Z"/>
+    </g>
+    
+    <g class="text-black" transform="translate(3, 3)">
+      <text class="logo-text" x="-180" y="125" transform="rotate(-15 -180 125)">Richmond</text>
+      <text class="logo-text" x="-10" y="200" transform="rotate(-10 -10 200)">Sockeyes</text>
+    </g>
+
+    <g class="bg-cream">
+      <text class="logo-text" x="-180" y="125" transform="rotate(-15 -180 125)">Richmond</text>
+      <text class="logo-text" x="-10" y="200" transform="rotate(-10 -10 200)">Sockeyes</text>
+    </g>
+  </g>
+</svg>

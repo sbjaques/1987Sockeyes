@@ -5,9 +5,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        navy:   { DEFAULT: '#0B1F3A', 900: '#06122A' },
-        crimson:{ DEFAULT: '#A6192E', 700: '#7E1222' },
-        cream:  { DEFAULT: '#F5EFE0', 200: '#FAF5E8' },
+        brand: {
+          red:   '#D8282B',
+          black: '#231F20',
+          white: '#FFFFFF',
+          cream: '#F2EDDC',
+        },
+        // Legacy aliases to minimize component churn — map old names to new palette
+        navy:    { DEFAULT: '#231F20', 900: '#000000' }, // near-black
+        crimson: { DEFAULT: '#D8282B', 700: '#A81D20' },
+        cream:   { DEFAULT: '#FFFFFF', 200: '#F2EDDC' }, // main bg white, secondary cream
       },
       fontFamily: {
         display: ['"Playfair Display"', 'Georgia', 'serif'],
