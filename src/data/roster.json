@@ -329,15 +329,25 @@
     "hometown": "",
     "role": "player",
     "playoffStats": { "gp": 16, "g": 1, "a": 24, "pts": 25, "pim": 0 },
-    "bio": "Bryon Moller was a forward on the 1986-87 Richmond Sockeyes, contributing 25 points in 16 games during the Centennial Cup-winning season.",
+    "bio": "Bryon (Bryan) Moller, a centre born June 7, 1968 (5'10\", 165 lbs), played junior hockey in the BCJHL with the Langley Eagles from 1984-85 through 1986-87, splitting time with the Richmond Sockeyes in 1985-86 and again in the 1986-87 Centennial Cup run, where he contributed 25 points in 16 games. He went on to play three seasons (1988-89 through 1990-91) at the University of Alabama-Huntsville in the NCAA, posting 99 points in 82 games.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
       "Doyle Cup Champion 1987",
       "Mowat Cup Champion 1987"
     ],
+    "links": {
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=17394"
+    },
     "careerStats": [
-      { "season": "1986-87", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 16, "g": 1, "a": 24, "pts": 25, "pim": 0 } }
+      { "season": "1984-85", "team": "Langley Eagles", "league": "BCJHL", "type": "regular", "stats": { "gp": 1, "g": 0, "a": 0, "pts": 0, "pim": 0 } },
+      { "season": "1985-86", "team": "Langley Eagles", "league": "BCJHL", "type": "regular", "stats": { "gp": 25, "g": 18, "a": 16, "pts": 34, "pim": 4 } },
+      { "season": "1985-86", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 21, "g": 9, "a": 7, "pts": 16, "pim": 27 } },
+      { "season": "1986-87", "team": "Langley Eagles", "league": "BCJHL", "type": "regular", "stats": { "gp": 34, "g": 26, "a": 40, "pts": 66, "pim": 20 } },
+      { "season": "1986-87", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 16, "g": 1, "a": 24, "pts": 25, "pim": 0 } },
+      { "season": "1988-89", "team": "U. of Alabama-Huntsville", "league": "NCAA", "type": "regular", "stats": { "gp": 21, "g": 13, "a": 24, "pts": 37, "pim": 8 } },
+      { "season": "1989-90", "team": "U. of Alabama-Huntsville", "league": "NCAA", "type": "regular", "stats": { "gp": 31, "g": 13, "a": 20, "pts": 33, "pim": 26 } },
+      { "season": "1990-91", "team": "U. of Alabama-Huntsville", "league": "NCAA", "type": "regular", "stats": { "gp": 30, "g": 14, "a": 15, "pts": 29, "pim": 18 } }
     ]
   },
   {
@@ -401,7 +411,10 @@
     "hometown": "",
     "role": "player",
     "playoffStats": { "gp": 33, "g": 43, "a": 23, "pts": 66, "pim": 52 },
-    "bio": "Rob Clarke was a forward on the 1986-87 Richmond Sockeyes, leading the team in goal scoring during the Centennial Cup-winning season with 43 goals and 66 points in 33 games.",
+    "bio": "Rob Clarke, a right wing born May 2, 1967 in Melbourne, Australia (5'11\", 205 lbs), played his entire junior career in the BCJHL between 1984 and 1988. He suited up for Salmon Arm, Langley, and the Shuswap Blazers before joining the Richmond Sockeyes mid-season in 1986-87, where he led the team in goal scoring with 43 goals and 66 points in 33 games en route to the Centennial Cup. He returned to Richmond for 1987-88, posting a career-high 85 points with 248 PIM in 49 games.",
+    "links": {
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=105840"
+    },
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -409,7 +422,12 @@
       "Mowat Cup Champion 1987"
     ],
     "careerStats": [
-      { "season": "1986-87", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 33, "g": 43, "a": 23, "pts": 66, "pim": 52 } }
+      { "season": "1984-85", "team": "Salmon Arm Totems", "league": "BCJHL", "type": "regular", "stats": { "gp": 29, "g": 11, "a": 16, "pts": 27, "pim": 25 } },
+      { "season": "1984-85", "team": "Langley Eagles", "league": "BCJHL", "type": "regular", "stats": { "gp": 20, "g": 6, "a": 5, "pts": 11, "pim": 44 } },
+      { "season": "1985-86", "team": "Shuswap Blazers", "league": "BCJHL", "type": "regular", "stats": { "gp": 30, "g": 23, "a": 11, "pts": 34, "pim": 119 } },
+      { "season": "1986-87", "team": "Langley Eagles", "league": "BCJHL", "type": "regular", "stats": { "gp": 17, "g": 22, "a": 15, "pts": 37, "pim": 101 } },
+      { "season": "1986-87", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 33, "g": 43, "a": 23, "pts": 66, "pim": 52 } },
+      { "season": "1987-88", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 49, "g": 44, "a": 41, "pts": 85, "pim": 248 } }
     ]
   },
   {
@@ -620,7 +638,8 @@
       "Centennial Cup MVP 1987"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=97210"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=97210",
+      "eliteprospects": "https://www.eliteprospects.com/player/869881/frank-romeo"
     },
     "careerStats": [
       { "season": "1986-87", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 21, "w": 14, "l": 3, "gaa": 2.95, "svpct": 0.899, "so": 0 } }
@@ -634,12 +653,28 @@
     "hometown": "",
     "role": "player",
     "playoffStats": { "gp": 0, "w": 0, "l": 0, "gaa": 0, "svpct": 0, "so": 0 },
-    "bio": "Jamie Stewart was a goaltender on the 1986-87 Richmond Sockeyes, part of the Centennial Cup championship roster.",
+    "bio": "Jamie Stewart was a goaltender on the 1986-87 Richmond Sockeyes, part of the Centennial Cup championship roster. Born April 25, 1966 in Vancouver, BC (6'01\", 180 lbs), his documented junior career includes the AJHL's Fort McMurray Oil Barons and BCJHL stops with the Abbotsford Falcons and Langley Eagles (1986-87: 20-13, 4.18 GAA, .899 SV%). He went on to play three seasons at Michigan State University (CCHA) from 1987 to 1990, then turned professional in the Colonial Hockey League with the Michigan/Detroit Falcons, winning back-to-back league Best Goaltender awards in 1991-92 and 1992-93. He finished his pro career in the ECHL with Nashville and Huntsville in 1993-94.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
       "Doyle Cup Champion 1987",
-      "Mowat Cup Champion 1987"
+      "Mowat Cup Champion 1987",
+      "CoHL Best Goaltender 1991-92",
+      "CoHL Best Goaltender 1992-93"
+    ],
+    "links": {
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=7151"
+    },
+    "careerStats": [
+      { "season": "1985-86", "team": "Fort McMurray Oil Barons", "league": "AJHL", "type": "regular", "stats": { "gp": 16, "w": 3, "l": 9, "gaa": 6.72, "svpct": 0.816, "so": 0 } },
+      { "season": "1985-86", "team": "Abbotsford Falcons", "league": "BCJHL", "type": "regular", "stats": { "gp": 15, "w": 5, "l": 7, "gaa": 4.96, "svpct": 0.864, "so": 0 } },
+      { "season": "1986-87", "team": "Langley Eagles", "league": "BCJHL", "type": "regular", "stats": { "gp": 35, "w": 20, "l": 13, "gaa": 4.18, "svpct": 0.899, "so": 0 } },
+      { "season": "1988-89", "team": "Michigan State University", "league": "CCHA", "type": "regular", "stats": { "gp": 5, "w": 4, "l": 0, "gaa": 4.13, "svpct": 0.795, "so": 0 } },
+      { "season": "1989-90", "team": "Michigan State University", "league": "CCHA", "type": "regular", "stats": { "gp": 4, "w": 2, "l": 0, "gaa": 3.80, "svpct": 0.854, "so": 0 } },
+      { "season": "1992-93", "team": "Detroit Falcons", "league": "CoHL", "type": "regular", "stats": { "gp": 47, "w": 27, "l": 16, "gaa": 3.59, "svpct": 0.880, "so": 1 } },
+      { "season": "1993-94", "team": "Nashville Knights", "league": "ECHL", "type": "regular", "stats": { "gp": 14, "w": 1, "l": 10, "gaa": 4.47, "svpct": 0.887, "so": 0 } },
+      { "season": "1993-94", "team": "Huntsville Blast", "league": "ECHL", "type": "regular", "stats": { "gp": 26, "w": 5, "l": 15, "gaa": 4.49, "svpct": 0.868, "so": 0 } },
+      { "season": "1993-94", "team": "Nashville Knights", "league": "ECHL", "type": "playoff", "stats": { "gp": 1, "w": 0, "l": 1, "gaa": 3.03, "svpct": 0.912, "so": 0 } }
     ]
   },
   {
@@ -649,12 +684,23 @@
     "hometown": "",
     "role": "player",
     "playoffStats": { "gp": 0, "w": 0, "l": 0, "gaa": 0, "svpct": 0, "so": 0 },
-    "bio": "Chris Dickson was a goaltender on the 1986-87 Richmond Sockeyes, part of the Centennial Cup championship roster.",
+    "bio": "Chris Dickson, a goaltender born August 10, 1967 in Vancouver, BC (5'09\", 165 lbs), broke into the BCJHL as a 16-year-old with the Richmond Sockeyes in 1983-84 (21 GP) and returned to the franchise during the 1986-87 Centennial Cup championship season. He spent the majority of the 1985-86 and 1986-87 campaigns as the starter for the BCJHL's Delta Flyers, posting a 27-14 record in 43 games during the Sockeyes' title year. He continued his career at the University of North Dakota (WCHA) from 1987 through 1991.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
       "Doyle Cup Champion 1987",
       "Mowat Cup Champion 1987"
+    ],
+    "links": {
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=17502"
+    },
+    "careerStats": [
+      { "season": "1985-86", "team": "Delta Flyers", "league": "BCJHL", "type": "regular", "stats": { "gp": 32, "w": 15, "l": 12, "gaa": 4.44, "svpct": 0.874, "so": 0 } },
+      { "season": "1986-87", "team": "Delta Flyers", "league": "BCJHL", "type": "regular", "stats": { "gp": 43, "w": 27, "l": 14, "gaa": 4.48, "svpct": 0.873, "so": 0 } },
+      { "season": "1987-88", "team": "Delta Flyers", "league": "BCJHL", "type": "regular", "stats": { "gp": 24, "w": 19, "l": 4, "gaa": 3.03, "svpct": 0.895, "so": 0 } },
+      { "season": "1987-88", "team": "U. of North Dakota", "league": "WCHA", "type": "regular", "stats": { "gp": 13, "w": 8, "l": 5, "gaa": 3.37, "svpct": 0.895, "so": 0 } },
+      { "season": "1988-89", "team": "U. of North Dakota", "league": "WCHA", "type": "regular", "stats": { "gp": 29, "w": 15, "l": 13, "gaa": 3.17, "svpct": 0.886, "so": 0 } },
+      { "season": "1990-91", "team": "U. of North Dakota", "league": "WCHA", "type": "regular", "stats": { "gp": 16, "w": 8, "l": 5, "gaa": 4.32, "svpct": 0.855, "so": 0 } }
     ]
   },
   {
@@ -678,13 +724,53 @@
       "BC Hockey Hall of Fame"
     ],
     "links": {
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=2854",
       "wikipedia": "https://en.wikipedia.org/wiki/Orland_Kurtenbach",
       "other": [
+        { "label": "Hockey Reference", "url": "https://www.hockey-reference.com/players/k/kurteor01.html" },
         { "label": "Prince Albert Sports Hall of Fame", "url": "https://pashof.ca/orland-kurtenbach-athlete/" },
         { "label": "BC Hockey Hall of Fame", "url": "https://bchhof.com/hall_of_fame_members/orland-kurtenbach/" },
         { "label": "The Hockey Writers profile", "url": "https://thehockeywriters.com/docs/orland-kurtenbach/" }
       ]
-    }
+    },
+    "careerStats": [
+      { "season": "1953-54", "team": "Prince Albert Mintos", "league": "SJHL", "type": "regular", "stats": { "gp": 47, "g": 30, "a": 41, "pts": 71, "pim": 48 } },
+      { "season": "1954-55", "team": "Saskatoon Quakers", "league": "WHL", "type": "regular", "stats": { "gp": 1, "g": 0, "a": 0, "pts": 0, "pim": 0 } },
+      { "season": "1954-55", "team": "Prince Albert Mintos", "league": "SJHL", "type": "regular", "stats": { "gp": 48, "g": 30, "a": 41, "pts": 71, "pim": 57 } },
+      { "season": "1955-56", "team": "Saskatoon Quakers", "league": "WHL", "type": "regular", "stats": { "gp": 3, "g": 0, "a": 0, "pts": 0, "pim": 4 } },
+      { "season": "1955-56", "team": "Saskatoon Quakers", "league": "WHL", "type": "playoff", "stats": { "gp": 2, "g": 0, "a": 0, "pts": 0, "pim": 0 } },
+      { "season": "1957-58", "team": "Vancouver Canucks", "league": "WHL", "type": "regular", "stats": { "gp": 52, "g": 15, "a": 39, "pts": 54, "pim": 58 } },
+      { "season": "1957-58", "team": "Vancouver Canucks", "league": "WHL", "type": "playoff", "stats": { "gp": 8, "g": 3, "a": 3, "pts": 6, "pim": 8 } },
+      { "season": "1958-59", "team": "Buffalo Bisons", "league": "AHL", "type": "regular", "stats": { "gp": 70, "g": 9, "a": 14, "pts": 23, "pim": 73 } },
+      { "season": "1958-59", "team": "Buffalo Bisons", "league": "AHL", "type": "playoff", "stats": { "gp": 7, "g": 0, "a": 0, "pts": 0, "pim": 0 } },
+      { "season": "1959-60", "team": "Vancouver Canucks", "league": "WHL", "type": "regular", "stats": { "gp": 42, "g": 11, "a": 27, "pts": 38, "pim": 51 } },
+      { "season": "1959-60", "team": "Vancouver Canucks", "league": "WHL", "type": "playoff", "stats": { "gp": 11, "g": 1, "a": 5, "pts": 6, "pim": 11 } },
+      { "season": "1959-60", "team": "Springfield Indians", "league": "AHL", "type": "regular", "stats": { "gp": 14, "g": 0, "a": 6, "pts": 6, "pim": 17 } },
+      { "season": "1960-61", "team": "New York Rangers", "league": "NHL", "type": "regular", "stats": { "gp": 10, "g": 0, "a": 6, "pts": 6, "pim": 2 } },
+      { "season": "1960-61", "team": "Vancouver Canucks", "league": "WHL", "type": "regular", "stats": { "gp": 55, "g": 20, "a": 27, "pts": 47, "pim": 31 } },
+      { "season": "1961-62", "team": "Providence Reds", "league": "AHL", "type": "regular", "stats": { "gp": 64, "g": 31, "a": 33, "pts": 64, "pim": 51 } },
+      { "season": "1961-62", "team": "Providence Reds", "league": "AHL", "type": "playoff", "stats": { "gp": 3, "g": 1, "a": 1, "pts": 2, "pim": 5 } },
+      { "season": "1961-62", "team": "Boston Bruins", "league": "NHL", "type": "regular", "stats": { "gp": 8, "g": 0, "a": 0, "pts": 0, "pim": 6 } },
+      { "season": "1962-63", "team": "San Francisco Seals", "league": "WHL", "type": "regular", "stats": { "gp": 70, "g": 30, "a": 57, "pts": 87, "pim": 94 } },
+      { "season": "1962-63", "team": "San Francisco Seals", "league": "WHL", "type": "playoff", "stats": { "gp": 17, "g": 4, "a": 13, "pts": 17, "pim": 51 } },
+      { "season": "1963-64", "team": "Boston Bruins", "league": "NHL", "type": "regular", "stats": { "gp": 70, "g": 12, "a": 25, "pts": 37, "pim": 91 } },
+      { "season": "1964-65", "team": "Boston Bruins", "league": "NHL", "type": "regular", "stats": { "gp": 64, "g": 6, "a": 20, "pts": 26, "pim": 86 } },
+      { "season": "1965-66", "team": "Toronto Maple Leafs", "league": "NHL", "type": "regular", "stats": { "gp": 70, "g": 9, "a": 6, "pts": 15, "pim": 54 } },
+      { "season": "1965-66", "team": "Toronto Maple Leafs", "league": "NHL", "type": "playoff", "stats": { "gp": 4, "g": 0, "a": 0, "pts": 0, "pim": 20 } },
+      { "season": "1966-67", "team": "New York Rangers", "league": "NHL", "type": "regular", "stats": { "gp": 60, "g": 11, "a": 25, "pts": 36, "pim": 58 } },
+      { "season": "1966-67", "team": "New York Rangers", "league": "NHL", "type": "playoff", "stats": { "gp": 3, "g": 0, "a": 2, "pts": 2, "pim": 0 } },
+      { "season": "1967-68", "team": "New York Rangers", "league": "NHL", "type": "regular", "stats": { "gp": 73, "g": 15, "a": 20, "pts": 35, "pim": 82 } },
+      { "season": "1967-68", "team": "New York Rangers", "league": "NHL", "type": "playoff", "stats": { "gp": 6, "g": 1, "a": 0, "pts": 1, "pim": 26 } },
+      { "season": "1968-69", "team": "Omaha Knights", "league": "CHL", "type": "regular", "stats": { "gp": 1, "g": 0, "a": 0, "pts": 0, "pim": 0 } },
+      { "season": "1968-69", "team": "New York Rangers", "league": "NHL", "type": "regular", "stats": { "gp": 2, "g": 0, "a": 0, "pts": 0, "pim": 2 } },
+      { "season": "1969-70", "team": "New York Rangers", "league": "NHL", "type": "regular", "stats": { "gp": 53, "g": 4, "a": 10, "pts": 14, "pim": 47 } },
+      { "season": "1969-70", "team": "New York Rangers", "league": "NHL", "type": "playoff", "stats": { "gp": 6, "g": 1, "a": 2, "pts": 3, "pim": 24 } },
+      { "season": "1969-70", "team": "Buffalo Bisons", "league": "AHL", "type": "regular", "stats": { "gp": 6, "g": 1, "a": 5, "pts": 6, "pim": 2 } },
+      { "season": "1970-71", "team": "Vancouver Canucks", "league": "NHL", "type": "regular", "stats": { "gp": 52, "g": 21, "a": 32, "pts": 53, "pim": 84 } },
+      { "season": "1971-72", "team": "Vancouver Canucks", "league": "NHL", "type": "regular", "stats": { "gp": 78, "g": 24, "a": 37, "pts": 61, "pim": 48 } },
+      { "season": "1972-73", "team": "Vancouver Canucks", "league": "NHL", "type": "regular", "stats": { "gp": 47, "g": 9, "a": 19, "pts": 28, "pim": 38 } },
+      { "season": "1973-74", "team": "Vancouver Canucks", "league": "NHL", "type": "regular", "stats": { "gp": 52, "g": 8, "a": 13, "pts": 21, "pim": 30 } }
+    ]
   },
   {
     "id": "mike-obrien",
