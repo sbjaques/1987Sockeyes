@@ -1,1 +1,4 @@
-export default function Landing() { return <div>Landing</div>; }
+import { Hero } from '../components/hero/Hero';
+export default function Landing() {
+  return <><Hero /></>;
+}
