@@ -1,0 +1,20 @@
+import type { MediaItem } from '../../types/media';
+
+export function MediaCard({ item, onOpen }: { item: MediaItem; onOpen: (m: MediaItem) => void }) {
+  return (
+    <button
+      onClick={() => onOpen(item)}
+      className="group text-left bg-cream-200 border border-navy/10 hover:border-crimson transition">
+      <img
+        src={item.thumb ?? item.file}
+        alt={item.caption || item.title}
+        loading="lazy"
+        className="w-full h-48 object-cover" />
+      <div className="p-3">
+        <div className="text-xs uppercase tracking-wider text-navy/60">{item.type}{item.date ? ` · ${item.date}` : ''}</div>
+        <div className="font-semibold group-hover:text-crimson">{item.title}</div>
+        {item.publication && <div className="text-sm text-navy/70">{item.publication}</div>}
+      </div>
+    </button>
+  );
+}
