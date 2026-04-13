@@ -12,6 +12,65 @@
       "hometown": { "type": "string" },
       "role": { "enum": ["player", "head-coach", "assistant-coach", "trainer", "staff"] },
       "notes": { "type": "string" },
+      "bio": { "type": "string" },
+      "photoUrl": { "type": "string" },
+      "awards": { "type": "array", "items": { "type": "string" } },
+      "links": {
+        "type": "object",
+        "properties": {
+          "hockeydb":       { "type": "string", "format": "uri" },
+          "eliteprospects": { "type": "string", "format": "uri" },
+          "wikipedia":      { "type": "string", "format": "uri" },
+          "other": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["label", "url"],
+              "properties": {
+                "label": { "type": "string" },
+                "url":   { "type": "string", "format": "uri" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "careerStats": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["season", "team", "league", "type", "stats"],
+          "properties": {
+            "season": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}$" },
+            "team":   { "type": "string" },
+            "league": { "type": "string" },
+            "type":   { "enum": ["regular", "playoff"] },
+            "stats": {
+              "oneOf": [
+                { "type": "object", "required": ["gp","g","a","pts","pim"],
+                  "properties": {
+                    "gp":  { "type": "integer", "minimum": 0 },
+                    "g":   { "type": "integer", "minimum": 0 },
+                    "a":   { "type": "integer", "minimum": 0 },
+                    "pts": { "type": "integer", "minimum": 0 },
+                    "pim": { "type": "integer", "minimum": 0 }
+                  }, "additionalProperties": false },
+                { "type": "object", "required": ["gp","w","l","gaa","svpct","so"],
+                  "properties": {
+                    "gp":    { "type": "integer", "minimum": 0 },
+                    "w":     { "type": "integer", "minimum": 0 },
+                    "l":     { "type": "integer", "minimum": 0 },
+                    "gaa":   { "type": "number",  "minimum": 0 },
+                    "svpct": { "type": "number",  "minimum": 0, "maximum": 1 },
+                    "so":    { "type": "integer", "minimum": 0 }
+                  }, "additionalProperties": false }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
       "playoffStats": {
         "oneOf": [
           { "type": "object", "required": ["gp","g","a","pts","pim"],

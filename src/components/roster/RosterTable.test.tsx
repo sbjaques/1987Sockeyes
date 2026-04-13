@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { MemoryRouter } from 'react-router-dom';
 import { RosterTable } from './RosterTable';
 import type { Skater } from '../../types/roster';
 
@@ -13,12 +14,12 @@ const skaters: Skater[] = [
 
 describe('RosterTable skaters', () => {
   it('renders rows', () => {
-    render(<RosterTable entries={skaters} />);
+    render(<MemoryRouter><RosterTable entries={skaters} /></MemoryRouter>);
     expect(screen.getByText('Adam A')).toBeInTheDocument();
     expect(screen.getByText('Ben B')).toBeInTheDocument();
   });
   it('sorts by points descending when Pts header clicked twice', async () => {
-    render(<RosterTable entries={skaters} />);
+    render(<MemoryRouter><RosterTable entries={skaters} /></MemoryRouter>);
     const ptsHeader = screen.getByRole('button', { name: /pts/i });
     await userEvent.click(ptsHeader);
     await userEvent.click(ptsHeader);

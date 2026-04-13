@@ -7,6 +7,7 @@ import RosterPage from './pages/RosterPage';
 import VaultPage from './pages/VaultPage';
 import CupPage from './pages/CupPage';
 import BannerNightPage from './pages/BannerNightPage';
+import PlayerProfile from './pages/PlayerProfile';
 import NotFound from './pages/NotFound';
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/vault"         element={<VaultPage />} />
             <Route path="/timeline/:cup" element={<CupPage />} />
             <Route path="/banner-night"  element={<BannerNightPage />} />
+            <Route path="/player/:id"    element={<PlayerProfile />} />
             <Route path="*"              element={<NotFound />} />
           </Routes>
         </main>

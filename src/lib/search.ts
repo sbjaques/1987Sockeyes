@@ -89,7 +89,7 @@ export function buildSearchIndex(roster: RosterEntry[], games: Game[], media: Me
             kind: d.kind, id: d.id,
             title: d.name,
             subtitle: `${d.role.replace('-', ' ')}${d.position ? ` · ${d.position}` : ''}${d.number ? ` · #${d.number}` : ''}${d.hometown ? ` · ${d.hometown}` : ''}`,
-            href: `/roster#${d.id}`,
+            href: `/player/${d.id}`,
           };
         }
         if (d._type === 'game') {
