@@ -12,6 +12,18 @@
     "sources": ["vansun-1987-03-25-sockeyes-beat-kelowna", "province-1987-03-25-richmond-vs-kelowna-photo"]
   },
   {
+    "id": "1987-mowat-cup-vs-quesnel-series",
+    "date": "1987-03-30",
+    "series": "Mowat",
+    "round": "Final",
+    "opponent": "Quesnel Millionaires",
+    "location": "Richmond, BC / Quesnel, BC",
+    "result": "W",
+    "score": { "for": 0, "against": 0 },
+    "highlights": ["Richmond swept the Quesnel Millionaires of the Peace-Cariboo Junior Hockey League two games to none to win the Mowat Cup."],
+    "sources": []
+  },
+  {
     "id": "1987-doyle-cup-vs-red-deer-series",
     "date": "1987-04-09",
     "series": "Doyle",
