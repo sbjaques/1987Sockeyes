@@ -1,5 +1,25 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
+import { Section } from '../components/layout/Section';
+import { CupSegment } from '../components/timeline/CupSegment';
+import { loadGames } from '../lib/loadData';
+import type { CupSeries } from '../types/games';
+
+const VALID: CupSeries[] = ['Mowat','Doyle','Abbott','Centennial'];
+
+function normalize(s: string | undefined): CupSeries | null {
+  if (!s) return null;
+  const match = VALID.find(v => v.toLowerCase() === s.toLowerCase());
+  return match ?? null;
+}
+
 export default function CupPage() {
   const { cup } = useParams();
-  return <div>Cup: {cup}</div>;
+  const series = normalize(cup);
+  if (!series) return <Navigate to="/" replace />;
+  const games = loadGames().filter(g => g.series === series).sort((a,b) => a.date.localeCompare(b.date));
+  return (
+    <Section title={`${series} Cup`}>
+      <CupSegment cup={series} games={games} />
+    </Section>
+  );
 }
