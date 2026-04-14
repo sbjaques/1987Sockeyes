@@ -81,7 +81,12 @@ src/
 - Bulk-harvest: navigate to search results, click "Show more results" ~80 times to paginate, then dump `sessionStorage` entries. See `window.__extractedMerged` pattern in chat history.
 - Metadata scraped from DOM of search results (pub name, page, date, location) since `/api/search/query` returns metadata-only and `/api/search/record` 500s when called directly.
 
-**Current corpus:** 1094+ OCR markdown files in `docs/extractions/*.md` (dated 1984-1995). Master JSON at `docs/extractions/ocr-all.json`.
+**Current corpus:** 1337 OCR markdown files in `docs/extractions/*.md` (dated 1984-1995+). Master JSON at `docs/extractions/ocr-all.json`.
+
+**Bio word counts (25 of 32 entries have bios, total 8,429 words):**
+- Kurtenbach 795, Hervey 744, Tomlinson 677, Phillips 530, Romeo 427
+- Gunn 355, Kozak 348, Jaques 346, Clarke 322, Moller 321, Hardy 320, Claringbull 317, Rutherford 274-ish, Rutledge 314, McCormick 309, Czenczek 238, Trevor Dickie 229, Stewart 290, Tony Bobbitt 290, Talo 195, Goglin 180
+- Thin or none: Scott McNeil, Tom Harrison, Bob Houghton, Tim Whiteley, Horst Willkomm, Mike O'Brien, Eric Wolf, Darren Comeau (all staff — need program-PDF OCR to identify definitively)
 
 ## Priority work queue
 
