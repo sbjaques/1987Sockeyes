@@ -86,6 +86,22 @@
               "svpct":{"type":"number","minimum":0,"maximum":1}, "so":{"type":"integer","minimum":0}
             }, "additionalProperties": false }
         ]
+      },
+      "postseasonStats": {
+        "oneOf": [
+          { "type": "object", "required": ["gp","g","a","pts","pim"],
+            "properties": {
+              "gp": {"type":"integer","minimum":0}, "g":{"type":"integer","minimum":0},
+              "a":  {"type":"integer","minimum":0}, "pts":{"type":"integer","minimum":0},
+              "pim":{"type":"integer","minimum":0}
+            }, "additionalProperties": false },
+          { "type": "object", "required": ["gp","w","l","gaa","svpct","so"],
+            "properties": {
+              "gp":{"type":"integer","minimum":0}, "w":{"type":"integer","minimum":0},
+              "l":{"type":"integer","minimum":0}, "gaa":{"type":"number","minimum":0},
+              "svpct":{"type":"number","minimum":0,"maximum":1}, "so":{"type":"integer","minimum":0}
+            }, "additionalProperties": false }
+        ]
       }
     },
     "additionalProperties": false
