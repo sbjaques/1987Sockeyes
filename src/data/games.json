@@ -1,30 +1,131 @@
 [
   {
-    "id": "1987-03-24-kelowna-bcjhl-clincher",
-    "date": "1987-03-24",
+    "id": "1987-03-17-kelowna-bcjhl-game-1",
+    "date": "1987-03-17",
     "series": "Mowat",
-    "round": "BCJHL Final",
+    "round": "BCJHL Final Game 1",
     "opponent": "Kelowna Packers",
     "location": "Richmond, BC",
     "result": "W",
-    "score": { "for": 0, "against": 0 },
-    "highlights": ["Richmond swept the Kelowna Packers five games to none in the best-of-nine Fred Page Cup / BCJHL final series (Vancouver Sun, Mar 25 1987)."],
-    "sources": ["vansun-1987-03-25-sockeyes-beat-kelowna", "province-1987-03-25-richmond-vs-kelowna-photo"]
+    "score": { "for": 7, "against": 0 },
+    "highlights": [
+      "Richmond opened the best-of-nine BCJHL championship series with a 7-0 rout of the Kelowna Packers at Richmond Arena. Kelowna had posted a 45-5-2 regular-season record; Richmond coach Orland Kurtenbach noted 'we know it's not going to be this easy.'",
+      "Frank Romeo stopped 27 shots for the shutout against the team that had released him the previous off-season; he called it 'sweet revenge.' Packers coach Bill Hogaboam: 'They outhustled us all over the ice ... we played horrible and everybody on our team knows it.'",
+      "Dave Tomlinson led the Sockeye offence with two goals; Jason Phillips, Bill Hardy, Mike Claringbull, Mike McCormick and Steve Jaques added singles.",
+      "Source: Vancouver Sun Mar 18 1987 p.26, image 495098412."
+    ],
+    "sources": ["newspapers-com-495098412"]
   },
   {
-    "id": "1987-mowat-cup-vs-quesnel-series",
-    "date": "1987-03-30",
+    "id": "1987-03-18-kelowna-bcjhl-game-2",
+    "date": "1987-03-18",
     "series": "Mowat",
-    "round": "Final",
-    "opponent": "Quesnel Millionaires",
-    "location": "Richmond, BC / Quesnel, BC",
+    "round": "BCJHL Final Game 2",
+    "opponent": "Kelowna Packers",
+    "location": "Richmond, BC",
     "result": "W",
-    "score": { "for": 0, "against": 0 },
+    "score": { "for": 5, "against": 4 },
     "highlights": [
-      "Richmond defeated the Peace-Cariboo Junior Hockey League champion Quesnel Millionaires in a best-of-three series to win the Mowat Cup, the BC Tier II provincial junior title, and advance to the Doyle Cup (Western Canada semifinal).",
-      "Source: Quesnel Cariboo Observer Apr 1 1987 p.B3 (image 688061716, 'The payoff is a best-of-three series against the Richmond Sockeyes') and Apr 8 1987 p.B4 (image 688061731, 'the Quesnel Millionaires fell short in their bid for the Mowat Cup ... to the Richmond Sockeyes')."
+      "Richmond took a 2-0 series lead with a 5-4 overtime win at Richmond Arena. Defenceman Matt Hervey scored at 3:37 of the first overtime, pouncing on a Dean Rutledge rebound after Rutledge and Paul Rutherford broke in on a two-on-one against Kelowna netminder Dusty Imoo.",
+      "The game was tied 2-2 after one and 4-3 Richmond after two. Other Sockeye goals came from Rutledge, Rutherford, Bill Hardy and Dave Tomlinson; Jamie Kurki, Pat Mangold, Kelly Hurd and Mike Murinko replied for Kelowna. The Sockeyes moved to 4-for-4 in overtime during the 1987 playoffs.",
+      "Source: Vancouver Sun Mar 19 1987 p.38 (image 495099771) and p.37 photo (image 495099766)."
     ],
-    "sources": ["newspapers-com-688061716", "newspapers-com-688061731"]
+    "sources": ["newspapers-com-495099771", "newspapers-com-495099766"]
+  },
+  {
+    "id": "1987-03-20-kelowna-bcjhl-game-3",
+    "date": "1987-03-20",
+    "series": "Mowat",
+    "round": "BCJHL Final Game 3",
+    "opponent": "Kelowna Packers",
+    "location": "Kelowna, BC",
+    "result": "W",
+    "score": { "for": 7, "against": 5 },
+    "highlights": [
+      "Richmond jumped to a 4-0 first-period lead en route to a 7-5 win at Kelowna, taking a 3-0 series lead. Coach Orland Kurtenbach: 'The key to any hockey game is if you've got people who are intense and taking the body.'",
+      "Dean Rutledge, Dave Tomlinson and Jason Phillips each scored twice for Richmond; Mike McCormick added a single. Kelowna was led by Jason Ruff and Pat Mangold (two apiece) and Jamie Kurki.",
+      "Frank Romeo made 26 saves for Richmond; Kelowna's Dusty Imoo and Lucien Carignan combined to stop 26 Sockeye shots. Matt Hervey suffered a shoulder separation in this game.",
+      "Source: Vancouver Sun Mar 21 1987 p.24, image 495156035; Vancouver Sun Mar 25 1987 p.20 (Hervey injury)."
+    ],
+    "sources": ["newspapers-com-495156035"]
+  },
+  {
+    "id": "1987-03-21-kelowna-bcjhl-game-4",
+    "date": "1987-03-21",
+    "series": "Mowat",
+    "round": "BCJHL Final Game 4",
+    "opponent": "Kelowna Packers",
+    "location": "Kelowna, BC",
+    "result": "W",
+    "score": { "for": 5, "against": 1 },
+    "highlights": [
+      "Richmond built a commanding 4-0 series lead with a 5-1 win at Kelowna. Three unanswered goals in the last half of the third period put the game away.",
+      "Jason Phillips opened the scoring with a shorthanded goal in the first period. Dave Tomlinson made it 2-0 early in the second before Brent Mowery scored Kelowna's only goal at 13:23 of the second. Third-period insurance came from Phillips (his second), Bill Hardy and Mike McCormick.",
+      "Source: Vancouver Sun Mar 23 1987 p.15 (image 495156572) and p.10 (image 495156700)."
+    ],
+    "sources": ["newspapers-com-495156572", "newspapers-com-495156700"]
+  },
+  {
+    "id": "1987-03-24-kelowna-bcjhl-game-5-clincher",
+    "date": "1987-03-24",
+    "series": "Mowat",
+    "round": "BCJHL Final Game 5",
+    "opponent": "Kelowna Packers",
+    "location": "Richmond, BC",
+    "result": "W",
+    "score": { "for": 3, "against": 2 },
+    "highlights": [
+      "Richmond completed a five-game sweep of the best-of-nine BCJHL final with a 3-2 win at Richmond Arena before more than 1,100 fans, clinching the Sockeyes' first BCJHL championship in eight years and extending their post-season winning streak to 13 games.",
+      "Kelowna's Greg Andrusao opened the scoring; Bill Hardy replied for Richmond. Dean Rutledge scored the only goal of the second period, shorthanded, when his shot deflected off Packer Bruce Bianchini past Dusty Imoo to put Richmond up 2-1 at 4:26. Pat Mangold tied it 2-2 at 1:37 of the third on a power play.",
+      "Jason Phillips scored the winner at 9:31 of the third, flipping a rebound past Imoo after Phillips' initial deflection of a Steve Jaques point shot was stopped. Phillips credited Brian Kozak and Bill Hardy for creating the loose puck.",
+      "Richmond outshot Kelowna 35-24. Frank Romeo was outstanding in goal while fighting sinusitis. Phillips: 'As long as he keeps standing on his head, I think we can go all the way.' Captain Trevor Dickie hoisted the BCJHL trophy with Dean Rutledge and Rob Sumner.",
+      "Source: Vancouver Sun Mar 25 1987 p.63 (image 495157739) and p.25 (image 495157862); Province Mar 25 1987 p.20 (image 502054045)."
+    ],
+    "sources": [
+      "vansun-1987-03-25-sockeyes-beat-kelowna",
+      "province-1987-03-25-richmond-vs-kelowna-photo",
+      "newspapers-com-495157739",
+      "newspapers-com-495157862",
+      "newspapers-com-502054045"
+    ]
+  },
+  {
+    "id": "1987-04-03-quesnel-mowat-game-1",
+    "date": "1987-04-03",
+    "series": "Mowat",
+    "round": "Mowat Cup Game 1",
+    "opponent": "Quesnel Millionaires",
+    "location": "Richmond, BC",
+    "result": "W",
+    "score": { "for": 4, "against": 3 },
+    "highlights": [
+      "Richmond opened the best-of-three Mowat Cup (BC Tier II provincial junior final) with a 4-3 win over the Peace-Cariboo Junior Hockey League champion Quesnel Millionaires at Richmond Arena.",
+      "Source: Times Colonist Apr 4 1987 p.32, image 508629153."
+    ],
+    "sources": ["newspapers-com-508629153"]
+  },
+  {
+    "id": "1987-04-04-quesnel-mowat-game-2",
+    "date": "1987-04-04",
+    "series": "Mowat",
+    "round": "Mowat Cup Game 2",
+    "opponent": "Quesnel Millionaires",
+    "location": "Richmond, BC",
+    "result": "W",
+    "score": { "for": 5, "against": 1 },
+    "highlights": [
+      "Richmond clinched the Mowat Cup with a 5-1 win over Quesnel at Richmond Arena, sweeping the best-of-three series two games to none — the Sockeyes' fourth consecutive series sweep of the 1987 playoffs and their 15th straight playoff win.",
+      "Goal scorers documented in the Quesnel Cariboo Observer box score include Mike Claringbull (assisted by Jason Phillips and Brian Kozak) and Jason Phillips (assisted by Bill Hardy and Stan Czenczek).",
+      "Richmond advanced to the Doyle Cup (Western Canadian semifinal) vs. the Red Deer Rustlers, beginning Apr 7 at Richmond Arena.",
+      "Source: Vancouver Sun Apr 6 1987 p.18 (image 495086278) and p.11 (image 495086548); Quesnel Cariboo Observer Apr 8 1987 p.C1 box score (image 688061732) and p.B4 retrospective (image 688061731)."
+    ],
+    "sources": [
+      "newspapers-com-495086278",
+      "newspapers-com-495086548",
+      "newspapers-com-688061731",
+      "newspapers-com-688061732",
+      "newspapers-com-688061716"
+    ]
   },
   {
     "id": "1987-04-07-red-deer-doyle-game-1",
