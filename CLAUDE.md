@@ -61,6 +61,10 @@ src/
 - **Jim Gunn position is D** (not F). Hometown Prince George, BC.
 - **Fred Page Cup (BCJHL final)** was a 4-0 sweep of Kelowna Packers. Our schema enum keeps `series: "Mowat"` for this entry.
 - **Abbott Cup Game 6** (Apr 28 1987): Humboldt 4 Richmond 3 OT. Rutherford 2G, Tomlinson 1G for Richmond. Bobbitt took a penalty for closing hand on puck; Jaques received a 5-minute match penalty for headbutting McDougall. Source: Nanaimo Daily News Apr 29 1987, image 325077439.
+- **Trevor Dickie (#21) was 1986-87 team captain** — not Tomlinson. Per Vancouver Sun Mar 25 1987 p.25 (image 495157862) post-BCJHL-sweep photo caption and direct quote from "Richmond captain Trevor Dickie". Tomlinson later became captain in 1987-88 or later, referenced retrospectively.
+- **Mike O'Brien** confirmed as Kurtenbach's assistant coach per Vancouver Sun Nov 4 1986 (image 494902975, Arv Olson byline).
+- **Horst Willkomm** confirmed as Sockeyes president per The Province Apr 14 1987 p.45 (image 502036260).
+- **Bill Hardy** was an assistant captain (Red Deer Advocate Jun 17 1987).
 
 ## Features done
 - Zoomable/pannable lightbox (`yet-another-react-lightbox` with Zoom + Captions plugins). Programs/videos open in a new tab.
