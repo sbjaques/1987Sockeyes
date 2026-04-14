@@ -277,7 +277,7 @@
     "hometown": "North Vancouver, BC",
     "role": "player",
     "playoffStats": { "gp": 51, "g": 43, "a": 65, "pts": 108, "pim": 75 },
-    "bio": "Dave Tomlinson was born May 8, 1969 in North Vancouver, British Columbia. After a 48-goal season with the Summerland Buckaroos, he joined the Richmond Sockeyes for 1986-87 and captained the team to the Centennial Cup with 108 points (43 G, 65 A) in 51 regular-season games, leading the team in scoring. \\n\\n He accepted a scholarship to Boston University, where he played four seasons in Hockey East (1987-1991) and recorded 179 career college points. Drafted by the Toronto Maple Leafs in the 1989 NHL Supplemental Draft, Tomlinson played 42 NHL games over his career with Toronto, Winnipeg, and Florida, along with significant time in the AHL (St. John's, Moncton) and IHL (Cincinnati Cyclones). \\n\\n He spent roughly a decade playing professionally in Germany's DEL — primarily with Adler Mannheim — before retiring in 2006. Post-playing, Tomlinson has served as a color commentator for Vancouver Canucks radio broadcasts and was named the inaugural radio analyst for the Seattle Kraken in 2021.",
+    "bio": "Dave Tomlinson was born May 8, 1969 in North Vancouver, British Columbia (5'11\", 181 lbs, shoots left). After a 48-goal season with the Summerland Buckaroos, he joined the Richmond Sockeyes for 1986-87 and captained the team to the Centennial Cup with 108 points (43 G, 65 A) in 51 regular-season games, leading the team in scoring. \\n\\n He accepted a scholarship to Boston University, where he played four seasons in Hockey East (1987-1991), served as an alternate captain as a senior, and closed his college career with 30 goals and 30 assists in 41 games in 1990-91 — totalling 179 points at BU. The Toronto Maple Leafs selected him in the first round (3rd overall) of the 1989 NHL Supplemental Draft. Tomlinson played 42 NHL games with Toronto (1991-92, 1992-93), Winnipeg (1993-94), and Florida (1994-95), registering 1 goal, 3 assists and 4 points, along with significant time in the AHL (St. John's, Moncton, Maine) and IHL (Cincinnati Cyclones, where he posted 110 points in 1994-95). \\n\\n Tomlinson spent roughly a decade playing professionally in Germany's DEL — primarily with Adler Mannheim, where he was a four-time DEL champion — before retiring in 2006 following 15 years as a pro. \\n\\n Post-playing, he served as colour commentator on Vancouver Canucks radio broadcasts on Team 1040 / TSN 1040 from 2010 to 2019, was named the inaugural radio analyst for the Seattle Kraken in October 2021, and since September 2023 has been the primary colour commentator for Canucks regional broadcasts on Sportsnet. \\n\\n In retrospective interviews Tomlinson said of the 1987 club: \\\"We had an awesome team; it was a wonderful, wonderful time. The owner, Bruce Taylor, wanted to put a team together to win that championship, so he brought in Kurtenbach and he kept on bringing in players that just seemed to make us stronger and stronger.\\\" He credited the late-season goaltending pickup directly: \\\"Frank Romeo was the goaltender and only started for us in the playoffs, he was a big pickup. Matt Hervey was a heavy sort, with a great powerplay. We were a tough, tough hockey club and that really helped us.\\\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -291,7 +291,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Dave_Tomlinson",
       "other": [
         { "label": "NHL.com profile", "url": "https://www.nhl.com/player/david-tomlinson-8458234" },
-        { "label": "Hockey-Reference", "url": "https://www.hockey-reference.com/players/t/tomlida01.html" }
+        { "label": "Hockey-Reference", "url": "https://www.hockey-reference.com/players/t/tomlida01.html" },
+        { "label": "Boston University alumni (hockeydb)", "url": "https://www.hockeydb.com/ihdb/stats/display_players.php?tmi=4931" },
+        { "label": "BU Today - Hockey Runs in the Family", "url": "https://www.bu.edu/articles/2018/hockey-runs-in-the-family/" }
       ]
     },
     "careerStats": [
@@ -567,7 +569,7 @@
     "hometown": "Whittier, CA",
     "role": "player",
     "playoffStats": { "gp": 17, "g": 4, "a": 21, "pts": 25, "pim": 99 },
-    "bio": "Matt Hervey was born May 16, 1966 in Whittier, California. After junior time with the Langley Eagles (BCJHL) and three WHL seasons split between Victoria and Lethbridge, he joined the Richmond Sockeyes mid-season in 1986-87 and was named to the Centennial Cup All-Star Team as a defenceman during the championship run. \\n\\n He turned professional in 1987-88 with the AHL's Moncton Hawks, where he played five seasons and established himself as a rugged blueliner. Hervey made his NHL debut with the Winnipeg Jets in 1988-89 and went on to appear in 35 NHL games over his career with the Jets, Boston Bruins, and Tampa Bay Lightning. He finished his playing days in the IHL with Atlanta, Milwaukee, and Los Angeles, retiring in 1996.",
+    "bio": "Matt Hervey was born May 16, 1966 in Whittier, California (5'11\", 205 lbs, right-handed shot). Never drafted, he broke into junior with the Langley Eagles (BCJHL) in 1982-83 before three WHL seasons split between the Victoria Cougars, Lethbridge Broncos, and Seattle Thunderbirds. He joined the Richmond Sockeyes mid-season in 1986-87 and was named to the Centennial Cup All-Star Team as a defenceman during the championship run. Tomlinson later described him as \\\"a heavy sort, with a great powerplay.\\\" \\n\\n Hervey turned professional in 1987-88 with the AHL's Moncton Hawks, where he played five seasons and established himself as a rugged blueliner (295 PIM in 1988-89). He made his NHL debut with the Winnipeg Jets during the 1988-89 season and went on to appear in 35 NHL games across three teams — 2 with Winnipeg (1988-89), 16 with the Boston Bruins (1991-92, including 5 playoff games), and 17 with the Tampa Bay Lightning (1992-93) — recording 0 goals, 5 assists, 5 points and 97 penalty minutes. He finished his playing days in the IHL with the Atlanta Knights, Milwaukee Admirals, and Los Angeles Ice Dogs, retiring in 1996.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -581,7 +583,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Matt_Hervey",
       "other": [
         { "label": "NHL.com profile", "url": "https://www.nhl.com/player/matt-hervey-8462833" },
-        { "label": "Hockey-Reference", "url": "https://www.hockey-reference.com/players/h/hervema01.html" }
+        { "label": "Hockey-Reference", "url": "https://www.hockey-reference.com/players/h/hervema01.html" },
+        { "label": "QuantHockey career", "url": "https://www.quanthockey.com/hockey-stats/en/profile.php?player=24833" }
       ]
     },
     "careerStats": [
@@ -649,7 +652,7 @@
     "hometown": "",
     "role": "player",
     "playoffStats": { "gp": 21, "w": 14, "l": 3, "gaa": 2.95, "svpct": 0.899, "so": 0 },
-    "bio": "Frank Romeo joined the Richmond Sockeyes during the 1986-87 season as a late pickup, serving as a backup before taking over as the starting goaltender for the playoff run. After prior stops with the Revelstoke Rockets/Rangers, Vernon Lakers, and Kelowna Packers in the BCJHL, Romeo was a key addition for the championship drive, posting a 14-3 record with a 2.95 GAA and .899 save percentage in 21 appearances during the Centennial Cup-winning season. He later played for Brandon University in the CWUAA.",
+    "bio": "Frank Romeo joined the Richmond Sockeyes during the 1986-87 season as a late pickup, serving as a backup before taking over as the starting goaltender for the playoff run. After prior stops with the Revelstoke Rockets/Rangers, Vernon Lakers, and Kelowna Packers in the BCJHL, Romeo was a key addition for the championship drive, posting a 14-3 record with a 2.95 GAA and .899 save percentage in 21 appearances during the Centennial Cup-winning season. He later played for Brandon University in the CWUAA. \\n\\n Captain Dave Tomlinson later recalled: \\\"Frank Romeo was the goaltender and only started for us in the playoffs, he was a big pickup.\\\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -730,7 +733,7 @@
     "name": "Orland Kurtenbach",
     "hometown": "Cudworth, SK",
     "role": "head-coach",
-    "bio": "Orland John Kurtenbach was born September 7, 1936 in Cudworth, Saskatchewan. A long-time NHL centreman known for his defensive play and toughness, he played twenty professional seasons for the Boston Bruins, New York Rangers, Toronto Maple Leafs, and Vancouver Canucks, becoming the Canucks' inaugural captain following their 1970 NHL expansion. Over 639 NHL games he recorded 119 goals and 213 assists for 332 points with 628 penalty minutes, and scored the first hat trick in Canucks history on December 12, 1970. \\n\\n After retiring as a player in 1974, Kurtenbach moved into coaching with stints for the Seattle Totems (1974-75), Tulsa Oilers (1975-77), the Vancouver Canucks as NHL head coach (1976-78, 36-62-27 record), and the AHL's Springfield Indians (1982-83). He took the bench of the BCJHL's Richmond Sockeyes in 1986 and guided the team to the 1987 Centennial Cup national Junior A championship. \\n\\n Kurtenbach won the WHL Rookie of the Year award in 1958, the Cyclone Taylor Trophy as Canucks MVP in 1971, 1972 and 1973, and the AHL's Jake Milford Trophy in 1976. He was the first Vancouver Canucks player inducted into the franchise's Ring of Honour on October 26, 2010, and has also been recognized by the Saskatchewan Hockey Hall of Fame, the BC Hockey Hall of Fame, and the Prince Albert Sports Hall of Fame.",
+    "bio": "Orland John Kurtenbach was born September 7, 1936 in Cudworth, Saskatchewan (6'2\", 195 lbs, shot left). Raised on a Cudworth farm before his family moved to Prince Albert when he was 10, he played two seasons of junior with the Prince Albert Mintos in the SJHL and finished the 1956-57 season with the Flin Flon Bombers, helping them win the 1957 Memorial Cup. \\n\\n A long-time NHL centreman known for his defensive play and reputation as one of the toughest fighters in the league, he played twenty professional seasons for the New York Rangers, Boston Bruins, Toronto Maple Leafs, and Vancouver Canucks. Over 639 NHL games he recorded 119 goals and 213 assists for 332 points with 628 penalty minutes. He was named the inaugural captain of the Vancouver Canucks upon their 1970 NHL expansion and wore the \\\"C\\\" from 1970 until 1974. On December 12, 1970, in a 5-2 win over the California Golden Seals, Kurtenbach scored the first hat trick in Canucks history — the only hat trick of his entire professional career. During the 1970-71 season he posted 53 points in 52 games despite a serious December 23 injury that sidelined him until March. In 1972 he shared the Cyrus H. McLean Trophy as Canucks leading scorer (tied with Andre Boudrias). He famously declined a $150,000 offer from the WHA's Los Angeles Sharks to remain in Vancouver. \\n\\n After retiring as a player in 1974, Kurtenbach moved into coaching with stints for the Seattle Totems (CHL, 1974-75), Tulsa Oilers (CHL, 1975-77 — CHL championship 1975-76), the Vancouver Canucks as NHL head coach (1976-78, 36-62-27 record), and the AHL's Springfield Indians (1982-83). He took the bench of the BCJHL's Richmond Sockeyes in 1986 and guided the team to the 1987 Centennial Cup national Junior A championship. \\n\\n Kurtenbach won the WHL Rookie of the Year award in 1958, the Cyclone Taylor Trophy as Canucks MVP in 1971, 1972 and 1973, the Cyrus H. McLean Trophy in 1972, and the Jake Milford Trophy as CHL Coach of the Year in 1976. On October 26, 2010, prior to a Canucks game against the Colorado Avalanche, he was inducted as the first Vancouver Canucks player in the franchise's Ring of Honour. He has also been recognized by the Saskatchewan Sports Hall of Fame, Saskatchewan Hockey Hall of Fame, BC Hockey Hall of Fame, and Prince Albert Sports Hall of Fame. In retirement he settled in White Rock, BC and for many years operated a golf driving range in Surrey.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -740,9 +743,14 @@
       "Cyclone Taylor Trophy 1971",
       "Cyclone Taylor Trophy 1972",
       "Cyclone Taylor Trophy 1973",
+      "Cyrus H. McLean Trophy 1972",
       "Jake Milford Trophy 1976",
       "WHL Rookie of the Year 1958",
+      "Memorial Cup Champion 1957 (Flin Flon Bombers)",
+      "Vancouver Canucks Inaugural Captain 1970-1974",
+      "Saskatchewan Sports Hall of Fame",
       "Saskatchewan Hockey Hall of Fame",
+      "Prince Albert Sports Hall of Fame",
       "BC Hockey Hall of Fame",
       "BC Hockey Hall of Fame Inductee 2025"
     ],
@@ -753,7 +761,10 @@
         { "label": "Hockey Reference", "url": "https://www.hockey-reference.com/players/k/kurteor01.html" },
         { "label": "Prince Albert Sports Hall of Fame", "url": "https://pashof.ca/orland-kurtenbach-athlete/" },
         { "label": "BC Hockey Hall of Fame", "url": "https://bchhof.com/hall_of_fame_members/orland-kurtenbach/" },
-        { "label": "The Hockey Writers profile", "url": "https://thehockeywriters.com/docs/orland-kurtenbach/" }
+        { "label": "The Hockey Writers profile", "url": "https://thehockeywriters.com/docs/orland-kurtenbach/" },
+        { "label": "Saskatchewan Sports Hall of Fame", "url": "https://sasksportshalloffame.com/inductees/orland-kurtenbach/" },
+        { "label": "Saskatchewan Hockey Hall of Fame", "url": "https://saskhockeyhalloffame.ca/inductees/category/orland-kurtenback" },
+        { "label": "Canucks Ring of Honour", "url": "https://en.wikipedia.org/wiki/Vancouver_Canucks_Ring_of_Honour" }
       ]
     },
     "careerStats": [
