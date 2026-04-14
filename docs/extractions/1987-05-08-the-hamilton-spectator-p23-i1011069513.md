@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 250,4770 → 844,5128
-
 HUMBOLDT, Sask. - Richmond® Sockeyes whipped the Pembroke Lumber Kings 9-3 to advance to tomorrow's Centennial Cup Tier 2 Junior A final against the host Broncos. Scoring for the Ontario reps were Chris Clarke, George Dupont and Dave Van Hoof. Spectator wire services

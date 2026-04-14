@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 7067,936 → 8949,1116
-
 After a valiant season; struggling from behind time after time to eventually win the Peace- Cariboo Junior Hockey League title, the Quesnel Millionaire's fell short in their bid for the Mowat Cup, the pinnacle of success in B.C. Tier II Junior hockey, to the Richmond Sockeyes.

@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 2064,3820 → 2639,4618
-
 RED DEER, Alta. (CP) - Humboldt Broncos have advanced to , the Centennial Cup western finals but they might not have a team to play against. The Saskatchewan Junior Hockey League champion Broncos dumped Manitoba Junior Hockey League champion Selkirk Steelers 9-1 last night, sweeping that best-of-seven semi 4-0. However, the B.C.-Alberta series between Red Deer Rustlers and the Richmond Sockeyes could be cancelled if fans don't behave, the Canadian Amateur Hockey Association says. The association said in a statement yesterday that unruly behavior of fans in both cities could result in the series being cancelled or moved to another city.

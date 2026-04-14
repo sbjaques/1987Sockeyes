@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 8291,1962 → 8920,2151
-
 The payoff is a best-of-three series against the Richmond Sockeye's, champions of the B.C. Junior Hockey League.

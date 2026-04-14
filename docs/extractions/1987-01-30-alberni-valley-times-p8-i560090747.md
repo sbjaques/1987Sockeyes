@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 225,854 → 801,1721
-
 nipped 7-6 By The Canadian Press Vernon's Doug Spooner fired four goals as the Lakers edged the Coast Division-leading Richmond Sockeyes 7-6 in a B.C. Junior Hockey League game Thursday night. In Merritt, the Warriors trounced the struggling Summerland Buckaroos 8-2. In Richmond, Dan Zeidel, Campbell Blair and Kevin Scott also tallied for Vernon, which led 4-2 and 6-4 by periods. Richmond got two goals from Dean Rutledge and singles from Bill Hardy, Paul Rutherford, Jason Phillips and Rob Clarke.

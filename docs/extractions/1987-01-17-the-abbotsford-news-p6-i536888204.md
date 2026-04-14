@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 1596,2933 → 2580,3200
-
 spectacular 32-save performance last week and helped his B.C. Junior Hockey League crew upset the visiting Penticton Knights 7-4. The much-needed victory gave the struggling Falcons something to cheer about (bottom) as it ended a 15-game losing streak. Abbotsford hosts Richmond Sockeyes tonight (Saturday) at MSA Arena. Game starts 8 p p.m.

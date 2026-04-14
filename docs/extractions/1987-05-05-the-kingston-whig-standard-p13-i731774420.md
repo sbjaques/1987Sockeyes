@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 2907,2961 → 3771,3356
-
 HUMBOLDT, Sask./ The Canadian Press The Richmond Sockeyes exploded for four goals in the third period to beat Pembroke Lumber Kings 4-1 last night in the Centennial Cup junior A hockey championship tournament. The win gave the British Columbia champions a 2-0 record in the round-robin portion of the tournament, and a share of first place with the Saskatchewan champion Humboldt Broncos. Pembroke has a 0-2 record.

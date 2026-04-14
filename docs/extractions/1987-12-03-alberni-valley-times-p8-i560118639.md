@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 3231,5742 → 3795,6372
-
 RICHMOND, B.C. (CP) - Barry Kress set up four goals as the Richmond Sockeyes outhustled the Delta Flyers to record a 7-2 British Columbia Junior Hockey League victory Wednesday night. Rob Clarke and Dwayne Wills each scored two goals for Richmond while goaltender Willie Popp stopped 35 shots. Chris Dixon made only 16 saves while allowing seven goals for the losers. The win gives the Sockeyes sole possession of second place in the Coastal Division, 11 points behind the first -place Flyers.

@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 1399,1811 → 1968,2267
-
 HUMBOLDT, Sask. (CP) - The Humboldt Broncos won a place in the final of the Centennial Cup junior A hockey championship tournament Wednesday night with a 6-1 victory over the Richmond Sockeyes. The losers, with a round-robin record of 2-1, will meet the Pembroke Lumber Kings in tonight's semi-final. The final will be played Saturday night.

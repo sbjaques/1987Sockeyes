@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 1411,3819 → 1981,4810
-
 RICHMOND, B.C. (CP) Bill Hardy, Dave Tomlinson and Matt Hervey scored two goals apiece Tuesday night to lead the Richmond Sockeyes to an 11-4 Centennial Cup playoff victory over the Red Deer Rustlers. The victory opened a -seven Western semi-final between the B.C. and Alberta Tier II junior hockey champions. The second game in the series will be played here tonight before the remainder of the series shifts to Red Deer. Jim Dunn, Tony Bobbitt, Jason Phillips, Mike McCormick, and Dean Rutlege also scored for the Sockeyes who held period leads of 4- 2 and 6-3 and had a huge 60-34 edge in shots on goal. Kevin Melrose, Brian Puhalsky, Greg Pulliam and Rick Anderson scored for the Rustlers who got three goals on the power play.

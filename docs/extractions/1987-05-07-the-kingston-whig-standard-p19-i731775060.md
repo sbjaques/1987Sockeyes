@@ -9,6 +9,4 @@
 
 ## Paragraphs
 
-### Region 1432,1982 → 1987,2269
-
 HUMBOLDT, Sask./ cP The Humboldt Broncos won a place in the final of the Centennial Cup junior A hockey cham: pionship tournament Wednesday with a 6-1 victory over the Richmond Sockeyes.
