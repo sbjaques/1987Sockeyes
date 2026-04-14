@@ -167,24 +167,154 @@
     ]
   },
   {
-    "id": "1987-abbott-cup-vs-humboldt-series",
-    "date": "1987-04-29",
+    "id": "1987-04-20-humboldt-abbott-game-1",
+    "date": "1987-04-20",
     "series": "Abbott",
-    "round": "Final",
+    "round": "Game 1",
     "opponent": "Humboldt Broncos",
-    "location": "Richmond, BC / Humboldt, SK",
-    "result": "W",
-    "score": { "for": 0, "against": 0 },
+    "location": "Humboldt, SK",
+    "result": "L",
+    "score": { "for": 3, "against": 5 },
     "highlights": [
-      "Richmond defeated the Humboldt Broncos to win the Abbott Cup, the Western Canadian Junior A championship.",
-      "Game 6 (Apr 28 at Humboldt): Humboldt 4, Richmond 3 in 10-minute full-time overtime. Paul Rutherford scored twice for Richmond; Dave Tomlinson scored the other Sockeyes goal. Tony Bobbitt took a penalty for closing his hand on the puck; Steve Jaques received a 5-minute match penalty for a headbutt on Bill McDougall. Bruce Hoffort made 42 saves as Humboldt was outshot 46-45. Source: Nanaimo Daily News Apr 29 1987, image 325077439."
+      "Humboldt opened the best-of-seven Abbott Cup (Western Canadian Junior A final) with a 5-3 overtime win at the Humboldt Uniplex. Richmond led 2-1 after the second period; the teams were tied 3-3 after regulation.",
+      "Curtis Chamberlin scored three goals for Humboldt, including the overtime winner on a two-on-one pass from Joey Johannson, firing high over sliding Sockeye goalie Frank Romeo with 1:39 remaining in the 10-minute overtime. Brad Bergen and Bill McDougall had the other Humboldt goals.",
+      "Bryan Moller, Matt Hervey and Jason Phillips scored for Richmond.",
+      "Source: Star-Phoenix Apr 21 1987, p.41, image 512310223; Vancouver Sun Apr 21 1987, p.28, image 495241884."
+    ],
+    "sources": [
+      "newspapers-com-512310223",
+      "newspapers-com-495241884"
+    ]
+  },
+  {
+    "id": "1987-04-21-humboldt-abbott-game-2",
+    "date": "1987-04-21",
+    "series": "Abbott",
+    "round": "Game 2",
+    "opponent": "Humboldt Broncos",
+    "location": "Humboldt, SK",
+    "result": "W",
+    "score": { "for": 5, "against": 3 },
+    "highlights": [
+      "Richmond evened the series 1-1 with a 5-3 win at the Humboldt Uniplex. Humboldt held a 45-31 edge in shots on goal.",
+      "Jason Phillips scored three goals for Richmond; Stan Czenczek and Brian Kozak had the others.",
+      "Dave Shyiak, Kevin Luke and Bill McDougall replied for Humboldt.",
+      "Source: Leader-Post Apr 22 1987, p.18, image 496462581; Vancouver Sun Apr 22 1987, p.60, image 495243576."
+    ],
+    "sources": [
+      "newspapers-com-496462581",
+      "newspapers-com-495243576"
+    ]
+  },
+  {
+    "id": "1987-04-22-humboldt-abbott-game-3",
+    "date": "1987-04-22",
+    "series": "Abbott",
+    "round": "Game 3",
+    "opponent": "Humboldt Broncos",
+    "location": "Humboldt, SK",
+    "result": "W",
+    "score": { "for": 4, "against": 3 },
+    "highlights": [
+      "Tony Bobbitt scored 1:04 into the 10-minute overtime to give Richmond a 4-3 win at the Humboldt Uniplex, in front of a crowd of fewer than 900. The Sockeyes took a 2-1 series lead.",
+      "Richmond trailed 1-0 after one and 2-1 after two. Dave Tomlinson, Mike Claringbull and Rob Clarke scored the other Richmond goals; Bill McDougall (2) and Curtis Chamberlin replied for Humboldt. Humboldt outshot Richmond 39-23.",
+      "Goaltender Frank Romeo was named the story of the game with 36 saves, including several would-be goals off Chamberlin's stick. Richmond took 13 of 25 minor penalties and the only major, giving Humboldt nine power-play opportunities, but the Broncos were scoreless with the man advantage.",
+      "Source: Star-Phoenix Apr 23 1987, p.14, image 512310808; Leader-Post Apr 23 1987, p.14, image 496462652; Vancouver Sun Apr 23 1987, p.61, image 495246503."
+    ],
+    "sources": [
+      "newspapers-com-512310808",
+      "newspapers-com-496462652",
+      "newspapers-com-495246503"
+    ]
+  },
+  {
+    "id": "1987-04-25-humboldt-abbott-game-4",
+    "date": "1987-04-25",
+    "series": "Abbott",
+    "round": "Game 4",
+    "opponent": "Humboldt Broncos",
+    "location": "Richmond, BC",
+    "result": "L",
+    "score": { "for": 1, "against": 2 },
+    "highlights": [
+      "Humboldt won 2-1 at Richmond Arena on Saturday night to even the best-of-seven series at 2-2. It was Richmond's first home game since April 8.",
+      "Bill McDougall and Brad Bergen scored for Humboldt. Dean Rutledge replied with Richmond's lone goal in the third period.",
+      "Source: Calgary Herald Apr 26 1987, p.4, image 483768383; Times Colonist Apr 26 1987, p.12, image 508877216."
+    ],
+    "sources": [
+      "newspapers-com-483768383",
+      "newspapers-com-508877216"
+    ]
+  },
+  {
+    "id": "1987-04-26-humboldt-abbott-game-5",
+    "date": "1987-04-26",
+    "series": "Abbott",
+    "round": "Game 5",
+    "opponent": "Humboldt Broncos",
+    "location": "Richmond, BC",
+    "result": "W",
+    "score": { "for": 5, "against": 3 },
+    "highlights": [
+      "Matt Hervey scored twice as Richmond beat Humboldt 5-3 at Richmond Arena to take a 3-2 series lead. Humboldt led 2-0 after the first period before Richmond tied it 2-2 in the second.",
+      "Dave Tomlinson scored the eventual winning goal. Brian Kozak and Paul Rutherford added the other Richmond goals.",
+      "Bill McDougall scored twice for Humboldt; Garnet Kazuik had the other goal. Frank Romeo made 30 saves for Richmond; Bruce Hoffort stopped 22 for Humboldt.",
+      "Source: Leader-Post Apr 27 1987, p.14, image 496463200; Star-Phoenix Apr 27 1987, p.15, image 512311911; Nanaimo Daily News Apr 27 1987, p.10, image 325076956."
+    ],
+    "sources": [
+      "newspapers-com-496463200",
+      "newspapers-com-512311911",
+      "newspapers-com-325076956"
+    ]
+  },
+  {
+    "id": "1987-04-28-humboldt-abbott-game-6",
+    "date": "1987-04-28",
+    "series": "Abbott",
+    "round": "Game 6",
+    "opponent": "Humboldt Broncos",
+    "location": "Richmond, BC",
+    "result": "L",
+    "score": { "for": 3, "against": 4 },
+    "highlights": [
+      "Humboldt forced a seventh and deciding game with a 4-3 overtime win at Richmond Arena. Mike Gaber deflected home a Brad Bergen point shot at 3:31 of the 10-minute full-time overtime. Richmond led 1-0 after one and were tied 2-2 after two; Tomlinson put Richmond ahead 3-2 at 7:44 of the third.",
+      "Paul Rutherford scored twice for Richmond; Dave Tomlinson had the other Sockeye goal. Bill McDougall (2) and Curtis Chamberlin also scored for Humboldt. Humboldt outshot Richmond 46-45.",
+      "Two Richmond mistakes proved costly: Tony Bobbitt took a delay-of-game minor for closing his hand on the puck at 8:28 of the third, and Humboldt tied the game 3-3 on the ensuing power play. Then at 3:02 of overtime, defenceman Steve Jaques received a five-minute match penalty for helmet-butting Bill McDougall; McDougall received a minor for interference, and Gaber's winner came at 4-on-4 with Humboldt keeping pressure on during the subsequent power play.",
+      "Goaltender Bruce Hoffort made 42 saves for Humboldt.",
+      "Source: Nanaimo Daily News Apr 29 1987, p.9, image 325077439; Vancouver Sun Apr 29 1987, p.25, image 495257020; Alberni Valley Times Apr 29 1987, p.7, image 560108301."
     ],
     "sources": [
       "vansun-1987-04-29-mcdougall-headbutt",
       "province-1987-04-29-richmond-vs-humboldt-photo",
+      "newspapers-com-325077439",
+      "newspapers-com-495257020",
+      "newspapers-com-560108301"
+    ]
+  },
+  {
+    "id": "1987-04-29-humboldt-abbott-game-7",
+    "date": "1987-04-29",
+    "series": "Abbott",
+    "round": "Game 7",
+    "opponent": "Humboldt Broncos",
+    "location": "Richmond, BC",
+    "result": "W",
+    "score": { "for": 5, "against": 4 },
+    "highlights": [
+      "Dave Tomlinson scored with 2:37 remaining in regulation — 35 seconds after Humboldt had tied the game 4-4 at 16:48 of the third period — to give Richmond a 5-4 win at Richmond Arena and the Abbott Cup, the Western Canadian Junior A championship, four games to three.",
+      "Richmond led 3-1 after the first period and took a 4-3 edge into the third. Matt Hervey, Dean Rutledge, Jason Phillips and Bill Hardy had the other Sockeye goals.",
+      "Brett Stewart, Kevin Luke, Al Novakowski and Curtis Chamberlin scored for Humboldt. The Broncos outshot Richmond 40-35. Richmond outscored Humboldt 26-24 across the seven games; each team won two one-goal games.",
+      "The Broncos declined to take part in the traditional post-game handshake at centre ice and were booed by the Richmond Arena crowd. Coach Bernie Lynch said: 'We're just sending them a message: You ain't won nothin' yet. We're going to be the national champions.'",
+      "Source: Leader-Post Apr 30 1987, p.32, image 496463470; Star-Phoenix Apr 30 1987, p.45, image 512312872; Red Deer Advocate Apr 30 1987, p.20, image 558337700; Province Apr 30 1987, p.12, image 502021976; Times Colonist Apr 30 1987, p.16, image 508878542."
+    ],
+    "sources": [
       "province-1987-04-30-richmond-vs-humboldt",
       "abbott-cup-program",
-      "newspapers-com-325077439"
+      "newspapers-com-496463470",
+      "newspapers-com-512312872",
+      "newspapers-com-558337700",
+      "newspapers-com-502021976",
+      "newspapers-com-508878542"
     ]
   },
   {
