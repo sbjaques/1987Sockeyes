@@ -1,0 +1,12 @@
+# The Daily Herald-Tribune — 1987-03-16 — p.5
+
+**Publication:** The Daily Herald-Tribune
+**Date:** 1987-03-16
+**Page:** 5
+**Location:** Grande Prairie, Alberta, Canada
+**Viewer:** https://www.newspapers.com/image/731238217/?match=1&terms=%22Quesnel%20Millionaires%22
+**Image ID:** 731238217
+
+## Paragraphs
+
+Saturday, the North Stars erased a three-goal deficit to defeat the Huskies 9-6 in Fort St. John. The winner of the Grande Prairie-Fort St. John will go on to meet Quesnel Millionaires, who uprooted four-time defending champion Prince George Spruce Kings 9-3 Friday to take the best-of-seven series 4-2. "It's a mental letdown losing in your own rink but they showed a lot of heart and came back." said Fort St. John coach Ritchie Webb about his players. "We had to come down to this rink thinking we could do it, not thinking we would lose," added Webb, indicating his club was ready to write off the series after Saturday's loss. Each team has now won twice away and only once at home during this series. Blaine Moore's third goal of the game at 11:45 of suddendeath brought : an immediate finish to the intense battle before the largest crowd of the season. The two teams went scoreless in the initial 10-minute overtime session. Mallory Mack, Kurtis Esau, and Rob Vanderlee were the other Fort St. John scorers. Murray Toews led the Stars with a pair of goals while single markers went to Greg Hartman, Wade Wallan, and Morgan Hall. "I just went outside a defender (Hall) and came back in, waited for the goalie (Lee Wiebe) to go down and slid it right underneath him," said the 17-year-old Moore about his winning marker. The goal came on one of the few scoring opportunities the Huskies could muster in sudden-death. The North Stars dominated both overtime sessions and most of regulation time. "It was just a matter of one good shot and lit was all over with," said Grande Prairie's Murray Head after his teammates had left the mortuary-like dressing room area. *'Everybody just couldn't put the puck in the net." The strong goaltending of Ian McLeod saved the Huskies from extinction. The 16-year-old Campbell River native was credited with 60 saves - 17 in all after 60 minutes. Grande Prairie netminder Wiebe stopped 42 shots - 11 in the overtime sessions. "I was getting pretty nervous all right," said McLeod, who had pulled himself Saturday night. "I thought the goals were pretty good tonight. Fifth one I... maybe, could have controlled the rebound a little better.'
