@@ -1,0 +1,12 @@
+# Sarasota Herald-Tribune — 1989-09-24 — p.49
+
+**Publication:** Sarasota Herald-Tribune
+**Date:** 1989-09-24
+**Page:** 49
+**Location:** Sarasota, Florida
+**Viewer:** https://www.newspapers.com/image/1254308143/?match=1&terms=%22Orland%20Kurtenbach%22
+**Image ID:** 1254308143
+
+## Paragraphs
+
+omebody up there has a sense of S is For humor, that the one years? past you - the have several to Tampa love. months Bay - area or has been offering up first borns right and left for the chance at professional baseball. Domes have been built, junkets have been made, feelers have been sent, and recently, Bay Area significant humans gathered for an odious We-are-the-World singalong. The Mayors of Tampa and St. Pete led the charge. Join the team, buy a ticket! Everybody, join the team, buy a ticket. And it's worked. A group of businessmen from Detroit want to bring a team here. An ice hockey team. No kidding. There is a hockey game tonight in Orlando, a town which has itself been bidding for sports as if this was slave auction. The Minnesota North Stars will play the New Jersey Devils. A group out of Detroit, spearheaded by former NHL goalie Jim Rutherford, will be watching closely. Gotta laugh. Go ahead and smirk, baseball brats. But years from now, when you guys are playing out the string with that song (".. So Kasey, could you please play Join the Team' for Martha in Dubuque.") and the Florida Everblades or whatever are packing some downtown arena, perhaps you'll change your tune. For you Floridians who accept your hockey-before-baseball fate and want to make the most of this cruel joke, some pointers are in order. Baseball and ice hockey, you see, are different from each other. The ice tipped me off. Mind you, there are similarities. Both involve men whacking objects with sticks. Both make important use of organists. Both are better to watch than "The Love Connection." Unless it's the Braves. From there, however, the two sports diverge. Names. Baseball has guys like Rusty and Peanuts and Lefty. Hockey has Toe and Punch and Gordie. A baseball guy is Sid Bream or Bobby Cox or Don Zimmer. A hockey guy is Rejean Houle or Orland Kurtenbach or Orest Kindrachuk. Regular season. Baseball respects its regular season, allowing only four teams in postseason play. Hockey follows it's 80- game slate by allowing 29 teams into a playoff format, including several NBA squads that missed out. Continued on 10E
