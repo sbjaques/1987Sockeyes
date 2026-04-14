@@ -20,8 +20,11 @@
     "location": "Richmond, BC / Quesnel, BC",
     "result": "W",
     "score": { "for": 0, "against": 0 },
-    "highlights": ["Richmond swept the Quesnel Millionaires of the Peace-Cariboo Junior Hockey League two games to none to win the Mowat Cup."],
-    "sources": []
+    "highlights": [
+      "Richmond defeated the Peace-Cariboo Junior Hockey League champion Quesnel Millionaires in a best-of-three series to win the Mowat Cup, the BC Tier II provincial junior title, and advance to the Doyle Cup (Western Canada semifinal).",
+      "Source: Quesnel Cariboo Observer Apr 1 1987 p.B3 (image 688061716, 'The payoff is a best-of-three series against the Richmond Sockeyes') and Apr 8 1987 p.B4 (image 688061731, 'the Quesnel Millionaires fell short in their bid for the Mowat Cup ... to the Richmond Sockeyes')."
+    ],
+    "sources": ["newspapers-com-688061716", "newspapers-com-688061731"]
   },
   {
     "id": "1987-04-07-red-deer-doyle-game-1",
