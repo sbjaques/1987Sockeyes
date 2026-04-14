@@ -53,12 +53,16 @@
     "location": "Richmond, BC / Humboldt, SK",
     "result": "W",
     "score": { "for": 0, "against": 0 },
-    "highlights": ["Richmond defeated the Humboldt Broncos to win the Abbott Cup, the Western Canadian Junior A championship."],
+    "highlights": [
+      "Richmond defeated the Humboldt Broncos to win the Abbott Cup, the Western Canadian Junior A championship.",
+      "Game 6 (Apr 28 at Humboldt): Humboldt 4, Richmond 3 in 10-minute full-time overtime. Paul Rutherford scored twice for Richmond; Dave Tomlinson scored the other Sockeyes goal. Tony Bobbitt took a penalty for closing his hand on the puck; Steve Jaques received a 5-minute match penalty for a headbutt on Bill McDougall. Bruce Hoffort made 42 saves as Humboldt was outshot 46-45. Source: Nanaimo Daily News Apr 29 1987, image 325077439."
+    ],
     "sources": [
       "vansun-1987-04-29-mcdougall-headbutt",
       "province-1987-04-29-richmond-vs-humboldt-photo",
       "province-1987-04-30-richmond-vs-humboldt",
-      "abbott-cup-program"
+      "abbott-cup-program",
+      "newspapers-com-325077439"
     ]
   },
   {
@@ -77,61 +81,82 @@
     ]
   },
   {
-    "id": "1987-05-05-humboldt-round-robin",
-    "date": "1987-05-05",
+    "id": "1987-05-04-pembroke-round-robin",
+    "date": "1987-05-04",
+    "series": "Centennial",
+    "round": "Round-Robin",
+    "opponent": "Pembroke Lumber Kings",
+    "location": "Humboldt, SK",
+    "result": "W",
+    "score": { "for": 4, "against": 3 },
+    "highlights": [
+      "Richmond defeated Pembroke 4-3 to move to 2-0 in round-robin play.",
+      "Dave Tomlinson scored two third-period goals to stop the Lumber Kings.",
+      "Source: Star-Phoenix May 5 1987, p.15, image 512094454."
+    ],
+    "sources": ["newspapers-com-512094454"]
+  },
+  {
+    "id": "1987-05-06-humboldt-round-robin",
+    "date": "1987-05-06",
     "series": "Centennial",
     "round": "Round-Robin",
     "opponent": "Humboldt Broncos",
     "location": "Humboldt, SK",
     "result": "L",
     "score": { "for": 1, "against": 6 },
-    "highlights": ["Richmond lost 6-1 to the host Humboldt Broncos in round-robin play."],
+    "highlights": [
+      "Host Humboldt Broncos defeated Richmond 6-1 in the round-robin finale. Humboldt went 3-0 in round-robin; Richmond finished 2-1.",
+      "Bill McDougall opened the scoring on a power-play rebound at 6:17 of the first period. Stan Czenczek tied it on a slap shot past Bruce Hoffort at 17:26.",
+      "Garnet Kazuik broke the tie with a shorthanded breakaway at 13:20 of the second period after stealing the puck from Steve Jaques. Jamie Stewart was in net for Richmond.",
+      "Source: Star-Phoenix May 7 1987, p.17, image 512096770."
+    ],
     "sources": [
-      "star-phoenix-1987-05-05-centennial-cup-quote",
       "star-phoenix-1987-05-06-humboldt-handshake-debate",
       "star-phoenix-1987-05-07-centennial-cup",
-      "vansun-1987-05-07-centennial-cup-vs-humboldt"
+      "vansun-1987-05-07-centennial-cup-vs-humboldt",
+      "newspapers-com-512096770"
     ]
   },
   {
-    "id": "1987-05-07-pembroke-round-robin",
+    "id": "1987-05-07-pembroke-semifinal",
     "date": "1987-05-07",
-    "series": "Centennial",
-    "round": "Round-Robin",
-    "opponent": "Pembroke Lumber Kings",
-    "location": "Humboldt, SK",
-    "result": "W",
-    "score": { "for": 4, "against": 1 },
-    "highlights": ["Richmond defeated the Pembroke Lumber Kings 4-1 to finish round-robin play at 2-1."],
-    "sources": [
-      "times-colonist-1987-05-08-sockeyes-vs-pembroke",
-      "times-colonist-1987-05-08-sockeyes-vs-pembroke-box",
-      "leader-post-1987-05-08-centennial-cup",
-      "vansun-1987-05-08-lumber-kings"
-    ]
-  },
-  {
-    "id": "1987-05-09-pembroke-semifinal",
-    "date": "1987-05-09",
     "series": "Centennial",
     "round": "Semifinal",
     "opponent": "Pembroke Lumber Kings",
     "location": "Humboldt, SK",
     "result": "W",
     "score": { "for": 9, "against": 3 },
-    "highlights": ["Richmond defeated the Pembroke Lumber Kings 9-3 in the Centennial Cup semifinal."],
-    "sources": []
+    "highlights": [
+      "Richmond defeated Pembroke 9-3 at the Humboldt Uniplex in the Centennial Cup semifinal (8:30 PM Thursday).",
+      "Source: Star-Phoenix May 8 1987, p.29, image 512097450."
+    ],
+    "sources": [
+      "times-colonist-1987-05-08-sockeyes-vs-pembroke",
+      "times-colonist-1987-05-08-sockeyes-vs-pembroke-box",
+      "leader-post-1987-05-08-centennial-cup",
+      "vansun-1987-05-08-lumber-kings",
+      "newspapers-com-512097450"
+    ]
   },
   {
-    "id": "1987-05-10-humboldt-final",
-    "date": "1987-05-10",
+    "id": "1987-05-09-humboldt-final",
+    "date": "1987-05-09",
     "series": "Centennial",
     "round": "Final",
     "opponent": "Humboldt Broncos",
     "location": "Humboldt, SK",
     "result": "W",
     "score": { "for": 5, "against": 2 },
-    "highlights": ["Richmond defeated the Humboldt Broncos 5-2 to win the Centennial Cup, the national Junior A championship."],
+    "highlights": [
+      "Richmond defeated Humboldt 5-2 at the Humboldt Uniplex on Saturday night (7:30 PM) to win the Centennial Cup, the national Junior A championship. Crowd approximately 2,400.",
+      "Goals — 1st period: Richmond — Tomlinson (Rutherford, Claringbull) 16:53; Richmond — Phillips (Hardy) 18:13. 2nd period: Humboldt — Chamberlin (Bergen) 10:47 PP. 3rd period: Richmond — Rutherford (Rutledge) 8:48; Richmond — Phillips (Kozak) 13:28; Humboldt — Luke (Bergen, Rice) 16:31; Richmond — Phillips (Kozak) 19:07 empty net.",
+      "Jason Phillips recorded a hat trick. Paul Rutherford scored the eventual winning goal.",
+      "Goaltender Frank Romeo made 44 saves on 46 shots; Humboldt outshot Richmond 46-23 (16-7, 11-6, 19-10). Power plays: Richmond 0/3, Humboldt 1/5. Bruce Hoffort was in goal for Humboldt.",
+      "Frank Romeo was named the game's MVP and the Centennial Cup tournament MVP — his third player-of-the-game award of the tournament across three starts.",
+      "Jason Phillips was named the tournament's Most Gentlemanly Player.",
+      "Sources: Star-Phoenix May 11 1987 p.13 (image 512098529) and p.14 box score (image 512098543); Vancouver Sun May 11 1987 p.14 (image 495230735) and p.20 (image 495229991); Times Colonist May 10 1987 p.1 (image 508633163) and p.9 (image 508632785)."
+    ],
     "sources": [
       "star-phoenix-1987-05-11-centennial-cup",
       "star-phoenix-1987-05-11-centennial-cup-box",
@@ -141,7 +166,13 @@
       "richmond-review-1987-05-13-centennial-cup-page-2",
       "richmond-review-1987-05-13-centennial-cup-page-3",
       "richmond-review-1987-05-13-hervey-romeo",
-      "centennial-cup-team-photo"
+      "centennial-cup-team-photo",
+      "newspapers-com-512098529",
+      "newspapers-com-512098543",
+      "newspapers-com-495230735",
+      "newspapers-com-495229991",
+      "newspapers-com-508633163",
+      "newspapers-com-508632785"
     ]
   }
 ]

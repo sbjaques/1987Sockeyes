@@ -45,14 +45,22 @@ src/
 - **Games** (`src/data/games.json`): 9 entries (mostly series-level, not individual-game). Need individual-game expansion from newspapers.com box scores.
 - **Media** (`src/data/media.json`): 47 items — 41 newspaper clippings + 4 program PDFs + 2 photos. Files copied to `public/assets/vault/`.
 
-## Unresolved facts
-- **Centennial Cup final score:** Richmond News (2012, 2018) + PG Citizen (2025) say 5–2; BCHL + PJHL HOF announcements (June 2025) say 5–3. games.json currently has 5–2. The Star Phoenix May 11 1987 box score on newspapers.com will settle it.
+## Resolved facts (2026-04-13 newspapers.com dive)
+- **Centennial Cup final score: 5-2** — confirmed by Star-Phoenix May 11 1987 (images 512098529, 512098543) and Vancouver Sun May 11 1987 (images 495230735, 495229991) and Times Colonist May 10 1987 (image 508633163). The 2025 BCHL/PJHL HOF "5-3" figure was wrong.
+- **Centennial Cup final date: May 9 1987** (Saturday, 7:30 PM, Humboldt Uniplex) — games.json updated from May 10 to May 9.
+- **Centennial Cup MVP: Frank Romeo** — confirmed by two contemporaneous 1987 papers (Star-Phoenix May 11 + Times Colonist May 10). The 2025 Richmond Sentinel article that credited Phillips with MVP was wrong. **Jason Phillips** won the tournament's **Most Gentlemanly Player** award (box-score terminology) and the **All-Star Team** nod, and had a hat trick in the final.
+- **Centennial Cup schedule corrections** (per contemporaneous Star-Phoenix coverage):
+  - Round-robin vs Dartmouth: May 3 (unchanged, 7-3 W)
+  - Round-robin vs Pembroke: **May 4, 4-3 W** (was listed as May 7 4-1; two third-period goals from Tomlinson won it)
+  - Round-robin vs Humboldt: **May 6, 1-6 L** (was listed as May 5; Czenczek goal; Kazuik SH breakaway after Jaques turnover)
+  - Semifinal vs Pembroke: **May 7, 9-3 W** (was listed as May 9)
+  - Final vs Humboldt: **May 9, 5-2 W** (was listed as May 10)
 
-## Recent corrections (don't revert)
-- **Jason Phillips (#9) is Centennial Cup MVP** — NOT Frank Romeo. Source: Richmond Sentinel banner-raising article (Oct 22 2025).
+## Other corrections (don't revert)
 - **Frank Romeo** was a late-season goaltender pickup who started only in the playoffs. Quote from Tomlinson in Richmond News 2012.
 - **Jim Gunn position is D** (not F). Hometown Prince George, BC.
 - **Fred Page Cup (BCJHL final)** was a 4-0 sweep of Kelowna Packers. Our schema enum keeps `series: "Mowat"` for this entry.
+- **Abbott Cup Game 6** (Apr 28 1987): Humboldt 4 Richmond 3 OT. Rutherford 2G, Tomlinson 1G for Richmond. Bobbitt took a penalty for closing hand on puck; Jaques received a 5-minute match penalty for headbutting McDougall. Source: Nanaimo Daily News Apr 29 1987, image 325077439.
 
 ## Features done
 - Zoomable/pannable lightbox (`yet-another-react-lightbox` with Zoom + Captions plugins). Programs/videos open in a new tab.
