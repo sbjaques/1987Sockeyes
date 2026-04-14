@@ -1,0 +1,18 @@
+# The La Crosse Tribune — 1988-02-23 — p.21
+
+**Publication:** The La Crosse Tribune
+**Date:** 1988-02-23
+**Page:** 21
+**Location:** La Crosse, Wisconsin
+**Viewer:** https://www.newspapers.com/image/513638352/?match=1&terms=%22Mike%20McCormick%22%20hockey
+**Image ID:** 513638352
+
+## Paragraphs
+
+Team Scores: Central 3, Logan 7, Onalaska 8, Stevens Point 12, Central B 16, Logan B 17, Onalaska B 20, Eau Claire Memorial 24, Amhurst 28 Individual Results Downhill: 1. Krist Stenslien, (Cen), 36.32; 2. Rick McJarry, (Ona), 36.34; Dave Pringle (SP), 36.98 Slalom: 1. Joe Rohrer (Cen), 23.37; 2. Mike McCormick (Log), 23.39; 3. Jon Olson (ECM), 23.44 Giant Slalom: 1. Krist Stenslien (Cen), 22.32; 2. Rick McJarry (Ona), 22.71; Mike McCormick (Log), 22.74 Overall: 1. Krist Stenslien (Cen); 2. Mike McCormick (Log), Rick McJarry (Ona)
+
+Hockey
+
+Sports on the air TUESDAY TELEVISION p.m. - NBA Basketball (Milwaukee Bucks at New York Knicks), Channel 25 6:30 p.m. - NHL Hockey ESPN 1 p.m. XV Olympic Winter Games (Skating, ski jumping). Channels a. 19 1:05 p.m. - NBA Basketball (Seattle SuperSonics al Chicago Bulls), - TEs p.m. College Basketball (Temple at West Virgin lal, USA RADIO 7:15 p.m. CBA Basketball (La Crosse Catbirds al Pensacola Tornados), WIZM AM 7130 p.m. High School Basketball (Nekoosa Sparta), WCOW FM
+
+overall. Tim Anderson and Ken Sacia paced G-E-T with a 12 points each. G-E-T fell to 10-5 in league play and 13-6 overall. Caledonia triumphs CALEDONIA, Minn. - The Caledonia high school basketball team had little trouble when it stepped outside the River Valley Conference Monday night. The Warriors drubbed LeRoy-Ostrander, 98-69, in a nonconference contest to boost its overall record to 17-1. Brad King poured in 28 points for Caledonia, while teammate Troy Stadtler added 22. The Warriors, who broke to a 46-27 halftime lead, also received 12 points from Jim Stapleton and 10 from Jim Fruechta. Spring Grove 56, Harmony 45 SPRING GROVE, Minn. - Dan Vesterse and Scott Doely combined for 31 points to lead Spring Grove over Harmony, 56-45. Vesterse tossed in 19 points while Doely added 12 as the Cardinals improved their overall record to 9-8. Rushford 86, Lanesboro 30 RUSHFORD, Minn. - Rushford won its 15th game in 19 tries by routing Lanesboro, 86-30, as four players scored in double figures for the Trojans. Andy Highum led Rushford with 13 points while teammates Dana Grimsrud and Tim Dvorak added 12 each and Brent Hoiness 10. Houston 60, Preston- 50 HOUSTON, Minn. - Houston, thanks to 20 points from Steve McNamer and 16 from Garth Mueller, edged Preston-Fountain, 60-50, to boost its overall record to, 5-12. The Hurricanes, who led by seven points at the half, also received 12 points from John Langheinrich. Central skiers win Krist Stenslien and Kathy Strand each won a pair of events and individual overall titles to lead the Central High School boys and girls ski teams to the team title in the Onalaska Invitational Monday at Mount La Crosse. Stenslien won the boys downhill in 36.32 seconds and the giant slalom in 22.32. Stenslien was the overall winner while Logan's Mike McCormick and Onalaska's Rick McGarry tied for second. Central's Joe Rohrer won the slalom event with a time of 23.37. Strand won the downhill in 39.38 and the giant slalom in 23.64 on her way to the overall title. The Red Raiders' Maria Schilling won the slalom in 25.84 and was second in the overall. Central's Roxanne Ostreng and Logan's Amy Wheeler tied for third in the overall. La Crescent skaters lose AUSTIN, Minn. The Austin High School hockey team eliminated La Crescent, 8-0, from the Section One tournament Monday night. La Crescent managed just five shots against a stingy Packer defense.
