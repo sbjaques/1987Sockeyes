@@ -1,0 +1,14 @@
+# Rohnert Park Cotati Clarion — 1992-05-27 — p.8
+
+**Publication:** Rohnert Park Cotati Clarion
+**Date:** 1992-05-27
+**Page:** 8
+**Location:** Cotati, California
+**Viewer:** https://www.newspapers.com/image/1037765488/?match=1&terms=Claringbull
+**Image ID:** 1037765488
+
+## Paragraphs
+
+Hanley each crossed the plate twice as the Twins outlasted the Cubs on Monday, May 18. David Vondrak, Nick Honzik, Jeff Thornhill and Brad Vondrak each scored twice for the Cubs. Rangers 11, Braves 10: Paul Skilling and Josh Norwitt had two hits each and the Rangers came up with five runs in the bottom of the sixth inning to stymie the Braves on Wednesday, May 20. Nick McGoldrick went 2-for-3 with a home run and two runs scored for the Braves while Ricky Khoury and Adam Pearson each had two hits. Mets 20, Orioles 15: Mark Smith homered while John Cardinale and Josh Fowler combined to score seven runs and record six hits as the Mets dumped the O's on Thursday. Matt Rogina had two doubles and a triple to go along with his two runs scored for the Orioles while Matt O'Leal and Johnny Bellotti each had three hits and crossed the plate twice. Phillies 18, Cardinals 15: Marc Rizio had two hits and scored four times while Nick Claringbull had two hits and crossed the plate three times as the Phils shot down the Cards on Thursday. Andrew Rappolt scored three times for the Cards while Henri Colbert had two hits. Pirates 16. Cardinals 13: Jesse Ruiz and Dale Anderson each crossed the plate three times while Matt Titman went 3-for-3 as the Bucs prevailed on Saturday. Walter
+
+Guggemos had three hits and scored twice for the Cards while Chris Shepard crossed the plate three times. Cubs 17, Angels 0: Jeff Thornhill and Craig Harner each had three hits and scored three times as the Cubs blanked the Angels on Saturday. Sean Cavanaugh and David Vondrak each crossed the plate three times for the Cubs. Justin Miranda doubled in the fourth inning for the Angels' only hit on the afternoon. Blue Jays 12, Athletics 4: Shamus Stafford went 2-for-3 with a home run and two runs scored and Cory Sichi crossed the plate three times as the Jays topped the A's on Saturday. Charlie McMackin went 2-for-2 and scored twice for the A's while Mike Ortega added two hits. Mets 10, Rangers 9: Bobby Caporale and Mark Smith each scored twice and Tonya Anderson had two hits as the Mets scored six times in the bottom of the sixth to frustrate the Rangers on Saturday. Dan Gildner and Galen O'Donnell each went 2-for-2 and scored twice for the Rangers. Phillies 25, Twins 17: Nick Villenveva cracked two grand slams and scored three times as the Phillies outslugged the Twins on Saturday. Ricky Price, Brendan Hanley and Bruno Bianchi each scored three times for the Phils. Nick Claringbull scored four times for the Twins.
