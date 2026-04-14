@@ -24,24 +24,146 @@
     "sources": []
   },
   {
-    "id": "1987-doyle-cup-vs-red-deer-series",
-    "date": "1987-04-09",
+    "id": "1987-04-07-red-deer-doyle-game-1",
+    "date": "1987-04-07",
     "series": "Doyle",
-    "round": "Final",
+    "round": "Game 1",
     "opponent": "Red Deer Rustlers",
-    "location": "Richmond, BC / Red Deer, AB",
+    "location": "Richmond, BC",
     "result": "W",
-    "score": { "for": 0, "against": 0 },
-    "highlights": ["Richmond defeated the Red Deer Rustlers four games to three to win the Doyle Cup."],
+    "score": { "for": 11, "against": 4 },
+    "highlights": [
+      "Richmond opened the Western Canada Centennial Cup semifinal (Doyle Cup) with an 11-4 rout of the Red Deer Rustlers at the Richmond Arena in front of about 1,250 fans — the Sockeyes' 16th consecutive post-season win.",
+      "Dave Tomlinson opened the scoring 21 seconds in; defenceman Matt Hervey doubled the lead moments later. Red Deer's Kevan Melrose and Greg Pulliam replied on the power play to make it 4-2 after the first period. Rich Anderson narrowed it to 4-3 early in the second before Richmond pulled away.",
+      "Richmond outshot Red Deer 60-34. Frank Romeo started in goal for Richmond; Glen Furgason started for Red Deer.",
+      "Source: Red Deer Advocate, Apr 8 1987, p.21, image 558334501."
+    ],
     "sources": [
       "red-deer-advocate-1987-04-09-richmond-vs-red-deer",
       "vansun-1987-04-08-photo-vs-red-deer",
-      "vansun-1987-04-09-red-deer-fan-incident",
       "quesnel-cariboo-observer-1987-04-08-sockeyes",
+      "newspapers-com-558334501"
+    ]
+  },
+  {
+    "id": "1987-04-08-red-deer-doyle-game-2",
+    "date": "1987-04-08",
+    "series": "Doyle",
+    "round": "Game 2",
+    "opponent": "Red Deer Rustlers",
+    "location": "Richmond, BC",
+    "result": "W",
+    "score": { "for": 6, "against": 4 },
+    "highlights": [
+      "Richmond rallied from a 4-3 third-period deficit to beat Red Deer 6-4 at the Richmond Arena and take a 2-0 series lead. The win was the Sockeyes' 17th consecutive post-season victory.",
+      "Red Deer led 4-3 midway through the third when defenceman Keith Lightbown was ejected for a five-minute major after pummelling Dave Tomlinson (who never dropped his gloves). Richmond scored three goals on the ensuing power play: Dean Rutledge tied it at 9:52, Matt Hervey (his third of the game) got the winner at 11:19, and Brian Kozak added insurance 88 seconds later.",
+      "Red Deer's Dixon Ward opened the scoring midway through the first; Hervey answered on a late power play. Ken Weiss started in goal for Red Deer in place of Furgason and was strong through two periods.",
+      "Post-game, Red Deer players Rich Anderson and Brad Wilson were involved in an altercation with Richmond fans; Anderson received a gross misconduct and Wilson a match penalty.",
+      "Source: Red Deer Advocate, Apr 9 1987, p.1 and p.11, images 558334781 and 558334839."
+    ],
+    "sources": [
+      "vansun-1987-04-09-red-deer-fan-incident",
+      "newspapers-com-558334781",
+      "newspapers-com-558334839",
+      "newspapers-com-558335169"
+    ]
+  },
+  {
+    "id": "1987-04-11-red-deer-doyle-game-3",
+    "date": "1987-04-11",
+    "series": "Doyle",
+    "round": "Game 3",
+    "opponent": "Red Deer Rustlers",
+    "location": "Red Deer, AB",
+    "result": "L",
+    "score": { "for": 3, "against": 6 },
+    "highlights": [
+      "Red Deer beat Richmond 6-3 at the Red Deer Arena to cut the series lead to 2-1. Goaltender Ken Weiss was outstanding for the Rustlers.",
+      "Source: Red Deer Advocate, Apr 13 1987, p.7, image 558335628."
+    ],
+    "sources": [
       "red-deer-advocate-1987-04-13-richmond-vs-red-deer",
+      "newspapers-com-558335628"
+    ]
+  },
+  {
+    "id": "1987-04-12-red-deer-doyle-game-4",
+    "date": "1987-04-12",
+    "series": "Doyle",
+    "round": "Game 4",
+    "opponent": "Red Deer Rustlers",
+    "location": "Red Deer, AB",
+    "result": "L",
+    "score": { "for": 1, "against": 7 },
+    "highlights": [
+      "Red Deer won 7-1 at the Red Deer Arena to tie the best-of-seven series 2-2. A chippy contest featured 392 penalty minutes (221 to Richmond) and a 30-minute second-period delay caused by four on-ice fights and a fracas behind the Richmond bench instigated by unruly fans throwing debris (including eggs).",
+      "Brian Puhalsky, Tracy Georgsen and Rich Anderson staked Red Deer to a 3-0 lead; Dixon Ward, Bob Duchak and Anderson added to it in the second. Dave Tomlinson got Richmond on the board at 1:39 of the third — his fourth goal of the series — but Ken Weiss shut the door the rest of the way.",
+      "The CAHA warned that continuing fan misconduct could force the series to be awarded, cancelled, or moved to a neutral site.",
+      "Source: Red Deer Advocate, Apr 13 1987, p.1 and p.7, images 558335595 and 558335628."
+    ],
+    "sources": [
+      "newspapers-com-558335595",
+      "newspapers-com-558335628"
+    ]
+  },
+  {
+    "id": "1987-04-14-red-deer-doyle-game-5",
+    "date": "1987-04-14",
+    "series": "Doyle",
+    "round": "Game 5",
+    "opponent": "Red Deer Rustlers",
+    "location": "Red Deer, AB",
+    "result": "L",
+    "score": { "for": 5, "against": 7 },
+    "highlights": [
+      "Red Deer beat Richmond 7-5 in overtime at the Red Deer Arena to take a 3-2 series lead. Dixon Ward scored the winner 59 seconds into the 10-minute OT; an empty-net marker followed 14 seconds after Jason Phillips was stopped on a penalty shot with 24 seconds left.",
+      "With the CAHA monitoring, the home crowd (about 1,700) was notably better-behaved. Red Deer led 3-2 after one and 4-3 after two. Ken Weiss stopped 46 Richmond shots.",
+      "Late in OT, referee Cliff Stauble awarded Phillips a penalty shot after ruling a Rustler had intentionally dislodged the net. Weiss stopped Phillips' low shot with his pad.",
+      "Source: Red Deer Advocate, Apr 15 1987, p.21, image 558335948."
+    ],
+    "sources": [
+      "newspapers-com-558335948"
+    ]
+  },
+  {
+    "id": "1987-04-15-red-deer-doyle-game-6",
+    "date": "1987-04-15",
+    "series": "Doyle",
+    "round": "Game 6",
+    "opponent": "Red Deer Rustlers",
+    "location": "Red Deer, AB",
+    "result": "W",
+    "score": { "for": 7, "against": 3 },
+    "highlights": [
+      "Richmond beat Red Deer 7-3 before 2,020 fans at the Red Deer Arena to force a deciding seventh game, preventing the Rustlers from clinching the Doyle Cup at home.",
+      "Source: Red Deer Advocate, Apr 16 1987, p.11, image 558336101."
+    ],
+    "sources": [
+      "newspapers-com-558336101"
+    ]
+  },
+  {
+    "id": "1987-04-16-red-deer-doyle-game-7",
+    "date": "1987-04-16",
+    "series": "Doyle",
+    "round": "Game 7",
+    "opponent": "Red Deer Rustlers",
+    "location": "Red Deer, AB",
+    "result": "W",
+    "score": { "for": 9, "against": 1 },
+    "highlights": [
+      "Richmond won the Doyle Cup with a 9-1 victory at the Red Deer Arena in the seventh and deciding game, earning the right to meet Humboldt in the Abbott Cup final.",
+      "After a scoreless first period, Richmond scored five unanswered goals in the second and never looked back. Pete deGraaf spoiled goaltender Jamie Stewart's shutout bid at 13:14 of the third, deflecting a Greg Pulliam point shot on a Red Deer power play.",
+      "Dave Tomlinson recorded a hat trick; single goals came from Rob Clarke, Mike Claringbull, Jason Phillips, Jim Gunn (per Red Deer Advocate report, with additional scorers continuing beyond the OCR break).",
+      "Rustler coach Larry Billows said his team — playing their 27th playoff game in 47 days — simply ran out of gas. Richmond coach Orland Kurtenbach said the Sockeyes were the better club in the final three games.",
+      "Source: Red Deer Advocate, Apr 18 1987, p.1 and p.12, images 558336223 and 558336261."
+    ],
+    "sources": [
       "red-deer-advocate-1987-04-18-richmond-vs-red-deer",
       "red-deer-advocate-1987-04-18-richmond-vs-red-deer-box",
-      "red-deer-advocate-1987-04-19-box-score"
+      "red-deer-advocate-1987-04-19-box-score",
+      "newspapers-com-558336223",
+      "newspapers-com-558336261"
     ]
   },
   {
