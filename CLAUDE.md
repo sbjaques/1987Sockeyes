@@ -71,15 +71,19 @@ src/
 - Page-level SEO + JSON-LD (`SportsTeam` on landing).
 - GitHub Actions workflows: CI (lint/validate/test/build) and Pages deploy. Repo not yet created — user to run manual step.
 
-## Priority work queue (tomorrow)
+## Newspapers.com session (2026-04-13 3-day trial)
 
-### 1. User environment prep (BLOCKING)
-- Install **Playwright MCP** to bypass hockey-reference.com / richmond-news.com 403s and drive newspapers.com after login:
-  ```json
-  // %APPDATA%\Claude\claude_desktop_config.json
-  { "mcpServers": { "playwright": { "command": "npx", "args": ["-y", "@modelcontextprotocol/server-playwright"] } } }
-  ```
-- Subscribe to **newspapers.com** ($20/mo monthly is fine; cancelable)
+**Trial active:** User has Publisher Extra 3-day trial on newspapers.com. Credentials in chat history only — NOT saved to any file.
+
+**Extraction pipeline (discovered this session):**
+- newspapers.com search result pages cache OCR text per image in `sessionStorage` under keys `search-record-images=<id>&terms=...&ocr=true` with a `compressedParagraphs` field.
+- Decode: base64 → `deflate-raw` → JSON array of `{text, rectangle, id}` paragraphs.
+- Bulk-harvest: navigate to search results, click "Show more results" ~80 times to paginate, then dump `sessionStorage` entries. See `window.__extractedMerged` pattern in chat history.
+- Metadata scraped from DOM of search results (pub name, page, date, location) since `/api/search/query` returns metadata-only and `/api/search/record` 500s when called directly.
+
+**Current corpus:** 1094+ OCR markdown files in `docs/extractions/*.md` (dated 1984-1995). Master JSON at `docs/extractions/ocr-all.json`.
+
+## Priority work queue
 
 ### 2. Extract box scores from newspapers.com
 Manifest: `docs/newspapers-com-manifest.md` (5,379 words, commit `e918b33`). Top priority:
