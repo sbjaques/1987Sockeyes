@@ -4,10 +4,10 @@
     "name": "Rob Sumner",
     "position": "F",
     "number": 2,
-    "hometown": "",
+    "hometown": "North Vancouver, BC",
     "role": "player",
     "playoffStats": { "gp": 44, "g": 1, "a": 18, "pts": 19, "pim": 103 },
-    "bio": "Rob Sumner broke into junior hockey with the 1986-87 Richmond Sockeyes, posting 19 points and 103 penalty minutes in 44 games as the team captured the Centennial Cup. He moved on to a three-season stint with the WHL's Victoria Cougars, followed by a brief stop with the Prince Albert Raiders. Sumner later turned professional in the ECHL, playing for the Louisville Icehawks and South Carolina Stingrays between 1992 and 1995.",
+    "bio": "Rob Sumner (born September 28, 1970 in North Vancouver, BC) broke into junior hockey with the 1986-87 Richmond Sockeyes, posting 19 points and 103 penalty minutes in 44 games as the team captured the Centennial Cup. He moved on to a three-season stint with the WHL's Victoria Cougars, followed by a brief stop with the Prince Albert Raiders. Sumner later turned professional in the ECHL, playing for the Louisville Icehawks and South Carolina Stingrays between 1992 and 1995.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -16,7 +16,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=7024"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=7024",
+      "eliteprospects": "https://www.eliteprospects.com/player/120089/rob-sumner"
     },
     "careerStats": [
       { "season": "1986-87", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 44, "g": 1, "a": 18, "pts": 19, "pim": 103 } },
@@ -41,7 +42,7 @@
     "hometown": "Pincher Creek, AB",
     "role": "player",
     "playoffStats": { "gp": 11, "g": 2, "a": 5, "pts": 7, "pim": 24 },
-    "bio": "Mike Claringbull was born November 29, 1966 in Pincher Creek, Alberta. He played junior A in the Alberta Junior Hockey League with the Hobbema Hawks before two WHL seasons with the Medicine Hat Tigers, where he was drafted by the Montreal Canadiens in 1985. He joined the Richmond Sockeyes for the 1986-87 championship run, contributing on the blue line through the playoff drive.",
+    "bio": "Mike Claringbull was born November 29, 1966 in Pincher Creek, Alberta. A 6'0\", 190 lb right-shot defenseman, he played junior A in the Alberta Junior Hockey League with the Hobbema Hawks before two WHL seasons with the Medicine Hat Tigers. He was drafted by the Montreal Canadiens in the 8th round (163rd overall) of the 1985 NHL Entry Draft. He joined the Richmond Sockeyes for the 1986-87 championship run, contributing on the blue line through the playoff drive.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -50,7 +51,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=39171"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=39171",
+      "eliteprospects": "https://www.eliteprospects.com/player/164482/mike-claringbull"
     },
     "careerStats": [
       { "season": "1983-84", "team": "Hobbema Hawks", "league": "AJHL", "type": "regular", "stats": { "gp": 45, "g": 5, "a": 15, "pts": 20, "pim": 135 } },
@@ -97,10 +99,10 @@
     "name": "Mike McCormick",
     "position": "D",
     "number": 6,
-    "hometown": "",
+    "hometown": "Lynnwood, WA",
     "role": "player",
     "playoffStats": { "gp": 51, "g": 26, "a": 24, "pts": 50, "pim": 129 },
-    "bio": "Mike McCormick was one of the Richmond Sockeyes' leading offensive contributors in 1986-87, producing 50 points and 129 PIM in 51 games en route to the Centennial Cup. He then moved to NCAA Division I hockey at the University of North Dakota (WCHA) from 1987 to 1990. McCormick turned professional with the ECHL's Greensboro Monarchs in 1989, playing more than a decade in the ECHL, CHL, and WPHL with stops including the Johnstown Chiefs, Fort Worth Fire, Wichita Thunder, Amarillo Rattlers, and Fort Worth Brahmas through the late 1990s.",
+    "bio": "Mike McCormick (born May 14, 1968 in Lynnwood, Washington) was one of the Richmond Sockeyes' leading offensive contributors in 1986-87, producing 50 points and 129 PIM in 51 games en route to the Centennial Cup. He then moved to NCAA Division I hockey at the University of North Dakota (WCHA) from 1987 to 1990. McCormick turned professional with the ECHL's Greensboro Monarchs in 1989, playing more than a decade in the ECHL, CHL, and WPHL with stops including the Johnstown Chiefs, Fort Worth Fire, Wichita Thunder, Amarillo Rattlers, and Fort Worth Brahmas through the late 1990s.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -109,7 +111,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=3525"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=3525",
+      "eliteprospects": "https://www.eliteprospects.com/player/127764/mike-mccormick"
     },
     "careerStats": [
       { "season": "1985-86", "team": "Penticton Knights", "league": "BCJHL", "type": "regular", "stats": { "gp": 4, "g": 2, "a": 0, "pts": 2, "pim": 2 } },
@@ -143,7 +146,7 @@
     "hometown": "",
     "role": "player",
     "playoffStats": { "gp": 33, "g": 12, "a": 24, "pts": 36, "pim": 71 },
-    "bio": "Stan Czenczek began his junior career with the Nanaimo Clippers of the BCJHL in 1983-84 before attending the University of Maine (Hockey East) in 1984-85. After brief stops with the Abbotsford Falcons and Delta Flyers, he joined the Richmond Sockeyes in 1986-87, producing 36 points from the blue line in the Centennial Cup season.",
+    "bio": "Stan Czenczek began his junior career with the Nanaimo Clippers of the BCJHL in 1983-84 before attending the University of Maine (Hockey East) in 1984-85, where he graduated in 1988. After brief stops with the Abbotsford Falcons and Delta Flyers, he joined the Richmond Sockeyes in 1986-87, producing 36 points from the blue line in the Centennial Cup season.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -167,10 +170,10 @@
     "name": "Paul Rutherford",
     "position": "F",
     "number": 8,
-    "hometown": "",
+    "hometown": "Delta, BC",
     "role": "player",
     "playoffStats": { "gp": 47, "g": 28, "a": 20, "pts": 48, "pim": 35 },
-    "bio": "Paul Rutherford broke in with the BCJHL's Delta Flyers in 1985-86 and joined the Richmond Sockeyes for the 1986-87 Centennial Cup season, posting 48 points in 47 games. He then spent four seasons at Ohio State University in the CCHA from 1987 to 1991, finishing as a consistent offensive contributor. He turned professional with the ECHL's Richmond Renegades in 1991-92, where he produced 58 points in 64 games.",
+    "bio": "Paul Rutherford (born January 1, 1969 in Delta, BC) broke in with the BCJHL's Delta Flyers in 1985-86 and joined the Richmond Sockeyes for the 1986-87 Centennial Cup season, posting 48 points in 47 games. He then spent four seasons at Ohio State University in the CCHA from 1987 to 1991, finishing as a consistent offensive contributor. He turned professional with the ECHL's Richmond Renegades in 1991-92, where he produced 58 points in 64 games.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -179,7 +182,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=6267"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=6267",
+      "eliteprospects": "https://www.eliteprospects.com/player/85435/paul-rutherford"
     },
     "careerStats": [
       { "season": "1985-86", "team": "Delta Flyers", "league": "BCJHL", "type": "regular", "stats": { "gp": 24, "g": 4, "a": 2, "pts": 6, "pim": 16 } },
@@ -197,10 +201,10 @@
     "name": "Jason Phillips",
     "position": "F",
     "number": 9,
-    "hometown": "",
+    "hometown": "Coquitlam, BC",
     "role": "player",
     "playoffStats": { "gp": 34, "g": 29, "a": 14, "pts": 43, "pim": 62 },
-    "bio": "Jason Phillips was one of the most decorated players on the 1987 Centennial Cup champion Richmond Sockeyes. Named the tournament's Top Scorer and Most Sportsmanlike Player and selected to the All-Star team as a forward, Phillips posted 43 points in 34 games during the Sockeyes' championship run after bouncing between the BCJHL Vernon Lakers and WHL organizations in previous seasons. He returned to the WHL in 1987-88 with the Victoria Cougars and recorded 102 points in 62 games.",
+    "bio": "Jason Phillips (born January 29, 1967 in Coquitlam, BC) was one of the most decorated players on the 1987 Centennial Cup champion Richmond Sockeyes. Named the tournament's MVP, Top Scorer, and Most Sportsmanlike Player and selected to the All-Star team as a forward, Phillips posted 43 points in 34 games during the Sockeyes' championship run after bouncing between the BCJHL Vernon Lakers and WHL organizations in previous seasons. He returned to the WHL in 1987-88 with the Victoria Cougars and recorded 102 points in 62 games.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -213,7 +217,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=4277"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=4277",
+      "eliteprospects": "https://www.eliteprospects.com/player/426609/jason-phillips"
     },
     "careerStats": [
       { "season": "1984-85", "team": "Vernon Lakers", "league": "BCJHL", "type": "regular", "stats": { "gp": 15, "g": 13, "a": 7, "pts": 20, "pim": 2 } },
@@ -231,10 +236,10 @@
     "name": "Steve Jaques",
     "position": "F",
     "number": 10,
-    "hometown": "",
+    "hometown": "Burnaby, BC",
     "role": "player",
     "playoffStats": { "gp": 25, "g": 5, "a": 7, "pts": 12, "pim": 180 },
-    "bio": "Steve Jaques was a physical forward whose junior career began with the 1986-87 Centennial Cup-winning Richmond Sockeyes. He moved to the WHL with the New Westminster Bruins in 1987-88, posting 336 PIM, and continued with the Tri-City Americans for two more seasons, totaling 84 points in 1989-90. Jaques turned professional with the IHL's Phoenix Roadrunners in 1990 and played nearly a decade in the minors, including stints with the Providence Bruins (AHL), Las Vegas Thunder, Houston Aeros, and Kansas City Blades (IHL), retiring in 1998.",
+    "bio": "Steve Jaques (born February 21, 1969 in Burnaby, BC) was a physical forward whose junior career began with the 1986-87 Centennial Cup-winning Richmond Sockeyes. He moved to the WHL with the New Westminster Bruins in 1987-88, posting 336 PIM, and continued with the Tri-City Americans for two more seasons, totaling 84 points in 1989-90. Jaques turned professional with the IHL's Phoenix Roadrunners in 1990 and played nearly a decade in the minors, including stints with the Providence Bruins (AHL), Las Vegas Thunder, Houston Aeros, and Kansas City Blades (IHL), retiring in 1998.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -243,7 +248,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=2507"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=2507",
+      "eliteprospects": "https://www.eliteprospects.com/player/125558/steve-jaques"
     },
     "careerStats": [
       { "season": "1986-87", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 25, "g": 5, "a": 7, "pts": 12, "pim": 180 } },
@@ -350,7 +356,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=17394"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=17394",
+      "eliteprospects": "https://www.eliteprospects.com/player/165360/bryan-moller"
     },
     "careerStats": [
       { "season": "1984-85", "team": "Langley Eagles", "league": "BCJHL", "type": "regular", "stats": { "gp": 1, "g": 0, "a": 0, "pts": 0, "pim": 0 } },
@@ -368,10 +375,10 @@
     "name": "Brian Kozak",
     "position": "F",
     "number": 15,
-    "hometown": "",
+    "hometown": "Kenora, ON",
     "role": "player",
     "playoffStats": { "gp": 39, "g": 14, "a": 35, "pts": 49, "pim": 53 },
-    "bio": "Brian Kozak (born 1966) began his junior career with the OHL's Soo Greyhounds and OJHL's Newmarket Flyers in 1983-84. He joined the Richmond Sockeyes for 1986-87 after a brief WHL stint with New Westminster, posting 49 points in 39 games during the Centennial Cup run. Kozak then played a season at the University of Manitoba (CWUAA) before moving into coaching; he served as head coach of the BCHL's Quesnel Millionaires in 2005-06.",
+    "bio": "Brian Kozak (born May 8, 1966 in Kenora, Ontario) began his junior career with the OHL's Soo Greyhounds and OJHL's Newmarket Flyers in 1983-84. He joined the Richmond Sockeyes for 1986-87 after a brief WHL stint with New Westminster, posting 49 points in 39 games during the Centennial Cup run. Kozak then played a season at the University of Manitoba (CWUAA) before moving into coaching; he served as head coach of the BCHL's Quesnel Millionaires in 2005-06.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -380,7 +387,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=32956"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=32956",
+      "eliteprospects": "https://www.eliteprospects.com/player/591633/brian-kozak"
     },
     "careerStats": [
       { "season": "1983-84", "team": "Soo Greyhounds", "league": "OHL", "type": "regular", "stats": { "gp": 2, "g": 0, "a": 0, "pts": 0, "pim": 0 } },
@@ -398,7 +406,7 @@
     "hometown": "",
     "role": "player",
     "playoffStats": { "gp": 50, "g": 19, "a": 33, "pts": 52, "pim": 75 },
-    "bio": "Bill Hardy played four seasons with the Nanaimo Clippers of the BCJHL beginning in 1982-83, highlighted by a 72-point 1985-86 season. He moved to the Richmond Sockeyes for 1986-87, contributing 52 points during the Centennial Cup title run. He later played college hockey at Red Deer College (ACAC) in 1988-89.",
+    "bio": "Bill Hardy (born August 31, 1966) played four seasons with the Nanaimo Clippers of the BCJHL beginning in 1982-83, highlighted by a 72-point 1985-86 season. He moved to the Richmond Sockeyes for 1986-87, contributing 52 points during the Centennial Cup title run. He later played college hockey at Red Deer College (ACAC) in 1988-89 and returned to coach the Nanaimo Clippers in the mid-1990s.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -407,7 +415,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=90918"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=90918",
+      "eliteprospects": "https://www.eliteprospects.com/player/630940/bill-hardy"
     },
     "careerStats": [
       { "season": "1982-83", "team": "Nanaimo Clippers", "league": "BCJHL", "type": "regular", "stats": { "gp": 50, "g": 8, "a": 16, "pts": 24, "pim": 111 } },
@@ -423,12 +432,13 @@
     "name": "Rob Clarke",
     "position": "F",
     "number": 17,
-    "hometown": "",
+    "hometown": "Melbourne, Australia",
     "role": "player",
     "playoffStats": { "gp": 33, "g": 43, "a": 23, "pts": 66, "pim": 52 },
     "bio": "Rob Clarke, a right wing born May 2, 1967 in Melbourne, Australia (5'11\", 205 lbs), played his entire junior career in the BCJHL between 1984 and 1988. He suited up for Salmon Arm, Langley, and the Shuswap Blazers before joining the Richmond Sockeyes mid-season in 1986-87, where he led the team in goal scoring with 43 goals and 66 points in 33 games en route to the Centennial Cup. He returned to Richmond for 1987-88, posting a career-high 85 points with 248 PIM in 49 games.",
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=105840"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=105840",
+      "eliteprospects": "https://www.eliteprospects.com/player/780669/rob-clarke"
     },
     "awards": [
       "Centennial Cup Champion 1987",
@@ -463,7 +473,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=7688"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=7688",
+      "eliteprospects": "https://www.eliteprospects.com/player/735877/tony-bobbitt"
     },
     "careerStats": [
       { "season": "1984-85", "team": "Salmon Arm Totems", "league": "BCJHL", "type": "regular", "stats": { "gp": 5, "g": 1, "a": 0, "pts": 1, "pim": 4 } },
@@ -493,7 +504,10 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=39521"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=39521",
+      "other": [
+        { "label": "Prince George Citizen retrospective (Feb 2025)", "url": "https://www.princegeorgecitizen.com/local-sports/prince-george-hockey-player-looks-back-at-his-richmond-sockeyes-and-their-87-centennial-cup-triumph-10215337" }
+      ]
     },
     "careerStats": [
       { "season": "1983-84", "team": "Nanaimo Clippers", "league": "BCJHL", "type": "regular", "stats": { "gp": 3, "g": 1, "a": 1, "pts": 2, "pim": 8 } },
@@ -522,7 +536,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=163599"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=163599",
+      "eliteprospects": "https://www.eliteprospects.com/player/387064/dean-rutledge"
     },
     "careerStats": [
       { "season": "1983-84", "team": "Swift Current Broncos", "league": "SJHL", "type": "regular", "stats": { "gp": 8, "g": 1, "a": 3, "pts": 4, "pim": 0 } },
@@ -539,7 +554,7 @@
     "hometown": "Pincher Creek, AB",
     "role": "player",
     "playoffStats": { "gp": 41, "g": 2, "a": 9, "pts": 11, "pim": 259 },
-    "bio": "Trevor Dickie played AJHL junior hockey with the Olds Grizzlys in 1983-84 before moving to the WHL's New Westminster Bruins. After a year at the University of Calgary (CWUAA), he joined the Richmond Sockeyes for 1986-87, piling up 259 PIM in 41 games during the Centennial Cup run. He returned to the University of Calgary for multiple seasons through 1991-92.",
+    "bio": "Trevor Dickie (born April 21, 1966 in Pincher Creek, Alberta) played AJHL junior hockey with the Olds Grizzlys in 1983-84 before moving to the WHL's New Westminster Bruins. After a year at the University of Calgary (CWUAA), he joined the Richmond Sockeyes for 1986-87, piling up 259 PIM in 41 games during the Centennial Cup run. He returned to the University of Calgary for multiple seasons through 1991-92.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -548,7 +563,11 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=39537"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=39537",
+      "eliteprospects": "https://www.eliteprospects.com/player/817984/trevor-dickie",
+      "other": [
+        { "label": "U. of Calgary 1991-92 roster", "url": "https://godinos.com/sports/mens-ice-hockey/roster/trevor-dickie/8594" }
+      ]
     },
     "careerStats": [
       { "season": "1984-85", "team": "New Westminster Bruins", "league": "WHL", "type": "regular", "stats": { "gp": 61, "g": 2, "a": 6, "pts": 8, "pim": 68 } },
@@ -634,7 +653,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=71057"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=71057",
+      "eliteprospects": "https://www.eliteprospects.com/player/780655/jason-talo"
     },
     "careerStats": [
       { "season": "1986-87", "team": "Richmond Sockeyes", "league": "BCJHL", "type": "regular", "stats": { "gp": 39, "g": 10, "a": 9, "pts": 19, "pim": 59 } },
@@ -676,7 +696,7 @@
     "hometown": "",
     "role": "player",
     "playoffStats": { "gp": 0, "w": 0, "l": 0, "gaa": 0, "svpct": 0, "so": 0 },
-    "bio": "Jamie Stewart was a goaltender on the 1986-87 Richmond Sockeyes, part of the Centennial Cup championship roster. Born April 25, 1966 in Vancouver, BC (6'01\", 180 lbs), his documented junior career includes the AJHL's Fort McMurray Oil Barons and BCJHL stops with the Abbotsford Falcons and Langley Eagles (1986-87: 20-13, 4.18 GAA, .899 SV%). He went on to play three seasons at Michigan State University (CCHA) from 1987 to 1990, then turned professional in the Colonial Hockey League with the Michigan/Detroit Falcons, winning back-to-back league Best Goaltender awards in 1991-92 and 1992-93. He finished his pro career in the ECHL with Nashville and Huntsville in 1993-94.",
+    "bio": "Jamie Stewart was a goaltender on the 1986-87 Richmond Sockeyes, part of the Centennial Cup championship roster. Born April 25, 1966 in Vancouver, BC (6'01\", 180 lbs), his documented junior career includes the AJHL's Fort McMurray Oil Barons and BCJHL stops with the Abbotsford Falcons and Langley Eagles (1986-87: 20-13, 4.18 GAA, .899 SV%). He went on to play three seasons at Michigan State University (CCHA) from 1987 to 1990, then turned professional in the Colonial Hockey League with the Michigan/Detroit Falcons, winning back-to-back league Best Goaltender awards in 1991-92 and 1992-93 (including a 27-16-3 record with a 3.59 GAA and one shutout for Detroit in 1992-93). He finished his pro career in the ECHL with Nashville and Huntsville in 1993-94.",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -687,7 +707,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=7151"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=7151",
+      "eliteprospects": "https://www.eliteprospects.com/player/273387/jamie-stewart"
     },
     "careerStats": [
       { "season": "1985-86", "team": "Fort McMurray Oil Barons", "league": "AJHL", "type": "regular", "stats": { "gp": 16, "w": 3, "l": 9, "gaa": 6.72, "svpct": 0.816, "so": 0 } },
@@ -717,7 +738,8 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=17502"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=17502",
+      "eliteprospects": "https://www.eliteprospects.com/player/427593/christopher-dickson"
     },
     "careerStats": [
       { "season": "1985-86", "team": "Delta Flyers", "league": "BCJHL", "type": "regular", "stats": { "gp": 32, "w": 15, "l": 12, "gaa": 4.44, "svpct": 0.874, "so": 0 } },
