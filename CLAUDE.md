@@ -96,7 +96,10 @@ src/
 - **Trevor Dickie** (#21) — team captain 1986-87 (formerly WHL New West Bruins 1984-85)
 - **Bill Hardy** (#16) — assistant captain
 
-**Bio word counts (26 of 32 entries have bios, total 9,712 words):**
+**Bio word counts (27 of 28 entries have bios, total 11,173 words):**
+- Tomlinson 1560 · Hervey 1323 · Kurtenbach 1028 · Phillips 700 · Czenczek 482 · Romeo 427 · Clarke 376 · Gunn 355 · Hardy 353 · Bobbitt 353 · ... rest 150-350
+- Only entry without bio: Tom Harrison (unidentifiable staff)
+- Removed by user direction: Darren Comeau, Scott McNeil, Bob Houghton, Tim Whiteley
 - Kurtenbach 795, Hervey 744, Tomlinson 677, Phillips 530, Romeo 427
 - Gunn 355, Kozak 348, Jaques 346, Clarke 322, Moller 321, Hardy 320, Claringbull 317, Rutherford 274-ish, Rutledge 314, McCormick 309, Czenczek 238, Trevor Dickie 229, Stewart 290, Tony Bobbitt 290, Talo 195, Goglin 180
 - Thin or none: Scott McNeil, Tom Harrison, Bob Houghton, Tim Whiteley, Horst Willkomm, Mike O'Brien, Eric Wolf, Darren Comeau (all staff — need program-PDF OCR to identify definitively)
