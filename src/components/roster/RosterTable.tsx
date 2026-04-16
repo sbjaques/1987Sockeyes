@@ -3,7 +3,7 @@ import { isSkater, isGoalie, type RosterEntry, type Skater, type Goalie } from '
 import { useSortableTable } from '../../hooks/useSortableTable';
 
 function SkaterTable({ rows, onRowClick }: { rows: Skater[]; onRowClick: (entry: RosterEntry) => void }) {
-  const flat = rows.map(s => ({ ...s, ...s.playoffStats }));
+  const flat = rows.map(s => ({ ...s, ...(s.playoffStats ?? { gp: 0, g: 0, a: 0, pts: 0, pim: 0 }) }));
   const { sorted, sortKey, sortDir, toggleSort } = useSortableTable(flat, 'pts', 'desc');
 
   const col = (key: keyof typeof flat[number], label: string) => (
@@ -44,7 +44,7 @@ function SkaterTable({ rows, onRowClick }: { rows: Skater[]; onRowClick: (entry:
 }
 
 function GoalieTable({ rows, onRowClick }: { rows: Goalie[]; onRowClick: (entry: RosterEntry) => void }) {
-  const flat = rows.map(g => ({ ...g, ...g.playoffStats }));
+  const flat = rows.map(g => ({ ...g, ...(g.playoffStats ?? { gp: 0, w: 0, l: 0, gaa: 0, svpct: 0, so: 0 }) }));
   const { sorted, sortKey, sortDir, toggleSort } = useSortableTable(flat, 'gaa', 'asc');
   const col = (key: keyof typeof flat[number], label: string) => (
     <th scope="col" className="px-3 py-2 text-left">

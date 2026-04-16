@@ -2,7 +2,7 @@
   {
     "id": "rob-sumner",
     "name": "Rob Sumner",
-    "position": "F",
+    "position": "D",
     "number": 2,
     "hometown": "North Vancouver, BC",
     "role": "player",
@@ -189,7 +189,15 @@
           "pim": 114
         }
       }
-    ]
+    ],
+    "birthDate": "1970-09-28",
+    "abbottCupStats": {
+      "gp": 13,
+      "g": 0,
+      "a": 3,
+      "pts": 3,
+      "pim": 6
+    }
   },
   {
     "id": "mike-claringbull",
@@ -212,7 +220,7 @@
       "pts": 5,
       "pim": 12
     },
-    "bio": "Mike Claringbull was born November 29, 1966 in Pincher Creek, Alberta. A 6'0\", 190 lb right-shot defenseman, he played junior A in the Alberta Junior Hockey League with the Hobbema Hawks before two WHL seasons with the Medicine Hat Tigers. He was drafted by the Montreal Canadiens in the 8th round (163rd overall) of the 1985 NHL Entry Draft. He joined the Richmond Sockeyes for the 1986-87 championship run, contributing on the blue line through the playoff drive.\n\nDuring the 1987 playoffs Claringbull scored single goals in the Sockeyes' 9-1 Game-7 win over Red Deer in the Doyle Cup final (Calgary Herald April 18 1987, image 483730219; Red Deer Advocate April 18 1987, image 558336261) and in the 5-3 Centennial Cup round-robin win over Dartmouth (Alberni Valley Times April 23 1987, image 560107992). He also picked up an assist on Dave Tomlinson's goal at 16:53 of the third period of the Centennial Cup final (Star-Phoenix May 11 1987, image 512098543). Game reports listed him taking holding, hooking, roughing and tripping minors across the tournament (Star-Phoenix May 5, 7 and 11 1987, images 512094503, 512096840, 512098543). In an eve-of-final feature, Claringbull told The Vancouver Sun that hockey \"never was a childhood dream of mine\" and that he was completing commercial pilot training with two weeks remaining, planning a summer job with Wardair: \"I have an uncle flying with Wardair who once flew bush and he said he enjoyed that the most... Just like hockey, you have to start at the bottom. Flying bush is like being in the bush (leagues).\" He recounted being drafted and attending two training camps with the Montreal Canadiens organization after moving from Medicine Hat to Pincher Creek, Alta. at age 10 (The Vancouver Sun May 6 1987, image 495158433). A May 2 1987 Vancouver Sun piece identified him as one of the Sockeye leaders alongside captain Trevor Dickie and Dean Rutledge (image 495156118).",
+    "bio": "Mike Claringbull was born November 29, 1966 in Pincher Creek, Alberta. A 6'0\", 190 lb right-shot defenseman, he played junior A in the Alberta Junior Hockey League with the Hobbema Hawks before two WHL seasons with the Medicine Hat Tigers. He was drafted by the Montreal Canadiens in the 8th round (163rd overall) of the 1985 NHL Entry Draft. He joined the Richmond Sockeyes for the 1986-87 championship run, contributing on the blue line through the playoff drive.\n\nDuring the 1987 playoffs Claringbull scored single goals in the Sockeyes' 9-1 Game-7 win over Red Deer in the Doyle Cup final (Calgary Herald April 18 1987, image 483730219; Red Deer Advocate April 18 1987, image 558336261) and in the 5-3 Centennial Cup round-robin win over Dartmouth (Alberni Valley Times April 23 1987, image 560107992). He also picked up an assist on Dave Tomlinson's goal at 16:53 of the third period of the Centennial Cup final (Star-Phoenix May 11 1987, image 512098543). Game reports listed him taking holding, hooking, roughing and tripping minors across the tournament (Star-Phoenix May 5, 7 and 11 1987, images 512094503, 512096840, 512098543). In an eve-of-final feature, Claringbull told The Vancouver Sun that hockey \"never was a childhood dream of mine\" and that he was completing commercial pilot training with two weeks remaining, planning a summer job with Wardair: \"I have an uncle flying with Wardair who once flew bush and he said he enjoyed that the most... Just like hockey, you have to start at the bottom. Flying bush is like being in the bush (leagues).\" He recounted being drafted and attending two training camps with the Montreal Canadiens organization after moving from Medicine Hat to Pincher Creek, Alta. at age 10 (The Vancouver Sun May 6 1987, image 495158433). A May 2 1987 Vancouver Sun piece identified him as one of the Sockeye leaders alongside captain Trevor Dickie and Dean Rutledge (image 495156118).\n\nPer the 1987 Abbott Cup Souvenir Program: \"For Christmas, the Sockeyes got this right defenceman as a present from Pincher Creek by way of Medicine Hat. He has played for the Medicine Hat Tigers of the W.H.L. for two years. Mike has decided to make his favorite hobby of flying into a full time career and has just obtained his commercial pilots license. He will stay in the area this summer as he has \"landed\" his first job. Mike along with Trevor Dickie and Dean Rutledge would like to thank their former coach and long time friend, John Raduak for his assistance in furthering their hockey careers.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -303,7 +311,15 @@
           "pim": 24
         }
       }
-    ]
+    ],
+    "birthDate": "1966-11-29",
+    "abbottCupStats": {
+      "gp": 14,
+      "g": 2,
+      "a": 8,
+      "pts": 10,
+      "pim": 34
+    }
   },
   {
     "id": "russ-goglin",
@@ -455,12 +471,21 @@
           "pim": 44
         }
       }
-    ]
+    ],
+    "birthDate": "1967-07-26",
+    "weight": 185,
+    "abbottCupStats": {
+      "gp": 8,
+      "g": 0,
+      "a": 2,
+      "pts": 2,
+      "pim": 50
+    }
   },
   {
     "id": "mike-mccormick",
     "name": "Mike McCormick",
-    "position": "D",
+    "position": "F",
     "number": 6,
     "hometown": "Lynnwood, WA",
     "role": "player",
@@ -478,7 +503,7 @@
       "pts": 3,
       "pim": 4
     },
-    "bio": "Mike McCormick (born May 14, 1968 in Lynnwood, Washington) was one of the Richmond Sockeyes' leading offensive contributors in 1986-87, producing 50 points and 129 PIM in 51 games en route to the Centennial Cup. He then moved to NCAA Division I hockey at the University of North Dakota (WCHA) from 1987 to 1990. McCormick turned professional with the ECHL's Greensboro Monarchs in 1989, playing more than a decade in the ECHL, CHL, and WPHL with stops including the Johnstown Chiefs, Fort Worth Fire, Wichita Thunder, Amarillo Rattlers, and Fort Worth Brahmas through the late 1990s.\n\nMcCormick scored Richmond's winner with time running out in the third period in a 4-3 BCJHL win over Nanaimo at Civic Arena (Nanaimo Daily News Dec 16 1987 year-in-review, image 325618867) and contributed single goals through the 1987 playoff run, including the Doyle Cup Game 7 against Red Deer (Calgary Herald April 18 1987, image 483730219; The Province April 19 1987, image 502040018), the 9-3 Centennial Cup semifinal vs Pembroke (Times Colonist May 8 1987, image 508631348), and a four-goal win that included a Rob Clarke hat trick (Daily Herald-Tribune April 16 1987, image 731241842). He was assessed a tripping minor in the round-robin loss to Humboldt (Star-Phoenix May 7 1987, image 512096840) and a roughing minor in the Pembroke round-robin game (Star-Phoenix May 5 1987, image 512094503). A pre-draft profile noted McCormick at 6-3, 215 pounds and projected him as a high pick in the NHL underage draft, with 15 goals in 13 playoff games entering the Centennial Cup tournament: \"We think he'll be a great one for us... He has the potential to play any forward position\" (Grand Forks Herald April 15 1987, image 1128706608). A Star-Phoenix notes column identified McCormick among Sockeye players pursuing NCAA scholarships alongside Tomlinson (Boston University) and Rutherford (North Dakota) (Star-Phoenix May 6 1987, image 512095951).",
+    "bio": "Mike McCormick (born May 14, 1968 in Lynnwood, Washington) was one of the Richmond Sockeyes' leading offensive contributors in 1986-87, producing 50 points and 129 PIM in 51 games en route to the Centennial Cup. He then moved to NCAA Division I hockey at the University of North Dakota (WCHA) from 1987 to 1990. McCormick turned professional with the ECHL's Greensboro Monarchs in 1989, playing more than a decade in the ECHL, CHL, and WPHL with stops including the Johnstown Chiefs, Fort Worth Fire, Wichita Thunder, Amarillo Rattlers, and Fort Worth Brahmas through the late 1990s.\n\nMcCormick scored Richmond's winner with time running out in the third period in a 4-3 BCJHL win over Nanaimo at Civic Arena (Nanaimo Daily News Dec 16 1987 year-in-review, image 325618867) and contributed single goals through the 1987 playoff run, including the Doyle Cup Game 7 against Red Deer (Calgary Herald April 18 1987, image 483730219; The Province April 19 1987, image 502040018), the 9-3 Centennial Cup semifinal vs Pembroke (Times Colonist May 8 1987, image 508631348), and a four-goal win that included a Rob Clarke hat trick (Daily Herald-Tribune April 16 1987, image 731241842). He was assessed a tripping minor in the round-robin loss to Humboldt (Star-Phoenix May 7 1987, image 512096840) and a roughing minor in the Pembroke round-robin game (Star-Phoenix May 5 1987, image 512094503). A pre-draft profile noted McCormick at 6-3, 215 pounds and projected him as a high pick in the NHL underage draft, with 15 goals in 13 playoff games entering the Centennial Cup tournament: \"We think he'll be a great one for us... He has the potential to play any forward position\" (Grand Forks Herald April 15 1987, image 1128706608). A Star-Phoenix notes column identified McCormick among Sockeye players pursuing NCAA scholarships alongside Tomlinson (Boston University) and Rutherford (North Dakota) (Star-Phoenix May 6 1987, image 512095951).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Mike is our Rookie American from Seattle who played his minor hockey for the Sno-King organization. After bantam, Mike played Junior \"C\" and Junior \"B\". Last year while playing for the Seattle Americans, he played a big part in a very successful season for this Championship team. Mike's fan following have paid more in gas this season than most local fans paid in admission costs. Mike plans to attend North Dakota University next year and to continue playing hockey.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -764,7 +789,18 @@
           "pim": 26
         }
       }
-    ]
+    ],
+    "birthDate": "1968-05-14",
+    "height": "6'3\"",
+    "weight": 210,
+    "shoots": "L",
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 15,
+      "a": 2,
+      "pts": 17,
+      "pim": 24
+    }
   },
   {
     "id": "stan-czenczek",
@@ -787,7 +823,7 @@
       "pts": 3,
       "pim": 6
     },
-    "bio": "Stan Czenczek began his junior career with the Nanaimo Clippers of the BCJHL in 1983-84 before attending the University of Maine (Hockey East) in 1984-85, where he graduated in 1988. After brief stops with the Abbotsford Falcons and Delta Flyers, he joined the Richmond Sockeyes in 1986-87, producing 36 points from the blue line in the Centennial Cup season.\n\nCzenczek was recruited to the Maine Black Bears by head coach Shawn Walsh as part of a freshman class brought in from British Columbia alongside Dave Wensley, Dave Nonis and Paul Lelievre, with Todd Studnicka out of Ontario and Dewey Wahlin from St. Paul, Minnesota; by mid-season Maine beat writers judged \"Czenczek has become a solid defenseman\" (Maine Sunday Telegram January 27 1985, images 1309397751 and 1309397770; image 1309395464). He had nearly opted for the University of Denver before committing to Maine (The Bangor Daily News January 5 1985, image 664872292). Reflecting on his freshman season, Czenczek agreed with teammate Dave Nonis's assessment: \"We (the freshmen) cost the team some games due to our freshman mistakes, but receiving that much playing time enabled us to improve a lot over the season\" (The Bangor Daily News March 13 1985, images 663903394 and 663903402). Prior to joining the Sockeyes in 1986-87 he appeared for the UBC Thunderbirds in CIAU play, taking a holding minor at 9:55 of the third period in a 43-31 shots-on-goal loss to Saskatchewan on November 29 1986 (Star-Phoenix November 29 1986, image 512242898). After the Centennial Cup championship, Czenczek returned to the UBC Thunderbirds for Canada West play in 1987-88; in a weekend series at Saskatoon on November 27-28 1987 he took a roughing minor in the opener (which Saskatchewan won 8-1) and assisted on Fearns's third-period goal in the second game, also a Saskatchewan win (Star-Phoenix November 30 1987, image 511198663).\n\nCzenczek scored in several key 1987 playoff games: a single goal and an assist in Game 7 of the Doyle Cup vs Red Deer (Red Deer Advocate April 22 1987, image 558336723), the game-winning goal at 6:35 of the third period in Richmond's 2-1 Centennial Cup round-robin win over Pembroke (Alberni Valley Times May 5 1987, image 560108603; Daily Gleaner May 5 1987, image 1098991610), and the tying goal on a \"hard slapshot\" that beat Humboldt's Bruce Hoffort at 17:26 of the first period in the round-robin loss to Humboldt (Star-Phoenix May 7 1987, image 512096770). He was set up by Bryon Moller and Trevor Dickie on the Pembroke winner (Star-Phoenix May 5 1987, image 512094503) and by Phillips and Hervey on the Humboldt power-play goal (Star-Phoenix May 7 1987, image 512096840). He recorded an empty-net assist on Phillips' goal at 19:07 of the Centennial Cup final (Star-Phoenix May 11 1987, image 512098543). A Red Deer Advocate photo caption shows Czenczek (#7) helping goaltender Frank Romeo contain Rustler Randy Cave near the Richmond goal (April 8 1987, image 558334501).",
+    "bio": "Stan Czenczek began his junior career with the Nanaimo Clippers of the BCJHL in 1983-84 before attending the University of Maine (Hockey East) in 1984-85, where he graduated in 1988. After brief stops with the Abbotsford Falcons and Delta Flyers, he joined the Richmond Sockeyes in 1986-87, producing 36 points from the blue line in the Centennial Cup season.\n\nCzenczek was recruited to the Maine Black Bears by head coach Shawn Walsh as part of a freshman class brought in from British Columbia alongside Dave Wensley, Dave Nonis and Paul Lelievre, with Todd Studnicka out of Ontario and Dewey Wahlin from St. Paul, Minnesota; by mid-season Maine beat writers judged \"Czenczek has become a solid defenseman\" (Maine Sunday Telegram January 27 1985, images 1309397751 and 1309397770; image 1309395464). He had nearly opted for the University of Denver before committing to Maine (The Bangor Daily News January 5 1985, image 664872292). Reflecting on his freshman season, Czenczek agreed with teammate Dave Nonis's assessment: \"We (the freshmen) cost the team some games due to our freshman mistakes, but receiving that much playing time enabled us to improve a lot over the season\" (The Bangor Daily News March 13 1985, images 663903394 and 663903402). Prior to joining the Sockeyes in 1986-87 he appeared for the UBC Thunderbirds in CIAU play, taking a holding minor at 9:55 of the third period in a 43-31 shots-on-goal loss to Saskatchewan on November 29 1986 (Star-Phoenix November 29 1986, image 512242898). After the Centennial Cup championship, Czenczek returned to the UBC Thunderbirds for Canada West play in 1987-88; in a weekend series at Saskatoon on November 27-28 1987 he took a roughing minor in the opener (which Saskatchewan won 8-1) and assisted on Fearns's third-period goal in the second game, also a Saskatchewan win (Star-Phoenix November 30 1987, image 511198663).\n\nCzenczek scored in several key 1987 playoff games: a single goal and an assist in Game 7 of the Doyle Cup vs Red Deer (Red Deer Advocate April 22 1987, image 558336723), the game-winning goal at 6:35 of the third period in Richmond's 2-1 Centennial Cup round-robin win over Pembroke (Alberni Valley Times May 5 1987, image 560108603; Daily Gleaner May 5 1987, image 1098991610), and the tying goal on a \"hard slapshot\" that beat Humboldt's Bruce Hoffort at 17:26 of the first period in the round-robin loss to Humboldt (Star-Phoenix May 7 1987, image 512096770). He was set up by Bryon Moller and Trevor Dickie on the Pembroke winner (Star-Phoenix May 5 1987, image 512094503) and by Phillips and Hervey on the Humboldt power-play goal (Star-Phoenix May 7 1987, image 512096840). He recorded an empty-net assist on Phillips' goal at 19:07 of the Centennial Cup final (Star-Phoenix May 11 1987, image 512098543). A Red Deer Advocate photo caption shows Czenczek (#7) helping goaltender Frank Romeo contain Rustler Randy Cave near the Richmond goal (April 8 1987, image 558334501).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Although born in Calgary, Stan is a product of White Rock Minor Hockey. Stan went to Nanaimo to play Junior \"A\" Hockey and accepted a scholarship to the University of Maine as a rookie. Unfortunately, Stan received a back injury last season which forced him to come home. After an operation, Stan has been able to lead the Sockeyes this season with his breakaway skating style. Stan likes woodwork and girls. He answers to the names of \"Chenner\" or \"Stemmer\".\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -864,7 +900,17 @@
           "pim": 71
         }
       }
-    ]
+    ],
+    "birthDate": "1966-02-27",
+    "weight": 190,
+    "shoots": "L",
+    "abbottCupStats": {
+      "gp": 14,
+      "g": 3,
+      "a": 17,
+      "pts": 20,
+      "pim": 24
+    }
   },
   {
     "id": "paul-rutherford",
@@ -887,7 +933,7 @@
       "pts": 7,
       "pim": 0
     },
-    "bio": "Paul Rutherford (born January 1, 1969 in Delta, BC) broke in with the BCJHL's Delta Flyers in 1985-86 and joined the Richmond Sockeyes for the 1986-87 Centennial Cup season, posting 48 points in 47 games. He then spent four seasons at Ohio State University in the CCHA from 1987 to 1991, finishing as a consistent offensive contributor. He turned professional with the ECHL's Richmond Renegades in 1991-92, where he produced 58 points in 64 games.\n\nRutherford scored what became one of the most decisive goals in Sockeye history: the third-period winner in Richmond's 5-2 Centennial Cup-clinching victory over Humboldt, which \"shocked the partisan crowd of 2,300\" (The Vancouver Sun May 11 1987, image 495229991; Times Colonist May 10 1987, image 508633163; widely syndicated — e.g., Alberni Valley Times May 11 1987, image 560108760; The Hamilton Spectator May 11 1987, image 1011089155; The Leader-Post May 11 1987, image 496962458). Earlier in the playoffs he scored the overtime Mowat Cup winner, \"banging in a rebound\" at 4:37 of overtime to give Richmond the BCJHL title (Surrey Leader March 18 1987, image 327894504), and he scored two goals as a Sockeye in one Humboldt game where he was listed as \"netminder\" in a garbled wire line (The Vancouver Sun April 29 1987, image 495257563; Alberni Valley Times April 29 1987, image 560108301). He also contributed an assist on Dave Tomlinson's Centennial Cup final goal at 16:53 (Star-Phoenix May 11 1987, image 512098543). A Star-Phoenix column identified Rutherford as bound for North Dakota on a scholarship (May 6 1987, image 512095951). A December 1987 Abbotsford News feature listed him among former Richmond Sockeyes playing NCAA hockey (image 536573978).",
+    "bio": "Paul Rutherford (born January 1, 1969 in Delta, BC) broke in with the BCJHL's Delta Flyers in 1985-86 and joined the Richmond Sockeyes for the 1986-87 Centennial Cup season, posting 48 points in 47 games. He then spent four seasons at Ohio State University in the CCHA from 1987 to 1991, finishing as a consistent offensive contributor. He turned professional with the ECHL's Richmond Renegades in 1991-92, where he produced 58 points in 64 games.\n\nRutherford scored what became one of the most decisive goals in Sockeye history: the third-period winner in Richmond's 5-2 Centennial Cup-clinching victory over Humboldt, which \"shocked the partisan crowd of 2,300\" (The Vancouver Sun May 11 1987, image 495229991; Times Colonist May 10 1987, image 508633163; widely syndicated — e.g., Alberni Valley Times May 11 1987, image 560108760; The Hamilton Spectator May 11 1987, image 1011089155; The Leader-Post May 11 1987, image 496962458). Earlier in the playoffs he scored the overtime Mowat Cup winner, \"banging in a rebound\" at 4:37 of overtime to give Richmond the BCJHL title (Surrey Leader March 18 1987, image 327894504), and he scored two goals as a Sockeye in one Humboldt game where he was listed as \"netminder\" in a garbled wire line (The Vancouver Sun April 29 1987, image 495257563; Alberni Valley Times April 29 1987, image 560108301). He also contributed an assist on Dave Tomlinson's Centennial Cup final goal at 16:53 (Star-Phoenix May 11 1987, image 512098543). A Star-Phoenix column identified Rutherford as bound for North Dakota on a scholarship (May 6 1987, image 512095951). A December 1987 Abbotsford News feature listed him among former Richmond Sockeyes playing NCAA hockey (image 536573978).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Born in Sudbury, Ontario, Paul moved to Toronto where he played his first season of minor hockey at the age of six. After moving to the lower mainland, he played hockey for South Delta Minor. Although Paul could still be playing midget, he opted for taking a try with the Sockeyes. He has met the high expectations held for his rookie year. Paul plans to attend Ohio State next season. His hobbies are bodybuilding and dancing.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -1004,7 +1050,16 @@
           "pim": 2
         }
       }
-    ]
+    ],
+    "birthDate": "1969-01-01",
+    "shoots": "L",
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 3,
+      "a": 4,
+      "pts": 7,
+      "pim": 29
+    }
   },
   {
     "id": "jason-phillips",
@@ -1027,7 +1082,7 @@
       "pts": 21,
       "pim": 0
     },
-    "bio": "Jason Phillips (born January 29, 1967 in Coquitlam, BC) was one of the most decorated players on the 1987 Centennial Cup champion Richmond Sockeyes. Named the tournament's MVP, Top Scorer, and Most Sportsmanlike Player and selected to the All-Star team as a forward, Phillips posted 43 points in 34 games during the Sockeyes' championship run after bouncing between the BCJHL Vernon Lakers and WHL organizations in previous seasons. He returned to the WHL in 1987-88 with the Victoria Cougars and recorded 102 points in 62 games.\n\nIn the 1987 Centennial Cup final on May 9 1987 at the Humboldt Uniplex, Phillips scored a hat trick (including an empty-netter) in Richmond's 5-2 championship victory over Humboldt. He was named the tournament's Most Gentlemanly Player and selected to the Centennial Cup All-Star Team. Source: Star-Phoenix May 11 1987, image 512098543 (box score) and image 512098529 (narrative).\n\nContemporary coverage establishes Phillips as the scoring catalyst of the 1987 playoff run. He entered the Doyle Cup sitting third in regular-season BCJHL scoring at 15-5-20 in 13 games with 36 PIM (The Abbotsford News April 11 1987, image 536570359). In the Doyle Cup vs Red Deer he scored on a penalty shot and other key chances in front of 1,700 Rustlers fans (Red Deer Advocate April 15 1987, image 558335948), and he missed a separate penalty shot before an empty-netter in the same game (The Vancouver Sun April 15 1987, image 495194273). He scored three goals in Richmond's 5-3 Game-2 win over Humboldt in the Abbott Cup and credited linemate Brian Kozak: \"I give all the credit to Brian Kozak... It doesn't take much to shovel it in when Kozak and (Rob) Clarke do all the work\" (Star-Phoenix April 22 1987, image 512310501; Red Deer Advocate April 22 1987, image 558336723; Times Colonist April 22 1987, image 508875734). At the Centennial Cup in Humboldt he scored three goals in the 7-3 round-robin win over Dartmouth (syndicated widely — e.g., Alberni Valley Times May 4 1987, image 560108578; The Winnipeg Sun May 4 1987, image 736882093), and three more in the 9-3 semifinal win over Pembroke (Red Deer Advocate May 8 1987, image 558421854). Named to the tournament all-star team at left wing, he finished the round-robin second in scoring with three goals and three assists (The Province May 10 1987, image 502033093), and in the final — which he capped with a hat trick and an empty-netter at 19:07 — he was named the tournament's most gentlemanly player and one of two major individual award winners alongside goaltender Frank Romeo (Star-Phoenix May 11 1987, image 512098529; The Vancouver Sun May 11 1987, image 495230735). Phillips told reporters \"I've had an okay tournament\" on the eve of the final (The Vancouver Sun May 9 1987, image 495161710) and after the win called coach Orland Kurtenbach \"not only a good coach but a terrific person off the ice\" (The Vancouver Sun May 11 1987, image 495229991). He totalled four goals and five assists through the first four tournament games (same issue). An August 1987 notes column identified Phillips as a summer baseball coach alongside former Langley Eagle Dan Walton (The Sunday News August 16 1987, image 561082905).\n\nIn the BCJHL / Fred Page Cup final clincher on March 24 1987 at Richmond Arena, Phillips scored the game-winning goal at 9:31 of the third period to give Richmond a 3-2 win over Kelowna Packers and complete a five-game sweep of the best-of-nine series. Phillips described the goal: \"Steve Jaques took a shot from the point which I deflected but their goalie (Dusty Imoo) made the save. The rebound came right back to me and I just put it in. Credit has to go to Brian Kozak and Bill Hardy, who did all the mucking in the corner and created the loose puck.\" Source: Vancouver Sun Mar 25 1987 p.25, image 495157862.\n\nEntering the Centennial Cup final on May 9 1987, Phillips was the tournament's leading scorer with 4 goals and 5 assists in Richmond's first four games (3 round-robin + semifinal) and had been named to the tournament all-star team at the awards banquet Friday May 8. Source: Vancouver Sun May 9 1987 by Elliott Pap, image 495161710.",
+    "bio": "Jason Phillips (born January 29, 1967 in Coquitlam, BC) was one of the most decorated players on the 1987 Centennial Cup champion Richmond Sockeyes. Named the tournament's MVP, Top Scorer, and Most Sportsmanlike Player and selected to the All-Star team as a forward, Phillips posted 43 points in 34 games during the Sockeyes' championship run after bouncing between the BCJHL Vernon Lakers and WHL organizations in previous seasons. He returned to the WHL in 1987-88 with the Victoria Cougars and recorded 102 points in 62 games.\n\nIn the 1987 Centennial Cup final on May 9 1987 at the Humboldt Uniplex, Phillips scored a hat trick (including an empty-netter) in Richmond's 5-2 championship victory over Humboldt. He was named the tournament's Most Gentlemanly Player and selected to the Centennial Cup All-Star Team. Source: Star-Phoenix May 11 1987, image 512098543 (box score) and image 512098529 (narrative).\n\nContemporary coverage establishes Phillips as the scoring catalyst of the 1987 playoff run. He entered the Doyle Cup sitting third in regular-season BCJHL scoring at 15-5-20 in 13 games with 36 PIM (The Abbotsford News April 11 1987, image 536570359). In the Doyle Cup vs Red Deer he scored on a penalty shot and other key chances in front of 1,700 Rustlers fans (Red Deer Advocate April 15 1987, image 558335948), and he missed a separate penalty shot before an empty-netter in the same game (The Vancouver Sun April 15 1987, image 495194273). He scored three goals in Richmond's 5-3 Game-2 win over Humboldt in the Abbott Cup and credited linemate Brian Kozak: \"I give all the credit to Brian Kozak... It doesn't take much to shovel it in when Kozak and (Rob) Clarke do all the work\" (Star-Phoenix April 22 1987, image 512310501; Red Deer Advocate April 22 1987, image 558336723; Times Colonist April 22 1987, image 508875734). At the Centennial Cup in Humboldt he scored three goals in the 7-3 round-robin win over Dartmouth (syndicated widely — e.g., Alberni Valley Times May 4 1987, image 560108578; The Winnipeg Sun May 4 1987, image 736882093), and three more in the 9-3 semifinal win over Pembroke (Red Deer Advocate May 8 1987, image 558421854). Named to the tournament all-star team at left wing, he finished the round-robin second in scoring with three goals and three assists (The Province May 10 1987, image 502033093), and in the final — which he capped with a hat trick and an empty-netter at 19:07 — he was named the tournament's most gentlemanly player and one of two major individual award winners alongside goaltender Frank Romeo (Star-Phoenix May 11 1987, image 512098529; The Vancouver Sun May 11 1987, image 495230735). Phillips told reporters \"I've had an okay tournament\" on the eve of the final (The Vancouver Sun May 9 1987, image 495161710) and after the win called coach Orland Kurtenbach \"not only a good coach but a terrific person off the ice\" (The Vancouver Sun May 11 1987, image 495229991). He totalled four goals and five assists through the first four tournament games (same issue). An August 1987 notes column identified Phillips as a summer baseball coach alongside former Langley Eagle Dan Walton (The Sunday News August 16 1987, image 561082905).\n\nIn the BCJHL / Fred Page Cup final clincher on March 24 1987 at Richmond Arena, Phillips scored the game-winning goal at 9:31 of the third period to give Richmond a 3-2 win over Kelowna Packers and complete a five-game sweep of the best-of-nine series. Phillips described the goal: \"Steve Jaques took a shot from the point which I deflected but their goalie (Dusty Imoo) made the save. The rebound came right back to me and I just put it in. Credit has to go to Brian Kozak and Bill Hardy, who did all the mucking in the corner and created the loose puck.\" Source: Vancouver Sun Mar 25 1987 p.25, image 495157862.\n\nEntering the Centennial Cup final on May 9 1987, Phillips was the tournament's leading scorer with 4 goals and 5 assists in Richmond's first four games (3 round-robin + semifinal) and had been named to the tournament all-star team at the awards banquet Friday May 8. Source: Vancouver Sun May 9 1987 by Elliott Pap, image 495161710.\n\nPer the 1987 Abbott Cup Souvenir Program: \"Jason Phillips was born in Burnaby, B.C. and played his early years of hockey there. He has played for the Kamloops Blazers, Brandon Wheat Kings and the Seattle Thunderbirds before coming to the Sockeyes. He keeps in shape over the off season playing racquet sports and water skiing. He has strong likes and dislikes. He lists his dislikes as losing, brussel sprouts and grumpy owners with colds although with the Sockeyes, he has never experienced the latter. His position with the team is playing left wing on a line with Brian Kozak and Bill Hardy.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -1147,7 +1202,18 @@
           "pim": 4
         }
       }
-    ]
+    ],
+    "birthDate": "1967-01-29",
+    "height": "5'11\"",
+    "weight": 175,
+    "shoots": "L",
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 16,
+      "a": 7,
+      "pts": 23,
+      "pim": 46
+    }
   },
   {
     "id": "steve-jaques",
@@ -1170,7 +1236,7 @@
       "pts": 2,
       "pim": 28
     },
-    "bio": "Steve Jaques (born February 21, 1969 in Burnaby, BC) was a physical forward whose junior career began with the 1986-87 Centennial Cup-winning Richmond Sockeyes. He moved to the WHL with the New Westminster Bruins in 1987-88, posting 336 PIM, and continued with the Tri-City Americans for two more seasons, totaling 84 points in 1989-90. Jaques turned professional with the IHL's Phoenix Roadrunners in 1990 and played nearly a decade in the minors, including stints with the Providence Bruins (AHL), Las Vegas Thunder, Houston Aeros, and Kansas City Blades (IHL), retiring in 1998.\n\nJaques received a five-minute match penalty for helmet-butting Humboldt star Bill McDougall in the mouth at 3:02 of overtime of Game 5 of the Abbott Cup, a non-hockey play \"behind the play\" which earned him a likely three-game suspension (The Vancouver Sun April 29 1987, images 495257563 and 495257020; Nanaimo Daily News April 29 1987, image 325077439 — which also notes Jaques \"was with the Broncos earlier this year\"). The backstory was confirmed by a Star-Phoenix column in which Jaques, who started the 1986-87 season with Humboldt before being traded, sided with one of the Broncos' local critics: \"We knew we had to play each other again in the Centennial Cup; it's not like we wanted to be buddies with them... I don't blame them\" (Star-Phoenix May 6 1987, image 512095951). Before Richmond's 4-1 round-robin win over Pembroke he told reporters, \"Those other teams had to be champions to get here, but we know who we have to beat to win the Centennial Cup\" (Star-Phoenix May 5 1987, image 512094454). He scored in the 9-3 Centennial Cup semifinal win over Pembroke (Times Colonist May 8 1987, image 508631348; The Leader-Post May 8 1987, image 496960544). Box scores document him taking roughing and fighting/game-misconduct penalties in the round-robin loss to Humboldt and other minors through the tournament (Star-Phoenix May 7 1987, image 512096840; May 5 1987, image 512094503). A Vancouver Sun photograph from the Doyle Cup shows Jaques (#10) \"sticking to his man like glue\" against Red Deer's Pete deGraaf (April 8 1987, image 495088209).\n\nJaques was drafted by the Los Angeles Kings in the 11th round (228th overall) of the 1989 NHL Entry Draft. Source: Buffalo News 1989 draft listing, image 875335064.\n\nAt Tri-City he formed a physical tandem with Greg Spenrath known as the \"Bruise Brothers\" (Tri-City Herald, image 821560569). He was named to the WHL West First All-Star Team on defence in 1988-89 and the Second All-Star Team in 1989-90, serving as Tri-City Americans captain in 1989-90.",
+    "bio": "Steve Jaques (born February 21, 1969 in Burnaby, BC) was a physical forward whose junior career began with the 1986-87 Centennial Cup-winning Richmond Sockeyes. He moved to the WHL with the New Westminster Bruins in 1987-88, posting 336 PIM, and continued with the Tri-City Americans for two more seasons, totaling 84 points in 1989-90. Jaques turned professional with the IHL's Phoenix Roadrunners in 1990 and played nearly a decade in the minors, including stints with the Providence Bruins (AHL), Las Vegas Thunder, Houston Aeros, and Kansas City Blades (IHL), retiring in 1998.\n\nJaques received a five-minute match penalty for helmet-butting Humboldt star Bill McDougall in the mouth at 3:02 of overtime of Game 5 of the Abbott Cup, a non-hockey play \"behind the play\" which earned him a likely three-game suspension (The Vancouver Sun April 29 1987, images 495257563 and 495257020; Nanaimo Daily News April 29 1987, image 325077439 — which also notes Jaques \"was with the Broncos earlier this year\"). The backstory was confirmed by a Star-Phoenix column in which Jaques, who started the 1986-87 season with Humboldt before being traded, sided with one of the Broncos' local critics: \"We knew we had to play each other again in the Centennial Cup; it's not like we wanted to be buddies with them... I don't blame them\" (Star-Phoenix May 6 1987, image 512095951). Before Richmond's 4-1 round-robin win over Pembroke he told reporters, \"Those other teams had to be champions to get here, but we know who we have to beat to win the Centennial Cup\" (Star-Phoenix May 5 1987, image 512094454). He scored in the 9-3 Centennial Cup semifinal win over Pembroke (Times Colonist May 8 1987, image 508631348; The Leader-Post May 8 1987, image 496960544). Box scores document him taking roughing and fighting/game-misconduct penalties in the round-robin loss to Humboldt and other minors through the tournament (Star-Phoenix May 7 1987, image 512096840; May 5 1987, image 512094503). A Vancouver Sun photograph from the Doyle Cup shows Jaques (#10) \"sticking to his man like glue\" against Red Deer's Pete deGraaf (April 8 1987, image 495088209).\n\nJaques was drafted by the Los Angeles Kings in the 11th round (228th overall) of the 1989 NHL Entry Draft. Source: Buffalo News 1989 draft listing, image 875335064.\n\nAt Tri-City he formed a physical tandem with Greg Spenrath known as the \"Bruise Brothers\" (Tri-City Herald, image 821560569). He was named to the WHL West First All-Star Team on defence in 1988-89 and the Second All-Star Team in 1989-90, serving as Tri-City Americans captain in 1989-90.\n\nPer the 1987 Abbott Cup Souvenir Program: \"Steve played his minor hockey in Surrey and while still in midget, played several games at the Junior \"B\" level. Steve was a star on the Sockeyes team. Steve plans to take the scholarship opportunity and continue to play hockey.\" (Note: OCR of program text for this entry was partially garbled; paraphrased faithfully from legible fragments.)",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -1456,7 +1522,18 @@
           "pim": 35
         }
       }
-    ]
+    ],
+    "birthDate": "1969-02-21",
+    "height": "6'0\"",
+    "weight": 185,
+    "shoots": "R",
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 3,
+      "a": 1,
+      "pts": 4,
+      "pim": 72
+    }
   },
   {
     "id": "dave-tomlinson",
@@ -1479,7 +1556,7 @@
       "pts": 18,
       "pim": 0
     },
-    "bio": "Dave Tomlinson was born May 8, 1969 in North Vancouver, British Columbia (5'11\", 181 lbs, shoots left). After a 48-goal season with the Summerland Buckaroos, he joined the Richmond Sockeyes for 1986-87 and captained the team to the Centennial Cup with 108 points (43 G, 65 A) in 51 regular-season games, leading the team in scoring. \\n\\n He accepted a scholarship to Boston University, where he played four seasons in Hockey East (1987-1991), served as an alternate captain as a senior, and closed his college career with 30 goals and 30 assists in 41 games in 1990-91 — totalling 179 points at BU. The Toronto Maple Leafs selected him in the first round (3rd overall) of the 1989 NHL Supplemental Draft. Tomlinson played 42 NHL games with Toronto (1991-92, 1992-93), Winnipeg (1993-94), and Florida (1994-95), registering 1 goal, 3 assists and 4 points, along with significant time in the AHL (St. John's, Moncton, Maine) and IHL (Cincinnati Cyclones, where he posted 110 points in 1994-95). \\n\\n Tomlinson spent roughly a decade playing professionally in Germany's DEL — primarily with Adler Mannheim, where he was a four-time DEL champion — before retiring in 2006 following 15 years as a pro. \\n\\n Post-playing, he served as colour commentator on Vancouver Canucks radio broadcasts on Team 1040 / TSN 1040 from 2010 to 2019, was named the inaugural radio analyst for the Seattle Kraken in October 2021, and since September 2023 has been the primary colour commentator for Canucks regional broadcasts on Sportsnet. \\n\\n In retrospective interviews Tomlinson said of the 1987 club: \\\"We had an awesome team; it was a wonderful, wonderful time. The owner, Bruce Taylor, wanted to put a team together to win that championship, so he brought in Kurtenbach and he kept on bringing in players that just seemed to make us stronger and stronger.\\\" He credited the late-season goaltending pickup directly: \\\"Frank Romeo was the goaltender and only started for us in the playoffs, he was a big pickup. Matt Hervey was a heavy sort, with a great powerplay. We were a tough, tough hockey club and that really helped us.\\\"\n\nTomlinson's 1986-87 playoff heroics are extensively documented. He opened the scoring just 21 seconds into Game 1 of the Doyle Cup vs Red Deer (Red Deer Advocate April 8 1987, image 558334501), scored the only Sockeye goal in a 3-1 loss (Daily Herald-Tribune April 13 1987, image 731241442) and scored \"his fourth goal of the series\" at 1:39 of the third period in Game 5 (Red Deer Advocate April 13 1987, image 558335628). In Game 7 he scored three goals to pace Richmond's 9-1 victory that clinched the Doyle Cup (Calgary Herald April 18 1987, image 483730219; Star-Phoenix April 18 1987, image 512309668; The Leader-Post April 18 1987, image 496462357). After being \"pummelled\" by Rustler defenceman Keith Lightbown without removing his gloves, he drew a five-minute power play that helped spark the comeback in an earlier game (Red Deer Advocate April 9 1987, image 558334839). In the Abbott Cup vs Humboldt he scored the Game-4 winner at Richmond Arena — \"We don't want to be known as the team that made it through the back door,\" he told The Vancouver Sun (April 27 1987, image 495254117) — and the series-clinching goal with 2:37 remaining in regulation in Game 7 (Star-Phoenix April 30 1987, image 512312872; Times Colonist April 30 1987, image 508878542). At the Centennial Cup he scored twice in the third period to break the 2-1 round-robin win over Pembroke (Star-Phoenix May 5 1987, images 512094454 and 512094503), twice more in the 5-3 round-robin loss to Humboldt (Alberni Valley Times May 5 1987, image 560108603), once in the 9-3 semifinal vs Pembroke (The Daily Herald-Tribune April 16 1987, image 731241842) and again in the 5-2 Centennial Cup final win on a feed from Rutherford and Claringbull at 16:53 of the third period (Star-Phoenix May 11 1987, image 512098543; Alberni Valley Times May 11 1987, image 560108760). A Star-Phoenix note identified Tomlinson as bound for Boston University on scholarship (May 6 1987, image 512095951).\n\nAs a BU freshman in 1987-88, Tomlinson was a regular contributor on a Terriers line with Mike Kelfer, Joe Sacco, and Tom Dion. He scored in the Hockey East opener at Billerica's Tully Forum on October 31 1987, a 5-0 BU shutout of Lowell in which Peter Fish recorded his first career shutout; Tomlinson's third-period goal (assisted by Rob Regan) made it 4-0 (The Boston Globe November 1 1987, image 437934229). On January 16 1988 he scored twice in a 4-2 BU win over North Dakota at Walter Brown Arena, the second goal on a power-play redirect of Matt Pesklewis's shot with 10 seconds left in the second period, and added an assist on Ian Wood's opening goal (The Boston Globe January 17 1988, image 438845236). He assisted on goals by Kelfer, Tom Dion, and Joe Sacco in a 6-3 BU win over Boston College on February 27 1988 (The Boston Globe February 28 1988, image 437977772) and set up Sacco in a 6-4 loss to Providence at Walter Brown Arena on March 5 1988 (The Boston Globe March 6 1988, image 438843894).\n\nAfter turning pro in 1991-92 with the AHL's St. John's Maple Leafs, Tomlinson emerged as the organization's top farmhand. Moncton Hawks coach Rob Laird later called him \"the best two-way forward in the American Hockey League\" and told the Times-Transcript: \"Dave Tomlinson killed us last year and I've always wanted that guy on my team\" (Times-Transcript November 10 1993, image 1107716258). Tomlinson credited his defensive development to his BU coach: \"My coach at BU (Jackie Parker), really opened my eyes and made me a more complete player.\" He featured on a productive St. John's line with Patrick Augusta and Todd Hawkins — the trio combined for five goals and 12 points in a 6-2 AHL win over Adirondack on October 20 1992 (The Toronto Star October 22 1992, image 949148192) — and he scored twice in a franchise-record 10-2 St. John's romp over Hershey on November 1 1992 (The Toronto Star November 2 1992, image 949130354). On January 7 1993, leading the St. John's Leafs in scoring with 51 points (21 G, 30 A) in 37 games, he was recalled by Toronto to replace injured centre Peter Zezel (sprained wrist) and made his NHL debut that night at Maple Leaf Gardens vs San Jose (The Toronto Star January 8 1993, image 949123397; The Gazette January 9 1993, image 424270274). Cliff Fletcher said Tomlinson \"has consistently been the best player on Toronto's American Hockey League farm team.\" He returned to St. John's later in January (The Toronto Star January 18 1993, image 949130250), finishing 1992-93 with 84 points in 70 games and leading the AHL with six shorthanded goals (Times-Transcript April 14 1993, image 1107681099). By the playoffs he was centring a hot Maple Leafs line with Kent Manderville and Patrik Augusta (Times-Transcript April 13 1993, image 1107674585).\n\nOn August 3 1993 Toronto traded Tomlinson to the expansion Florida Panthers for a future draft pick; Florida immediately dealt him to Winnipeg for disgruntled centre Jason Cirone (Times-Transcript August 4 1993, image 1107790757). Assigned to the Jets' AHL farm in Moncton, he scored 11 goals in his first 12 games — including hat tricks in multi-goal efforts — and Laird called him \"Mr. Everything\" in a November 10 1993 Times-Transcript feature (image 1107716258). On December 8 1993 Tomlinson was recalled to Winnipeg and spent 23 games with the Jets before being reassigned to Moncton in late February (Times-Transcript December 11 1993, image 1107681995; Times-Transcript February 28 1994, image 1107761162). He finished the 1993-94 AHL season with 23 goals in 39 games and helped the Hawks upset the regular-season-champion St. John's Maple Leafs in the Atlantic Division final — scoring in Game 5 of the 5-0 shutout at the Moncton Coliseum on May 8 1994 (Telegraph-Journal May 9 1994, image 1111149754). During the 1994 opening-round series vs Saint John, with his scoring line held in check, he told the paper: \"I've been quite happy with my two-way play, but I'm also expected to contribute more and score some goals. All I can say is that I'm due\" (Times-Transcript April 25 1994, image 1107950086).\n\nDuring the 1994-95 NHL lockout Tomlinson paced the Cincinnati Cyclones (Florida's IHL affiliate), leading the IHL's Eastern Division in scoring with 79 points (28 G, 51 A) in 37 games along with a plus-19 rating through February. The Panthers recalled him from Cincinnati on February 20 1995 to fill the hole created by Stu Barnes's eye injury (South Florida Sun-Sentinel February 21 1995, image 239018639). He saw limited action over the next month — a mix of healthy scratches and brief shifts — before being returned to Cincinnati in early March (South Florida Sun-Sentinel March 5 1995, image 238818945; Miami Herald March 5 1995, image 639202890). In June 1996, after two IHL seasons among the Cyclones' top three scorers, Tomlinson signed a one-year deal with Adler Mannheim of the German Elite League that \"more than doubled\" his Cincinnati salary of just under $100,000. He explained to the Cincinnati Enquirer (June 15 1996, image 102209856): \"I wanted to be paid somewhere around $140,000. But Ron (Smith, Cyclones director of hockey operations) wanted to wait until after the season, which gets a little too late. Mannheim called, and we took their deal.\"",
+    "bio": "Dave Tomlinson was born May 8, 1969 in North Vancouver, British Columbia (5'11\", 181 lbs, shoots left). After a 48-goal season with the Summerland Buckaroos, he joined the Richmond Sockeyes for 1986-87 and captained the team to the Centennial Cup with 108 points (43 G, 65 A) in 51 regular-season games, leading the team in scoring. \\n\\n He accepted a scholarship to Boston University, where he played four seasons in Hockey East (1987-1991), served as an alternate captain as a senior, and closed his college career with 30 goals and 30 assists in 41 games in 1990-91 — totalling 179 points at BU. The Toronto Maple Leafs selected him in the first round (3rd overall) of the 1989 NHL Supplemental Draft. Tomlinson played 42 NHL games with Toronto (1991-92, 1992-93), Winnipeg (1993-94), and Florida (1994-95), registering 1 goal, 3 assists and 4 points, along with significant time in the AHL (St. John's, Moncton, Maine) and IHL (Cincinnati Cyclones, where he posted 110 points in 1994-95). \\n\\n Tomlinson spent roughly a decade playing professionally in Germany's DEL — primarily with Adler Mannheim, where he was a four-time DEL champion — before retiring in 2006 following 15 years as a pro. \\n\\n Post-playing, he served as colour commentator on Vancouver Canucks radio broadcasts on Team 1040 / TSN 1040 from 2010 to 2019, was named the inaugural radio analyst for the Seattle Kraken in October 2021, and since September 2023 has been the primary colour commentator for Canucks regional broadcasts on Sportsnet. \\n\\n In retrospective interviews Tomlinson said of the 1987 club: \\\"We had an awesome team; it was a wonderful, wonderful time. The owner, Bruce Taylor, wanted to put a team together to win that championship, so he brought in Kurtenbach and he kept on bringing in players that just seemed to make us stronger and stronger.\\\" He credited the late-season goaltending pickup directly: \\\"Frank Romeo was the goaltender and only started for us in the playoffs, he was a big pickup. Matt Hervey was a heavy sort, with a great powerplay. We were a tough, tough hockey club and that really helped us.\\\"\n\nTomlinson's 1986-87 playoff heroics are extensively documented. He opened the scoring just 21 seconds into Game 1 of the Doyle Cup vs Red Deer (Red Deer Advocate April 8 1987, image 558334501), scored the only Sockeye goal in a 3-1 loss (Daily Herald-Tribune April 13 1987, image 731241442) and scored \"his fourth goal of the series\" at 1:39 of the third period in Game 5 (Red Deer Advocate April 13 1987, image 558335628). In Game 7 he scored three goals to pace Richmond's 9-1 victory that clinched the Doyle Cup (Calgary Herald April 18 1987, image 483730219; Star-Phoenix April 18 1987, image 512309668; The Leader-Post April 18 1987, image 496462357). After being \"pummelled\" by Rustler defenceman Keith Lightbown without removing his gloves, he drew a five-minute power play that helped spark the comeback in an earlier game (Red Deer Advocate April 9 1987, image 558334839). In the Abbott Cup vs Humboldt he scored the Game-4 winner at Richmond Arena — \"We don't want to be known as the team that made it through the back door,\" he told The Vancouver Sun (April 27 1987, image 495254117) — and the series-clinching goal with 2:37 remaining in regulation in Game 7 (Star-Phoenix April 30 1987, image 512312872; Times Colonist April 30 1987, image 508878542). At the Centennial Cup he scored twice in the third period to break the 2-1 round-robin win over Pembroke (Star-Phoenix May 5 1987, images 512094454 and 512094503), twice more in the 5-3 round-robin loss to Humboldt (Alberni Valley Times May 5 1987, image 560108603), once in the 9-3 semifinal vs Pembroke (The Daily Herald-Tribune April 16 1987, image 731241842) and again in the 5-2 Centennial Cup final win on a feed from Rutherford and Claringbull at 16:53 of the third period (Star-Phoenix May 11 1987, image 512098543; Alberni Valley Times May 11 1987, image 560108760). A Star-Phoenix note identified Tomlinson as bound for Boston University on scholarship (May 6 1987, image 512095951).\n\nAs a BU freshman in 1987-88, Tomlinson was a regular contributor on a Terriers line with Mike Kelfer, Joe Sacco, and Tom Dion. He scored in the Hockey East opener at Billerica's Tully Forum on October 31 1987, a 5-0 BU shutout of Lowell in which Peter Fish recorded his first career shutout; Tomlinson's third-period goal (assisted by Rob Regan) made it 4-0 (The Boston Globe November 1 1987, image 437934229). On January 16 1988 he scored twice in a 4-2 BU win over North Dakota at Walter Brown Arena, the second goal on a power-play redirect of Matt Pesklewis's shot with 10 seconds left in the second period, and added an assist on Ian Wood's opening goal (The Boston Globe January 17 1988, image 438845236). He assisted on goals by Kelfer, Tom Dion, and Joe Sacco in a 6-3 BU win over Boston College on February 27 1988 (The Boston Globe February 28 1988, image 437977772) and set up Sacco in a 6-4 loss to Providence at Walter Brown Arena on March 5 1988 (The Boston Globe March 6 1988, image 438843894).\n\nAfter turning pro in 1991-92 with the AHL's St. John's Maple Leafs, Tomlinson emerged as the organization's top farmhand. Moncton Hawks coach Rob Laird later called him \"the best two-way forward in the American Hockey League\" and told the Times-Transcript: \"Dave Tomlinson killed us last year and I've always wanted that guy on my team\" (Times-Transcript November 10 1993, image 1107716258). Tomlinson credited his defensive development to his BU coach: \"My coach at BU (Jackie Parker), really opened my eyes and made me a more complete player.\" He featured on a productive St. John's line with Patrick Augusta and Todd Hawkins — the trio combined for five goals and 12 points in a 6-2 AHL win over Adirondack on October 20 1992 (The Toronto Star October 22 1992, image 949148192) — and he scored twice in a franchise-record 10-2 St. John's romp over Hershey on November 1 1992 (The Toronto Star November 2 1992, image 949130354). On January 7 1993, leading the St. John's Leafs in scoring with 51 points (21 G, 30 A) in 37 games, he was recalled by Toronto to replace injured centre Peter Zezel (sprained wrist) and made his NHL debut that night at Maple Leaf Gardens vs San Jose (The Toronto Star January 8 1993, image 949123397; The Gazette January 9 1993, image 424270274). Cliff Fletcher said Tomlinson \"has consistently been the best player on Toronto's American Hockey League farm team.\" He returned to St. John's later in January (The Toronto Star January 18 1993, image 949130250), finishing 1992-93 with 84 points in 70 games and leading the AHL with six shorthanded goals (Times-Transcript April 14 1993, image 1107681099). By the playoffs he was centring a hot Maple Leafs line with Kent Manderville and Patrik Augusta (Times-Transcript April 13 1993, image 1107674585).\n\nOn August 3 1993 Toronto traded Tomlinson to the expansion Florida Panthers for a future draft pick; Florida immediately dealt him to Winnipeg for disgruntled centre Jason Cirone (Times-Transcript August 4 1993, image 1107790757). Assigned to the Jets' AHL farm in Moncton, he scored 11 goals in his first 12 games — including hat tricks in multi-goal efforts — and Laird called him \"Mr. Everything\" in a November 10 1993 Times-Transcript feature (image 1107716258). On December 8 1993 Tomlinson was recalled to Winnipeg and spent 23 games with the Jets before being reassigned to Moncton in late February (Times-Transcript December 11 1993, image 1107681995; Times-Transcript February 28 1994, image 1107761162). He finished the 1993-94 AHL season with 23 goals in 39 games and helped the Hawks upset the regular-season-champion St. John's Maple Leafs in the Atlantic Division final — scoring in Game 5 of the 5-0 shutout at the Moncton Coliseum on May 8 1994 (Telegraph-Journal May 9 1994, image 1111149754). During the 1994 opening-round series vs Saint John, with his scoring line held in check, he told the paper: \"I've been quite happy with my two-way play, but I'm also expected to contribute more and score some goals. All I can say is that I'm due\" (Times-Transcript April 25 1994, image 1107950086).\n\nDuring the 1994-95 NHL lockout Tomlinson paced the Cincinnati Cyclones (Florida's IHL affiliate), leading the IHL's Eastern Division in scoring with 79 points (28 G, 51 A) in 37 games along with a plus-19 rating through February. The Panthers recalled him from Cincinnati on February 20 1995 to fill the hole created by Stu Barnes's eye injury (South Florida Sun-Sentinel February 21 1995, image 239018639). He saw limited action over the next month — a mix of healthy scratches and brief shifts — before being returned to Cincinnati in early March (South Florida Sun-Sentinel March 5 1995, image 238818945; Miami Herald March 5 1995, image 639202890). In June 1996, after two IHL seasons among the Cyclones' top three scorers, Tomlinson signed a one-year deal with Adler Mannheim of the German Elite League that \"more than doubled\" his Cincinnati salary of just under $100,000. He explained to the Cincinnati Enquirer (June 15 1996, image 102209856): \"I wanted to be paid somewhere around $140,000. But Ron (Smith, Cyclones director of hockey operations) wanted to wait until after the season, which gets a little too late. Mannheim called, and we took their deal.\"\n\nPer the 1987 Abbott Cup Souvenir Program: \"Dave played all his minor hockey at the North Shore Winter Club. He has played on many Provincial Championship teams. Last season Dave had an excellent season playing midget hockey in Summerland. This season has seen him lead the scoring for the Sockeyes. Dave plans to take advantage of a scholarship to Boston College while continuing to play hockey.\" (Note: Abbott program birth year reads \"05-08-68\" but hockeydb, Elite Prospects and his Boston University college start (1988) align with 1969 birth year; retaining 1969.)",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -1953,7 +2030,17 @@
           "pim": 2
         }
       }
-    ]
+    ],
+    "birthDate": "1969-05-08",
+    "height": "5'10\"",
+    "weight": 160,
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 11,
+      "a": 13,
+      "pts": 24,
+      "pim": 12
+    }
   },
   {
     "id": "bryon-moller",
@@ -1976,7 +2063,7 @@
       "pts": 2,
       "pim": 2
     },
-    "bio": "Bryon (Bryan) Moller, a centre born June 7, 1968 (5'10\", 165 lbs), played junior hockey in the BCJHL with the Langley Eagles from 1984-85 through 1986-87, splitting time with the Richmond Sockeyes in 1985-86 and again in the 1986-87 Centennial Cup run, where he contributed 25 points in 16 games. He went on to play three seasons (1988-89 through 1990-91) at the University of Alabama-Huntsville in the NCAA, posting 99 points in 82 games.\n\nMoller arrived in Richmond mid-season after being traded from the Langley Eagles — where he had started 1986-87 — to the Sockeyes in exchange for defenceman Philip Von Stefenelli. Eagles coach Muzz MacPherson admitted: \"We gave them (Richmond) a lot of points by trading Moller. We'll miss him\" (Langley Advance January 21 1987, image 536973431; subsequently: \"MacPherson made a wise move when he traded scoring ace Bryan Moller to the Richmond Sockeyes,\" Langley Advance April 22 1987, image 536980538). He scored in Game 1 of the Abbott Cup vs Humboldt (Langley Advance April 22 1987, image 536980538), in the Doyle Cup Game 7 rout of Red Deer (Alberni Valley Times April 21 1987, image 560107877; The Vancouver Sun April 21 1987, image 495242331; The Abbotsford News April 22 1987, image 536581352), in the 7-3 Centennial Cup round-robin win over Dartmouth (Alberni Valley Times May 4 1987, image 560108578; The Leader-Post May 4 1987, image 496959220), and in the 9-3 semifinal win over Pembroke (Red Deer Advocate May 8 1987, image 558421854; The Leader-Post May 8 1987, image 496960544). He picked up an assist on Czenczek's game-winner at 6:35 of the third period in the 2-1 Pembroke round-robin win (Star-Phoenix May 5 1987, image 512094503). Nanaimo columnist Bill Walls ranked him alongside Dave Tomlinson and Rob Clarke as one of Richmond's \"prolific point-getters\" (Nanaimo Daily News February 27 1987, image 324474820). A Star-Phoenix note indicated Moller was bound for the University of Alabama (May 6 1987, image 512095951).",
+    "bio": "Bryon (Bryan) Moller, a centre born June 7, 1968 (5'10\", 165 lbs), played junior hockey in the BCJHL with the Langley Eagles from 1984-85 through 1986-87, splitting time with the Richmond Sockeyes in 1985-86 and again in the 1986-87 Centennial Cup run, where he contributed 25 points in 16 games. He went on to play three seasons (1988-89 through 1990-91) at the University of Alabama-Huntsville in the NCAA, posting 99 points in 82 games.\n\nMoller arrived in Richmond mid-season after being traded from the Langley Eagles — where he had started 1986-87 — to the Sockeyes in exchange for defenceman Philip Von Stefenelli. Eagles coach Muzz MacPherson admitted: \"We gave them (Richmond) a lot of points by trading Moller. We'll miss him\" (Langley Advance January 21 1987, image 536973431; subsequently: \"MacPherson made a wise move when he traded scoring ace Bryan Moller to the Richmond Sockeyes,\" Langley Advance April 22 1987, image 536980538). He scored in Game 1 of the Abbott Cup vs Humboldt (Langley Advance April 22 1987, image 536980538), in the Doyle Cup Game 7 rout of Red Deer (Alberni Valley Times April 21 1987, image 560107877; The Vancouver Sun April 21 1987, image 495242331; The Abbotsford News April 22 1987, image 536581352), in the 7-3 Centennial Cup round-robin win over Dartmouth (Alberni Valley Times May 4 1987, image 560108578; The Leader-Post May 4 1987, image 496959220), and in the 9-3 semifinal win over Pembroke (Red Deer Advocate May 8 1987, image 558421854; The Leader-Post May 8 1987, image 496960544). He picked up an assist on Czenczek's game-winner at 6:35 of the third period in the 2-1 Pembroke round-robin win (Star-Phoenix May 5 1987, image 512094503). Nanaimo columnist Bill Walls ranked him alongside Dave Tomlinson and Rob Clarke as one of Richmond's \"prolific point-getters\" (Nanaimo Daily News February 27 1987, image 324474820). A Star-Phoenix note indicated Moller was bound for the University of Alabama (May 6 1987, image 512095951).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Bryan played most of his minor hockey at Grandview in Vancouver although he has lived in Burnaby all his life. In his last year of midget hockey in 1985, he played for Team Pacific while playing for Burnaby Minor. In his rookie year he played for the Langley Eagles where he was leading scorer and for the Richmond Sockeyes. Bryan plans to pursue a college education while continuing to play hockey. He loves the great outdoors and spends any spare time enjoying it or building fish ponds.\" (Note: Program spells his first name \"Bryan\"; roster retains \"Bryon\" per authoritative sources.)",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -2093,7 +2180,15 @@
           "pim": 18
         }
       }
-    ]
+    ],
+    "birthDate": "1968-06-07",
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 2,
+      "a": 11,
+      "pts": 13,
+      "pim": 40
+    }
   },
   {
     "id": "brian-kozak",
@@ -2116,7 +2211,7 @@
       "pts": 7,
       "pim": 6
     },
-    "bio": "Brian Kozak (born May 8, 1966 in Kenora, Ontario) began his junior career with the OHL's Soo Greyhounds and OJHL's Newmarket Flyers in 1983-84. He joined the Richmond Sockeyes for 1986-87 after a brief WHL stint with New Westminster, posting 49 points in 39 games during the Centennial Cup run. Kozak then played a season at the University of Manitoba (CWUAA) before moving into coaching; he served as head coach of the BCHL's Quesnel Millionaires in 2005-06.\n\nKozak scored the overtime winner at 3:28 of the 10-minute OT session in a key late-season win (Nanaimo Daily News February 25 1987, image 324472605) and two goals in the Doyle Cup Game-4 win over Red Deer (The Vancouver Sun April 15 1987, image 495194273). He added \"insurance\" at 13:27 after Matt Hervey's winner earlier in the Doyle Cup (Red Deer Advocate April 9 1987, image 558334839), scored in Game 7 of the Doyle Cup (Daily Herald-Tribune April 16 1987, image 731241842), and scored in Richmond's 4-3 overtime round-robin win over Humboldt at the Centennial Cup (Red Deer Advocate April 22 1987, image 558336723). He opened the scoring at 2:39 on assists from Phillips and Hervey in the 4-1 Pembroke round-robin win (Star-Phoenix May 5 1987, image 512094503), and scored one goal in the 9-3 semifinal win over Pembroke (Times Colonist May 8 1987, image 508631348). Jason Phillips credited him directly for his Abbott Cup hat trick: \"I give all the credit to Brian Kozak... it doesn't take much to shovel it in when Kozak and (Rob) Clarke do all the work\" (Star-Phoenix April 22 1987, image 512310501). Kozak entered the Doyle Cup seventh in BCJHL regular-season scoring at 7-12-19 in 13 games with 8 PIM (The Abbotsford News April 11 1987, image 536570359). Bill Hardy described Kozak and Jason Phillips as his linemates: \"(Linemates) Brian Kozak and Jason Phillips are very talented with the puck\" (Nanaimo Daily News February 27 1987, image 324474820). Kozak assisted on Phillips' goal and earned an unsportsmanlike-conduct penalty in the round-robin loss to Humboldt (Star-Phoenix May 7 1987, image 512096840; May 11 1987, image 512098543).",
+    "bio": "Brian Kozak (born May 8, 1966 in Kenora, Ontario) began his junior career with the OHL's Soo Greyhounds and OJHL's Newmarket Flyers in 1983-84. He joined the Richmond Sockeyes for 1986-87 after a brief WHL stint with New Westminster, posting 49 points in 39 games during the Centennial Cup run. Kozak then played a season at the University of Manitoba (CWUAA) before moving into coaching; he served as head coach of the BCHL's Quesnel Millionaires in 2005-06.\n\nKozak scored the overtime winner at 3:28 of the 10-minute OT session in a key late-season win (Nanaimo Daily News February 25 1987, image 324472605) and two goals in the Doyle Cup Game-4 win over Red Deer (The Vancouver Sun April 15 1987, image 495194273). He added \"insurance\" at 13:27 after Matt Hervey's winner earlier in the Doyle Cup (Red Deer Advocate April 9 1987, image 558334839), scored in Game 7 of the Doyle Cup (Daily Herald-Tribune April 16 1987, image 731241842), and scored in Richmond's 4-3 overtime round-robin win over Humboldt at the Centennial Cup (Red Deer Advocate April 22 1987, image 558336723). He opened the scoring at 2:39 on assists from Phillips and Hervey in the 4-1 Pembroke round-robin win (Star-Phoenix May 5 1987, image 512094503), and scored one goal in the 9-3 semifinal win over Pembroke (Times Colonist May 8 1987, image 508631348). Jason Phillips credited him directly for his Abbott Cup hat trick: \"I give all the credit to Brian Kozak... it doesn't take much to shovel it in when Kozak and (Rob) Clarke do all the work\" (Star-Phoenix April 22 1987, image 512310501). Kozak entered the Doyle Cup seventh in BCJHL regular-season scoring at 7-12-19 in 13 games with 8 PIM (The Abbotsford News April 11 1987, image 536570359). Bill Hardy described Kozak and Jason Phillips as his linemates: \"(Linemates) Brian Kozak and Jason Phillips are very talented with the puck\" (Nanaimo Daily News February 27 1987, image 324474820). Kozak assisted on Phillips' goal and earned an unsportsmanlike-conduct penalty in the round-robin loss to Humboldt (Star-Phoenix May 7 1987, image 512096840; May 11 1987, image 512098543).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Brian hails from Kenora, Ontario. He played last year for the now defunct Thunder Bay Jr. \"A\" Team. He's planning to attend the University of Manitoba next year. He will be missed by the team but especially by \"Streaking Jason Phillips\". Brian is the greatest; his forte is \"picture goals\".\" (Note: Minor OCR artifacts corrected (e.g. \"misseq\" → \"missed\").)",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -2194,7 +2289,17 @@
           "pim": 48
         }
       }
-    ]
+    ],
+    "birthDate": "1966-05-08",
+    "height": "5'10\"",
+    "weight": 180,
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 8,
+      "a": 16,
+      "pts": 24,
+      "pim": 14
+    }
   },
   {
     "id": "bill-hardy",
@@ -2217,7 +2322,7 @@
       "pts": 8,
       "pim": 0
     },
-    "bio": "Bill Hardy (born August 31, 1966) played four seasons with the Nanaimo Clippers of the BCJHL beginning in 1982-83, highlighted by a 72-point 1985-86 season. He moved to the Richmond Sockeyes for 1986-87, contributing 52 points during the Centennial Cup title run. He later played college hockey at Red Deer College (ACAC) in 1988-89 and returned to coach the Nanaimo Clippers in the mid-1990s.\n\nHardy came to Richmond for 1986-87 from the Nanaimo Clippers, where he had spent four seasons including a 39-72-111 campaign, seeking a team better positioned to help him secure a U.S. college scholarship. He acknowledged losing point totals and ice time with the stronger Sockeyes (down to 19-33-52) but did not regret the move: \"It's probably true that I would have got more points and ice time in Nanaimo, but I don't regret the move... That's why I left Nanaimo, so I could be on a winning team.\" He described his role as \"in the corners and grind\" while feeding linemates Brian Kozak and Jason Phillips (Nanaimo Daily News February 27 1987, image 324474820). Listed at 6-0, 180 pounds, Hardy served as an assistant captain with the Centennial Cup champions (Red Deer Advocate June 17 1987, image 558464326). He scored two goals in the 11-4 Doyle Cup Game-1 win over Red Deer (Alberni Valley Times April 8 1987, image 560107428; Daily Herald-Tribune April 8 1987, image 731240705), singles in earlier games (Nanaimo Daily News January 3 1987, image 324852401; Alberni Valley Times January 30 1987, image 560090747; Surrey Leader March 18 1987, image 327894504), and one goal in the 9-3 Centennial Cup semifinal win over Pembroke (Times Colonist May 8 1987, image 508631348; The Leader-Post May 8 1987, image 496960544). After the championship he was recruited by the Red Deer College NAIT program and later moved to junior competition in Alberta (Red Deer Advocate September 4, September 26 and October 22 1987, images 558451248, 558457835, 558425466).\n\nHardy served as an assistant captain of the Centennial Cup champion Sockeyes in 1986-87, per Red Deer Advocate coverage (June 17 1987) discussing Red Deer Rustlers coach Al Ferchuk reviewing Tier I recruits.",
+    "bio": "Bill Hardy (born August 31, 1966) played four seasons with the Nanaimo Clippers of the BCJHL beginning in 1982-83, highlighted by a 72-point 1985-86 season. He moved to the Richmond Sockeyes for 1986-87, contributing 52 points during the Centennial Cup title run. He later played college hockey at Red Deer College (ACAC) in 1988-89 and returned to coach the Nanaimo Clippers in the mid-1990s.\n\nHardy came to Richmond for 1986-87 from the Nanaimo Clippers, where he had spent four seasons including a 39-72-111 campaign, seeking a team better positioned to help him secure a U.S. college scholarship. He acknowledged losing point totals and ice time with the stronger Sockeyes (down to 19-33-52) but did not regret the move: \"It's probably true that I would have got more points and ice time in Nanaimo, but I don't regret the move... That's why I left Nanaimo, so I could be on a winning team.\" He described his role as \"in the corners and grind\" while feeding linemates Brian Kozak and Jason Phillips (Nanaimo Daily News February 27 1987, image 324474820). Listed at 6-0, 180 pounds, Hardy served as an assistant captain with the Centennial Cup champions (Red Deer Advocate June 17 1987, image 558464326). He scored two goals in the 11-4 Doyle Cup Game-1 win over Red Deer (Alberni Valley Times April 8 1987, image 560107428; Daily Herald-Tribune April 8 1987, image 731240705), singles in earlier games (Nanaimo Daily News January 3 1987, image 324852401; Alberni Valley Times January 30 1987, image 560090747; Surrey Leader March 18 1987, image 327894504), and one goal in the 9-3 Centennial Cup semifinal win over Pembroke (Times Colonist May 8 1987, image 508631348; The Leader-Post May 8 1987, image 496960544). After the championship he was recruited by the Red Deer College NAIT program and later moved to junior competition in Alberta (Red Deer Advocate September 4, September 26 and October 22 1987, images 558451248, 558457835, 558425466).\n\nHardy served as an assistant captain of the Centennial Cup champion Sockeyes in 1986-87, per Red Deer Advocate coverage (June 17 1987) discussing Red Deer Rustlers coach Al Ferchuk reviewing Tier I recruits.\n\nPer the 1987 Abbott Cup Souvenir Program: \"Bill or \"Cornelius\" as he's known to team mates played for the Esquimalt Buccaneers and for three years for the Nanaimo Clippers before making the right move and coming to the Sockeyes. Off the ice he plays golf, tennis and either coaches or plays lacrosse. He also does volunteer work at the Boy's and Girl's Club of Greater Vancouver. Bill plays right wing on a line with Kozak and Phillips.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -2308,7 +2413,16 @@
           "pim": 25
         }
       }
-    ]
+    ],
+    "birthDate": "1966-08-31",
+    "weight": 185,
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 8,
+      "a": 6,
+      "pts": 14,
+      "pim": 21
+    }
   },
   {
     "id": "rob-clarke",
@@ -2331,7 +2445,7 @@
       "pts": 2,
       "pim": 2
     },
-    "bio": "Rob Clarke, a right wing born May 2, 1967 in Melbourne, Australia (5'11\", 205 lbs), played his entire junior career in the BCJHL between 1984 and 1988. He suited up for Salmon Arm, Langley, and the Shuswap Blazers before joining the Richmond Sockeyes mid-season in 1986-87, where he led the team in goal scoring with 43 goals and 66 points in 33 games en route to the Centennial Cup. He returned to Richmond for 1987-88, posting a career-high 85 points with 248 PIM in 49 games.\n\nClarke posted \"his fourth three-goal night in as many games\" for the Sockeyes in mid-January (Nanaimo Daily News January 22 1987, image 324861343) and scored three times in a 1986-87 game that produced single goals from Tony Bobbitt, Dave Tomlinson, Brian Kozak and Mike McCormick (Daily Herald-Tribune April 16 1987, image 731241842). He tied a game with his first goal of a series at 1:43 of the third period on a Richmond power play (Nanaimo Daily News February 28 1987, image 324476635) and scored singles in the Doyle Cup Game 7 rout of Red Deer (Calgary Herald April 18 1987, image 483730219; Red Deer Advocate April 18 1987, image 558336261; The Province April 19 1987, image 502040018) and in the 5-3 Centennial Cup round-robin win over Dartmouth (Alberni Valley Times April 23 1987, image 560107992). Jason Phillips' Abbott Cup hat-trick quote — \"It doesn't take much to shovel it in when Kozak and (Rob) Clarke do all the work\" — attested to his playmaking role (Star-Phoenix April 22 1987, image 512310501). He was described as Richmond's \"rugged captain\" in November 1987 and was Coast Division's third-leading scorer with 65 goals and 35 assists the previous year (The Abbotsford News September 19 1987, image 536733310; Nanaimo Daily News November 10 1987, image 325789553). Year-in-review coverage noted he notched a hat trick in a season-opening 11-4 Richmond win over Nanaimo (Nanaimo Daily News December 16 1987, image 325618867). Clarke scored twice in the 5-3 third-game win that helped Richmond complete a 4-0 Coast Division final sweep of the Delta Flyers in March 1988 (The Province March 13 1988, image 502676054); the defending champions were then eliminated 4-1 in the BCJHL final by the Vernon Lakers (The Province March 27 1988, image 502136535).",
+    "bio": "Rob Clarke, a right wing born May 2, 1967 in Melbourne, Australia (5'11\", 205 lbs), played his entire junior career in the BCJHL between 1984 and 1988. He suited up for Salmon Arm, Langley, and the Shuswap Blazers before joining the Richmond Sockeyes mid-season in 1986-87, where he led the team in goal scoring with 43 goals and 66 points in 33 games en route to the Centennial Cup. He returned to Richmond for 1987-88, posting a career-high 85 points with 248 PIM in 49 games.\n\nClarke posted \"his fourth three-goal night in as many games\" for the Sockeyes in mid-January (Nanaimo Daily News January 22 1987, image 324861343) and scored three times in a 1986-87 game that produced single goals from Tony Bobbitt, Dave Tomlinson, Brian Kozak and Mike McCormick (Daily Herald-Tribune April 16 1987, image 731241842). He tied a game with his first goal of a series at 1:43 of the third period on a Richmond power play (Nanaimo Daily News February 28 1987, image 324476635) and scored singles in the Doyle Cup Game 7 rout of Red Deer (Calgary Herald April 18 1987, image 483730219; Red Deer Advocate April 18 1987, image 558336261; The Province April 19 1987, image 502040018) and in the 5-3 Centennial Cup round-robin win over Dartmouth (Alberni Valley Times April 23 1987, image 560107992). Jason Phillips' Abbott Cup hat-trick quote — \"It doesn't take much to shovel it in when Kozak and (Rob) Clarke do all the work\" — attested to his playmaking role (Star-Phoenix April 22 1987, image 512310501). He was described as Richmond's \"rugged captain\" in November 1987 and was Coast Division's third-leading scorer with 65 goals and 35 assists the previous year (The Abbotsford News September 19 1987, image 536733310; Nanaimo Daily News November 10 1987, image 325789553). Year-in-review coverage noted he notched a hat trick in a season-opening 11-4 Richmond win over Nanaimo (Nanaimo Daily News December 16 1987, image 325618867). Clarke scored twice in the 5-3 third-game win that helped Richmond complete a 4-0 Coast Division final sweep of the Delta Flyers in March 1988 (The Province March 13 1988, image 502676054); the defending champions were then eliminated 4-1 in the BCJHL final by the Vernon Lakers (The Province March 27 1988, image 502136535).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Rob played hockey at Kerrisdale-Point Grey on the West Side of Vancouver. Rob played in the major junior league last season in Salmon Arm. Drafted by Langley.\" (Note: OCR of this bio was severely fragmented; paraphrased from recoverable fragments only.)",
     "links": {
       "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=105840",
       "eliteprospects": "https://www.eliteprospects.com/player/780669/rob-clarke"
@@ -2422,7 +2536,17 @@
           "pim": 248
         }
       }
-    ]
+    ],
+    "birthDate": "1967-05-02",
+    "height": "5'10\"",
+    "weight": 200,
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 2,
+      "a": 9,
+      "pts": 11,
+      "pim": 41
+    }
   },
   {
     "id": "tony-bobbitt",
@@ -2445,7 +2569,7 @@
       "pts": 1,
       "pim": 2
     },
-    "bio": "Tony Bobbitt (born May 22, 1968) played junior hockey from 1984 to 1991. After stops with the Salmon Arm Totems, Shuswap Blazers, and New Westminster Bruins, he joined the Richmond Sockeyes for the 1986-87 Centennial Cup-winning season, recording 57 points and 175 PIM in 46 games. He returned for another strong BCJHL season with Richmond in 1987-88 and later played briefly with the ECHL's Johnstown Chiefs in 1990-91.\n\nBobbitt's most famous moment of the 1987 run was scoring the 10-minute-overtime winner at 1:04 to give Richmond a 4-3 Centennial Cup round-robin win over Humboldt (Alberni Valley Times April 23 1987, image 560107992; Fort McMurray Today April 23 1987, image 738694726; Red Deer Advocate April 23 1987, image 558336879; Star-Phoenix April 23 1987, image 512310808; Daily Herald-Tribune April 23 1987, image 731242432; The Leader-Post April 23 1987, image 496462652). He also scored twice in the early-January 5-4 loss to Langley (Nanaimo Daily News January 3 1987, image 324852401), in the Coastal Division vs Interior All-Star game (The Abbotsford News January 28 1987, image 536895890), in Game 1 of the Doyle Cup (Alberni Valley Times April 8 1987, image 560107428; Daily Herald-Tribune April 8 1987, image 731240705), in Game 7 of the Doyle Cup (Calgary Herald April 18 1987, image 483730219; The Province April 19 1987, image 502040018), and in the 9-3 Centennial Cup semifinal win over Pembroke (Daily Gleaner May 8 1987, image 1099004070; The Daily Herald-Tribune May 8 1987, image 731234620). In the Abbott Cup Game 5 he took a penalty for \"closing his hand on the puck\" which led to Humboldt's tying power-play goal; coach Kurtenbach was reported \"very upset\" with the play (The Vancouver Sun April 29 1987, image 495257563; Nanaimo Daily News April 29 1987, image 325077439). Returning for 1987-88, Bobbitt was among Richmond's goal scorers in Game 2 of the Coast Division semifinal against the Delta Flyers (The Vancouver Sun March 10 1988, image 496394992); the Sockeyes swept Delta 4-0 in the Coast final but fell 4-1 to the Vernon Lakers in the BCJHL final (The Province March 13 1988, image 502676054; The Province March 27 1988, image 502136535).",
+    "bio": "Tony Bobbitt (born May 22, 1968) played junior hockey from 1984 to 1991. After stops with the Salmon Arm Totems, Shuswap Blazers, and New Westminster Bruins, he joined the Richmond Sockeyes for the 1986-87 Centennial Cup-winning season, recording 57 points and 175 PIM in 46 games. He returned for another strong BCJHL season with Richmond in 1987-88 and later played briefly with the ECHL's Johnstown Chiefs in 1990-91.\n\nBobbitt's most famous moment of the 1987 run was scoring the 10-minute-overtime winner at 1:04 to give Richmond a 4-3 Centennial Cup round-robin win over Humboldt (Alberni Valley Times April 23 1987, image 560107992; Fort McMurray Today April 23 1987, image 738694726; Red Deer Advocate April 23 1987, image 558336879; Star-Phoenix April 23 1987, image 512310808; Daily Herald-Tribune April 23 1987, image 731242432; The Leader-Post April 23 1987, image 496462652). He also scored twice in the early-January 5-4 loss to Langley (Nanaimo Daily News January 3 1987, image 324852401), in the Coastal Division vs Interior All-Star game (The Abbotsford News January 28 1987, image 536895890), in Game 1 of the Doyle Cup (Alberni Valley Times April 8 1987, image 560107428; Daily Herald-Tribune April 8 1987, image 731240705), in Game 7 of the Doyle Cup (Calgary Herald April 18 1987, image 483730219; The Province April 19 1987, image 502040018), and in the 9-3 Centennial Cup semifinal win over Pembroke (Daily Gleaner May 8 1987, image 1099004070; The Daily Herald-Tribune May 8 1987, image 731234620). In the Abbott Cup Game 5 he took a penalty for \"closing his hand on the puck\" which led to Humboldt's tying power-play goal; coach Kurtenbach was reported \"very upset\" with the play (The Vancouver Sun April 29 1987, image 495257563; Nanaimo Daily News April 29 1987, image 325077439). Returning for 1987-88, Bobbitt was among Richmond's goal scorers in Game 2 of the Coast Division semifinal against the Delta Flyers (The Vancouver Sun March 10 1988, image 496394992); the Sockeyes swept Delta 4-0 in the Coast final but fell 4-1 to the Vernon Lakers in the BCJHL final (The Province March 13 1988, image 502676054; The Province March 27 1988, image 502136535).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Tony moved to Rossland at an early age and got his early start in hockey there. Before coming to the Sockeyes, he also played for Kamloops, New Westminster and Salmon Arm. Tony was chosen to play in this year's All-Star Game. Born in Nova Scotia, the Sockeyes are hoping to have him back on the team next year — and so are the girls of Richmond with whom Tony is a favorite.\" (Note: OCR fragmented; paraphrased from recoverable text. Program DOB-table line assigns position \"R.D.\" but the cover page, bio paragraph and cover-photo caption all list him as RW — retaining forward (F).)",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -2562,7 +2686,17 @@
           "pim": 6
         }
       }
-    ]
+    ],
+    "birthDate": "1968-05-22",
+    "height": "6'2\"",
+    "weight": 190,
+    "abbottCupStats": {
+      "gp": 7,
+      "g": 0,
+      "a": 3,
+      "pts": 3,
+      "pim": 7
+    }
   },
   {
     "id": "jim-gunn",
@@ -2585,7 +2719,7 @@
       "pts": 1,
       "pim": 4
     },
-    "bio": "Jim Gunn (6'0\", 185 lbs) is a Prince George native who began his minor hockey career in Prince Rupert, played bantam in Quesnel, and moved to Prince George at age 15. He played two seasons in the WHL — first with the Victoria Cougars (1983-84) and then the Lethbridge Broncos (1984-85) — before returning home and joining the Richmond Sockeyes in 1985-86. During the 1986-87 Centennial Cup-winning season he led the team with 363 penalty minutes (averaging nearly eight minutes per game) while adding 22 points in 46 games as a stay-at-home defenceman.\n\nGunn was recruited by coach Orland Kurtenbach, who was assembling a roster of overage WHL veterans for the championship run. The Sockeyes' Doyle Cup series against the Red Deer Rustlers was marked by intense hostility: fans threw eggs, fish, coins, and marbles at the visiting bench, one player was struck in the head with a tin of salmon, and Hockey Canada replaced the officiating crew for Game 7 due to one-sided officiating. The Sockeyes required a police guard outside their hotel in Red Deer throughout the series.\n\nAfter the championship season, Gunn attended Mount Royal College in Calgary (ACAC), where he helped the Cougars win the 1988 national collegiate championship. He joined Prince George Fire Rescue at age 24 and retired after 30 years of service in 2021 (approximately). He and his wife Kelly took up ultramarathon running following his retirement from competitive hockey, and they live on a horse farm east of Prince George Airport.\n\nAt the opening of Richmond's 1986-87 training camp Gunn and goalie Glen Pencer were the only two returning players from the previous season (The Vancouver Sun May 2 1987, image 495156113). He scored a single goal in the Doyle Cup Game-7 rout of Red Deer (Calgary Herald April 18 1987, image 483730219; Red Deer Advocate April 18 1987, image 558336261; The Province April 19 1987, image 502040018). Box scores list him taking a charging minor at 16:08 in the Pembroke round-robin game (Star-Phoenix May 5 1987, image 512094503) and a highsticking minor at 11:58 of the round-robin loss to Humboldt (Star-Phoenix May 7 1987, image 512096840).",
+    "bio": "Jim Gunn (6'0\", 185 lbs) is a Prince George native who began his minor hockey career in Prince Rupert, played bantam in Quesnel, and moved to Prince George at age 15. He played two seasons in the WHL — first with the Victoria Cougars (1983-84) and then the Lethbridge Broncos (1984-85) — before returning home and joining the Richmond Sockeyes in 1985-86. During the 1986-87 Centennial Cup-winning season he led the team with 363 penalty minutes (averaging nearly eight minutes per game) while adding 22 points in 46 games as a stay-at-home defenceman.\n\nGunn was recruited by coach Orland Kurtenbach, who was assembling a roster of overage WHL veterans for the championship run. The Sockeyes' Doyle Cup series against the Red Deer Rustlers was marked by intense hostility: fans threw eggs, fish, coins, and marbles at the visiting bench, one player was struck in the head with a tin of salmon, and Hockey Canada replaced the officiating crew for Game 7 due to one-sided officiating. The Sockeyes required a police guard outside their hotel in Red Deer throughout the series.\n\nAfter the championship season, Gunn attended Mount Royal College in Calgary (ACAC), where he helped the Cougars win the 1988 national collegiate championship. He joined Prince George Fire Rescue at age 24 and retired after 30 years of service in 2021 (approximately). He and his wife Kelly took up ultramarathon running following his retirement from competitive hockey, and they live on a horse farm east of Prince George Airport.\n\nAt the opening of Richmond's 1986-87 training camp Gunn and goalie Glen Pencer were the only two returning players from the previous season (The Vancouver Sun May 2 1987, image 495156113). He scored a single goal in the Doyle Cup Game-7 rout of Red Deer (Calgary Herald April 18 1987, image 483730219; Red Deer Advocate April 18 1987, image 558336261; The Province April 19 1987, image 502040018). Box scores list him taking a charging minor at 16:08 in the Pembroke round-robin game (Star-Phoenix May 5 1987, image 512094503) and a highsticking minor at 11:58 of the round-robin loss to Humboldt (Star-Phoenix May 7 1987, image 512096840).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Jim Gunn makes his home in Prince George. He played for the Victoria Cougars and the Lethbridge Broncos before coming to the Sockeyes. Jim, a defenceman turned forward, likes the physical type of hockey and spending hot summers water skiing and playing squash. Jim plans to attend college in Calgary next year. The Gunner is a good fellow to have around when there's work to be done — if he can only be found outside of the penalty box.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -2694,12 +2828,23 @@
           "pim": 111
         }
       }
-    ]
+    ],
+    "birthDate": "1966-07-15",
+    "height": "6'1\"",
+    "weight": 190,
+    "shoots": "L",
+    "abbottCupStats": {
+      "gp": 14,
+      "g": 1,
+      "a": 2,
+      "pts": 3,
+      "pim": 80
+    }
   },
   {
     "id": "dean-rutledge",
     "name": "Dean Rutledge",
-    "position": "D",
+    "position": "F",
     "number": 20,
     "hometown": "Pincher Creek, AB",
     "role": "player",
@@ -2717,7 +2862,7 @@
       "pts": 8,
       "pim": 2
     },
-    "bio": "Dean Rutledge was born March 4, 1966 in Carmangay, Alberta. His junior career began with the SJHL's Swift Current Broncos and BCJHL's Langley Eagles in 1983-84. He played AJHL hockey with the Hobbema Hawks and Fort McMurray Oil Barons (48 points in 1985-86) before joining the Richmond Sockeyes for the 1986-87 Centennial Cup run, posting 28 points in 16 games. He later played at the Southern Alberta Institute of Technology (ACAC).\n\nRutledge came to Richmond earlier in 1986-87 after starting the season with the Fort McMurray Oil Barons, where he had been the Alberta Junior Hockey League's third-leading scorer; Fort McMurray received forward Hendry in the trade (Fort McMurray Today January 26 1987, image 738692385; January 30 1987, image 738692624; Red Deer Advocate April 9 1987, image 558334839). He entered the Doyle Cup leading the BCJHL in regular-season scoring at 12-9-21 in 13 games with 6 PIM (The Abbotsford News April 11 1987, image 536570359). He scored two goals on the January 30 win over Alberni, an empty-netter to break open a February game (Nanaimo Daily News February 28 1987, image 324476635), the tying goal at 9:52 of the Doyle Cup Game 2 before Matt Hervey's hat-trick winner (Red Deer Advocate April 9 1987, image 558334839), the only Richmond goal in a Game-4 loss to Humboldt in the Abbott Cup (Calgary Herald April 26 1987, image 483768383; Times Colonist April 26 1987, image 508877216), and a goal in the 9-3 Centennial Cup semifinal win over Pembroke (Times Colonist May 8 1987, image 508631348; The Hamilton Spectator May 9 1987, image 1011070382). A Vancouver Sun preview piece (May 2 1987, image 495156118) identified him alongside captain Trevor Dickie and defenceman Mike Claringbull as a Sockeye leader. He assisted on Tomlinson's Centennial Cup final goal at 16:53 (Star-Phoenix May 5 1987, image 512094503) and Phillips' 18:13 goal in the final (Star-Phoenix May 11 1987, image 512098543).",
+    "bio": "Dean Rutledge was born March 4, 1966 in Carmangay, Alberta. His junior career began with the SJHL's Swift Current Broncos and BCJHL's Langley Eagles in 1983-84. He played AJHL hockey with the Hobbema Hawks and Fort McMurray Oil Barons (48 points in 1985-86) before joining the Richmond Sockeyes for the 1986-87 Centennial Cup run, posting 28 points in 16 games. He later played at the Southern Alberta Institute of Technology (ACAC).\n\nRutledge came to Richmond earlier in 1986-87 after starting the season with the Fort McMurray Oil Barons, where he had been the Alberta Junior Hockey League's third-leading scorer; Fort McMurray received forward Hendry in the trade (Fort McMurray Today January 26 1987, image 738692385; January 30 1987, image 738692624; Red Deer Advocate April 9 1987, image 558334839). He entered the Doyle Cup leading the BCJHL in regular-season scoring at 12-9-21 in 13 games with 6 PIM (The Abbotsford News April 11 1987, image 536570359). He scored two goals on the January 30 win over Alberni, an empty-netter to break open a February game (Nanaimo Daily News February 28 1987, image 324476635), the tying goal at 9:52 of the Doyle Cup Game 2 before Matt Hervey's hat-trick winner (Red Deer Advocate April 9 1987, image 558334839), the only Richmond goal in a Game-4 loss to Humboldt in the Abbott Cup (Calgary Herald April 26 1987, image 483768383; Times Colonist April 26 1987, image 508877216), and a goal in the 9-3 Centennial Cup semifinal win over Pembroke (Times Colonist May 8 1987, image 508631348; The Hamilton Spectator May 9 1987, image 1011070382). A Vancouver Sun preview piece (May 2 1987, image 495156118) identified him alongside captain Trevor Dickie and defenceman Mike Claringbull as a Sockeye leader. He assisted on Tomlinson's Centennial Cup final goal at 16:53 (Star-Phoenix May 5 1987, image 512094503) and Phillips' 18:13 goal in the final (Star-Phoenix May 11 1987, image 512098543).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Dean was another Christmas present to the Sockeyes from Pincher Creek. He has played the last three seasons in Fort McMurray of the Alberta Junior Hockey League. Dean plans to attend N.A.I.T College in Edmonton next year.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -2782,7 +2927,17 @@
           "pim": 8
         }
       }
-    ]
+    ],
+    "birthDate": "1966-03-04",
+    "height": "5'10.5\"",
+    "weight": 183,
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 13,
+      "a": 9,
+      "pts": 22,
+      "pim": 6
+    }
   },
   {
     "id": "trevor-dickie",
@@ -2928,7 +3083,18 @@
           "pim": 6
         }
       }
-    ]
+    ],
+    "birthDate": "1966-04-21",
+    "height": "6'1\"",
+    "weight": 210,
+    "shoots": "L",
+    "abbottCupStats": {
+      "gp": 15,
+      "g": 0,
+      "a": 7,
+      "pts": 7,
+      "pim": 10
+    }
   },
   {
     "id": "matt-hervey",
@@ -2951,7 +3117,7 @@
       "pts": 11,
       "pim": 4
     },
-    "bio": "Matt Hervey was born May 16, 1966 in Whittier, California (5'11\", 205 lbs, right-handed shot). Never drafted, he broke into junior with the Langley Eagles (BCJHL) in 1982-83 before three WHL seasons split between the Victoria Cougars, Lethbridge Broncos, and Seattle Thunderbirds. He joined the Richmond Sockeyes mid-season in 1986-87 and was named to the Centennial Cup All-Star Team as a defenceman during the championship run. Tomlinson later described him as \\\"a heavy sort, with a great powerplay.\\\" \\n\\n Hervey turned professional in 1987-88 with the AHL's Moncton Hawks, where he played five seasons and established himself as a rugged blueliner (295 PIM in 1988-89). He made his NHL debut with the Winnipeg Jets during the 1988-89 season and went on to appear in 35 NHL games across three teams — 2 with Winnipeg (1988-89), 16 with the Boston Bruins (1991-92, including 5 playoff games), and 17 with the Tampa Bay Lightning (1992-93) — recording 0 goals, 5 assists, 5 points and 97 penalty minutes. He finished his playing days in the IHL with the Atlanta Knights, Milwaukee Admirals, and Los Angeles Ice Dogs, retiring in 1996.\n\nCoverage throughout the 1987 playoffs identified Hervey as a \"standout defenceman\" and offensive threat from the blueline. He scored two goals in the 11-4 Doyle Cup Game-1 win, including his second from the point just over a minute after Tomlinson's opener (Red Deer Advocate April 8 1987, image 558334501; Alberni Valley Times April 8 1987, image 560107428; Daily Herald-Tribune April 8 1987, image 731240705), and in Game 2 scored three times, netting the winner at 11:19 of the third period (Red Deer Advocate April 9 1987, image 558334839). He scored twice in Game 4 of the Abbott Cup — a 5-3 win over Humboldt at Richmond Arena — with Times Colonist noting he was \"a former member of the Victoria Cougars in major junior hockey\" (April 28 1987, images 508877755 and 508877984; Fort McMurray Today April 27 1987, image 738694983). He added a goal in Game 7 of the Doyle Cup (Alberni Valley Times April 21 1987, image 560107877), in the 7-3 round-robin win over Dartmouth at the Centennial Cup (Alberni Valley Times May 4 1987, image 560108578; The Leader-Post May 4 1987, image 496959220), and in the 9-3 semifinal vs Pembroke (Alberni Valley Times May 8 1987, image 560108695; The Leader-Post May 8 1987, image 496960544). After the round-robin he had two goals and three assists and was named to the tournament all-star team on defence (Star-Phoenix May 9 1987, image 512097836; The Province May 10 1987, image 502033093). The Province noted he had had a tryout with the Los Angeles Kings (May 11 1987, image 502004558). A November 1987 Moncton feature quoted Hervey on having been cut by Winnipeg and Kurtenbach's influence: \"After being cut, Hervey was considering calling it quits but after coming in contact with Orland Kurtenbach... Hervey's outlook on life changed for the better... He helped me make decisions.\" He was named to the first all-star team at a tournament in Humboldt and told reporters he was \"still on cloud nine from the Winnipeg camp. (Jets' head coach) Dan Maloney was good to me and (general manager) John Ferguson was good to me\" (Telegraph-Journal November 7 1987, image 1111288540).\n\nAs a rookie pro in 1987-88, Hervey stood out on a struggling Moncton Hawks club (21-39-7, last in the AHL's Northern Division). Coach Rick Bowness called him the team's \"only plus player\" and recounted how Hervey had arrived at Winnipeg's camp as a walk-on and, on his second shift, \"smacked Doug Smail,\" drawing a retaliation from Laurie Boschman — \"You get noticed that way,\" Bowness said — and noted that Orland Kurtenbach had personally recommended him after coaching him in Richmond (Telegraph-Journal March 4 1988, image 1111187087). Earlier that season Hervey opened the scoring on a power-play slapshot 2:13 into a 4-0 Moncton win over Nova Scotia and was named second star of the game (Times-Transcript January 4 1988, image 1107105854). In November 1989, as a third-year Moncton defenceman, Hervey was the subject of a front-page Times-Transcript feature detailing his difficult childhood: as a 15-year-old he hitchhiked north from a \"broken home\" in Los Angeles and landed in Langley, BC, to pursue hockey. \"If I had stayed in L.A., I'd probably be working construction somewhere with an expensive drug habit to support,\" he told the paper, and had begun speaking out against drugs and alcohol with teammates (Times-Transcript November 10 1989, image 1107764485).\n\nAdditional 1987-88 rookie-year coverage: Hervey was reported in the Winnipeg Jets rookie-camp lineup heading into Manitoba Bisons exhibition games, with the Times-Transcript noting he had \"played Tier II under ex-NHLer Orland Kurtenbach\" (September 19 1987, image 1107104138). On October 28 1987 in Baltimore, coach Rick Bowness converted Hervey and Jamie Husgen from defence to right wing, and their hard hits sparked a Moncton rally of five third-period goals for a 6-4 win over the Skipjacks; Hervey cut Baltimore's lead to 3-2 at 2:33 of the third (Times-Transcript October 29 1987, image 1107148440). On January 8 1988 at the Cumberland County Civic Center he picked up a slashing minor late in a 5-3 Moncton loss to the AHL Maine Mariners, then drew an unsportsmanlike minor and 10-minute misconduct for arguing with referee Mike North; earlier he had been in the box for interference when John Carter redirected Gordie Hynes's point shot (Portland Press Herald January 9 1988, image 1309833588).\n\nRick Bowness personally convinced Jets GM John Ferguson to re-sign Hervey for 1988-89 (Times-Transcript April 12 1988, image 1107141761), and he returned to Moncton after being assigned from Winnipeg's training camp along with Brent Hughes, Guy Larose, Todd Flichel, Jamie Husgen, goaltenders Stephane Beauregard and Bob Essensa, and player-coach Ron Wilson (Times-Transcript September 21 1988, image 1107105211). He led the Moncton Hawks in plus-minus through early November 1988 before missing three games with a leg injury (Times-Transcript November 8 1988, image 1107421777). Under new coach Alpo Suhonen — who took over when Bowness was promoted to Winnipeg in February 1989 — Hervey scored in an 8-2 Hawks rout of the Cape Breton Oilers on February 17 1989, helping lift Moncton into a second-place Northern Division tie with Halifax (North Bay Nugget February 18 1989, image 734711493).\n\nReturning to Winnipeg's main camp in September 1989 as a third-year pro, Hervey was competing with Grant Richison and Shawn Cronin for a defence spot opened by Brad Berry's shoulder separation. Coach Bob Murdoch told the Winnipeg Sun, \"Hervey is fundamentally sound, but prone to crucial giveaways in his zone\" (September 28 1989, image 735361916). Hervey framed his own role: \"We've got a lot of offensive defencemen here. I'm just looking to provide good defence, clear the front of the net and moving the puck out of our zone consistently.\" He earned praise for a pre-season goal in a 4-3 Jets win over the Canucks on September 25 1989 (Winnipeg Sun September 26 1989, image 735361292), and had traded punches with ex-Moncton teammate Brent Hughes in an intrasquad scrimmage earlier that camp (Winnipeg Sun September 12 1989, image 735358793). After the Jets claimed veteran Moe Mantha in the NHL waiver draft, Hervey was demoted to Moncton on October 3 1989 along with Richison, Bryan Marchment, Bob Essensa, and Hughes (Winnipeg Sun October 4 1989, image 735358966).\n\nHervey reached the Boston Bruins in 1991-92 (jersey #43), appearing in 16 regular-season games and five playoff games. That summer the Bruins traded Hervey and Ken Hodge to the Tampa Bay Lightning for Darrin Kimble — a deal later referenced when Kimble delivered a crushing check on Roman Hamrlik in a Bruins-Lightning game on December 12 1992 (Tampa Bay Times December 13 1992, image 324108638). With Tampa's IHL affiliate, the Atlanta Knights, Hervey formed a high-scoring blueline duo with Rick Lanz; Knights coach Gene Ubriaco called them potentially \"the most potent offensive-defensemen in the IHL,\" noting Hervey's 11 points in 12 games (Tampa Tribune November 29 1992, image 339097039).\n\nHervey later changed his name to Matt Block; post-change media coverage and video clips appear under the Block surname.",
+    "bio": "Matt Hervey was born May 16, 1966 in Whittier, California (5'11\", 205 lbs, right-handed shot). Never drafted, he broke into junior with the Langley Eagles (BCJHL) in 1982-83 before three WHL seasons split between the Victoria Cougars, Lethbridge Broncos, and Seattle Thunderbirds. He joined the Richmond Sockeyes mid-season in 1986-87 and was named to the Centennial Cup All-Star Team as a defenceman during the championship run. Tomlinson later described him as \\\"a heavy sort, with a great powerplay.\\\" \\n\\n Hervey turned professional in 1987-88 with the AHL's Moncton Hawks, where he played five seasons and established himself as a rugged blueliner (295 PIM in 1988-89). He made his NHL debut with the Winnipeg Jets during the 1988-89 season and went on to appear in 35 NHL games across three teams — 2 with Winnipeg (1988-89), 16 with the Boston Bruins (1991-92, including 5 playoff games), and 17 with the Tampa Bay Lightning (1992-93) — recording 0 goals, 5 assists, 5 points and 97 penalty minutes. He finished his playing days in the IHL with the Atlanta Knights, Milwaukee Admirals, and Los Angeles Ice Dogs, retiring in 1996.\n\nCoverage throughout the 1987 playoffs identified Hervey as a \"standout defenceman\" and offensive threat from the blueline. He scored two goals in the 11-4 Doyle Cup Game-1 win, including his second from the point just over a minute after Tomlinson's opener (Red Deer Advocate April 8 1987, image 558334501; Alberni Valley Times April 8 1987, image 560107428; Daily Herald-Tribune April 8 1987, image 731240705), and in Game 2 scored three times, netting the winner at 11:19 of the third period (Red Deer Advocate April 9 1987, image 558334839). He scored twice in Game 4 of the Abbott Cup — a 5-3 win over Humboldt at Richmond Arena — with Times Colonist noting he was \"a former member of the Victoria Cougars in major junior hockey\" (April 28 1987, images 508877755 and 508877984; Fort McMurray Today April 27 1987, image 738694983). He added a goal in Game 7 of the Doyle Cup (Alberni Valley Times April 21 1987, image 560107877), in the 7-3 round-robin win over Dartmouth at the Centennial Cup (Alberni Valley Times May 4 1987, image 560108578; The Leader-Post May 4 1987, image 496959220), and in the 9-3 semifinal vs Pembroke (Alberni Valley Times May 8 1987, image 560108695; The Leader-Post May 8 1987, image 496960544). After the round-robin he had two goals and three assists and was named to the tournament all-star team on defence (Star-Phoenix May 9 1987, image 512097836; The Province May 10 1987, image 502033093). The Province noted he had had a tryout with the Los Angeles Kings (May 11 1987, image 502004558). A November 1987 Moncton feature quoted Hervey on having been cut by Winnipeg and Kurtenbach's influence: \"After being cut, Hervey was considering calling it quits but after coming in contact with Orland Kurtenbach... Hervey's outlook on life changed for the better... He helped me make decisions.\" He was named to the first all-star team at a tournament in Humboldt and told reporters he was \"still on cloud nine from the Winnipeg camp. (Jets' head coach) Dan Maloney was good to me and (general manager) John Ferguson was good to me\" (Telegraph-Journal November 7 1987, image 1111288540).\n\nAs a rookie pro in 1987-88, Hervey stood out on a struggling Moncton Hawks club (21-39-7, last in the AHL's Northern Division). Coach Rick Bowness called him the team's \"only plus player\" and recounted how Hervey had arrived at Winnipeg's camp as a walk-on and, on his second shift, \"smacked Doug Smail,\" drawing a retaliation from Laurie Boschman — \"You get noticed that way,\" Bowness said — and noted that Orland Kurtenbach had personally recommended him after coaching him in Richmond (Telegraph-Journal March 4 1988, image 1111187087). Earlier that season Hervey opened the scoring on a power-play slapshot 2:13 into a 4-0 Moncton win over Nova Scotia and was named second star of the game (Times-Transcript January 4 1988, image 1107105854). In November 1989, as a third-year Moncton defenceman, Hervey was the subject of a front-page Times-Transcript feature detailing his difficult childhood: as a 15-year-old he hitchhiked north from a \"broken home\" in Los Angeles and landed in Langley, BC, to pursue hockey. \"If I had stayed in L.A., I'd probably be working construction somewhere with an expensive drug habit to support,\" he told the paper, and had begun speaking out against drugs and alcohol with teammates (Times-Transcript November 10 1989, image 1107764485).\n\nAdditional 1987-88 rookie-year coverage: Hervey was reported in the Winnipeg Jets rookie-camp lineup heading into Manitoba Bisons exhibition games, with the Times-Transcript noting he had \"played Tier II under ex-NHLer Orland Kurtenbach\" (September 19 1987, image 1107104138). On October 28 1987 in Baltimore, coach Rick Bowness converted Hervey and Jamie Husgen from defence to right wing, and their hard hits sparked a Moncton rally of five third-period goals for a 6-4 win over the Skipjacks; Hervey cut Baltimore's lead to 3-2 at 2:33 of the third (Times-Transcript October 29 1987, image 1107148440). On January 8 1988 at the Cumberland County Civic Center he picked up a slashing minor late in a 5-3 Moncton loss to the AHL Maine Mariners, then drew an unsportsmanlike minor and 10-minute misconduct for arguing with referee Mike North; earlier he had been in the box for interference when John Carter redirected Gordie Hynes's point shot (Portland Press Herald January 9 1988, image 1309833588).\n\nRick Bowness personally convinced Jets GM John Ferguson to re-sign Hervey for 1988-89 (Times-Transcript April 12 1988, image 1107141761), and he returned to Moncton after being assigned from Winnipeg's training camp along with Brent Hughes, Guy Larose, Todd Flichel, Jamie Husgen, goaltenders Stephane Beauregard and Bob Essensa, and player-coach Ron Wilson (Times-Transcript September 21 1988, image 1107105211). He led the Moncton Hawks in plus-minus through early November 1988 before missing three games with a leg injury (Times-Transcript November 8 1988, image 1107421777). Under new coach Alpo Suhonen — who took over when Bowness was promoted to Winnipeg in February 1989 — Hervey scored in an 8-2 Hawks rout of the Cape Breton Oilers on February 17 1989, helping lift Moncton into a second-place Northern Division tie with Halifax (North Bay Nugget February 18 1989, image 734711493).\n\nReturning to Winnipeg's main camp in September 1989 as a third-year pro, Hervey was competing with Grant Richison and Shawn Cronin for a defence spot opened by Brad Berry's shoulder separation. Coach Bob Murdoch told the Winnipeg Sun, \"Hervey is fundamentally sound, but prone to crucial giveaways in his zone\" (September 28 1989, image 735361916). Hervey framed his own role: \"We've got a lot of offensive defencemen here. I'm just looking to provide good defence, clear the front of the net and moving the puck out of our zone consistently.\" He earned praise for a pre-season goal in a 4-3 Jets win over the Canucks on September 25 1989 (Winnipeg Sun September 26 1989, image 735361292), and had traded punches with ex-Moncton teammate Brent Hughes in an intrasquad scrimmage earlier that camp (Winnipeg Sun September 12 1989, image 735358793). After the Jets claimed veteran Moe Mantha in the NHL waiver draft, Hervey was demoted to Moncton on October 3 1989 along with Richison, Bryan Marchment, Bob Essensa, and Hughes (Winnipeg Sun October 4 1989, image 735358966).\n\nHervey reached the Boston Bruins in 1991-92 (jersey #43), appearing in 16 regular-season games and five playoff games. That summer the Bruins traded Hervey and Ken Hodge to the Tampa Bay Lightning for Darrin Kimble — a deal later referenced when Kimble delivered a crushing check on Roman Hamrlik in a Bruins-Lightning game on December 12 1992 (Tampa Bay Times December 13 1992, image 324108638). With Tampa's IHL affiliate, the Atlanta Knights, Hervey formed a high-scoring blueline duo with Rick Lanz; Knights coach Gene Ubriaco called them potentially \"the most potent offensive-defensemen in the IHL,\" noting Hervey's 11 points in 12 games (Tampa Tribune November 29 1992, image 339097039).\n\nHervey later changed his name to Matt Block; post-change media coverage and video clips appear under the Block surname.\n\nPer the 1987 Abbott Cup Souvenir Program: \"Matt Hervey comes from Whittier, California and played minor in Los Angeles. He moved to Canada in 1983 to find better hockey competition playing for Langley Eagles for one year and for Victoria Cougars under Les Calder the next year. For two years he played under Chappy Chapman for the Lethbridge Broncos. Summers for Matt are spent at home in California acquiring a golden tan playing golf and surfing. At the start of the last season, he was invited to the L.A. Kings' camp.\" (Note: Abbott Cup GP of 13 (vs 15 team total) documents the two games Hervey missed during his shoulder separation.)",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -3330,7 +3496,18 @@
           "pim": 81
         }
       }
-    ]
+    ],
+    "birthDate": "1966-05-16",
+    "height": "5'11\"",
+    "weight": 202,
+    "shoots": "R",
+    "abbottCupStats": {
+      "gp": 13,
+      "g": 3,
+      "a": 12,
+      "pts": 15,
+      "pim": 22
+    }
   },
   {
     "id": "jason-talo",
@@ -3353,7 +3530,7 @@
       "pts": 0,
       "pim": 0
     },
-    "bio": "Jason Talo began his junior career with the 1986-87 Richmond Sockeyes, contributing 19 points in 39 games during the Centennial Cup-winning season. He remained with the Sockeyes for three more BCJHL seasons, peaking at 67 points in 1987-88, before finishing his junior career with the Vernon Lakers in 1989-90.\n\nA Vancouver Sun profile of the Sockeyes in May 1987 described Talo as \"one Richmond product, seldom-used rookie Jason Talo\" on the roster (The Vancouver Sun May 2 1987, image 495156118), and The Province named him alongside Rob Sumner as the only 16-year-olds set to return to Richmond for 1987-88 (May 11 1987, image 502004558). He scored two goals in a Sockeyes-vs-Nanaimo game the following October (Nanaimo Daily News October 22 1987, image 325833170). As a sophomore the following winter he contributed two goals to Richmond's 10-1 BCJHL rout of the Chilliwack Eagles (Nanaimo Daily News February 11 1988, image 323775055) and a goal in the Sockeyes' 12-4 semifinal win over the Delta Flyers that carried Richmond to a 2-0 series lead and 450 combined penalty minutes (Nanaimo Daily News March 10 1988, image 325960646). Richmond swept Delta 4-0 in the Coast Division final and advanced to meet the Vernon Lakers in the BCJHL final, where the defending Centennial Cup champions were dethroned 4-1 (The Province March 13 1988, image 502676054; The Province March 27 1988, image 502136535). After Richmond's BCJHL franchise folded and re-launched in the West Coast Junior Hockey League, Talo returned for the Sockeyes' WCJHL season-opener on September 28 1990, posting a four-point night in an 8-7 loss to the Abbotsford Pilots (The Abbotsford News October 3 1990, image 537066955).",
+    "bio": "Jason Talo began his junior career with the 1986-87 Richmond Sockeyes, contributing 19 points in 39 games during the Centennial Cup-winning season. He remained with the Sockeyes for three more BCJHL seasons, peaking at 67 points in 1987-88, before finishing his junior career with the Vernon Lakers in 1989-90.\n\nA Vancouver Sun profile of the Sockeyes in May 1987 described Talo as \"one Richmond product, seldom-used rookie Jason Talo\" on the roster (The Vancouver Sun May 2 1987, image 495156118), and The Province named him alongside Rob Sumner as the only 16-year-olds set to return to Richmond for 1987-88 (May 11 1987, image 502004558). He scored two goals in a Sockeyes-vs-Nanaimo game the following October (Nanaimo Daily News October 22 1987, image 325833170). As a sophomore the following winter he contributed two goals to Richmond's 10-1 BCJHL rout of the Chilliwack Eagles (Nanaimo Daily News February 11 1988, image 323775055) and a goal in the Sockeyes' 12-4 semifinal win over the Delta Flyers that carried Richmond to a 2-0 series lead and 450 combined penalty minutes (Nanaimo Daily News March 10 1988, image 325960646). Richmond swept Delta 4-0 in the Coast Division final and advanced to meet the Vernon Lakers in the BCJHL final, where the defending Centennial Cup champions were dethroned 4-1 (The Province March 13 1988, image 502676054; The Province March 27 1988, image 502136535). After Richmond's BCJHL franchise folded and re-launched in the West Coast Junior Hockey League, Talo returned for the Sockeyes' WCJHL season-opener on September 28 1990, posting a four-point night in an 8-7 loss to the Abbotsford Pilots (The Abbotsford News October 3 1990, image 537066955).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Jason is the second youngest team member and a native of Richmond where he has played all his hockey. While playing Bantam \"A\", he ended one season with 300 points. The fans just love him and the team is counting on him returning next year to capitalize on his dynamic hockey skills.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -3431,7 +3608,17 @@
           "pim": 24
         }
       }
-    ]
+    ],
+    "birthDate": "1970-01-06",
+    "height": "5'9\"",
+    "weight": 170,
+    "abbottCupStats": {
+      "gp": 7,
+      "g": 0,
+      "a": 1,
+      "pts": 1,
+      "pim": 14
+    }
   },
   {
     "id": "frank-romeo",
@@ -3456,7 +3643,7 @@
       "svpct": 0.919,
       "so": 1
     },
-    "bio": "Frank Romeo joined the Richmond Sockeyes during the 1986-87 season as a late pickup, serving as a backup before taking over as the starting goaltender for the playoff run. After prior stops with the Revelstoke Rockets/Rangers, Vernon Lakers, and Kelowna Packers in the BCJHL, Romeo was a key addition for the championship drive, posting a 14-3 record with a 2.95 GAA and .899 save percentage in 21 appearances during the Centennial Cup-winning season. He later played for Brandon University in the CWUAA. \\n\\n Captain Dave Tomlinson later recalled: \\\"Frank Romeo was the goaltender and only started for us in the playoffs, he was a big pickup.\\\"\n\nAt the 1987 Centennial Cup in Humboldt, Romeo started three games for Richmond and won the player-of-the-game award in each start, culminating in the 5-2 championship win over the Humboldt Broncos on May 9 1987. He made 44 saves on 46 shots in the final and was named both the tournament MVP and the final-game MVP. Sources: Star-Phoenix May 11 1987 (images 512098529, 512098543); Times Colonist May 10 1987 (images 508633163, 508632785).\n\nRomeo was the dominant figure in Richmond's 1987 championship run in goal. He stopped 36 shots — \"stealing several would-be goals\" from Humboldt — in the 4-3 overtime round-robin win (Star-Phoenix April 23 1987, image 512310808) and 30 saves in the Abbott Cup Game-4 5-3 win (Fort McMurray Today April 27 1987, image 738694983; Nanaimo Daily News April 27 1987, image 325076956). In the Centennial Cup final he faced 46 shots and made 44 saves (The Province May 11 1987, image 502004009; Times Colonist May 10 1987, image 508633163). He was named player-of-the-game in each of his three starts during the tournament (Star-Phoenix May 11 1987, image 512098529), and was named the Centennial Cup's most valuable player — an award he carried alongside a final-game MVP plaque and the Centennial Cup itself: \"This is unbelievable... Winning the Cup, being MVP, it's like Christmas all over again\" (Star-Phoenix May 11 1987, image 512098529; The Leader-Post May 11 1987, image 496962458). The Province noted Romeo as \"a Revelstoke native who wanted to 'make it a really good game' for his mother and father up in the stands\" (May 11 1987, image 502004009). The Vancouver Sun reported he was completing his final junior campaign at age 20 and had scored five goals and five assists across the five-series playoff run in which the Sockeyes won 27 of 34 games (May 11 1987, image 495229991). He shared the BCJHL netminding with a 4.20 regular-season GAA (The Abbotsford News September 19 1987, image 536733310).",
+    "bio": "Frank Romeo joined the Richmond Sockeyes during the 1986-87 season as a late pickup, serving as a backup before taking over as the starting goaltender for the playoff run. After prior stops with the Revelstoke Rockets/Rangers, Vernon Lakers, and Kelowna Packers in the BCJHL, Romeo was a key addition for the championship drive, posting a 14-3 record with a 2.95 GAA and .899 save percentage in 21 appearances during the Centennial Cup-winning season. He later played for Brandon University in the CWUAA. \\n\\n Captain Dave Tomlinson later recalled: \\\"Frank Romeo was the goaltender and only started for us in the playoffs, he was a big pickup.\\\"\n\nAt the 1987 Centennial Cup in Humboldt, Romeo started three games for Richmond and won the player-of-the-game award in each start, culminating in the 5-2 championship win over the Humboldt Broncos on May 9 1987. He made 44 saves on 46 shots in the final and was named both the tournament MVP and the final-game MVP. Sources: Star-Phoenix May 11 1987 (images 512098529, 512098543); Times Colonist May 10 1987 (images 508633163, 508632785).\n\nRomeo was the dominant figure in Richmond's 1987 championship run in goal. He stopped 36 shots — \"stealing several would-be goals\" from Humboldt — in the 4-3 overtime round-robin win (Star-Phoenix April 23 1987, image 512310808) and 30 saves in the Abbott Cup Game-4 5-3 win (Fort McMurray Today April 27 1987, image 738694983; Nanaimo Daily News April 27 1987, image 325076956). In the Centennial Cup final he faced 46 shots and made 44 saves (The Province May 11 1987, image 502004009; Times Colonist May 10 1987, image 508633163). He was named player-of-the-game in each of his three starts during the tournament (Star-Phoenix May 11 1987, image 512098529), and was named the Centennial Cup's most valuable player — an award he carried alongside a final-game MVP plaque and the Centennial Cup itself: \"This is unbelievable... Winning the Cup, being MVP, it's like Christmas all over again\" (Star-Phoenix May 11 1987, image 512098529; The Leader-Post May 11 1987, image 496962458). The Province noted Romeo as \"a Revelstoke native who wanted to 'make it a really good game' for his mother and father up in the stands\" (May 11 1987, image 502004009). The Vancouver Sun reported he was completing his final junior campaign at age 20 and had scored five goals and five assists across the five-series playoff run in which the Sockeyes won 27 of 34 games (May 11 1987, image 495229991). He shared the BCJHL netminding with a 4.20 regular-season GAA (The Abbotsford News September 19 1987, image 536733310).\n\nPer the 1987 Abbott Cup Souvenir Program: \"From Revelstoke, Frank played all his minor hockey there and with the Revelstoke Rockets and Rangers. Frank has played for the Dauphin Kings in Manitoba, the Vernon Lakers and the Kelowna Packers before joining the Sockeyes this season. In 1986 he was a member of the All Star Team for the interior division.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Centennial Cup MVP 1987",
@@ -3485,7 +3672,13 @@
           "so": 0
         }
       }
-    ]
+    ],
+    "birthDate": "1966-07-07",
+    "height": "6'0\"",
+    "weight": 180,
+    "abbottCupStats": {
+      "gp": 15
+    }
   },
   {
     "id": "jamie-stewart",
@@ -3510,7 +3703,7 @@
       "svpct": 0.816,
       "so": 0
     },
-    "bio": "Jamie Stewart was a goaltender on the 1986-87 Richmond Sockeyes, part of the Centennial Cup championship roster. Born April 25, 1966 in Vancouver, BC (6'01\", 180 lbs), his documented junior career includes the AJHL's Fort McMurray Oil Barons and BCJHL stops with the Abbotsford Falcons and Langley Eagles (1986-87: 20-13, 4.18 GAA, .899 SV%). He went on to play three seasons at Michigan State University (CCHA) from 1987 to 1990, then turned professional in the Colonial Hockey League with the Michigan/Detroit Falcons, winning back-to-back league Best Goaltender awards in 1991-92 and 1992-93 (including a 27-16-3 record with a 3.59 GAA and one shutout for Detroit in 1992-93). He finished his pro career in the ECHL with Nashville and Huntsville in 1993-94.\n\nStewart arrived at Richmond during 1986-87 after starring with the Langley Eagles, where he had stopped 46 shots in a 5-4 Langley win over the Sockeyes (Nanaimo Daily News January 3 1987, image 324852401). With the Sockeyes he took a shutout bid into the third period of the Doyle Cup Game-7 win over Red Deer before Pete DeGraaf spoiled it at 13:17 (Calgary Herald April 18 1987, image 483730219; Red Deer Advocate April 18 1987, image 558336261; The Province April 19 1987, image 502040018). At the Centennial Cup he gave up a shorthanded breakaway goal to Humboldt's Garnet Kazuik at 13:20 of the second period in the round-robin loss (Star-Phoenix May 7 1987, image 512096770). A September 1987 Times Colonist note identified him as a University of Michigan State scholarship recipient (image 508622787), and by December he was listed with the second-best GAA (3.18 in six games) in the Central Collegiate Hockey Association (Nanaimo Daily News December 17 1987, image 325619184; The Abbotsford News December 16 1987, image 536573978).",
+    "bio": "Jamie Stewart was a goaltender on the 1986-87 Richmond Sockeyes, part of the Centennial Cup championship roster. Born April 25, 1966 in Vancouver, BC (6'01\", 180 lbs), his documented junior career includes the AJHL's Fort McMurray Oil Barons and BCJHL stops with the Abbotsford Falcons and Langley Eagles (1986-87: 20-13, 4.18 GAA, .899 SV%). He went on to play three seasons at Michigan State University (CCHA) from 1987 to 1990, then turned professional in the Colonial Hockey League with the Michigan/Detroit Falcons, winning back-to-back league Best Goaltender awards in 1991-92 and 1992-93 (including a 27-16-3 record with a 3.59 GAA and one shutout for Detroit in 1992-93). He finished his pro career in the ECHL with Nashville and Huntsville in 1993-94.\n\nStewart arrived at Richmond during 1986-87 after starring with the Langley Eagles, where he had stopped 46 shots in a 5-4 Langley win over the Sockeyes (Nanaimo Daily News January 3 1987, image 324852401). With the Sockeyes he took a shutout bid into the third period of the Doyle Cup Game-7 win over Red Deer before Pete DeGraaf spoiled it at 13:17 (Calgary Herald April 18 1987, image 483730219; Red Deer Advocate April 18 1987, image 558336261; The Province April 19 1987, image 502040018). At the Centennial Cup he gave up a shorthanded breakaway goal to Humboldt's Garnet Kazuik at 13:20 of the second period in the round-robin loss (Star-Phoenix May 7 1987, image 512096770). A September 1987 Times Colonist note identified him as a University of Michigan State scholarship recipient (image 508622787), and by December he was listed with the second-best GAA (3.18 in six games) in the Central Collegiate Hockey Association (Nanaimo Daily News December 17 1987, image 325619184; The Abbotsford News December 16 1987, image 536573978).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Jamie played for the Fort McMurray Oil Barons before playing this season with the Langley Eagles, and we all know what he contributed to their success. He was picked up by the Sockeyes after they won the B.C. Provincials. Next year he will be attending Michigan State University on a four year hockey scholarship. Michigan State hockey team were finalists in the N.C.A.A. last year and we know that Jamie will be a real asset for them next season.\"",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -3667,7 +3860,7 @@
       "svpct": 0,
       "so": 0
     },
-    "bio": "Chris Dickson, a goaltender born August 10, 1967 in Vancouver, BC (5'09\", 165 lbs), broke into the BCJHL as a 16-year-old with the Richmond Sockeyes in 1983-84 (21 GP) and returned to the franchise during the 1986-87 Centennial Cup championship season. He spent the majority of the 1985-86 and 1986-87 campaigns as the starter for the BCJHL's Delta Flyers, posting a 27-14 record in 43 games during the Sockeyes' title year. He continued his career at the University of North Dakota (WCHA) from 1987 through 1991.\n\nDickson was spectacular in his own net against the Sockeyes, stopping 49 shots in a 6-5 sudden-death overtime loss that ended Delta's playoff run — coach Kurtenbach afterward told reporters, \"Chris had a helluva game\" (Surrey Leader March 18 1987, image 327894504; Surrey Leader quotations compiled via image 327894504). He continued as Delta's netminder in 1987-88, blocking 25 shots in a Sockeyes-vs-Delta game that October (Nanaimo Daily News October 14 1987, image 325826432). At North Dakota, Dickson and former Sockeyes captain Dave Tomlinson (then at Boston University) faced each other in WCHA/Hockey East play: in a 6-2 BU win at Grand Forks on March 17 1990, Dickson made 33 saves in goal for the Fighting Sioux opposite Tomlinson's line — Tomlinson drew a 20:00 roughing minor in the first period (Grand Forks Herald March 18 1990, image 1128528732).",
+    "bio": "Chris Dickson, a goaltender born August 10, 1967 in Vancouver, BC (5'09\", 165 lbs), broke into the BCJHL as a 16-year-old with the Richmond Sockeyes in 1983-84 (21 GP) and returned to the franchise during the 1986-87 Centennial Cup championship season. He spent the majority of the 1985-86 and 1986-87 campaigns as the starter for the BCJHL's Delta Flyers, posting a 27-14 record in 43 games during the Sockeyes' title year. He continued his career at the University of North Dakota (WCHA) from 1987 through 1991.\n\nDickson was spectacular in his own net against the Sockeyes, stopping 49 shots in a 6-5 sudden-death overtime loss that ended Delta's playoff run — coach Kurtenbach afterward told reporters, \"Chris had a helluva game\" (Surrey Leader March 18 1987, image 327894504; Surrey Leader quotations compiled via image 327894504). He continued as Delta's netminder in 1987-88, blocking 25 shots in a Sockeyes-vs-Delta game that October (Nanaimo Daily News October 14 1987, image 325826432). At North Dakota, Dickson and former Sockeyes captain Dave Tomlinson (then at Boston University) faced each other in WCHA/Hockey East play: in a 6-2 BU win at Grand Forks on March 17 1990, Dickson made 33 saves in goal for the Fighting Sioux opposite Tomlinson's line — Tomlinson drew a 20:00 roughing minor in the first period (Grand Forks Herald March 18 1990, image 1128528732).\n\nPer the 1987 Abbott Cup Souvenir Program: \"Chris is a Richmond Boy who has played his minor hockey here. He played this year with the Delta Flyers and was their mainstay in keeping in the competition by coming up time and time again with the big stops. Chris was picked up by the team for the playoffs when regular Sockeye backup, Glenn Pencer, was injured and unable to play.\" (Note: Abbott program spells his surname \"Chris Dixon\"; retained as \"Chris Dickson\" per hockeydb, Elite Prospects, and the 1987 Centennial Cup program.)",
     "awards": [
       "Centennial Cup Champion 1987",
       "Abbott Cup Champion 1987",
@@ -4295,7 +4488,8 @@
           "pim": 30
         }
       }
-    ]
+    ],
+    "notes": "Head Coach and General Manager per the 1987 Abbott Cup Souvenir Program."
   },
   {
     "id": "mike-obrien",
@@ -4334,13 +4528,14 @@
       "Doyle Cup Champion 1987",
       "Mowat Cup Champion 1987"
     ],
-    "bio": "A 1987 BC-wide feature on the Sport Medicine Council of B.C.'s SportsAid program profiled Moro as a 17-year veteran of sports first aid and one of the program's instructors, holding an industrial first aid \"A ticket\" and practising conventional and sports first aid at Exhibition Park race track in Vancouver. His roles beyond the Sockeyes included the Vancouver Whitecaps, the Nanaimo Clippers (Junior A Tier 2), the 1986 B.C. Winter Games, the Mac's Super Series hockey tournament for three consecutive years, and the UBC athletic program the previous year. Moro contrasted sports first aid with conventional practice: \"But in sports first aid, our commitment is to get to the person, do the first aid, and look towards putting the person back on the field as quickly as possible... Sports first aiders know a bit more about how the body reacts to injury\" (The Abbotsford News July 11 1987, image 536728203; The Sunday News May 31 1987, image 561478790)."
+    "bio": "A 1987 BC-wide feature on the Sport Medicine Council of B.C.'s SportsAid program profiled Moro as a 17-year veteran of sports first aid and one of the program's instructors, holding an industrial first aid \"A ticket\" and practising conventional and sports first aid at Exhibition Park race track in Vancouver. His roles beyond the Sockeyes included the Vancouver Whitecaps, the Nanaimo Clippers (Junior A Tier 2), the 1986 B.C. Winter Games, the Mac's Super Series hockey tournament for three consecutive years, and the UBC athletic program the previous year. Moro contrasted sports first aid with conventional practice: \"But in sports first aid, our commitment is to get to the person, do the first aid, and look towards putting the person back on the field as quickly as possible... Sports first aiders know a bit more about how the body reacts to injury\" (The Abbotsford News July 11 1987, image 536728203; The Sunday News May 31 1987, image 561478790).",
+    "notes": "Head trainer per the 1987 Abbott Cup Souvenir Program."
   },
   {
     "id": "tom-harrison",
     "name": "Tom Harrison",
     "hometown": "",
-    "role": "staff",
+    "role": "equipment-manager",
     "notes": "Equipment",
     "awards": [
       "Centennial Cup Champion 1987",
@@ -4353,7 +4548,7 @@
     "id": "horst-willkomm",
     "name": "Horst Willkomm",
     "hometown": "",
-    "role": "staff",
+    "role": "president",
     "notes": "President",
     "awards": [
       "Centennial Cup Champion 1987",
@@ -4362,5 +4557,124 @@
       "Mowat Cup Champion 1987"
     ],
     "bio": "A post-championship feature noted Horst Wilkomm (name variant) as Sockeyes president, with reporters noting he was \"thinking about taking a break from hockey\" after the title (The Province May 11 1987, image 502004558).\n\nWillkomm was confirmed as Richmond Sockeyes president during the 1986-87 championship season. In the April 14 1987 issue of The Province (p.45, image 502036260), he was quoted announcing extra security arrangements for the pivotal fifth game of the Doyle Cup series in Red Deer, after altercations at both arenas in prior games; he noted that the April 12 sold-out Game 4 (a 7-1 Red Deer win) had been attended by eight police cars and two paddy wagons, with one man arrested by the RCMP for breaching the peace.\n\nWillkomm served as club president under majority owner Bruce Taylor, a Burnaby businessman. Taylor owned the Sockeyes 1985-1988 (after which he acquired the Abbotsford Falcons / New Westminster Royals franchise with partners Byron Hitchens and Kurt Bonnes) and won five consecutive BCJHL Coastal Division titles with teams he owned (Burnaby Bluehawks 1985; Richmond Sockeyes 1986, 1987, 1988; New Westminster Royals 1989). Source: Vancouver Sun hockey notebook columns by Elliott Pap (images 495152785, 494943215, 494942491)."
+  },
+  {
+    "id": "glenn-pencer",
+    "name": "Glenn Pencer",
+    "position": "G",
+    "number": 35,
+    "hometown": "North Delta, BC",
+    "role": "player",
+    "birthDate": "1967-01-19",
+    "height": "6'0\"",
+    "weight": 170,
+    "abbottCupStats": {
+      "gp": 7
+    },
+    "bio": "Glenn Pencer (born January 19, 1967) was the Richmond Sockeyes' regular backup goaltender during the 1986-87 Centennial Cup-winning season. The Abbott Cup Souvenir Program lists him at 6'0\", 170 lbs, wearing #35. Pencer was born in Burnaby and grew up in North Delta where he played all his minor hockey before joining the Sockeyes and playing three seasons with the team. An injury ended his playoff run and prompted the mid-playoff call-up of fellow Richmond goaltender Chris Dickson from the Delta Flyers.\n\nPer the 1987 Abbott Cup Souvenir Program: \"Glenn was born in Burnaby and grew up in North Delta where he played all his minor hockey. When Glenn left midget, he came to the Sockeyes and is playing his third season with the team. He loves to play goal almost as much as [Junett?] does. Glenn enjoys fishing and working with wood. He has been known to answer to the names of 'Pence' or 'Alex'.\"\n\n(Note: Abbott program OCR of a few words was partially garbled; paraphrased faithfully from legible fragments. Pencer's 7 GP in the program's playoff-stats table represents his pre-injury appearances.)",
+    "awards": [
+      "Centennial Cup Champion 1987",
+      "Abbott Cup Champion 1987",
+      "Doyle Cup Champion 1987",
+      "Mowat Cup Champion 1987"
+    ]
+  },
+  {
+    "id": "paul-tucker",
+    "name": "Paul Tucker",
+    "position": "F",
+    "hometown": "",
+    "role": "player",
+    "notes": "Affiliate player (AP) called up for 2 playoff games during the 1987 Abbott Cup run.",
+    "abbottCupStats": {
+      "gp": 2,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "pim": 0
+    },
+    "bio": "Paul Tucker was listed as an affiliate-player (AP) call-up with the Richmond Sockeyes during the 1987 Abbott Cup run. Per the 1987 Abbott Cup Souvenir Program playoff-stats table, Tucker appeared in 2 games with zero points and zero penalty minutes.",
+    "awards": [
+      "Abbott Cup Champion 1987",
+      "Doyle Cup Champion 1987",
+      "Mowat Cup Champion 1987"
+    ]
+  },
+  {
+    "id": "ray-palmer",
+    "name": "Ray Palmer",
+    "position": "F",
+    "hometown": "",
+    "role": "player",
+    "notes": "Affiliate player (AP) called up for 4 playoff games during the 1987 Abbott Cup run.",
+    "abbottCupStats": {
+      "gp": 4,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "pim": 0
+    },
+    "bio": "Ray Palmer was listed as an affiliate-player (AP) call-up with the Richmond Sockeyes during the 1987 Abbott Cup run. Per the 1987 Abbott Cup Souvenir Program playoff-stats table, Palmer appeared in 4 games with zero points and zero penalty minutes.",
+    "awards": [
+      "Abbott Cup Champion 1987",
+      "Doyle Cup Champion 1987",
+      "Mowat Cup Champion 1987"
+    ]
+  },
+  {
+    "id": "donn-clark",
+    "name": "Donn Clark",
+    "hometown": "",
+    "role": "assistant-trainer",
+    "notes": "Assistant trainer per the 1987 Abbott Cup Souvenir Program. (Contradiction: the 1987 Centennial Cup Program lists a \"Donn Clark\" as Humboldt Broncos assistant coach; the Sockeyes-produced Abbott program is treated as authoritative for Sockeyes staff.)",
+    "bio": "Donn Clark served as an assistant trainer with the 1986-87 Richmond Sockeyes per the 1987 Abbott Cup Souvenir Program, supporting head trainer Greg Moro through the Mowat, Doyle and Abbott Cup championship runs.",
+    "awards": [
+      "Centennial Cup Champion 1987",
+      "Abbott Cup Champion 1987",
+      "Doyle Cup Champion 1987",
+      "Mowat Cup Champion 1987"
+    ]
+  },
+  {
+    "id": "gilbert-peterson",
+    "name": "Gilbert Peterson",
+    "hometown": "",
+    "role": "assistant-trainer",
+    "notes": "Assistant trainer per the 1987 Abbott Cup Souvenir Program (OCR rendered name as \"glade. Peteraon\"; restored to Gilbert Peterson).",
+    "bio": "Gilbert Peterson served as an assistant trainer with the 1986-87 Richmond Sockeyes per the 1987 Abbott Cup Souvenir Program, supporting head trainer Greg Moro through the Mowat, Doyle and Abbott Cup championship runs.",
+    "awards": [
+      "Centennial Cup Champion 1987",
+      "Abbott Cup Champion 1987",
+      "Doyle Cup Champion 1987",
+      "Mowat Cup Champion 1987"
+    ]
+  },
+  {
+    "id": "bob-houghton",
+    "name": "Bob Houghton",
+    "hometown": "",
+    "role": "staff",
+    "notes": "Team staff per the 1987 Abbott Cup Souvenir Program; exact title unclear due to OCR damage in that portion of the program.",
+    "bio": "Bob Houghton is listed among the 1986-87 Richmond Sockeyes team staff in the 1987 Abbott Cup Souvenir Program. The program's OCR in the staff section was partially damaged and his exact title could not be recovered with certainty.",
+    "awards": [
+      "Centennial Cup Champion 1987",
+      "Abbott Cup Champion 1987",
+      "Doyle Cup Champion 1987",
+      "Mowat Cup Champion 1987"
+    ]
+  },
+  {
+    "id": "bruce-taylor",
+    "name": "Bruce Taylor",
+    "hometown": "Burnaby, BC",
+    "role": "owner",
+    "notes": "Team owner 1985-1988. Hired Orland Kurtenbach as head coach in July 1986.",
+    "bio": "Bruce Taylor was the Burnaby businessman who owned the Richmond Sockeyes from 1985 to 1988. Under his ownership the Sockeyes won the BCJHL Coast Division in 1986, 1987 and 1988 and captured the 1987 Centennial Cup national championship. Taylor hired Orland Kurtenbach to coach the team in July 1986 — a move referenced directly in the Abbott Cup Souvenir Program's Kurtenbach profile: \"Kurt then decided to take more time off from hockey until Bruce Taylor, owner of the Richmond Sockeyes, convinced Kurt to come out of retirement and go behind the bench of the Sockeyes.\" Taylor also owned the Burnaby Bluehawks (1985) and later the New Westminster Royals (1989+).",
+    "awards": [
+      "Centennial Cup Champion 1987 (team owner)",
+      "Abbott Cup Champion 1987 (team owner)",
+      "Doyle Cup Champion 1987 (team owner)",
+      "Mowat Cup Champion 1987 (team owner)"
+    ]
   }
 ]

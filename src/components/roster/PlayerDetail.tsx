@@ -46,7 +46,7 @@ export function PlayerDetail({
           <button onClick={onClose} aria-label="Close" className="px-3 py-1 bg-crimson text-cream">Close</button>
         </div>
 
-        {isSkater(entry) && (
+        {isSkater(entry) && entry.playoffStats && (
           <div className="mt-4 grid grid-cols-5 gap-2 text-center text-sm bg-cream-200 p-3 rounded">
             <div><div className="text-xs text-navy/60">GP</div><div className="font-semibold">{entry.playoffStats.gp}</div></div>
             <div><div className="text-xs text-navy/60">G</div><div className="font-semibold">{entry.playoffStats.g}</div></div>
@@ -55,7 +55,7 @@ export function PlayerDetail({
             <div><div className="text-xs text-navy/60">PIM</div><div className="font-semibold">{entry.playoffStats.pim}</div></div>
           </div>
         )}
-        {isGoalie(entry) && (
+        {isGoalie(entry) && entry.playoffStats && (
           <div className="mt-4 grid grid-cols-6 gap-2 text-center text-sm bg-cream-200 p-3 rounded">
             <div><div className="text-xs text-navy/60">GP</div><div className="font-semibold">{entry.playoffStats.gp}</div></div>
             <div><div className="text-xs text-navy/60">W</div><div className="font-semibold">{entry.playoffStats.w}</div></div>

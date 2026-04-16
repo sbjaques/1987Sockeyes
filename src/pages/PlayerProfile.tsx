@@ -106,7 +106,7 @@ export default function PlayerProfile() {
           </div>
         </div>
 
-        {(skater || goalie) && (
+        {(skater || goalie) && entry.playoffStats && (
           <>
             <h2 className="font-display text-2xl mt-10 mb-3">1987 Playoff Totals</h2>
             <table className="w-full text-sm">
