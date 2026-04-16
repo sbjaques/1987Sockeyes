@@ -9,3 +9,6 @@ coverage
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# Large OCR'd PDFs (keep only sidecar text)
+docs/extractions/new-sources/*-ocr.pdf
