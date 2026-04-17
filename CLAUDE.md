@@ -18,6 +18,23 @@ npm run validate:data  # AJV schema validation of JSON data
 - `src/lib/seo.tsx` uses `.tsx` (contains JSX) — not `.ts`.
 - Tailwind theme: brand red `#D8282B`, black `#231F20`, white, cream `#F2EDDC`. Legacy utility aliases (`navy`, `crimson`, `cream`) map to brand colors — components use the aliases.
 
+## Live
+- Public repo: https://github.com/sbjaques/1987Sockeyes (created 2026-04-16)
+- Live site: https://sbjaques.github.io/1987Sockeyes/ (GitHub Pages, workflow build)
+
+## Information architecture (current model — locked 2026-04-16)
+Tight narrative landing, deep pages carry the weight. Do NOT revert to a mega-scroll landing.
+
+- `/` **Landing** — Hero + SeasonArc (five-stat strip: 38-14-0 → 15-0 → 4-3 → 4-3 → 5-2, plus a four-paragraph sourced narrative) + ExploreGrid (four destination cards).
+- `/roster` **Roster** — skater + goalie tables with nicknames inline; staff as grouped cards (Ownership & Front Office / Coaching Staff / Training & Equipment / Booster Club & Supporters), each showing scoutingNotes preview.
+- `/playoffs` **The Run** — PlayoffTimeline standalone page (hoisted from the old landing), 26 games across Mowat / Doyle / Abbott / Centennial.
+- `/vault` **The Vault** — 46 items, chronological sort, PDF thumbs, hover-reveal per-card download, lightbox Download plugin.
+- `/banner-night` — 2025 commemoration.
+- `/player/:id` — profile with aliases under header, pull-quote scoutingNotes, Vitals / Path to Richmond / Linemates / Off the Ice quick-facts grid, 1987 Program Snapshot block (verbatim programBio), career tables, bio, games-mentioned, clippings-mentioned lightbox.
+- `/timeline/:cup` — per-cup deep link (retained).
+
+Nav: Home · Roster · The Run · The Vault · Banner Night.
+
 ## Architecture
 ```
 src/
@@ -29,21 +46,25 @@ src/
   hooks/     useSortableTable, useMediaFilters
   components/
     layout/    Header (logo + search + nav), Footer, Nav, Section
-    hero/      Hero (Centennial Cup team photo)
+    hero/      Hero, SeasonArc, ExploreGrid
     timeline/  PlayoffTimeline, CupSegment, GameCard
-    roster/    RosterTable (skaters + goalies + staff), PlayerDetail (modal)
-    vault/     VaultGrid, MediaCard, MediaLightbox (yet-another-react-lightbox + zoom)
+    roster/    RosterTable (skaters + goalies + grouped staff cards), PlayerDetail (modal)
+    vault/     VaultGrid, MediaCard, MediaLightbox (yet-another-react-lightbox + Zoom + Captions + Download)
     search/    SearchBar (Ctrl+K / Cmd+K)
   pages/
-    Landing, RosterPage, VaultPage, CupPage (/timeline/:cup),
-    BannerNightPage, PlayerProfile (/player/:id), NotFound
+    Landing, RosterPage, PlayoffsPage, VaultPage,
+    CupPage (/timeline/:cup), BannerNightPage, PlayerProfile (/player/:id), NotFound
+scripts/
+  enrich-roster-from-programs.py   # applies program-sourced enrichments
+  make-pdf-thumbs.py               # renders page-1 JPG thumbs for PDFs via PyMuPDF
 ```
 
 ## Data shape (key invariants)
-- **Roster entries** (`src/data/roster.json`): 22 players + Kurtenbach (head coach) + 10 staff. Optional fields: `bio`, `photoUrl`, `awards[]`, `links { hockeydb, eliteprospects, wikipedia, other[] }`, `careerStats[]`. Goalies use `{ gp, w, l, gaa, svpct, so }`; skaters use `{ gp, g, a, pts, pim }`.
-- **Known caveat:** current `playoffStats` on each player is actually 1986-87 **regular-season** totals from hockeydb (not playoff). Hockeydb's playoff page 404'd. Also in `careerStats[]` as a `type:"regular"` row. Real playoff totals are blocked on newspapers.com box-score extraction.
-- **Games** (`src/data/games.json`): 9 entries (mostly series-level, not individual-game). Need individual-game expansion from newspapers.com box scores.
-- **Media** (`src/data/media.json`): 47 items — 41 newspaper clippings + 4 program PDFs + 2 photos. Files copied to `public/assets/vault/`.
+- **Roster entries** (`src/data/roster.json`): 35 entries (22 players + 3 goalies + 10 staff including Kurtenbach, O'Brien, Eric Wolf, Moro, Clark, Peterson, Harrison, Tucker, Palmer, Willkomm, Taylor, Jackie Wolf). Optional fields now include: `bio`, `programBio`, `aliases[]`, `priorTeams[]`, `linemates[]`, `scoutingNotes`, `personalDetails { hobbies, likes, dislikes, college }`, `birthDate`, `height`, `weight`, `shoots`, `awards[]`, `links { hockeydb, eliteprospects, wikipedia, other[] }`, `careerStats[]`, `abbottCupStats`, `postseasonStats`. Goalies use `{ gp, w, l, gaa, svpct, so }`; skaters use `{ gp, g, a, pts, pim }`.
+- **Scope rule (hard):** every roster entry must be 1987 Sockeyes personnel AND clearly mentioned at least twice in source material. John Raduak and Bob Houghton removed 2026-04-16 for failing this bar. Do not re-add.
+- **Known caveat:** current `playoffStats` on each player is actually 1986-87 **regular-season** totals from hockeydb. Real postseason totals still blocked on newspapers.com box-score extraction.
+- **Games** (`src/data/games.json`): 26 individual-game entries covering all four cup series.
+- **Media** (`src/data/media.json`): 46 items — 41 newspaper clippings + 4 program PDFs (each with a JPG thumb) + 1 photo. Chronologically sorted in the Vault grid.
 
 ## Resolved facts (2026-04-13 newspapers.com dive)
 - **Centennial Cup final score: 5-2** — confirmed by Star-Phoenix May 11 1987 (images 512098529, 512098543) and Vancouver Sun May 11 1987 (images 495230735, 495229991) and Times Colonist May 10 1987 (image 508633163). The 2025 BCHL/PJHL HOF "5-3" figure was wrong.
@@ -67,13 +88,15 @@ src/
 - **Bill Hardy** was an assistant captain (Red Deer Advocate Jun 17 1987).
 
 ## Features done
-- Zoomable/pannable lightbox (`yet-another-react-lightbox` with Zoom + Captions plugins). Programs/videos open in a new tab.
+- Zoomable/pannable lightbox (`yet-another-react-lightbox` with Zoom + Captions + Download plugins). Programs/videos open in a new tab.
 - Site-wide fuzzy search (Fuse.js) — Ctrl+K or Cmd+K. Indexes roster, games, media. Results grouped (players / staff / games / media) and link to profile pages / cup pages / vault.
-- Per-player profile pages at `/#/player/:id`. Sections: header with avatar initials or photo, 1987 playoff totals, career stats (skater + goalie tables), bio, awards badges, external links, games mentioned, clippings mentioning player (click → zoomable lightbox).
-- Clickable roster rows navigate to profile (Landing preserves quick-peek modal via PlayerDetail).
+- Per-player profile pages at `/#/player/:id` with aliases, pull-quote scoutingNotes, Vitals / Path to Richmond / Linemates / Off the Ice grid, 1987 Program Snapshot block, career tables, bio, games-mentioned, clippings-mentioned lightbox.
+- RosterTable: skater + goalie tables with inline nicknames; staff rendered as grouped cards (Ownership & Front Office / Coaching Staff / Training & Equipment / Booster Club & Supporters).
+- Landing restructured to Hero + SeasonArc (sourced five-stat strip + four-paragraph narrative) + ExploreGrid. NOT a mega-scroll.
+- Vault: chronological sort, PDF thumbnails via PyMuPDF, hover-reveal per-card download button, lightbox Download plugin.
 - Banner Night page with real photos from `G:/My Drive/87 Sockeyes/2025-09-26 - Banner Night/`.
 - Page-level SEO + JSON-LD (`SportsTeam` on landing).
-- GitHub Actions workflows: CI (lint/validate/test/build) and Pages deploy. Repo not yet created — user to run manual step.
+- GitHub Actions workflows: CI (lint/validate/test/build) and Pages deploy, both green.
 
 ## Newspapers.com session (2026-04-13 3-day trial)
 
