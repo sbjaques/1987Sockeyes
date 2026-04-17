@@ -13,6 +13,40 @@
       "role": { "enum": ["player", "head-coach", "assistant-coach", "trainer", "assistant-trainer", "equipment-manager", "president", "owner", "staff"] },
       "notes": { "type": "string" },
       "bio": { "type": "string" },
+      "programBio": {
+        "type": "string",
+        "description": "Verbatim/lightly-edited mini-bio from the 1986-87 Abbott Cup or Centennial Cup Souvenir Program. Primary source snapshot of who the player was in 1987."
+      },
+      "aliases": {
+        "type": "array",
+        "description": "Nicknames and clubhouse aliases from primary sources.",
+        "items": { "type": "string" }
+      },
+      "priorTeams": {
+        "type": "array",
+        "description": "Teams the player played for before joining the Sockeyes (minor/junior/university), in chronological order where known.",
+        "items": { "type": "string" }
+      },
+      "linemates": {
+        "type": "array",
+        "description": "Roster ids of regular 1986-87 linemates, per the souvenir program.",
+        "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+      },
+      "scoutingNotes": {
+        "type": "string",
+        "description": "Brief scouting / narrative assessment of the player in 1986-87 (from program or contemporaneous press)."
+      },
+      "personalDetails": {
+        "type": "object",
+        "description": "Personality, hobbies, and off-ice notes from the 1987 program.",
+        "properties": {
+          "hobbies":  { "type": "array", "items": { "type": "string" } },
+          "likes":    { "type": "array", "items": { "type": "string" } },
+          "dislikes": { "type": "array", "items": { "type": "string" } },
+          "college":  { "type": "string" }
+        },
+        "additionalProperties": false
+      },
       "photoUrl": { "type": "string" },
       "birthDate": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
       "height": { "type": "string" },

@@ -98,6 +98,11 @@ export default function PlayerProfile() {
             <p className="text-navy/70 mt-1">
               {entry.number ? `#${entry.number} · ` : ''}{formatRole(entry)}{entry.hometown ? ` · ${entry.hometown}` : ''}
             </p>
+            {entry.aliases && entry.aliases.length > 0 && (
+              <p className="text-navy/60 italic mt-1 text-sm">
+                a.k.a. {entry.aliases.map(a => `"${a}"`).join(' · ')}
+              </p>
+            )}
             {entry.awards && entry.awards.length > 0 && (
               <ul className="mt-2 flex flex-wrap gap-2">
                 {entry.awards.map(a => <li key={a} className="text-xs uppercase tracking-widest bg-crimson text-cream px-2 py-1 rounded">{a}</li>)}
@@ -105,6 +110,74 @@ export default function PlayerProfile() {
             )}
           </div>
         </div>
+
+        {entry.scoutingNotes && (
+          <blockquote className="mt-8 border-l-4 border-crimson bg-cream-200 px-5 py-4 text-navy/90 italic">
+            {entry.scoutingNotes}
+          </blockquote>
+        )}
+
+        {(entry.birthDate || entry.height || entry.weight || entry.shoots || (entry.priorTeams && entry.priorTeams.length > 0) || (entry.linemates && entry.linemates.length > 0) || entry.personalDetails) && (
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            {(entry.birthDate || entry.height || entry.weight || entry.shoots) && (
+              <div>
+                <h3 className="text-xs uppercase tracking-widest text-navy/60 mb-2">Vitals</h3>
+                <dl className="text-sm grid grid-cols-[auto,1fr] gap-x-4 gap-y-1">
+                  {entry.birthDate && (<><dt className="text-navy/60">Born</dt><dd>{entry.birthDate}</dd></>)}
+                  {entry.height && (<><dt className="text-navy/60">Height</dt><dd>{entry.height}</dd></>)}
+                  {entry.weight && (<><dt className="text-navy/60">Weight</dt><dd>{entry.weight} lbs</dd></>)}
+                  {entry.shoots && (<><dt className="text-navy/60">Shoots</dt><dd>{entry.shoots === 'L' ? 'Left' : 'Right'}</dd></>)}
+                </dl>
+              </div>
+            )}
+            {entry.priorTeams && entry.priorTeams.length > 0 && (
+              <div>
+                <h3 className="text-xs uppercase tracking-widest text-navy/60 mb-2">Path to Richmond</h3>
+                <ol className="text-sm space-y-1 list-decimal pl-5">
+                  {entry.priorTeams.map((t, i) => <li key={i}>{t}</li>)}
+                </ol>
+              </div>
+            )}
+            {entry.linemates && entry.linemates.length > 0 && (
+              <div>
+                <h3 className="text-xs uppercase tracking-widest text-navy/60 mb-2">1986-87 Linemates</h3>
+                <ul className="text-sm space-y-1">
+                  {entry.linemates.map(lid => {
+                    const mate = roster.find(r => r.id === lid);
+                    return (
+                      <li key={lid}>
+                        {mate ? (
+                          <Link to={`/player/${mate.id}`} className="text-crimson underline">
+                            {mate.name}{mate.number ? ` (#${mate.number})` : ''}
+                          </Link>
+                        ) : lid}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            )}
+            {entry.personalDetails && (
+              <div>
+                <h3 className="text-xs uppercase tracking-widest text-navy/60 mb-2">Off the Ice</h3>
+                <dl className="text-sm grid grid-cols-[auto,1fr] gap-x-4 gap-y-1">
+                  {entry.personalDetails.hobbies && entry.personalDetails.hobbies.length > 0 && (
+                    <><dt className="text-navy/60">Hobbies</dt><dd>{entry.personalDetails.hobbies.join(', ')}</dd></>
+                  )}
+                  {entry.personalDetails.likes && entry.personalDetails.likes.length > 0 && (
+                    <><dt className="text-navy/60">Likes</dt><dd>{entry.personalDetails.likes.join(', ')}</dd></>
+                  )}
+                  {entry.personalDetails.dislikes && entry.personalDetails.dislikes.length > 0 && (
+                    <><dt className="text-navy/60">Dislikes</dt><dd>{entry.personalDetails.dislikes.join(', ')}</dd></>
+                  )}
+                  {entry.personalDetails.college && (
+                    <><dt className="text-navy/60">College</dt><dd>{entry.personalDetails.college}</dd></>
+                  )}
+                </dl>
+              </div>
+            )}
+          </div>
+        )}
 
         {(skater || goalie) && entry.playoffStats && (
           <>
@@ -211,6 +284,16 @@ export default function PlayerProfile() {
                 ))}
               </tbody>
             </table>
+          </>
+        )}
+
+        {entry.programBio && (
+          <>
+            <h2 className="font-display text-2xl mt-10 mb-3">1987 Program Snapshot</h2>
+            <div className="border-l-4 border-navy bg-cream-200 px-5 py-4 italic text-navy/90 whitespace-pre-line">
+              {entry.programBio}
+            </div>
+            <p className="text-xs text-navy/50 mt-2">Source: 1987 Abbott Cup / Centennial Cup Souvenir Program</p>
           </>
         )}
 

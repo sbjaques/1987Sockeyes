@@ -36,6 +36,13 @@ export interface PlayerLinks {
   other?: { label: string; url: string }[];
 }
 
+export interface PersonalDetails {
+  hobbies?: string[];
+  likes?: string[];
+  dislikes?: string[];
+  college?: string;
+}
+
 interface BaseEntry {
   id: string;
   name: string;
@@ -44,6 +51,18 @@ interface BaseEntry {
   number?: number;
   notes?: string;
   bio?: string;
+  /** Verbatim/lightly-edited mini-bio from the 1986-87 souvenir program. */
+  programBio?: string;
+  /** Nicknames and clubhouse aliases. */
+  aliases?: string[];
+  /** Teams before joining the Sockeyes, chronological. */
+  priorTeams?: string[];
+  /** Roster ids of regular 1986-87 linemates. */
+  linemates?: string[];
+  /** Brief scouting/narrative assessment in 1986-87. */
+  scoutingNotes?: string;
+  /** Personality, hobbies, off-ice notes. */
+  personalDetails?: PersonalDetails;
   photoUrl?: string;
   birthDate?: string;
   height?: string;
