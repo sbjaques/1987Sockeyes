@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import type { MediaItem } from '../../types/media';
 import { useMediaFilters } from '../../hooks/useMediaFilters';
 import { MediaCard } from './MediaCard';
@@ -6,7 +6,11 @@ import { MediaLightbox } from './MediaLightbox';
 import { VaultFilters } from './VaultFilters';
 
 export function VaultGrid({ items }: { items: MediaItem[] }) {
-  const { filtered, state, toggleType, clear } = useMediaFilters(items);
+  const sorted = useMemo(
+    () => [...items].sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999')),
+    [items]
+  );
+  const { filtered, state, toggleType, clear } = useMediaFilters(sorted);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const openable = filtered.filter(m => m.type !== 'program' && m.type !== 'video' && m.type !== 'document');
