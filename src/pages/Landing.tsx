@@ -1,4 +1,5 @@
 import { Hero } from '../components/hero/Hero';
+import { SeasonArc } from '../components/hero/SeasonArc';
 import { Section } from '../components/layout/Section';
 import { PlayoffTimeline } from '../components/timeline/PlayoffTimeline';
 import { RosterTable } from '../components/roster/RosterTable';
@@ -16,6 +17,7 @@ export default function Landing() {
         jsonLd={teamStructuredData()}
       />
       <Hero />
+      <SeasonArc />
       <Section id="timeline" title="The Playoff Path">
         <PlayoffTimeline games={loadGames()} />
       </Section>
