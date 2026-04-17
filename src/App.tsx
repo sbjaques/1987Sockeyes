@@ -4,6 +4,7 @@ import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import Landing from './pages/Landing';
 import RosterPage from './pages/RosterPage';
+import PlayoffsPage from './pages/PlayoffsPage';
 import VaultPage from './pages/VaultPage';
 import CupPage from './pages/CupPage';
 import BannerNightPage from './pages/BannerNightPage';
@@ -19,6 +20,7 @@ export default function App() {
           <Routes>
             <Route path="/"              element={<Landing />} />
             <Route path="/roster"        element={<RosterPage />} />
+            <Route path="/playoffs"      element={<PlayoffsPage />} />
             <Route path="/vault"         element={<VaultPage />} />
             <Route path="/timeline/:cup" element={<CupPage />} />
             <Route path="/banner-night"  element={<BannerNightPage />} />

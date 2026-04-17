@@ -1,0 +1,71 @@
+import { Link } from 'react-router-dom';
+
+type Card = {
+  to: string;
+  eyebrow: string;
+  title: string;
+  blurb: string;
+};
+
+const CARDS: Card[] = [
+  {
+    to: '/roster',
+    eyebrow: 'The Team',
+    title: 'Roster & Staff',
+    blurb:
+      'Twenty-two players, head coach Orland Kurtenbach, the coaching staff, owner Bruce Taylor, and the booster club that built it. Click any name for the full program snapshot, nicknames, linemates, and path to Richmond.',
+  },
+  {
+    to: '/playoffs',
+    eyebrow: 'The Story',
+    title: 'The Run',
+    blurb:
+      'Twenty-six games across four trophies — Mowat, Doyle, Abbott, Centennial — with scorers, turning points, and the 9-1 Game 7 in Red Deer that saved the season.',
+  },
+  {
+    to: '/vault',
+    eyebrow: 'The Archive',
+    title: 'The Vault',
+    blurb:
+      'Forty-six primary-source items: newspaper clippings from the Province, Vancouver Sun, Star-Phoenix, Leader-Post, Red Deer Advocate, and more — plus the Abbott & Centennial Cup souvenir programs.',
+  },
+  {
+    to: '/banner-night',
+    eyebrow: '2025',
+    title: 'Banner Night',
+    blurb:
+      'September 26, 2025. The 1986-87 team reunited at Minoru Arenas to raise their Centennial Cup championship banner.',
+  },
+];
+
+export function ExploreGrid() {
+  return (
+    <section className="bg-cream">
+      <div className="max-w-6xl mx-auto px-4 py-14">
+        <h2 className="font-display text-3xl md:text-4xl mb-2">Explore the Archive</h2>
+        <p className="text-navy/70 mb-8">
+          Every person, every game, every clipping we could find — cross-referenced and sourced.
+        </p>
+        <div className="grid gap-4 md:grid-cols-2">
+          {CARDS.map(c => (
+            <Link
+              key={c.to}
+              to={c.to}
+              className="group relative block bg-cream-200 border border-navy/10 hover:border-crimson rounded p-6 transition">
+              <div className="text-xs uppercase tracking-widest text-crimson font-semibold mb-2">
+                {c.eyebrow}
+              </div>
+              <div className="font-display text-2xl text-navy group-hover:text-crimson transition">
+                {c.title}
+              </div>
+              <p className="text-navy/75 mt-3 text-sm leading-relaxed">{c.blurb}</p>
+              <span className="text-crimson text-sm mt-4 inline-block group-hover:underline">
+                Enter →
+              </span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

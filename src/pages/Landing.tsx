@@ -1,10 +1,6 @@
 import { Hero } from '../components/hero/Hero';
 import { SeasonArc } from '../components/hero/SeasonArc';
-import { Section } from '../components/layout/Section';
-import { PlayoffTimeline } from '../components/timeline/PlayoffTimeline';
-import { RosterTable } from '../components/roster/RosterTable';
-import { VaultGrid } from '../components/vault/VaultGrid';
-import { loadGames, loadRoster, loadMedia } from '../lib/loadData';
+import { ExploreGrid } from '../components/hero/ExploreGrid';
 import { Seo } from '../lib/seo';
 import { teamStructuredData } from '../lib/structuredData';
 
@@ -18,16 +14,7 @@ export default function Landing() {
       />
       <Hero />
       <SeasonArc />
-      <Section id="timeline" title="The Playoff Path">
-        <PlayoffTimeline games={loadGames()} />
-      </Section>
-      <Section id="roster" title="The Roster">
-        <p className="text-sm text-navy/70 mb-4">Visit the <a href="#/roster" className="underline text-crimson">Roster page</a> for player details, game mentions, and linked clippings.</p>
-        <RosterTable entries={loadRoster()} />
-      </Section>
-      <Section id="vault" title="The Vault">
-        <VaultGrid items={loadMedia()} />
-      </Section>
+      <ExploreGrid />
     </>
   );
 }
