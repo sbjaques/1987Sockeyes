@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npm run build:image-index && vite",
+    "build:image-index": "node scripts/build-image-index.mjs",
+    "prebuild": "npm run build:image-index",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
