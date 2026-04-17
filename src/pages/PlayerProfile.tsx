@@ -3,6 +3,7 @@ import { useParams, Navigate, Link } from 'react-router-dom';
 import { Section } from '../components/layout/Section';
 import { MediaLightbox } from '../components/vault/MediaLightbox';
 import { Seo } from '../lib/seo';
+import { linkifyImageRefs } from '../lib/linkifyImageRefs';
 import { loadRoster, loadGames, loadMedia } from '../lib/loadData';
 import { isSkater, isGoalie, type RosterEntry } from '../types/roster';
 import type { MediaItem } from '../types/media';
@@ -291,7 +292,7 @@ export default function PlayerProfile() {
           <>
             <h2 className="font-display text-2xl mt-10 mb-3">1987 Program Snapshot</h2>
             <div className="border-l-4 border-navy bg-cream-200 px-5 py-4 italic text-navy/90 whitespace-pre-line">
-              {entry.programBio}
+              {linkifyImageRefs(entry.programBio)}
             </div>
             <p className="text-xs text-navy/50 mt-2">Source: 1987 Abbott Cup / Centennial Cup Souvenir Program</p>
           </>
@@ -300,7 +301,7 @@ export default function PlayerProfile() {
         {entry.bio && (
           <>
             <h2 className="font-display text-2xl mt-10 mb-3">Biography</h2>
-            <div className="prose max-w-none whitespace-pre-line">{entry.bio}</div>
+            <div className="prose max-w-none whitespace-pre-line">{linkifyImageRefs(entry.bio)}</div>
           </>
         )}
 

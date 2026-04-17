@@ -1,4 +1,5 @@
 import type { Game } from '../../types/games';
+import { linkifyImageRefs } from '../../lib/linkifyImageRefs';
 
 export function GameCard({ game }: { game: Game }) {
   return (
@@ -11,7 +12,7 @@ export function GameCard({ game }: { game: Game }) {
       </div>
       {game.highlights.length > 0 && (
         <ul className="mt-2 text-sm list-disc list-inside">
-          {game.highlights.map((h, i) => <li key={i}>{h}</li>)}
+          {game.highlights.map((h, i) => <li key={i}>{linkifyImageRefs(h)}</li>)}
         </ul>
       )}
     </article>
