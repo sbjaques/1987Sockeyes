@@ -60,7 +60,8 @@ scripts/
 ```
 
 ## Data shape (key invariants)
-- **Roster entries** (`src/data/roster.json`): 35 entries (22 players + 3 goalies + 10 staff including Kurtenbach, O'Brien, Eric Wolf, Moro, Clark, Peterson, Harrison, Tucker, Palmer, Willkomm, Taylor, Jackie Wolf). Optional fields now include: `bio`, `programBio`, `aliases[]`, `priorTeams[]`, `linemates[]`, `scoutingNotes`, `personalDetails { hobbies, likes, dislikes, college }`, `birthDate`, `height`, `weight`, `shoots`, `awards[]`, `links { hockeydb, eliteprospects, wikipedia, other[] }`, `careerStats[]`, `abbottCupStats`, `postseasonStats`. Goalies use `{ gp, w, l, gaa, svpct, so }`; skaters use `{ gp, g, a, pts, pim }`.
+- **Roster entries** (`src/data/roster.json`): 35 entries (22 players + 3 goalies + 10 staff including Kurtenbach, O'Brien, Eric Wolf, Moro, Clark, Peterson, Harrison, Tucker, Palmer, Willkomm, Taylor, Jackie Wolf). Optional fields now include: `bio`, `programBio`, `aliases[]`, `priorTeams[]`, `linemates[]`, `scoutingNotes`, `personalDetails { hobbies, likes, dislikes, college }`, `birthDate`, `height`, `weight`, `shoots`, `awards[]`, `links { hockeydb, eliteprospects, wikipedia, other[] }`, `careerStats[]`, `abbottCupStats`, `doyleCupStats`, `abbottCupSeriesStats`, `centennialCupStats`, `postseasonStats`. Goalies use `{ gp, w, l, gaa, svpct, so }`; skaters use `{ gp, g, a, pts, pim }`.
+- **Series-stats distinction:** `abbottCupStats` is tournament-wide through the Abbott Cup (15 games) per the 1987 program. `doyleCupStats` / `abbottCupSeriesStats` / `centennialCupStats` are the verified per-series finals only (7 / 7 / 5 games), derived from newspapers.com box scores — partial where narrative-only coverage existed. Added 2026-04-17.
 - **Scope rule (hard):** every roster entry must be 1987 Sockeyes personnel AND clearly mentioned at least twice in source material. John Raduak and Bob Houghton removed 2026-04-16 for failing this bar. Do not re-add.
 - **Known caveat:** current `playoffStats` on each player is actually 1986-87 **regular-season** totals from hockeydb. Real postseason totals still blocked on newspapers.com box-score extraction.
 - **Games** (`src/data/games.json`): 26 individual-game entries covering all four cup series.
@@ -72,7 +73,7 @@ scripts/
 - **Centennial Cup MVP: Frank Romeo** — confirmed by two contemporaneous 1987 papers (Star-Phoenix May 11 + Times Colonist May 10). The 2025 Richmond Sentinel article that credited Phillips with MVP was wrong. **Jason Phillips** won the tournament's **Most Gentlemanly Player** award (box-score terminology) and the **All-Star Team** nod, and had a hat trick in the final.
 - **Centennial Cup schedule corrections** (per contemporaneous Star-Phoenix coverage):
   - Round-robin vs Dartmouth: May 3 (unchanged, 7-3 W)
-  - Round-robin vs Pembroke: **May 4, 4-3 W** (was listed as May 7 4-1; two third-period goals from Tomlinson won it)
+  - Round-robin vs Pembroke: **May 4, 4-1 W** (Star-Phoenix box + 6 CP wires). Kozak opened 2:39/1st (from Phillips+Hervey); Dupont tied it PP 4:06/3rd; Czenczek 6:35, Tomlinson 15:01 and 18:26 sealed it. Previously logged as 4-3 — corrected 2026-04-17.
   - Round-robin vs Humboldt: **May 6, 1-6 L** (was listed as May 5; Czenczek goal; Kazuik SH breakaway after Jaques turnover)
   - Semifinal vs Pembroke: **May 7, 9-3 W** (was listed as May 9)
   - Final vs Humboldt: **May 9, 5-2 W** (was listed as May 10)
@@ -81,7 +82,7 @@ scripts/
 - **Frank Romeo** was a late-season goaltender pickup who started only in the playoffs. Quote from Tomlinson in Richmond News 2012.
 - **Jim Gunn position is D** (not F). Hometown Prince George, BC.
 - **Fred Page Cup (BCJHL final)** was a 4-0 sweep of Kelowna Packers. Our schema enum keeps `series: "Mowat"` for this entry.
-- **Abbott Cup Game 6** (Apr 28 1987): Humboldt 4 Richmond 3 OT. Rutherford 2G, Tomlinson 1G for Richmond. Bobbitt took a penalty for closing hand on puck; Jaques received a 5-minute match penalty for headbutting McDougall. Source: Nanaimo Daily News Apr 29 1987, image 325077439.
+- **Abbott Cup Game 6** (Apr 28 1987): Humboldt 4 Richmond 3 OT. Rutherford 2G, Tomlinson 1G for Richmond. Bobbitt took a penalty for closing hand on puck; Jaques received a 5-minute match penalty for **helmet-butting** McDougall (four contemporaneous wires specifically describe it as helmet-butting — Jaques was wearing a helmet and struck McDougall's mouth with it). Source: Nanaimo Daily News Apr 29 1987, image 325077439.
 - **Trevor Dickie (#21) was 1986-87 team captain** — not Tomlinson. Per Vancouver Sun Mar 25 1987 p.25 (image 495157862) post-BCJHL-sweep photo caption and direct quote from "Richmond captain Trevor Dickie". Tomlinson later became captain in 1987-88 or later, referenced retrospectively.
 - **Mike O'Brien** confirmed as Kurtenbach's assistant coach per Vancouver Sun Nov 4 1986 (image 494902975, Arv Olson byline).
 - **Horst Willkomm** confirmed as Sockeyes president per The Province Apr 14 1987 p.45 (image 502036260).
@@ -129,15 +130,15 @@ scripts/
 
 ## Priority work queue
 
-### 2. Extract box scores from newspapers.com
-Manifest: `docs/newspapers-com-manifest.md` (5,379 words, commit `e918b33`). Top priority:
-1. Star Phoenix May 11 1987 — Centennial Cup final box (resolves 5-2 vs 5-3)
-2. May 9 1987 semifinal vs Pembroke (currently zero sources in games.json)
-3. All five Centennial Cup round-robin/playoff boxes
-4. All Doyle Cup games (Red Deer Advocate daily)
-5. Individual game coverage to expand games.json from series-level to per-game
+### 2. Extract box scores from newspapers.com — **largely done 2026-04-17**
+Proposal docs in `docs/box-score-extractions/{doyle,abbott,centennial}-cup.md`. Applied to `games.json` and `roster.json` (per-series stats). Remaining gaps:
+- Doyle Game 7 box score (narrative-only in corpus — scorers all confirmed but no per-goal times/assists/penalties)
+- Abbott Cup Games 4-7 (narrative-only — no period-by-period box was carried by any paper in the scraped set)
+- Centennial Cup Games 1, 3, 4 full assist credits (narrative-only in those)
+- Per-game attendance is missing for most Abbott Cup games
+- Phillips Centennial tournament line conflict: narrative scorer-list sum = 7G; Vancouver Sun p.20 Pap says 5G 7A. Unresolved.
 
-Protocol: user pastes OCR text + URL into `docs/extractions/<slug>.md`. Assistant parses into games.json + tallies real `playoffStats` into roster.json (rename field or add `postseasonStats` when real playoff data arrives).
+Newspapers.com trial has expired — further resolution would require re-subscription or library access.
 
 ### 3. Finish career completion (deferred from last session)
 Agent 1 did Kurtenbach (35 seasons), Stewart (9), Dickson (7), Clarke (6), Moller (8), confirmed Romeo (1). Still to do: add hockey-reference / HOF / university roster links to the other ~25 players. Many also need playoff rows separated from regular-season rows in careerStats.
@@ -174,3 +175,5 @@ Manual (user): `gh repo create 1987Sockeyes --public --source=. --remote=origin 
 - `e918b33` newspapers.com manifest
 - `3d5b12c` seven retrospective articles bypassing 403s
 - `5559b3c` MVP correction (Phillips not Romeo), Jim Gunn bio, BC Hockey HOF 2025 awards, Fred Page Cup sweep
+- `f7c9b8b` IA lockdown + scope rules
+- (2026-04-17) box-score extraction pass: 21 game entries enriched with period-by-period scoring, shot totals, goalie changes; May 4 Pembroke score corrected 4-3 → 4-1; Clarke PP hat trick in Doyle G6 surfaced; doyleCupStats / abbottCupSeriesStats / centennialCupStats added to 18 roster entries

@@ -330,7 +330,28 @@
         "flying (commercial pilot)"
       ]
     },
-    "scoutingNotes": "Montreal Canadiens draft pick; commercial pilot license; joined Sockeyes at Christmas via Medicine Hat."
+    "scoutingNotes": "Montreal Canadiens draft pick; commercial pilot license; joined Sockeyes at Christmas via Medicine Hat.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 2,
+      "a": 0,
+      "pts": 2,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 1,
+      "a": 1,
+      "pts": 2,
+      "pim": 2
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 0,
+      "a": 1,
+      "pts": 1,
+      "pim": 6
+    }
   },
   {
     "id": "russ-goglin",
@@ -822,7 +843,28 @@
     "personalDetails": {
       "college": "University of North Dakota (NCAA)"
     },
-    "scoutingNotes": "Rookie American import. Seattle fan following 'paid more in gas this season than most local fans paid in admission costs'."
+    "scoutingNotes": "Rookie American import. Seattle fan following 'paid more in gas this season than most local fans paid in admission costs'.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 4,
+      "a": 1,
+      "pts": 5,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 0,
+      "a": 1,
+      "pts": 1,
+      "pim": 0
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 1,
+      "a": 0,
+      "pts": 1,
+      "pim": 2
+    }
   },
   {
     "id": "stan-czenczek",
@@ -951,7 +993,28 @@
         "girls"
       ]
     },
-    "scoutingNotes": "Returning from back surgery; breakaway skating style; 1986-87 leader on the blue line."
+    "scoutingNotes": "Returning from back surgery; breakaway skating style; 1986-87 leader on the blue line.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 0,
+      "a": 6,
+      "pts": 6,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 1,
+      "a": 3,
+      "pts": 4,
+      "pim": 4
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 2,
+      "a": 0,
+      "pts": 2,
+      "pim": 4
+    }
   },
   {
     "id": "paul-rutherford",
@@ -1113,7 +1176,28 @@
       ],
       "college": "Ohio State University"
     },
-    "scoutingNotes": "Rookie playing up from midget eligibility; met high preseason expectations."
+    "scoutingNotes": "Rookie playing up from midget eligibility; met high preseason expectations.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 1,
+      "a": 2,
+      "pts": 3,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 2,
+      "a": 0,
+      "pts": 2,
+      "pim": 0
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 2,
+      "a": 2,
+      "pts": 4,
+      "pim": 0
+    }
   },
   {
     "id": "jason-phillips",
@@ -1291,7 +1375,28 @@
       ],
       "college": "Michigan State College (scholarship per Centennial Cup program)"
     },
-    "scoutingNotes": "Left wing on the Kozak-Phillips-Hardy line; Michigan State-bound."
+    "scoutingNotes": "Left wing on the Kozak-Phillips-Hardy line; Michigan State-bound.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 3,
+      "a": 0,
+      "pts": 3,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 5,
+      "a": 1,
+      "pts": 6,
+      "pim": 0
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 7,
+      "a": 2,
+      "pts": 9,
+      "pim": 0
+    }
   },
   {
     "id": "steve-jaques",
@@ -1617,7 +1722,28 @@
       "Surrey Minor Hockey",
       "Surrey-area Junior B (spot games as midget)"
     ],
-    "scoutingNotes": "Full-time starter on defence in his Sockeyes season."
+    "scoutingNotes": "Full-time starter on defence in his Sockeyes season.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 1,
+      "a": 2,
+      "pts": 3,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 0,
+      "a": 1,
+      "pts": 1,
+      "pim": 14
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 2,
+      "a": 0,
+      "pts": 2,
+      "pim": 2
+    }
   },
   {
     "id": "dave-tomlinson",
@@ -2133,7 +2259,28 @@
     "personalDetails": {
       "college": "Boston University (NCAA, hockey scholarship)"
     },
-    "scoutingNotes": "18 y/o centerman; 43 G, 65 A, 108 pts in 51 games — 2nd in BCJHL scoring. Team's top scorer in both regular season and playoffs per Centennial Cup program."
+    "scoutingNotes": "18 y/o centerman; 43 G, 65 A, 108 pts in 51 games — 2nd in BCJHL scoring. Team's top scorer in both regular season and playoffs per Centennial Cup program.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 8,
+      "a": 5,
+      "pts": 13,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 4,
+      "a": 3,
+      "pts": 7,
+      "pim": 6
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 3,
+      "a": 0,
+      "pts": 3,
+      "pim": 0
+    }
   },
   {
     "id": "bryon-moller",
@@ -2294,7 +2441,28 @@
         "building fish ponds"
       ]
     },
-    "scoutingNotes": "18 y/o centerman; 27 G, 64 A, 91 pts in 50 games — 6th in BCJHL scoring. Langley leading-scorer rookie before joining Sockeyes."
+    "scoutingNotes": "18 y/o centerman; 27 G, 64 A, 91 pts in 50 games — 6th in BCJHL scoring. Langley leading-scorer rookie before joining Sockeyes.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 0,
+      "a": 1,
+      "pts": 1,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 1,
+      "a": 0,
+      "pts": 1,
+      "pim": 0
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 1,
+      "a": 1,
+      "pts": 2,
+      "pim": 0
+    }
   },
   {
     "id": "brian-kozak",
@@ -2418,7 +2586,28 @@
     "personalDetails": {
       "college": "University of Manitoba (planned 1987-88)"
     },
-    "scoutingNotes": "20 y/o centerman; considered the team's most consistent player (Centennial Cup program)."
+    "scoutingNotes": "20 y/o centerman; considered the team's most consistent player (Centennial Cup program).",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 4,
+      "a": 2,
+      "pts": 6,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 2,
+      "a": 2,
+      "pts": 4,
+      "pim": 4
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 1,
+      "a": 2,
+      "pts": 3,
+      "pim": 0
+    }
   },
   {
     "id": "bill-hardy",
@@ -2564,7 +2753,28 @@
         "volunteering at the Boys' and Girls' Club of Greater Vancouver"
       ]
     },
-    "scoutingNotes": "1986-87 assistant captain; right wing on the Kozak-Phillips-Hardy line."
+    "scoutingNotes": "1986-87 assistant captain; right wing on the Kozak-Phillips-Hardy line.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 3,
+      "a": 1,
+      "pts": 4,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 1,
+      "a": 0,
+      "pts": 1,
+      "pim": 2
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 1,
+      "a": 1,
+      "pts": 2,
+      "pim": 0
+    }
   },
   {
     "id": "rob-clarke",
@@ -2696,7 +2906,28 @@
       "Salmon Arm",
       "Langley Eagles (BCJHL, start of 1986-87)"
     ],
-    "scoutingNotes": "19 y/o centerman; joined Sockeyes mid-season from Langley. Finished 3rd in BCJHL scoring: 65 G, 38 A, 103 pts in 50 games."
+    "scoutingNotes": "19 y/o centerman; joined Sockeyes mid-season from Langley. Finished 3rd in BCJHL scoring: 65 G, 38 A, 103 pts in 50 games.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 4,
+      "a": 1,
+      "pts": 5,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 1,
+      "a": 1,
+      "pts": 2,
+      "pim": 2
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "pim": 2
+    }
   },
   {
     "id": "tony-bobbitt",
@@ -2855,7 +3086,28 @@
       "New Westminster",
       "Salmon Arm"
     ],
-    "scoutingNotes": "BCJHL All-Star selection; Nova Scotia-born, BC-raised."
+    "scoutingNotes": "BCJHL All-Star selection; Nova Scotia-born, BC-raised.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 3,
+      "a": 1,
+      "pts": 4,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 1,
+      "a": 0,
+      "pts": 1,
+      "pim": 6
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 1,
+      "a": 0,
+      "pts": 1,
+      "pim": 0
+    }
   },
   {
     "id": "jim-gunn",
@@ -3015,7 +3267,28 @@
       ],
       "college": "College in Calgary (planned 1987-88)"
     },
-    "scoutingNotes": "Defenceman-turned-forward; physical game; spent time in the penalty box."
+    "scoutingNotes": "Defenceman-turned-forward; physical game; spent time in the penalty box.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 2,
+      "a": 1,
+      "pts": 3,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "pim": 10
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "pim": 2
+    }
   },
   {
     "id": "dean-rutledge",
@@ -3122,7 +3395,28 @@
     "personalDetails": {
       "college": "N.A.I.T. (Northern Alberta Institute of Technology), Edmonton"
     },
-    "scoutingNotes": "Key playoff contributor per Centennial Cup program. Christmas-acquired from Fort McMurray."
+    "scoutingNotes": "Key playoff contributor per Centennial Cup program. Christmas-acquired from Fort McMurray.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 2,
+      "a": 0,
+      "pts": 2,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 2,
+      "a": 1,
+      "pts": 3,
+      "pim": 0
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 1,
+      "a": 2,
+      "pts": 3,
+      "pim": 2
+    }
   },
   {
     "id": "trevor-dickie",
@@ -3286,7 +3580,28 @@
       "New Westminster Bruins (WHL)",
       "University of Calgary Dinosaurs (CIAU, 1985-86)"
     ],
-    "scoutingNotes": "1986-87 team captain. Returning from CIAU after WHL tenure."
+    "scoutingNotes": "1986-87 team captain. Returning from CIAU after WHL tenure.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 0,
+      "a": 2,
+      "pts": 2,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "pim": 6
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 0,
+      "a": 1,
+      "pts": 1,
+      "pim": 14
+    }
   },
   {
     "id": "matt-hervey",
@@ -3714,7 +4029,28 @@
         "surfing"
       ]
     },
-    "scoutingNotes": "Considered the team's best forward per Centennial Cup program. 25 pts (4 G, 21 A) in WHL playoff action with Seattle Breakers. Averaged over a point per game in 1987 Sockeyes playoffs. Invited to LA Kings' camp."
+    "scoutingNotes": "Considered the team's best forward per Centennial Cup program. 25 pts (4 G, 21 A) in WHL playoff action with Seattle Breakers. Averaged over a point per game in 1987 Sockeyes playoffs. Invited to LA Kings' camp.",
+    "doyleCupStats": {
+      "gp": 7,
+      "g": 5,
+      "a": 3,
+      "pts": 8,
+      "pim": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "g": 4,
+      "a": 4,
+      "pts": 8,
+      "pim": 4
+    },
+    "centennialCupStats": {
+      "gp": 5,
+      "g": 2,
+      "a": 1,
+      "pts": 3,
+      "pim": 2
+    }
   },
   {
     "id": "jason-talo",
@@ -3902,7 +4238,25 @@
       "Vernon Lakers",
       "Kelowna Packers"
     ],
-    "scoutingNotes": "Late-season goaltender pickup; started the Abbott + Centennial Cup playoff runs. Centennial Cup MVP."
+    "scoutingNotes": "Late-season goaltender pickup; started the Abbott + Centennial Cup playoff runs. Centennial Cup MVP.",
+    "doyleCupStats": {
+      "gp": 4,
+      "w": 2,
+      "l": 1,
+      "so": 0
+    },
+    "abbottCupSeriesStats": {
+      "gp": 7,
+      "w": 4,
+      "l": 3,
+      "so": 0
+    },
+    "centennialCupStats": {
+      "gp": 4,
+      "w": 4,
+      "l": 0,
+      "so": 0
+    }
   },
   {
     "id": "jamie-stewart",
@@ -4077,7 +4431,19 @@
     "personalDetails": {
       "college": "Michigan State University (NCAA, 4-year scholarship)"
     },
-    "scoutingNotes": "Added for Centennial Cup run after BC Provincials. Headed to Michigan State — 1986 NCAA finalists."
+    "scoutingNotes": "Added for Centennial Cup run after BC Provincials. Headed to Michigan State — 1986 NCAA finalists.",
+    "doyleCupStats": {
+      "gp": 4,
+      "w": 2,
+      "l": 2,
+      "so": 0
+    },
+    "centennialCupStats": {
+      "gp": 1,
+      "w": 0,
+      "l": 1,
+      "so": 0
+    }
   },
   {
     "id": "chris-dickson",

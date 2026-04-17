@@ -157,6 +157,57 @@
               "svpct":{"type":"number","minimum":0,"maximum":1}, "so":{"type":"integer","minimum":0}
             }, "additionalProperties": false }
         ]
+      },
+      "doyleCupStats": {
+        "description": "Verified 7-game Doyle Cup final totals (Richmond vs Red Deer Rustlers, Apr 7-16 1987). Derived from Red Deer Advocate box scores plus cross-referenced CP wire copy. Partial where box scores were unavailable.",
+        "oneOf": [
+          { "type": "object", "required": ["gp","g","a","pts","pim"],
+            "properties": {
+              "gp": {"type":"integer","minimum":0}, "g":{"type":"integer","minimum":0},
+              "a":  {"type":"integer","minimum":0}, "pts":{"type":"integer","minimum":0},
+              "pim":{"type":"integer","minimum":0}
+            }, "additionalProperties": false },
+          { "type": "object", "required": ["gp"],
+            "properties": {
+              "gp":{"type":"integer","minimum":0}, "w":{"type":"integer","minimum":0},
+              "l":{"type":"integer","minimum":0}, "gaa":{"type":"number","minimum":0},
+              "svpct":{"type":"number","minimum":0,"maximum":1}, "so":{"type":"integer","minimum":0}
+            }, "additionalProperties": false }
+        ]
+      },
+      "abbottCupSeriesStats": {
+        "description": "Verified 7-game Abbott Cup final totals (Richmond vs Humboldt Broncos, Apr 20-29 1987). Distinct from abbottCupStats, which is tournament-wide through the Abbott Cup (15 games) per the 1987 program.",
+        "oneOf": [
+          { "type": "object", "required": ["gp","g","a","pts","pim"],
+            "properties": {
+              "gp": {"type":"integer","minimum":0}, "g":{"type":"integer","minimum":0},
+              "a":  {"type":"integer","minimum":0}, "pts":{"type":"integer","minimum":0},
+              "pim":{"type":"integer","minimum":0}
+            }, "additionalProperties": false },
+          { "type": "object", "required": ["gp"],
+            "properties": {
+              "gp":{"type":"integer","minimum":0}, "w":{"type":"integer","minimum":0},
+              "l":{"type":"integer","minimum":0}, "gaa":{"type":"number","minimum":0},
+              "svpct":{"type":"number","minimum":0,"maximum":1}, "so":{"type":"integer","minimum":0}
+            }, "additionalProperties": false }
+        ]
+      },
+      "centennialCupStats": {
+        "description": "Verified 5-game Centennial Cup tournament totals (Humboldt Uniplex, May 3-9 1987): 3 round-robin + 1 semifinal + 1 final. Assists and PIM are partial — only the Pembroke round-robin and Humboldt final had full period-by-period boxes printed; other games had narrative-only scorer lists.",
+        "oneOf": [
+          { "type": "object", "required": ["gp","g","a","pts","pim"],
+            "properties": {
+              "gp": {"type":"integer","minimum":0}, "g":{"type":"integer","minimum":0},
+              "a":  {"type":"integer","minimum":0}, "pts":{"type":"integer","minimum":0},
+              "pim":{"type":"integer","minimum":0}
+            }, "additionalProperties": false },
+          { "type": "object", "required": ["gp"],
+            "properties": {
+              "gp":{"type":"integer","minimum":0}, "w":{"type":"integer","minimum":0},
+              "l":{"type":"integer","minimum":0}, "gaa":{"type":"number","minimum":0},
+              "svpct":{"type":"number","minimum":0,"maximum":1}, "so":{"type":"integer","minimum":0}
+            }, "additionalProperties": false }
+        ]
       }
     },
     "additionalProperties": false
