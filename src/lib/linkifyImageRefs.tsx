@@ -2,17 +2,25 @@ import type { ReactNode } from 'react';
 import imageIndex from '../data/imageIndex.json';
 
 const IMAGE_ID_RE = /\d{7,}/g;
-const REPO_BLOB_BASE = 'https://github.com/sbjaques/1987Sockeyes/blob/main/docs/extractions/';
+const IMAGES_RAW_BASE = 'https://raw.githubusercontent.com/sbjaques/1987Sockeyes-images/main/';
+const OCR_BLOB_BASE = 'https://github.com/sbjaques/1987Sockeyes/blob/main/docs/extractions/';
 const NEWSPAPERS_FALLBACK = 'https://www.newspapers.com/image/';
 
-const index = imageIndex as Record<string, string>;
+type IndexEntry = { filename: string; image?: boolean };
+const index = imageIndex as Record<string, IndexEntry>;
 
 function urlForImageId(id: string): { href: string; title: string } {
-  const file = index[id];
-  if (file) {
+  const entry = index[id];
+  if (entry?.image) {
     return {
-      href: REPO_BLOB_BASE + file,
-      title: `View local OCR extraction: ${file}`,
+      href: `${IMAGES_RAW_BASE}${id}.jpg`,
+      title: `View newspaper scan: ${entry.filename.replace(/\.md$/, '.jpg')}`,
+    };
+  }
+  if (entry) {
+    return {
+      href: OCR_BLOB_BASE + entry.filename,
+      title: `View OCR extraction: ${entry.filename}`,
     };
   }
   return {

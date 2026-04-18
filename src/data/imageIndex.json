@@ -1,227 +1,895 @@
 {
-  "102209856": "1996-06-15-the-cincinnati-enquirer-p36-i102209856.md",
-  "238818945": "1995-03-05-south-florida-sun-sentinel-p42-i238818945.md",
-  "239018639": "1995-02-21-south-florida-sun-sentinel-p31-i239018639.md",
-  "323775055": "1988-02-11-nanaimo-daily-news-p10-i323775055.md",
-  "324108638": "1992-12-13-tampa-bay-times-p15-i324108638.md",
-  "324456989": "1987-02-09-nanaimo-daily-news-p9-i324456989.md",
-  "324471274": "1987-02-24-nanaimo-daily-news-p11-i324471274.md",
-  "324472605": "1987-02-25-nanaimo-daily-news-p9-i324472605.md",
-  "324474820": "1987-02-27-nanaimo-daily-news-p9-i324474820.md",
-  "324476635": "1987-02-28-nanaimo-daily-news-p9-i324476635.md",
-  "324852401": "1987-01-03-nanaimo-daily-news-p9-i324852401.md",
-  "324861343": "1987-01-22-nanaimo-daily-news-p9-i324861343.md",
-  "324866539": "1987-01-30-nanaimo-daily-news-p9-i324866539.md",
-  "325076956": "1987-04-27-nanaimo-daily-news-p10-i325076956.md",
-  "325077439": "1987-04-29-nanaimo-daily-news-p9-i325077439.md",
-  "325618867": "1987-12-16-nanaimo-daily-news-p12-i325618867.md",
-  "325619184": "1987-12-17-nanaimo-daily-news-p11-i325619184.md",
-  "325789553": "1987-11-10-nanaimo-daily-news-p9-i325789553.md",
-  "325826432": "1987-10-14-nanaimo-daily-news-p11-i325826432.md",
-  "325833170": "1987-10-22-nanaimo-daily-news-p9-i325833170.md",
-  "325960646": "1988-03-10-nanaimo-daily-news-p9-i325960646.md",
-  "327894504": "1987-03-18-surrey-leader-p48-i327894504.md",
-  "339097039": "1992-11-29-the-tampa-tribune-p30-i339097039.md",
-  "424270274": "1993-01-09-the-gazette-p35-i424270274.md",
-  "437934229": "1987-11-01-the-boston-globe-p79-i437934229.md",
-  "437977772": "1988-02-28-the-boston-globe-p70-i437977772.md",
-  "438843894": "1988-03-06-the-boston-globe-p64-i438843894.md",
-  "438845236": "1988-01-17-the-boston-globe-p64-i438845236.md",
-  "473040181": "1987-04-18-edmonton-journal-p48-i473040181.md",
-  "483641750": "1987-05-07-calgary-herald-p13-i483641750.md",
-  "483667308": "1987-05-08-calgary-herald-p18-i483667308.md",
-  "483730219": "1987-04-18-calgary-herald-p73-i483730219.md",
-  "483768383": "1987-04-26-calgary-herald-p4-i483768383.md",
-  "494902975": "1986-11-04-the-vancouver-sun-p40-i494902975.md",
-  "494903084": "1986-11-04-the-vancouver-sun-p17-i494903084.md",
-  "494942491": "1990-04-28-the-vancouver-sun-p62-i494942491.md",
-  "494943215": "1990-04-28-the-vancouver-sun-p11-i494943215.md",
-  "494955011": "1989-10-06-the-vancouver-sun-p19-i494955011.md",
-  "495086278": "1987-04-06-the-vancouver-sun-p18-i495086278.md",
-  "495086548": "1987-04-06-the-vancouver-sun-p11-i495086548.md",
-  "495088209": "1987-04-08-the-vancouver-sun-p24-i495088209.md",
-  "495098412": "1987-03-18-the-vancouver-sun-p26-i495098412.md",
-  "495099766": "1987-03-19-the-vancouver-sun-p37-i495099766.md",
-  "495099771": "1987-03-19-the-vancouver-sun-p38-i495099771.md",
-  "495152785": "1989-03-22-the-vancouver-sun-p32-i495152785.md",
-  "495156035": "1987-03-21-the-vancouver-sun-p24-i495156035.md",
-  "495156113": "1987-05-02-the-vancouver-sun-p25-i495156113.md",
-  "495156118": "1987-05-02-the-vancouver-sun-p26-i495156118.md",
-  "495156572": "1987-03-23-the-vancouver-sun-p15-i495156572.md",
-  "495156700": "1987-03-23-the-vancouver-sun-p10-i495156700.md",
-  "495157600": "1987-05-05-the-vancouver-sun-p33-i495157600.md",
-  "495157739": "1987-03-25-the-vancouver-sun-p63-i495157739.md",
-  "495157862": "1987-03-25-the-vancouver-sun-p25-i495157862.md",
-  "495158433": "1987-05-06-the-vancouver-sun-p62-i495158433.md",
-  "495159747": "1987-05-07-the-vancouver-sun-p24-i495159747.md",
-  "495161710": "1987-05-09-the-vancouver-sun-p38-i495161710.md",
-  "495194273": "1987-04-15-the-vancouver-sun-p15-i495194273.md",
-  "495194669": "1987-04-16-the-vancouver-sun-p83-i495194669.md",
-  "495229991": "1987-05-11-the-vancouver-sun-p20-i495229991.md",
-  "495230735": "1987-05-11-the-vancouver-sun-p14-i495230735.md",
-  "495241884": "1987-04-21-the-vancouver-sun-p28-i495241884.md",
-  "495242331": "1987-04-21-the-vancouver-sun-p11-i495242331.md",
-  "495243576": "1987-04-22-the-vancouver-sun-p60-i495243576.md",
-  "495246503": "1987-04-23-the-vancouver-sun-p61-i495246503.md",
-  "495254117": "1987-04-27-the-vancouver-sun-p18-i495254117.md",
-  "495257020": "1987-04-29-the-vancouver-sun-p25-i495257020.md",
-  "495257563": "1987-04-29-the-vancouver-sun-p15-i495257563.md",
-  "496389832": "1988-03-03-the-vancouver-sun-p12-i496389832.md",
-  "496394992": "1988-03-10-the-vancouver-sun-p34-i496394992.md",
-  "496462357": "1987-04-18-the-leader-post-p28-i496462357.md",
-  "496462581": "1987-04-22-the-leader-post-p18-i496462581.md",
-  "496462652": "1987-04-23-the-leader-post-p14-i496462652.md",
-  "496463200": "1987-04-27-the-leader-post-p14-i496463200.md",
-  "496463470": "1987-04-30-the-leader-post-p32-i496463470.md",
-  "496959132": "1987-06-19-the-leader-post-p57-i496959132.md",
-  "496959220": "1987-05-04-the-leader-post-p27-i496959220.md",
-  "496960544": "1987-05-08-the-leader-post-p42-i496960544.md",
-  "496962458": "1987-05-11-the-leader-post-p20-i496962458.md",
-  "502004009": "1987-05-11-the-province-p22-i502004009.md",
-  "502004558": "1987-05-11-the-province-p12-i502004558.md",
-  "502021976": "1987-04-30-the-province-p12-i502021976.md",
-  "502027542": "1987-05-04-the-province-p18-i502027542.md",
-  "502033093": "1987-05-10-the-province-p90-i502033093.md",
-  "502040018": "1987-04-19-the-province-p13-i502040018.md",
-  "502054045": "1987-03-25-the-province-p20-i502054045.md",
-  "502130318": "1988-03-23-the-province-p16-i502130318.md",
-  "502136535": "1988-03-27-the-province-p13-i502136535.md",
-  "502676054": "1988-03-13-the-province-p10-i502676054.md",
-  "508000096": "1987-02-08-times-colonist-p11-i508000096.md",
-  "508260798": "1986-07-24-times-colonist-p14-i508260798.md",
-  "508622787": "1987-09-17-times-colonist-p10-i508622787.md",
-  "508629153": "1987-04-04-times-colonist-p32-i508629153.md",
-  "508631348": "1987-05-08-times-colonist-p12-i508631348.md",
-  "508632785": "1987-05-10-times-colonist-p9-i508632785.md",
-  "508633163": "1987-05-10-times-colonist-p1-i508633163.md",
-  "508831369": "1988-03-22-times-colonist-p12-i508831369.md",
-  "508874627": "1987-04-16-times-colonist-p3-i508874627.md",
-  "508875734": "1987-04-22-times-colonist-p14-i508875734.md",
-  "508877216": "1987-04-26-times-colonist-p12-i508877216.md",
-  "508877755": "1987-04-28-times-colonist-p12-i508877755.md",
-  "508877984": "1987-04-28-times-colonist-p3-i508877984.md",
-  "508878542": "1987-04-30-times-colonist-p16-i508878542.md",
-  "511198663": "1987-11-30-star-phoenix-p25-i511198663.md",
-  "511921636": "1986-11-07-star-phoenix-p31-i511921636.md",
-  "512093788": "1987-05-04-star-phoenix-p13-i512093788.md",
-  "512094454": "1987-05-05-star-phoenix-p15-i512094454.md",
-  "512094503": "1987-05-05-star-phoenix-p17-i512094503.md",
-  "512095951": "1987-05-06-star-phoenix-p19-i512095951.md",
-  "512096770": "1987-05-07-star-phoenix-p17-i512096770.md",
-  "512096840": "1987-05-07-star-phoenix-p20-i512096840.md",
-  "512097450": "1987-05-08-star-phoenix-p29-i512097450.md",
-  "512097836": "1987-05-09-star-phoenix-p47-i512097836.md",
-  "512098529": "1987-05-11-star-phoenix-p13-i512098529.md",
-  "512098543": "1987-05-11-star-phoenix-p14-i512098543.md",
-  "512242898": "1986-11-29-star-phoenix-p69-i512242898.md",
-  "512309668": "1987-04-18-star-phoenix-p44-i512309668.md",
-  "512310223": "1987-04-21-star-phoenix-p41-i512310223.md",
-  "512310237": "1987-04-21-star-phoenix-p43-i512310237.md",
-  "512310501": "1987-04-22-star-phoenix-p36-i512310501.md",
-  "512310521": "1987-04-22-star-phoenix-p38-i512310521.md",
-  "512310808": "1987-04-23-star-phoenix-p14-i512310808.md",
-  "512310816": "1987-04-23-star-phoenix-p16-i512310816.md",
-  "512311584": "1987-04-25-star-phoenix-p43-i512311584.md",
-  "512311911": "1987-04-27-star-phoenix-p15-i512311911.md",
-  "512312872": "1987-04-30-star-phoenix-p45-i512312872.md",
-  "536570359": "1987-04-11-the-abbotsford-news-p34-i536570359.md",
-  "536573978": "1987-12-16-the-abbotsford-news-p17-i536573978.md",
-  "536581352": "1987-04-22-the-abbotsford-news-p15-i536581352.md",
-  "536728203": "1987-07-11-the-abbotsford-news-p24-i536728203.md",
-  "536733310": "1987-09-19-the-abbotsford-news-p24-i536733310.md",
-  "536895890": "1987-01-28-the-abbotsford-news-p14-i536895890.md",
-  "536973431": "1987-01-21-langley-advance-p13-i536973431.md",
-  "536980538": "1987-04-22-langley-advance-p15-i536980538.md",
-  "537066955": "1990-10-03-the-abbotsford-news-p47-i537066955.md",
-  "558334281": "1987-04-07-red-deer-advocate-p8-i558334281.md",
-  "558334501": "1987-04-08-red-deer-advocate-p21-i558334501.md",
-  "558334781": "1987-04-09-red-deer-advocate-p1-i558334781.md",
-  "558334839": "1987-04-09-red-deer-advocate-p11-i558334839.md",
-  "558334897": "1987-04-09-red-deer-advocate-p14-i558334897.md",
-  "558335595": "1987-04-13-red-deer-advocate-p1-i558335595.md",
-  "558335628": "1987-04-13-red-deer-advocate-p7-i558335628.md",
-  "558335639": "1987-04-13-red-deer-advocate-p9-i558335639.md",
-  "558335948": "1987-04-15-red-deer-advocate-p21-i558335948.md",
-  "558335956": "1987-04-15-red-deer-advocate-p23-i558335956.md",
-  "558336101": "1987-04-16-red-deer-advocate-p11-i558336101.md",
-  "558336127": "1987-04-16-red-deer-advocate-p15-i558336127.md",
-  "558336223": "1987-04-18-red-deer-advocate-p1-i558336223.md",
-  "558336261": "1987-04-18-red-deer-advocate-p12-i558336261.md",
-  "558336723": "1987-04-22-red-deer-advocate-p20-i558336723.md",
-  "558336879": "1987-04-23-red-deer-advocate-p22-i558336879.md",
-  "558337700": "1987-04-30-red-deer-advocate-p20-i558337700.md",
-  "558421571": "1987-05-04-red-deer-advocate-p9-i558421571.md",
-  "558421757": "1987-05-07-red-deer-advocate-p17-i558421757.md",
-  "558421854": "1987-05-08-red-deer-advocate-p22-i558421854.md",
-  "558425466": "1987-10-22-red-deer-advocate-p14-i558425466.md",
-  "558451248": "1987-09-04-red-deer-advocate-p20-i558451248.md",
-  "558457835": "1987-09-26-red-deer-advocate-p14-i558457835.md",
-  "558464326": "1987-06-17-red-deer-advocate-p15-i558464326.md",
-  "560090747": "1987-01-30-alberni-valley-times-p8-i560090747.md",
-  "560107428": "1987-04-08-alberni-valley-times-p9-i560107428.md",
-  "560107877": "1987-04-21-alberni-valley-times-p6-i560107877.md",
-  "560107992": "1987-04-23-alberni-valley-times-p6-i560107992.md",
-  "560108301": "1987-04-29-alberni-valley-times-p7-i560108301.md",
-  "560108578": "1987-05-04-alberni-valley-times-p11-i560108578.md",
-  "560108603": "1987-05-05-alberni-valley-times-p9-i560108603.md",
-  "560108695": "1987-05-08-alberni-valley-times-p8-i560108695.md",
-  "560108760": "1987-05-11-alberni-valley-times-p9-i560108760.md",
-  "561082905": "1987-08-16-the-sunday-news-p47-i561082905.md",
-  "561478790": "1987-05-31-the-sunday-news-p20-i561478790.md",
-  "639202890": "1995-03-05-the-miami-herald-p38-i639202890.md",
-  "663903394": "1985-03-13-the-bangor-daily-news-p7-i663903394.md",
-  "663903402": "1985-03-13-the-bangor-daily-news-p11-i663903402.md",
-  "664872292": "1985-01-05-the-bangor-daily-news-p13-i664872292.md",
-  "688061731": "1987-04-08-quesnel-cariboo-observer-pB4-i688061731.md",
-  "688061732": "1987-04-08-quesnel-cariboo-observer-pC1-i688061732.md",
-  "731234620": "1987-05-08-the-daily-herald-tribune-p12-i731234620.md",
-  "731240705": "1987-04-08-the-daily-herald-tribune-p8-i731240705.md",
-  "731241442": "1987-04-13-the-daily-herald-tribune-p7-i731241442.md",
-  "731241842": "1987-04-16-the-daily-herald-tribune-p22-i731241842.md",
-  "731242432": "1987-04-23-the-daily-herald-tribune-p11-i731242432.md",
-  "734711493": "1989-02-18-north-bay-nugget-p13-i734711493.md",
-  "735358793": "1989-09-12-the-winnipeg-sun-p37-i735358793.md",
-  "735358966": "1989-10-04-the-winnipeg-sun-p37-i735358966.md",
-  "735361292": "1989-09-26-the-winnipeg-sun-p39-i735361292.md",
-  "735361916": "1989-09-28-the-winnipeg-sun-p58-i735361916.md",
-  "736882093": "1987-05-04-the-winnipeg-sun-p23-i736882093.md",
-  "738692385": "1987-01-26-fort-mcmurray-today-p6-i738692385.md",
-  "738692624": "1987-01-30-fort-mcmurray-today-p8-i738692624.md",
-  "738694726": "1987-04-23-fort-mcmurray-today-p9-i738694726.md",
-  "738694983": "1987-04-27-fort-mcmurray-today-p7-i738694983.md",
-  "821560569": "1991-06-23-tri-city-herald-p17-i821560569.md",
-  "875335064": "1989-06-18-the-buffalo-news-p57-i875335064.md",
-  "949123397": "1993-01-08-the-toronto-star-p10-i949123397.md",
-  "949130250": "1993-01-18-the-toronto-star-p13-i949130250.md",
-  "949130354": "1992-11-02-the-toronto-star-p14-i949130354.md",
-  "949148192": "1992-10-22-the-toronto-star-p23-i949148192.md",
-  "1011070382": "1987-05-09-the-hamilton-spectator-p59-i1011070382.md",
-  "1011089155": "1987-05-11-the-hamilton-spectator-p34-i1011089155.md",
-  "1098991610": "1987-05-05-daily-gleaner-p27-i1098991610.md",
-  "1099004070": "1987-05-08-daily-gleaner-p24-i1099004070.md",
-  "1107094171": "1987-05-05-the-times-transcript-p33-i1107094171.md",
-  "1107104138": "1987-09-19-the-times-transcript-p34-i1107104138.md",
-  "1107105211": "1988-09-21-the-times-transcript-p29-i1107105211.md",
-  "1107105854": "1988-01-04-the-times-transcript-p8-i1107105854.md",
-  "1107141761": "1988-04-12-the-times-transcript-p30-i1107141761.md",
-  "1107148440": "1987-10-29-the-times-transcript-p36-i1107148440.md",
-  "1107421777": "1988-11-08-the-times-transcript-p41-i1107421777.md",
-  "1107674585": "1993-04-13-the-times-transcript-p8-i1107674585.md",
-  "1107681099": "1993-04-14-the-times-transcript-p12-i1107681099.md",
-  "1107681995": "1993-12-11-the-times-transcript-p13-i1107681995.md",
-  "1107716258": "1993-11-10-the-times-transcript-p27-i1107716258.md",
-  "1107761162": "1994-02-28-the-times-transcript-p17-i1107761162.md",
-  "1107764485": "1989-11-10-the-times-transcript-p1-i1107764485.md",
-  "1107790757": "1993-08-04-the-times-transcript-p11-i1107790757.md",
-  "1107950086": "1994-04-25-the-times-transcript-p15-i1107950086.md",
-  "1111149754": "1994-05-09-telegraph-journal-p11-i1111149754.md",
-  "1111187087": "1988-03-04-telegraph-journal-p26-i1111187087.md",
-  "1111288540": "1987-11-07-telegraph-journal-p29-i1111288540.md",
-  "1114414764": "1986-11-05-saint-john-times-globe-p28-i1114414764.md",
-  "1128528732": "1990-03-18-grand-forks-herald-p32-i1128528732.md",
-  "1128706608": "1987-04-15-grand-forks-herald-p23-i1128706608.md",
-  "1309395464": "1985-01-27-maine-sunday-telegram-p46-i1309395464.md",
-  "1309397751": "1985-01-27-maine-sunday-telegram-p38-i1309397751.md",
-  "1309397770": "1985-01-27-maine-sunday-telegram-p40-i1309397770.md",
-  "1309833588": "1988-01-09-portland-press-herald-p5-i1309833588.md"
+  "102209856": {
+    "filename": "1996-06-15-the-cincinnati-enquirer-p36-i102209856.md",
+    "image": true
+  },
+  "238818945": {
+    "filename": "1995-03-05-south-florida-sun-sentinel-p42-i238818945.md",
+    "image": true
+  },
+  "239018639": {
+    "filename": "1995-02-21-south-florida-sun-sentinel-p31-i239018639.md",
+    "image": true
+  },
+  "323775055": {
+    "filename": "1988-02-11-nanaimo-daily-news-p10-i323775055.md",
+    "image": true
+  },
+  "324108638": {
+    "filename": "1992-12-13-tampa-bay-times-p15-i324108638.md",
+    "image": true
+  },
+  "324456989": {
+    "filename": "1987-02-09-nanaimo-daily-news-p9-i324456989.md",
+    "image": true
+  },
+  "324471274": {
+    "filename": "1987-02-24-nanaimo-daily-news-p11-i324471274.md",
+    "image": true
+  },
+  "324472605": {
+    "filename": "1987-02-25-nanaimo-daily-news-p9-i324472605.md",
+    "image": true
+  },
+  "324474820": {
+    "filename": "1987-02-27-nanaimo-daily-news-p9-i324474820.md",
+    "image": true
+  },
+  "324476635": {
+    "filename": "1987-02-28-nanaimo-daily-news-p9-i324476635.md",
+    "image": true
+  },
+  "324852401": {
+    "filename": "1987-01-03-nanaimo-daily-news-p9-i324852401.md",
+    "image": true
+  },
+  "324861343": {
+    "filename": "1987-01-22-nanaimo-daily-news-p9-i324861343.md",
+    "image": true
+  },
+  "324866539": {
+    "filename": "1987-01-30-nanaimo-daily-news-p9-i324866539.md",
+    "image": true
+  },
+  "325076956": {
+    "filename": "1987-04-27-nanaimo-daily-news-p10-i325076956.md",
+    "image": true
+  },
+  "325077439": {
+    "filename": "1987-04-29-nanaimo-daily-news-p9-i325077439.md",
+    "image": true
+  },
+  "325618867": {
+    "filename": "1987-12-16-nanaimo-daily-news-p12-i325618867.md",
+    "image": true
+  },
+  "325619184": {
+    "filename": "1987-12-17-nanaimo-daily-news-p11-i325619184.md",
+    "image": true
+  },
+  "325789553": {
+    "filename": "1987-11-10-nanaimo-daily-news-p9-i325789553.md",
+    "image": true
+  },
+  "325826432": {
+    "filename": "1987-10-14-nanaimo-daily-news-p11-i325826432.md",
+    "image": true
+  },
+  "325833170": {
+    "filename": "1987-10-22-nanaimo-daily-news-p9-i325833170.md",
+    "image": true
+  },
+  "325960646": {
+    "filename": "1988-03-10-nanaimo-daily-news-p9-i325960646.md",
+    "image": true
+  },
+  "327894504": {
+    "filename": "1987-03-18-surrey-leader-p48-i327894504.md",
+    "image": true
+  },
+  "339097039": {
+    "filename": "1992-11-29-the-tampa-tribune-p30-i339097039.md",
+    "image": true
+  },
+  "424270274": {
+    "filename": "1993-01-09-the-gazette-p35-i424270274.md",
+    "image": true
+  },
+  "437934229": {
+    "filename": "1987-11-01-the-boston-globe-p79-i437934229.md",
+    "image": true
+  },
+  "437977772": {
+    "filename": "1988-02-28-the-boston-globe-p70-i437977772.md",
+    "image": true
+  },
+  "438843894": {
+    "filename": "1988-03-06-the-boston-globe-p64-i438843894.md",
+    "image": true
+  },
+  "438845236": {
+    "filename": "1988-01-17-the-boston-globe-p64-i438845236.md",
+    "image": true
+  },
+  "473040181": {
+    "filename": "1987-04-18-edmonton-journal-p48-i473040181.md",
+    "image": true
+  },
+  "483641750": {
+    "filename": "1987-05-07-calgary-herald-p13-i483641750.md",
+    "image": true
+  },
+  "483667308": {
+    "filename": "1987-05-08-calgary-herald-p18-i483667308.md",
+    "image": true
+  },
+  "483730219": {
+    "filename": "1987-04-18-calgary-herald-p73-i483730219.md",
+    "image": true
+  },
+  "483768383": {
+    "filename": "1987-04-26-calgary-herald-p4-i483768383.md",
+    "image": true
+  },
+  "494902975": {
+    "filename": "1986-11-04-the-vancouver-sun-p40-i494902975.md",
+    "image": true
+  },
+  "494903084": {
+    "filename": "1986-11-04-the-vancouver-sun-p17-i494903084.md",
+    "image": true
+  },
+  "494942491": {
+    "filename": "1990-04-28-the-vancouver-sun-p62-i494942491.md",
+    "image": true
+  },
+  "494943215": {
+    "filename": "1990-04-28-the-vancouver-sun-p11-i494943215.md",
+    "image": true
+  },
+  "494955011": {
+    "filename": "1989-10-06-the-vancouver-sun-p19-i494955011.md",
+    "image": true
+  },
+  "495086278": {
+    "filename": "1987-04-06-the-vancouver-sun-p18-i495086278.md",
+    "image": true
+  },
+  "495086548": {
+    "filename": "1987-04-06-the-vancouver-sun-p11-i495086548.md",
+    "image": true
+  },
+  "495088209": {
+    "filename": "1987-04-08-the-vancouver-sun-p24-i495088209.md",
+    "image": true
+  },
+  "495098412": {
+    "filename": "1987-03-18-the-vancouver-sun-p26-i495098412.md",
+    "image": true
+  },
+  "495099766": {
+    "filename": "1987-03-19-the-vancouver-sun-p37-i495099766.md",
+    "image": true
+  },
+  "495099771": {
+    "filename": "1987-03-19-the-vancouver-sun-p38-i495099771.md",
+    "image": true
+  },
+  "495152785": {
+    "filename": "1989-03-22-the-vancouver-sun-p32-i495152785.md",
+    "image": true
+  },
+  "495156035": {
+    "filename": "1987-03-21-the-vancouver-sun-p24-i495156035.md",
+    "image": true
+  },
+  "495156113": {
+    "filename": "1987-05-02-the-vancouver-sun-p25-i495156113.md",
+    "image": true
+  },
+  "495156118": {
+    "filename": "1987-05-02-the-vancouver-sun-p26-i495156118.md",
+    "image": true
+  },
+  "495156572": {
+    "filename": "1987-03-23-the-vancouver-sun-p15-i495156572.md",
+    "image": true
+  },
+  "495156700": {
+    "filename": "1987-03-23-the-vancouver-sun-p10-i495156700.md",
+    "image": true
+  },
+  "495157600": {
+    "filename": "1987-05-05-the-vancouver-sun-p33-i495157600.md",
+    "image": true
+  },
+  "495157739": {
+    "filename": "1987-03-25-the-vancouver-sun-p63-i495157739.md",
+    "image": true
+  },
+  "495157862": {
+    "filename": "1987-03-25-the-vancouver-sun-p25-i495157862.md",
+    "image": true
+  },
+  "495158433": {
+    "filename": "1987-05-06-the-vancouver-sun-p62-i495158433.md",
+    "image": true
+  },
+  "495159747": {
+    "filename": "1987-05-07-the-vancouver-sun-p24-i495159747.md",
+    "image": true
+  },
+  "495161710": {
+    "filename": "1987-05-09-the-vancouver-sun-p38-i495161710.md",
+    "image": true
+  },
+  "495194273": {
+    "filename": "1987-04-15-the-vancouver-sun-p15-i495194273.md",
+    "image": true
+  },
+  "495194669": {
+    "filename": "1987-04-16-the-vancouver-sun-p83-i495194669.md",
+    "image": true
+  },
+  "495229991": {
+    "filename": "1987-05-11-the-vancouver-sun-p20-i495229991.md",
+    "image": true
+  },
+  "495230735": {
+    "filename": "1987-05-11-the-vancouver-sun-p14-i495230735.md",
+    "image": true
+  },
+  "495241884": {
+    "filename": "1987-04-21-the-vancouver-sun-p28-i495241884.md",
+    "image": true
+  },
+  "495242331": {
+    "filename": "1987-04-21-the-vancouver-sun-p11-i495242331.md",
+    "image": true
+  },
+  "495243576": {
+    "filename": "1987-04-22-the-vancouver-sun-p60-i495243576.md",
+    "image": true
+  },
+  "495246503": {
+    "filename": "1987-04-23-the-vancouver-sun-p61-i495246503.md",
+    "image": true
+  },
+  "495254117": {
+    "filename": "1987-04-27-the-vancouver-sun-p18-i495254117.md",
+    "image": true
+  },
+  "495257020": {
+    "filename": "1987-04-29-the-vancouver-sun-p25-i495257020.md",
+    "image": true
+  },
+  "495257563": {
+    "filename": "1987-04-29-the-vancouver-sun-p15-i495257563.md",
+    "image": true
+  },
+  "496389832": {
+    "filename": "1988-03-03-the-vancouver-sun-p12-i496389832.md",
+    "image": true
+  },
+  "496394992": {
+    "filename": "1988-03-10-the-vancouver-sun-p34-i496394992.md",
+    "image": true
+  },
+  "496462357": {
+    "filename": "1987-04-18-the-leader-post-p28-i496462357.md",
+    "image": true
+  },
+  "496462581": {
+    "filename": "1987-04-22-the-leader-post-p18-i496462581.md",
+    "image": true
+  },
+  "496462652": {
+    "filename": "1987-04-23-the-leader-post-p14-i496462652.md",
+    "image": true
+  },
+  "496463200": {
+    "filename": "1987-04-27-the-leader-post-p14-i496463200.md",
+    "image": true
+  },
+  "496463470": {
+    "filename": "1987-04-30-the-leader-post-p32-i496463470.md",
+    "image": true
+  },
+  "496959132": {
+    "filename": "1987-06-19-the-leader-post-p57-i496959132.md",
+    "image": true
+  },
+  "496959220": {
+    "filename": "1987-05-04-the-leader-post-p27-i496959220.md",
+    "image": true
+  },
+  "496960544": {
+    "filename": "1987-05-08-the-leader-post-p42-i496960544.md",
+    "image": true
+  },
+  "496962458": {
+    "filename": "1987-05-11-the-leader-post-p20-i496962458.md",
+    "image": true
+  },
+  "502004009": {
+    "filename": "1987-05-11-the-province-p22-i502004009.md",
+    "image": true
+  },
+  "502004558": {
+    "filename": "1987-05-11-the-province-p12-i502004558.md",
+    "image": true
+  },
+  "502021976": {
+    "filename": "1987-04-30-the-province-p12-i502021976.md",
+    "image": true
+  },
+  "502027542": {
+    "filename": "1987-05-04-the-province-p18-i502027542.md",
+    "image": true
+  },
+  "502033093": {
+    "filename": "1987-05-10-the-province-p90-i502033093.md",
+    "image": true
+  },
+  "502040018": {
+    "filename": "1987-04-19-the-province-p13-i502040018.md",
+    "image": true
+  },
+  "502054045": {
+    "filename": "1987-03-25-the-province-p20-i502054045.md",
+    "image": true
+  },
+  "502130318": {
+    "filename": "1988-03-23-the-province-p16-i502130318.md",
+    "image": true
+  },
+  "502136535": {
+    "filename": "1988-03-27-the-province-p13-i502136535.md",
+    "image": true
+  },
+  "502676054": {
+    "filename": "1988-03-13-the-province-p10-i502676054.md",
+    "image": true
+  },
+  "508000096": {
+    "filename": "1987-02-08-times-colonist-p11-i508000096.md",
+    "image": true
+  },
+  "508260798": {
+    "filename": "1986-07-24-times-colonist-p14-i508260798.md",
+    "image": true
+  },
+  "508622787": {
+    "filename": "1987-09-17-times-colonist-p10-i508622787.md",
+    "image": true
+  },
+  "508629153": {
+    "filename": "1987-04-04-times-colonist-p32-i508629153.md",
+    "image": true
+  },
+  "508631348": {
+    "filename": "1987-05-08-times-colonist-p12-i508631348.md",
+    "image": true
+  },
+  "508632785": {
+    "filename": "1987-05-10-times-colonist-p9-i508632785.md",
+    "image": true
+  },
+  "508633163": {
+    "filename": "1987-05-10-times-colonist-p1-i508633163.md",
+    "image": true
+  },
+  "508831369": {
+    "filename": "1988-03-22-times-colonist-p12-i508831369.md",
+    "image": true
+  },
+  "508874627": {
+    "filename": "1987-04-16-times-colonist-p3-i508874627.md",
+    "image": true
+  },
+  "508875734": {
+    "filename": "1987-04-22-times-colonist-p14-i508875734.md",
+    "image": true
+  },
+  "508877216": {
+    "filename": "1987-04-26-times-colonist-p12-i508877216.md",
+    "image": true
+  },
+  "508877755": {
+    "filename": "1987-04-28-times-colonist-p12-i508877755.md",
+    "image": true
+  },
+  "508877984": {
+    "filename": "1987-04-28-times-colonist-p3-i508877984.md",
+    "image": true
+  },
+  "508878542": {
+    "filename": "1987-04-30-times-colonist-p16-i508878542.md",
+    "image": true
+  },
+  "511198663": {
+    "filename": "1987-11-30-star-phoenix-p25-i511198663.md",
+    "image": true
+  },
+  "511921636": {
+    "filename": "1986-11-07-star-phoenix-p31-i511921636.md",
+    "image": true
+  },
+  "512093788": {
+    "filename": "1987-05-04-star-phoenix-p13-i512093788.md",
+    "image": true
+  },
+  "512094454": {
+    "filename": "1987-05-05-star-phoenix-p15-i512094454.md",
+    "image": true
+  },
+  "512094503": {
+    "filename": "1987-05-05-star-phoenix-p17-i512094503.md",
+    "image": true
+  },
+  "512095951": {
+    "filename": "1987-05-06-star-phoenix-p19-i512095951.md",
+    "image": true
+  },
+  "512096770": {
+    "filename": "1987-05-07-star-phoenix-p17-i512096770.md",
+    "image": true
+  },
+  "512096840": {
+    "filename": "1987-05-07-star-phoenix-p20-i512096840.md",
+    "image": true
+  },
+  "512097450": {
+    "filename": "1987-05-08-star-phoenix-p29-i512097450.md",
+    "image": true
+  },
+  "512097836": {
+    "filename": "1987-05-09-star-phoenix-p47-i512097836.md",
+    "image": true
+  },
+  "512098529": {
+    "filename": "1987-05-11-star-phoenix-p13-i512098529.md",
+    "image": true
+  },
+  "512098543": {
+    "filename": "1987-05-11-star-phoenix-p14-i512098543.md",
+    "image": true
+  },
+  "512242898": {
+    "filename": "1986-11-29-star-phoenix-p69-i512242898.md",
+    "image": true
+  },
+  "512309668": {
+    "filename": "1987-04-18-star-phoenix-p44-i512309668.md",
+    "image": true
+  },
+  "512310223": {
+    "filename": "1987-04-21-star-phoenix-p41-i512310223.md",
+    "image": true
+  },
+  "512310237": {
+    "filename": "1987-04-21-star-phoenix-p43-i512310237.md",
+    "image": true
+  },
+  "512310501": {
+    "filename": "1987-04-22-star-phoenix-p36-i512310501.md",
+    "image": true
+  },
+  "512310521": {
+    "filename": "1987-04-22-star-phoenix-p38-i512310521.md",
+    "image": true
+  },
+  "512310808": {
+    "filename": "1987-04-23-star-phoenix-p14-i512310808.md",
+    "image": true
+  },
+  "512310816": {
+    "filename": "1987-04-23-star-phoenix-p16-i512310816.md",
+    "image": true
+  },
+  "512311584": {
+    "filename": "1987-04-25-star-phoenix-p43-i512311584.md",
+    "image": true
+  },
+  "512311911": {
+    "filename": "1987-04-27-star-phoenix-p15-i512311911.md",
+    "image": true
+  },
+  "512312872": {
+    "filename": "1987-04-30-star-phoenix-p45-i512312872.md",
+    "image": true
+  },
+  "536570359": {
+    "filename": "1987-04-11-the-abbotsford-news-p34-i536570359.md"
+  },
+  "536573978": {
+    "filename": "1987-12-16-the-abbotsford-news-p17-i536573978.md"
+  },
+  "536581352": {
+    "filename": "1987-04-22-the-abbotsford-news-p15-i536581352.md"
+  },
+  "536728203": {
+    "filename": "1987-07-11-the-abbotsford-news-p24-i536728203.md"
+  },
+  "536733310": {
+    "filename": "1987-09-19-the-abbotsford-news-p24-i536733310.md"
+  },
+  "536895890": {
+    "filename": "1987-01-28-the-abbotsford-news-p14-i536895890.md"
+  },
+  "536973431": {
+    "filename": "1987-01-21-langley-advance-p13-i536973431.md",
+    "image": true
+  },
+  "536980538": {
+    "filename": "1987-04-22-langley-advance-p15-i536980538.md",
+    "image": true
+  },
+  "537066955": {
+    "filename": "1990-10-03-the-abbotsford-news-p47-i537066955.md"
+  },
+  "558334281": {
+    "filename": "1987-04-07-red-deer-advocate-p8-i558334281.md",
+    "image": true
+  },
+  "558334501": {
+    "filename": "1987-04-08-red-deer-advocate-p21-i558334501.md",
+    "image": true
+  },
+  "558334781": {
+    "filename": "1987-04-09-red-deer-advocate-p1-i558334781.md",
+    "image": true
+  },
+  "558334839": {
+    "filename": "1987-04-09-red-deer-advocate-p11-i558334839.md",
+    "image": true
+  },
+  "558334897": {
+    "filename": "1987-04-09-red-deer-advocate-p14-i558334897.md",
+    "image": true
+  },
+  "558335595": {
+    "filename": "1987-04-13-red-deer-advocate-p1-i558335595.md",
+    "image": true
+  },
+  "558335628": {
+    "filename": "1987-04-13-red-deer-advocate-p7-i558335628.md",
+    "image": true
+  },
+  "558335639": {
+    "filename": "1987-04-13-red-deer-advocate-p9-i558335639.md",
+    "image": true
+  },
+  "558335948": {
+    "filename": "1987-04-15-red-deer-advocate-p21-i558335948.md",
+    "image": true
+  },
+  "558335956": {
+    "filename": "1987-04-15-red-deer-advocate-p23-i558335956.md",
+    "image": true
+  },
+  "558336101": {
+    "filename": "1987-04-16-red-deer-advocate-p11-i558336101.md",
+    "image": true
+  },
+  "558336127": {
+    "filename": "1987-04-16-red-deer-advocate-p15-i558336127.md",
+    "image": true
+  },
+  "558336223": {
+    "filename": "1987-04-18-red-deer-advocate-p1-i558336223.md",
+    "image": true
+  },
+  "558336261": {
+    "filename": "1987-04-18-red-deer-advocate-p12-i558336261.md",
+    "image": true
+  },
+  "558336723": {
+    "filename": "1987-04-22-red-deer-advocate-p20-i558336723.md",
+    "image": true
+  },
+  "558336879": {
+    "filename": "1987-04-23-red-deer-advocate-p22-i558336879.md",
+    "image": true
+  },
+  "558337700": {
+    "filename": "1987-04-30-red-deer-advocate-p20-i558337700.md",
+    "image": true
+  },
+  "558421571": {
+    "filename": "1987-05-04-red-deer-advocate-p9-i558421571.md",
+    "image": true
+  },
+  "558421757": {
+    "filename": "1987-05-07-red-deer-advocate-p17-i558421757.md",
+    "image": true
+  },
+  "558421854": {
+    "filename": "1987-05-08-red-deer-advocate-p22-i558421854.md",
+    "image": true
+  },
+  "558425466": {
+    "filename": "1987-10-22-red-deer-advocate-p14-i558425466.md",
+    "image": true
+  },
+  "558451248": {
+    "filename": "1987-09-04-red-deer-advocate-p20-i558451248.md",
+    "image": true
+  },
+  "558457835": {
+    "filename": "1987-09-26-red-deer-advocate-p14-i558457835.md",
+    "image": true
+  },
+  "558464326": {
+    "filename": "1987-06-17-red-deer-advocate-p15-i558464326.md",
+    "image": true
+  },
+  "560090747": {
+    "filename": "1987-01-30-alberni-valley-times-p8-i560090747.md",
+    "image": true
+  },
+  "560107428": {
+    "filename": "1987-04-08-alberni-valley-times-p9-i560107428.md",
+    "image": true
+  },
+  "560107877": {
+    "filename": "1987-04-21-alberni-valley-times-p6-i560107877.md",
+    "image": true
+  },
+  "560107992": {
+    "filename": "1987-04-23-alberni-valley-times-p6-i560107992.md",
+    "image": true
+  },
+  "560108301": {
+    "filename": "1987-04-29-alberni-valley-times-p7-i560108301.md",
+    "image": true
+  },
+  "560108578": {
+    "filename": "1987-05-04-alberni-valley-times-p11-i560108578.md",
+    "image": true
+  },
+  "560108603": {
+    "filename": "1987-05-05-alberni-valley-times-p9-i560108603.md",
+    "image": true
+  },
+  "560108695": {
+    "filename": "1987-05-08-alberni-valley-times-p8-i560108695.md",
+    "image": true
+  },
+  "560108760": {
+    "filename": "1987-05-11-alberni-valley-times-p9-i560108760.md",
+    "image": true
+  },
+  "561082905": {
+    "filename": "1987-08-16-the-sunday-news-p47-i561082905.md",
+    "image": true
+  },
+  "561478790": {
+    "filename": "1987-05-31-the-sunday-news-p20-i561478790.md",
+    "image": true
+  },
+  "639202890": {
+    "filename": "1995-03-05-the-miami-herald-p38-i639202890.md",
+    "image": true
+  },
+  "663903394": {
+    "filename": "1985-03-13-the-bangor-daily-news-p7-i663903394.md",
+    "image": true
+  },
+  "663903402": {
+    "filename": "1985-03-13-the-bangor-daily-news-p11-i663903402.md",
+    "image": true
+  },
+  "664872292": {
+    "filename": "1985-01-05-the-bangor-daily-news-p13-i664872292.md",
+    "image": true
+  },
+  "688061731": {
+    "filename": "1987-04-08-quesnel-cariboo-observer-pB4-i688061731.md",
+    "image": true
+  },
+  "688061732": {
+    "filename": "1987-04-08-quesnel-cariboo-observer-pC1-i688061732.md",
+    "image": true
+  },
+  "731234620": {
+    "filename": "1987-05-08-the-daily-herald-tribune-p12-i731234620.md",
+    "image": true
+  },
+  "731240705": {
+    "filename": "1987-04-08-the-daily-herald-tribune-p8-i731240705.md",
+    "image": true
+  },
+  "731241442": {
+    "filename": "1987-04-13-the-daily-herald-tribune-p7-i731241442.md",
+    "image": true
+  },
+  "731241842": {
+    "filename": "1987-04-16-the-daily-herald-tribune-p22-i731241842.md",
+    "image": true
+  },
+  "731242432": {
+    "filename": "1987-04-23-the-daily-herald-tribune-p11-i731242432.md",
+    "image": true
+  },
+  "734711493": {
+    "filename": "1989-02-18-north-bay-nugget-p13-i734711493.md",
+    "image": true
+  },
+  "735358793": {
+    "filename": "1989-09-12-the-winnipeg-sun-p37-i735358793.md",
+    "image": true
+  },
+  "735358966": {
+    "filename": "1989-10-04-the-winnipeg-sun-p37-i735358966.md",
+    "image": true
+  },
+  "735361292": {
+    "filename": "1989-09-26-the-winnipeg-sun-p39-i735361292.md",
+    "image": true
+  },
+  "735361916": {
+    "filename": "1989-09-28-the-winnipeg-sun-p58-i735361916.md",
+    "image": true
+  },
+  "736882093": {
+    "filename": "1987-05-04-the-winnipeg-sun-p23-i736882093.md",
+    "image": true
+  },
+  "738692385": {
+    "filename": "1987-01-26-fort-mcmurray-today-p6-i738692385.md",
+    "image": true
+  },
+  "738692624": {
+    "filename": "1987-01-30-fort-mcmurray-today-p8-i738692624.md",
+    "image": true
+  },
+  "738694726": {
+    "filename": "1987-04-23-fort-mcmurray-today-p9-i738694726.md",
+    "image": true
+  },
+  "738694983": {
+    "filename": "1987-04-27-fort-mcmurray-today-p7-i738694983.md",
+    "image": true
+  },
+  "821560569": {
+    "filename": "1991-06-23-tri-city-herald-p17-i821560569.md",
+    "image": true
+  },
+  "875335064": {
+    "filename": "1989-06-18-the-buffalo-news-p57-i875335064.md",
+    "image": true
+  },
+  "949123397": {
+    "filename": "1993-01-08-the-toronto-star-p10-i949123397.md",
+    "image": true
+  },
+  "949130250": {
+    "filename": "1993-01-18-the-toronto-star-p13-i949130250.md",
+    "image": true
+  },
+  "949130354": {
+    "filename": "1992-11-02-the-toronto-star-p14-i949130354.md",
+    "image": true
+  },
+  "949148192": {
+    "filename": "1992-10-22-the-toronto-star-p23-i949148192.md",
+    "image": true
+  },
+  "1011070382": {
+    "filename": "1987-05-09-the-hamilton-spectator-p59-i1011070382.md",
+    "image": true
+  },
+  "1011089155": {
+    "filename": "1987-05-11-the-hamilton-spectator-p34-i1011089155.md",
+    "image": true
+  },
+  "1098991610": {
+    "filename": "1987-05-05-daily-gleaner-p27-i1098991610.md",
+    "image": true
+  },
+  "1099004070": {
+    "filename": "1987-05-08-daily-gleaner-p24-i1099004070.md",
+    "image": true
+  },
+  "1107094171": {
+    "filename": "1987-05-05-the-times-transcript-p33-i1107094171.md",
+    "image": true
+  },
+  "1107104138": {
+    "filename": "1987-09-19-the-times-transcript-p34-i1107104138.md",
+    "image": true
+  },
+  "1107105211": {
+    "filename": "1988-09-21-the-times-transcript-p29-i1107105211.md",
+    "image": true
+  },
+  "1107105854": {
+    "filename": "1988-01-04-the-times-transcript-p8-i1107105854.md",
+    "image": true
+  },
+  "1107141761": {
+    "filename": "1988-04-12-the-times-transcript-p30-i1107141761.md",
+    "image": true
+  },
+  "1107148440": {
+    "filename": "1987-10-29-the-times-transcript-p36-i1107148440.md",
+    "image": true
+  },
+  "1107421777": {
+    "filename": "1988-11-08-the-times-transcript-p41-i1107421777.md",
+    "image": true
+  },
+  "1107674585": {
+    "filename": "1993-04-13-the-times-transcript-p8-i1107674585.md",
+    "image": true
+  },
+  "1107681099": {
+    "filename": "1993-04-14-the-times-transcript-p12-i1107681099.md",
+    "image": true
+  },
+  "1107681995": {
+    "filename": "1993-12-11-the-times-transcript-p13-i1107681995.md",
+    "image": true
+  },
+  "1107716258": {
+    "filename": "1993-11-10-the-times-transcript-p27-i1107716258.md",
+    "image": true
+  },
+  "1107761162": {
+    "filename": "1994-02-28-the-times-transcript-p17-i1107761162.md",
+    "image": true
+  },
+  "1107764485": {
+    "filename": "1989-11-10-the-times-transcript-p1-i1107764485.md",
+    "image": true
+  },
+  "1107790757": {
+    "filename": "1993-08-04-the-times-transcript-p11-i1107790757.md",
+    "image": true
+  },
+  "1107950086": {
+    "filename": "1994-04-25-the-times-transcript-p15-i1107950086.md",
+    "image": true
+  },
+  "1111149754": {
+    "filename": "1994-05-09-telegraph-journal-p11-i1111149754.md",
+    "image": true
+  },
+  "1111187087": {
+    "filename": "1988-03-04-telegraph-journal-p26-i1111187087.md",
+    "image": true
+  },
+  "1111288540": {
+    "filename": "1987-11-07-telegraph-journal-p29-i1111288540.md",
+    "image": true
+  },
+  "1114414764": {
+    "filename": "1986-11-05-saint-john-times-globe-p28-i1114414764.md",
+    "image": true
+  },
+  "1128528732": {
+    "filename": "1990-03-18-grand-forks-herald-p32-i1128528732.md",
+    "image": true
+  },
+  "1128706608": {
+    "filename": "1987-04-15-grand-forks-herald-p23-i1128706608.md",
+    "image": true
+  },
+  "1309395464": {
+    "filename": "1985-01-27-maine-sunday-telegram-p46-i1309395464.md",
+    "image": true
+  },
+  "1309397751": {
+    "filename": "1985-01-27-maine-sunday-telegram-p38-i1309397751.md",
+    "image": true
+  },
+  "1309397770": {
+    "filename": "1985-01-27-maine-sunday-telegram-p40-i1309397770.md",
+    "image": true
+  },
+  "1309833588": {
+    "filename": "1988-01-09-portland-press-herald-p5-i1309833588.md",
+    "image": true
+  }
 }
