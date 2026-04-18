@@ -99,17 +99,22 @@ scripts/
 - Page-level SEO + JSON-LD (`SportsTeam` on landing).
 - GitHub Actions workflows: CI (lint/validate/test/build) and Pages deploy, both green.
 
-## Newspapers.com session (2026-04-13 3-day trial)
+## Newspapers.com — OCR corpus + image archive
 
-**Trial active:** User has Publisher Extra 3-day trial on newspapers.com. Credentials in chat history only — NOT saved to any file.
+### OCR corpus (2026-04-13 scrape)
+- **2350 OCR markdown files** in `docs/extractions/*.md` (dated 1984-2005+). Master JSON `docs/extractions/ocr-all.json` (2592 entries; 2350 with metadata, 242 without).
+- Extraction pipeline: the search-result page caches OCR per image in `sessionStorage` under keys `search-record-images=<id>&terms=...&ocr=true` with a `compressedParagraphs` field. Decode = base64 → `deflate-raw` → JSON array of `{text, rectangle, id}` paragraphs. Bulk harvest by clicking "Show more results" ~80× then dumping sessionStorage. Metadata scraped from result-card DOM.
 
-**Extraction pipeline (discovered this session):**
-- newspapers.com search result pages cache OCR text per image in `sessionStorage` under keys `search-record-images=<id>&terms=...&ocr=true` with a `compressedParagraphs` field.
-- Decode: base64 → `deflate-raw` → JSON array of `{text, rectangle, id}` paragraphs.
-- Bulk-harvest: navigate to search results, click "Show more results" ~80 times to paginate, then dump `sessionStorage` entries. See `window.__extractedMerged` pattern in chat history.
-- Metadata scraped from DOM of search results (pub name, page, date, location) since `/api/search/query` returns metadata-only and `/api/search/record` 500s when called directly.
+### Image archive (2026-04-18, Publisher Extra re-subscription)
+- Companion repo: https://github.com/sbjaques/1987Sockeyes-images — raw URL base `https://raw.githubusercontent.com/sbjaques/1987Sockeyes-images/main/<id>.jpg`. Kept separate from the main repo to keep `git clone` fast.
+- **Download flow** (`scripts/download-newspapers-images.mjs`): connects to a user-launched Edge via CDP (`--remote-debugging-port=9222 --user-data-dir=C:\temp\edge-newspapers`). Per image: navigate to `/image/<id>/`, capture one `iat`-signed tile URL (JWT param), drop `crop`, request with `width=<native-from-tile-crop> height=20000`. Server clamps to native dimensions and returns the full page (~4000×6800, 3-5 MB).
+- **State at save**: 218 image IDs referenced in bios/highlights, of which **35-36 are full-resolution** in the companion repo (latest commit `8e59770`). The other 182 are truncated leftovers from an earlier buggy batch that inferred height from visible tiles only (off-screen rows clipped). Re-download for the 182 is blocked on newspapers.com volume-based rate limiting — a 4-min backoff is insufficient, needs a ~24 h wait to resume.
+- **7 permanently gone**: Abbotsford News pages for IDs 536570359, 536573978, 536581352, 536728203, 536733310, 536895890, 537066955 all 404 on newspapers.com (confirmed April 18 — content purged between the OCR scrape and re-subscription). Full-text search under the publication id also returns zero. OCR text survives in `docs/extractions/`.
 
-**Current corpus:** **2350 OCR markdown files** in `docs/extractions/*.md` (dated 1984-2005+). Master JSON at `docs/extractions/ocr-all.json` (2592 entries; 2350 with metadata, 242 without).
+### Image linkify on the site
+- `src/lib/linkifyImageRefs.tsx` scans rendered bio/programBio/highlights text for 7+ digit image IDs and wraps each in an anchor. URL preference: archived JPG → GitHub OCR markdown → newspapers.com.
+- `scripts/build-image-index.mjs` runs prebuild. Reads `docs/extractions/` + sibling `../1987Sockeyes-images/` checkout and writes `src/data/imageIndex.json` with entries `{ filename, image?: true }`.
+- Reverse-engineering scripts (probe-*, investigate-*, check-auth-signal, capture-authed-session, diagnose-failing-ids, search-missing-abbotsford) kept in `scripts/` as archaeological record — commit `3c2acab`.
 
 ## Ownership / Leadership (confirmed via 1987 primary sources)
 
@@ -138,7 +143,7 @@ Proposal docs in `docs/box-score-extractions/{doyle,abbott,centennial}-cup.md`. 
 - Per-game attendance is missing for most Abbott Cup games
 - Phillips Centennial tournament line conflict: narrative scorer-list sum = 7G; Vancouver Sun p.20 Pap says 5G 7A. Unresolved.
 
-Newspapers.com trial has expired — further resolution would require re-subscription or library access.
+User re-subscribed to Publisher Extra on 2026-04-18 to fetch the page scans; see image archive section above. Further OCR/text resolution would require another dedicated pass — trial is currently active for the image batch only.
 
 ### 3. Finish career completion (deferred from last session)
 Agent 1 did Kurtenbach (35 seasons), Stewart (9), Dickson (7), Clarke (6), Moller (8), confirmed Romeo (1). Still to do: add hockey-reference / HOF / university roster links to the other ~25 players. Many also need playoff rows separated from regular-season rows in careerStats.
@@ -176,4 +181,9 @@ Manual (user): `gh repo create 1987Sockeyes --public --source=. --remote=origin 
 - `3d5b12c` seven retrospective articles bypassing 403s
 - `5559b3c` MVP correction (Phillips not Romeo), Jim Gunn bio, BC Hockey HOF 2025 awards, Fred Page Cup sweep
 - `f7c9b8b` IA lockdown + scope rules
-- (2026-04-17) box-score extraction pass: 21 game entries enriched with period-by-period scoring, shot totals, goalie changes; May 4 Pembroke score corrected 4-3 → 4-1; Clarke PP hat trick in Doyle G6 surfaced; doyleCupStats / abbottCupSeriesStats / centennialCupStats added to 18 roster entries
+- `c891b19` box-score mining pass — 21 game entries enriched, May 4 Pembroke corrected 4-3 → 4-1, Clarke PP hat trick in Doyle G6 surfaced, doyleCup/abbottCupSeries/centennialCup stats added to 18 roster entries
+- `213a737` linkify image-ID refs in bios/highlights (render-time transform, no data changes)
+- `9b6d00e` linkify resolves to local OCR markdown on GitHub (replacing paywalled newspapers.com fallback)
+- `bda11c5` initial newspapers.com batch-download script (Playwright persistent-context login; later pivoted)
+- `7b4fc87` linkify prefers archived JPG in companion repo 1987Sockeyes-images; 218 scans pushed (truncated at this point — see `3c2acab`)
+- `3c2acab` download script rewrite: CDP connect to user-launched Edge, native-width discovery, 429 backoff, clean browser-closed abort; one-off reverse-engineering scripts preserved in `scripts/`. Companion repo partial: `8e59770` replaces 34 truncated with full-res; remaining 182 blocked on rate limit.
