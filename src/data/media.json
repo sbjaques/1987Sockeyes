@@ -823,5 +823,153 @@
     ],
     "url": "/assets/vault/mowat-cup-celebration.jpg",
     "relatedGames": []
+  },
+  {
+    "id": "hof-2025-sequeira-team-horiz",
+    "type": "photo",
+    "date": "2025-07-12",
+    "access": "public",
+    "thumb": "/assets/vault/hof-2025/team-horiz.jpg",
+    "url": "/assets/vault/hof-2025/team-horiz.jpg",
+    "descriptionShort": "1987 Sockeyes team group photo at the 2025 BCHHoF induction, Penticton.",
+    "descriptionLong": "The full 1987 Richmond Sockeyes team reunited for the first time in 38 years at the 2025 British Columbia Hockey Hall of Fame induction ceremony, held July 12 2025 at the South Okanagan Events Centre in Penticton. Photo by Emanuel Sequeira.",
+    "attribution": { "paper": "Emanuel Sequeira" },
+    "tags": ["hof-2025","reunion","team-photo"]
+  },
+  {
+    "id": "hof-2025-sequeira-captain-horiz",
+    "type": "photo",
+    "date": "2025-07-12",
+    "access": "public",
+    "thumb": "/assets/vault/hof-2025/captain-horiz.jpg",
+    "url": "/assets/vault/hof-2025/captain-horiz.jpg",
+    "descriptionShort": "1986-87 captain Trevor Dickie at the 2025 BCHHoF induction (horizontal).",
+    "descriptionLong": "Trevor Dickie, captain of the 1986-87 Richmond Sockeyes, at the 2025 British Columbia Hockey Hall of Fame induction ceremony in Penticton. Photo by Emanuel Sequeira.",
+    "attribution": { "paper": "Emanuel Sequeira" },
+    "tags": ["hof-2025","dickie","captain"]
+  },
+  {
+    "id": "hof-2025-sequeira-captain-vert",
+    "type": "photo",
+    "date": "2025-07-12",
+    "access": "public",
+    "thumb": "/assets/vault/hof-2025/captain-vert.jpg",
+    "url": "/assets/vault/hof-2025/captain-vert.jpg",
+    "descriptionShort": "1986-87 captain Trevor Dickie at the 2025 BCHHoF induction (vertical).",
+    "descriptionLong": "Trevor Dickie, captain of the 1986-87 Richmond Sockeyes, at the 2025 British Columbia Hockey Hall of Fame induction ceremony in Penticton (vertical framing). Photo by Emanuel Sequeira.",
+    "attribution": { "paper": "Emanuel Sequeira" },
+    "tags": ["hof-2025","dickie","captain"]
+  },
+  {
+    "id": "hof-2025-sequeira-tomlinson-speech",
+    "type": "photo",
+    "date": "2025-07-12",
+    "access": "public",
+    "thumb": "/assets/vault/hof-2025/tomlinson-speech.jpg",
+    "url": "/assets/vault/hof-2025/tomlinson-speech.jpg",
+    "descriptionShort": "Dave Tomlinson delivering the induction acceptance speech, July 2025.",
+    "descriptionLong": "Dave Tomlinson, leading scorer for the 1986-87 Richmond Sockeyes, delivers the team's acceptance speech at the 2025 British Columbia Hockey Hall of Fame induction ceremony in Penticton. Photo by Emanuel Sequeira.",
+    "attribution": { "paper": "Emanuel Sequeira" },
+    "tags": ["hof-2025","tomlinson","speech"]
+  },
+  {
+    "id": "hof-2025-induction-hughson-intro-pt1",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Jim Hughson introduces the 1987 Sockeyes induction, part 1.",
+    "descriptionLong": "BCHHoF chair Jim Hughson opens the 1987 Richmond Sockeyes induction segment at the 2025 ceremony, introducing the team's regular-season dominance and playoff run. Part 1 of 2.",
+    "tags": ["hof-2025","induction","hughson"]
+  },
+  {
+    "id": "hof-2025-induction-hughson-intro-pt2",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Jim Hughson introduces the 1987 Sockeyes induction, part 2.",
+    "descriptionLong": "BCHHoF chair Jim Hughson continues the introduction, covering the 1987 Centennial Cup final and the team's legacy. Part 2 of 2.",
+    "tags": ["hof-2025","induction","hughson"]
+  },
+  {
+    "id": "hof-2025-dickie-speech-pt1",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Trevor Dickie acceptance speech on behalf of the 1987 team, part 1.",
+    "descriptionLong": "Captain Trevor Dickie delivers the first half of the acceptance speech on behalf of the 1986-87 Richmond Sockeyes at the 2025 BCHHoF induction.",
+    "tags": ["hof-2025","dickie","speech"]
+  },
+  {
+    "id": "hof-2025-dickie-speech-pt2",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Trevor Dickie acceptance speech on behalf of the 1987 team, part 2.",
+    "descriptionLong": "Captain Trevor Dickie completes the acceptance speech on behalf of the 1986-87 Richmond Sockeyes at the 2025 BCHHoF induction.",
+    "tags": ["hof-2025","dickie","speech"]
+  },
+  {
+    "id": "hof-2025-tomlinson-speech",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Dave Tomlinson acceptance remarks on behalf of the 1987 team.",
+    "descriptionLong": "Dave Tomlinson, leading scorer for the 1986-87 Richmond Sockeyes, delivers remarks at the 2025 BCHHoF induction ceremony.",
+    "tags": ["hof-2025","tomlinson","speech"]
+  },
+  {
+    "id": "hof-2025-display-case",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Walkthrough of the 1987 Sockeyes display case at the BCHHoF venue.",
+    "descriptionLong": "Walkthrough of the display case showcasing 1986-87 Richmond Sockeyes memorabilia at the 2025 BCHHoF induction ceremony venue in Penticton.",
+    "tags": ["hof-2025","display-case","memorabilia"]
+  },
+  {
+    "id": "hof-2025-interview-dickie",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Interview with 1986-87 captain Trevor Dickie at the 2025 induction weekend.",
+    "descriptionLong": "On-site interview with Trevor Dickie, captain of the 1986-87 Richmond Sockeyes, recorded during the 2025 BCHHoF induction weekend in Penticton.",
+    "tags": ["hof-2025","dickie","interview"]
+  },
+  {
+    "id": "hof-2025-interview-phillips",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Interview with Jason Phillips at the 2025 induction weekend.",
+    "descriptionLong": "On-site interview with Jason Phillips, 1987 Centennial Cup hat-trick scorer and All-Star team selection, recorded during the 2025 BCHHoF induction weekend.",
+    "tags": ["hof-2025","phillips","interview"]
+  },
+  {
+    "id": "hof-2025-interview-gunn",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Interview with Jim Gunn at the 2025 induction weekend.",
+    "descriptionLong": "On-site interview with Jim Gunn, Prince George-raised 1986-87 defenceman, recorded during the 2025 BCHHoF induction weekend.",
+    "tags": ["hof-2025","gunn","interview"]
+  },
+  {
+    "id": "hof-2025-interview-moro",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Interview with Greg Moro at the 2025 induction weekend.",
+    "descriptionLong": "On-site interview with Greg Moro, 1986-87 Richmond Sockeyes staff, recorded during the 2025 BCHHoF induction weekend.",
+    "tags": ["hof-2025","moro","interview"]
   }
 ]
