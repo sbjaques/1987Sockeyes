@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function SeasonArc() {
   return (
     <section className="bg-navy text-cream">
@@ -40,6 +42,13 @@ export function SeasonArc() {
             in the semifinal and beat Humboldt 5-2 in the final on May 9, 1987 at the Uniplex. Frank
             Romeo was named tournament MVP. Jason Phillips was named Most Gentlemanly Player and to the
             tournament All-Star team, recording a hat trick in the final.
+          </p>
+          <p className="mt-8">
+            <Link
+              to="/the-season"
+              className="inline-block text-crimson uppercase tracking-widest text-sm font-semibold hover:underline">
+              Read the full story →
+            </Link>
           </p>
         </div>
       </div>

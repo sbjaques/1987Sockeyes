@@ -9,32 +9,32 @@ type Card = {
 
 const CARDS: Card[] = [
   {
+    to: '/the-season',
+    eyebrow: 'The Story',
+    title: 'The Season',
+    blurb:
+      'Seven chapters bookended by the 2025 BCHHoF induction — how Kurtenbach rebuilt the roster, the 15-0 BCJHL playoff run, the 9-1 Game 7 in Red Deer, and the five-goal final in Humboldt.',
+  },
+  {
+    to: '/the-season/the-run',
+    eyebrow: 'The Games',
+    title: 'The Run',
+    blurb:
+      'Twenty-six games across four trophies — Mowat, Doyle, Abbott, Centennial — with scorers, turning points, and period-by-period detail where the box scores survived.',
+  },
+  {
     to: '/roster',
     eyebrow: 'The Team',
     title: 'Roster & Staff',
     blurb:
-      'Twenty-two players, head coach Orland Kurtenbach, the coaching staff, owner Bruce Taylor, and the booster club that built it. Click any name for the full program snapshot, nicknames, linemates, and path to Richmond.',
-  },
-  {
-    to: '/playoffs',
-    eyebrow: 'The Story',
-    title: 'The Run',
-    blurb:
-      'Twenty-six games across four trophies — Mowat, Doyle, Abbott, Centennial — with scorers, turning points, and the 9-1 Game 7 in Red Deer that saved the season.',
+      'Twenty-two players, head coach Orland Kurtenbach, the coaching staff, owner Bruce Taylor, and the booster club. Click any name for the full program snapshot, nicknames, linemates, and path to Richmond.',
   },
   {
     to: '/vault',
     eyebrow: 'The Archive',
     title: 'The Vault',
     blurb:
-      'Forty-six primary-source items: newspaper clippings from the Province, Vancouver Sun, Star-Phoenix, Leader-Post, Red Deer Advocate, and more — plus the Abbott & Centennial Cup souvenir programs.',
-  },
-  {
-    to: '/banner-night',
-    eyebrow: '2025',
-    title: 'Banner Night',
-    blurb:
-      'September 26, 2025. The 1986-87 team reunited at Minoru Arenas to raise their Centennial Cup championship banner.',
+      'Primary-source newspaper clippings, programs, and photos — cross-referenced to every person, game, and chapter in the story.',
   },
 ];
 
