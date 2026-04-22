@@ -1,6 +1,9 @@
 node_modules
 dist
+dist-public
+dist-private
 dist-ssr
+.worktrees
 .DS_Store
 *.log
 .vite
