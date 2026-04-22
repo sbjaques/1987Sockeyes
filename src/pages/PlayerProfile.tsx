@@ -61,7 +61,7 @@ export default function PlayerProfile() {
     };
     return {
       games: games.filter(g => g.highlights.some(nameMatch)),
-      media: media.filter(m => nameMatch(m.caption) || nameMatch(m.title)),
+      media: media.filter(m => nameMatch(m.descriptionLong) || nameMatch(m.descriptionShort)),
     };
   }, [entry, games, media]);
 
@@ -338,7 +338,7 @@ export default function PlayerProfile() {
             {mentions.media.map(m => (
               <li key={m.id}>
                 <button onClick={() => openMedia(m)} className="text-left text-sm underline text-crimson hover:text-crimson-700">
-                  {m.title}{m.publication ? ` — ${m.publication}` : ''}
+                  {m.descriptionShort}{m.attribution?.paper ? ` — ${m.attribution.paper}` : ''}
                 </button>
               </li>
             ))}

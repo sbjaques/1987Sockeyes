@@ -45,9 +45,9 @@ export function buildSearchIndex(roster: RosterEntry[], games: Game[], media: Me
   const mediaDocs = media.map(m => ({
     kind: 'media' as SearchResultKind,
     id: m.id,
-    title: m.title,
-    publication: m.publication ?? '',
-    caption: m.caption,
+    title: m.descriptionShort,
+    publication: m.attribution?.paper ?? '',
+    caption: m.descriptionLong,
     tags: m.tags.join(' '),
     date: m.date ?? '',
     type: m.type,
@@ -106,7 +106,7 @@ export function buildSearchIndex(roster: RosterEntry[], games: Game[], media: Me
           title: d.title,
           subtitle: `${d.type}${d.publication ? ` · ${d.publication}` : ''}${d.date ? ` · ${d.date}` : ''}`,
           href: `/vault#${d.id}`,
-          snippet: d.caption.slice(0, 160),
+          snippet: (d.caption ?? '').slice(0, 160),
         };
       });
     },

@@ -19,7 +19,11 @@ describe('schema validators', () => {
     expect(validateGames(ok)).toBe(true);
   });
   it('accepts a valid media item', () => {
-    const ok = [{ id:'m1', type:'newspaper', title:'X', file:'/a.jpg', caption:'c', tags:[] }];
+    const ok = [{ id:'m1', type:'newspaper', date:'1987-05-11', access:'public',
+                  thumb:'/a.jpg',
+                  descriptionShort:'Sockeyes win Centennial Cup championship',
+                  descriptionLong:'Richmond Sockeyes defeated the Humboldt Broncos 5-2 to win the 1987 Centennial Cup championship in Humboldt, Saskatchewan.',
+                  tags:[] }];
     expect(validateMedia(ok)).toBe(true);
   });
   it('assertValid throws on invalid data', () => {

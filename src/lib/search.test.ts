@@ -11,8 +11,9 @@ const games = [
     location:'Saskatoon, SK', result:'W' as const, score:{for:5,against:2}, highlights:['Victory secured'], sources:[] },
 ];
 const media = [
-  { id:'m1', type:'newspaper' as const, title:'Sockeyes win Centennial Cup', publication:'The Vancouver Sun',
-    file:'/a.jpg', caption:'Championship headline', tags:['centennial-cup','final'] },
+  { id:'m1', type:'newspaper' as const, date:'1987-05-11', access:'public' as const, thumb:'/a.jpg',
+    descriptionShort:'Sockeyes win Centennial Cup', descriptionLong:'Championship headline',
+    attribution:{ paper:'The Vancouver Sun' }, tags:['centennial-cup','final'] },
 ];
 
 describe('buildSearchIndex', () => {

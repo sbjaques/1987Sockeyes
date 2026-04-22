@@ -5,8 +5,8 @@ import { VaultGrid } from './VaultGrid';
 import type { MediaItem } from '../../types/media';
 
 const items: MediaItem[] = [
-  { id:'a', type:'newspaper', title:'Sockeyes Win', file:'/a.jpg', caption:'', tags:['centennial-cup'] },
-  { id:'b', type:'photo',     title:'Team Photo', file:'/b.jpg', caption:'', tags:['team'] },
+  { id:'a', type:'newspaper', date:'1987-04-01', access:'public', thumb:'/a.jpg', descriptionShort:'Sockeyes Win', descriptionLong:'', tags:['centennial-cup'] },
+  { id:'b', type:'photo',     date:'1987-05-01', access:'public', thumb:'/b.jpg', descriptionShort:'Team Photo',   descriptionLong:'', tags:['team'] },
 ];
 
 describe('VaultGrid', () => {

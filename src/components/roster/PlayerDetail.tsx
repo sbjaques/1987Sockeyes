@@ -21,10 +21,10 @@ export function PlayerDetail({
         g.highlights.some(h => h.toLowerCase().includes(needle) || h.toLowerCase().includes(last))
       ),
       media: media.filter(m =>
-        (m.caption || '').toLowerCase().includes(needle) ||
-        (m.caption || '').toLowerCase().includes(last) ||
-        (m.title || '').toLowerCase().includes(needle) ||
-        (m.title || '').toLowerCase().includes(last)
+        (m.descriptionLong || '').toLowerCase().includes(needle) ||
+        (m.descriptionLong || '').toLowerCase().includes(last) ||
+        (m.descriptionShort || '').toLowerCase().includes(needle) ||
+        (m.descriptionShort || '').toLowerCase().includes(last)
       ),
     };
   }, [entry, games, media]);
@@ -90,7 +90,7 @@ export function PlayerDetail({
               <li key={m.id}>
                 <button onClick={() => onOpenMedia(m)}
                         className="text-left text-sm underline text-crimson hover:text-crimson-700">
-                  {m.title}{m.publication ? ` — ${m.publication}` : ''}
+                  {m.descriptionShort}{m.attribution?.paper ? ` — ${m.attribution.paper}` : ''}
                 </button>
               </li>
             ))}
