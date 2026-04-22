@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Section } from '../components/layout/Section';
 import { PlayoffTimeline } from '../components/timeline/PlayoffTimeline';
 import { loadGames } from '../lib/loadData';
@@ -6,6 +7,11 @@ import { Seo } from '../lib/seo';
 export default function PlayoffsPage() {
   return (
     <>
+      <nav aria-label="Breadcrumb" className="max-w-6xl mx-auto px-4 pt-6 text-sm text-navy/70">
+        <Link to="/the-season" className="hover:text-crimson">The Season</Link>
+        <span aria-hidden="true"> › </span>
+        <span className="text-navy">The Run</span>
+      </nav>
       <Seo
         title="The Playoff Run — 1987 Richmond Sockeyes"
         description="Game-by-game record of the 1987 Richmond Sockeyes playoff run through the Mowat, Doyle, Abbott, and Centennial Cups." />
@@ -21,6 +27,9 @@ export default function PlayoffsPage() {
         </p>
         <PlayoffTimeline games={loadGames()} />
       </Section>
+      <div className="max-w-6xl mx-auto px-4 pb-12">
+        <Link to="/the-season" className="text-crimson hover:underline">← Back to the Season Story</Link>
+      </div>
     </>
   );
 }
