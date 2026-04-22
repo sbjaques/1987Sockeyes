@@ -1,5 +1,5 @@
 import Markdown from 'react-markdown';
-import { Fragment } from 'react';
+import { Fragment, type JSX } from 'react';
 import type { MediaItem } from '../types/media';
 
 function MediaEmbed({ item }: { item: MediaItem | null }) {
@@ -23,7 +23,7 @@ export function renderChapter(markdown: string, items: MediaItem[]) {
   let processed = markdown;
   let tokenIndex = 0;
 
-  processed = processed.replace(/!\[\]\(media:([a-zA-Z0-9\-_]+)\)/g, (match, id) => {
+  processed = processed.replace(/!\[\]\(media:([a-zA-Z0-9\-_]+)\)/g, (_match, id) => {
     const token = `MEDIATOKEN${tokenIndex}`;
     mediaRefs.set(token, byId.get(id) ?? null);
     tokenIndex++;
