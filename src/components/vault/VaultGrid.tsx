@@ -19,7 +19,11 @@ export function VaultGrid({ items }: { items: MediaItem[] }) {
     return filtered.filter(m => m.access === accessFilter);
   }, [filtered, accessFilter]);
 
-  const openable = accessFiltered.filter(m => m.type !== 'program' && m.type !== 'video' && m.type !== 'document');
+  // Private items are always openable so MediaLightbox can route them to LockedLightbox.
+  // Public programs/videos/documents open in a new tab (handled in MediaCard), so exclude them.
+  const openable = accessFiltered.filter(
+    m => m.access === 'private' || (m.type !== 'program' && m.type !== 'video' && m.type !== 'document')
+  );
 
   const handleOpen = (item: MediaItem) => {
     const i = openable.findIndex(x => x.id === item.id);
