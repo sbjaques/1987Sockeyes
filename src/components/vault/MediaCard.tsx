@@ -27,8 +27,16 @@ export function MediaCard({ item, onOpen }: { item: MediaItem; onOpen: (m: Media
         className="w-full text-left">
         <div className="relative">
           {thumbImg}
+          {item.access === 'private' && (
+            <span
+              aria-label="Private archive item"
+              className="absolute top-2 left-2 bg-crimson text-cream text-[10px] uppercase tracking-widest px-2 py-1 rounded flex items-center gap-1">
+              <span aria-hidden="true">🔒</span>
+              <span className="sr-only">Locked</span>
+            </span>
+          )}
           {isDoc && (
-            <span className="absolute top-2 left-2 bg-navy/85 text-cream text-[10px] uppercase tracking-widest px-2 py-1 rounded">
+            <span className={`absolute top-2 ${item.access === 'private' ? 'left-12' : 'left-2'} bg-navy/85 text-cream text-[10px] uppercase tracking-widest px-2 py-1 rounded`}>
               {item.type === 'video' ? 'Video' : 'PDF'}
             </span>
           )}
