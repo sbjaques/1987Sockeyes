@@ -1,0 +1,20 @@
+name: Deploy private archive artifacts
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20', cache: 'npm' }
+      - run: npm ci
+      - run: npm run validate:data
+      - run: npm run build:private
+      - name: Push dist-private to archive-dist repo
+        env:
+          ARCHIVE_DIST_PAT: ${{ secrets.ARCHIVE_DIST_PAT }}
+        run: node scripts/push-dist-private-to-archive-repo.mjs
