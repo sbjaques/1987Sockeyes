@@ -1,0 +1,14 @@
+name = "sockeyes-archive-media"
+main = "archive-media-resolver.js"
+compatibility_date = "2026-04-22"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "1987sockeyes-private"
+
+[triggers]
+crons = []
+
+# Deploy with: wrangler deploy
+# Route via CF dashboard: archive.87sockeyes.win/media/* → this worker
+# Access policy: apply the same Cloudflare Access policy as the archive page so the worker requires sign-in.
