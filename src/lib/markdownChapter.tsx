@@ -15,13 +15,46 @@ function MediaEmbed({ item }: { item: MediaItem | null }) {
   );
 }
 
-export function renderChapter(markdown: string, items: MediaItem[]) {
+export interface RenderChapterOptions {
+  /** CSS class(es) applied to the first rendered paragraph. */
+  firstParagraphClass?: string;
+  /** CSS class(es) applied to paragraphs that are chapter CTAs (contain a → arrow link). */
+  ctaParagraphClass?: string;
+}
+
+/** Return true if the paragraph's text content contains a → arrow (chapter CTA). */
+function hasCta(children: React.ReactNode): boolean {
+  const flatten = (node: React.ReactNode): string => {
+    if (typeof node === 'string') return node;
+    if (Array.isArray(node)) return node.map(flatten).join('');
+    if (node && typeof node === 'object' && 'props' in (node as any)) {
+      return flatten((node as any).props?.children);
+    }
+    return '';
+  };
+  return flatten(children).includes('→');
+}
+
+export function renderChapter(
+  markdown: string,
+  items: MediaItem[],
+  options: RenderChapterOptions = {},
+) {
+  const {
+    firstParagraphClass = '',
+    ctaParagraphClass = '',
+  } = options;
+
   const byId = new Map(items.map(i => [i.id, i]));
 
   // Pre-process: replace ![](media:id) patterns in the markdown
+  // Also strip leading H1 — the page renders it as a styled chapter title.
   const mediaRefs: Map<string, MediaItem | null> = new Map();
   let processed = markdown;
   let tokenIndex = 0;
+
+  // Remove the first H1 line so it doesn't re-render inside the prose block
+  processed = processed.replace(/^#\s+.+\n?/, '');
 
   processed = processed.replace(/!\[\]\(media:([a-zA-Z0-9\-_]+)\)/g, (_match, id) => {
     const token = `MEDIATOKEN${tokenIndex}`;
@@ -29,6 +62,8 @@ export function renderChapter(markdown: string, items: MediaItem[]) {
     tokenIndex++;
     return token;
   });
+
+  let paragraphIndex = 0;
 
   return (
     <Markdown
@@ -72,11 +107,48 @@ export function renderChapter(markdown: string, items: MediaItem[]) {
           }
 
           flushBuffer();
-          return result.length > 0 ? <Fragment>{result}</Fragment> : null;
+
+          const isCta = ctaParagraphClass && hasCta(children);
+          const isFirst = paragraphIndex === 0 && firstParagraphClass && !isCta;
+          paragraphIndex++;
+
+          if (result.length === 0) return null;
+
+          // Unwrap the inner <p> tags and apply class at the top-level wrapper
+          const className = isCta
+            ? ctaParagraphClass
+            : isFirst
+            ? firstParagraphClass
+            : undefined;
+
+          if (className) {
+            // Re-wrap the accumulated result in a single <p> with the class
+            const flat = result.flatMap(r => {
+              if (typeof r !== 'string' && 'props' in (r as any) && (r as any).type === 'p') {
+                return (r as any).props.children;
+              }
+              return [r];
+            });
+            return <p className={className}>{flat}</p>;
+          }
+
+          return <Fragment>{result}</Fragment>;
         },
+        // Render thematic breaks (---) as a subtle divider
+        hr: () => (
+          <hr className="my-8 border-navy/15" />
+        ),
+        // Render block italics (used for the chapter coda in ch0) with a distinct style
+        em: ({ children }) => <em className="italic">{children}</em>,
       }}
     >
       {processed}
     </Markdown>
   );
+}
+
+/** Extract the H1 title from a chapter's markdown string. */
+export function extractChapterTitle(markdown: string): string {
+  const match = markdown.match(/^#\s+(.+)/m);
+  return match ? match[1].trim() : '';
 }

@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { renderChapter } from './markdownChapter';
+import { renderChapter, extractChapterTitle } from './markdownChapter';
 import type { MediaItem } from '../types/media';
 
 const items: MediaItem[] = [
@@ -17,9 +17,10 @@ const items: MediaItem[] = [
 ];
 
 describe('renderChapter', () => {
-  it('renders plain markdown paragraphs', () => {
+  it('renders plain markdown paragraphs (H1 stripped — title rendered by page)', () => {
     render(<div>{renderChapter('# Heading\n\nSome paragraph.', items)}</div>);
-    expect(screen.getByRole('heading', { level: 1, name: 'Heading' })).toBeInTheDocument();
+    // The H1 is stripped by renderChapter; the page layer renders it via extractChapterTitle.
+    expect(screen.queryByRole('heading', { level: 1 })).toBeNull();
     expect(screen.getByText('Some paragraph.')).toBeInTheDocument();
   });
 
@@ -32,5 +33,15 @@ describe('renderChapter', () => {
   it('renders a placeholder when the id is missing', () => {
     render(<div>{renderChapter('Hidden: ![](media:missing-id)', items)}</div>);
     expect(screen.getByText('(private item)')).toBeInTheDocument();
+  });
+});
+
+describe('extractChapterTitle', () => {
+  it('returns the text of the first H1', () => {
+    expect(extractChapterTitle('# My Title\n\nBody text.')).toBe('My Title');
+  });
+
+  it('returns empty string when there is no H1', () => {
+    expect(extractChapterTitle('Just body text.')).toBe('');
   });
 });
