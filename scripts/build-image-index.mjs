@@ -17,10 +17,14 @@ const outPath = path.join(root, 'src/data/imageIndex.json');
 const IMAGES_REPO_DIR = path.join(root, '..', '1987Sockeyes-images');
 
 const filenameById = {};
+const dateById = {};
 for (const f of fs.readdirSync(extractionsDir)) {
   if (!f.endsWith('.md')) continue;
-  const m = f.match(/-i(\d{7,})\.md$/);
-  if (m) filenameById[m[1]] = f;
+  const m = f.match(/^(\d{4}-\d{2}-\d{2})-.*-i(\d{7,})\.md$/);
+  if (m) {
+    filenameById[m[2]] = f;
+    dateById[m[2]] = m[1];
+  }
 }
 
 const archivedImages = new Set();
@@ -48,7 +52,11 @@ for (const id of referenced) {
   if (!filename) { missingOcr++; continue; }
   const image = archivedImages.has(id);
   if (image) withImage++;
-  entries[id] = image ? { filename, image: true } : { filename };
+  const date = dateById[id];
+  const entry = { filename };
+  if (date) entry.date = date;
+  if (image) entry.image = true;
+  entries[id] = entry;
 }
 
 const sorted = Object.fromEntries(Object.keys(entries).sort().map(k => [k, entries[k]]));

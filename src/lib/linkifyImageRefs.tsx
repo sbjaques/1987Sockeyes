@@ -6,21 +6,22 @@ const IMAGES_RAW_BASE = 'https://raw.githubusercontent.com/sbjaques/1987Sockeyes
 const OCR_BLOB_BASE = 'https://github.com/sbjaques/1987Sockeyes/blob/main/docs/extractions/';
 const NEWSPAPERS_FALLBACK = 'https://www.newspapers.com/image/';
 
-type IndexEntry = { filename: string; image?: boolean };
+type IndexEntry = { filename: string; date?: string; image?: boolean };
 const index = imageIndex as Record<string, IndexEntry>;
 
 function urlForImageId(id: string): { href: string; title: string } {
   const entry = index[id];
+  const datePrefix = entry?.date ? `[${entry.date}] ` : '';
   if (entry?.image) {
     return {
       href: `${IMAGES_RAW_BASE}${id}.jpg`,
-      title: `View newspaper scan: ${entry.filename.replace(/\.md$/, '.jpg')}`,
+      title: `${datePrefix}View newspaper scan: ${entry.filename.replace(/\.md$/, '.jpg')}`,
     };
   }
   if (entry) {
     return {
       href: OCR_BLOB_BASE + entry.filename,
-      title: `View OCR extraction: ${entry.filename}`,
+      title: `${datePrefix}View OCR extraction: ${entry.filename}`,
     };
   }
   return {
