@@ -5,6 +5,7 @@ import Download from 'yet-another-react-lightbox/plugins/download';
 import 'yet-another-react-lightbox/styles.css';
 import 'yet-another-react-lightbox/plugins/captions.css';
 import type { MediaItem } from '../../types/media';
+import { LockedLightbox } from './LockedLightbox';
 
 export function MediaLightbox({
   items, index, onClose,
@@ -14,6 +15,12 @@ export function MediaLightbox({
   onClose: () => void;
 }) {
   const open = index !== null;
+
+  // Route private items to LockedLightbox before the URL filter strips them out.
+  const active = index !== null ? items[index] : undefined;
+  if (active && active.access === 'private') {
+    return <LockedLightbox item={active} onClose={onClose} />;
+  }
 
   const viewable = items.filter(
     m => m.type !== 'video' && m.type !== 'program' && m.type !== 'document' && m.url
