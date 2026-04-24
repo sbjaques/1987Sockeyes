@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { loadMedia } from '../lib/loadData';
 import { MediaLightbox } from '../components/vault/MediaLightbox';
+import { Seo } from '../lib/seo';
 import type { MediaItem } from '../types/media';
 
 // ── Helpers ────────────────────────────────────────────────────────────────
@@ -128,6 +129,10 @@ export default function HallOfFamePage() {
 
   return (
     <div className="bg-cream-200 min-h-screen">
+      <Seo
+        title="Hall of Fame — 1987 Richmond Sockeyes"
+        description="The 1987 Richmond Sockeyes reunite 38 years later at the BC Hockey Hall of Fame induction ceremony in Penticton, July 12 2025."
+      />
       {/* ── Page hero: navy block with cream text ──────────────────────── */}
       <header className="bg-navy text-cream py-16 md:py-24 px-6 text-center">
         <p className="uppercase tracking-[0.25em] text-crimson text-xs font-sans mb-4">

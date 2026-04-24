@@ -1,5 +1,6 @@
 import { renderChapter, extractChapterTitle } from '../lib/markdownChapter';
 import { loadMedia } from '../lib/loadData';
+import { Seo } from '../lib/seo';
 import ch0 from '../content/the-season/00-penticton-2025.md?raw';
 import ch1 from '../content/the-season/01-the-rebuild.md?raw';
 import ch2 from '../content/the-season/02-regular-season.md?raw';
@@ -31,6 +32,10 @@ export default function SeasonStoryPage() {
 
   return (
     <div className="bg-cream-200 min-h-screen">
+      <Seo
+        title="The 1986-87 Season — 1987 Richmond Sockeyes"
+        description="Eight chapters on the 1986-87 Richmond Sockeyes — Kurtenbach's rebuild, the 15-0 BCJHL playoff run, the Doyle Cup in Red Deer, and the Centennial Cup final in Humboldt."
+      />
       {/* ── Page Hero ──────────────────────────────────────────────── */}
       <header className="bg-navy text-cream py-16 md:py-24 px-6 text-center">
         <p className="uppercase tracking-[0.25em] text-crimson text-xs font-sans mb-4">
