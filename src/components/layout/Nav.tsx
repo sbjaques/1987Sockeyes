@@ -2,10 +2,10 @@ import { NavLink } from 'react-router-dom';
 import { NavSeasonDropdown } from './NavSeasonDropdown';
 
 const links = [
-  { to: '/',             label: 'Home' },
-  { to: '/roster',       label: 'Roster' },
-  { to: '/vault',        label: 'The Vault' },
-  { to: '/banner-night', label: 'Banner Night' },
+  { to: '/',              label: 'Home' },
+  { to: '/roster',        label: 'Roster' },
+  { to: '/vault',         label: 'The Vault' },
+  { to: '/hall-of-fame',  label: 'Hall of Fame' },
 ];
 
 export function Nav() {

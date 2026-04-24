@@ -2,7 +2,7 @@ export function Hero() {
   return (
     <section className="relative bg-navy text-cream">
       <img
-        src="/1987Sockeyes/assets/hero-centennial.jpg"
+        src="/assets/hero-centennial.jpg"
         alt="Richmond Sockeyes hoisting the Centennial Cup, May 1987"
         className="absolute inset-0 w-full h-full object-cover opacity-40"
       />

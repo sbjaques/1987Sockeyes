@@ -9,7 +9,6 @@ import SeasonStoryPage from './pages/SeasonStoryPage';
 import HallOfFamePage from './pages/HallOfFamePage';
 import VaultPage from './pages/VaultPage';
 import CupPage from './pages/CupPage';
-import BannerNightPage from './pages/BannerNightPage';
 import PlayerProfile from './pages/PlayerProfile';
 import NotFound from './pages/NotFound';
 import { BUILD_MODE } from './lib/buildMode';
@@ -34,7 +33,7 @@ export default function App() {
             <Route path="/playoffs"                 element={<Navigate to="/the-season/the-run" replace />} />
             <Route path="/vault"                    element={<VaultPage />} />
             <Route path="/timeline/:cup"            element={<CupPage />} />
-            <Route path="/banner-night"             element={<BannerNightPage />} />
+            <Route path="/banner-night"             element={<Navigate to="/hall-of-fame" replace />} />
             <Route path="/player/:id"               element={<PlayerProfile />} />
             <Route path="*"                         element={<NotFound />} />
           </Routes>

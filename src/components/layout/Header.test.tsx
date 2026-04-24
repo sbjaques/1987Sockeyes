@@ -10,6 +10,6 @@ describe('Header', () => {
     expect(screen.getByText(/1987 Richmond Sockeyes/i)).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /roster/i })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /vault/i })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /banner night/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /hall of fame/i })).toBeInTheDocument();
   });
 });

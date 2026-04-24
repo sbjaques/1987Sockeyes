@@ -1,0 +1,1005 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Richmond Sockeyes 1987 Richmond Sockeyes" [ref=e5] [cursor=pointer]:
+        - /url: "#/"
+        - img "Richmond Sockeyes" [ref=e89]
+        - generic [ref=e6]: 1987 Richmond Sockeyes
+      - generic [ref=e7]:
+        - searchbox "Search the archive" [ref=e9]
+        - navigation "Primary" [ref=e10]:
+          - list [ref=e11]:
+            - listitem [ref=e12]:
+              - link "Home" [ref=e13] [cursor=pointer]:
+                - /url: "#/"
+            - listitem [ref=e14]:
+              - button "The Season ▾" [ref=e15] [cursor=pointer]
+            - listitem [ref=e16]:
+              - link "Roster" [ref=e17] [cursor=pointer]:
+                - /url: "#/roster"
+            - listitem [ref=e18]:
+              - link "The Vault" [ref=e19] [cursor=pointer]:
+                - /url: "#/vault"
+            - listitem [ref=e20]:
+              - link "Hall of Fame" [ref=e21] [cursor=pointer]:
+                - /url: "#/hall-of-fame"
+  - main [ref=e22]:
+    - generic [ref=e90]:
+      - link "← Back to roster" [ref=e91] [cursor=pointer]:
+        - /url: "#/roster"
+      - generic [ref=e92]:
+        - generic [ref=e93]: DT
+        - generic [ref=e94]:
+          - heading "Dave Tomlinson" [level=1] [ref=e560]
+          - paragraph [ref=e96]: "#11 · Forward · North Vancouver, BC"
+          - list [ref=e97]:
+            - listitem [ref=e98]: Centennial Cup Champion 1987
+            - listitem [ref=e99]: Abbott Cup Champion 1987
+            - listitem [ref=e100]: Doyle Cup Champion 1987
+            - listitem [ref=e101]: Mowat Cup Champion 1987
+            - listitem [ref=e102]: BC Hockey Hall of Fame Inductee 2025
+      - blockquote [ref=e103]: 18 y/o centerman; 43 G, 65 A, 108 pts in 51 games — 2nd in BCJHL scoring. Team's top scorer in both regular season and playoffs per Centennial Cup program.
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - heading "Vitals" [level=3] [ref=e106]
+          - generic [ref=e107]:
+            - term [ref=e108]: Born
+            - definition [ref=e109]: 1969-05-08
+            - term [ref=e110]: Height
+            - definition [ref=e111]: 5'10"
+            - term [ref=e112]: Weight
+            - definition [ref=e113]: 160 lbs
+        - generic [ref=e116]:
+          - heading "Path to Richmond" [level=3] [ref=e117]
+          - list [ref=e118]:
+            - listitem [ref=e119]: North Shore Winter Club Minor (multi-time BC Provincial champions)
+            - listitem [ref=e120]: Summerland Midget (1985-86)
+        - generic [ref=e561]:
+          - heading "Off the Ice" [level=3] [ref=e562]
+          - generic [ref=e563]:
+            - term [ref=e564]: College
+            - definition [ref=e565]: Boston University (NCAA, hockey scholarship)
+      - heading "1987 Playoff Totals" [level=2] [ref=e121]
+      - table [ref=e122]:
+        - rowgroup [ref=e123]:
+          - row "Season GP G A Pts PIM" [ref=e124]:
+            - columnheader "Season" [ref=e125]
+            - columnheader "GP" [ref=e126]
+            - columnheader "G" [ref=e127]
+            - columnheader "A" [ref=e128]
+            - columnheader "Pts" [ref=e129]
+            - columnheader "PIM" [ref=e130]
+        - rowgroup [ref=e131]:
+          - row "1986-87 Playoffs (Richmond Sockeyes) 51 43 65 108 75" [ref=e566]:
+            - cell "1986-87 Playoffs (Richmond Sockeyes)" [ref=e133]
+            - cell "51" [ref=e567]
+            - cell "43" [ref=e568]
+            - cell "65" [ref=e569]
+            - cell "108" [ref=e570]
+            - cell "75" [ref=e571]
+      - heading "Career — Skater" [level=2] [ref=e139]
+      - table [ref=e140]:
+        - rowgroup [ref=e141]:
+          - row "Season Team (League) Type GP G A Pts PIM" [ref=e142]:
+            - columnheader "Season" [ref=e143]
+            - columnheader "Team (League)" [ref=e144]
+            - columnheader "Type" [ref=e145]
+            - columnheader "GP" [ref=e146]
+            - columnheader "G" [ref=e147]
+            - columnheader "A" [ref=e148]
+            - columnheader "Pts" [ref=e149]
+            - columnheader "PIM" [ref=e150]
+        - rowgroup [ref=e151]:
+          - row "1985-86 Summerland Buckaroos (BCJHL) regular 52 48 40 88 78" [ref=e572]:
+            - cell "1985-86" [ref=e573]
+            - cell "Summerland Buckaroos (BCJHL)" [ref=e574]:
+              - text: Summerland Buckaroos
+              - generic [ref=e155]: (BCJHL)
+            - cell "regular" [ref=e156]
+            - cell "52" [ref=e575]
+            - cell "48" [ref=e576]
+            - cell "40" [ref=e577]
+            - cell "88" [ref=e578]
+            - cell "78" [ref=e579]
+          - row "1986-87 Richmond Sockeyes (BCJHL) regular 51 43 65 108 75" [ref=e580]:
+            - cell "1986-87" [ref=e581]
+            - cell "Richmond Sockeyes (BCJHL)" [ref=e582]:
+              - text: Richmond Sockeyes
+              - generic [ref=e165]: (BCJHL)
+            - cell "regular" [ref=e166]
+            - cell "51" [ref=e583]
+            - cell "43" [ref=e584]
+            - cell "65" [ref=e585]
+            - cell "108" [ref=e586]
+            - cell "75" [ref=e587]
+          - row "1987-88 Boston University (H-East) regular 34 16 20 36 40" [ref=e588]:
+            - cell "1987-88" [ref=e173]
+            - cell "Boston University (H-East)" [ref=e589]:
+              - text: Boston University
+              - generic [ref=e175]: (H-East)
+            - cell "regular" [ref=e590]
+            - cell "34" [ref=e591]
+            - cell "16" [ref=e592]
+            - cell "20" [ref=e593]
+            - cell "36" [ref=e594]
+            - cell "40" [ref=e595]
+          - row "1988-89 Boston University (H-East) regular 34 16 30 46 28" [ref=e596]:
+            - cell "1988-89" [ref=e183]
+            - cell "Boston University (H-East)" [ref=e597]:
+              - text: Boston University
+              - generic [ref=e185]: (H-East)
+            - cell "regular" [ref=e186]
+            - cell "34" [ref=e598]
+            - cell "16" [ref=e599]
+            - cell "30" [ref=e600]
+            - cell "46" [ref=e601]
+            - cell "28" [ref=e602]
+          - row "1989-90 Boston University (H-East) regular 43 15 22 37 53" [ref=e603]:
+            - cell "1989-90" [ref=e193]
+            - cell "Boston University (H-East)" [ref=e604]:
+              - text: Boston University
+              - generic [ref=e195]: (H-East)
+            - cell "regular" [ref=e196]
+            - cell "43" [ref=e605]
+            - cell "15" [ref=e606]
+            - cell "22" [ref=e607]
+            - cell "37" [ref=e608]
+            - cell "53" [ref=e609]
+          - row "1990-91 Boston University (H-East) regular 41 30 30 60 55" [ref=e610]:
+            - cell "1990-91" [ref=e611]
+            - cell "Boston University (H-East)" [ref=e612]:
+              - text: Boston University
+              - generic [ref=e205]: (H-East)
+            - cell "regular" [ref=e613]
+            - cell "41" [ref=e614]
+            - cell "30" [ref=e615]
+            - cell "30" [ref=e616]
+            - cell "60" [ref=e617]
+            - cell "55" [ref=e211]
+          - row "1991-92 St. John's Maple Leafs (AHL) regular 75 23 34 57 75" [ref=e618]:
+            - cell "1991-92" [ref=e619]
+            - cell "St. John's Maple Leafs (AHL)" [ref=e620]:
+              - text: St. John's Maple Leafs
+              - generic [ref=e215]: (AHL)
+            - cell "regular" [ref=e216]
+            - cell "75" [ref=e621]
+            - cell "23" [ref=e622]
+            - cell "34" [ref=e623]
+            - cell "57" [ref=e624]
+            - cell "75" [ref=e625]
+          - row "1991-92 Toronto Maple Leafs (NHL) regular 3 0 0 0 2" [ref=e626]:
+            - cell "1991-92" [ref=e627]
+            - cell "Toronto Maple Leafs (NHL)" [ref=e628]:
+              - text: Toronto Maple Leafs
+              - generic [ref=e225]: (NHL)
+            - cell "regular" [ref=e629]
+            - cell "3" [ref=e630]
+            - cell "0" [ref=e631]
+            - cell "0" [ref=e632]
+            - cell "0" [ref=e633]
+            - cell "2" [ref=e634]
+          - row "1992-93 St. John's Maple Leafs (AHL) regular 70 36 48 84 115" [ref=e635]:
+            - cell "1992-93" [ref=e636]
+            - cell "St. John's Maple Leafs (AHL)" [ref=e637]:
+              - text: St. John's Maple Leafs
+              - generic [ref=e235]: (AHL)
+            - cell "regular" [ref=e236]
+            - cell "70" [ref=e638]
+            - cell "36" [ref=e639]
+            - cell "48" [ref=e640]
+            - cell "84" [ref=e641]
+            - cell "115" [ref=e642]
+          - row "1992-93 Toronto Maple Leafs (NHL) regular 3 0 0 0 2" [ref=e643]:
+            - cell "1992-93" [ref=e243]
+            - cell "Toronto Maple Leafs (NHL)" [ref=e644]:
+              - text: Toronto Maple Leafs
+              - generic [ref=e245]: (NHL)
+            - cell "regular" [ref=e246]
+            - cell "3" [ref=e645]
+            - cell "0" [ref=e646]
+            - cell "0" [ref=e647]
+            - cell "0" [ref=e648]
+            - cell "2" [ref=e649]
+          - row "1993-94 Moncton Hawks (AHL) regular 39 23 23 46 38" [ref=e650]:
+            - cell "1993-94" [ref=e651]
+            - cell "Moncton Hawks (AHL)" [ref=e652]:
+              - text: Moncton Hawks
+              - generic [ref=e255]: (AHL)
+            - cell "regular" [ref=e653]
+            - cell "39" [ref=e654]
+            - cell "23" [ref=e655]
+            - cell "23" [ref=e656]
+            - cell "46" [ref=e657]
+            - cell "38" [ref=e658]
+          - row "1993-94 Moncton Hawks (AHL) playoff 20 6 6 12 24" [ref=e659]:
+            - cell "1993-94" [ref=e263]
+            - cell "Moncton Hawks (AHL)" [ref=e660]:
+              - text: Moncton Hawks
+              - generic [ref=e265]: (AHL)
+            - cell "playoff" [ref=e661]
+            - cell "20" [ref=e662]
+            - cell "6" [ref=e663]
+            - cell "6" [ref=e664]
+            - cell "12" [ref=e665]
+            - cell "24" [ref=e666]
+          - row "1993-94 Winnipeg Jets (NHL) regular 31 1 3 4 24" [ref=e667]:
+            - cell "1993-94" [ref=e273]
+            - cell "Winnipeg Jets (NHL)" [ref=e668]:
+              - text: Winnipeg Jets
+              - generic [ref=e275]: (NHL)
+            - cell "regular" [ref=e669]
+            - cell "31" [ref=e670]
+            - cell "1" [ref=e671]
+            - cell "3" [ref=e672]
+            - cell "4" [ref=e673]
+            - cell "24" [ref=e674]
+          - row "1994-95 Florida Panthers (NHL) regular 5 0 0 0 0" [ref=e675]:
+            - cell "1994-95" [ref=e676]
+            - cell "Florida Panthers (NHL)" [ref=e677]:
+              - text: Florida Panthers
+              - generic [ref=e285]: (NHL)
+            - cell "regular" [ref=e286]
+            - cell "5" [ref=e678]
+            - cell "0" [ref=e288]
+            - cell "0" [ref=e679]
+            - cell "0" [ref=e680]
+            - cell "0" [ref=e681]
+          - row "1994-95 Cincinnati Cyclones (IHL) regular 78 38 72 110 79" [ref=e682]:
+            - cell "1994-95" [ref=e293]
+            - cell "Cincinnati Cyclones (IHL)" [ref=e683]:
+              - text: Cincinnati Cyclones
+              - generic [ref=e295]: (IHL)
+            - cell "regular" [ref=e296]
+            - cell "78" [ref=e684]
+            - cell "38" [ref=e685]
+            - cell "72" [ref=e686]
+            - cell "110" [ref=e687]
+            - cell "79" [ref=e688]
+          - row "1994-95 Cincinnati Cyclones (IHL) playoff 10 7 3 10 8" [ref=e689]:
+            - cell "1994-95" [ref=e303]
+            - cell "Cincinnati Cyclones (IHL)" [ref=e690]:
+              - text: Cincinnati Cyclones
+              - generic [ref=e305]: (IHL)
+            - cell "playoff" [ref=e306]
+            - cell "10" [ref=e691]
+            - cell "7" [ref=e692]
+            - cell "3" [ref=e693]
+            - cell "10" [ref=e694]
+            - cell "8" [ref=e695]
+          - row "1995-96 Cincinnati Cyclones (IHL) regular 81 39 57 96 127" [ref=e696]:
+            - cell "1995-96" [ref=e313]
+            - cell "Cincinnati Cyclones (IHL)" [ref=e697]:
+              - text: Cincinnati Cyclones
+              - generic [ref=e315]: (IHL)
+            - cell "regular" [ref=e316]
+            - cell "81" [ref=e698]
+            - cell "39" [ref=e699]
+            - cell "57" [ref=e700]
+            - cell "96" [ref=e701]
+            - cell "127" [ref=e702]
+          - row "1995-96 Cincinnati Cyclones (IHL) playoff 17 4 12 16 18" [ref=e703]:
+            - cell "1995-96" [ref=e704]
+            - cell "Cincinnati Cyclones (IHL)" [ref=e705]:
+              - text: Cincinnati Cyclones
+              - generic [ref=e325]: (IHL)
+            - cell "playoff" [ref=e706]
+            - cell "17" [ref=e707]
+            - cell "4" [ref=e708]
+            - cell "12" [ref=e709]
+            - cell "16" [ref=e710]
+            - cell "18" [ref=e711]
+          - row "1996-97 Mannheim Eagles (DEL) regular 49 19 32 51 66" [ref=e712]:
+            - cell "1996-97" [ref=e333]
+            - cell "Mannheim Eagles (DEL)" [ref=e713]:
+              - text: Mannheim Eagles
+              - generic [ref=e335]: (DEL)
+            - cell "regular" [ref=e336]
+            - cell "49" [ref=e714]
+            - cell "19" [ref=e715]
+            - cell "32" [ref=e716]
+            - cell "51" [ref=e717]
+            - cell "66" [ref=e718]
+          - row "1997-98 Mannheim Eagles (DEL) regular 44 20 30 50 58" [ref=e719]:
+            - cell "1997-98" [ref=e343]
+            - cell "Mannheim Eagles (DEL)" [ref=e720]:
+              - text: Mannheim Eagles
+              - generic [ref=e345]: (DEL)
+            - cell "regular" [ref=e346]
+            - cell "44" [ref=e721]
+            - cell "20" [ref=e722]
+            - cell "30" [ref=e723]
+            - cell "50" [ref=e724]
+            - cell "58" [ref=e725]
+          - row "1998-99 Mannheim Eagles (DEL) regular 49 12 28 40 74" [ref=e726]:
+            - cell "1998-99" [ref=e727]
+            - cell "Mannheim Eagles (DEL)" [ref=e728]:
+              - text: Mannheim Eagles
+              - generic [ref=e355]: (DEL)
+            - cell "regular" [ref=e729]
+            - cell "49" [ref=e730]
+            - cell "12" [ref=e731]
+            - cell "28" [ref=e732]
+            - cell "40" [ref=e733]
+            - cell "74" [ref=e734]
+          - row "1999-00 Mannheim Eagles (DEL) regular 56 20 30 50 101" [ref=e735]:
+            - cell "1999-00" [ref=e736]
+            - cell "Mannheim Eagles (DEL)" [ref=e737]:
+              - text: Mannheim Eagles
+              - generic [ref=e738]: (DEL)
+            - cell "regular" [ref=e739]
+            - cell "56" [ref=e740]
+            - cell "20" [ref=e741]
+            - cell "30" [ref=e742]
+            - cell "50" [ref=e743]
+            - cell "101" [ref=e744]
+          - row "2000-01 Mannheim Eagles (DEL) regular 59 21 24 45 84" [ref=e745]:
+            - cell "2000-01" [ref=e746]
+            - cell "Mannheim Eagles (DEL)" [ref=e747]:
+              - text: Mannheim Eagles
+              - generic [ref=e748]: (DEL)
+            - cell "regular" [ref=e749]
+            - cell "59" [ref=e750]
+            - cell "21" [ref=e751]
+            - cell "24" [ref=e752]
+            - cell "45" [ref=e753]
+            - cell "84" [ref=e754]
+          - row "2000-01 Mannheim Eagles (DEL) playoff 12 4 7 11 28" [ref=e755]:
+            - cell "2000-01" [ref=e756]
+            - cell "Mannheim Eagles (DEL)" [ref=e757]:
+              - text: Mannheim Eagles
+              - generic [ref=e758]: (DEL)
+            - cell "playoff" [ref=e759]
+            - cell "12" [ref=e760]
+            - cell "4" [ref=e761]
+            - cell "7" [ref=e762]
+            - cell "11" [ref=e763]
+            - cell "28" [ref=e764]
+          - row "2001-02 Mannheim Eagles (DEL) regular 33 9 16 25 26" [ref=e765]:
+            - cell "2001-02" [ref=e766]
+            - cell "Mannheim Eagles (DEL)" [ref=e767]:
+              - text: Mannheim Eagles
+              - generic [ref=e768]: (DEL)
+            - cell "regular" [ref=e769]
+            - cell "33" [ref=e770]
+            - cell "9" [ref=e771]
+            - cell "16" [ref=e772]
+            - cell "25" [ref=e773]
+            - cell "26" [ref=e774]
+          - row "2001-02 Mannheim Eagles (DEL) playoff 12 1 2 3 8" [ref=e775]:
+            - cell "2001-02" [ref=e776]
+            - cell "Mannheim Eagles (DEL)" [ref=e777]:
+              - text: Mannheim Eagles
+              - generic [ref=e778]: (DEL)
+            - cell "playoff" [ref=e779]
+            - cell "12" [ref=e780]
+            - cell "1" [ref=e781]
+            - cell "2" [ref=e782]
+            - cell "3" [ref=e783]
+            - cell "8" [ref=e784]
+          - row "2002-03 Nuernberg Ice Tigers (DEL) regular 18 6 5 11 8" [ref=e785]:
+            - cell "2002-03" [ref=e786]
+            - cell "Nuernberg Ice Tigers (DEL)" [ref=e787]:
+              - text: Nuernberg Ice Tigers
+              - generic [ref=e788]: (DEL)
+            - cell "regular" [ref=e789]
+            - cell "18" [ref=e790]
+            - cell "6" [ref=e791]
+            - cell "5" [ref=e792]
+            - cell "11" [ref=e793]
+            - cell "8" [ref=e794]
+          - row "2002-03 Nuernberg Ice Tigers (DEL) playoff 3 0 0 0 8" [ref=e795]:
+            - cell "2002-03" [ref=e796]
+            - cell "Nuernberg Ice Tigers (DEL)" [ref=e797]:
+              - text: Nuernberg Ice Tigers
+              - generic [ref=e798]: (DEL)
+            - cell "playoff" [ref=e799]
+            - cell "3" [ref=e800]
+            - cell "0" [ref=e801]
+            - cell "0" [ref=e802]
+            - cell "0" [ref=e803]
+            - cell "8" [ref=e804]
+          - row "2003-04 Hamburg Freezers (DEL) regular 46 8 17 25 109" [ref=e805]:
+            - cell "2003-04" [ref=e806]
+            - cell "Hamburg Freezers (DEL)" [ref=e807]:
+              - text: Hamburg Freezers
+              - generic [ref=e808]: (DEL)
+            - cell "regular" [ref=e809]
+            - cell "46" [ref=e810]
+            - cell "8" [ref=e811]
+            - cell "17" [ref=e812]
+            - cell "25" [ref=e813]
+            - cell "109" [ref=e814]
+          - row "2003-04 Hamburg Freezers (DEL) playoff 11 4 5 9 10" [ref=e815]:
+            - cell "2003-04" [ref=e816]
+            - cell "Hamburg Freezers (DEL)" [ref=e817]:
+              - text: Hamburg Freezers
+              - generic [ref=e818]: (DEL)
+            - cell "playoff" [ref=e819]
+            - cell "11" [ref=e820]
+            - cell "4" [ref=e821]
+            - cell "5" [ref=e822]
+            - cell "9" [ref=e823]
+            - cell "10" [ref=e824]
+          - row "2004-05 Hamburg Freezers (DEL) regular 43 14 9 23 34" [ref=e825]:
+            - cell "2004-05" [ref=e826]
+            - cell "Hamburg Freezers (DEL)" [ref=e827]:
+              - text: Hamburg Freezers
+              - generic [ref=e828]: (DEL)
+            - cell "regular" [ref=e829]
+            - cell "43" [ref=e830]
+            - cell "14" [ref=e831]
+            - cell "9" [ref=e832]
+            - cell "23" [ref=e833]
+            - cell "34" [ref=e834]
+          - row "2004-05 Hamburg Freezers (DEL) playoff 6 1 0 1 0" [ref=e835]:
+            - cell "2004-05" [ref=e836]
+            - cell "Hamburg Freezers (DEL)" [ref=e837]:
+              - text: Hamburg Freezers
+              - generic [ref=e838]: (DEL)
+            - cell "playoff" [ref=e839]
+            - cell "6" [ref=e840]
+            - cell "1" [ref=e841]
+            - cell "0" [ref=e842]
+            - cell "1" [ref=e843]
+            - cell "0" [ref=e844]
+          - row "2005-06 Krefeld Penguins (DEL) regular 4 0 2 2 33" [ref=e845]:
+            - cell "2005-06" [ref=e846]
+            - cell "Krefeld Penguins (DEL)" [ref=e847]:
+              - text: Krefeld Penguins
+              - generic [ref=e848]: (DEL)
+            - cell "regular" [ref=e849]
+            - cell "4" [ref=e850]
+            - cell "0" [ref=e851]
+            - cell "2" [ref=e852]
+            - cell "2" [ref=e853]
+            - cell "33" [ref=e854]
+          - row "2005-06 Krefeld Penguins (DEL) playoff 5 2 2 4 2" [ref=e855]:
+            - cell "2005-06" [ref=e856]
+            - cell "Krefeld Penguins (DEL)" [ref=e857]:
+              - text: Krefeld Penguins
+              - generic [ref=e858]: (DEL)
+            - cell "playoff" [ref=e859]
+            - cell "5" [ref=e860]
+            - cell "2" [ref=e861]
+            - cell "2" [ref=e862]
+            - cell "4" [ref=e863]
+            - cell "2" [ref=e864]
+      - heading "1987 Program Snapshot" [level=2] [ref=e362]
+      - generic [ref=e363]: Dave played all his minor hockey at the North Shore Winter Club. He has played on many Provincial Championship teams. Last season Dave had an excellent season playing midget hockey in Summerland. This season has seen him lead the scoring for the Sockeyes. Dave plans to take advantage of a scholarship to Boston College [verified later as Boston University] while continuing to play hockey.
+      - paragraph [ref=e364]: "Source: 1987 Abbott Cup / Centennial Cup Souvenir Program"
+      - heading "Biography" [level=2] [ref=e365]
+      - generic [ref=e366]:
+        - heading "Dave Tomlinson — Career Biography" [level=1] [ref=e865]
+        - heading "1. The call-up" [level=2] [ref=e866]
+        - paragraph [ref=e382]:
+          - text: The injury wire hit Maple Leaf Gardens before the puck dropped on January 7, 1993. Peter Zezel, Toronto's reliable defensive centre, had sprained his wrist. A thousand miles east, in St. John's, Newfoundland, the AHL's leading Maple Leafs scorer was told to pack. Dave Tomlinson — 51 points (21 G, 30 A) in 37 games with the farm club, a call-up that general manager Cliff Fletcher said was long overdue — caught the flight, pulled the blue-and-white sweater over his head, and lined up against the San Jose Sharks for his first shift in the National Hockey League. "He has consistently been the best player on Toronto's American Hockey League farm team," Fletcher told reporters afterwards (The Toronto Star, January 8 1993, image
+          - link "949123397" [ref=e867] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-01-08-the-toronto-star-p10-i949123397.md
+          - text: ; The Gazette, January 9 1993, image
+          - link "424270274" [ref=e868] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-01-09-the-gazette-p35-i424270274.md
+          - text: ).
+        - paragraph [ref=e386]: It had taken six years — a BCJHL championship, four seasons at Boston University, an NCAA scholarship, a supplemental draft, and eighteen months of AHL apprenticeship — to get that shift. It would take another twenty-five to finish telling the story, and much of it would be told in languages other than English.
+        - heading "2. Roots" [level=2] [ref=e869]
+        - paragraph [ref=e388]: David Tomlinson was born May 8, 1969, in North Vancouver, British Columbia. At 5'11" and 181 pounds, shooting left, he was never the biggest skater on the ice, but by his late teens he was already the most productive. He surfaces in the public record as a 17-year-old with the Summerland Buckaroos of the BCJHL in 1985-86, where he scored 48 goals and 88 points in 52 games — a line that pried open junior-A doors up the Fraser Valley. His pre-Summerland minor hockey — the North Shore leagues that turned out most of his contemporaries — is thinly documented in the surviving newspaper record; contemporaneous BCJHL coverage simply introduced him, mid-career, as the kid from North Vancouver scoring in bunches.
+        - heading "3. The Sockeyes year — 1986-87" [level=2] [ref=e870]
+        - paragraph [ref=e391]: Bruce Taylor, the Burnaby businessman who bought the Richmond Sockeyes in 1985 and quickly decided he was going to win a Centennial Cup, brought in Orland Kurtenbach to coach in July 1986 and then set about building the roster. Tomlinson was one of Kurtenbach's cornerstones. He played 51 regular-season games in the BCJHL, scored 43 goals, added 65 assists, and finished with 108 points — the team's leading scorer (Richmond Sentinel, October 22 2025 banner-raising feature; BCHL 60th anniversary retrospective). Second-year forward. No one on the Sockeyes scored more.
+        - paragraph [ref=e396]: He had company. Matt Hervey was "a heavy sort, with a great powerplay," Tomlinson said years later. Jason Phillips was the quietly brilliant centre on the other end of the ice. "We had an awesome team; it was a wonderful, wonderful time," Tomlinson told the Richmond News in 2012. "The owner, Bruce Taylor, wanted to put a team together to win that championship, so he brought in Kurtenbach and he kept on bringing in players that just seemed to make us stronger and stronger."
+        - paragraph [ref=e402]: The regular season was the prelude. The postseason is where Tomlinson's fingerprints went onto the record in ink. He finished Richmond's 15-game playoff run with 18 goals and played a central role in every series win.
+        - paragraph [ref=e405]:
+          - text: The Doyle Cup against the AJHL-champion Red Deer Rustlers was where he announced himself nationally. In Game 1 at the Red Deer Arena, he opened the scoring 21 seconds in (Red Deer Advocate, April 8 1987, image
+          - link "558334501" [ref=e871] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-08-red-deer-advocate-p21-i558334501.md
+          - text: ). A night later, after being "pummelled" by Rustlers defenceman Keith Lightbown — Tomlinson refusing to drop his gloves — he drew a five-minute power play that sparked a Richmond comeback (Red Deer Advocate, April 9 1987, image
+          - link "558334839" [ref=e872] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-09-red-deer-advocate-p11-i558334839.md
+          - text: ). In the 3-1 Game 4 loss at Red Deer he scored Richmond's only goal (Daily Herald-Tribune, April 13 1987, image
+          - link "731241442" [ref=e873] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-13-the-daily-herald-tribune-p7-i731241442.md
+          - text: ). He scored his fourth of the series at 1:39 of the third period in Game 5 (Red Deer Advocate, April 13 1987, image
+          - link "558335628" [ref=e874] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-13-red-deer-advocate-p7-i558335628.md
+          - text: ). And when Game 7 came — with Mounties reportedly posted outside the Sockeyes' hotel rooms after a series of threats, eggs, and poured coffee — Tomlinson scored three goals in a 9-1 Richmond rout that clinched the Alberta-BC championship (Calgary Herald, April 18 1987, image
+          - link "483730219" [ref=e875] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-18-calgary-herald-p73-i483730219.md
+          - text: ; Star-Phoenix, April 18 1987, image
+          - link "512309668" [ref=e876] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-18-star-phoenix-p44-i512309668.md
+          - text: ; The Leader-Post, April 18 1987, image
+          - link "496462357" [ref=e877] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-18-the-leader-post-p28-i496462357.md
+          - text: ).
+        - paragraph [ref=e408]: "\"I remember going out to play in Red Deer and we needed a police presence,\" he told the Richmond News years later. \"During the game, someone got hit in the face with an egg and coffee was poured on the coach. We beat them, but we started then to realize how serious this game was in other parts of the country.\""
+        - paragraph [ref=e411]:
+          - text: The Abbott Cup against the Humboldt Broncos was a seven-game war, the first act of a rivalry that would resume two weeks later. Tomlinson scored the Game-4 winner at Richmond Arena. "We don't want to be known as the team that made it through the back door," he told The Vancouver Sun afterwards (April 27 1987, image
+          - link "495254117" [ref=e878] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-27-the-vancouver-sun-p18-i495254117.md
+          - text: ). He scored the series-clinching goal with 2:37 remaining in regulation time of Game 7 (Star-Phoenix, April 30 1987, image
+          - link "512312872" [ref=e879] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-30-star-phoenix-p45-i512312872.md
+          - text: ; Times Colonist, April 30 1987, image
+          - link "508878542" [ref=e880] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-30-times-colonist-p16-i508878542.md
+          - text: ).
+        - paragraph [ref=e475]:
+          - text: Then came the Centennial Cup at the Humboldt Uniplex — the second round against the same Broncos, now as hosts. In the round-robin, Tomlinson scored twice in the third period to break a 2-1 game open against Pembroke (Star-Phoenix, May 5 1987, images
+          - link "512094454" [ref=e881] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-05-star-phoenix-p15-i512094454.md
+          - text: and
+          - link "512094503" [ref=e882] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-05-star-phoenix-p17-i512094503.md
+          - text: ). He scored twice more in the 6-1 round-robin loss to Humboldt (Alberni Valley Times, May 5 1987, image
+          - link "560108603" [ref=e883] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-05-alberni-valley-times-p9-i560108603.md
+          - text: ). He scored in the 9-3 semifinal demolition of Pembroke. And on the night of May 9, 1987 — the Centennial Cup final, the ninth and decisive meeting between Richmond and Humboldt — he scored the insurance marker that made it 5-2, the eventual final, at 16:53 of the third period, on a feed from Rutherford and Claringbull (Star-Phoenix, May 11 1987, image
+          - link "512098543" [ref=e884] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-11-star-phoenix-p14-i512098543.md
+          - text: ; Alberni Valley Times, May 11 1987, image
+          - link "560108760" [ref=e885] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-11-alberni-valley-times-p9-i560108760.md
+          - text: ).
+        - paragraph [ref=e478]: "\"I scored the first goal of the game, which was nice, but I remember it was a very charged atmosphere,\" he told the Richmond News in 2012 about the final — an event etched in contemporaneous box-score ink. \"It was in their rink, and the previous series had gone to seven games. We were the enemy in there, but we never really let up. It was one of those games where we just kept pounding away.\""
+        - paragraph [ref=e491]:
+          - text: "A Star-Phoenix note buried in the May 6, 1987 edition had flagged the next move: Tomlinson, it reported, was bound for Boston University on scholarship (image"
+          - link "512095951" [ref=e886] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-06-star-phoenix-p19-i512095951.md
+          - text: ).
+        - heading "4. Boston University — 1987-91" [level=2] [ref=e887]
+        - paragraph [ref=e507]:
+          - text: Jack Parker's Terriers had a deep roster when Tomlinson arrived at Walter Brown Arena in the fall of 1987. He slotted onto a line with Mike Kelfer, Joe Sacco, and Tom Dion. The Hockey East opener came on Halloween night at the Tully Forum in Billerica — a 5-0 BU shutout of Lowell in which Peter Fish recorded his first career shutout. Tomlinson's third-period goal, assisted by Rob Regan, made it 4-0 (The Boston Globe, November 1 1987, image
+          - link "437934229" [ref=e888] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-11-01-the-boston-globe-p79-i437934229.md
+          - text: ).
+        - paragraph [ref=e889]:
+          - text: He finished the freshman year with 16 goals, 20 assists, and 36 points in 34 games. On January 16, 1988, he scored twice in a 4-2 BU win over North Dakota at Walter Brown Arena — the second a power-play redirect of Matt Pesklewis's shot with 10 seconds left in the second period — and added an assist on Ian Wood's opener (The Boston Globe, January 17 1988, image
+          - link "438845236" [ref=e890] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1988-01-17-the-boston-globe-p64-i438845236.md
+          - text: ). A month later he assisted on goals by Kelfer, Dion, and Sacco in a 6-3 win over Boston College (The Boston Globe, February 28 1988, image
+          - link "437977772" [ref=e891] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1988-02-28-the-boston-globe-p70-i437977772.md
+          - text: ). In March, he set up Sacco in a 6-4 loss to Providence at Walter Brown (The Boston Globe, March 6 1988, image
+          - link "438843894" [ref=e892] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1988-03-06-the-boston-globe-p64-i438843894.md
+          - text: ).
+        - paragraph [ref=e893]: "The sophomore year (1988-89) was more of the same: 16-30-46 in 34 games. The junior year dipped slightly — 15-22-37 in 43 games, a broader Terriers rotation — but the senior season, 1990-91, was Tomlinson at his collegiate peak. Wearing the alternate captain's A, he posted 30 goals and 30 assists for 60 points in 41 games, closing a four-year line of 179 points. It was a numbers-legible, professionally-projectable college career, and the NHL had already taken notice two summers earlier."
+        - heading "5. The Supplemental Draft — 1989" [level=2] [ref=e894]
+        - paragraph [ref=e895]: "The 1989 NHL Supplemental Draft — the league's short-lived mechanism for adding US college players who had been missed by the regular entry draft — convened that summer. The Toronto Maple Leafs, in the first round, third overall, selected Dave Tomlinson. He had two more BU seasons ahead, but the path beyond them was now drawn: St. John's, Newfoundland, home of Toronto's AHL affiliate, was waiting."
+        - heading "6. The apprenticeship — St. John's, 1991-94" [level=2] [ref=e896]
+        - paragraph [ref=e897]:
+          - text: Tomlinson turned pro in the fall of 1991, reporting to Marc Crawford's St. John's Maple Leafs. The AHL in the early 1990s was a dense, physical, talent-rich league — and Tomlinson, as Moncton Hawks coach Rob Laird would later concede, was one of its complete forwards. "Dave Tomlinson killed us last year and I've always wanted that guy on my team," Laird told the Times-Transcript in November 1993 (image
+          - link "1107716258" [ref=e898] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-11-10-the-times-transcript-p27-i1107716258.md
+          - text: "). Tomlinson credited the development to his college coach: \"My coach at BU (Jack Parker), really opened my eyes and made me a more complete player.\""
+        - paragraph [ref=e899]:
+          - text: In his first AHL season he scored 23 goals and 57 points in 75 games and got a three-game cup of coffee in Toronto. The second season was the breakthrough. He centred a productive St. John's line with Patrik Augusta and Todd Hawkins — the three combined for five goals and 12 points in a 6-2 AHL win over Adirondack on October 20, 1992 (The Toronto Star, October 22 1992, image
+          - link "949148192" [ref=e900] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1992-10-22-the-toronto-star-p23-i949148192.md
+          - text: ). On November 1, 1992, he scored twice in a franchise-record 10-2 St. John's rout of Hershey (The Toronto Star, November 2 1992, image
+          - link "949130354" [ref=e901] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1992-11-02-the-toronto-star-p14-i949130354.md
+          - text: ).
+        - paragraph [ref=e902]:
+          - text: By January he was leading the Baby Leafs in scoring at 21-30-51 through 37 games and Fletcher had no more reason to wait. The January 7, 1993 recall gave him his NHL debut against San Jose. He returned to St. John's later that month (The Toronto Star, January 18 1993, image
+          - link "949130250" [ref=e903] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-01-18-the-toronto-star-p13-i949130250.md
+          - text: ), finished the AHL season with 84 points in 70 games, and led the entire American Hockey League with six shorthanded goals (Times-Transcript, April 14 1993, image
+          - link "1107681099" [ref=e904] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-04-14-the-times-transcript-p12-i1107681099.md
+          - text: ). By playoff time he was centring a hot St. John's line with Kent Manderville and Patrik Augusta (Times-Transcript, April 13 1993, image
+          - link "1107674585" [ref=e905] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-04-13-the-times-transcript-p8-i1107674585.md
+          - text: ).
+        - heading "7. The trade — August 1993" [level=2] [ref=e906]
+        - paragraph [ref=e907]:
+          - text: On August 3, 1993, the expansion Florida Panthers — eleven weeks away from their inaugural puck drop — paid Toronto a future draft pick for Tomlinson. Within hours, Florida flipped him to Winnipeg for disgruntled centre Jason Cirone (Times-Transcript, August 4 1993, image
+          - link "1107790757" [ref=e908] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-08-04-the-times-transcript-p11-i1107790757.md
+          - text: "). The destination for his bags, again, was an AHL town: the Moncton Hawks, the Jets' farm club."
+        - paragraph [ref=e909]:
+          - text: He did what he had always done. He scored 11 goals in his first 12 Moncton games. By November 10, Laird was calling him "Mr. Everything" in a Times-Transcript feature (image
+          - link "1107716258" [ref=e910] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-11-10-the-times-transcript-p27-i1107716258.md
+          - text: ). On December 8, 1993, he was recalled by the Jets and spent 23 games in Winnipeg before being returned to Moncton in late February (Times-Transcript, December 11 1993, image
+          - link "1107681995" [ref=e911] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-12-11-the-times-transcript-p13-i1107681995.md
+          - text: ; Times-Transcript, February 28 1994, image
+          - link "1107761162" [ref=e912] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1994-02-28-the-times-transcript-p17-i1107761162.md
+          - text: ). In the AHL regular season he finished 23-23-46 in 39 games.
+        - paragraph [ref=e913]:
+          - text: The Moncton playoff run that spring was among the more improbable Tomlinson was part of. The Hawks, a sub-.500 club, upset the regular-season-champion St. John's Maple Leafs in the Atlantic Division final. Tomlinson — who had spent the opening round quietly, telling the Times-Transcript, "I've been quite happy with my two-way play, but I'm also expected to contribute more and score some goals. All I can say is that I'm due" (April 25 1994, image
+          - link "1107950086" [ref=e914] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1994-04-25-the-times-transcript-p15-i1107950086.md
+          - text: ) — scored in Game 5 of a 5-0 shutout over his old farm team at the Moncton Coliseum on May 8, 1994 (Telegraph-Journal, May 9 1994, image
+          - link "1111149754" [ref=e915] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1994-05-09-telegraph-journal-p11-i1111149754.md
+          - text: ). He finished the AHL playoffs 6-6-12 in 20 games.
+        - heading "8. Cincinnati, Florida, and the IHL prime — 1994-96" [level=2] [ref=e916]
+        - paragraph [ref=e917]:
+          - text: "The 1994-95 NHL lockout sent most fringe NHLers to the minors for the fall. Tomlinson went to the Cincinnati Cyclones, Florida's IHL affiliate, and proceeded to lead the IHL's Eastern Division in scoring: 79 points (28 G, 51 A) in 37 games, plus-19, through February. The Panthers recalled him on February 20, 1995, to fill the gap created by Stu Barnes's eye injury (South Florida Sun-Sentinel, February 21 1995, image"
+          - link "239018639" [ref=e918] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1995-02-21-south-florida-sun-sentinel-p31-i239018639.md
+          - text: ). He bounced between healthy scratches and limited NHL shifts for three weeks — "limited action" was the charitable framing — and by early March was back in Ohio (South Florida Sun-Sentinel, March 5 1995, image
+          - link "238818945" [ref=e919] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1995-03-05-south-florida-sun-sentinel-p42-i238818945.md
+          - text: ; Miami Herald, March 5 1995, image
+          - link "639202890" [ref=e920] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1995-03-05-the-miami-herald-p38-i639202890.md
+          - text: "). His five NHL games with Florida that season closed out a 42-game NHL career spread across four seasons: 1 goal, 3 assists, 4 points."
+        - paragraph [ref=e921]: The Cincinnati line was where the points actually lived. He finished 1994-95 with 110 points (38-72) in 78 IHL games and added 10 more in the playoffs. The 1995-96 encore was 96 points in 81 games with 127 PIM — he was playing heavier minutes and a harder game — plus 16 more points in 17 playoff games. He was, at 27, one of the IHL's most productive forwards.
+        - paragraph [ref=e922]:
+          - text: In June 1996, after two seasons among the Cyclones' top three scorers, he made the move that would define the second half of his career. Adler Mannheim of the German DEL called with a one-year offer that, he told the Cincinnati Enquirer, "more than doubled" his Cincinnati salary of just under $100,000 (June 15 1996, image
+          - link "102209856" [ref=e923] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1996-06-15-the-cincinnati-enquirer-p36-i102209856.md
+          - text: ). "I wanted to be paid somewhere around $140,000. But Ron (Smith, Cyclones director of hockey operations) wanted to wait until after the season, which gets a little too late. Mannheim called, and we took their deal."
+        - heading "9. A decade in Germany — Mannheim, Nuremberg, Hamburg, Krefeld" [level=2] [ref=e924]
+        - paragraph [ref=e925]: Tomlinson arrived in Mannheim in the fall of 1996 and did not leave for six full seasons. The Adler — the Eagles — were building a dynasty, and he was one of the North American imports around whom it was built. He scored 51 points his first DEL season (1996-97), then 50 (1997-98), 40, 50, and 45. Across six Mannheim seasons he dressed for 290 regular-season DEL games, scored 101 goals, added 160 assists, and was part of four DEL championships — 1997, 1998, 1999, and 2001 — a run of titles that remains one of the most dominant stretches in German professional hockey history.
+        - paragraph [ref=e926]: Coverage of this period in English-language papers is sparse; Mannheim's rise is mostly a German-language story, told in Mannheimer Morgen and the Eishockey News, and remains the least-reported phase of Tomlinson's career in the materials accessible from North America.
+        - paragraph [ref=e927]: "In 2002, at 33, he moved on — first to the Nuremberg Ice Tigers for part of a season (18 games, 11 points), then to the expansion Hamburg Freezers for 2003-04 and 2004-05, where he was a reliable two-way centre (46-8-17-25 then 43-14-9-23, with 109 PIM in the first of those two years — he was still playing physical). He closed out the playing career in 2005-06 with a brief nine-game cameo split between Krefeld Penguins regular-season and playoff rosters. Fifteen pro seasons: 1991-92 to 2005-06."
+        - heading "10. The broadcast booth — 2010-present" [level=2] [ref=e928]
+        - paragraph [ref=e929]: The transition to broadcasting started in Vancouver. By 2010, Tomlinson was working as the colour analyst on Vancouver Canucks radio on Team 1040 — later TSN 1040 — a job he held for nine seasons, through 2019. When TSN 1040 closed, he briefly stepped back, but the voice and the résumé were too useful to stay idle.
+        - paragraph [ref=e930]: In October 2021, the Seattle Kraken — NHL expansion team No. 32 — named him their inaugural radio colour analyst. He called the franchise's first puck drops from the booth at Climate Pledge Arena, riding a second expansion-era wave three decades after his first.
+        - paragraph [ref=e931]: In September 2023, he came home. Sportsnet named Tomlinson the primary colour commentator for Vancouver Canucks regional broadcasts — the job he had occupied on radio, now on television, for the team he had grown up watching. At 54, he was calling the games of a franchise whose first coach, Orland Kurtenbach, had recruited him to Richmond thirty-seven years earlier.
+        - heading "11. Legacy" [level=2] [ref=e932]
+        - paragraph [ref=e933]: Dave Tomlinson is, by almost any honest accounting, the most distinguished on-ice product of the 1987 Richmond Sockeyes championship run. His pre-pro totals — 88 points with Summerland, 108 with Richmond, 179 across four years at Boston University — project cleanly to the career that followed. The 42 NHL games are the thinnest slice of it. The 15 years of pro work, the four DEL titles, the IHL scoring crown, the Centennial Cup, and the two decades in the broadcast booth are the body.
+        - paragraph [ref=e934]: In 2025, the BC Hockey Hall of Fame inducted the 1987 Sockeyes as a team. Tomlinson was on the ice at Richmond Arena in October 2025 when the championship banner was raised to the rafters; Sentinel reporters buttonholed him after the first period of the PJHL opener below. "Canucks broadcaster Dave Tomlinson, who played in 51 regular season games with 43 goals and 65 assists as the leading scorer," the paper wrote, getting the stat line exactly right (Richmond Sentinel, October 22 2025).
+        - paragraph [ref=e935]: He is one of the four or five BC-born players of his generation to have built a full pro career out of the BCJHL without the WHL development path — a BU scholarship, a supplemental-draft notice, an NHL cup of coffee, an AHL scoring title in all but name, an IHL Eastern-Division scoring crown, four German championships, and a broadcast booth in Vancouver. When he tells 1987 stories in retirement — the eggs and coffee in Red Deer, the 5-2 final in Humboldt, the first-period goal he scored to open the Centennial Cup final — he is telling the story of the career that started that night.
+        - separator [ref=e936]
+        - heading "Sources & gaps" [level=2] [ref=e937]
+        - paragraph [ref=e938]:
+          - strong [ref=e939]: "Primary newspaper sources (newspapers.com imageIds):"
+          - link "558334501" [ref=e940] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-08-red-deer-advocate-p21-i558334501.md
+          - text: ","
+          - link "558334839" [ref=e941] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-09-red-deer-advocate-p11-i558334839.md
+          - text: ","
+          - link "558335628" [ref=e942] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-13-red-deer-advocate-p7-i558335628.md
+          - text: (Red Deer Advocate, Doyle Cup);
+          - link "483730219" [ref=e943] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-18-calgary-herald-p73-i483730219.md
+          - text: ","
+          - link "512309668" [ref=e944] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-18-star-phoenix-p44-i512309668.md
+          - text: ","
+          - link "496462357" [ref=e945] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-18-the-leader-post-p28-i496462357.md
+          - text: ","
+          - link "512094454" [ref=e946] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-05-star-phoenix-p15-i512094454.md
+          - text: ","
+          - link "512094503" [ref=e947] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-05-star-phoenix-p17-i512094503.md
+          - text: ","
+          - link "512098543" [ref=e948] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-11-star-phoenix-p14-i512098543.md
+          - text: ","
+          - link "512095951" [ref=e949] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-06-star-phoenix-p19-i512095951.md
+          - text: (Star-Phoenix, Calgary Herald, Leader-Post — Doyle and Centennial Cup coverage);
+          - link "731241442" [ref=e950] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-13-the-daily-herald-tribune-p7-i731241442.md
+          - text: (Daily Herald-Tribune);
+          - link "495157862" [ref=e951] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-03-25-the-vancouver-sun-p25-i495157862.md
+          - text: ","
+          - link "495254117" [ref=e952] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-27-the-vancouver-sun-p18-i495254117.md
+          - text: (Vancouver Sun — captaincy and Abbott Cup);
+          - link "508878542" [ref=e953] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-04-30-times-colonist-p16-i508878542.md
+          - text: ","
+          - link "560108603" [ref=e954] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-05-alberni-valley-times-p9-i560108603.md
+          - text: ","
+          - link "560108760" [ref=e955] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-05-11-alberni-valley-times-p9-i560108760.md
+          - text: (Times Colonist, Alberni Valley Times — Centennial Cup);
+          - link "437934229" [ref=e956] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1987-11-01-the-boston-globe-p79-i437934229.md
+          - text: ","
+          - link "437977772" [ref=e957] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1988-02-28-the-boston-globe-p70-i437977772.md
+          - text: ","
+          - link "438843894" [ref=e958] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1988-03-06-the-boston-globe-p64-i438843894.md
+          - text: ","
+          - link "438845236" [ref=e959] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1988-01-17-the-boston-globe-p64-i438845236.md
+          - text: (Boston Globe — BU freshman year);
+          - link "949123397" [ref=e960] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-01-08-the-toronto-star-p10-i949123397.md
+          - text: ","
+          - link "949130354" [ref=e961] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1992-11-02-the-toronto-star-p14-i949130354.md
+          - text: ","
+          - link "949130250" [ref=e962] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-01-18-the-toronto-star-p13-i949130250.md
+          - text: ","
+          - link "949148192" [ref=e963] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1992-10-22-the-toronto-star-p23-i949148192.md
+          - text: ","
+          - link "949132188" [ref=e964] [cursor=pointer]:
+            - /url: https://www.newspapers.com/image/949132188/
+          - text: (Toronto Star — AHL St. John's, NHL debut);
+          - link "424270274" [ref=e965] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-01-09-the-gazette-p35-i424270274.md
+          - text: (Montreal Gazette — NHL debut);
+          - link "1107716258" [ref=e966] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-11-10-the-times-transcript-p27-i1107716258.md
+          - text: ","
+          - link "1107681099" [ref=e967] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-04-14-the-times-transcript-p12-i1107681099.md
+          - text: ","
+          - link "1107674585" [ref=e968] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-04-13-the-times-transcript-p8-i1107674585.md
+          - text: ","
+          - link "1107790757" [ref=e969] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-08-04-the-times-transcript-p11-i1107790757.md
+          - text: ","
+          - link "1107681995" [ref=e970] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1993-12-11-the-times-transcript-p13-i1107681995.md
+          - text: ","
+          - link "1107761162" [ref=e971] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1994-02-28-the-times-transcript-p17-i1107761162.md
+          - text: ","
+          - link "1107950086" [ref=e972] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1994-04-25-the-times-transcript-p15-i1107950086.md
+          - text: ","
+          - link "1111149754" [ref=e973] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1994-05-09-telegraph-journal-p11-i1111149754.md
+          - text: (Times-Transcript, Telegraph-Journal — Moncton years, trade coverage, 1994 AHL playoffs);
+          - link "239018639" [ref=e974] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1995-02-21-south-florida-sun-sentinel-p31-i239018639.md
+          - text: ","
+          - link "238818945" [ref=e975] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1995-03-05-south-florida-sun-sentinel-p42-i238818945.md
+          - text: ","
+          - link "639202890" [ref=e976] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1995-03-05-the-miami-herald-p38-i639202890.md
+          - text: (South Florida Sun-Sentinel, Miami Herald — 1995 Panthers recall);
+          - link "102209856" [ref=e977] [cursor=pointer]:
+            - /url: https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/1996-06-15-the-cincinnati-enquirer-p36-i102209856.md
+          - text: (Cincinnati Enquirer — 1996 Mannheim signing).
+        - paragraph [ref=e978]:
+          - strong [ref=e979]: "Retrospective sources:"
+          - text: Richmond News 2012 "Under police protection" feature; Richmond News 2012 "Throwback Thursday — Humboldt rivalry" feature; BCHL 60th Anniversary Spotlight (1980s); Richmond Sentinel October 22 2025 banner-raising feature.
+        - paragraph [ref=e980]:
+          - strong [ref=e981]: "Statistical sources:"
+          - text: hockeydb.com (player id 5425); hockey-reference.com (tomlida01); eliteprospects.com (id 39331); Wikipedia; NHL.com profile (
+          - link "8458234" [ref=e982] [cursor=pointer]:
+            - /url: https://www.newspapers.com/image/8458234/
+          - text: ); Boston University alumni records via hockeydb.
+        - paragraph [ref=e983]:
+          - strong [ref=e984]: "Gaps:"
+        - list [ref=e372]:
+          - listitem [ref=e373]:
+            - strong [ref=e374]: Pre-Summerland minor hockey is undocumented
+            - text: in the accessible newspaper corpus. The North Shore minor leagues of 1982-85 would fill in the development path but did not surface in any of the ~2,350 OCR extractions.
+          - listitem [ref=e375]:
+            - strong [ref=e376]: The 1991 NCAA senior year
+            - text: detail — alternate captaincy, specific BU records — is thin beyond summary stat lines; deeper BU Athletics archives would add texture.
+          - listitem [ref=e377]:
+            - strong [ref=e378]: The Mannheim decade (1996-2002)
+            - text: is the single largest content gap in English-language coverage. German-language sources (Mannheimer Morgen, Eishockey News) would surface specific title-clinching moments, linemates, and narrative detail that this bio must summarize at arm's length.
+          - listitem [ref=e379]:
+            - strong [ref=e380]: Specific broadcast-era dates and contracts
+            - text: — the exact 2010 Team 1040 start, the 2019 departure, the Kraken hire announcement language — are drawn from industry reporting summaries rather than cited primary documents in the project corpus.
+          - listitem [ref=e985]:
+            - text: The
+            - strong [ref=e986]: 1989 NHL Supplemental Draft
+            - text: is confirmed as Toronto 1st round, 3rd overall, but a primary-source contemporaneous newspaper clip confirming the selection announcement was not located in the corpus.
+      - heading "External References" [level=2] [ref=e510]
+      - list [ref=e511]:
+        - listitem [ref=e512]:
+          - link "HockeyDB profile" [ref=e513] [cursor=pointer]:
+            - /url: https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=5425
+        - listitem [ref=e514]:
+          - link "Elite Prospects profile" [ref=e515] [cursor=pointer]:
+            - /url: https://www.eliteprospects.com/player/39331/dave-tomlinson
+        - listitem [ref=e987]:
+          - link "Wikipedia" [ref=e988] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/wiki/Dave_Tomlinson
+        - listitem [ref=e989]:
+          - link "NHL.com profile" [ref=e990] [cursor=pointer]:
+            - /url: https://www.nhl.com/player/david-tomlinson-8458234
+        - listitem [ref=e991]:
+          - link "Hockey-Reference" [ref=e992] [cursor=pointer]:
+            - /url: https://www.hockey-reference.com/players/t/tomlida01.html
+        - listitem [ref=e993]:
+          - link "Boston University alumni (hockeydb)" [ref=e994] [cursor=pointer]:
+            - /url: https://www.hockeydb.com/ihdb/stats/display_players.php?tmi=4931
+        - listitem [ref=e995]:
+          - link "BU Today - Hockey Runs in the Family" [ref=e996] [cursor=pointer]:
+            - /url: https://www.bu.edu/articles/2018/hockey-runs-in-the-family/
+      - heading "Games mentioned" [level=2] [ref=e516]
+      - list [ref=e517]:
+        - listitem [ref=e518]:
+          - link "Mowat Cup" [ref=e519] [cursor=pointer]:
+            - /url: "#/timeline/Mowat"
+          - text: — vs Kelowna Packers (1987-03-17), W 7–0
+        - listitem [ref=e997]:
+          - link "Mowat Cup" [ref=e998] [cursor=pointer]:
+            - /url: "#/timeline/Mowat"
+          - text: — vs Kelowna Packers (1987-03-18), W 5–4
+        - listitem [ref=e999]:
+          - link "Mowat Cup" [ref=e1000] [cursor=pointer]:
+            - /url: "#/timeline/Mowat"
+          - text: — vs Kelowna Packers (1987-03-20), W 7–5
+        - listitem [ref=e1001]:
+          - link "Mowat Cup" [ref=e1002] [cursor=pointer]:
+            - /url: "#/timeline/Mowat"
+          - text: — vs Kelowna Packers (1987-03-21), W 5–1
+        - listitem [ref=e1003]:
+          - link "Doyle Cup" [ref=e1004] [cursor=pointer]:
+            - /url: "#/timeline/Doyle"
+          - text: — vs Red Deer Rustlers (1987-04-07), W 11–4
+        - listitem [ref=e522]:
+          - link "Doyle Cup" [ref=e523] [cursor=pointer]:
+            - /url: "#/timeline/Doyle"
+          - text: — vs Red Deer Rustlers (1987-04-08), W 6–4
+        - listitem [ref=e1005]:
+          - link "Doyle Cup" [ref=e1006] [cursor=pointer]:
+            - /url: "#/timeline/Doyle"
+          - text: — vs Red Deer Rustlers (1987-04-11), L 3–6
+        - listitem [ref=e1007]:
+          - link "Doyle Cup" [ref=e1008] [cursor=pointer]:
+            - /url: "#/timeline/Doyle"
+          - text: — vs Red Deer Rustlers (1987-04-12), L 1–7
+        - listitem [ref=e1009]:
+          - link "Doyle Cup" [ref=e1010] [cursor=pointer]:
+            - /url: "#/timeline/Doyle"
+          - text: — vs Red Deer Rustlers (1987-04-15), W 7–3
+        - listitem [ref=e1011]:
+          - link "Doyle Cup" [ref=e1012] [cursor=pointer]:
+            - /url: "#/timeline/Doyle"
+          - text: — vs Red Deer Rustlers (1987-04-16), W 9–1
+        - listitem [ref=e1013]:
+          - link "Abbott Cup" [ref=e1014] [cursor=pointer]:
+            - /url: "#/timeline/Abbott"
+          - text: — vs Humboldt Broncos (1987-04-22), W 4–3
+        - listitem [ref=e1015]:
+          - link "Abbott Cup" [ref=e1016] [cursor=pointer]:
+            - /url: "#/timeline/Abbott"
+          - text: — vs Humboldt Broncos (1987-04-26), W 5–3
+        - listitem [ref=e524]:
+          - link "Abbott Cup" [ref=e525] [cursor=pointer]:
+            - /url: "#/timeline/Abbott"
+          - text: — vs Humboldt Broncos (1987-04-28), L 3–4
+        - listitem [ref=e1017]:
+          - link "Abbott Cup" [ref=e1018] [cursor=pointer]:
+            - /url: "#/timeline/Abbott"
+          - text: — vs Humboldt Broncos (1987-04-29), W 5–4
+        - listitem [ref=e526]:
+          - link "Centennial Cup" [ref=e527] [cursor=pointer]:
+            - /url: "#/timeline/Centennial"
+          - text: — vs Dartmouth Fuel Kids (1987-05-03), W 7–3
+        - listitem [ref=e1019]:
+          - link "Centennial Cup" [ref=e1020] [cursor=pointer]:
+            - /url: "#/timeline/Centennial"
+          - text: — vs Pembroke Lumber Kings (1987-05-04), W 4–1
+        - listitem [ref=e1021]:
+          - link "Centennial Cup" [ref=e1022] [cursor=pointer]:
+            - /url: "#/timeline/Centennial"
+          - text: — vs Humboldt Broncos (1987-05-09), W 5–2
+      - heading "Clippings featuring Tomlinson" [level=2] [ref=e1023]
+      - list [ref=e533]:
+        - listitem [ref=e1024]:
+          - button "Richmond Sockeyes defeat Nanaimo Clippers 8-4 in BCJHL game with 59 shots on goal." [ref=e1025] [cursor=pointer]
+        - listitem [ref=e1026]:
+          - button "Richmond Sockeyes lineup preview with player stats and coach Orland Kurtenbach's playoff strategy comments ahead of series against Nanaimo Clippers." [ref=e1027] [cursor=pointer]
+        - listitem [ref=e1028]:
+          - button "Richmond Sockeyes defeat Nanaimo Clippers 7-3 in Game 3 of B.C. Junior Hockey League semi-final playoff series." [ref=e1029] [cursor=pointer]
+        - listitem [ref=e1030]:
+          - button "Richmond Sockeyes lead B.C. Junior Hockey League championship playoff series 4-0 against Kelowna Packers after 5-1 win Saturday." [ref=e1031] [cursor=pointer]
+        - listitem [ref=e1032]:
+          - button "Richmond Sockeyes lead B.C. Junior Hockey League playoff series 4-0 against Kelowna Packers after 5-1 victory Saturday." [ref=e1033] [cursor=pointer]
+        - listitem [ref=e1034]:
+          - button "Richmond Sockeyes defeat Red Deer Rustlers 11-4 in Centennial Cup semifinal opening game." [ref=e1035] [cursor=pointer]
+        - listitem [ref=e1036]:
+          - button "Richmond Sockeyes defeat Red Deer Rustlers 11-4 in Centennial Cup playoff semi-final game." [ref=e1037] [cursor=pointer]
+        - listitem [ref=e1038]:
+          - button "Richmond Sockeyes defeat Red Deer Rustlers 11-4 in opening game of Centennial Cup Western semifinal playoff series." [ref=e1039] [cursor=pointer]
+        - listitem [ref=e1040]:
+          - button "Centennial Cup West semifinal box score and game summary for Richmond vs. Red Deer playoff series." [ref=e1041] [cursor=pointer]
+        - listitem [ref=e1042]:
+          - button "B.C. Junior Hockey League playoff statistics and final standings for 1987, featuring Richmond Sockeyes tournament results." [ref=e1043] [cursor=pointer]
+        - listitem [ref=e1044]:
+          - button "Red Deer Rustlers defeat Richmond Sockeyes 7-1 in Centennial Cup playoff game, evening best-of-seven series at 2-2." [ref=e1045] [cursor=pointer]
+        - listitem [ref=e1046]:
+          - button "Richmond Sockeyes defeat Red Deer Rustlers 7-3 in Centennial Cup semifinal game." [ref=e1047] [cursor=pointer]
+        - listitem [ref=e1048]:
+          - button "Box score and game summary of Richmond Sockeyes defeating Red Deer 7–3 in Doyle Cup playoff series (best-of-seven tied 3–3)." [ref=e1049] [cursor=pointer]
+        - listitem [ref=e1050]:
+          - button "Richmond Sockeyes defeat Red Deer Rustlers 7-3 to tie Centennial Cup semifinal series." [ref=e1051] [cursor=pointer]
+        - listitem [ref=e1052]:
+          - button "Richmond Sockeyes defeat Red Deer Rustlers 9-1 to win Centennial Cup Western semifinal 4-3." [ref=e1053] [cursor=pointer]
+        - listitem [ref=e1054]:
+          - button "Richmond Sockeyes defeat Red Deer Rustlers 9-1 to win Centennial Cup Western semi-final 4-3, advancing to face Humboldt Broncos." [ref=e1055] [cursor=pointer]
+        - listitem [ref=e1056]:
+          - button "Richmond Sockeyes beat Red Deer Rustlers 9-1 in Centennial Cup Western semi-final game seven." [ref=e1057] [cursor=pointer]
+        - listitem [ref=e1058]:
+          - button "Richmond Sockeyes advance to Centennial Cup final against Humboldt Broncos after defeating Alberta champion Red Deer 9-1." [ref=e1059] [cursor=pointer]
+        - listitem [ref=e1060]:
+          - button "Tony Bobbitt scored overtime goal as Richmond Sockeyes defeated Humboldt Broncos 4-3 in Centennial Cup playoff game." [ref=e1061] [cursor=pointer]
+        - listitem [ref=e1062]:
+          - button "Richmond Sockeyes defeat Humboldt Broncos 4-3 in overtime in Centennial Cup playoff game." [ref=e1063] [cursor=pointer]
+        - listitem [ref=e1064]:
+          - button "Richmond Sockeyes defeat Humboldt Broncos 4-3 in overtime in Centennial Cup playoff series." [ref=e1065] [cursor=pointer]
+        - listitem [ref=e1066]:
+          - button "Richmond Sockeyes defeated Humboldt Broncos 5-3 in Centennial Cup Western Canada final playoff game." [ref=e1067] [cursor=pointer]
+        - listitem [ref=e1068]:
+          - button "Richmond Sockeyes defeat Humboldt Broncos 5–3 in Abbott Cup western final playoff game Sunday." [ref=e1069] [cursor=pointer]
+        - listitem [ref=e1070]:
+          - button "Matt Hervey scores twice as Richmond Sockeyes defeat Humboldt Broncos 5-3 in Centennial Cup Western final." [ref=e1071] [cursor=pointer]
+        - listitem [ref=e534]:
+          - button "Humboldt Broncos defeat Richmond Sockeyes 4-3 in overtime in Centennial Cup playoff game, forcing seventh game." [ref=e535] [cursor=pointer]
+        - listitem [ref=e536]:
+          - button "Abbott Cup western final game seven between Richmond Sockeyes and Humboldt Broncos, decided in overtime." [ref=e537] [cursor=pointer]
+        - listitem [ref=e1072]:
+          - button "Richmond Sockeyes defeat Humboldt Broncos 5-4 to earn Centennial Cup tournament berth in best-of-seven Western Canada Tier Two junior hockey playoff series." [ref=e1073] [cursor=pointer]
+        - listitem [ref=e1074]:
+          - button "Dave Tomlinson scores late goal to give Richmond Sockeyes 5-4 victory over Humboldt Broncos." [ref=e1075] [cursor=pointer]
+        - listitem [ref=e1076]:
+          - button "Richmond Sockeyes defeat Humboldt Broncos 5-4 in Game 7 of Abbott Cup series to advance to Centennial Cup tournament." [ref=e1077] [cursor=pointer]
+        - listitem [ref=e1078]:
+          - button "Richmond Sockeyes win Western Canada Tier Two title 5-4 over Humboldt Broncos in seven-game series." [ref=e1079] [cursor=pointer]
+        - listitem [ref=e538]:
+          - button "Richmond Sockeyes defeat Dartmouth Fuel Kids 7-3 in Centennial Cup round-robin play in Humboldt, Saskatchewan." [ref=e539] [cursor=pointer]
+        - listitem [ref=e540]:
+          - button "Jason Phillips scores three goals as Richmond Sockeyes win Centennial Cup championship 7-3 over Dartmouth." [ref=e541] [cursor=pointer]
+        - listitem [ref=e542]:
+          - button "Richmond Sockeyes defeat Dartmouth Fuel Kids 7-3 in Centennial Cup championship game." [ref=e543] [cursor=pointer]
+        - listitem [ref=e1080]:
+          - button "Richmond Sockeyes defeat Pembroke 4-1 in Centennial Cup round robin; face Humboldt Broncos Wednesday." [ref=e1081] [cursor=pointer]
+        - listitem [ref=e1082]:
+          - button "Richmond Sockeyes defeat Pembroke 4-0 in Centennial Cup round-robin game on May 4, 1987." [ref=e1083] [cursor=pointer]
+        - listitem [ref=e1084]:
+          - button "Richmond Sockeyes defeat Pembroke Lumber Kings 4-1 to go 2-0 in Centennial Cup round-robin play." [ref=e1085] [cursor=pointer]
+        - listitem [ref=e1086]:
+          - button "Richmond Sockeyes defeated Pembroke Lumber Kings 4-1 in Centennial Cup junior-A tournament play." [ref=e1087] [cursor=pointer]
+        - listitem [ref=e1088]:
+          - button "Article covering tensions between teams at the 1987 Centennial Cup and college scholarship recruitment of participating players." [ref=e1089] [cursor=pointer]
+        - listitem [ref=e1090]:
+          - button "Richmond Sockeyes win the Centennial Cup championship with a 5-2 victory over Humboldt Broncos." [ref=e1091] [cursor=pointer]
+        - listitem [ref=e1092]:
+          - button "Richmond Sockeyes win Centennial Cup with 5-2 victory over Humboldt Broncos in Saskatchewan." [ref=e1093] [cursor=pointer]
+        - listitem [ref=e1094]:
+          - button "Jason Phillips scores three goals as Richmond Sockeyes defeat Humboldt Broncos 5-2 to win the Centennial Cup championship." [ref=e1095] [cursor=pointer]
+        - listitem [ref=e1096]:
+          - button "Box score of Richmond Sockeyes' 5-2 victory over Humboldt in the Centennial Cup championship final." [ref=e1097] [cursor=pointer]
+        - listitem [ref=e1098]:
+          - button "Richmond Sockeyes defeat Humboldt Broncos 5-2 to win Centennial Cup championship on May 9, 1987." [ref=e1099] [cursor=pointer]
+        - listitem [ref=e1100]:
+          - button "Richmond Sockeyes win Centennial Cup championship with 5-2 victory over Humboldt Broncos." [ref=e1101] [cursor=pointer]
+        - listitem [ref=e1102]:
+          - button "Boston University defeats University of Lowell 5-0 in Hockey East opener with Mike Kelfer scoring twice." [ref=e1103] [cursor=pointer]
+        - listitem [ref=e1104]:
+          - button "Box score and recap of BU defeating North Dakota 4-2 in college hockey at Walter Brown Arena." [ref=e1105] [cursor=pointer]
+        - listitem [ref=e1106]:
+          - button "Box score of Boston University versus North Dakota college hockey game with final score and penalty details." [ref=e1107] [cursor=pointer]
+        - listitem [ref=e1108]:
+          - button "Dave Tomlinson recalled from St. John's Leafs AHL team to Toronto Maple Leafs lineup against San Jose." [ref=e1109] [cursor=pointer]
+        - listitem [ref=e1110]:
+          - button "Multiple hockey trades and signings including Dave Tomlinson to Winnipeg Jets and assignments to AHL teams." [ref=e1111] [cursor=pointer]
+        - listitem [ref=e1112]:
+          - button "Profile of Moncton Hawks centre Dave Tomlinson, who played junior hockey in Richmond, B.C. and is now praised as a two-way forward in the AHL." [ref=e1113] [cursor=pointer]
+        - listitem [ref=e1114]:
+          - button "Moncton Hawks defeat PEI Senators 4-1 in AHL game; Dave Tomlinson returns from Winnipeg Jets stint." [ref=e1115] [cursor=pointer]
+        - listitem [ref=e1116]:
+          - button "Dave Tomlinson and Moncton Hawks prepare for Game 6 of AHL playoff series against Saint John Flames." [ref=e1117] [cursor=pointer]
+        - listitem [ref=e1118]:
+          - button "Moncton Hawks defeat St. John's Maple Leafs 5-0 in AHL playoff game, taking series lead 3-2." [ref=e1119] [cursor=pointer]
+        - listitem [ref=e1120]:
+          - button "Florida Panthers roster statistics and game recap from March 1995 NHL action." [ref=e1121] [cursor=pointer]
+        - listitem [ref=e1122]:
+          - button "Dave Tomlinson signs one-year contract with German Elite League's Mannheim after two seasons as Cincinnati Cyclones' leading scorer." [ref=e1123] [cursor=pointer]
+        - listitem [ref=e1124]:
+          - button "Dave Tomlinson delivering the induction acceptance speech, July 2025. — Emanuel Sequeira" [ref=e1125] [cursor=pointer]
+        - listitem [ref=e1126]:
+          - button "Dave Tomlinson acceptance remarks on behalf of the 1987 team." [ref=e1127] [cursor=pointer]
+        - listitem [ref=e1128]:
+          - button "Dave Tomlinson delivers a speech during his 2025 Hall of Fame induction ceremony." [ref=e1129] [cursor=pointer]
+  - contentinfo [ref=e86]:
+    - paragraph [ref=e88]: Richmond Sockeyes — 1987 Centennial Cup Champions. Archive built from newspaper clippings, souvenir programs, and team photographs.
