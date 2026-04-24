@@ -1,0 +1,21 @@
+{
+  "id": "scan-239018639",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "South Florida Sun Sentinel article about an upcoming Florida Panthers vs. New York Rangers NHL game with team rosters and injury updates.",
+  "descriptionLong": "Coverage of a Florida Panthers versus New York Rangers NHL matchup scheduled for 7:30 p.m. at Miami Arena on February 21, 1995. The article includes team rosters for both squads, details on injuries affecting each team (notably Stu Barnes and Keith Brown for Florida), and analysis of the teams' recent performance and current season standings in the Atlantic Division.",
+  "attribution": {
+    "paper": "South Florida Sun Sentinel",
+    "headline": "<UNKNOWN>",
+    "byline": "RAY MURRAY",
+    "page": "p31",
+    "imageId": "239018639"
+  },
+  "tags": [
+    "nhl",
+    "game-preview",
+    "rosters",
+    "injury-report"
+  ]
+}

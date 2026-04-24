@@ -1,0 +1,19 @@
+{
+  "id": "scan-494942491",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Article comparing the 1990 Surrey Royals to the 1987 Richmond Sockeyes, discussing team budgets and Bruce Taylor's ownership.",
+  "descriptionLong": "The Vancouver Sun article compares the 1990 Surrey Royals to the 1987 Centennial Cup champion Richmond Sockeyes. Coach John Olver notes the Royals' operating budget is under $140,000 but may reach $200,000-$300,000, while the Royals employ players through Taylor's roofing and sheet metal company rather than paying them directly. An observer notes the Royals spent half a million dollars but weren't as impressive as expected, despite beating another team four straight.",
+  "attribution": {
+    "paper": "The Vancouver Sun",
+    "headline": "Royals compared to '87 Sockeyes championship team",
+    "page": "p62",
+    "imageId": "494942491"
+  },
+  "tags": [
+    "centennial-cup",
+    "retrospective",
+    "feature"
+  ]
+}

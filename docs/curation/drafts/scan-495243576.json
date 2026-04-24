@@ -1,0 +1,20 @@
+{
+  "id": "scan-495243576",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 5-3 in Centennial Cup Western Canada junior hockey final series.",
+  "descriptionLong": "The Richmond Sockeyes, B.C. Junior League champions, defeated the Humboldt Broncos 5-3 on April 22, 1987, to even their Centennial Cup Western Canada junior hockey final series at one game each. The Sockeyes rebounded with an attitude adjustment to secure the win. Game three was scheduled for that evening in Humboldt before the series shifted venues.",
+  "attribution": {
+    "paper": "The Vancouver Sun",
+    "headline": "Sockeyes Even Series With Broncos",
+    "byline": "Sun News Services",
+    "page": "p60",
+    "imageId": "495243576"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

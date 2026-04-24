@@ -1,0 +1,18 @@
+{
+  "id": "scan-339097039",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Statistics and player performance summary for an IHL hockey team, highlighting offensive-defensemen contributions.",
+  "descriptionLong": "This clipping from The Tampa Tribune presents an IHL hockey team's player statistics including goals, assists, points, and penalty minutes for forwards and goaltenders. It highlights the offensive production of defensemen Matt Hervey and Rick Lanz, noting they may be among the most potent offensive defensemen in the league. The article includes brief game recaps of the Capitals-Penguins and Jets-Sharks matchups.",
+  "attribution": {
+    "paper": "The Tampa Tribune",
+    "headline": "Dynamic duo: Offensive-defensemen strength for IHL team",
+    "page": "p30",
+    "imageId": "339097039"
+  },
+  "tags": [
+    "box-score",
+    "profile"
+  ]
+}

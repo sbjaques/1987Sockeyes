@@ -56,3 +56,17 @@ export function linkifyImageRefs(text: string | undefined): ReactNode {
   if (last < text.length) parts.push(text.slice(last));
   return parts;
 }
+
+// Preprocess for Markdown rendering: turn bare 7+-digit image IDs into
+// markdown link syntax so ReactMarkdown renders them as real links.
+// Also strips backticks around bare IDs (some drafts wrap them in `backticks`
+// for monospace, which would otherwise hide the link inside <code>).
+export function linkifyImageRefsToMarkdown(text: string): string {
+  const stripped = text.replace(/`(\d{7,})`/g, '$1');
+  return stripped.replace(/\d{7,}/g, (id) => {
+    const { href, title } = urlForImageId(id);
+    // Markdown link with title attribute: [text](url "title")
+    const escapedTitle = title.replace(/"/g, '\\"');
+    return `[${id}](${href} "${escapedTitle}")`;
+  });
+}

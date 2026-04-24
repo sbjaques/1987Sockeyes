@@ -1,0 +1,20 @@
+{
+  "id": "scan-495194273",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Red Deer Rustlers defeat Richmond Sockeyes 7-5 in overtime in Centennial Cup playoff game.",
+  "descriptionLong": "Red Deer Rustlers beat Richmond Sockeyes 7-5 in overtime Tuesday in a Centennial Cup playoff tier-two junior western semi-final, with Rustlers taking a 3-2 series lead. Coach Orland Kurtenbach noted the game had no trouble, contrasting with unruly fan behavior from Sunday's match. The article also profiles Doug Mitchell and his Fair Play Award for withdrawing his Red Deer team from a playoff series in Ontario.",
+  "attribution": {
+    "paper": "The Vancouver Sun",
+    "headline": "Fair Play Award",
+    "byline": "Archie McDonald",
+    "page": "p15",
+    "imageId": "495194273"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

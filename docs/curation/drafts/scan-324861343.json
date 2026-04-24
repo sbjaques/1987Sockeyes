@@ -1,0 +1,19 @@
+{
+  "id": "scan-324861343",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Report on BCJHL All-Star Game at Merritt featuring Richmond Sockeyes players and coach Orland Kurtenbach.",
+  "descriptionLong": "Coverage of the B.C. Junior Hockey League All-Star Game at Nicola Valley Memorial Arena in Merritt, with Richmond Sockeyes coach Orland Kurtenbach heading the Coastal Division squad. The article notes that forwards Darren Biggs and Mike Knapton, along with defenceman Grant McDonald, represent the Coastal Division, while Nanaimo Clippers' Sean Stotts was unavailable due to an ankle injury from a 6-2 win over Delta. Rob Clarke of Richmond Sockeyes recorded his fourth three-goal night.",
+  "attribution": {
+    "paper": "Nanaimo Daily News",
+    "headline": "B.C. Junior Hockey League All-Star Game",
+    "page": "p9",
+    "imageId": "324861343"
+  },
+  "tags": [
+    "bcjhl",
+    "all-star",
+    "regular-season"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "scan-495157862",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes sweep Kelowna Packers 3-2 to win B.C. Junior League championship.",
+  "descriptionLong": "Richmond Sockeyes, coached by Orland Kurtenbach, defeated Kelowna Packers 3-2 on March 24, 1987, to claim their first B.C. Junior Hockey League championship in eight years. Captain Trevor Dickie and the Sockeyes swept the BCJHL playoffs without a loss in three series. The team advances to face the Peace-Cariboo League champions in a best-of-nine final series beginning April 1 in Richmond.",
+  "attribution": {
+    "paper": "The Vancouver Sun",
+    "headline": "Sockeyes sweep BCJHL playoffs",
+    "byline": "Elliott Pap",
+    "page": "p25",
+    "imageId": "495157862"
+  },
+  "tags": [
+    "bcjhl",
+    "playoff",
+    "recap"
+  ]
+}

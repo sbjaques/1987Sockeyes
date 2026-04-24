@@ -1,0 +1,17 @@
+{
+  "id": "scan-438845236",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score and recap of BU defeating North Dakota 4-2 in college hockey at Walter Brown Arena.",
+  "descriptionLong": "Boston University defeated North Dakota 4-2 in a college hockey game at Walter Brown Arena. BU's Ian Wood, Mike Ketter, and Dave Tomlinson scored, with Grant Paranica scoring twice for North Dakota. Peter Fish made 34 saves for BU while Scott Brower recorded 26 saves for the Sioux. The game featured multiple power-play goals and back-to-back penalties late in the second period.",
+  "attribution": {
+    "paper": "The Boston Globe",
+    "page": "p64",
+    "imageId": "438845236"
+  },
+  "tags": [
+    "box-score",
+    "recap"
+  ]
+}

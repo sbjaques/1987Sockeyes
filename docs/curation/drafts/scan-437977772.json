@@ -1,0 +1,18 @@
+{
+  "id": "scan-437977772",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score and recap of Boston University defeating BC 6-3 in a Hockey East matchup.",
+  "descriptionLong": "Boston University defeated BC 6-3 in a college hockey game played at Walter Brown Arena on February 28, 1988. The Terriers scored twice in the second period and three times in the third to secure the victory. Key scorers included Joe Sacco with two goals, and Mike Kelfer, Tom Dion, and Phil von Stefenelli each contributed goals. BC's David Littman made 38 saves while BU's Peter Fish stopped 29 shots.",
+  "attribution": {
+    "paper": "The Boston Globe",
+    "headline": "BU Beats BC 6-3 in Hockey East Game",
+    "page": "p70",
+    "imageId": "437977772"
+  },
+  "tags": [
+    "box-score",
+    "recap"
+  ]
+}

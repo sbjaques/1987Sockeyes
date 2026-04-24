@@ -1,0 +1,21 @@
+{
+  "id": "scan-495156113",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Feature on Richmond Sockeyes' Western Junior A championship win, emphasizing their rapid turnaround and owner Bruce Taylor's vision.",
+  "descriptionLong": "The Richmond Sockeyes have won the B.C. Junior Hockey League championship despite a major roster overhaul that left just two returning players—Jim Gunn and goalie Glenn Pencer. Owner Bruce Taylor rebuilt the team after two consecutive seasons of winning the Coastal Division but losing the league final, applying lessons learned to build a contender for the Centennial Cup championship.",
+  "attribution": {
+    "paper": "The Vancouver Sun",
+    "headline": "Sockeyes built for success",
+    "byline": "ELLIOTT PAP",
+    "page": "p25",
+    "imageId": "495156113"
+  },
+  "tags": [
+    "centennial-cup",
+    "bcjhl",
+    "feature",
+    "playoff"
+  ]
+}

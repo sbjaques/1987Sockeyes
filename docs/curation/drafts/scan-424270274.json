@@ -1,0 +1,19 @@
+{
+  "id": "scan-424270274",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Toronto Maple Leafs defeat San Jose Sharks 5-1; prepare for Montreal matchup against Canadiens.",
+  "descriptionLong": "The Toronto Maple Leafs defeated the San Jose Sharks 5-1 to climb back to .500 record. Glenn Anderson recorded five points (two goals, three assists) in the game. The Leafs now prepare to face the Montreal Canadiens at the Forum, with attention focused on returning coach Pat Burns and his relationship with Canadiens coach Jacques Demers.",
+  "attribution": {
+    "paper": "The Gazette",
+    "headline": "Maple Leafs back at .500 for tonight's Forum visit",
+    "page": "p35",
+    "imageId": "424270274"
+  },
+  "tags": [
+    "nhl",
+    "recap",
+    "box-score"
+  ]
+}

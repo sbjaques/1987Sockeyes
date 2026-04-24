@@ -1,0 +1,19 @@
+{
+  "id": "scan-325826432",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Nanaimo Clippers defeat Juan de Fuca 5-2; Richmond Sockeyes lose to Delta Flyers 6-4.",
+  "descriptionLong": "Game recap covering two BCJHL contests from October 14, 1987. Nanaimo Clippers downed Juan de Fuca 5-2 at Civic Arena behind goalie Mike Sutherland's third win since trade from Vernon, with player notes on Matt Woods and Rob Steele. Richmond Sockeyes fell to Delta Flyers 6-4 in Delta, with Brad Dickson scoring two goals for Richmond; Flyers' Holmes, Biagioni, and MacDonald combined for 12 points to maintain first place.",
+  "attribution": {
+    "paper": "Nanaimo Daily News",
+    "page": "p11",
+    "imageId": "325826432"
+  },
+  "tags": [
+    "bcjhl",
+    "regular-season",
+    "recap",
+    "box-score"
+  ]
+}

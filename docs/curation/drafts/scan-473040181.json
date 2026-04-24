@@ -1,0 +1,18 @@
+{
+  "id": "scan-473040181",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes advance to Western final after scoring against the Rustlers, outshootting them 39-34.",
+  "descriptionLong": "The Richmond Sockeyes defeated the Rustlers in what appears to be a playoff game on April 18, 1987. Goals were scored by Jason Phillips, Jim Gunn, Mike McCormick, and Tony Bobbitt. Richmond outshot their opponents 39-34 and advanced to face the Humboldt Broncos in the Western best-of-seven final.",
+  "attribution": {
+    "paper": "Edmonton Journal",
+    "page": "p48",
+    "imageId": "473040181"
+  },
+  "tags": [
+    "playoff",
+    "recap",
+    "box-score"
+  ]
+}

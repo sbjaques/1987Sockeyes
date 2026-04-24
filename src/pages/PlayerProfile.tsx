@@ -1,12 +1,39 @@
 import { useMemo, useState } from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { Section } from '../components/layout/Section';
 import { MediaLightbox } from '../components/vault/MediaLightbox';
 import { Seo } from '../lib/seo';
-import { linkifyImageRefs } from '../lib/linkifyImageRefs';
+import { linkifyImageRefs, linkifyImageRefsToMarkdown } from '../lib/linkifyImageRefs';
 import { loadRoster, loadGames, loadMedia } from '../lib/loadData';
 import { isSkater, isGoalie, type RosterEntry } from '../types/roster';
 import type { MediaItem } from '../types/media';
+
+// Bio renders as markdown when it contains markdown syntax (headers, tables,
+// bold, etc.); plain-text bios keep the original whitespace-pre-line behavior.
+const MARKDOWN_HEURISTIC = /^#{1,3} |\n#{1,3} |\n\|.+\|\n|^\- |\n\- |\*\*[^*]+\*\*/m;
+function renderBio(bio: string) {
+  if (MARKDOWN_HEURISTIC.test(bio)) {
+    return (
+      <div className="prose max-w-none prose-headings:font-display prose-headings:text-navy prose-h2:mt-8 prose-h2:mb-3 prose-h3:mt-6 prose-h3:mb-2 prose-p:text-navy/90 prose-a:text-crimson prose-a:decoration-dotted prose-a:underline-offset-2 prose-table:text-sm prose-blockquote:border-l-crimson">
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          components={{
+            a: ({ href, title, children }) => (
+              <a href={href ?? undefined} title={title ?? undefined} target="_blank" rel="noopener noreferrer">
+                {children}
+              </a>
+            ),
+          }}
+        >
+          {linkifyImageRefsToMarkdown(bio)}
+        </ReactMarkdown>
+      </div>
+    );
+  }
+  return <div className="prose max-w-none whitespace-pre-line">{linkifyImageRefs(bio)}</div>;
+}
 
 function formatRole(e: RosterEntry): string {
   if (isSkater(e)) return e.position === 'F' ? 'Forward' : 'Defence';
@@ -301,7 +328,7 @@ export default function PlayerProfile() {
         {entry.bio && (
           <>
             <h2 className="font-display text-2xl mt-10 mb-3">Biography</h2>
-            <div className="prose max-w-none whitespace-pre-line">{linkifyImageRefs(entry.bio)}</div>
+            {renderBio(entry.bio)}
           </>
         )}
 

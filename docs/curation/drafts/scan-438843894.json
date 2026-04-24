@@ -1,0 +1,18 @@
+{
+  "id": "scan-438843894",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Boston Globe hockey coverage of Providence College defeating Boston University 6-4 on March 6, 1988.",
+  "descriptionLong": "Providence College defeated Boston University 6-4 at Walter Brown Arena on March 6, 1988, in a college hockey game. Providence's Andy Mattice scored twice, while Rick Bennett added a power-play goal with 5:39 remaining to secure the victory. BU's Mike Sullivan, Joe Sacco, and Tom Dion scored for the Terriers, who were outmatched despite mounting a comeback attempt. Providence's Gord Cruikshank achieved 96 career goals, becoming the school's all-time leading scorer.",
+  "attribution": {
+    "paper": "The Boston Globe",
+    "headline": "Providence defeats BU in hockey game",
+    "page": "p64",
+    "imageId": "438843894"
+  },
+  "tags": [
+    "recap",
+    "box-score"
+  ]
+}

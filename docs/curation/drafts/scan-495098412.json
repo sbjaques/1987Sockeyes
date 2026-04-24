@@ -1,0 +1,20 @@
+{
+  "id": "scan-495098412",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Kelowna Packers 7-0 in BCJHL championship series opener.",
+  "descriptionLong": "The Richmond Sockeyes dominated the Kelowna Packers 7-0 in the opening game of the B.C. Junior Hockey League championship series on March 17, 1987, at Richmond Arena. Goaltender Frank Romeo recorded a shutout, stopping 27 shots. Coach Orland Kurtenbach predicted a closer series ahead, while Packers coach Bill Hogaboam criticized his team's lack of intensity and effort.",
+  "attribution": {
+    "paper": "The Vancouver Sun",
+    "headline": "Sockeyes shut out Packers",
+    "byline": "ELLIOTT PAP",
+    "page": "p26",
+    "imageId": "495098412"
+  },
+  "tags": [
+    "bcjhl",
+    "playoff",
+    "recap"
+  ]
+}

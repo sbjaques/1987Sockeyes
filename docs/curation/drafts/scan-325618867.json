@@ -1,0 +1,18 @@
+{
+  "id": "scan-325618867",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Sports briefs including Richmond Sockeyes victories over Nanaimo Clippers and other BCJHL action.",
+  "descriptionLong": "Nanaimo Daily News sports briefs from December 1987 covering multiple local and regional sporting events. Richmond Sockeyes defeated Nanaimo Clippers 11-4 with Rob Clarke scoring a hat-trick, and won 4-3 in a second matchup with Mike McCormick scoring the game-winner. Additional coverage includes BCJHL games, basketball, soccer, boxing, and hockey tournaments.",
+  "attribution": {
+    "paper": "Nanaimo Daily News",
+    "page": "p12",
+    "imageId": "325618867"
+  },
+  "tags": [
+    "bcjhl",
+    "regular-season",
+    "recap"
+  ]
+}

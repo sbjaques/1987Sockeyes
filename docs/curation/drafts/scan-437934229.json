@@ -1,0 +1,18 @@
+{
+  "id": "scan-437934229",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Boston University defeats University of Lowell 5-0 in Hockey East opener with Mike Kelfer scoring twice.",
+  "descriptionLong": "Boston University blanked the University of Lowell 5-0 in a Hockey East opener at Billerica's Tully Forum. Mike Kelfer scored two goals, while Mike Sullivan contributed one goal and one assist. Dave Tomlinson and Sullivan also scored, with goalie Peter Fish recording his first career shutout with 29 saves.",
+  "attribution": {
+    "paper": "The Boston Globe",
+    "headline": "Mike Kelfer Scores Twice as BU Shuts Out Lowell",
+    "page": "p79",
+    "imageId": "437934229"
+  },
+  "tags": [
+    "box-score",
+    "recap"
+  ]
+}
