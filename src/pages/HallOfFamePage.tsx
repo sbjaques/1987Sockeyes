@@ -22,7 +22,7 @@ const CLASS_OF_2025 = [
   { name: 'Mike Penny', note: 'Hockey executive' },
   { name: 'Larry Kwong', note: 'First player of Chinese descent in the NHL (New York Rangers, 1948)' },
   { name: 'Ted Hargreaves', note: 'Hockey builder' },
-  { name: '1977–78 Kimberley Dynamiters', note: 'Junior B team, Centennial Cup champions' },
+  { name: '1977–78 Kimberley Dynamiters', note: 'Senior hockey team (Western International Hockey League), 1978 Allan Cup champions' },
 ] as const;
 
 /** A click-to-open video card used in both video grid sections. */
@@ -139,7 +139,7 @@ export default function HallOfFamePage() {
           British Columbia Hockey Hall of Fame · July 12 2025
         </p>
         <h1 className="font-display text-4xl md:text-6xl leading-tight">
-          2025 BCHHoF Induction
+          2025 BC Hall of Fame Induction
         </h1>
         <p className="mt-4 text-cream/70 text-base md:text-lg font-sans max-w-lg mx-auto leading-relaxed">
           The 1987 Richmond Sockeyes reunite after 38 years —{' '}
@@ -185,7 +185,7 @@ export default function HallOfFamePage() {
             prose-p:text-navy prose-p:leading-relaxed
             prose-strong:text-navy prose-em:text-navy/80">
             <p>
-              Jim Hughson, BCHHoF chair, introduced the team. Festivities ran July 11–12,
+              Jim Hughson, Hall of Fame chair, introduced the team. Festivities ran July 11–12,
               with the formal induction on the Sunday. The Sockeyes went in alongside six
               other inductees: Dan Hamhuis, Shawn Horcoff, Mike Penny, Larry Kwong, Ted
               Hargreaves, and the 1977–78 Kimberley Dynamiters.
@@ -242,12 +242,11 @@ export default function HallOfFamePage() {
           <div className="prose prose-navy prose-base max-w-none mt-6
             prose-p:text-navy prose-p:leading-relaxed">
             <p>
-              Per the BCHHoF and Pacific Junior Hockey League coverage, the Sockeyes were
-              recognised for the 1986–87 season: a 38–14–0 BCJHL regular-season record,
-              a 15–0 BCJHL playoff sweep (Mowat Cup over Kelowna), Doyle Cup over Red Deer,
-              Abbott Cup over Humboldt, and the 5–2 Centennial Cup final win over Humboldt
-              at the Uniplex on May 9 1987. Frank Romeo was named Centennial Cup tournament
-              MVP; Jason Phillips was named to the All-Star team and received the Most
+              The Sockeyes were recognised for the 1986–87 season: a 38–14–0 BC Junior A
+              regular-season record, a 15–0 playoff sweep (Mowat Cup over Kelowna), Doyle Cup
+              over Red Deer, Abbott Cup over Humboldt, and the 5–2 Centennial Cup final win over
+              Humboldt at the Uniplex on May 9 1987. Frank Romeo was named Centennial Cup
+              tournament MVP; Jason Phillips was named to the All-Star team and received the Most
               Gentlemanly Player award, recording a hat trick in the final.
             </p>
           </div>

@@ -209,36 +209,36 @@ export default function PlayerProfile() {
 
         {(skater || goalie) && entry.playoffStats && (
           <>
-            <h2 className="font-display text-2xl mt-10 mb-3">1987 Playoff Totals</h2>
+            <h2 className="font-display text-2xl mt-10 mb-3">1986-87 Sockeyes Season</h2>
             <table className="w-full text-sm">
               {skater ? (
                 <>
                   <thead className="bg-navy text-cream">
                     <tr>
                       <th className="px-3 py-2 text-left">Season</th>
-                      <th className="px-3 py-2 text-right">GP</th>
-                      <th className="px-3 py-2 text-right">G</th>
-                      <th className="px-3 py-2 text-right">A</th>
-                      <th className="px-3 py-2 text-right">Pts</th>
-                      <th className="px-3 py-2 text-right">PIM</th>
+                      <th className="px-3 py-2 text-right" title="Games Played">GP</th>
+                      <th className="px-3 py-2 text-right" title="Goals">G</th>
+                      <th className="px-3 py-2 text-right" title="Assists">A</th>
+                      <th className="px-3 py-2 text-right" title="Points (goals + assists)">Pts</th>
+                      <th className="px-3 py-2 text-right" title="Penalty Minutes">PIM</th>
                     </tr>
                   </thead>
-                  <tbody><SkaterStatRow label="1986-87 Playoffs (Richmond Sockeyes)" stats={entry.playoffStats as { gp:number; g:number; a:number; pts:number; pim:number }} /></tbody>
+                  <tbody><SkaterStatRow label="1986-87 BC Junior A Regular Season" stats={entry.playoffStats as { gp:number; g:number; a:number; pts:number; pim:number }} /></tbody>
                 </>
               ) : (
                 <>
                   <thead className="bg-navy text-cream">
                     <tr>
                       <th className="px-3 py-2 text-left">Season</th>
-                      <th className="px-3 py-2 text-right">GP</th>
-                      <th className="px-3 py-2 text-right">W</th>
-                      <th className="px-3 py-2 text-right">L</th>
-                      <th className="px-3 py-2 text-right">GAA</th>
-                      <th className="px-3 py-2 text-right">Sv%</th>
-                      <th className="px-3 py-2 text-right">SO</th>
+                      <th className="px-3 py-2 text-right" title="Games Played">GP</th>
+                      <th className="px-3 py-2 text-right" title="Wins">W</th>
+                      <th className="px-3 py-2 text-right" title="Losses">L</th>
+                      <th className="px-3 py-2 text-right" title="Goals Against Average">GAA</th>
+                      <th className="px-3 py-2 text-right" title="Save Percentage">Sv%</th>
+                      <th className="px-3 py-2 text-right" title="Shutouts">SO</th>
                     </tr>
                   </thead>
-                  <tbody><GoalieStatRow label="1986-87 Playoffs (Richmond Sockeyes)" stats={entry.playoffStats as { gp:number; w:number; l:number; gaa:number; svpct:number; so:number }} /></tbody>
+                  <tbody><GoalieStatRow label="1986-87 BC Junior A Regular Season" stats={entry.playoffStats as { gp:number; w:number; l:number; gaa:number; svpct:number; so:number }} /></tbody>
                 </>
               )}
             </table>
@@ -254,11 +254,11 @@ export default function PlayerProfile() {
                   <th className="px-3 py-2 text-left">Season</th>
                   <th className="px-3 py-2 text-left">Team (League)</th>
                   <th className="px-3 py-2 text-left">Type</th>
-                  <th className="px-3 py-2 text-right">GP</th>
-                  <th className="px-3 py-2 text-right">G</th>
-                  <th className="px-3 py-2 text-right">A</th>
-                  <th className="px-3 py-2 text-right">Pts</th>
-                  <th className="px-3 py-2 text-right">PIM</th>
+                  <th className="px-3 py-2 text-right" title="Games Played">GP</th>
+                  <th className="px-3 py-2 text-right" title="Goals">G</th>
+                  <th className="px-3 py-2 text-right" title="Assists">A</th>
+                  <th className="px-3 py-2 text-right" title="Points (goals + assists)">Pts</th>
+                  <th className="px-3 py-2 text-right" title="Penalty Minutes">PIM</th>
                 </tr>
               </thead>
               <tbody>
@@ -288,12 +288,12 @@ export default function PlayerProfile() {
                   <th className="px-3 py-2 text-left">Season</th>
                   <th className="px-3 py-2 text-left">Team (League)</th>
                   <th className="px-3 py-2 text-left">Type</th>
-                  <th className="px-3 py-2 text-right">GP</th>
-                  <th className="px-3 py-2 text-right">W</th>
-                  <th className="px-3 py-2 text-right">L</th>
-                  <th className="px-3 py-2 text-right">GAA</th>
-                  <th className="px-3 py-2 text-right">Sv%</th>
-                  <th className="px-3 py-2 text-right">SO</th>
+                  <th className="px-3 py-2 text-right" title="Games Played">GP</th>
+                  <th className="px-3 py-2 text-right" title="Wins">W</th>
+                  <th className="px-3 py-2 text-right" title="Losses">L</th>
+                  <th className="px-3 py-2 text-right" title="Goals Against Average">GAA</th>
+                  <th className="px-3 py-2 text-right" title="Save Percentage">Sv%</th>
+                  <th className="px-3 py-2 text-right" title="Shutouts">SO</th>
                 </tr>
               </thead>
               <tbody>

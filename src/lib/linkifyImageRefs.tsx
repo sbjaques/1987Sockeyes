@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import imageIndex from '../data/imageIndex.json';
 import { BUILD_MODE } from './buildMode';
+import { stripArchivistNotesForPublic } from './stripArchivistNotes';
 
 const IMAGE_ID_RE = /\d{7,}/g;
 // Private tier resolves image-id refs to R2-backed /media/scans/ served by the
@@ -27,13 +28,14 @@ function privateUrlForImageId(id: string): { href: string; title: string } | nul
 
 export function linkifyImageRefs(text: string | undefined): ReactNode {
   if (!text) return text ?? null;
+  const input = stripArchivistNotesForPublic(text);
   const parts: ReactNode[] = [];
   let last = 0;
   let key = 0;
-  for (const m of text.matchAll(IMAGE_ID_RE)) {
+  for (const m of input.matchAll(IMAGE_ID_RE)) {
     const id = m[0];
     const idx = m.index ?? 0;
-    if (idx > last) parts.push(text.slice(last, idx));
+    if (idx > last) parts.push(input.slice(last, idx));
 
     const link = BUILD_MODE === 'private' ? privateUrlForImageId(id) : null;
     if (link) {
@@ -57,7 +59,7 @@ export function linkifyImageRefs(text: string | undefined): ReactNode {
     }
     last = idx + id.length;
   }
-  if (last < text.length) parts.push(text.slice(last));
+  if (last < input.length) parts.push(input.slice(last));
   return parts;
 }
 
@@ -67,7 +69,7 @@ export function linkifyImageRefs(text: string | undefined): ReactNode {
 // so ReactMarkdown renders them as inline citation text rather than URLs.
 export function linkifyImageRefsToMarkdown(text: string): string {
   const stripped = text.replace(/`(\d{7,})`/g, '$1');
-  if (BUILD_MODE !== 'private') return stripped;
+  if (BUILD_MODE !== 'private') return stripArchivistNotesForPublic(stripped);
   return stripped.replace(/\d{7,}/g, (id) => {
     const link = privateUrlForImageId(id);
     if (!link) return id;

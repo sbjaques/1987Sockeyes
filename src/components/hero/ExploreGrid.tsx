@@ -13,7 +13,7 @@ const CARDS: Card[] = [
     eyebrow: 'The Story',
     title: 'The Season',
     blurb:
-      'Seven chapters bookended by the 2025 BCHHoF induction — how Kurtenbach rebuilt the roster, the 15-0 BCJHL playoff run, the 9-1 Game 7 in Red Deer, and the five-goal final in Humboldt.',
+      'Eight chapters bookended by the 2025 BC Hall of Fame induction — how Kurtenbach rebuilt the roster, the 15-0 BC Junior A playoff run, the 9-1 Game 7 in Red Deer, and the five-goal final in Humboldt.',
   },
   {
     to: '/the-season/the-run',

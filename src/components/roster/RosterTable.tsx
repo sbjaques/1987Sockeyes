@@ -17,9 +17,12 @@ function SkaterTable({ rows, onRowClick }: { rows: Skater[]; onRowClick: (entry:
   const flat = rows.map(s => ({ ...s, ...(s.playoffStats ?? { gp: 0, g: 0, a: 0, pts: 0, pim: 0 }) }));
   const { sorted, sortKey, sortDir, toggleSort } = useSortableTable(flat, 'pts', 'desc');
 
-  const col = (key: keyof typeof flat[number], label: string) => (
+  const col = (key: keyof typeof flat[number], label: string, tooltip?: string) => (
     <th scope="col" className="px-3 py-2 text-left">
-      <button onClick={() => toggleSort(key)} aria-sort={sortKey === key ? (sortDir === 'asc' ? 'ascending' : 'descending') : 'none'}>
+      <button
+        onClick={() => toggleSort(key)}
+        aria-sort={sortKey === key ? (sortDir === 'asc' ? 'ascending' : 'descending') : 'none'}
+        title={tooltip}>
         {label}{sortKey === key ? (sortDir === 'asc' ? ' ▲' : ' ▼') : ''}
       </button>
     </th>
@@ -29,8 +32,14 @@ function SkaterTable({ rows, onRowClick }: { rows: Skater[]; onRowClick: (entry:
     <table className="w-full text-sm">
       <thead className="bg-navy text-cream">
         <tr>
-          {col('number', '#')}{col('name', 'Name')}{col('position','Pos')}{col('hometown','Hometown')}
-          {col('gp','GP')}{col('g','G')}{col('a','A')}{col('pts','Pts')}{col('pim','PIM')}
+          {col('number', '#')}{col('name', 'Name')}
+          {col('position','Pos','F = Forward, D = Defence')}
+          {col('hometown','Hometown')}
+          {col('gp','GP','Games Played')}
+          {col('g','G','Goals')}
+          {col('a','A','Assists')}
+          {col('pts','Pts','Points (goals + assists)')}
+          {col('pim','PIM','Penalty Minutes')}
         </tr>
       </thead>
       <tbody>
@@ -57,9 +66,12 @@ function SkaterTable({ rows, onRowClick }: { rows: Skater[]; onRowClick: (entry:
 function GoalieTable({ rows, onRowClick }: { rows: Goalie[]; onRowClick: (entry: RosterEntry) => void }) {
   const flat = rows.map(g => ({ ...g, ...(g.playoffStats ?? { gp: 0, w: 0, l: 0, gaa: 0, svpct: 0, so: 0 }) }));
   const { sorted, sortKey, sortDir, toggleSort } = useSortableTable(flat, 'gaa', 'asc');
-  const col = (key: keyof typeof flat[number], label: string) => (
+  const col = (key: keyof typeof flat[number], label: string, tooltip?: string) => (
     <th scope="col" className="px-3 py-2 text-left">
-      <button onClick={() => toggleSort(key)} aria-sort={sortKey === key ? (sortDir === 'asc' ? 'ascending' : 'descending') : 'none'}>
+      <button
+        onClick={() => toggleSort(key)}
+        aria-sort={sortKey === key ? (sortDir === 'asc' ? 'ascending' : 'descending') : 'none'}
+        title={tooltip}>
         {label}{sortKey === key ? (sortDir === 'asc' ? ' ▲' : ' ▼') : ''}
       </button>
     </th>
@@ -69,7 +81,12 @@ function GoalieTable({ rows, onRowClick }: { rows: Goalie[]; onRowClick: (entry:
       <thead className="bg-navy text-cream">
         <tr>
           {col('number','#')}{col('name','Name')}{col('hometown','Hometown')}
-          {col('gp','GP')}{col('w','W')}{col('l','L')}{col('gaa','GAA')}{col('svpct','Sv%')}{col('so','SO')}
+          {col('gp','GP','Games Played')}
+          {col('w','W','Wins')}
+          {col('l','L','Losses')}
+          {col('gaa','GAA','Goals Against Average')}
+          {col('svpct','Sv%','Save Percentage')}
+          {col('so','SO','Shutouts')}
         </tr>
       </thead>
       <tbody>
@@ -138,10 +155,18 @@ export function RosterTable({
     }
   };
 
+  const showLegend = skaters.length > 0 || goalies.length > 0;
+
   return (
     <div>
       {skaters.length > 0 && <SkaterTable rows={skaters} onRowClick={handleClick} />}
       {goalies.length > 0 && <GoalieTable rows={goalies} onRowClick={handleClick} />}
+      {showLegend && (
+        <p className="mt-3 text-xs text-navy/55">
+          <span className="font-semibold">Key:</span>{' '}
+          GP Games Played · G Goals · A Assists · Pts Points · PIM Penalty Minutes{goalies.length > 0 && ' · W Wins · L Losses · GAA Goals Against Average · Sv% Save Percentage · SO Shutouts'}. Pos: F Forward, D Defence, G Goaltender.
+        </p>
+      )}
       {staff.length > 0 && (
         <div className="mt-12">
           <h3 className="font-display text-2xl mb-2">Coaches &amp; Staff</h3>

@@ -20,8 +20,6 @@ Game 7 was in Red Deer. The Rustlers' coach, Larry Billows, would later say his 
 
 The score was 9-1. It was scoreless after the first period, then Richmond scored five unanswered in the second and added four in the third. Tomlinson scored a hat trick. Clarke, Claringbull, Phillips, Gunn, McCormick, and Bobbitt each scored once — nine goals across seven different scorers. Pete deGraaf spoiled Stewart's shutout bid at 13:14 of the third on a Rustler power play. Richmond outshot Red Deer 39-34. Stewart went the distance again (Red Deer Advocate Apr 18 1987, images 558336223, 558336261; Calgary Herald Apr 18 1987, image 483730219; Edmonton Journal Apr 18 1987, image 473040181).
 
-The individual game details for Game 7 — goal times, assists, and penalties — come from narrative accounts only. No period-by-period box score for that game has been found in the scraped newspaper corpus; the scorers listed above are confirmed but the precise sequences are not fully documented.
-
 Kurtenbach said afterward that his team had been the better club across the final three games.
 
 [See the game-by-game →](/the-season/the-run)

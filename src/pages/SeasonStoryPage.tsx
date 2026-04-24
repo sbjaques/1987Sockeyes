@@ -1,6 +1,7 @@
 import { renderChapter, extractChapterTitle } from '../lib/markdownChapter';
 import { loadMedia } from '../lib/loadData';
 import { Seo } from '../lib/seo';
+import { stripArchivistNotesForPublic } from '../lib/stripArchivistNotes';
 import ch0 from '../content/the-season/00-penticton-2025.md?raw';
 import ch1 from '../content/the-season/01-the-rebuild.md?raw';
 import ch2 from '../content/the-season/02-regular-season.md?raw';
@@ -78,7 +79,7 @@ export default function SeasonStoryPage() {
                 prose-a:decoration-crimson/40 hover:prose-a:decoration-crimson
                 prose-strong:text-navy prose-em:text-navy/80
                 prose-hr:border-navy/15">
-                {renderChapter(ch, media, {
+                {renderChapter(stripArchivistNotesForPublic(ch), media, {
                   firstParagraphClass: 'text-lg leading-relaxed text-navy/90 mb-5 font-sans [&:first-letter]:float-left [&:first-letter]:font-display [&:first-letter]:text-5xl [&:first-letter]:leading-none [&:first-letter]:mr-2 [&:first-letter]:mt-1 [&:first-letter]:text-navy',
                   ctaParagraphClass: 'mt-8 pt-6 border-t border-navy/15 text-right font-sans text-sm not-italic text-navy/60 [&_a]:text-crimson [&_a]:no-underline [&_a]:font-medium [&_a]:tracking-wide hover:[&_a]:underline',
                 })}

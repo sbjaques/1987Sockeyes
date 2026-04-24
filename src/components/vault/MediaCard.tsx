@@ -1,4 +1,5 @@
 import type { MediaItem } from '../../types/media';
+import { BUILD_MODE } from '../../lib/buildMode';
 
 export function MediaCard({ item, onOpen }: { item: MediaItem; onOpen: (m: MediaItem) => void }) {
   const isDoc = item.type === 'program' || item.type === 'document' || item.type === 'video';
@@ -40,7 +41,7 @@ export function MediaCard({ item, onOpen }: { item: MediaItem; onOpen: (m: Media
               {item.type === 'video' ? 'Video' : 'PDF'}
             </span>
           )}
-          {item.needsReview && (
+          {item.needsReview && BUILD_MODE === 'private' && (
             <span
               title="AI-drafted description — not yet editor-reviewed"
               className="absolute bottom-2 right-2 bg-amber-500/90 text-black text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded">
