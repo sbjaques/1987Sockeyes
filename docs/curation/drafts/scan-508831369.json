@@ -1,0 +1,20 @@
+{
+  "id": "scan-508831369",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Vernon Lakers beat Richmond Sockeyes 6-4 in Game 2 of BCJHL final series.",
+  "descriptionLong": "The Vernon Lakers defeated the Richmond Sockeyes 6-4 on Sunday night to take a 2-0 lead in the best-of-seven B.C. Junior Hockey League final series. Despite blowing an early three-goal advantage, Vernon held on for the victory. Coach Ernie Gare attributed the team's sluggish second-period play to their narrow margin.",
+  "attribution": {
+    "paper": "Times Colonist",
+    "headline": "Vernon Lakers Defeat Richmond Sockeyes in BCJHL Final",
+    "byline": "The Canadian Press",
+    "page": "p12",
+    "imageId": "508831369"
+  },
+  "tags": [
+    "bcjhl",
+    "playoff",
+    "recap"
+  ]
+}

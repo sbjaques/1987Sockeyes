@@ -1,0 +1,20 @@
+{
+  "id": "scan-508622787",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "BCJHL season preview covers Interior and Coastal divisions, noting Richmond Sockeyes' expectations for 1987-88 season.",
+  "descriptionLong": "This Times Colonist preview article surveys the 1987-88 British Columbia Junior Hockey League season across Interior and Coastal divisions. The Richmond Sockeyes, who finished first last season with a 38-14 record, are expected to take a back seat to Interior rivals Kelowna and Penticton. Coach Ernie Gare expresses confidence in the team's defensive prospects. Vernon Lakers are touted as Interior favorites; Delta Flyers favored in Coastal Division.",
+  "attribution": {
+    "paper": "Times Colonist",
+    "headline": "How the season shapes up",
+    "byline": "The Canadian Press",
+    "page": "p10",
+    "imageId": "508622787"
+  },
+  "tags": [
+    "bcjhl",
+    "preview",
+    "regular-season"
+  ]
+}

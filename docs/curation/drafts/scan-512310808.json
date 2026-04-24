@@ -1,0 +1,19 @@
+{
+  "id": "scan-512310808",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 4-3 in overtime in Abbott Cup playoff game, led by goaltender Frank Romeo's 36 saves.",
+  "descriptionLong": "Richmond Sockeyes won 4-3 in overtime against Humboldt Broncos on April 22, 1987, taking a 2-1 series lead in the Abbott Cup best-of-seven playoff. Tony Bobbitt scored the overtime winner at 1:04. Sockeyes goaltender Frank Romeo made 36 saves and was the standout performer, stealing several Broncos shots including three off captain Curtis Chamberlin's stick. Despite the victory, Richmond players acknowledged they were outplayed and relied heavily on Romeo's stellar performance.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Romeo's stellar goaltending leads Sockeyes to OT win",
+    "page": "p14",
+    "imageId": "512310808"
+  },
+  "tags": [
+    "abbott-cup",
+    "playoff",
+    "recap"
+  ]
+}

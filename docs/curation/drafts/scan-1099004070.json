@@ -1,0 +1,19 @@
+{
+  "id": "scan-1099004070",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Pembroke Lumber Kings 9-3 in Centennial Cup semifinal, advance to final.",
+  "descriptionLong": "The Richmond Sockeyes, from British Columbia, defeated the Pembroke Lumber Kings 9-3 in a Centennial Cup Junior A semifinal on Thursday night in Humboldt, Saskatchewan. Richmond advanced to the final game with a 2-1 record in the roundrobin portion of the tournament and will face the Saskatchewan champion Humboldt Broncos in a sudden-death final on Saturday night.",
+  "attribution": {
+    "paper": "Daily Gleaner",
+    "headline": "Sockeyes Whip Lumber Kings in Centennial Cup Semifinal",
+    "page": "p24",
+    "imageId": "1099004070"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

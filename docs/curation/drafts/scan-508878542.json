@@ -1,0 +1,19 @@
+{
+  "id": "scan-508878542",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Dave Tomlinson scores late goal to give Richmond Sockeyes 5-4 victory over Humboldt Broncos.",
+  "descriptionLong": "Richmond Sockeyes defeated the Humboldt Broncos 5-4 in a playoff game on April 30, 1987. Dave Tomlinson scored the game-winning goal with 2:37 remaining in regulation time to break a 4-4 tie. The victory secured Richmond's berth in the Centennial Cup tournament.",
+  "attribution": {
+    "paper": "Times Colonist",
+    "headline": "Richmond Sockeyes Defeat Humboldt Broncos 5-4 to Earn Centennial Cup Berth",
+    "page": "p16",
+    "imageId": "508878542"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

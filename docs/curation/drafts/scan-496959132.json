@@ -1,0 +1,16 @@
+{
+  "id": "scan-496959132",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Draft list of junior hockey players from multiple leagues and provinces.",
+  "descriptionLong": "A roster or draft listing from The Leader-Post featuring junior hockey players from across Canada, including Rob Sumner of the Richmond Sockeyes (BCJHL). The list spans multiple leagues including WHL, OHL, QMJHL, AJHL, and Quebec AAA teams, with player names, hometowns, and team affiliations noted.",
+  "attribution": {
+    "paper": "The Leader-Post",
+    "page": "p57",
+    "imageId": "496959132"
+  },
+  "tags": [
+    "profile"
+  ]
+}

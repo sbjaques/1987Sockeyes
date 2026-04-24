@@ -1,0 +1,17 @@
+{
+  "id": "scan-1107105854",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score and game recap of Moncton vs. Nova Scotia junior hockey match from January 4, 1988.",
+  "descriptionLong": "The Times-Transcript reports on a junior hockey game between Moncton and Nova Scotia played on January 4, 1988. Moncton defeated Nova Scotia 4–1, with goals from Matt Hervey, Guy Larose, Ron Pesetti, and Peter Douris. Goaltender Bob Essensa recorded the win for Moncton, while Warren Skorodenski played for Nova Scotia. The page also includes coverage of a Canada vs. Soviet Union exhibition game and World Junior Championship standings from Moscow.",
+  "attribution": {
+    "paper": "The Times-Transcript",
+    "page": "p8",
+    "imageId": "1107105854"
+  },
+  "tags": [
+    "box-score",
+    "recap"
+  ]
+}

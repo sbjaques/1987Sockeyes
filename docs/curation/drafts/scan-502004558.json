@@ -1,0 +1,20 @@
+{
+  "id": "scan-502004558",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes win 1987 Centennial Cup championship with 5-2 victory over Humboldt Broncos.",
+  "descriptionLong": "The Richmond Sockeyes captured the Centennial Cup Canadian junior-A championship on May 10, 1987, defeating the Humboldt Broncos 5-2. Goaltender Frank Romeo earned most valuable player honours. The victory marks BC's second consecutive Canadian junior-A title. Most of Richmond's experienced core, including defenceman Matt Hervey, will age out as 20-year-olds and depart the team.",
+  "attribution": {
+    "paper": "The Province",
+    "headline": "Richmond Sockeyes Win Centennial Cup",
+    "byline": "Frank Luba",
+    "page": "p12",
+    "imageId": "502004558"
+  },
+  "tags": [
+    "centennial-cup",
+    "recap",
+    "photo"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "scan-512312872",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 5-4 in Game 7 of Abbott Cup series to advance to Centennial Cup tournament.",
+  "descriptionLong": "The Richmond Sockeyes won the Abbott Cup best-of-seven series four games to three over the visiting Humboldt Broncos, with Dave Tomlinson scoring the series-clinching goal with 2:37 remaining in Game 7 on Wednesday night. The tightly contested series saw each team win two one-goal games, with Richmond outscoring Humboldt 26-24 overall. Humboldt coach Bernie Lynch praised his team's effort despite the loss, noting the Centennial Cup tournament officially opens in Humboldt on Friday.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Richmond Sockeyes Win Abbott Cup, Edge Humboldt 5-4",
+    "byline": "S-P Services",
+    "page": "p45",
+    "imageId": "512312872"
+  },
+  "tags": [
+    "abbott-cup",
+    "playoff",
+    "recap",
+    "centennial-cup"
+  ]
+}

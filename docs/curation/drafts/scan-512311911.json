@@ -1,0 +1,21 @@
+{
+  "id": "scan-512311911",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 5-3 in Abbott Cup playoff game, taking series lead 3-2.",
+  "descriptionLong": "The Richmond Sockeyes, BC champions, defeated the Humboldt Broncos 5-3 on Sunday in their best-of-seven Abbott Cup series, with Richmond now leading 3-2. Humboldt, Saskatchewan's amateur junior hockey league champions, led 2-0 after the first period but Richmond tied it 2-2 in the second frame. Broncos coach Bernie Lynch criticized his team's performance ahead of the Centennial Cup tournament beginning Saturday in Humboldt.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Humboldt Broncos fall to Richmond Sockeyes in Abbott Cup series",
+    "byline": "S-P Services",
+    "page": "p15",
+    "imageId": "512311911"
+  },
+  "tags": [
+    "abbott-cup",
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

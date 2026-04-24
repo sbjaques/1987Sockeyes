@@ -1,0 +1,20 @@
+{
+  "id": "scan-734711493",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "AHL hockey results and NHL scores from Friday night, including Moncton Hawks' 8-2 victory over Cape Breton Oilers.",
+  "descriptionLong": "Sports page reporting on AHL and NHL hockey games played Friday night. Alpo Suhonen, newly named Moncton Hawks coach and former Finland national team coach, earned his first AHL victory with an 8-2 win over Cape Breton Oilers. Suhonen addressed criticism from TV commentator Don Cherry regarding his hiring. Scores from other AHL games and multiple NHL matchups are also reported, including Toronto Leafs 10 Rangers 6, Buffalo Sabres 5 Penguins 1, and Winnipeg Jets 3 Devils 2.",
+  "attribution": {
+    "paper": "North Bay Nugget",
+    "headline": "Suhonen gets first AHL win, brushes off Cherry criticism",
+    "byline": "The Canadian Press",
+    "page": "p13",
+    "imageId": "734711493"
+  },
+  "tags": [
+    "recap",
+    "ahl",
+    "nhl"
+  ]
+}

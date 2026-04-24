@@ -1,0 +1,18 @@
+{
+  "id": "scan-512310816",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score and play-by-play from Richmond Sockeyes vs. Humboldt playoff game with overtime winner.",
+  "descriptionLong": "Complete detailed box score from a playoff game between the Richmond Sockeyes and Humboldt team on April 23, 1987. Richmond won 4–3 in overtime on a goal by Bobbitt at 1:04 of OT, with assists from McCormick and Czenczek. The game featured seven goals total and extensive penalty minutes across all three periods plus overtime.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "page": "p16",
+    "imageId": "512310816"
+  },
+  "tags": [
+    "playoff",
+    "box-score",
+    "recap"
+  ]
+}

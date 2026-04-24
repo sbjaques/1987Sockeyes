@@ -1,0 +1,19 @@
+{
+  "id": "scan-512094454",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Pembroke 4-1 in Centennial Cup round robin; face Humboldt Broncos Wednesday.",
+  "descriptionLong": "The Richmond Sockeyes defeated Pembroke Lumber Kings 4-1 on Monday in Centennial Cup round-robin play at the Humboldt Uniplex, improving to 2-0 in the tournament. Dave Tomlinson scored two third-period goals to secure the victory. Richmond will face Humboldt Broncos on Wednesday in the final round-robin game, with the winner advancing directly to Saturday's championship game. Coach Orland Kurtenbach's team killed multiple penalties during the contest.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Richmond and Humboldt set for showdown",
+    "page": "p15",
+    "imageId": "512094454"
+  },
+  "tags": [
+    "centennial-cup",
+    "recap",
+    "box-score"
+  ]
+}

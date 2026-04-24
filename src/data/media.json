@@ -1,20 +1,49 @@
 [
   {
-    "id": "red-deer-advocate-1987-04-19-box-score",
-    "type": "newspaper",
-    "date": "1987-04-19",
-    "access": "public",
-    "thumb": "/assets/vault/red-deer-advocate-1987-04-19-box-score.jpg",
-    "descriptionShort": "Red Deer Box Score – April 19, 1987",
-    "descriptionLong": "Box score from the Richmond Sockeyes vs. Red Deer game on April 19, 1987 during the Abbott Cup playoffs.",
+    "id": "video-1978-01-07-orland-kurtenbach",
+    "type": "video",
+    "date": "1978-01-07",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Archival footage of Orland Kurtenbach from 1978, predating the Richmond Sockeyes era.",
+    "descriptionLong": "This 1978 video appears to predate the Richmond Sockeyes' founding in 1986. It likely documents Orland Kurtenbach, a notable BC hockey figure, though the precise context—whether game footage, interview, or archival material—is ambiguous given the early date and filename alone.",
+    "url": "/media/videos/1978-01-07-orland-kurtenbach.mp4",
     "tags": [
-      "abbott-cup",
-      "box-score"
+      "archival",
+      "pro-career",
+      "interview"
     ],
-    "url": "/assets/vault/red-deer-advocate-1987-04-19-box-score.jpg",
-    "attribution": {
-      "paper": "Red Deer Advocate"
-    },
+    "relatedGames": []
+  },
+  {
+    "id": "video-1986-01-18-whl-medicine-hat-tigers-v-lethbridge-broncos-melee-troy-gamble-v-matt-hervey",
+    "type": "video",
+    "date": "1986-01-18",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "WHL game footage from January 1986 showing a melee between Medicine Hat Tigers and Lethbridge Broncos, featuring Troy Gamble and Matt Hervey.",
+    "descriptionLong": "This archival WHL footage captures a confrontation during a January 1986 game between the Medicine Hat Tigers and Lethbridge Broncos. The clip focuses on an on-ice altercation involving players Troy Gamble and Matt Hervey. Note: This predates the Richmond Sockeyes' founding (1986-87 season) and may document early playing-era context for alumni involved in the 1987 Centennial Cup team.",
+    "url": "/media/videos/1986-01-18-whl-medicine-hat-tigers-v-lethbridge-broncos-melee-troy-gamble-v-matt-hervey.mp4",
+    "tags": [
+      "whl",
+      "game-footage",
+      "archival"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "mowat-cup-celebration",
+    "type": "photo",
+    "date": "1987-01-01",
+    "access": "public",
+    "thumb": "/assets/vault/mowat-cup-celebration.jpg",
+    "descriptionShort": "Mowat Cup Celebration",
+    "descriptionLong": "Photograph of the Richmond Sockeyes celebrating their Mowat Cup championship win.",
+    "tags": [
+      "mowat-cup",
+      "photo"
+    ],
+    "url": "/assets/vault/mowat-cup-celebration.jpg",
     "relatedGames": []
   },
   {
@@ -36,22 +65,71 @@
     "relatedGames": []
   },
   {
-    "id": "nanaimo-daily-news-1989-03-21-frank-furlan-quotes",
+    "id": "richmond-review-1987-02-27-sockeyes-photo",
     "type": "newspaper",
-    "date": "1989-03-21",
+    "date": "1987-02-27",
     "access": "public",
-    "thumb": "/assets/vault/nanaimo-daily-news-1989-03-21-frank-furlan-quotes.jpg",
-    "descriptionShort": "Retrospective piece in the Nanaimo Daily News carrying quotes from former Sockeye Frank Furlan, March 1989.",
-    "descriptionLong": "A March 1989 article in the Nanaimo Daily News featuring quotes from Frank Furlan, recorded after his time with the 1986-87 Richmond Sockeyes and their Centennial Cup championship run.",
+    "thumb": "/assets/vault/richmond-review-1987-02-27-sockeyes-photo.jpg",
+    "descriptionShort": "Sockeyes Photo – Richmond Review",
+    "descriptionLong": "Photograph of the Richmond Sockeyes published in the Richmond Review, February 27, 1987.",
     "tags": [
-      "profile",
-      "retrospective",
-      "quote"
+      "photo",
+      "preview"
     ],
-    "url": "/assets/vault/nanaimo-daily-news-1989-03-21-frank-furlan-quotes.jpg",
+    "url": "/assets/vault/richmond-review-1987-02-27-sockeyes-photo.jpg",
     "attribution": {
-      "paper": "Nanaimo Daily News"
+      "paper": "Richmond Review"
     },
+    "relatedGames": []
+  },
+  {
+    "id": "province-1987-03-25-richmond-vs-kelowna-photo",
+    "type": "newspaper",
+    "date": "1987-03-25",
+    "access": "public",
+    "thumb": "/assets/vault/province-1987-03-25-richmond-vs-kelowna-photo.jpg",
+    "descriptionShort": "Richmond vs. Kelowna – Photo",
+    "descriptionLong": "Photograph accompanying The Province's coverage of Richmond Sockeyes vs. Kelowna during the Doyle Cup playoffs, March 25, 1987.",
+    "tags": [
+      "doyle-cup",
+      "photo"
+    ],
+    "url": "/assets/vault/province-1987-03-25-richmond-vs-kelowna-photo.jpg",
+    "attribution": {
+      "paper": "The Province"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-03-25-sockeyes-beat-kelowna",
+    "type": "newspaper",
+    "date": "1987-03-25",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-03-25-sockeyes-beat-kelowna.jpg",
+    "descriptionShort": "Sockeyes Beat Kelowna",
+    "descriptionLong": "Vancouver Sun report on the Richmond Sockeyes defeating Kelowna in the Doyle Cup playoffs, March 25, 1987.",
+    "tags": [
+      "doyle-cup",
+      "recap"
+    ],
+    "url": "/assets/vault/vansun-1987-03-25-sockeyes-beat-kelowna.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "abbott-cup-program",
+    "type": "program",
+    "date": "1987-04-01",
+    "access": "public",
+    "thumb": "/assets/vault/abbott-cup-program-thumb.jpg",
+    "descriptionShort": "1987 Abbott Cup Souvenir Program",
+    "descriptionLong": "Official 1987 Abbott Cup souvenir program featuring the Richmond Sockeyes and other competing teams.",
+    "tags": [
+      "abbott-cup"
+    ],
+    "url": "/assets/vault/abbott-cup-program.pdf",
     "relatedGames": []
   },
   {
@@ -69,6 +147,62 @@
     "url": "/assets/vault/quesnel-cariboo-observer-1987-04-08-sockeyes.jpg",
     "attribution": {
       "paper": "Quesnel Cariboo Observer"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-04-08-photo-vs-red-deer",
+    "type": "newspaper",
+    "date": "1987-04-08",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-04-08-photo-vs-red-deer.jpg",
+    "descriptionShort": "Vancouver Sun photograph from the Abbott Cup semifinal against the Red Deer Rustlers, April 8 1987.",
+    "descriptionLong": "A photograph carried in The Vancouver Sun on April 8, 1987, accompanying coverage of the Sockeyes' Abbott Cup semifinal series against the Red Deer Rustlers, the AJHL champions. Richmond went on to win the series and advance to the national Centennial Cup.",
+    "tags": [
+      "abbott-cup",
+      "semifinal",
+      "photo"
+    ],
+    "url": "/assets/vault/vansun-1987-04-08-photo-vs-red-deer.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "red-deer-advocate-1987-04-09-richmond-vs-red-deer",
+    "type": "newspaper",
+    "date": "1987-04-09",
+    "access": "public",
+    "thumb": "/assets/vault/red-deer-advocate-1987-04-09-richmond-vs-red-deer.jpg",
+    "descriptionShort": "Richmond vs. Red Deer, April 9",
+    "descriptionLong": "Red Deer Advocate coverage of the Richmond Sockeyes vs. Red Deer Rustlers series opener, April 9, 1987.",
+    "tags": [
+      "abbott-cup",
+      "semifinal",
+      "recap"
+    ],
+    "url": "/assets/vault/red-deer-advocate-1987-04-09-richmond-vs-red-deer.jpg",
+    "attribution": {
+      "paper": "Red Deer Advocate"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-04-09-red-deer-fan-incident",
+    "type": "newspaper",
+    "date": "1987-04-09",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-04-09-red-deer-fan-incident.jpg",
+    "descriptionShort": "Red Deer Fan Incident",
+    "descriptionLong": "Vancouver Sun report on a fan incident during the Richmond Sockeyes vs. Red Deer series in the Abbott Cup, April 9, 1987.",
+    "tags": [
+      "abbott-cup",
+      "semifinal"
+    ],
+    "url": "/assets/vault/vansun-1987-04-09-red-deer-fan-incident.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
     },
     "relatedGames": []
   },
@@ -129,40 +263,434 @@
     "relatedGames": []
   },
   {
-    "id": "red-deer-advocate-1987-04-09-richmond-vs-red-deer",
+    "id": "red-deer-advocate-1987-04-19-box-score",
     "type": "newspaper",
-    "date": "1987-04-09",
+    "date": "1987-04-19",
     "access": "public",
-    "thumb": "/assets/vault/red-deer-advocate-1987-04-09-richmond-vs-red-deer.jpg",
-    "descriptionShort": "Richmond vs. Red Deer, April 9",
-    "descriptionLong": "Red Deer Advocate coverage of the Richmond Sockeyes vs. Red Deer Rustlers series opener, April 9, 1987.",
+    "thumb": "/assets/vault/red-deer-advocate-1987-04-19-box-score.jpg",
+    "descriptionShort": "Red Deer Box Score – April 19, 1987",
+    "descriptionLong": "Box score from the Richmond Sockeyes vs. Red Deer game on April 19, 1987 during the Abbott Cup playoffs.",
     "tags": [
       "abbott-cup",
-      "semifinal",
-      "recap"
+      "box-score"
     ],
-    "url": "/assets/vault/red-deer-advocate-1987-04-09-richmond-vs-red-deer.jpg",
+    "url": "/assets/vault/red-deer-advocate-1987-04-19-box-score.jpg",
     "attribution": {
       "paper": "Red Deer Advocate"
     },
     "relatedGames": []
   },
   {
-    "id": "richmond-review-1987-02-27-sockeyes-photo",
+    "id": "province-1987-04-29-richmond-vs-humboldt-photo",
     "type": "newspaper",
-    "date": "1987-02-27",
+    "date": "1987-04-29",
     "access": "public",
-    "thumb": "/assets/vault/richmond-review-1987-02-27-sockeyes-photo.jpg",
-    "descriptionShort": "Sockeyes Photo – Richmond Review",
-    "descriptionLong": "Photograph of the Richmond Sockeyes published in the Richmond Review, February 27, 1987.",
+    "thumb": "/assets/vault/province-1987-04-29-richmond-vs-humboldt-photo.jpg",
+    "descriptionShort": "Richmond vs. Humboldt – Photo",
+    "descriptionLong": "Photograph accompanying The Province's coverage of the Richmond Sockeyes vs. Humboldt Broncos Centennial Cup series, April 29, 1987.",
     "tags": [
-      "photo",
-      "preview"
+      "centennial-cup",
+      "final",
+      "photo"
     ],
-    "url": "/assets/vault/richmond-review-1987-02-27-sockeyes-photo.jpg",
+    "url": "/assets/vault/province-1987-04-29-richmond-vs-humboldt-photo.jpg",
     "attribution": {
-      "paper": "Richmond Review"
+      "paper": "The Province"
     },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-04-29-mcdougall-headbutt",
+    "type": "newspaper",
+    "date": "1987-04-29",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-04-29-mcdougall-headbutt.jpg",
+    "descriptionShort": "McDougall Headbutt Incident",
+    "descriptionLong": "Vancouver Sun report on a headbutt incident involving Sockeyes player McDougall during the Abbott Cup, April 29, 1987.",
+    "tags": [
+      "abbott-cup",
+      "final"
+    ],
+    "url": "/assets/vault/vansun-1987-04-29-mcdougall-headbutt.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "province-1987-04-30-richmond-vs-humboldt",
+    "type": "newspaper",
+    "date": "1987-04-30",
+    "access": "public",
+    "thumb": "/assets/vault/province-1987-04-30-richmond-vs-humboldt.jpg",
+    "descriptionShort": "Richmond vs. Humboldt",
+    "descriptionLong": "The Province coverage of Richmond Sockeyes vs. Humboldt Broncos in the Centennial Cup, April 30, 1987.",
+    "tags": [
+      "centennial-cup",
+      "final",
+      "recap"
+    ],
+    "url": "/assets/vault/province-1987-04-30-richmond-vs-humboldt.jpg",
+    "attribution": {
+      "paper": "The Province"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "centennial-cup-program-1-of-3",
+    "type": "program",
+    "date": "1987-05-01",
+    "access": "public",
+    "thumb": "/assets/vault/centennial-cup-program-1-of-3-thumb.jpg",
+    "descriptionShort": "1987 Centennial Cup Souvenir Program – Part 1 of 3",
+    "descriptionLong": "First section of the official 1987 Centennial Cup souvenir program, scanned from the original booklet.",
+    "tags": [
+      "centennial-cup"
+    ],
+    "url": "/assets/vault/centennial-cup-program-1-of-3.pdf",
+    "relatedGames": []
+  },
+  {
+    "id": "centennial-cup-program-2-of-3",
+    "type": "program",
+    "date": "1987-05-01",
+    "access": "public",
+    "thumb": "/assets/vault/centennial-cup-program-2-of-3-thumb.jpg",
+    "descriptionShort": "1987 Centennial Cup Souvenir Program – Part 2 of 3",
+    "descriptionLong": "Second section of the official 1987 Centennial Cup souvenir program, scanned from the original booklet.",
+    "tags": [
+      "centennial-cup"
+    ],
+    "url": "/assets/vault/centennial-cup-program-2-of-3.pdf",
+    "relatedGames": []
+  },
+  {
+    "id": "centennial-cup-program-3-of-3",
+    "type": "program",
+    "date": "1987-05-01",
+    "access": "public",
+    "thumb": "/assets/vault/centennial-cup-program-3-of-3-thumb.jpg",
+    "descriptionShort": "1987 Centennial Cup Souvenir Program – Part 3 of 3",
+    "descriptionLong": "Third section of the official 1987 Centennial Cup souvenir program, scanned from the original booklet.",
+    "tags": [
+      "centennial-cup"
+    ],
+    "url": "/assets/vault/centennial-cup-program-3-of-3.pdf",
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-05-02-sockeyes-profile-page-1",
+    "type": "newspaper",
+    "date": "1987-05-02",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-05-02-sockeyes-profile-page-1.jpg",
+    "descriptionShort": "Sockeyes Profile – Page 1",
+    "descriptionLong": "Vancouver Sun two-part team profile of the Richmond Sockeyes ahead of the Centennial Cup, page 1, May 2, 1987.",
+    "tags": [
+      "centennial-cup",
+      "profile"
+    ],
+    "url": "/assets/vault/vansun-1987-05-02-sockeyes-profile-page-1.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-05-02-sockeyes-profile-page-2",
+    "type": "newspaper",
+    "date": "1987-05-02",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-05-02-sockeyes-profile-page-2.jpg",
+    "descriptionShort": "Sockeyes Profile – Page 2",
+    "descriptionLong": "Vancouver Sun two-part team profile of the Richmond Sockeyes ahead of the Centennial Cup, page 2, May 2, 1987.",
+    "tags": [
+      "centennial-cup",
+      "profile"
+    ],
+    "url": "/assets/vault/vansun-1987-05-02-sockeyes-profile-page-2.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-05-04-centennial-cup",
+    "type": "newspaper",
+    "date": "1987-05-04",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-05-04-centennial-cup.jpg",
+    "descriptionShort": "Centennial Cup – Vancouver Sun, May 4",
+    "descriptionLong": "Vancouver Sun preview or coverage of the Centennial Cup tournament, May 4, 1987.",
+    "tags": [
+      "centennial-cup",
+      "final"
+    ],
+    "url": "/assets/vault/vansun-1987-05-04-centennial-cup.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "times-colonist-1987-05-04-sockeyes-vs-dartmouth",
+    "type": "newspaper",
+    "date": "1987-05-04",
+    "access": "public",
+    "thumb": "/assets/vault/times-colonist-1987-05-04-sockeyes-vs-dartmouth.jpg",
+    "descriptionShort": "Sockeyes vs. Dartmouth",
+    "descriptionLong": "Victoria Times Colonist coverage of the Richmond Sockeyes vs. Dartmouth Subways in the Centennial Cup, May 4, 1987.",
+    "tags": [
+      "centennial-cup",
+      "semifinal",
+      "recap"
+    ],
+    "url": "/assets/vault/times-colonist-1987-05-04-sockeyes-vs-dartmouth.jpg",
+    "attribution": {
+      "paper": "Times Colonist"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "star-phoenix-1987-05-05-centennial-cup-quote",
+    "type": "newspaper",
+    "date": "1987-05-05",
+    "access": "public",
+    "thumb": "/assets/vault/star-phoenix-1987-05-05-centennial-cup-quote.jpg",
+    "descriptionShort": "Centennial Cup – Quote",
+    "descriptionLong": "Saskatoon Star Phoenix article featuring a player or coach quote from the Centennial Cup series, May 5, 1987.",
+    "tags": [
+      "centennial-cup",
+      "final",
+      "quote"
+    ],
+    "url": "/assets/vault/star-phoenix-1987-05-05-centennial-cup-quote.jpg",
+    "attribution": {
+      "paper": "Star Phoenix"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "star-phoenix-1987-05-06-humboldt-handshake-debate",
+    "type": "newspaper",
+    "date": "1987-05-06",
+    "access": "public",
+    "thumb": "/assets/vault/star-phoenix-1987-05-06-humboldt-handshake-debate.jpg",
+    "descriptionShort": "Humboldt Handshake Debate",
+    "descriptionLong": "Saskatoon Star Phoenix coverage of the post-game handshake controversy involving the Humboldt Broncos, May 6, 1987.",
+    "tags": [
+      "centennial-cup",
+      "final"
+    ],
+    "url": "/assets/vault/star-phoenix-1987-05-06-humboldt-handshake-debate.jpg",
+    "attribution": {
+      "paper": "Star Phoenix"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "star-phoenix-1987-05-07-centennial-cup",
+    "type": "newspaper",
+    "date": "1987-05-07",
+    "access": "public",
+    "thumb": "/assets/vault/star-phoenix-1987-05-07-centennial-cup.jpg",
+    "descriptionShort": "Centennial Cup – Star Phoenix, May 7",
+    "descriptionLong": "Saskatoon Star Phoenix coverage of the Centennial Cup series, May 7, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
+    "tags": [
+      "centennial-cup",
+      "final",
+      "recap"
+    ],
+    "url": "/assets/vault/star-phoenix-1987-05-07-centennial-cup.jpg",
+    "attribution": {
+      "paper": "Star Phoenix"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-05-07-centennial-cup-vs-humboldt",
+    "type": "newspaper",
+    "date": "1987-05-07",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-05-07-centennial-cup-vs-humboldt.jpg",
+    "descriptionShort": "Centennial Cup vs. Humboldt",
+    "descriptionLong": "Vancouver Sun coverage of the Richmond Sockeyes vs. Humboldt Broncos Centennial Cup final, May 7, 1987.",
+    "tags": [
+      "centennial-cup",
+      "final",
+      "recap"
+    ],
+    "url": "/assets/vault/vansun-1987-05-07-centennial-cup-vs-humboldt.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "leader-post-1987-05-08-centennial-cup",
+    "type": "newspaper",
+    "date": "1987-05-08",
+    "access": "public",
+    "thumb": "/assets/vault/leader-post-1987-05-08-centennial-cup.jpg",
+    "descriptionShort": "Centennial Cup – Leader Post",
+    "descriptionLong": "Regina Leader Post coverage of the Centennial Cup series, May 8, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
+    "tags": [
+      "centennial-cup",
+      "final",
+      "recap"
+    ],
+    "url": "/assets/vault/leader-post-1987-05-08-centennial-cup.jpg",
+    "attribution": {
+      "paper": "Leader Post"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-05-08-lumber-kings",
+    "type": "newspaper",
+    "date": "1987-05-08",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-05-08-lumber-kings.jpg",
+    "descriptionShort": "Lumber Kings Feature",
+    "descriptionLong": "Vancouver Sun feature on the Pembroke Lumber Kings ahead of the Centennial Cup semifinals, May 8, 1987.",
+    "tags": [
+      "centennial-cup",
+      "semifinal"
+    ],
+    "url": "/assets/vault/vansun-1987-05-08-lumber-kings.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "times-colonist-1987-05-08-sockeyes-vs-pembroke-box",
+    "type": "newspaper",
+    "date": "1987-05-08",
+    "access": "public",
+    "thumb": "/assets/vault/times-colonist-1987-05-08-sockeyes-vs-pembroke-box.jpg",
+    "descriptionShort": "Sockeyes vs. Pembroke – Box Score",
+    "descriptionLong": "Victoria Times Colonist box score for the Richmond Sockeyes vs. Pembroke Lumber Kings Centennial Cup semifinal, May 8, 1987.",
+    "tags": [
+      "centennial-cup",
+      "semifinal",
+      "box-score"
+    ],
+    "url": "/assets/vault/times-colonist-1987-05-08-sockeyes-vs-pembroke-box.jpg",
+    "attribution": {
+      "paper": "Times Colonist"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "times-colonist-1987-05-08-sockeyes-vs-pembroke",
+    "type": "newspaper",
+    "date": "1987-05-08",
+    "access": "public",
+    "thumb": "/assets/vault/times-colonist-1987-05-08-sockeyes-vs-pembroke.jpg",
+    "descriptionShort": "Sockeyes vs. Pembroke",
+    "descriptionLong": "Victoria Times Colonist game report on the Richmond Sockeyes vs. Pembroke Lumber Kings Centennial Cup semifinal, May 8, 1987.",
+    "tags": [
+      "centennial-cup",
+      "semifinal",
+      "recap"
+    ],
+    "url": "/assets/vault/times-colonist-1987-05-08-sockeyes-vs-pembroke.jpg",
+    "attribution": {
+      "paper": "Times Colonist"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "star-phoenix-1987-05-11-centennial-cup-box",
+    "type": "newspaper",
+    "date": "1987-05-11",
+    "access": "public",
+    "thumb": "/assets/vault/star-phoenix-1987-05-11-centennial-cup-box.jpg",
+    "descriptionShort": "Centennial Cup – Box Score",
+    "descriptionLong": "Saskatoon Star Phoenix box score from the Centennial Cup final, May 11, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
+    "tags": [
+      "centennial-cup",
+      "final",
+      "box-score"
+    ],
+    "url": "/assets/vault/star-phoenix-1987-05-11-centennial-cup-box.jpg",
+    "attribution": {
+      "paper": "Star Phoenix"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "star-phoenix-1987-05-11-centennial-cup",
+    "type": "newspaper",
+    "date": "1987-05-11",
+    "access": "public",
+    "thumb": "/assets/vault/star-phoenix-1987-05-11-centennial-cup.jpg",
+    "descriptionShort": "Centennial Cup Final Coverage",
+    "descriptionLong": "Saskatoon Star Phoenix coverage of the Centennial Cup final on May 11, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
+    "tags": [
+      "centennial-cup",
+      "final",
+      "recap"
+    ],
+    "url": "/assets/vault/star-phoenix-1987-05-11-centennial-cup.jpg",
+    "attribution": {
+      "paper": "Star Phoenix"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-05-11-centennial-cup",
+    "type": "newspaper",
+    "date": "1987-05-11",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-05-11-centennial-cup.jpg",
+    "descriptionShort": "Centennial Cup – Vancouver Sun, May 11",
+    "descriptionLong": "Vancouver Sun coverage of the Centennial Cup championship, May 11, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
+    "tags": [
+      "centennial-cup",
+      "final",
+      "recap"
+    ],
+    "url": "/assets/vault/vansun-1987-05-11-centennial-cup.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "vansun-1987-05-11-sockeyes-win-centennial-cup",
+    "type": "newspaper",
+    "date": "1987-05-11",
+    "access": "public",
+    "thumb": "/assets/vault/vansun-1987-05-11-sockeyes-win-centennial-cup.jpg",
+    "descriptionShort": "Sockeyes Win Centennial Cup",
+    "descriptionLong": "Vancouver Sun front-page announcement of the Richmond Sockeyes' Centennial Cup championship victory, May 11, 1987.",
+    "tags": [
+      "centennial-cup",
+      "final",
+      "recap"
+    ],
+    "url": "/assets/vault/vansun-1987-05-11-sockeyes-win-centennial-cup.jpg",
+    "attribution": {
+      "paper": "The Vancouver Sun"
+    },
+    "relatedGames": []
+  },
+  {
+    "id": "centennial-cup-team-photo",
+    "type": "photo",
+    "date": "1987-05-11",
+    "access": "public",
+    "thumb": "/assets/vault/centennial-cup-team-photo.jpg",
+    "descriptionShort": "Centennial Cup – Team Photo",
+    "descriptionLong": "Team photograph of the Richmond Sockeyes taken at the 1987 Centennial Cup championship.",
+    "tags": [
+      "centennial-cup",
+      "team-photo",
+      "final"
+    ],
+    "url": "/assets/vault/centennial-cup-team-photo.jpg",
     "relatedGames": []
   },
   {
@@ -276,189 +804,20 @@
     "relatedGames": []
   },
   {
-    "id": "star-phoenix-1987-05-11-centennial-cup-box",
-    "type": "newspaper",
-    "date": "1987-05-11",
-    "access": "public",
-    "thumb": "/assets/vault/star-phoenix-1987-05-11-centennial-cup-box.jpg",
-    "descriptionShort": "Centennial Cup – Box Score",
-    "descriptionLong": "Saskatoon Star Phoenix box score from the Centennial Cup final, May 11, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
+    "id": "video-1988-00-00-ahl-1988-89-cb-v-matt-herveymon-hl-cape-breton-oilers-moncton-hawks",
+    "type": "video",
+    "date": "1988-01-01",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Highlights of 1988-89 AHL game: Cape Breton Oilers vs. Moncton Hawks, featuring Sockeyes alumnus Matt Hervey.",
+    "descriptionLong": "Game highlights from the 1988-89 AHL season between Cape Breton Oilers and Moncton Hawks. The footage features former Richmond Sockeyes player Matt Hervey, documenting his professional career progression following the team's 1987 Centennial Cup championship.",
+    "url": "/media/videos/1988-00-00-ahl-1988-89-cb-v-matt-herveymon-hl-cape-breton-oilers-moncton-hawks.mp4",
     "tags": [
-      "centennial-cup",
-      "final",
-      "box-score"
+      "ahl",
+      "game-footage",
+      "pro-career",
+      "archival"
     ],
-    "url": "/assets/vault/star-phoenix-1987-05-11-centennial-cup-box.jpg",
-    "attribution": {
-      "paper": "Star Phoenix"
-    },
-    "relatedGames": []
-  },
-  {
-    "id": "star-phoenix-1987-05-11-centennial-cup",
-    "type": "newspaper",
-    "date": "1987-05-11",
-    "access": "public",
-    "thumb": "/assets/vault/star-phoenix-1987-05-11-centennial-cup.jpg",
-    "descriptionShort": "Centennial Cup Final Coverage",
-    "descriptionLong": "Saskatoon Star Phoenix coverage of the Centennial Cup final on May 11, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
-    "tags": [
-      "centennial-cup",
-      "final",
-      "recap"
-    ],
-    "url": "/assets/vault/star-phoenix-1987-05-11-centennial-cup.jpg",
-    "attribution": {
-      "paper": "Star Phoenix"
-    },
-    "relatedGames": []
-  },
-  {
-    "id": "star-phoenix-1987-05-07-centennial-cup",
-    "type": "newspaper",
-    "date": "1987-05-07",
-    "access": "public",
-    "thumb": "/assets/vault/star-phoenix-1987-05-07-centennial-cup.jpg",
-    "descriptionShort": "Centennial Cup – Star Phoenix, May 7",
-    "descriptionLong": "Saskatoon Star Phoenix coverage of the Centennial Cup series, May 7, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
-    "tags": [
-      "centennial-cup",
-      "final",
-      "recap"
-    ],
-    "url": "/assets/vault/star-phoenix-1987-05-07-centennial-cup.jpg",
-    "attribution": {
-      "paper": "Star Phoenix"
-    },
-    "relatedGames": []
-  },
-  {
-    "id": "star-phoenix-1987-05-05-centennial-cup-quote",
-    "type": "newspaper",
-    "date": "1987-05-05",
-    "access": "public",
-    "thumb": "/assets/vault/star-phoenix-1987-05-05-centennial-cup-quote.jpg",
-    "descriptionShort": "Centennial Cup – Quote",
-    "descriptionLong": "Saskatoon Star Phoenix article featuring a player or coach quote from the Centennial Cup series, May 5, 1987.",
-    "tags": [
-      "centennial-cup",
-      "final",
-      "quote"
-    ],
-    "url": "/assets/vault/star-phoenix-1987-05-05-centennial-cup-quote.jpg",
-    "attribution": {
-      "paper": "Star Phoenix"
-    },
-    "relatedGames": []
-  },
-  {
-    "id": "star-phoenix-1987-05-06-humboldt-handshake-debate",
-    "type": "newspaper",
-    "date": "1987-05-06",
-    "access": "public",
-    "thumb": "/assets/vault/star-phoenix-1987-05-06-humboldt-handshake-debate.jpg",
-    "descriptionShort": "Humboldt Handshake Debate",
-    "descriptionLong": "Saskatoon Star Phoenix coverage of the post-game handshake controversy involving the Humboldt Broncos, May 6, 1987.",
-    "tags": [
-      "centennial-cup",
-      "final"
-    ],
-    "url": "/assets/vault/star-phoenix-1987-05-06-humboldt-handshake-debate.jpg",
-    "attribution": {
-      "paper": "Star Phoenix"
-    },
-    "relatedGames": []
-  },
-  {
-    "id": "kansas-city-star-1997-04-17-statement-about-richmond",
-    "type": "newspaper",
-    "date": "1997-04-17",
-    "access": "public",
-    "thumb": "/assets/vault/kansas-city-star-1997-04-17-statement-about-richmond.jpg",
-    "descriptionShort": "Statement About Richmond",
-    "descriptionLong": "Kansas City Star retrospective piece mentioning the Richmond Sockeyes' 1987 Centennial Cup championship, published April 17, 1997.",
-    "tags": [
-      "retrospective"
-    ],
-    "url": "/assets/vault/kansas-city-star-1997-04-17-statement-about-richmond.jpg",
-    "attribution": {
-      "paper": "Kansas City Star"
-    },
-    "relatedGames": []
-  },
-  {
-    "id": "leader-post-1987-05-08-centennial-cup",
-    "type": "newspaper",
-    "date": "1987-05-08",
-    "access": "public",
-    "thumb": "/assets/vault/leader-post-1987-05-08-centennial-cup.jpg",
-    "descriptionShort": "Centennial Cup – Leader Post",
-    "descriptionLong": "Regina Leader Post coverage of the Centennial Cup series, May 8, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
-    "tags": [
-      "centennial-cup",
-      "final",
-      "recap"
-    ],
-    "url": "/assets/vault/leader-post-1987-05-08-centennial-cup.jpg",
-    "attribution": {
-      "paper": "Leader Post"
-    },
-    "relatedGames": []
-  },
-  {
-    "id": "province-1987-04-30-richmond-vs-humboldt",
-    "type": "newspaper",
-    "date": "1987-04-30",
-    "access": "public",
-    "thumb": "/assets/vault/province-1987-04-30-richmond-vs-humboldt.jpg",
-    "descriptionShort": "Richmond vs. Humboldt",
-    "descriptionLong": "The Province coverage of Richmond Sockeyes vs. Humboldt Broncos in the Centennial Cup, April 30, 1987.",
-    "tags": [
-      "centennial-cup",
-      "final",
-      "recap"
-    ],
-    "url": "/assets/vault/province-1987-04-30-richmond-vs-humboldt.jpg",
-    "attribution": {
-      "paper": "The Province"
-    },
-    "relatedGames": []
-  },
-  {
-    "id": "province-1987-04-29-richmond-vs-humboldt-photo",
-    "type": "newspaper",
-    "date": "1987-04-29",
-    "access": "public",
-    "thumb": "/assets/vault/province-1987-04-29-richmond-vs-humboldt-photo.jpg",
-    "descriptionShort": "Richmond vs. Humboldt – Photo",
-    "descriptionLong": "Photograph accompanying The Province's coverage of the Richmond Sockeyes vs. Humboldt Broncos Centennial Cup series, April 29, 1987.",
-    "tags": [
-      "centennial-cup",
-      "final",
-      "photo"
-    ],
-    "url": "/assets/vault/province-1987-04-29-richmond-vs-humboldt-photo.jpg",
-    "attribution": {
-      "paper": "The Province"
-    },
-    "relatedGames": []
-  },
-  {
-    "id": "province-1987-03-25-richmond-vs-kelowna-photo",
-    "type": "newspaper",
-    "date": "1987-03-25",
-    "access": "public",
-    "thumb": "/assets/vault/province-1987-03-25-richmond-vs-kelowna-photo.jpg",
-    "descriptionShort": "Richmond vs. Kelowna – Photo",
-    "descriptionLong": "Photograph accompanying The Province's coverage of Richmond Sockeyes vs. Kelowna during the Doyle Cup playoffs, March 25, 1987.",
-    "tags": [
-      "doyle-cup",
-      "photo"
-    ],
-    "url": "/assets/vault/province-1987-03-25-richmond-vs-kelowna-photo.jpg",
-    "attribution": {
-      "paper": "The Province"
-    },
     "relatedGames": []
   },
   {
@@ -479,349 +838,443 @@
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-05-08-lumber-kings",
-    "type": "newspaper",
-    "date": "1987-05-08",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-05-08-lumber-kings.jpg",
-    "descriptionShort": "Lumber Kings Feature",
-    "descriptionLong": "Vancouver Sun feature on the Pembroke Lumber Kings ahead of the Centennial Cup semifinals, May 8, 1987.",
+    "id": "video-1989-00-00-ahl-1989-matt-herveymon-v-brian-bladnmk-hl-moncton-hawks-newmarket-saints",
+    "type": "video",
+    "date": "1989-01-01",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "AHL game footage from 1989 featuring Matt Hervey and Brian Bladnick with Moncton Hawks vs. Newmarket Saints.",
+    "descriptionLong": "Archival footage from a 1989 AHL regular-season game between the Moncton Hawks and Newmarket Saints. The clip features Richmond Sockeyes alumni Matt Hervey and Brian Bladnick competing at the professional level. Specific date within 1989 is unclear from available metadata.",
+    "url": "/media/videos/1989-00-00-ahl-1989-matt-herveymon-v-brian-bladnmk-hl-moncton-hawks-newmarket-saints.mp4",
     "tags": [
-      "centennial-cup",
-      "semifinal"
+      "ahl",
+      "game-footage",
+      "pro-career",
+      "archival"
     ],
-    "url": "/assets/vault/vansun-1987-05-08-lumber-kings.jpg",
+    "relatedGames": []
+  },
+  {
+    "id": "nanaimo-daily-news-1989-03-21-frank-furlan-quotes",
+    "type": "newspaper",
+    "date": "1989-03-21",
+    "access": "public",
+    "thumb": "/assets/vault/nanaimo-daily-news-1989-03-21-frank-furlan-quotes.jpg",
+    "descriptionShort": "Retrospective piece in the Nanaimo Daily News carrying quotes from former Sockeye Frank Furlan, March 1989.",
+    "descriptionLong": "A March 1989 article in the Nanaimo Daily News featuring quotes from Frank Furlan, recorded after his time with the 1986-87 Richmond Sockeyes and their Centennial Cup championship run.",
+    "tags": [
+      "profile",
+      "retrospective",
+      "quote"
+    ],
+    "url": "/assets/vault/nanaimo-daily-news-1989-03-21-frank-furlan-quotes.jpg",
     "attribution": {
-      "paper": "The Vancouver Sun"
+      "paper": "Nanaimo Daily News"
     },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-05-11-centennial-cup",
-    "type": "newspaper",
-    "date": "1987-05-11",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-05-11-centennial-cup.jpg",
-    "descriptionShort": "Centennial Cup – Vancouver Sun, May 11",
-    "descriptionLong": "Vancouver Sun coverage of the Centennial Cup championship, May 11, 1987. 1987 Sockeyes archive item. Description pending AI drafting pass; refer to the thumb and linked source for current content.",
+    "id": "video-1990-02-17-ahl-maine-mariners-v-moncton-hawks-r-rick-boyd-v-bryan-marchment",
+    "type": "video",
+    "date": "1990-02-17",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "1990 AHL game clip: Maine Mariners vs Moncton Hawks featuring Rick Boyd and Bryan Marchment.",
+    "descriptionLong": "This archival footage captures a professional hockey matchup from February 17, 1990, between the Maine Mariners and Moncton Hawks in the American Hockey League (AHL). The clip highlights Richmond Sockeyes alumni Rick Boyd and Bryan Marchment during their pro careers, showcasing their performance at the developmental league level.",
+    "url": "/media/videos/1990-02-17-ahl-maine-mariners-v-moncton-hawks-r-rick-boyd-v-bryan-marchment.mp4",
     "tags": [
-      "centennial-cup",
-      "final",
-      "recap"
+      "ahl",
+      "game-footage",
+      "pro-career",
+      "archival"
     ],
-    "url": "/assets/vault/vansun-1987-05-11-centennial-cup.jpg",
+    "relatedGames": []
+  },
+  {
+    "id": "video-1990-02-17-ahl-rick-boydmai-v-matt-herveymon-maine-mariners-moncton-hawks",
+    "type": "video",
+    "date": "1990-02-17",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Rick Boyd (Maine Mariners) vs. Matt Hervey (Moncton Hawks) AHL game footage from February 1990.",
+    "descriptionLong": "Game footage from an AHL matchup on February 17, 1990, featuring Richmond Sockeyes alumni Rick Boyd playing for the Maine Mariners against Matt Hervey of the Moncton Hawks. Both players went on to professional careers after their time with the 1987 Centennial Cup-winning junior team.",
+    "url": "/media/videos/1990-02-17-ahl-rick-boydmai-v-matt-herveymon-maine-mariners-moncton-hawks.mp4",
+    "tags": [
+      "game-footage",
+      "ahl",
+      "pro-career",
+      "archival"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-1991-09-28-nhl-boston-bruins-v-new-york-islanders-r-matt-hervey-v-mick-vukota",
+    "type": "video",
+    "date": "1991-09-28",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "NHL preseason game footage: Boston Bruins vs. New York Islanders, featuring Richmond Sockeyes alumni Matt Hervey and Mick Vukota.",
+    "descriptionLong": "Archival game footage from September 28, 1991, capturing an NHL preseason matchup between the Boston Bruins and New York Islanders. The video documents Richmond Sockeyes alumnus Matt Hervey (Bruins) and Mick Vukota (Islanders) during their professional careers in the National Hockey League, likely showing their playing time or a notable interaction during the contest.",
+    "url": "/media/videos/1991-09-28-nhl-boston-bruins-v-new-york-islanders-r-matt-hervey-v-mick-vukota.mp4",
+    "tags": [
+      "game-footage",
+      "nhl",
+      "pro-career",
+      "archival"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-1991-09-29-nhl-boston-bruins-v-st-louis-blues-r-matt-hervey-v-bob-bassen",
+    "type": "video",
+    "date": "1991-09-29",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "NHL game footage from 1991 showing Matt Hervey (Boston Bruins) and Bob Bassen (St. Louis Blues).",
+    "descriptionLong": "Game footage from a 1991 NHL matchup between the Boston Bruins and St. Louis Blues, featuring Richmond Sockeyes alumni Matt Hervey and Bob Bassen. This archival clip captures professional career highlights from two 1987 Centennial Cup champions playing in the major leagues during the early 1990s.",
+    "url": "/media/videos/1991-09-29-nhl-boston-bruins-v-st-louis-blues-r-matt-hervey-v-bob-bassen.mp4",
+    "tags": [
+      "game-footage",
+      "nhl",
+      "pro-career",
+      "archival"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-1991-10-07-nhl-tie-dominyr-v-matt-herveybos-new-york-rangers-boston-bruins",
+    "type": "video",
+    "date": "1991-10-07",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "NHL game clip: Rangers vs. Bruins featuring Tie Domiyan and Matt Harvey, October 1991.",
+    "descriptionLong": "Game footage from an October 1991 NHL matchup between the New York Rangers and Boston Bruins. The clip features Tie Domiyan and Matt Harvey (likely a Sockeyes alumnus pursuing his pro career). This archival segment documents early 1990s professional hockey from a Richmond Sockeyes alumni perspective.",
+    "url": "/media/videos/1991-10-07-nhl-tie-dominyr-v-matt-herveybos-new-york-rangers-boston-bruins.mp4",
+    "tags": [
+      "pro-career",
+      "nhl",
+      "game-footage",
+      "archival"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-1991-10-09-nhl-brad-maybuf-v-matt-herveybos-buffalo-sabres-boston-bruins",
+    "type": "video",
+    "date": "1991-10-09",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "NHL game footage: Brad Maybush (Buffalo Sabres) vs. Matt Harvey (Boston Bruins), October 9, 1991.",
+    "descriptionLong": "This is a professional NHL game-footage fragment from October 9, 1991, featuring two 1987 Richmond Sockeyes alumni competing at the highest level. Brad Maybush played for the Buffalo Sabres and Matt Harvey for the Boston Bruins in this matchup, documenting their respective pro-career progression following their junior-A championship season.",
+    "url": "/media/videos/1991-10-09-nhl-brad-maybuf-v-matt-herveybos-buffalo-sabres-boston-bruins.mp4",
+    "tags": [
+      "nhl",
+      "pro-career",
+      "game-footage",
+      "1991"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-1992-03-23-nhl-matt-herveybos-v-perry-andersonsj-boston-bruins-san-jose-sharks",
+    "type": "video",
+    "date": "1992-03-23",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Matt Harvey (Boston Bruins) vs Perry Anderson (San Jose Sharks) NHL game footage from March 23, 1992.",
+    "descriptionLong": "Professional hockey game footage from March 23, 1992, featuring two Sockeyes alumni playing in the NHL: Matt Harvey for the Boston Bruins and Perry Anderson for the San Jose Sharks. This archival video captures their pro careers in early 1990s professional hockey at the highest level.",
+    "url": "/media/videos/1992-03-23-nhl-matt-herveybos-v-perry-andersonsj-boston-bruins-san-jose-sharks.mp4",
+    "tags": [
+      "pro-career",
+      "nhl",
+      "game-footage",
+      "archival"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-1993-03-18-nhl-tampa-bay-lightning-v-toronto-maple-leafs-r-matt-hervey-v-wendel-clark",
+    "type": "video",
+    "date": "1993-03-18",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "1993 NHL game footage: Tampa Bay Lightning vs. Toronto Maple Leafs, featuring Richmond Sockeye alumnus Matt Hervey.",
+    "descriptionLong": "Game footage from March 18, 1993, showing an NHL matchup between the Tampa Bay Lightning and Toronto Maple Leafs. The clip highlights Richmond Sockeyes alumnus Matt Hervey in play, likely in a notable moment against Wendel Clark. This segment captures Hervey's professional career trajectory following his junior-A playing era.",
+    "url": "/media/videos/1993-03-18-nhl-tampa-bay-lightning-v-toronto-maple-leafs-r-matt-hervey-v-wendel-clark.mp4",
+    "tags": [
+      "game-footage",
+      "nhl",
+      "pro-career",
+      "matt-hervey",
+      "archival"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "kansas-city-star-1997-04-17-statement-about-richmond",
+    "type": "newspaper",
+    "date": "1997-04-17",
+    "access": "public",
+    "thumb": "/assets/vault/kansas-city-star-1997-04-17-statement-about-richmond.jpg",
+    "descriptionShort": "Statement About Richmond",
+    "descriptionLong": "Kansas City Star retrospective piece mentioning the Richmond Sockeyes' 1987 Centennial Cup championship, published April 17, 1997.",
+    "tags": [
+      "retrospective"
+    ],
+    "url": "/assets/vault/kansas-city-star-1997-04-17-statement-about-richmond.jpg",
     "attribution": {
-      "paper": "The Vancouver Sun"
+      "paper": "Kansas City Star"
     },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-05-11-sockeyes-win-centennial-cup",
-    "type": "newspaper",
-    "date": "1987-05-11",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-05-11-sockeyes-win-centennial-cup.jpg",
-    "descriptionShort": "Sockeyes Win Centennial Cup",
-    "descriptionLong": "Vancouver Sun front-page announcement of the Richmond Sockeyes' Centennial Cup championship victory, May 11, 1987.",
+    "id": "video-2001-00-00-2001-orland-kurtenbach",
+    "type": "video",
+    "date": "2001-01-01",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Orlando Kurtenbach in 2001, likely a pro-career game or interview segment.",
+    "descriptionLong": "This 2001 video features Orlando Kurtenbach, a 1987 Richmond Sockeyes alumnus, during his post-junior professional era. The exact context is unclear—it may be game footage from an AHL or IHL stint, or an interview. The \"2001\" date and alumnus name suggest a mid-career or retrospective segment.",
+    "url": "/media/videos/2001-00-00-2001-orland-kurtenbach.mp4",
     "tags": [
-      "centennial-cup",
-      "final",
-      "recap"
+      "pro-career",
+      "ahl",
+      "ihl",
+      "interview"
     ],
-    "url": "/assets/vault/vansun-1987-05-11-sockeyes-win-centennial-cup.jpg",
-    "attribution": {
-      "paper": "The Vancouver Sun"
-    },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-05-04-centennial-cup",
-    "type": "newspaper",
-    "date": "1987-05-04",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-05-04-centennial-cup.jpg",
-    "descriptionShort": "Centennial Cup – Vancouver Sun, May 4",
-    "descriptionLong": "Vancouver Sun preview or coverage of the Centennial Cup tournament, May 4, 1987.",
+    "id": "video-2010-10-09-after-hours-with-canucks-legends-1-2-hd",
+    "type": "video",
+    "date": "2010-10-09",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Canucks legends discuss hockey in an after-hours casual setting from October 2010.",
+    "descriptionLong": "An informal after-hours conversation featuring Vancouver Canucks legends, recorded in October 2010. The video appears to be part of a two-part series capturing veteran players in a relaxed off-ice setting discussing their experiences and career memories.",
+    "url": "/media/videos/2010-10-09-after-hours-with-canucks-legends-1-2-hd.mp4",
     "tags": [
-      "centennial-cup",
-      "final"
+      "interview",
+      "pro-career",
+      "archival"
     ],
-    "url": "/assets/vault/vansun-1987-05-04-centennial-cup.jpg",
-    "attribution": {
-      "paper": "The Vancouver Sun"
-    },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-05-02-sockeyes-profile-page-1",
-    "type": "newspaper",
-    "date": "1987-05-02",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-05-02-sockeyes-profile-page-1.jpg",
-    "descriptionShort": "Sockeyes Profile – Page 1",
-    "descriptionLong": "Vancouver Sun two-part team profile of the Richmond Sockeyes ahead of the Centennial Cup, page 1, May 2, 1987.",
+    "id": "video-2010-10-26-canucks-ring-of-honour-orland-kurtenbach-hd",
+    "type": "video",
+    "date": "2010-10-26",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Orland Kurtenbach inducted into Vancouver Canucks Ring of Honour ceremony in 2010.",
+    "descriptionLong": "Archival footage from October 2010 capturing Orland Kurtenbach's induction into the Vancouver Canucks Ring of Honour. This is a notable pro-career milestone for the former Canucks captain, though connection to the 1987 Richmond Sockeyes is ambiguous and may be peripheral to the primary archive focus.",
+    "url": "/media/videos/2010-10-26-canucks-ring-of-honour-orland-kurtenbach-hd.mp4",
     "tags": [
-      "centennial-cup",
-      "profile"
+      "canucks",
+      "ring-of-honour",
+      "ceremony",
+      "pro-career"
     ],
-    "url": "/assets/vault/vansun-1987-05-02-sockeyes-profile-page-1.jpg",
-    "attribution": {
-      "paper": "The Vancouver Sun"
-    },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-05-02-sockeyes-profile-page-2",
-    "type": "newspaper",
-    "date": "1987-05-02",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-05-02-sockeyes-profile-page-2.jpg",
-    "descriptionShort": "Sockeyes Profile – Page 2",
-    "descriptionLong": "Vancouver Sun two-part team profile of the Richmond Sockeyes ahead of the Centennial Cup, page 2, May 2, 1987.",
+    "id": "video-2012-00-00-orland-kurtenbach-2012-induction-video",
+    "type": "video",
+    "date": "2012-01-01",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Orland Kurtenbach's 2012 Hall of Fame induction video presentation.",
+    "descriptionLong": "Video documenting Orland Kurtenbach's 2012 Hall of Fame induction, likely featuring highlights from his playing career, biographical summary, and induction ceremony remarks. Kurtenbach was a notable figure in BC junior hockey history.",
+    "url": "/media/videos/2012-00-00-orland-kurtenbach-2012-induction-video.mp4",
     "tags": [
-      "centennial-cup",
-      "profile"
+      "hof-induction",
+      "ceremony",
+      "pro-career",
+      "archival"
     ],
-    "url": "/assets/vault/vansun-1987-05-02-sockeyes-profile-page-2.jpg",
-    "attribution": {
-      "paper": "The Vancouver Sun"
-    },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-04-09-red-deer-fan-incident",
-    "type": "newspaper",
-    "date": "1987-04-09",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-04-09-red-deer-fan-incident.jpg",
-    "descriptionShort": "Red Deer Fan Incident",
-    "descriptionLong": "Vancouver Sun report on a fan incident during the Richmond Sockeyes vs. Red Deer series in the Abbott Cup, April 9, 1987.",
+    "id": "video-2016-00-00-2016-saskatchewan-hockey-hall-of-fame-orland-kurtenbach",
+    "type": "video",
+    "date": "2016-01-01",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Orland Kurtenbach's 2016 Saskatchewan Hockey Hall of Fame induction ceremony or speech.",
+    "descriptionLong": "This video documents Orland Kurtenbach's induction into the Saskatchewan Hockey Hall of Fame in 2016. The footage likely captures the ceremony, speech, or recognition of this notable hockey figure's career achievements and contributions to the sport in Saskatchewan.",
+    "url": "/media/videos/2016-00-00-2016-saskatchewan-hockey-hall-of-fame-orland-kurtenbach.mp4",
     "tags": [
-      "abbott-cup",
-      "semifinal"
+      "hof-induction",
+      "ceremony",
+      "speech",
+      "pro-career"
     ],
-    "url": "/assets/vault/vansun-1987-04-09-red-deer-fan-incident.jpg",
-    "attribution": {
-      "paper": "The Vancouver Sun"
-    },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-05-07-centennial-cup-vs-humboldt",
-    "type": "newspaper",
-    "date": "1987-05-07",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-05-07-centennial-cup-vs-humboldt.jpg",
-    "descriptionShort": "Centennial Cup vs. Humboldt",
-    "descriptionLong": "Vancouver Sun coverage of the Richmond Sockeyes vs. Humboldt Broncos Centennial Cup final, May 7, 1987.",
+    "id": "video-2025-01-26-ted-irvine-who-was-the-nastiest-player",
+    "type": "video",
+    "date": "2025-01-26",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Ted Irvine discusses who was the nastiest player on the 1987 Sockeyes.",
+    "descriptionLong": "Ted Irvine, a member of the 1987 Richmond Sockeyes Centennial Cup championship team, shares his perspective on which teammate or opponent was known for the most aggressive or physical play. This appears to be an interview segment from the 2025 HOF reunion or banner-night commemoration events celebrating the team's legacy.",
+    "url": "/media/videos/2025-01-26-ted-irvine-who-was-the-nastiest-player.mp4",
     "tags": [
-      "centennial-cup",
-      "final",
-      "recap"
+      "hof-induction",
+      "interview",
+      "banner-night"
     ],
-    "url": "/assets/vault/vansun-1987-05-07-centennial-cup-vs-humboldt.jpg",
-    "attribution": {
-      "paper": "The Vancouver Sun"
-    },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-04-29-mcdougall-headbutt",
-    "type": "newspaper",
-    "date": "1987-04-29",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-04-29-mcdougall-headbutt.jpg",
-    "descriptionShort": "McDougall Headbutt Incident",
-    "descriptionLong": "Vancouver Sun report on a headbutt incident involving Sockeyes player McDougall during the Abbott Cup, April 29, 1987.",
+    "id": "video-2025-01-26-the-making-of-canuck-captains-with-jim-robson-orland-kurtenbach-feature",
+    "type": "video",
+    "date": "2025-01-26",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Jim Robson and Orland Kurtenbach discuss the making of Vancouver Canucks captains in this 2025 feature interview.",
+    "descriptionLong": "A 2025 feature interview with legendary Vancouver Canucks broadcaster Jim Robson and former captain Orland Kurtenbach exploring the history and selection process of Canucks team captains. While not directly focused on the 1987 Richmond Sockeyes, this archival content may include retrospective commentary relevant to alumni who went on to professional careers.",
+    "url": "/media/videos/2025-01-26-the-making-of-canuck-captains-with-jim-robson-orland-kurtenbach-feature.mp4",
     "tags": [
-      "abbott-cup",
-      "final"
+      "interview",
+      "pro-career",
+      "archival"
     ],
-    "url": "/assets/vault/vansun-1987-04-29-mcdougall-headbutt.jpg",
-    "attribution": {
-      "paper": "The Vancouver Sun"
-    },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-04-08-photo-vs-red-deer",
-    "type": "newspaper",
-    "date": "1987-04-08",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-04-08-photo-vs-red-deer.jpg",
-    "descriptionShort": "Vancouver Sun photograph from the Abbott Cup semifinal against the Red Deer Rustlers, April 8 1987.",
-    "descriptionLong": "A photograph carried in The Vancouver Sun on April 8, 1987, accompanying coverage of the Sockeyes' Abbott Cup semifinal series against the Red Deer Rustlers, the AJHL champions. Richmond went on to win the series and advance to the national Centennial Cup.",
+    "id": "video-2025-02-14-18-52-06",
+    "type": "video",
+    "date": "2025-02-14",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Richmond Sockeyes 2025 banner-night or HOF reunion event from February 14.",
+    "descriptionLong": "Footage from a 2025 Richmond Sockeyes commemoration event, likely a banner-night or BC Hockey Hall of Fame reunion held on February 14. The generic timestamp filename suggests candid event coverage. Content likely includes alumni gathering, speeches, or ceremonial moments honoring the 1987 Centennial Cup championship team.",
+    "url": "/media/videos/2025-02-14-18-52-06.mp4",
     "tags": [
-      "abbott-cup",
-      "semifinal",
-      "photo"
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "2025"
     ],
-    "url": "/assets/vault/vansun-1987-04-08-photo-vs-red-deer.jpg",
-    "attribution": {
-      "paper": "The Vancouver Sun"
-    },
     "relatedGames": []
   },
   {
-    "id": "vansun-1987-03-25-sockeyes-beat-kelowna",
-    "type": "newspaper",
-    "date": "1987-03-25",
-    "access": "public",
-    "thumb": "/assets/vault/vansun-1987-03-25-sockeyes-beat-kelowna.jpg",
-    "descriptionShort": "Sockeyes Beat Kelowna",
-    "descriptionLong": "Vancouver Sun report on the Richmond Sockeyes defeating Kelowna in the Doyle Cup playoffs, March 25, 1987.",
+    "id": "video-2025-02-18-16-47-13",
+    "type": "video",
+    "date": "2025-02-18",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "2025 Richmond Sockeyes HOF reunion or banner-night event footage from February 18th ceremony.",
+    "descriptionLong": "This video captures moments from the February 18, 2025 Richmond Sockeyes commemoration event, likely featuring the BC Hockey Hall of Fame reunion, banner-night ceremony, or related tribute activities celebrating the 1987 Centennial Cup championship team and its legacy.",
+    "url": "/media/videos/2025-02-18-16-47-13.mp4",
     "tags": [
-      "doyle-cup",
-      "recap"
+      "banner-night",
+      "hof-induction",
+      "ceremony"
     ],
-    "url": "/assets/vault/vansun-1987-03-25-sockeyes-beat-kelowna.jpg",
-    "attribution": {
-      "paper": "The Vancouver Sun"
-    },
     "relatedGames": []
   },
   {
-    "id": "times-colonist-1987-05-08-sockeyes-vs-pembroke-box",
-    "type": "newspaper",
-    "date": "1987-05-08",
-    "access": "public",
-    "thumb": "/assets/vault/times-colonist-1987-05-08-sockeyes-vs-pembroke-box.jpg",
-    "descriptionShort": "Sockeyes vs. Pembroke – Box Score",
-    "descriptionLong": "Victoria Times Colonist box score for the Richmond Sockeyes vs. Pembroke Lumber Kings Centennial Cup semifinal, May 8, 1987.",
+    "id": "video-2025-02-18-16-47-44",
+    "type": "video",
+    "date": "2025-02-18",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "2025 Richmond Sockeyes banner-night or Hall of Fame reunion event footage from February 18.",
+    "descriptionLong": "Recorded on February 18, 2025, this video captures a modern commemoration event for the 1987 Richmond Sockeyes. Based on the 2025 date, it likely documents the banner-night celebration and/or BC Hockey Hall of Fame induction reunion. Context from filename alone is ambiguous regarding specific ceremony or speech content.",
+    "url": "/media/videos/2025-02-18-16-47-44.mp4",
     "tags": [
-      "centennial-cup",
-      "semifinal",
-      "box-score"
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "2025"
     ],
-    "url": "/assets/vault/times-colonist-1987-05-08-sockeyes-vs-pembroke-box.jpg",
-    "attribution": {
-      "paper": "Times Colonist"
-    },
     "relatedGames": []
   },
   {
-    "id": "times-colonist-1987-05-08-sockeyes-vs-pembroke",
-    "type": "newspaper",
-    "date": "1987-05-08",
-    "access": "public",
-    "thumb": "/assets/vault/times-colonist-1987-05-08-sockeyes-vs-pembroke.jpg",
-    "descriptionShort": "Sockeyes vs. Pembroke",
-    "descriptionLong": "Victoria Times Colonist game report on the Richmond Sockeyes vs. Pembroke Lumber Kings Centennial Cup semifinal, May 8, 1987.",
+    "id": "video-2025-03-07-20-42-23",
+    "type": "video",
+    "date": "2025-03-07",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Richmond Sockeyes 2025 banner-night or Hall of Fame reunion event footage from March 7.",
+    "descriptionLong": "This video captures content from the 2025 Richmond Sockeyes commemoration events, likely from the banner-night or BC Hockey Hall of Fame reunion held in March 2025. The timestamp and recent date indicate this is modern archival footage documenting the team's legacy celebration, potentially including interviews, ceremonies, or speeches honoring the 1987 Centennial Cup champions and their alumni.",
+    "url": "/media/videos/2025-03-07-20-42-23.mp4",
     "tags": [
-      "centennial-cup",
-      "semifinal",
-      "recap"
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "2025"
     ],
-    "url": "/assets/vault/times-colonist-1987-05-08-sockeyes-vs-pembroke.jpg",
-    "attribution": {
-      "paper": "Times Colonist"
-    },
     "relatedGames": []
   },
   {
-    "id": "times-colonist-1987-05-04-sockeyes-vs-dartmouth",
-    "type": "newspaper",
-    "date": "1987-05-04",
-    "access": "public",
-    "thumb": "/assets/vault/times-colonist-1987-05-04-sockeyes-vs-dartmouth.jpg",
-    "descriptionShort": "Sockeyes vs. Dartmouth",
-    "descriptionLong": "Victoria Times Colonist coverage of the Richmond Sockeyes vs. Dartmouth Subways in the Centennial Cup, May 4, 1987.",
+    "id": "video-2025-03-13-21-12-23",
+    "type": "video",
+    "date": "2025-03-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "2025 Richmond Sockeyes HOF banner-night reunion ceremony from March 13th featuring alumni speeches and commemorations.",
+    "descriptionLong": "Footage from the 2025 Richmond Sockeyes banner-night and BC Hockey Hall of Fame reunion event held on March 13th. The video likely captures opening ceremonies, speeches from team alumni, and commemoration activities celebrating the 1987 Centennial Cup championship team's induction or honor.",
+    "url": "/media/videos/2025-03-13-21-12-23.mp4",
     "tags": [
-      "centennial-cup",
-      "semifinal",
-      "recap"
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "speech"
     ],
-    "url": "/assets/vault/times-colonist-1987-05-04-sockeyes-vs-dartmouth.jpg",
-    "attribution": {
-      "paper": "Times Colonist"
-    },
     "relatedGames": []
   },
   {
-    "id": "centennial-cup-program-1-of-3",
-    "type": "program",
-    "date": "1987-05-01",
-    "access": "public",
-    "thumb": "/assets/vault/centennial-cup-program-1-of-3-thumb.jpg",
-    "descriptionShort": "1987 Centennial Cup Souvenir Program – Part 1 of 3",
-    "descriptionLong": "First section of the official 1987 Centennial Cup souvenir program, scanned from the original booklet.",
+    "id": "video-2025-03-13-21-13-20",
+    "type": "video",
+    "date": "2025-03-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "2025 Richmond Sockeyes banner-night or HOF reunion event ceremony footage.",
+    "descriptionLong": "This video appears to be from the 2025 Richmond Sockeyes commemoration event, likely a banner-night or BC Hockey Hall of Fame reunion ceremony filmed on March 13, 2025. The exact content—whether induction speech, team ceremony, or reunion gathering—cannot be determined from the timestamp alone; context about the specific event would clarify.",
+    "url": "/media/videos/2025-03-13-21-13-20.mp4",
     "tags": [
-      "centennial-cup"
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "2025"
     ],
-    "url": "/assets/vault/centennial-cup-program-1-of-3.pdf",
     "relatedGames": []
   },
   {
-    "id": "centennial-cup-program-2-of-3",
-    "type": "program",
-    "date": "1987-05-01",
-    "access": "public",
-    "thumb": "/assets/vault/centennial-cup-program-2-of-3-thumb.jpg",
-    "descriptionShort": "1987 Centennial Cup Souvenir Program – Part 2 of 3",
-    "descriptionLong": "Second section of the official 1987 Centennial Cup souvenir program, scanned from the original booklet.",
+    "id": "video-2025-03-13-21-14-14",
+    "type": "video",
+    "date": "2025-03-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "2025 Richmond Sockeyes banner-night or HOF reunion event footage from March 13.",
+    "descriptionLong": "This video from March 13, 2025, appears to capture a Richmond Sockeyes commemorative event, likely part of the 2025 banner-night celebrations or BC Hockey Hall of Fame reunion activities. The exact content is unclear from the timestamp-based filename alone, but the 2025 date suggests it is modern ceremony or interview footage from the team's anniversary or HOF induction events.",
+    "url": "/media/videos/2025-03-13-21-14-14.mp4",
     "tags": [
-      "centennial-cup"
+      "banner-night",
+      "hof-induction",
+      "ceremony"
     ],
-    "url": "/assets/vault/centennial-cup-program-2-of-3.pdf",
     "relatedGames": []
   },
   {
-    "id": "centennial-cup-program-3-of-3",
-    "type": "program",
-    "date": "1987-05-01",
-    "access": "public",
-    "thumb": "/assets/vault/centennial-cup-program-3-of-3-thumb.jpg",
-    "descriptionShort": "1987 Centennial Cup Souvenir Program – Part 3 of 3",
-    "descriptionLong": "Third section of the official 1987 Centennial Cup souvenir program, scanned from the original booklet.",
+    "id": "video-2025-04-22-17-44-39",
+    "type": "video",
+    "date": "2025-04-22",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "2025 Richmond Sockeyes banner-night or HOF reunion ceremony footage from April 22.",
+    "descriptionLong": "This April 2025 video is likely from the Richmond Sockeyes banner-night celebration or BC Hockey Hall of Fame induction event. The timestamp suggests an afternoon or evening recording. Content may include ceremony remarks, player recognition, or alumni reunion activities commemorating the 1987 Centennial Cup championship team.",
+    "url": "/media/videos/2025-04-22-17-44-39.mp4",
     "tags": [
-      "centennial-cup"
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "2025"
     ],
-    "url": "/assets/vault/centennial-cup-program-3-of-3.pdf",
-    "relatedGames": []
-  },
-  {
-    "id": "abbott-cup-program",
-    "type": "program",
-    "date": "1987-04-01",
-    "access": "public",
-    "thumb": "/assets/vault/abbott-cup-program-thumb.jpg",
-    "descriptionShort": "1987 Abbott Cup Souvenir Program",
-    "descriptionLong": "Official 1987 Abbott Cup souvenir program featuring the Richmond Sockeyes and other competing teams.",
-    "tags": [
-      "abbott-cup"
-    ],
-    "url": "/assets/vault/abbott-cup-program.pdf",
-    "relatedGames": []
-  },
-  {
-    "id": "centennial-cup-team-photo",
-    "type": "photo",
-    "date": "1987-05-11",
-    "access": "public",
-    "thumb": "/assets/vault/centennial-cup-team-photo.jpg",
-    "descriptionShort": "Centennial Cup – Team Photo",
-    "descriptionLong": "Team photograph of the Richmond Sockeyes taken at the 1987 Centennial Cup championship.",
-    "tags": [
-      "centennial-cup",
-      "team-photo",
-      "final"
-    ],
-    "url": "/assets/vault/centennial-cup-team-photo.jpg",
-    "relatedGames": []
-  },
-  {
-    "id": "mowat-cup-celebration",
-    "type": "photo",
-    "date": "1987-01-01",
-    "access": "public",
-    "thumb": "/assets/vault/mowat-cup-celebration.jpg",
-    "descriptionShort": "Mowat Cup Celebration",
-    "descriptionLong": "Photograph of the Richmond Sockeyes celebrating their Mowat Cup championship win.",
-    "tags": [
-      "mowat-cup",
-      "photo"
-    ],
-    "url": "/assets/vault/mowat-cup-celebration.jpg",
     "relatedGames": []
   },
   {
@@ -833,8 +1286,14 @@
     "url": "/assets/vault/hof-2025/team-horiz.jpg",
     "descriptionShort": "1987 Sockeyes team group photo at the 2025 BCHHoF induction, Penticton.",
     "descriptionLong": "The full 1987 Richmond Sockeyes team reunited for the first time in 38 years at the 2025 British Columbia Hockey Hall of Fame induction ceremony, held July 12 2025 at the South Okanagan Events Centre in Penticton. Photo by Emanuel Sequeira.",
-    "attribution": { "paper": "Emanuel Sequeira" },
-    "tags": ["hof-2025","reunion","team-photo"]
+    "attribution": {
+      "paper": "Emanuel Sequeira"
+    },
+    "tags": [
+      "hof-2025",
+      "reunion",
+      "team-photo"
+    ]
   },
   {
     "id": "hof-2025-sequeira-captain-horiz",
@@ -845,8 +1304,14 @@
     "url": "/assets/vault/hof-2025/captain-horiz.jpg",
     "descriptionShort": "1986-87 captain Trevor Dickie at the 2025 BCHHoF induction (horizontal).",
     "descriptionLong": "Trevor Dickie, captain of the 1986-87 Richmond Sockeyes, at the 2025 British Columbia Hockey Hall of Fame induction ceremony in Penticton. Photo by Emanuel Sequeira.",
-    "attribution": { "paper": "Emanuel Sequeira" },
-    "tags": ["hof-2025","dickie","captain"]
+    "attribution": {
+      "paper": "Emanuel Sequeira"
+    },
+    "tags": [
+      "hof-2025",
+      "dickie",
+      "captain"
+    ]
   },
   {
     "id": "hof-2025-sequeira-captain-vert",
@@ -857,8 +1322,14 @@
     "url": "/assets/vault/hof-2025/captain-vert.jpg",
     "descriptionShort": "1986-87 captain Trevor Dickie at the 2025 BCHHoF induction (vertical).",
     "descriptionLong": "Trevor Dickie, captain of the 1986-87 Richmond Sockeyes, at the 2025 British Columbia Hockey Hall of Fame induction ceremony in Penticton (vertical framing). Photo by Emanuel Sequeira.",
-    "attribution": { "paper": "Emanuel Sequeira" },
-    "tags": ["hof-2025","dickie","captain"]
+    "attribution": {
+      "paper": "Emanuel Sequeira"
+    },
+    "tags": [
+      "hof-2025",
+      "dickie",
+      "captain"
+    ]
   },
   {
     "id": "hof-2025-sequeira-tomlinson-speech",
@@ -869,58 +1340,14 @@
     "url": "/assets/vault/hof-2025/tomlinson-speech.jpg",
     "descriptionShort": "Dave Tomlinson delivering the induction acceptance speech, July 2025.",
     "descriptionLong": "Dave Tomlinson, leading scorer for the 1986-87 Richmond Sockeyes, delivers the team's acceptance speech at the 2025 British Columbia Hockey Hall of Fame induction ceremony in Penticton. Photo by Emanuel Sequeira.",
-    "attribution": { "paper": "Emanuel Sequeira" },
-    "tags": ["hof-2025","tomlinson","speech"]
-  },
-  {
-    "id": "hof-2025-induction-hughson-intro-pt1",
-    "type": "video",
-    "date": "2025-07-13",
-    "access": "private",
-    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
-    "descriptionShort": "Jim Hughson introduces the 1987 Sockeyes induction, part 1.",
-    "descriptionLong": "BCHHoF chair Jim Hughson opens the 1987 Richmond Sockeyes induction segment at the 2025 ceremony, introducing the team's regular-season dominance and playoff run. Part 1 of 2.",
-    "tags": ["hof-2025","induction","hughson"]
-  },
-  {
-    "id": "hof-2025-induction-hughson-intro-pt2",
-    "type": "video",
-    "date": "2025-07-13",
-    "access": "private",
-    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
-    "descriptionShort": "Jim Hughson introduces the 1987 Sockeyes induction, part 2.",
-    "descriptionLong": "BCHHoF chair Jim Hughson continues the introduction, covering the 1987 Centennial Cup final and the team's legacy. Part 2 of 2.",
-    "tags": ["hof-2025","induction","hughson"]
-  },
-  {
-    "id": "hof-2025-dickie-speech-pt1",
-    "type": "video",
-    "date": "2025-07-13",
-    "access": "private",
-    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
-    "descriptionShort": "Trevor Dickie acceptance speech on behalf of the 1987 team, part 1.",
-    "descriptionLong": "Captain Trevor Dickie delivers the first half of the acceptance speech on behalf of the 1986-87 Richmond Sockeyes at the 2025 BCHHoF induction.",
-    "tags": ["hof-2025","dickie","speech"]
-  },
-  {
-    "id": "hof-2025-dickie-speech-pt2",
-    "type": "video",
-    "date": "2025-07-13",
-    "access": "private",
-    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
-    "descriptionShort": "Trevor Dickie acceptance speech on behalf of the 1987 team, part 2.",
-    "descriptionLong": "Captain Trevor Dickie completes the acceptance speech on behalf of the 1986-87 Richmond Sockeyes at the 2025 BCHHoF induction.",
-    "tags": ["hof-2025","dickie","speech"]
-  },
-  {
-    "id": "hof-2025-tomlinson-speech",
-    "type": "video",
-    "date": "2025-07-13",
-    "access": "private",
-    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
-    "descriptionShort": "Dave Tomlinson acceptance remarks on behalf of the 1987 team.",
-    "descriptionLong": "Dave Tomlinson, leading scorer for the 1986-87 Richmond Sockeyes, delivers remarks at the 2025 BCHHoF induction ceremony.",
-    "tags": ["hof-2025","tomlinson","speech"]
+    "attribution": {
+      "paper": "Emanuel Sequeira"
+    },
+    "tags": [
+      "hof-2025",
+      "tomlinson",
+      "speech"
+    ]
   },
   {
     "id": "hof-2025-display-case",
@@ -930,7 +1357,11 @@
     "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
     "descriptionShort": "Walkthrough of the 1987 Sockeyes display case at the BCHHoF venue.",
     "descriptionLong": "Walkthrough of the display case showcasing 1986-87 Richmond Sockeyes memorabilia at the 2025 BCHHoF induction ceremony venue in Penticton.",
-    "tags": ["hof-2025","display-case","memorabilia"]
+    "tags": [
+      "hof-2025",
+      "display-case",
+      "memorabilia"
+    ]
   },
   {
     "id": "hof-2025-interview-dickie",
@@ -940,7 +1371,11 @@
     "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
     "descriptionShort": "Interview with 1986-87 captain Trevor Dickie at the 2025 induction weekend.",
     "descriptionLong": "On-site interview with Trevor Dickie, captain of the 1986-87 Richmond Sockeyes, recorded during the 2025 BCHHoF induction weekend in Penticton.",
-    "tags": ["hof-2025","dickie","interview"]
+    "tags": [
+      "hof-2025",
+      "dickie",
+      "interview"
+    ]
   },
   {
     "id": "hof-2025-interview-phillips",
@@ -950,7 +1385,11 @@
     "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
     "descriptionShort": "Interview with Jason Phillips at the 2025 induction weekend.",
     "descriptionLong": "On-site interview with Jason Phillips, 1987 Centennial Cup hat-trick scorer and All-Star team selection, recorded during the 2025 BCHHoF induction weekend.",
-    "tags": ["hof-2025","phillips","interview"]
+    "tags": [
+      "hof-2025",
+      "phillips",
+      "interview"
+    ]
   },
   {
     "id": "hof-2025-interview-gunn",
@@ -960,7 +1399,11 @@
     "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
     "descriptionShort": "Interview with Jim Gunn at the 2025 induction weekend.",
     "descriptionLong": "On-site interview with Jim Gunn, Prince George-raised 1986-87 defenceman, recorded during the 2025 BCHHoF induction weekend.",
-    "tags": ["hof-2025","gunn","interview"]
+    "tags": [
+      "hof-2025",
+      "gunn",
+      "interview"
+    ]
   },
   {
     "id": "hof-2025-interview-moro",
@@ -970,6 +1413,378 @@
     "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
     "descriptionShort": "Interview with Greg Moro at the 2025 induction weekend.",
     "descriptionLong": "On-site interview with Greg Moro, 1986-87 Richmond Sockeyes staff, recorded during the 2025 BCHHoF induction weekend.",
-    "tags": ["hof-2025","moro","interview"]
+    "tags": [
+      "hof-2025",
+      "moro",
+      "interview"
+    ]
+  },
+  {
+    "id": "video-2025-07-12-display-case",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Display case footage from the 2025 Richmond Sockeyes Hall of Fame banquet night event.",
+    "descriptionLong": "Video showcasing the Sockeyes memorabilia display case at the 2025 banner-night / BC Hockey Hall of Fame reunion event on July 12, 2025. Likely features photographs, trophies, jerseys, and artifacts commemorating the 1987 Centennial Cup championship team and its legacy.",
+    "url": "/media/videos/2025-07-12-display-case.mov",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "archival"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-12-img-2250",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Richmond Sockeyes banner-night ceremony footage from July 2025 HOF event.",
+    "descriptionLong": "Video from the July 12, 2025 Richmond Sockeyes banner-night celebration and BC Hockey Hall of Fame reunion. Likely captures ceremony moments, team reunion activities, or Hall of Fame induction proceedings from the modern commemoration event honoring the 1987 Centennial Cup championship team.",
+    "url": "/media/videos/2025-07-12-img-2250.mov",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "2025"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-12-interview-greg-moro",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Greg Moro interviewed at 2025 Richmond Sockeyes banner-night and Hall of Fame reunion event.",
+    "descriptionLong": "Interview with Greg Moro, former Richmond Sockeyes player, recorded during the 2025 July banner-night celebration and BC Hockey Hall of Fame induction reunion. Captures reflections on the 1987 Centennial Cup championship season and the team's legacy nearly four decades later.",
+    "url": "/media/videos/2025-07-12-interview-greg-moro.mov",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "interview"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-12-interview-jason-phillips",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Interview with Jason Phillips from the 2025 Richmond Sockeyes banner-night / HOF reunion event.",
+    "descriptionLong": "Jason Phillips, a member of the 1987 Richmond Sockeyes Centennial Cup championship team, is interviewed at the 2025 banner-night or BC Hockey Hall of Fame reunion event. The interview captures his reflections on the team's historic season and legacy nearly four decades later.",
+    "url": "/media/videos/2025-07-12-interview-jason-phillips.mov",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "interview"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-12-interview-jim-gunn",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Jim Gunn interview filmed at the 2025 Richmond Sockeyes banner-night and Hall of Fame celebration event.",
+    "descriptionLong": "Interview with Jim Gunn conducted during the 2025 Richmond Sockeyes banner-night and BC Hockey Hall of Fame commemoration. Gunn was a key member of the 1987 Centennial Cup championship team. The interview likely covers his memories of the team's success, career trajectory after Richmond, and reflections on the historical significance of the 1987 season.",
+    "url": "/media/videos/2025-07-12-interview-jim-gunn.mov",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "interview"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-12-interview-trevor-dickie",
+    "type": "video",
+    "date": "2025-07-12",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Interview with Trevor Dickie from the 2025 Richmond Sockeyes Hall of Fame reunion event.",
+    "descriptionLong": "This is an interview with Trevor Dickie recorded during the 2025 Richmond Sockeyes banner-night and BC Hockey Hall of Fame commemoration events. Dickie was a member of the 1987 Centennial Cup-winning team and shares memories and reflections from that historic season.",
+    "url": "/media/videos/2025-07-12-interview-trevor-dickie.mov",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "interview"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "hof-2025-induction-hughson-intro-pt1",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Jim Hughson introduces the 1987 Sockeyes induction, part 1.",
+    "descriptionLong": "BCHHoF chair Jim Hughson opens the 1987 Richmond Sockeyes induction segment at the 2025 ceremony, introducing the team's regular-season dominance and playoff run. Part 1 of 2.",
+    "tags": [
+      "hof-2025",
+      "induction",
+      "hughson"
+    ]
+  },
+  {
+    "id": "hof-2025-induction-hughson-intro-pt2",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Jim Hughson introduces the 1987 Sockeyes induction, part 2.",
+    "descriptionLong": "BCHHoF chair Jim Hughson continues the introduction, covering the 1987 Centennial Cup final and the team's legacy. Part 2 of 2.",
+    "tags": [
+      "hof-2025",
+      "induction",
+      "hughson"
+    ]
+  },
+  {
+    "id": "hof-2025-dickie-speech-pt1",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Trevor Dickie acceptance speech on behalf of the 1987 team, part 1.",
+    "descriptionLong": "Captain Trevor Dickie delivers the first half of the acceptance speech on behalf of the 1986-87 Richmond Sockeyes at the 2025 BCHHoF induction.",
+    "tags": [
+      "hof-2025",
+      "dickie",
+      "speech"
+    ]
+  },
+  {
+    "id": "hof-2025-dickie-speech-pt2",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Trevor Dickie acceptance speech on behalf of the 1987 team, part 2.",
+    "descriptionLong": "Captain Trevor Dickie completes the acceptance speech on behalf of the 1986-87 Richmond Sockeyes at the 2025 BCHHoF induction.",
+    "tags": [
+      "hof-2025",
+      "dickie",
+      "speech"
+    ]
+  },
+  {
+    "id": "hof-2025-tomlinson-speech",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Dave Tomlinson acceptance remarks on behalf of the 1987 team.",
+    "descriptionLong": "Dave Tomlinson, leading scorer for the 1986-87 Richmond Sockeyes, delivers remarks at the 2025 BCHHoF induction ceremony.",
+    "tags": [
+      "hof-2025",
+      "tomlinson",
+      "speech"
+    ]
+  },
+  {
+    "id": "video-2025-07-13-11-26-34",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Sockeyes banner-night or HOF ceremony footage from July 2025 reunion event.",
+    "descriptionLong": "This July 2025 video appears to capture moments from the Richmond Sockeyes' banner-night or BC Hockey Hall of Fame induction ceremony. Based on the recent date, it likely documents the modern commemoration or reunion event honoring the historic 1987 Centennial Cup championship team.",
+    "url": "/media/videos/2025-07-13-11-26-34.mp4",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "2025"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-13-img-2444",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Richmond Sockeyes alumni gather at 2025 banner-night or Hall of Fame commemoration event.",
+    "descriptionLong": "This July 2025 video captures a moment from the Richmond Sockeyes' modern reunion and Hall of Fame induction events. The footage likely documents alumni, staff, or community members at a banner-night ceremony or official BC Hockey Hall of Fame recognition celebrating the legendary 1987 Centennial Cup–winning team.",
+    "url": "/media/videos/2025-07-13-img-2444.mp4",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "archival"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-13-img-7487",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "2025 banner-night or HOF ceremony footage from July 13 event.",
+    "descriptionLong": "Video captured on July 13, 2025 during the Richmond Sockeyes banner-night or BC Hockey Hall of Fame reunion event. The image-file naming suggests candid or documentary-style footage from the 2025 commemoration ceremony. Context and specific content details are ambiguous from filename alone.",
+    "url": "/media/videos/2025-07-13-img-7487.mp4",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "ceremony"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-13-induction-01-jim-hughson-intro-part-1",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Jim Hughson introduces the 1987 Richmond Sockeyes HOF induction ceremony on July 13, 2025.",
+    "descriptionLong": "Part one of Jim Hughson's opening remarks at the BC Hockey Hall of Fame induction ceremony honoring the 1987 Richmond Sockeyes Centennial Cup championship team. Hughson sets the stage for the evening's celebration and tribute to this historic junior-A squad.",
+    "url": "/media/videos/2025-07-13-induction-01-jim-hughson-intro-part-1.mp4",
+    "tags": [
+      "hof-induction",
+      "ceremony",
+      "speech",
+      "banner-night"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-13-induction-02-jim-hughson-part-2",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Jim Hughson's second-part induction speech at the 2025 Richmond Sockeyes Hall of Fame ceremony.",
+    "descriptionLong": "This is the second part of Jim Hughson's induction speech delivered at the 2025 Richmond Sockeyes BC Hockey Hall of Fame reunion event on July 13. Hughson, a notable hockey personality connected to the 1987 Centennial Cup-winning team, shares memories and reflections during the formal HOF induction ceremony.",
+    "url": "/media/videos/2025-07-13-induction-02-jim-hughson-part-2.mp4",
+    "tags": [
+      "hof-induction",
+      "speech",
+      "ceremony",
+      "banner-night"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-13-induction-03-trevor-dickie-speech-part-1",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Trevor Dickie delivers the first part of his BC Hockey Hall of Fame induction speech on July 13, 2025.",
+    "descriptionLong": "Part one of Trevor Dickie's speech during his induction into the BC Hockey Hall of Fame at the 2025 Richmond Sockeyes banner-night / reunion ceremony. Dickie, a key member of the 1987 Centennial Cup-winning team, reflects on his junior-A hockey career and the significance of the team's historic championship season.",
+    "url": "/media/videos/2025-07-13-induction-03-trevor-dickie-speech-part-1.mp4",
+    "tags": [
+      "hof-induction",
+      "speech",
+      "banner-night",
+      "trevor-dickie"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-13-induction-04-trevor-dickie-speech-part-2",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Trevor Dickie delivers part 2 of his induction speech at the 2025 BC Hockey Hall of Fame ceremony.",
+    "descriptionLong": "Part 2 of Trevor Dickie's speech at the July 13, 2025 BC Hockey Hall of Fame induction ceremony honoring the 1987 Richmond Sockeyes. Dickie, a key member of the Centennial Cup-winning team, continues his remarks about his junior hockey career and the team's historic season.",
+    "url": "/media/videos/2025-07-13-induction-04-trevor-dickie-speech-part-2.mp4",
+    "tags": [
+      "hof-induction",
+      "speech",
+      "ceremony",
+      "trevor-dickie"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-13-induction-05-dave-tomlinson-speech",
+    "type": "video",
+    "date": "2025-07-13",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Dave Tomlinson delivers a speech during his 2025 Hall of Fame induction ceremony.",
+    "descriptionLong": "Dave Tomlinson, a key member of the 1987 Richmond Sockeyes Centennial Cup championship team, shares remarks during his BC Hockey Hall of Fame induction on July 13, 2025. The video captures his speech at the commemoration event honoring the legendary junior-A roster.",
+    "url": "/media/videos/2025-07-13-induction-05-dave-tomlinson-speech.mp4",
+    "tags": [
+      "hof-induction",
+      "speech",
+      "ceremony",
+      "banner-night"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-14-13-36-27",
+    "type": "video",
+    "date": "2025-07-14",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Richmond Sockeyes banner-night or HOF ceremony footage from July 2025 event.",
+    "descriptionLong": "Video captured on July 14, 2025, likely documenting part of the Richmond Sockeyes 2025 banner-night or BC Hockey Hall of Fame reunion event. Without additional context in the filename, the specific content—whether ceremony, speech, or interview segment—cannot be determined with certainty.",
+    "url": "/media/videos/2025-07-14-13-36-27.mp4",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "ceremony"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-14-13-36-58",
+    "type": "video",
+    "date": "2025-07-14",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Richmond Sockeyes HOF bannernight ceremony or induction event footage from July 2025.",
+    "descriptionLong": "Footage from the 2025 BC Hockey Hall of Fame banner-night or team reunion event honoring the 1987 Richmond Sockeyes Centennial Cup champions. The July 14 timestamp suggests a summer celebration or ceremony. Without additional filename context, this likely captures ceremonial moments, speeches, or HOF induction proceedings.",
+    "url": "/media/videos/2025-07-14-13-36-58.mp4",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "ceremony"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-07-14-13-58-20",
+    "type": "video",
+    "date": "2025-07-14",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "Richmond Sockeyes 2025 banner-night or Hall of Fame event footage from July 14th.",
+    "descriptionLong": "Captured on July 14, 2025, this video appears to be from the 2025 Richmond Sockeyes banner-night or BC Hockey Hall of Fame reunion event. The timestamp suggests a daytime recording. Without additional filename context, the specific activity—whether ceremony, speech, interview, or general event coverage—remains ambiguous.",
+    "url": "/media/videos/2025-07-14-13-58-20.mp4",
+    "tags": [
+      "banner-night",
+      "hof-induction",
+      "ceremony",
+      "2025-event"
+    ],
+    "relatedGames": []
+  },
+  {
+    "id": "video-2025-09-26-banner-night-ceremony",
+    "type": "video",
+    "date": "2025-09-26",
+    "access": "private",
+    "thumb": "/assets/vault/hof-2025/thumbs/video-placeholder.jpg",
+    "descriptionShort": "2025 banner-night ceremony honoring the 1987 Richmond Sockeyes Centennial Cup championship team.",
+    "descriptionLong": "Footage from the September 26, 2025 banner-night ceremony celebrating the 1987 Richmond Sockeyes' historic Centennial Cup victory. The event features the official raising of the championship banner and recognition of the team's legacy during the BC Hockey Hall of Fame reunion weekend.",
+    "url": "/media/videos/2025-09-26-banner-night-ceremony.mp4",
+    "tags": [
+      "banner-night",
+      "ceremony",
+      "hof-induction",
+      "1987-sockeyes"
+    ],
+    "relatedGames": []
   }
 ]

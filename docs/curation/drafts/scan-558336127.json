@@ -1,0 +1,20 @@
+{
+  "id": "scan-558336127",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score and game summary of Richmond Sockeyes defeating Red Deer 7–3 in Doyle Cup playoff series (best-of-seven tied 3–3).",
+  "descriptionLong": "Box score and detailed game summary from April 15, 1987, showing Richmond Sockeyes defeating Red Deer 7–3 in a Doyle Cup playoff game. The series was tied 3–3 in the best-of-seven matchup. Richmond scored multiple goals in the first period, with Clarke, Bobbitt, and Tomlinson recording early markers. The Sockeyes added two more goals in the third period to secure the victory.",
+  "attribution": {
+    "paper": "Red Deer Advocate",
+    "headline": "DOYLE CUP PLAYOFFS: RICHMOND 7, RED DEER 3",
+    "page": "p15",
+    "imageId": "558336127"
+  },
+  "tags": [
+    "doyle-cup",
+    "playoff",
+    "box-score",
+    "recap"
+  ]
+}

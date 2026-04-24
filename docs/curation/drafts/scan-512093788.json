@@ -1,0 +1,19 @@
+{
+  "id": "scan-512093788",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Centennial Cup tournament coverage: Humboldt defeats Pembroke 4-2 with Ryhorchuk's tip-in goal; Richmond Sockeyes beat Dartmouth 7-3.",
+  "descriptionLong": "At the Centennial Cup tournament in Humboldt, Duncan Ryhorchuk's tipped point shot gave the host Broncos a 4-2 victory over Pembroke to secure a playoff spot. Coach Bernie Lynch praised Ryhorchuk as a hardworking \"grinder\" type player. Richmond Sockeyes defeated Dartmouth Fuel Kids 7-3 on Sunday, following Humboldt's 7-2 win over Dartmouth on Saturday.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Ryhorchuk's Goal Helps Humboldt Past Pembroke",
+    "page": "p13",
+    "imageId": "512093788"
+  },
+  "tags": [
+    "centennial-cup",
+    "recap",
+    "playoff"
+  ]
+}

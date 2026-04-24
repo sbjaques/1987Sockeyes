@@ -1,0 +1,19 @@
+{
+  "id": "scan-512098543",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score of Richmond Sockeyes' 5-2 victory over Humboldt in the Centennial Cup championship final.",
+  "descriptionLong": "Richmond defeated Humboldt 5-2 in the Centennial Cup championship final on May 11, 1987. Tomlinson, Phillips (twice), and Rutherford scored for Richmond, with Humboldt goals from Chamberlin and Luke. Richmond goaltender Romeo and Humboldt's Hoffort managed shots of 23-46 respectively. The box score includes complete penalty details and power-play statistics.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Richmond 5 Humboldt 2 Championship Final Saturday",
+    "page": "p14",
+    "imageId": "512098543"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "box-score"
+  ]
+}

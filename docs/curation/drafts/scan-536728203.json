@@ -1,0 +1,18 @@
+{
+  "id": "scan-536728203",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Article about sports first aid practices and trainer Greg Moro, mentioning his work with the Richmond Sockeyes.",
+  "descriptionLong": "An article in The Abbotsford News discusses the differences between conventional first aid and sports first aid, featuring Greg Moro, a 17-year veteran sports first aid instructor. The piece mentions Moro's experience as a trainer for various teams, including this year's Centennial Cup Champion Richmond Sockeyes, and explains the RICE system for treating sports injuries.",
+  "attribution": {
+    "paper": "The Abbotsford News",
+    "headline": "Sports First Aid: More Than Initial Treatment",
+    "page": "p24",
+    "imageId": "536728203"
+  },
+  "tags": [
+    "centennial-cup",
+    "feature"
+  ]
+}

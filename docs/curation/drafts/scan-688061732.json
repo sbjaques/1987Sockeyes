@@ -1,0 +1,18 @@
+{
+  "id": "scan-688061732",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score excerpt from Richmond Sockeyes game against Quesnel showing goal scorers and penalties.",
+  "descriptionLong": "Game summary excerpt featuring Richmond Sockeyes scoring details and penalty information. Goals credited to Phillips, Claringbull, and Czenczek for Richmond. Multiple penalties assessed to both Richmond and Quesnel players throughout the game, including high sticking, roughing, and other infractions.",
+  "attribution": {
+    "paper": "Quesnel Cariboo Observer",
+    "page": "C1",
+    "imageId": "688061732"
+  },
+  "tags": [
+    "box-score",
+    "bcjhl",
+    "regular-season"
+  ]
+}

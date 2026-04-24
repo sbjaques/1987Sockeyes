@@ -1,0 +1,17 @@
+{
+  "id": "scan-561478790",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Article on first aid practices featuring mention of Richmond Sockeyes as Centennial Cup champion trainer.",
+  "descriptionLong": "An article about sports first aid practices quotes trainer Moro, who has worked with various teams including the 1987 Centennial Cup Champion Richmond Sockeyes. The piece contrasts conventional first aid techniques with sports-specific injury treatment, using a soccer ankle injury example to illustrate the \"RICE\" system (rest, ice, compression, elevation) for managing sports-related injuries.",
+  "attribution": {
+    "paper": "The Sunday News",
+    "page": "p20",
+    "imageId": "561478790"
+  },
+  "tags": [
+    "centennial-cup",
+    "feature"
+  ]
+}

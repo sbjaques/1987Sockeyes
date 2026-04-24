@@ -1,0 +1,19 @@
+{
+  "id": "scan-511198663",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "University of Saskatchewan Huskies ice hockey game box scores and player statistics from November 1987 regular season.",
+  "descriptionLong": "Box scores and statistics from two University of Saskatchewan Huskies ice hockey games on November 30, 1987. The Huskies defeated UBC 8-1 and Saskatchewan 5-3. Detailed goal scorers, penalty information, and season statistics for Saskatchewan players including Morrison (21 goals, 35 points) and Leier (26 points) are provided.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Huskies Scoring",
+    "page": "p25",
+    "imageId": "511198663"
+  },
+  "tags": [
+    "regular-season",
+    "box-score",
+    "recap"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "scan-558334897",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Centennial Cup West semifinal box score and game summary for Richmond vs. Red Deer playoff series.",
+  "descriptionLong": "Box score and detailed game summary from the Centennial Cup West semifinal series between Richmond and Red Deer. Richmond defeated Red Deer 6–4 in Wednesday's game to lead the series 2–0. The summary includes all goals, penalties, and shots on goal. Richmond's Hervey scored multiple times, with assists from Czenczek, Tomlinson, and Rutherford. Attendance was 800.",
+  "attribution": {
+    "paper": "Red Deer Advocate",
+    "headline": "Centennial Cup West Semifinal",
+    "page": "p14",
+    "imageId": "558334897"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "box-score",
+    "recap"
+  ]
+}

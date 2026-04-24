@@ -1,0 +1,19 @@
+{
+  "id": "scan-512095951",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Article covering tensions between teams at the 1987 Centennial Cup and college scholarship recruitment of participating players.",
+  "descriptionLong": "The Star-Phoenix reports on controversy during the 1987 Centennial Cup in Humboldt, with Richmond Sockeyes coach Orland Kurtenbach commenting on sportsmanship concerns involving Humboldt Broncos player Bernie Lynch. The article also highlights multiple players from participating teams receiving NCAA scholarships, including Richmond's Dave Tomlinson to Boston University and Mike McCormick to an undisclosed school.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Centennial Cup tension and college recruitment",
+    "page": "p19",
+    "imageId": "512095951"
+  },
+  "tags": [
+    "centennial-cup",
+    "feature",
+    "profile"
+  ]
+}

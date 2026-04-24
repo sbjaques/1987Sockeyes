@@ -1,0 +1,19 @@
+{
+  "id": "scan-1107105211",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Article on Winnipeg Jets' AHL franchise arrangement with Moncton Hawks and roster updates for upcoming season.",
+  "descriptionLong": "The Times-Transcript reports on the Winnipeg Jets' continued commitment to their AHL franchise in Moncton for the 1988-89 season. Jets general manager John Ferguson expresses interest in a long-term deal, while Hawks ownership remains cautious after the previous season's poor performance. Coach Rick Bowness promises a competitive team. The article notes nine players, including Matt Hervey, Ron Wilson, and Bob Essansa, were assigned to Moncton following the Jets' exhibition game against Minnesota.",
+  "attribution": {
+    "paper": "The Times-Transcript",
+    "headline": "Moncton Hawks, Winnipeg Jets Explore Long-Term Arrangement",
+    "page": "p29",
+    "imageId": "1107105211"
+  },
+  "tags": [
+    "ahl-hockey",
+    "moncton-hawks",
+    "winnipeg-jets"
+  ]
+}

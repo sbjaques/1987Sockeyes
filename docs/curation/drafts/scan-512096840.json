@@ -1,0 +1,19 @@
+{
+  "id": "scan-512096840",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Centennial Cup round-robin game box score between Humboldt and Richmond on May 7, 1987.",
+  "descriptionLong": "Box score and game summary from Centennial Cup round-robin play in Humboldt, Saskatchewan. Humboldt defeated Richmond 6–7 in a contest featuring multiple penalties and fights. The match included detailed scoring summaries by period, penalty information, and shot totals (Humboldt 37, Richmond 19). A semi-final matchup between Pembroke and Richmond was scheduled for that evening.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Centennial Cup Round-Robin Results",
+    "page": "p20",
+    "imageId": "512096840"
+  },
+  "tags": [
+    "centennial-cup",
+    "box-score",
+    "round-robin"
+  ]
+}

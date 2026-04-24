@@ -1,0 +1,20 @@
+{
+  "id": "scan-558336223",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Red Deer Rustlers 9-1 in Game 7 of Western Canada Centennial Cup semifinal.",
+  "descriptionLong": "The Richmond Sockeyes advanced past the Red Deer Rustlers with a decisive 9-1 victory in the seventh and final game of the Western Canada Centennial Cup semifinal series on Thursday night. Despite the lopsided result, the Rustlers faced their elimination with composure in the dressing room. This victory propelled the Sockeyes toward the national junior-A championship.",
+  "attribution": {
+    "paper": "Red Deer Advocate",
+    "headline": "Centennial Cup Semifinal: Richmond Sockeyes Defeat Red Deer Rustlers",
+    "byline": "Greg Meachem",
+    "page": "p1",
+    "imageId": "558336223"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

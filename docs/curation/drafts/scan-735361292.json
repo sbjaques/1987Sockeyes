@@ -1,0 +1,20 @@
+{
+  "id": "scan-735361292",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Winnipeg Jets pre-season game article featuring goaltender Rick Tabaracci's demotion and rookie Shawn Cronin's physical play.",
+  "descriptionLong": "The Winnipeg Sun reports on a Jets-Canucks pre-season game and roster moves. Goaltender Rick Tabaracci was reassigned to the farmclub Moncton Hawks after allowing 10 goals in two pre-season games. Rookie defenceman Shawn Cronin impressed with physical play despite skating limitations. The Jets tied Vancouver 3-3, with goals from Dale Hawerchuk, Matt Hervey, and Dave McIlwain.",
+  "attribution": {
+    "paper": "The Winnipeg Sun",
+    "headline": "his dues",
+    "byline": "BRIAN SMILEY",
+    "page": "p39",
+    "imageId": "735361292"
+  },
+  "tags": [
+    "preview",
+    "feature",
+    "photo"
+  ]
+}

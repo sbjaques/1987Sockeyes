@@ -1,0 +1,19 @@
+{
+  "id": "scan-512309668",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes beat Red Deer Rustlers 9-1 in Centennial Cup Western semi-final game seven.",
+  "descriptionLong": "Dave Tomlinson scored three goals as the visiting Richmond Sockeyes defeated the Red Deer Rustlers 9-1 in game seven of the Centennial Cup Western semi-final on Thursday. Richmond erupted for five goals in the second period after a scoreless first. The Sockeyes advance to face the Humboldt Broncos in the Western best-of-seven final, with the opening game Monday in Humboldt.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Richmond Sockeyes defeat Red Deer Rustlers in Centennial Cup Western semi-final",
+    "page": "p44",
+    "imageId": "512309668"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

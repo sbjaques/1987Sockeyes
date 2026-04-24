@@ -1,0 +1,20 @@
+{
+  "id": "scan-502033093",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Centennial Cup all-star team selections announced, featuring three Humboldt players, two from Richmond, and one from Pembroke.",
+  "descriptionLong": "The Centennial Cup all-star team was selected before semifinal play in Humboldt, Saskatchewan on May 10, 1987. Humboldt dominated the selection with centre Bill McDougall (tied for round-robin scoring lead with 7 points), defenceman Rob Rice, and right wing Duncan Ryhorchuk. Richmond contributed left wing Jason Phillips (second in scoring with 6 points) and defenceman Matt Hervey. Pembroke's Grant Robb was the sole goaltender named.",
+  "attribution": {
+    "paper": "The Province",
+    "headline": "Centennial Cup All-Stars Named",
+    "byline": "Frank Luba",
+    "page": "p90",
+    "imageId": "502033093"
+  },
+  "tags": [
+    "centennial-cup",
+    "feature",
+    "all-star-team"
+  ]
+}

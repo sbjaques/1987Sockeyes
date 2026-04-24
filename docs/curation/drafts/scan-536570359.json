@@ -1,0 +1,20 @@
+{
+  "id": "scan-536570359",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "B.C. Junior Hockey League playoff statistics and final standings for 1987, featuring Richmond Sockeyes tournament results.",
+  "descriptionLong": "The Abbotsford News published B.C. Junior Hockey League playoff statistics on April 11, 1987. Richmond Sockeyes advanced through playoffs undefeated, sweeping the league final 5–0 against Kelowna Packers and maintaining perfect 4–0 records in semifinals and quarterfinals. Top scorers included Kerry Russell (Kelowna), Dean Rutledge and Dave Tomlinson (Richmond), and Jason Phillips (Richmond).",
+  "attribution": {
+    "paper": "The Abbotsford News",
+    "headline": "B.C. Junior Hockey League final statistics: Playoffs",
+    "page": "p34",
+    "imageId": "536570359"
+  },
+  "tags": [
+    "bcjhl",
+    "playoff",
+    "standings",
+    "box-score"
+  ]
+}

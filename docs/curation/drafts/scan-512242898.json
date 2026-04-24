@@ -1,0 +1,17 @@
+{
+  "id": "scan-512242898",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score from Saskatchewan vs. UBC college hockey game on November 29, 1986.",
+  "descriptionLong": "Box score and game summary from a college hockey matchup between Saskatchewan and UBC on November 29, 1986, published in the Star-Phoenix. Saskatchewan defeated UBC with goals from Sakundiak, Morrison, and others. The game featured multiple penalties and power-play opportunities, with Saskatchewan converting 3 of 12 power plays while UBC was 0-for-8.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "page": "p69",
+    "imageId": "512242898"
+  },
+  "tags": [
+    "box-score",
+    "regular-season"
+  ]
+}

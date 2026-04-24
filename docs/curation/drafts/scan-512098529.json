@@ -1,0 +1,19 @@
+{
+  "id": "scan-512098529",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 5-2 to win the 1987 Centennial Cup championship.",
+  "descriptionLong": "The Richmond Sockeyes defeated the Humboldt Broncos 5-2 on May 9, 1987, at the Uniplex in Humboldt to capture the Centennial Cup, Canada's junior-A hockey championship. Goaltender Frank Romeo was named MVP of both the final game and the tournament, while winger Jason Phillips earned the tournament's most gentlemanly player award. Coach Orland Kurtenbach won the championship in his first year with Richmond, while losing coach Bernie Lynch reflected on Humboldt's record and the team's future.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Sockeyes win Centennial Cup",
+    "page": "p13",
+    "imageId": "512098529"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}
