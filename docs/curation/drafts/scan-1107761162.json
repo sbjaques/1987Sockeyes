@@ -1,0 +1,19 @@
+{
+  "id": "scan-1107761162",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Moncton Hawks defeat PEI Senators 4-1 in AHL game; Dave Tomlinson returns from Winnipeg Jets stint.",
+  "descriptionLong": "The Moncton Hawks defeated the Prince Edward Island Senators 4-1 in an American Hockey League game at the Coliseum before 2,650 spectators. Hawks forward Dave Tomlinson returned to the lineup after a 23-game stint with the NHL's Winnipeg Jets. The win improves Moncton's record to 31-26-3 and solidifies their hold on second place in the Atlantic Division, trailing St. John's by eight points.",
+  "attribution": {
+    "paper": "The Times-Transcript",
+    "headline": "Hawks solidify hold on second place",
+    "byline": "Dwayne Tingley",
+    "page": "p17",
+    "imageId": "1107761162"
+  },
+  "tags": [
+    "recap",
+    "ahl"
+  ]
+}

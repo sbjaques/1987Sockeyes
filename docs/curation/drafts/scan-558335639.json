@@ -1,0 +1,18 @@
+{
+  "id": "scan-558335639",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box scores from Richmond Sockeyes playoff games against Red Deer, April 11-12, 1987.",
+  "descriptionLong": "Detailed box scores covering Richmond's playoff series against Red Deer Rebels in April 1987. Saturday, April 11: Richmond lost 3-6 to Red Deer. Sunday, April 12: Richmond lost 1-7 to Red Deer. Includes period-by-period scoring, goal scorers with assists, penalties, and shots on goal. Series tied 2-2 entering Game 5 scheduled for Tuesday.",
+  "attribution": {
+    "paper": "Red Deer Advocate",
+    "page": "p9",
+    "imageId": "558335639"
+  },
+  "tags": [
+    "playoff",
+    "box-score",
+    "doyle-cup"
+  ]
+}

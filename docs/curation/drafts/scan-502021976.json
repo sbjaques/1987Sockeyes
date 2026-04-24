@@ -1,0 +1,21 @@
+{
+  "id": "scan-502021976",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 5-4 to win Abbott Cup 4-3 series, advancing to Centennial Cup.",
+  "descriptionLong": "The Richmond Sockeyes defeated the Humboldt Broncos 5-4 in Game 7 of the Abbott Cup Western Canadian junior-A championship series, winning 4-3. As B.C. champions, the Sockeyes have now eliminated Nanaimo, Delta, Kelowna, and Red Deer. The Broncos, as Centennial Cup hosts in Humboldt, will face Richmond again starting Saturday in the Canadian championship tournament.",
+  "attribution": {
+    "paper": "The Province",
+    "headline": "Sockeyes Add Humboldt Broncos to Hit List",
+    "byline": "Frank Luba",
+    "page": "p12",
+    "imageId": "502021976"
+  },
+  "tags": [
+    "abbott-cup",
+    "playoff",
+    "recap",
+    "centennial-cup"
+  ]
+}

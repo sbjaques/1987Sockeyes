@@ -1,0 +1,20 @@
+{
+  "id": "scan-508633163",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes win the Centennial Cup championship with a 5-2 victory over Humboldt Broncos.",
+  "descriptionLong": "The Richmond Sockeyes defeated the Humboldt Broncos 5-2 on Saturday night in Humboldt, Saskatchewan, to win the Canadian Tier II Junior A hockey championship. Jason Phillips scored three goals, while Paul Rutherford and Dave Tomlinson added one each. Goaltender Frank Romeo made 46 saves and was named tournament MVP, holding the Sockeyes' opponents to just 23 shots.",
+  "attribution": {
+    "paper": "Times Colonist",
+    "headline": "Sockeyes win Centennial Cup",
+    "byline": "The Canadian Press",
+    "page": "p1",
+    "imageId": "508633163"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

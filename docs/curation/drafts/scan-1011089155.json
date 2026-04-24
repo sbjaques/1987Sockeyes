@@ -1,0 +1,19 @@
+{
+  "id": "scan-1011089155",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes win Centennial Cup championship with 5-2 victory over Humboldt Broncos.",
+  "descriptionLong": "Jason Phillips scored three goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-2 to win the Centennial Cup Tier Two junior-A hockey championship in Humboldt, Saskatchewan on May 10, 1987. Goaltender Frank Romeo earned MVP honours in the four-team roundrobin series, stopping 46 shots. Paul Rutherford and Dave Tomlinson also scored for Richmond in the winning effort.",
+  "attribution": {
+    "paper": "The Hamilton Spectator",
+    "headline": "Sockeyes Win Centennial Cup Championship",
+    "page": "p34",
+    "imageId": "1011089155"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

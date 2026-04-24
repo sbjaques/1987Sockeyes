@@ -1,0 +1,19 @@
+{
+  "id": "scan-496462357",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Red Deer Rustlers 9-1 to win Centennial Cup Western semi-final 4-3, advancing to face Humboldt Broncos.",
+  "descriptionLong": "Dave Tomlinson scored three goals as the Richmond Sockeyes routed the Red Deer Rustlers 9-1 on Thursday, winning the Centennial Cup Western best-of-seven semi-final 4-3 in Red Deer. The Sockeyes advance to play the Humboldt Broncos in the championship round. The article also covers other Canadian hockey results, including the Brantford Mott's Clamatos defeating St. John's Caps in the Allan Cup Eastern final.",
+  "attribution": {
+    "paper": "The Leader-Post",
+    "headline": "Richmond Sockeyes Advance in Centennial Cup",
+    "page": "p28",
+    "imageId": "496462357"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

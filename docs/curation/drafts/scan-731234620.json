@@ -1,0 +1,19 @@
+{
+  "id": "scan-731234620",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Pembroke Lumber Kings 9-3 in Centennial Cup semifinal to advance to championship final against Humboldt Broncos.",
+  "descriptionLong": "The Richmond Sockeyes defeated Pembroke Lumber Kings 9-3 in a Centennial Cup junior-A hockey semifinal on May 7, 1987, to advance to the championship final. With a 2-1 round-robin record, Richmond will face Saskatchewan champion Humboldt Broncos in a sudden-death final on May 8. Goals were scored by Dickie, Jaques, Hervey, Kozak, Rutherford, Phillips, Bobbitt, Bryon, and Hardy. The Sockeyes led 1-0 after one period and 3-0 after two.",
+  "attribution": {
+    "paper": "The Daily Herald-Tribune",
+    "headline": "Sockeyes Advance to Centennial Cup Final",
+    "page": "p12",
+    "imageId": "731234620"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

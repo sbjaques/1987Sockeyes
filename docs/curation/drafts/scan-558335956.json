@@ -1,0 +1,20 @@
+{
+  "id": "scan-558335956",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score and summary of Centennial Cup West semifinal game between Richmond and Red Deer on April 7, 1987.",
+  "descriptionLong": "Game summary and box score for the Centennial Cup West semifinal between the Richmond Sockeyes and Red Deer Advocates on Tuesday, April 7, 1987. Red Deer defeated Richmond 7-5 in overtime, with Ward scoring the overtime winner at 0:59. The series standings show Red Deer leading the best-of-seven 3-2, with Game 6 scheduled for that evening at 7:30 p.m.",
+  "attribution": {
+    "paper": "Red Deer Advocate",
+    "headline": "Centennial Cup West Semifinal",
+    "page": "p23",
+    "imageId": "558335956"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "box-score",
+    "recap"
+  ]
+}

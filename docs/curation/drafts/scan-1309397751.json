@@ -1,0 +1,17 @@
+{
+  "id": "scan-1309397751",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Article mentions freshmen hockey players including Stan Czenczek from British Columbia.",
+  "descriptionLong": "A Maine Sunday Telegram article from January 1985 references freshman hockey players brought in by Coach Walsh, including Stan Czenczek and Dave Nonis from British Columbia, Todd Studnicka from Ontario, and Dewey Wahlin from Minnesota. The piece notes that Nonis and Wahlin emerged as top scorers, Studnicka plays center, and Czenczek developed into a solid defenseman.",
+  "attribution": {
+    "paper": "Maine Sunday Telegram",
+    "page": "p38",
+    "imageId": "1309397751"
+  },
+  "tags": [
+    "profile",
+    "feature"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "scan-512310237",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score excerpt from Richmond Sockeyes vs. Humboldt playoff game showing goals and penalties.",
+  "descriptionLong": "Game statistics from Richmond Sockeyes vs. Humboldt contest, displaying goals scored in the second and third periods with player credits. Notable Sockeyes scorers include Hervey, Phillips, and Richmond players Czenczek and Clarke. Penalty records list multiple infractions for both teams, including holding, slashing, roughing, and interference calls.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "page": "p43",
+    "imageId": "512310237"
+  },
+  "tags": [
+    "playoff",
+    "box-score"
+  ]
+}

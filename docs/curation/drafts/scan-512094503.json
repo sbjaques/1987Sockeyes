@@ -1,0 +1,20 @@
+{
+  "id": "scan-512094503",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Pembroke 4-0 in Centennial Cup round-robin game on May 4, 1987.",
+  "descriptionLong": "Richmond defeated Pembroke 4-0 in a round-robin game of the Centennial Cup junior-A championship tournament held in Humboldt, Saskatchewan on May 4, 1987. Goals were scored by Kozak, Czenczek, and Tomlinson (twice). Goaltender Romeo recorded the shutout. The tournament schedule shows subsequent games between other teams and Richmond's next matchup against Humboldt on Wednesday.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "Centennial Cup",
+    "page": "p17",
+    "imageId": "512094503"
+  },
+  "tags": [
+    "centennial-cup",
+    "round-robin",
+    "box-score",
+    "recap"
+  ]
+}

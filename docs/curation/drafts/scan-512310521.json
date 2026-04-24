@@ -1,0 +1,20 @@
+{
+  "id": "scan-512310521",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score of Richmond Sockeyes defeating Humboldt 5-3 in Centennial Cup Western final playoff game.",
+  "descriptionLong": "Richmond Sockeyes defeated Humboldt 5-3 in Game 2 of the Centennial Cup Western final on April 22, 1987, tying the best-of-seven series 1-1. Goals from Czenczek, Phillips (twice), Kozak, and others carried Richmond. The detailed box score includes all penalties, shots on goal (Humboldt 45, Richmond 31), and power-play statistics.",
+  "attribution": {
+    "paper": "Star-Phoenix",
+    "headline": "CENTENNIAL CUP Western final Richmond 5 Humboldt 3",
+    "page": "p38",
+    "imageId": "512310521"
+  },
+  "tags": [
+    "centennial-cup",
+    "box-score",
+    "playoff",
+    "western-final"
+  ]
+}

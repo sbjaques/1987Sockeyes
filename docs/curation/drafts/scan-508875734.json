@@ -1,0 +1,20 @@
+{
+  "id": "scan-508875734",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 5-3 in Centennial Cup playoff game; Phillips scores three goals.",
+  "descriptionLong": "In a Centennial Cup junior hockey playoff game on Tuesday night in Humboldt, Saskatchewan, the Richmond Sockeyes defeated the Humboldt Broncos 5-3. Jason Phillips scored three goals in the victory. The result tied the best-of-seven playoff series.",
+  "attribution": {
+    "paper": "Times Colonist",
+    "headline": "Richmond Sockeyes beat Humboldt Broncos 5-3",
+    "byline": "Canadian Press",
+    "page": "p14",
+    "imageId": "508875734"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

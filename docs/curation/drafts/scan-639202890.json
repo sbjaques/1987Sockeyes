@@ -1,0 +1,18 @@
+{
+  "id": "scan-639202890",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score and recap of Toronto Maple Leafs defeating Calgary Flames 3-2, with Dave Andreychuk scoring the game-winning goal in the third period.",
+  "descriptionLong": "Dave Andreychuk tipped a point shot past goaltender Trevor Kidd in the third period for his second goal to give Toronto a 3-2 victory over Calgary. The game featured two additional goals by Andreychuk and Wood for Toronto, while Calgary scored through Fleury and Zalapski. Toronto outshot Calgary 37-28 and converted on the power play in the third period.",
+  "attribution": {
+    "paper": "The Miami Herald",
+    "headline": "Maple Leafs 3, Flames 2 - Andreychuk Gets Winner",
+    "page": "p38",
+    "imageId": "639202890"
+  },
+  "tags": [
+    "box-score",
+    "recap"
+  ]
+}

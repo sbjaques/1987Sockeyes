@@ -1,0 +1,21 @@
+{
+  "id": "scan-324456989",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Nanaimo Clippers 8-4 in BCJHL game with 59 shots on goal.",
+  "descriptionLong": "Richmond Sockeyes dominated Nanaimo Clippers in a BCJHL matchup, winning 8-4 in a physical contest. Sockeyes' Matt Hervey, Dave Tomlinson, and Paul Rutherford each scored twice, with Mike McCormick and Russ Goglin adding singles. Richmond goalie Frank Romeo stopped 22 shots while the Sockeyes generated 59 total shots. Nanaimo's goals came from Parkes (36th) and Finner (23rd). The game featured a late third-period brawl involving six players from each team.",
+  "attribution": {
+    "paper": "Nanaimo Daily News",
+    "headline": "Clippers 2, Sockeyes 8",
+    "byline": "Michael Rhodet",
+    "page": "p9",
+    "imageId": "324456989"
+  },
+  "tags": [
+    "bcjhl",
+    "regular-season",
+    "recap",
+    "box-score"
+  ]
+}

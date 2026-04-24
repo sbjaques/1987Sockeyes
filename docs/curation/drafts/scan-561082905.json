@@ -1,0 +1,19 @@
+{
+  "id": "scan-561082905",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Port Coquitlam wins national junior hockey championship in overtime against Ontario visitor.",
+  "descriptionLong": "Port Coquitlam (PoCo) defeated an Ontario team in overtime to win the national junior hockey championship. Steve Penner scored the overtime winner for the third consecutive game. The victory capped a successful season that included a provincial title and gold medal in the Pop Styles pre-season tournament. The article notes that opposing coaches Phillips and Dan Walton were former BCJHL rivals, with Phillips having been a member of the Centennial Cup champion Richmond Sockeyes.",
+  "attribution": {
+    "paper": "The Sunday News",
+    "headline": "PoCo Wins National Championship in Overtime",
+    "page": "p47",
+    "imageId": "561082905"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

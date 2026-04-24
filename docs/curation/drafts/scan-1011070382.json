@@ -1,0 +1,20 @@
+{
+  "id": "scan-1011070382",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Pembroke Lumber Kings 9-3 in Centennial Cup semifinal to advance to championship final.",
+  "descriptionLong": "The Richmond Sockeyes advanced to the Centennial Cup junior-A hockey championship final by defeating the Ontario-champion Pembroke Lumber Kings 9-3 in a semifinal clash at Humboldt, Saskatchewan on May 9, 1987. The Sockeyes, who outshot Pembroke 44-32, scored goals from Dean Rutledge, Steve Jaques, Matt Hervey, Brian Kozak, Paul Rutherford, Jason Phillips, Tony Bobbitt, Mike McCormick, and Bill Hardy. They would face the undefeated Saskatchewan-champion Humboldt Broncos in the sudden-death final that night.",
+  "attribution": {
+    "paper": "The Hamilton Spectator",
+    "headline": "Sockeyes roll into tourney final",
+    "byline": "Spectator Wire Services",
+    "page": "p59",
+    "imageId": "1011070382"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

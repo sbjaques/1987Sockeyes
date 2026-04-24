@@ -1,0 +1,20 @@
+{
+  "id": "scan-502004009",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes win Centennial Cup championship with 5-2 victory over Humboldt Broncos.",
+  "descriptionLong": "The Richmond Sockeyes defeated the host Humboldt Broncos 5-2 on Saturday night to win the Canadian junior-A hockey championship Centennial Cup. Goaltender Frank Romeo anchored the Sockeyes with 44 saves and was named the tournament's most valuable player and Richmond's player of the game. The Revelstoke native's strong performance secured the championship for the team.",
+  "attribution": {
+    "paper": "The Province",
+    "headline": "Champagne shampoo",
+    "page": "p22",
+    "imageId": "502004009"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap",
+    "photo"
+  ]
+}

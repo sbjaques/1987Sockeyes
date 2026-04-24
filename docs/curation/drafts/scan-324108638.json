@@ -1,0 +1,20 @@
+{
+  "id": "scan-324108638",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "NHL news and scores from December 1992, including Gary Bettman's appointment as commissioner and Tampa Bay Lightning schedule.",
+  "descriptionLong": "This Tampa Bay Times page reports on NHL developments from December 11-12, 1992, including the Board of Governors' selection of Gary Bettman as the league's first commissioner. The page features game recaps, player statistics, and streaks, with notable performances by Theo Fleury and Teemu Selanne. It concludes with the Lightning's upcoming schedule through January.",
+  "attribution": {
+    "paper": "Tampa Bay Times",
+    "headline": "NHL News and Scores",
+    "page": "p15",
+    "imageId": "324108638"
+  },
+  "tags": [
+    "nhl",
+    "news",
+    "scores",
+    "1992"
+  ]
+}

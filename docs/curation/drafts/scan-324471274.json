@@ -1,0 +1,20 @@
+{
+  "id": "scan-324471274",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes lineup preview with player stats and coach Orland Kurtenbach's playoff strategy comments ahead of series against Nanaimo Clippers.",
+  "descriptionLong": "The Nanaimo Daily News previews an upcoming playoff matchup between the Richmond Sockeyes and Nanaimo Clippers. The article profiles Richmond's top scorers—Rob Clarke (65 goals in 49 games), Dave Tomlinson (43-65-108), and Brian Moller (27-64-91)—and goaltender Frank Romeo, who led the division with a 2.95 goals-against average. Coach Orland Kurtenbach discusses lineup matchups and emphasizes the importance of avoiding penalties, stating the team must play their type of game and keep the puck out of the net.",
+  "attribution": {
+    "paper": "Nanaimo Daily News",
+    "headline": "Sockeyes' Potent Lineup Takes On Clippers",
+    "page": "p11",
+    "imageId": "324471274"
+  },
+  "tags": [
+    "bcjhl",
+    "playoff",
+    "preview",
+    "box-score"
+  ]
+}

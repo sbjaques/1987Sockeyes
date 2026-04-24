@@ -1,0 +1,19 @@
+{
+  "id": "scan-1107421777",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Opinion column criticizing Winnipeg Jets' management for tolerating goaltender Daniel Berthiaume's insubordination and absence.",
+  "descriptionLong": "An opinion piece from The Times-Transcript examines the Winnipeg Jets' handling of troubled goaltender Daniel Berthiaume, who has twice refused to report to the AHL's Moncton Hawks. The column argues the Jets should trade Berthiaume rather than accept his disruptive behavior, noting interim GM Mike Smith's hesitation despite the team's other goaltending prospects. The article contrasts Berthiaume's conduct with veteran Gilles Hamel's professionalism.",
+  "attribution": {
+    "paper": "The Times-Transcript",
+    "headline": "Jets show too much patience with Bandit",
+    "page": "p41",
+    "imageId": "1107421777"
+  },
+  "tags": [
+    "nhl",
+    "opinion",
+    "profile"
+  ]
+}

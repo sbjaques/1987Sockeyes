@@ -1,0 +1,18 @@
+{
+  "id": "scan-536895890",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes player Tony Bobbitt scores for Coastal all-stars in hockey all-star game against Interior team.",
+  "descriptionLong": "An all-star hockey game between Coastal and Interior teams featured goals from multiple players including Richmond Sockeyes' Tony Bobbitt for the Coastal squad. The Interior team, led by Kelowna Packers goaltender Lucien Carignan, rallied to outscore the Coastal all-stars despite trailing 5-3 after two periods. Carignan earned MVP honors after shutting out the Coastal team in the final 30 minutes.",
+  "attribution": {
+    "paper": "The Abbotsford News",
+    "headline": "All-Star Hockey Game Results",
+    "page": "p14",
+    "imageId": "536895890"
+  },
+  "tags": [
+    "bcjhl",
+    "recap"
+  ]
+}

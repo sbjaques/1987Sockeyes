@@ -1,0 +1,20 @@
+{
+  "id": "scan-508877984",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 5-3 in Centennial Cup playoff game to lead series 3-2.",
+  "descriptionLong": "Matt Hervey scored two goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-3 in a Centennial Cup playoff game on Sunday night. The victory gave Richmond a 3-2 lead in the best-of-seven Western Canada Tier 2 junior final. Game six was scheduled in Richmond on April 28.",
+  "attribution": {
+    "paper": "Times Colonist",
+    "headline": "Eyes go up 3-2 in Tier 2 tussle",
+    "byline": "The Canadian Press",
+    "page": "p3",
+    "imageId": "508877984"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap"
+  ]
+}

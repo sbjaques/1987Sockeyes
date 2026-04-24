@@ -1,0 +1,16 @@
+{
+  "id": "scan-875335064",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "NHL Entry Draft selections from rounds 10-12, June 1989.",
+  "descriptionLong": "The Buffalo News publishes a comprehensive listing of NHL Entry Draft picks from the 10th, 11th, and 12th rounds conducted on June 18, 1989. The selection includes draft order numbers, teams, player names, positions, and their junior or collegiate affiliations. Notable picks include Vladimir Malakhov (New York Islanders), Trevor Buchanan from Kamloops WHL (Hartford), and Steve Jaques from Tri-Cities WHL (Los Angeles).",
+  "attribution": {
+    "paper": "The Buffalo News",
+    "page": "p57",
+    "imageId": "875335064"
+  },
+  "tags": [
+    "box-score"
+  ]
+}

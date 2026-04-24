@@ -1,0 +1,19 @@
+{
+  "id": "scan-325789553",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Sports notes mentioning Richmond Sockeyes' captain Clarke fighting and BCJHL standings with Nanaimo Clippers.",
+  "descriptionLong": "Column of sports notes from Nanaimo Daily News dated November 10, 1987. Mentions Richmond Sockeyes captain Clarke dropping gloves against Nanaimo Clippers' Jack Piechutta in a BCJHL game. Includes BCJHL standings showing Sockeyes leading with 11-8-1 record, Clippers in second with 10-6-1, and Whalers in third with 7-7-1.",
+  "attribution": {
+    "paper": "Nanaimo Daily News",
+    "headline": "Notes, quotes and leftovers from the wonderful world of sports",
+    "page": "p9",
+    "imageId": "325789553"
+  },
+  "tags": [
+    "bcjhl",
+    "regular-season",
+    "standings"
+  ]
+}

@@ -13,4 +13,5 @@ jobs:
       - run: npm ci
       - run: npm run validate:data
       - run: npm test
-      - run: npm run build
+      - run: npm run build:public
+      - run: npm run build:private

@@ -1,0 +1,15 @@
+{
+  "id": "scan-1107681995",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "NHL injury report listing player status updates for multiple teams as of December 1993.",
+  "descriptionLong": "An NHL injury and roster update report from December 1993 covering teams including Pittsburgh Penguins, Quebec Nordiques, St. Louis Blues, San Jose Sharks, Tampa Bay Lightning, Toronto Maple Leafs, Vancouver Canucks, and Washington Capitals. The report documents player injuries, return dates, and roster transactions across the league during early December 1993.",
+  "attribution": {
+    "paper": "The Times-Transcript",
+    "headline": "<UNKNOWN>",
+    "page": "p13",
+    "imageId": "1107681995"
+  },
+  "tags": []
+}

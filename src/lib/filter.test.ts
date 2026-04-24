@@ -3,9 +3,9 @@ import { filterMedia } from './filter';
 import type { MediaItem } from '../types/media';
 
 const items: MediaItem[] = [
-  { id:'a', type:'newspaper', title:'A', file:'/a.jpg', caption:'', tags:['centennial-cup'] },
-  { id:'b', type:'photo',     title:'B', file:'/b.jpg', caption:'', tags:['banner'] },
-  { id:'c', type:'newspaper', title:'C', file:'/c.jpg', caption:'', tags:['abbott-cup'] },
+  { id:'a', type:'newspaper', date:'1987-04-01', access:'public', thumb:'/a.jpg', descriptionShort:'A', descriptionLong:'', tags:['centennial-cup'] },
+  { id:'b', type:'photo',     date:'1987-05-01', access:'public', thumb:'/b.jpg', descriptionShort:'B', descriptionLong:'', tags:['banner'] },
+  { id:'c', type:'newspaper', date:'1987-04-15', access:'public', thumb:'/c.jpg', descriptionShort:'C', descriptionLong:'', tags:['abbott-cup'] },
 ];
 
 describe('filterMedia', () => {

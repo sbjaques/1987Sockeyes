@@ -1,0 +1,20 @@
+{
+  "id": "scan-324472605",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Nanaimo Clippers 7-4 in overtime in opening game of Coastal Division playoff series.",
+  "descriptionLong": "The Richmond Sockeyes defeated the Nanaimo Clippers 7-4 in overtime during the opening game of the B.C. Junior Hockey League Coastal Division semi-final playoff series on February 24. Brian Kozak scored the overtime winner at 3:28 of the extra period. The Clippers played evenly for 60 minutes but could not solve Richmond goalie Frank Romeo. Game two was scheduled for Richmond that night.",
+  "attribution": {
+    "paper": "Nanaimo Daily News",
+    "headline": "Clippers 4, Sockeyes 7",
+    "byline": "Michael Rhode",
+    "page": "p9",
+    "imageId": "324472605"
+  },
+  "tags": [
+    "bcjhl",
+    "playoff",
+    "recap"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "scan-508000096",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes player Russ Goglin receives game misconduct penalty in game against Victoria Cougars.",
+  "descriptionLong": "The Richmond Sockeyes faced the Victoria Cougars in a penalty-marred game where Russ Goglin of the Sockeyes and Graham Bewley of the Whalers each received major penalties and game misconducts with less than two minutes remaining. Frank Romeo made 22 saves for Richmond. The article also covers the Western Hockey League's response to player discipline and broader trends in junior hockey conduct.",
+  "attribution": {
+    "paper": "Times Colonist",
+    "headline": "Sockeye star socks Whalers",
+    "byline": "Dave Senick",
+    "page": "p11",
+    "imageId": "508000096"
+  },
+  "tags": [
+    "bcjhl",
+    "penalty",
+    "recap"
+  ]
+}

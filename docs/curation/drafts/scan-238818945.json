@@ -1,0 +1,17 @@
+{
+  "id": "scan-238818945",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Florida Panthers roster statistics and game recap from March 1995 NHL action.",
+  "descriptionLong": "This clipping from the South Florida Sun Sentinel (March 5, 1995) features Panthers player statistics and game notes from their contests. It includes a full roster box score with individual player stats and goaltender records, plus brief recaps of the Maple Leafs' 3-2 win over Calgary and the Canucks' 5-4 victory over Los Angeles. Notes highlight Dave Tomlinson's return to Cincinnati and Randy Moller's knee injury.",
+  "attribution": {
+    "paper": "South Florida Sun Sentinel",
+    "page": "p42",
+    "imageId": "238818945"
+  },
+  "tags": [
+    "box-score",
+    "recap"
+  ]
+}

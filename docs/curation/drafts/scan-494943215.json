@@ -1,0 +1,19 @@
+{
+  "id": "scan-494943215",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Hockey column comparing 1990 Royals team to 1987 Richmond Sockeyes championship squad, discussing ownership and budgets.",
+  "descriptionLong": "A Hockey Notebook column discusses the Richmond Royals' roster composition and spending, drawing comparisons to the 1987 Centennial Cup champion Richmond Sockeyes. Owner Bruce Taylor, a Burnaby businessman, fields both teams. The Royals' operating budget is stated at less than $140,000 officially, though insiders suggest higher totals. The column includes commentary from coach John Olver about the team's non-direct player compensation model and tournament details for the upcoming 1990 Centennial Cup.",
+  "attribution": {
+    "paper": "The Vancouver Sun",
+    "headline": "Hockey Notebook",
+    "page": "p11",
+    "imageId": "494943215"
+  },
+  "tags": [
+    "centennial-cup",
+    "feature",
+    "retrospective"
+  ]
+}

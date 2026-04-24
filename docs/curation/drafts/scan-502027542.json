@@ -1,0 +1,20 @@
+{
+  "id": "scan-502027542",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Centennial Cup results showing Richmond defeating Dartmouth 7-3 and tournament standings.",
+  "descriptionLong": "Sports results page from The Province dated May 4, 1987, featuring Centennial Cup junior-A hockey action in Humboldt. Richmond defeated Dartmouth 7-3 while Humboldt beat Pembroke 4-2. Round-robin standings show Humboldt at 2-0, Richmond at 1-1, with Pembroke and Dartmouth also listed. Attendance recorded at 8,033 with Pembroke vs. Richmond scheduled for that evening.",
+  "attribution": {
+    "paper": "The Province",
+    "headline": "Centennial Cup",
+    "page": "p18",
+    "imageId": "502027542"
+  },
+  "tags": [
+    "centennial-cup",
+    "bcjhl",
+    "box-score",
+    "recap"
+  ]
+}

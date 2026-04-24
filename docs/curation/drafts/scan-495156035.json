@@ -1,0 +1,19 @@
+{
+  "id": "scan-495156035",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "TV and event listings page featuring Richmond Sockeyes at Kelowna in B.C. Junior Championship Series.",
+  "descriptionLong": "Sports listings page from The Vancouver Sun dated March 21, 1987, covering hockey, soccer, football, and other sporting events. Includes B.C. Junior Championship Series matchup with Richmond leading Kelowna 3-0 in a best-of-nine final scheduled for 8:00 p.m., alongside NHL, Western League, and television broadcasts.",
+  "attribution": {
+    "paper": "The Vancouver Sun",
+    "headline": "TODAY HOCKEY",
+    "page": "p24",
+    "imageId": "495156035"
+  },
+  "tags": [
+    "bcjhl",
+    "playoff",
+    "preview"
+  ]
+}

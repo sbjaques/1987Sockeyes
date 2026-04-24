@@ -1,0 +1,18 @@
+{
+  "id": "scan-949130354",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Toronto Star hockey column covering NHL trades, AHL games, and player anecdotes from November 1992.",
+  "descriptionLong": "This Toronto Star sports section article from November 2, 1992, reports on multiple hockey developments: an NHL trade of defenceman Paul Cavallini from St. Louis to Washington for centre Kevin Miller; a record-setting 10-2 victory by the St. John's Maple Leafs over Hershey in the AHL with Yanic Perrault scoring three goals; and humorous anecdotes about NHL players, including Red Wings defenceman Dennis Vial's tax policy commentary and a Soviet player's experience at Denny's.",
+  "attribution": {
+    "paper": "The Toronto Star",
+    "headline": "Maple Leafs",
+    "page": "p14",
+    "imageId": "949130354"
+  },
+  "tags": [
+    "regular-season",
+    "recap"
+  ]
+}

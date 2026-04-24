@@ -1,0 +1,18 @@
+{
+  "id": "scan-496389832",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeated Juan De Fuca 6-1 in their quarter-final playoff series.",
+  "descriptionLong": "The Richmond Sockeyes defeated Juan De Fuca 6-1 in their quarter-final playoff matchup to win the series 4-2, advancing in playoff action. The article also covers other BCJHL quarter-final results, including Kelowna's victory over Penticton and Delta's win over Nanaimo.",
+  "attribution": {
+    "paper": "The Vancouver Sun",
+    "page": "p12",
+    "imageId": "496389832"
+  },
+  "tags": [
+    "bcjhl",
+    "playoff",
+    "recap"
+  ]
+}

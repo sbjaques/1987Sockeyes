@@ -1,0 +1,20 @@
+{
+  "id": "scan-560107428",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Richmond Sockeyes defeat Red Deer Rustlers 11-4 in Centennial Cup playoff semi-final game.",
+  "descriptionLong": "The Richmond Sockeyes dominated the Red Deer Rustlers 11-4 on April 7, 1987, in the opening game of a Centennial Cup playoff Western semi-final between BC and Alberta Tier II junior champions. Bill Hardy, Dave Tomlinson, and Matt Hervey each scored twice, while five other Sockeyes contributed goals. Richmond controlled play with period leads of 4-2 and 6-3, outshooting Red Deer 60-34. Game two was scheduled for the same evening in Richmond before shifting to Red Deer.",
+  "attribution": {
+    "paper": "Alberni Valley Times",
+    "headline": "Sockeyes Rout Rustlers 11-4",
+    "page": "p9",
+    "imageId": "560107428"
+  },
+  "tags": [
+    "centennial-cup",
+    "playoff",
+    "recap",
+    "box-score"
+  ]
+}

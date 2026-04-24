@@ -1,0 +1,19 @@
+{
+  "id": "scan-536573978",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Article listing BCJHL graduates currently playing U.S. college hockey, including former Richmond Sockeyes players.",
+  "descriptionLong": "Article highlights BCJHL graduates competing in U.S. college hockey. Players mentioned include former Richmond Sockeyes David Wensley, Bruce Major, Scott King, Steve Tuttle, and Paul Rutherford, along with graduates from Kelowna, Penticton, Vernon, Langley, Abbotsford, Nanaimo and Shuswap. Notable goalies include Frank Furlan and Al Loring from Nanaimo.",
+  "attribution": {
+    "paper": "The Abbotsford News",
+    "headline": "BCJHL Graduates Playing in U.S. College Hockey",
+    "page": "p17",
+    "imageId": "536573978"
+  },
+  "tags": [
+    "bcjhl",
+    "profile",
+    "feature"
+  ]
+}
