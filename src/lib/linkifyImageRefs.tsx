@@ -3,37 +3,26 @@ import imageIndex from '../data/imageIndex.json';
 import { BUILD_MODE } from './buildMode';
 
 const IMAGE_ID_RE = /\d{7,}/g;
-// Private tier resolves to the R2-backed /media/scans/ path served by the
-// archive Worker behind CF Access. Public tier falls through to the OCR
-// markdown on GitHub — the companion images repo `1987Sockeyes-images`
-// holds the full-page JPGs but is private, so public-tier viewers get the
-// searchable OCR text instead of the raw scan.
+// Private tier resolves image-id refs to R2-backed /media/scans/ served by the
+// archive Worker behind CF Access. Public tier renders them as plain citation
+// text — the full-page JPGs live in a private companion repo and the OCR
+// markdown also lives under the private-tier content tree, neither suitable
+// for public linking.
 const PRIVATE_SCAN_BASE = '/media/scans/';
-const OCR_BLOB_BASE = 'https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/';
-const NEWSPAPERS_FALLBACK = 'https://www.newspapers.com/image/';
 
 type IndexEntry = { filename: string; date?: string; image?: boolean };
 const index = imageIndex as Record<string, IndexEntry>;
 
-function urlForImageId(id: string): { href: string; title: string } {
+function privateUrlForImageId(id: string): { href: string; title: string } | null {
   const entry = index[id];
-  const datePrefix = entry?.date ? `[${entry.date}] ` : '';
-  if (entry?.image && BUILD_MODE === 'private') {
+  if (entry?.image) {
+    const datePrefix = entry.date ? `[${entry.date}] ` : '';
     return {
       href: `${PRIVATE_SCAN_BASE}${id}.jpg`,
       title: `${datePrefix}View newspaper scan: ${entry.filename.replace(/\.md$/, '.jpg')}`,
     };
   }
-  if (entry) {
-    return {
-      href: OCR_BLOB_BASE + entry.filename,
-      title: `${datePrefix}View OCR extraction: ${entry.filename}`,
-    };
-  }
-  return {
-    href: `${NEWSPAPERS_FALLBACK}${id}/`,
-    title: 'Open on newspapers.com (subscription required)',
-  };
+  return null;
 }
 
 export function linkifyImageRefs(text: string | undefined): ReactNode {
@@ -45,35 +34,44 @@ export function linkifyImageRefs(text: string | undefined): ReactNode {
     const id = m[0];
     const idx = m.index ?? 0;
     if (idx > last) parts.push(text.slice(last, idx));
-    const { href, title } = urlForImageId(id);
-    parts.push(
-      <a
-        key={key++}
-        href={href}
-        title={title}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-crimson underline decoration-dotted underline-offset-2 hover:decoration-solid"
-      >
-        {id}
-      </a>
-    );
+
+    const link = BUILD_MODE === 'private' ? privateUrlForImageId(id) : null;
+    if (link) {
+      parts.push(
+        <a
+          key={key++}
+          href={link.href}
+          title={link.title}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-crimson underline decoration-dotted underline-offset-2 hover:decoration-solid"
+        >
+          {id}
+        </a>
+      );
+    } else {
+      // Public tier (or unknown id): keep as plain citation text, muted.
+      parts.push(
+        <span key={key++} className="text-navy/55 tabular-nums">{id}</span>
+      );
+    }
     last = idx + id.length;
   }
   if (last < text.length) parts.push(text.slice(last));
   return parts;
 }
 
-// Preprocess for Markdown rendering: turn bare 7+-digit image IDs into
-// markdown link syntax so ReactMarkdown renders them as real links.
-// Also strips backticks around bare IDs (some drafts wrap them in `backticks`
-// for monospace, which would otherwise hide the link inside <code>).
+// Preprocess for Markdown rendering. On private tier, archived image IDs
+// become Markdown links. On public tier (or for IDs we don't have archived),
+// we strip backticks but leave the ID as bare text (no Markdown link syntax),
+// so ReactMarkdown renders them as inline citation text rather than URLs.
 export function linkifyImageRefsToMarkdown(text: string): string {
   const stripped = text.replace(/`(\d{7,})`/g, '$1');
+  if (BUILD_MODE !== 'private') return stripped;
   return stripped.replace(/\d{7,}/g, (id) => {
-    const { href, title } = urlForImageId(id);
-    // Markdown link with title attribute: [text](url "title")
-    const escapedTitle = title.replace(/"/g, '\\"');
-    return `[${id}](${href} "${escapedTitle}")`;
+    const link = privateUrlForImageId(id);
+    if (!link) return id;
+    const escapedTitle = link.title.replace(/"/g, '\\"');
+    return `[${id}](${link.href} "${escapedTitle}")`;
   });
 }

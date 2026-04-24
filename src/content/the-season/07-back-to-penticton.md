@@ -14,4 +14,4 @@ Two months later, the team returned to Minoru Arenas in Richmond to raise their 
 
 [Full induction details →](/hall-of-fame)
 
-[The players today →](#where-are-they-now)
+[The players today →](/roster)

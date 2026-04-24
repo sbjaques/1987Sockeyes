@@ -20,7 +20,7 @@ export function NavSeasonDropdown() {
         onClick={() => setOpen(v => !v)}
         aria-haspopup="menu"
         aria-expanded={open}
-        className="hover:text-crimson text-cream">
+        className="hover:text-crimson text-cream text-sm uppercase tracking-widest">
         The Season ▾
       </button>
       {open && (

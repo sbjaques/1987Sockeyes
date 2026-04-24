@@ -20,6 +20,7 @@ function LockIcon() {
 
 export function LockedLightbox({ item, onClose }: { item: MediaItem; onClose: () => void }) {
   const subject = encodeURIComponent('1987 Sockeyes archive access request');
+  const contact = 'archive@87sockeyes.win';
   return (
     <div role="dialog" aria-modal="true" aria-label="Locked archive item" className="fixed inset-0 bg-navy/90 z-50 flex items-center justify-center p-4">
       <div className="bg-cream max-w-2xl w-full rounded shadow-xl overflow-hidden">
@@ -44,7 +45,7 @@ export function LockedLightbox({ item, onClose }: { item: MediaItem; onClose: ()
             </p>
             <div className="flex gap-3 flex-wrap">
               <a
-                href={`mailto:sbjaques@yahoo.com?subject=${subject}`}
+                href={`mailto:${contact}?subject=${subject}`}
                 className="bg-crimson text-cream px-5 py-2 text-xs uppercase tracking-widest hover:bg-crimson/90 font-medium">
                 Request access →
               </a>
