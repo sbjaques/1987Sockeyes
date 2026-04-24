@@ -1,0 +1,16 @@
+{
+  "id": "scan-949148192",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Toronto Maple Leafs NHL schedule and brief game notes from October-January season schedule.",
+  "descriptionLong": "The Toronto Star publishes the Maple Leafs' NHL schedule for the 1992-93 season, listing games from October through January with dates, opponents, and times. Brief notes mention Grant Fuhr's sprained knee, Glenn Anderson's injury examination, and recent performances by players including Dimitri Mironov's two goals and Felix Potvin's first NHL victory in a 5-3 win over Ottawa.",
+  "attribution": {
+    "paper": "The Toronto Star",
+    "page": "p23",
+    "imageId": "949148192"
+  },
+  "tags": [
+    "schedule"
+  ]
+}

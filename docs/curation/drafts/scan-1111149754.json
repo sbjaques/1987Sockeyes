@@ -1,0 +1,19 @@
+{
+  "id": "scan-1111149754",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Moncton Hawks defeat St. John's Maple Leafs 5-0 in AHL playoff game, taking series lead 3-2.",
+  "descriptionLong": "The Moncton Hawks dominated the St. John's Maple Leafs 5-0 at the Moncton Coliseum on May 8, 1994, in an American Hockey League Atlantic Division final playoff game. Craig Fisher and Ken Gernander each scored twice, with Dave Tomlinson adding a goal. Goaltender Stephane Beauregard recorded his shutout streak at 130 minutes 21 seconds. The Hawks took a 3-2 series lead and can complete the upset on Tuesday in St. John's.",
+  "attribution": {
+    "paper": "Telegraph-Journal",
+    "byline": "Neil Hodge",
+    "page": "p11",
+    "imageId": "1111149754"
+  },
+  "tags": [
+    "playoff",
+    "recap",
+    "box-score"
+  ]
+}

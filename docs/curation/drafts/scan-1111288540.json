@@ -1,0 +1,19 @@
+{
+  "id": "scan-1111288540",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Profile of defenceman Hervey discussing his experience with Richmond Sockeyes coach Orland Kurtenbach and their Centennial Cup championship.",
+  "descriptionLong": "A profile of defenceman Hervey, who credits Richmond Sockeyes coach Orland Kurtenbach with improving his outlook and performance. Hervey recorded 24 points in 17 regular-season games and was named to the first all-star team as the Sockeyes won the Centennial Cup national junior championship at Humboldt, Saskatchewan. The article discusses Hervey's path to professional hockey and his current stint with a Winnipeg Jets affiliate.",
+  "attribution": {
+    "paper": "Telegraph-Journal",
+    "headline": "Richmond Sockeyes Player Profile",
+    "page": "p29",
+    "imageId": "1111288540"
+  },
+  "tags": [
+    "centennial-cup",
+    "profile",
+    "bcjhl"
+  ]
+}

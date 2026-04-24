@@ -1,0 +1,16 @@
+{
+  "id": "scan-1128528732",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Box score of Boston University versus North Dakota college hockey game with final score and penalty details.",
+  "descriptionLong": "Box score from a college hockey game between Boston University and North Dakota, published March 18, 1990. Boston University won 7-2, with Tony Amonte scoring twice and multiple contributors. The game featured numerous penalties including roughing, highsticking, and slashing infractions. Notable players included Amonte, Tomlinson, and North Dakota's Ward.",
+  "attribution": {
+    "paper": "Grand Forks Herald",
+    "page": "p32",
+    "imageId": "1128528732"
+  },
+  "tags": [
+    "box-score"
+  ]
+}

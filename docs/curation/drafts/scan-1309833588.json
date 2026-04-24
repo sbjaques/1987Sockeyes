@@ -1,0 +1,19 @@
+{
+  "id": "scan-1309833588",
+  "type": "newspaper",
+  "date": null,
+  "access": "private",
+  "descriptionShort": "Moncton and Maine junior hockey game recap with penalty details and scoring summary.",
+  "descriptionLong": "Maine's goalie Bill Ranford allowed three early goals but the team rallied to defeat Moncton 5-3. Moncton defenseman Matt Hervey received multiple penalties including a slashing minor, unsportsmanlike conduct, and 10-minute misconduct for arguing with referee Mike North. A goal was scored by Pasin deflecting Gordie Hynes' wrist shot while Hervey was in the penalty box.",
+  "attribution": {
+    "paper": "Portland Press Herald",
+    "byline": "John Ewing",
+    "page": "p5",
+    "imageId": "1309833588"
+  },
+  "tags": [
+    "recap",
+    "box-score",
+    "photo"
+  ]
+}
