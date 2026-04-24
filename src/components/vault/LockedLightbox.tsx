@@ -30,9 +30,9 @@ export function LockedLightbox({ item, onClose }: { item: MediaItem; onClose: ()
         </div>
         <div className="p-6">
           <div className="text-xs uppercase tracking-widest text-navy/60 mb-2">
-            {item.date}
+            {item.type}{item.date ? ` · ${item.date}` : ''}
           </div>
-          <p className="text-navy/90 mb-6 leading-relaxed">{item.descriptionLong}</p>
+          <p className="text-navy/90 mb-6 leading-relaxed">{item.descriptionShort}</p>
           <div className="border-t border-navy/15 pt-4">
             {/* Lock notice */}
             <div className="flex items-center text-navy/70 text-sm mb-4">

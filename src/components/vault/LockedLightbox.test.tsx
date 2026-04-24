@@ -15,9 +15,10 @@ const item: MediaItem = {
 };
 
 describe('LockedLightbox', () => {
-  it('renders the long description and a mailto request link', () => {
+  it('renders only the short description and a mailto request link', () => {
     render(<LockedLightbox item={item} onClose={() => {}} />);
-    expect(screen.getByText(/Long description/)).toBeInTheDocument();
+    expect(screen.getByText(/Short\./)).toBeInTheDocument();
+    expect(screen.queryByText(/Long description/)).not.toBeInTheDocument();
     const cta = screen.getByRole('link', { name: /Request access/ });
     expect(cta).toHaveAttribute('href', expect.stringMatching(/^mailto:/));
   });

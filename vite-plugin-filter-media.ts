@@ -6,8 +6,10 @@ type BuildMode = 'public' | 'private';
 
 /**
  * Vite plugin that intercepts imports of src/data/media.json and strips
- * `url` + `attribution` from private items in the public build, so those
- * fields never appear in the public JS bundle.
+ * `url`, `attribution`, and `descriptionLong` from private items in the public
+ * build, so those fields never appear in the public JS bundle. The public
+ * build keeps `descriptionShort` so cards and the locked-item dialog can
+ * still describe the item at teaser level.
  *
  * Approach: redirect the .json import to a virtual module with a .js
  * extension so rolldown's built-in JSON plugin is never invoked.
@@ -27,13 +29,15 @@ export function filterMediaPlugin(buildMode: BuildMode): Plugin {
     if (buildMode === 'private') {
       return `export default ${JSON.stringify(items)};`;
     }
-    // Public: strip url + attribution from private items before they enter
-    // the bundle. The raw values are never serialised into the JS output.
+    // Public: strip url + attribution + descriptionLong from private items
+    // before they enter the bundle. The raw values are never serialised into
+    // the JS output. descriptionShort is retained as the teaser.
     const filtered = items.map((item: Record<string, unknown>) => {
       if (item.access === 'public') return item;
       const copy = { ...item };
       delete copy.url;
       delete copy.attribution;
+      delete copy.descriptionLong;
       return copy;
     });
     return `export default ${JSON.stringify(filtered)};`;

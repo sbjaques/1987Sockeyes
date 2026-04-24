@@ -6,7 +6,7 @@ export function filterMediaForBuild(items: MediaItem[], mode: BuildMode): MediaI
   if (mode === 'private') return items;
   return items.map(item => {
     if (item.access === 'public') return item;
-    const { url: _url, attribution: _attr, ...rest } = item;
+    const { url: _url, attribution: _attr, descriptionLong: _long, ...rest } = item;
     return rest as MediaItem;
   });
 }

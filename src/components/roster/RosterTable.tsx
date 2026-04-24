@@ -3,14 +3,7 @@ import { isSkater, isGoalie, type RosterEntry, type Skater, type Goalie, type Ro
 import { useSortableTable } from '../../hooks/useSortableTable';
 
 function NameCell({ entry }: { entry: RosterEntry }) {
-  return (
-    <span>
-      <span className="font-semibold">{entry.name}</span>
-      {entry.aliases && entry.aliases.length > 0 && (
-        <span className="text-navy/55 italic ml-2">"{entry.aliases[0]}"</span>
-      )}
-    </span>
-  );
+  return <span className="font-semibold">{entry.name}</span>;
 }
 
 function SkaterTable({ rows, onRowClick }: { rows: Skater[]; onRowClick: (entry: RosterEntry) => void }) {

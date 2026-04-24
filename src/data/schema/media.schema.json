@@ -3,7 +3,7 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["id","type","date","access","thumb","descriptionShort","descriptionLong","tags"],
+    "required": ["id","type","date","access","thumb","descriptionShort","tags"],
     "properties": {
       "id":               { "type": "string", "pattern": "^[a-z0-9-]+$" },
       "type":             { "enum": ["newspaper","program","photo","video","document"] },

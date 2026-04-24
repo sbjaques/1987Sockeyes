@@ -88,7 +88,7 @@ export default function PlayerProfile() {
     };
     return {
       games: games.filter(g => g.highlights.some(nameMatch)),
-      media: media.filter(m => nameMatch(m.descriptionLong) || nameMatch(m.descriptionShort)),
+      media: media.filter(m => nameMatch(m.descriptionLong ?? '') || nameMatch(m.descriptionShort)),
     };
   }, [entry, games, media]);
 

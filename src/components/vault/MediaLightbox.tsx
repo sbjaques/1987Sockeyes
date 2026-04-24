@@ -26,7 +26,12 @@ export function MediaLightbox({
     m => m.type !== 'video' && m.type !== 'program' && m.type !== 'document' && m.url
   );
 
-  if (viewable.length === 0 || index === null) {
+  // `index` indexes into `items` (the caller's openable list, which may include
+  // private items that get stripped out of `viewable`). Look up the active
+  // item's position in `viewable` so the Lightbox opens on the clicked slide.
+  const viewableIndex = active ? viewable.findIndex(v => v.id === active.id) : -1;
+
+  if (viewable.length === 0 || index === null || viewableIndex < 0) {
     return (
       <Lightbox
         open={false}
@@ -50,7 +55,7 @@ export function MediaLightbox({
       open={open}
       close={onClose}
       slides={slides}
-      index={index ?? 0}
+      index={viewableIndex}
       plugins={[Zoom, Captions, Download]}
       zoom={{ maxZoomPixelRatio: 4, zoomInMultiplier: 2, doubleTapDelay: 300, doubleClickDelay: 300, doubleClickMaxStops: 2, keyboardMoveDistance: 50, wheelZoomDistanceFactor: 100, pinchZoomDistanceFactor: 100, scrollToZoom: true }}
       carousel={{ finite: true }}

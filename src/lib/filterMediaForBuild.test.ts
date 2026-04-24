@@ -20,7 +20,7 @@ describe('filterMediaForBuild', () => {
     expect(result).toEqual([publicItem, privateItem]);
   });
 
-  it('strips url and attribution from private items in public mode', () => {
+  it('strips url, attribution, and descriptionLong from private items in public mode', () => {
     const [pub, priv] = filterMediaForBuild([publicItem, privateItem], 'public');
     expect(pub).toEqual(publicItem);
     expect(priv.id).toBe('b');
@@ -29,11 +29,13 @@ describe('filterMediaForBuild', () => {
     expect(priv.descriptionShort).toBe('Private item short.');
     expect(priv.url).toBeUndefined();
     expect(priv.attribution).toBeUndefined();
+    expect(priv.descriptionLong).toBeUndefined();
   });
 
   it('leaves public items unmodified in public mode', () => {
     const [pub] = filterMediaForBuild([publicItem], 'public');
     expect(pub.url).toBe('full.jpg');
     expect(pub.attribution?.paper).toBe('Vancouver Sun');
+    expect(pub.descriptionLong).toBe('x'.repeat(90));
   });
 });

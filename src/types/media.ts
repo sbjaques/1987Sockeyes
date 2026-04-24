@@ -17,7 +17,7 @@ export interface MediaItem {
   access: MediaAccess;
   thumb: string;
   descriptionShort: string;
-  descriptionLong: string;
+  descriptionLong?: string;
   url?: string;
   attribution?: MediaAttribution;
   tags: string[];
