@@ -26,7 +26,8 @@
         "additionalProperties": false
       },
       "tags":         { "type": "array", "items": { "type": "string" } },
-      "relatedGames": { "type": "array", "items": { "type": "string" } }
+      "relatedGames": { "type": "array", "items": { "type": "string" } },
+      "needsReview":  { "type": "boolean", "description": "True when descriptionShort/Long were AI-drafted and have not been editor-reviewed. Surfaces as a badge on MediaCard." }
     },
     "additionalProperties": false
   }

@@ -22,4 +22,5 @@ export interface MediaItem {
   attribution?: MediaAttribution;
   tags: string[];
   relatedGames?: string[];
+  needsReview?: boolean;
 }

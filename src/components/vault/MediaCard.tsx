@@ -40,6 +40,13 @@ export function MediaCard({ item, onOpen }: { item: MediaItem; onOpen: (m: Media
               {item.type === 'video' ? 'Video' : 'PDF'}
             </span>
           )}
+          {item.needsReview && (
+            <span
+              title="AI-drafted description — not yet editor-reviewed"
+              className="absolute bottom-2 right-2 bg-amber-500/90 text-black text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded">
+              AI draft
+            </span>
+          )}
         </div>
         <div className="p-3">
           <div className="text-xs uppercase tracking-wider text-navy/60">
