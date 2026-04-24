@@ -3,12 +3,13 @@ import imageIndex from '../data/imageIndex.json';
 import { BUILD_MODE } from './buildMode';
 
 const IMAGE_ID_RE = /\d{7,}/g;
-// Public tier resolves to GitHub-hosted raw JPGs from the companion repo,
-// until the cutover flips that repo private. Private tier resolves to the
-// R2-backed /media/scans/ path served by the archive Worker behind CF Access.
-const IMAGES_RAW_BASE = 'https://raw.githubusercontent.com/sbjaques/1987Sockeyes-images/main/';
+// Private tier resolves to the R2-backed /media/scans/ path served by the
+// archive Worker behind CF Access. Public tier falls through to the OCR
+// markdown on GitHub — the companion images repo `1987Sockeyes-images`
+// holds the full-page JPGs but is private, so public-tier viewers get the
+// searchable OCR text instead of the raw scan.
 const PRIVATE_SCAN_BASE = '/media/scans/';
-const OCR_BLOB_BASE = 'https://github.com/sbjaques/1987Sockeyes/blob/main/docs/extractions/';
+const OCR_BLOB_BASE = 'https://github.com/sbjaques/1987Sockeyes/blob/main/src/content/private/ocr/';
 const NEWSPAPERS_FALLBACK = 'https://www.newspapers.com/image/';
 
 type IndexEntry = { filename: string; date?: string; image?: boolean };
@@ -17,12 +18,9 @@ const index = imageIndex as Record<string, IndexEntry>;
 function urlForImageId(id: string): { href: string; title: string } {
   const entry = index[id];
   const datePrefix = entry?.date ? `[${entry.date}] ` : '';
-  if (entry?.image) {
-    const href = BUILD_MODE === 'private'
-      ? `${PRIVATE_SCAN_BASE}${id}.jpg`
-      : `${IMAGES_RAW_BASE}${id}.jpg`;
+  if (entry?.image && BUILD_MODE === 'private') {
     return {
-      href,
+      href: `${PRIVATE_SCAN_BASE}${id}.jpg`,
       title: `${datePrefix}View newspaper scan: ${entry.filename.replace(/\.md$/, '.jpg')}`,
     };
   }
