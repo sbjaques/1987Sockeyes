@@ -16,3 +16,11 @@ coverage
 # Large OCR'd PDFs (keep only sidecar text)
 docs/extractions/new-sources/*-ocr.pdf
 .playwright-newspapers-profile/
+
+# Local tooling caches / screenshots
+.playwright-mcp/
+.claude/
+/jaques-*.png
+/tomlinson-*.png
+/public-*.png
+/vault.png
