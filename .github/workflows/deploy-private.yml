@@ -1,4 +1,4 @@
-name: Deploy private archive artifacts
+name: Deploy private archive to Cloudflare Pages
 on:
   push:
     branches: [main]
@@ -14,7 +14,9 @@ jobs:
       - run: npm ci
       - run: npm run validate:data
       - run: npm run build:private
-      - name: Push dist-private to archive-dist repo
-        env:
-          ARCHIVE_DIST_PAT: ${{ secrets.ARCHIVE_DIST_PAT }}
-        run: node scripts/push-dist-private-to-archive-repo.mjs
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist-private --project-name=sockeyes-archive --branch=main
