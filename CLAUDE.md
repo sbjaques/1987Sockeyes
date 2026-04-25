@@ -48,10 +48,11 @@ CI reads `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` from repo secrets. Loc
 ## Private tier plumbing
 
 - **R2 bucket** `1987sockeyes-private` — holds full-page newspaper scans (225), videos (45), and scan thumbs (225 × 480px JPEGs under `thumbs/scans/`).
-- **CF Worker** `sockeyes-archive-media` (source: `cf-worker/archive-media-resolver.js`) is routed at `archive.87sockeyes.win/media/*` and fetches objects from R2. 18-line Worker, R2 binding declared in `cf-worker/wrangler.toml`.
-- **CF Access** application protects `archive.87sockeyes.win` (email OTP, allowlist policy). Apply the same policy to the `/media/*` route so R2 fetches go through Access, not around it. (As of 2026-04-23 this enforcement needs verification — anon curl was returning 200.)
-- **Vite plugin `filterMediaPlugin`** (at `vite-plugin-filter-media.ts`) strips `url` + `attribution` from private MediaItems in the PUBLIC bundle at build time. Security boundary, not a UI toggle.
+- **CF Worker** `sockeyes-archive-media` (source: `cf-worker/archive-media-resolver.js`) is routed at `archive.87sockeyes.win/media/*` and fetches objects from R2. **Verifies the Cloudflare Access JWT before serving** — RS256 signature against the team JWKS at `https://${CF_ACCESS_TEAM}/cdn-cgi/access/certs` (cached 1h), plus `iss`/`aud`/`exp`/`nbf` claims. Two `[vars]` in `cf-worker/wrangler.toml`: `CF_ACCESS_TEAM` (`sbjaques.cloudflareaccess.com`) and `CF_ACCESS_AUD` (the Application AUD tag). R2 binding also declared there. Auto-deploys via `.github/workflows/deploy-worker.yml` on any push touching `cf-worker/**`.
+- **CF Access** application protects `archive.87sockeyes.win` (email OTP, allowlist policy). Verified enforcing 2026-04-24 — both `/` and `/media/*` redirect anonymous clients with 302 to `sbjaques.cloudflareaccess.com/cdn-cgi/access/login/...`. Two-layer defense: Access intercepts at the edge; if it ever drifts back into Bypass, the Worker JWT gate is the second wall.
+- **Vite plugin `filterMediaPlugin`** (at `vite-plugin-filter-media.ts`) strips `url` + `attribution` + `descriptionLong` from private MediaItems in the PUBLIC bundle at build time. (`descriptionLong` was added 2026-04-24 — AI-drafted summaries paraphrased article content and were leaking through `LockedLightbox` on the public tier.) Security boundary, not a UI toggle.
 - **Build-time mode** via `src/lib/buildMode.ts` reads `import.meta.env.VITE_BUILD_MODE` — `.env.public` / `.env.private` set it.
+- **`stripArchivistNotesForPublic` (`src/lib/stripArchivistNotes.ts`)** runs at render time on every prose surface (Season chapters, player bios, roster `programBio`, GameCard highlights). On public it removes inline 9-digit imageId citations, the `## Sources & gaps` markdown section, and `[verified later as ...]` editor brackets. No-op on private.
 
 ## Information architecture (2026-04-23, post-cutover)
 
@@ -62,8 +63,8 @@ CI reads `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` from repo secrets. Loc
 - `/the-season/the-run` **The Run** — PlayoffTimeline, 26 games across Mowat / Doyle / Abbott / Centennial.
 - `/playoffs` → redirects to `/the-season/the-run`.
 - `/roster` **Roster** — skater + goalie tables; staff as grouped cards.
-- `/vault` **The Vault** — 330 items, chronological sort, ACCESS filter (all/public/private). Private items show a crimson lock badge; AI-drafted scan descriptions show an amber "AI DRAFT" badge. Click-through opens `MediaLightbox` (public) or `LockedLightbox` (private on the public tier) or the real scan/video (private tier).
-- `/hall-of-fame` **Hall of Fame** — 2025 BCHHoF induction page with Sequeira photos, five-stat citation strip, interview + induction video grids, class-of-2025 cards.
+- `/vault` **The Vault** — 330 items, chronological sort, ACCESS filter (all/public/private). Private items show a crimson lock badge. AI-drafted scan descriptions still carry `needsReview: true` in the data, but the amber "AI DRAFT" badge **only renders on the private tier** (was confusing on the public tier; hidden 2026-04-24). Click-through behaviour: public tier + private item → `LockedLightbox` (renders only `descriptionShort` + request-access CTA; never `descriptionLong` since that field is stripped from the public bundle). Private tier → regular `MediaLightbox` with zoom + download for any image (Worker proxies R2 behind CF Access). `MediaLightbox` translates the click index into `viewable` via item id — earlier the index was off because `openable` includes private items but `viewable` doesn't.
+- `/hall-of-fame` **Hall of Fame** — 2025 BC Hall of Fame induction page with Sequeira photos, five-stat citation strip, interview + induction video grids, class-of-2025 cards. Kimberley Dynamiters card correctly cites the 1978 Allan Cup (Senior WIHL), not Centennial Cup. H1 + body copy avoid the "BCHHoF" abbreviation per the 2026-04-24 plain-viewer pass.
 - `/player/:id` — profile with aliases, pull-quote scoutingNotes, Vitals / Path to Richmond / Linemates / Off the Ice grid, 1987 Program Snapshot block, career tables, full bio (markdown-rendered when appropriate), games-mentioned, clippings-mentioned.
 - `/timeline/:cup` — per-cup deep link (retained).
 - `/banner-night` → redirects to `/hall-of-fame`.
@@ -114,7 +115,8 @@ scripts/
 
 ## Data (key invariants)
 
-- **Roster** (`src/data/roster.json`): 35 entries (22 players + 3 goalies + 10 staff). Optional fields include `bio`, `programBio`, `aliases[]`, `priorTeams[]`, `linemates[]`, `scoutingNotes`, `personalDetails`, `birthDate`, `height`, `weight`, `shoots`, `awards[]`, `links`, `careerStats[]`, and per-cup stat blocks (`abbottCupStats`, `doyleCupStats`, `abbottCupSeriesStats`, `centennialCupStats`, `postseasonStats`). Goalies use `{gp,w,l,gaa,svpct,so}`; skaters use `{gp,g,a,pts,pim}`.
+- **Roster** (`src/data/roster.json`): 35 entries (22 players + 3 goalies + 10 staff). Optional fields include `bio`, `programBio`, `aliases[]`, `priorTeams[]`, `linemates[]`, `scoutingNotes`, `personalDetails`, `birthDate`, `height`, `weight`, `shoots`, `awards[]`, `links`, `careerStats[]`, and per-cup stat blocks (`abbottCupStats`, `doyleCupStats`, `abbottCupSeriesStats`, `centennialCupStats`, `postseasonStats`). Goalies use `{gp,w,l,gaa,svpct,so}`; skaters use `{gp,g,a,pts,pim}`. **Field-name trap:** `playoffStats` actually holds **regular-season** numbers (the BCJHL 51-game line). `postseasonStats` is the real 15-game playoff line and is incomplete for most players. Don't rename the field — the 2026-04-24 fix relabeled the UI ("Roster & 1986-87 Regular Season", "1986-87 Sockeyes Season") instead.
+- **Roster nicknames** (`aliases[]`) are no longer rendered inline in the roster table. They're still shown on player profile pages and used for search.
 - **Bios may be markdown.** Jaques (~1.1k w) and Tomlinson (~4.5k w) use the deep-dive markdown format — chapter headers, tables, blockquotes, inline image-id refs. `PlayerProfile` detects markdown syntax and renders via `ReactMarkdown + remarkGfm`.
 - **Scope rule (hard):** every roster entry must be 1987 Sockeyes personnel AND clearly mentioned at least twice in source material. Do not re-add previously removed entries (Raduak, Houghton, Comeau, McNeil, Whiteley).
 - **Series-stats distinction:** `abbottCupStats` is tournament-wide through the Abbott Cup (15 games) per the 1987 program. `doyleCupStats` / `abbottCupSeriesStats` / `centennialCupStats` are the verified per-series finals only (7 / 7 / 5 games).
@@ -165,6 +167,9 @@ scripts/
 ## Privacy rules (do NOT relax)
 - No phone numbers or home addresses in anything that lands in the public bundle. (Bill Reid letter `jaques-mom-IMG_6519.JPEG` has Steve's home address — classify private if it's ever brought into media.json.)
 - `archive@87sockeyes.win` is the contact address on the LockedLightbox CTA. Do NOT put personal email in any publicly-deployed code. CF Email Routing will forward to Yahoo.
+- **Public bundle stripping for private items:** the Vite filter plugin removes `url`, `attribution`, AND `descriptionLong`. Do not weaken this — the AI-drafted long descriptions paraphrase article content and would effectively reveal the private archive.
+- **`LockedLightbox` is the visual gate on the public tier only.** It renders `descriptionShort` (one-sentence teaser), the type/date, the lock notice, and the request-access mailto. Never `descriptionLong`. The private tier never reaches `LockedLightbox` — gated by `BUILD_MODE === 'public'` in `MediaLightbox`.
+- **Public tier strips archivist voice from prose.** `stripArchivistNotesForPublic` removes inline 9-digit imageId citations, `## Sources & gaps` markdown sections, and `[verified later as ...]` brackets. Don't disable the strip pipeline — readers without the source corpus see meaningless 9-digit numbers and editor-only notes.
 - Factual tone only — no opinion or subjective commentary from source material.
 - Cross-reference every claim to a cited media id or URL in commit messages.
 - WhatsApp content per-case evaluation only (user lifted the blanket ban 2026-04-22).
@@ -173,11 +178,10 @@ scripts/
 `CLOUDFLARE_API_TOKEN` · `CLOUDFLARE_ACCOUNT_ID` · `R2_ACCOUNT_ID` · `R2_ACCESS_KEY_ID` · `R2_SECRET_ACCESS_KEY` · `R2_ENDPOINT` · `R2_BUCKET` · `ANTHROPIC_API_KEY`
 
 ## Known deferred work (low priority)
-- **Editorial pass on 225 scan `needsReview: true` descriptions.** Flip to false as each is verified. AI drafts occasionally hallucinate details.
-- **CF Access enforcement verification** — anon curl to `archive.87sockeyes.win/` returned 200 instead of a Zero Trust redirect. Check Access dashboard: Application → "Sockeyes Archive" → Policies tab must contain the Allow policy with your email.
-- **CF Email Routing** for `archive@87sockeyes.win` → personal email.
+- **Editorial pass on 225 scan `needsReview: true` descriptions.** Flip to false as each is verified. AI drafts occasionally hallucinate details. Badge only shows on private tier.
+- **CF Email Routing** for `archive@87sockeyes.win` → personal email. Until set up, the LockedLightbox "Request access" mailto bounces.
 - **Career completion** — ~25 players still need hockey-reference / HOF / university roster links. Many need playoff rows separated from regular-season in `careerStats`.
-- **Lighthouse audit** + bundle code-splitting (current JS is 924 KB → 274 KB gzip — warn threshold).
+- **Lighthouse audit** + bundle code-splitting (current JS is ~1.1 MB → ~315 KB gzip — warn threshold).
 - **Tom Harrison** roster entry has no bio. "Unidentifiable staff" — needs program-PDF OCR or removal.
 - **Scan attribution polish** — AI-drafted headline/byline often wrong; editor pass corrects. `attribution.paper` + `page` + `date` are filename-derived and reliable.
 
@@ -193,9 +197,13 @@ scripts/
 ## Commits (chronological, high-signal)
 - `b3217a7` Merge feature/archive-foundation → main (public/private split foundation + content pipeline, 35 commits squashed up)
 - `11f11df` Cutover: linkify falls back to OCR; deep-dive reference material tracked
-- `c03caee` (pre-split) Image-ref tooltips show publication date
-- `0a4a72e` Privacy + nav + broken-link fixes (mailto redacted to archive@87sockeyes.win, Season dropdown styling matches nav, #where-are-they-now → /roster, public linkify renders plain citations)
+- `0a4a72e` Privacy + nav + broken-link fixes
 - `40ecb8b` Image paths + Banner Night removal + typography plugin
 - `beec15f` Seo titles on HOF + Season Story pages
+- `f2a9165` UI plain-viewer pass — strip archivist voice, define trophies, stat-column tooltips, fix label bugs (Roster H2, "1987 Playoff Totals", Kimberley Dynamiters HOF card), 7→8 chapter count, footer contact
+- `8ae1665` Vault — strip `descriptionLong` from public bundle, render only short in `LockedLightbox`, fix `MediaLightbox` index translation, drop nicknames from roster table
+- `42cb5b4` Worker — verify CF Access JWT before serving R2 objects (RS256 against JWKS, iss/aud/exp/nbf claims; `CF_ACCESS_TEAM` + `CF_ACCESS_AUD` vars)
+- `df6697b` CI — auto-deploy archive media Worker on `cf-worker/**` changes
+- `92e31e9` Vault — only route private items to `LockedLightbox` on the public tier (private tier was incorrectly locking authenticated users out of zoom + download)
 
 The companion repo `1987Sockeyes-images` was flipped **private** 2026-04-23. Old `sbjaques.github.io/1987Sockeyes/` GitHub Pages site disabled. Unused `1987Sockeyes-archive-dist` repo deleted.
