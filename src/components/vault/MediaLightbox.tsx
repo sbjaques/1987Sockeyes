@@ -5,6 +5,7 @@ import Download from 'yet-another-react-lightbox/plugins/download';
 import 'yet-another-react-lightbox/styles.css';
 import 'yet-another-react-lightbox/plugins/captions.css';
 import type { MediaItem } from '../../types/media';
+import { BUILD_MODE } from '../../lib/buildMode';
 import { LockedLightbox } from './LockedLightbox';
 
 export function MediaLightbox({
@@ -16,9 +17,13 @@ export function MediaLightbox({
 }) {
   const open = index !== null;
 
-  // Route private items to LockedLightbox before the URL filter strips them out.
+  // On the public tier, private items have no URL (stripped by the build-time
+  // filter) and shouldn't be openable anyway — route to LockedLightbox so the
+  // visitor sees the "request access" CTA. On the private tier, the user has
+  // already passed CF Access; let private items fall through to the regular
+  // Lightbox so they get zoom + download like everything else.
   const active = index !== null ? items[index] : undefined;
-  if (active && active.access === 'private') {
+  if (active && active.access === 'private' && BUILD_MODE === 'public') {
     return <LockedLightbox item={active} onClose={onClose} />;
   }
 
