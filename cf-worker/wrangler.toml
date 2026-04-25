@@ -6,6 +6,14 @@ compatibility_date = "2026-04-22"
 binding = "R2"
 bucket_name = "1987sockeyes-private"
 
+# Cloudflare Access JWT verification (defense in depth).
+# Both values are public identifiers — safe to commit.
+#   CF_ACCESS_TEAM  your team domain (CF Zero Trust → Settings → Custom Pages → Team domain)
+#   CF_ACCESS_AUD   the Application AUD (CF Zero Trust → Access → Applications → "Sockeyes Archive" → Overview → Application Audience (AUD) Tag)
+[vars]
+CF_ACCESS_TEAM = "sbjaques.cloudflareaccess.com"
+CF_ACCESS_AUD = "8d7a91949e7bf94dbfcb7e991b905f6df3d737cdcc56d09cddce3090b1f70f9b"
+
 [triggers]
 crons = []
 
