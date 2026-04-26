@@ -6,6 +6,15 @@ compatibility_date = "2026-04-22"
 binding = "R2"
 bucket_name = "1987sockeyes-private"
 
+[[kv_namespaces]]
+binding = "SOCKEYES_COMMENTS"
+# TODO before first deploy: replace these placeholders with real namespace IDs
+# obtained by running:
+#   wrangler kv:namespace create SOCKEYES_COMMENTS
+#   wrangler kv:namespace create SOCKEYES_COMMENTS --preview
+id = "REPLACE_WITH_PRODUCTION_KV_NAMESPACE_ID"
+preview_id = "REPLACE_WITH_PREVIEW_KV_NAMESPACE_ID"
+
 # Cloudflare Access JWT verification (defense in depth).
 # Both values are public identifiers — safe to commit.
 #   CF_ACCESS_TEAM  your team domain (CF Zero Trust → Settings → Custom Pages → Team domain)
@@ -20,3 +29,17 @@ crons = []
 # Deploy with: wrangler deploy
 # Route via CF dashboard: archive.87sockeyes.win/media/* → this worker
 # Access policy: apply the same Cloudflare Access policy as the archive page so the worker requires sign-in.
+
+# Required Wrangler secrets (set via `wrangler secret put`, never committed):
+#   ADMIN_EMAIL       — the archivist's email; used by lib/access.js requireAdmin middleware
+#   NOTIFY_EMAIL      — destination address for new-comment notification emails
+#   RESEND_API_KEY    — Resend API key for transactional email
+#
+# Set them with:
+#   wrangler secret put ADMIN_EMAIL
+#   wrangler secret put NOTIFY_EMAIL
+#   wrangler secret put RESEND_API_KEY
+#
+# Also: bind a new CF route `archive.87sockeyes.win/api/*` to this Worker via
+# CF Dashboard → Workers & Pages → sockeyes-archive-media → Triggers → Routes,
+# alongside the existing /media/* route.
