@@ -2,6 +2,7 @@
 import { authenticate, requireAdmin } from './lib/access.js';
 import { requireOrigin, ALLOWED_ORIGINS } from './lib/csrf.js';
 import { validateCommentBody } from './lib/schema.js';
+import { sendNotification } from './lib/email.js';
 import {
   getAnnotation, putAnnotation, putComment,
   recordNewComment, getRateWindow, recordRateHit, addSubmitter,
@@ -87,6 +88,16 @@ export async function handleCreateComment(request, env) {
       await putAnnotation(env, submitterEmail, { label: body.firstAnnotation, updatedAt: now });
     }
   }
+
+  // Best-effort email notification — never block comment persistence on this.
+  const emailResult = await sendNotification(env, comment);
+  if (!emailResult.ok) {
+    comment.emailError = emailResult.error;
+    comment.emailNotified = false;
+  } else {
+    comment.emailNotified = true;
+  }
+  await putComment(env, comment);  // re-write with notification status
 
   return Response.json({ id, submittedAt: now }, { status: 201 });
 }

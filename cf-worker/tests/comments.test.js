@@ -88,3 +88,32 @@ describe('POST /api/comments', () => {
     expect(me.annotation).toBe('one');
   });
 });
+
+describe('POST /api/comments — email side effect', () => {
+  it('records emailNotified=true on Resend success', async () => {
+    vi.spyOn(globalThis, 'fetch').mockImplementation(async (url) => {
+      if (typeof url === 'string' && url.includes('resend.com')) {
+        return new Response(JSON.stringify({ id: 'em_xyz' }), { status: 200 });
+      }
+      return new Response('not stubbed', { status: 599 });
+    });
+    const res = await post({ target: 'global', body: 'a' }, { 'x-test-email': 'a@b.test' });
+    expect(res.status).toBe(201);
+    const all = await listComments(env, { limit: 10 });
+    expect(all.comments[0].emailNotified).toBe(true);
+  });
+
+  it('records emailNotified=false + emailError on Resend failure but still 201s', async () => {
+    vi.spyOn(globalThis, 'fetch').mockImplementation(async (url) => {
+      if (typeof url === 'string' && url.includes('resend.com')) {
+        return new Response('boom', { status: 500 });
+      }
+      return new Response('not stubbed', { status: 599 });
+    });
+    const res = await post({ target: 'global', body: 'b' }, { 'x-test-email': 'a@b.test' });
+    expect(res.status).toBe(201);
+    const all = await listComments(env, { limit: 10 });
+    expect(all.comments[0].emailNotified).toBe(false);
+    expect(all.comments[0].emailError).toMatch(/500/);
+  });
+});
