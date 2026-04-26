@@ -57,7 +57,7 @@ The existing Worker (`cf-worker/archive-media-resolver.js`) currently has all ro
 | `GET` | `/api/me` | Any allowlisted JWT | Returns `{ email, isAdmin, annotation }` for the calling user. Used by the SPA to gate admin UI and by the modal to detect first submission. |
 | `POST` | `/api/comments` | Any allowlisted JWT | Create new comment. If body includes `firstAnnotation` and no `annotation:<email>` exists yet, the Worker also writes the annotation (write-once semantics — submitters can seed, only admin can overwrite). Subject to per-submitter rate limit. |
 | `GET` | `/api/comments/counts` | Any allowlisted JWT | Batch endpoint: returns `{ "media:<id>": N, ... }` for all media targets that have ≥ 1 comment. Used by `MediaCard` to render the `💬N` indicator without N requests per card. |
-| `GET` | `/api/comments?status=...&page=N` | Admin only | List comments by status, paginated 20 per page. |
+| `GET` | `/api/comments?status=...&cursor=...` | Admin only | List comments by status, paginated 20 per page using KV's opaque cursor. Response includes `nextCursor` for the next page. |
 | `POST` | `/api/comments/:id/status` | Admin only | Triage: flip status, set `adminNote`. Updates `meta:counts` cache. |
 | `POST` | `/api/annotations/:email` | Admin only | Admin overwrite/set submitter annotation (used from the inbox). |
 
@@ -65,12 +65,14 @@ All routes verify the JWT against the CF Access team JWKS (`sbjaques.cloudflarea
 
 ### Storage — Cloudflare KV
 
-Single namespace `SOCKEYES_COMMENTS` bound in `cf-worker/wrangler.toml`. Three key prefixes:
+Single namespace `SOCKEYES_COMMENTS` bound in `cf-worker/wrangler.toml`. Five key prefixes:
 
 ```
 comment:<uuid>           → Comment record (JSON)
 annotation:<email>       → { label, updatedAt }
 meta:counts              → { byStatus: {pending, applied, rejected, parked}, byTarget: {"media:<id>": N} }
+meta:submitters          → { emails: [string] }      // distinct submitter emails seen, for inbox dropdown
+meta:rate:<email>        → { hour: [ts], day: [ts] } // sliding-window timestamps for rate limiting
 ```
 
 **Comment record shape:**
@@ -93,9 +95,9 @@ type Comment = {
 
 **Pagination & counts cache:**
 
-- Inbox lists 20 comments per page (`?page=N`). Worker uses `KV.list({prefix: "comment:", cursor})` with cursor pagination.
-- Tab counts (`{pending, applied, rejected, parked}`) are read from `meta:counts.byStatus`. Updated atomically on every comment create + status flip. Avoids O(N) scans on every page load.
-- Per-target counts for the `MediaCard 💬N` indicator are read from `meta:counts.byTarget`. Updated on comment create. Served by `GET /api/comments/counts` as a single batched response.
+- Inbox lists 20 comments per page. The API uses cursor-based pagination (`?cursor=<opaque>`), not numeric pages — Cloudflare KV's `list({cursor})` returns an opaque cursor for the next page; numeric paging would require walking from page 1 each time. The inbox UI maps "next/prev" buttons onto the cursor; deep-linking to a specific page is not supported in v1.
+- Tab counts (`{pending, applied, rejected, parked}`) are read from `meta:counts.byStatus`. Per-target counts (for `MediaCard 💬N`) are read from `meta:counts.byTarget`. Both are read-modify-written on every comment create and status flip. Served to the SPA via `GET /api/comments/counts` (admin-side tab counts) and the same endpoint (per-target counts for the vault). The frontend fires this **once per `VaultGrid` mount**, not per card; cards read counts from the resulting in-memory map.
+- **Concurrent-write drift.** Workers KV has no transactions, so two simultaneous `POST /api/comments` writes can lose an increment via the read-modify-write race. Acceptable v1 trade-off: the counts cache is best-effort and may drift slightly under burst load. A small `POST /api/admin/recount` endpoint (admin-only, expensive: full namespace scan) lets you resync if the badge ever visibly diverges from reality. If accurate counts become critical, the right next step is a Durable Object (single-writer per namespace), but at our expected volume the simple recount endpoint is sufficient.
 
 **Migration trigger.** KV is sufficient for hundreds of comments. If we ever pass 2000 comments total, or `KV.list` p99 latency exceeds 500ms in observation, migrate to D1 (SQLite). The query patterns are SQL-friendly (filter by status, by submitter, by target), so the migration is a one-time `wrangler d1 execute` import with minimal Worker code change.
 
@@ -135,7 +137,7 @@ Designed for the higher-volume scope (every player + descendants). The inbox is 
 - **Pagination:** 20 rows per page, page links at bottom.
 - **Per-row:**
   - Submitter email + annotation suffix (italic, lower-emphasis): *"— Brian Kozak's son"*. Clicking the email filters the inbox to that submitter.
-  - Target pill — links to `/vault?focus=<id>` opened in a new tab when target is `media:<id>` (the existing `VaultPage` will handle `?focus=<id>` by scrolling + opening the lightbox).
+  - Target pill — links to `/vault?focus=<id>` opened in a new tab when target is `media:<id>`. **`VaultPage` does not currently parse `?focus=` — phase 4 must add this**: read the search param on mount, locate the matching item in the rendered grid, scroll to it, and open the `MediaLightbox` automatically.
   - Body (full text, `white-space: pre-wrap`, rendered via plain JSX text node — no `dangerouslySetInnerHTML`).
   - Timestamp ("2 hours ago").
   - Small `✉ delivery failed` pill if `emailNotified === false`.
@@ -153,6 +155,7 @@ Designed for the higher-volume scope (every player + descendants). The inbox is 
 - **Worker re-verifies the CF Access JWT** (RS256 against the team JWKS) for every `/api/*` request — same belt-and-suspenders defense the existing `/media/*` route already uses. CF Access at the edge is the first wall; Worker re-verification is the second.
 - **Admin routes additionally check** the JWT `email` claim against `env.ADMIN_EMAIL` via the `requireAdmin` middleware. A non-admin allowlisted user calling an admin route gets 403.
 - **Notification config (Resend API key + destination email)** lives only as Wrangler secrets.
+- **CSRF defense.** All `POST /api/*` routes require an `Origin` header matching `https://archive.87sockeyes.win`. CF Access cookies are SameSite=Lax by default, which blocks most cross-site POSTs, but a same-site forged form (e.g., crafted on another `*.87sockeyes.win` subdomain or via an installed extension) could still attempt a write. The Origin check is the second wall.
 
 ## Body sanitization
 
@@ -166,9 +169,8 @@ Designed for the higher-volume scope (every player + descendants). The inbox is 
 ## Rate limiting
 
 - **Per-submitter limits:** 10 comments / hour, 50 / day. Exceeding either returns 429 with a `Retry-After` header.
-- Implementation: on each `POST /api/comments`, the Worker scans `comment:*` filtered by `submitterEmail` and `submittedAt > now - 1h` (and `now - 24h`). At KV's scale the scan is bounded by the per-submitter total, which is what we want to limit anyway.
-- Cheaper alternative if KV scans become slow: maintain a `meta:rate:<email>` rolling-window counter, update on each create. Defer to v2 if needed.
-- CF Access edge gating + the JWT verify already block non-allowlisted submitters — the rate limit is for compromised mailboxes or runaway scripts inside the allowlist.
+- **Implementation (v1 primary):** maintain a `meta:rate:<email>` record holding two sliding-window timestamp arrays — `hour` (timestamps within the last 60min) and `day` (last 24h). On each `POST /api/comments`, read the record, drop expired entries, count remaining, accept-or-reject, then append the current timestamp and write back. This is O(1) work per request regardless of total comment count. The naive alternative — `KV.list({prefix: "comment:"})` filtered in-Worker by `submitterEmail` — is O(N) over total comments, not per-submitter, since `KV.list` only filters by key prefix. Don't use the naive path; use the counter.
+- CF Access edge gating + the Worker JWT verify already block non-allowlisted submitters — the rate limit is for compromised mailboxes or runaway scripts inside the allowlist.
 
 ## Schema validation
 
@@ -213,7 +215,7 @@ Worker validates with a small JSON-schema validator (e.g. `ajv` works in Workers
   - KV round-trip on comment + annotation; counts cache updated on create + status flip.
   - Notification call mocked; assertion on Resend payload shape.
 - **Manual end-to-end before shipping:** submit a global comment as a non-admin; verify the email arrives and the inbox shows it; submit a media comment; verify the lightbox indicator increments; verify the public-tier bundle does not contain any `/api/*` references or comment UI; triage all three statuses; annotate a submitter; confirm the label appears on subsequent comments.
-- **Build-time check:** the existing `verify-build-filter.mjs` post-build script gets extended to also assert `dist-public/assets/*.js` does not contain `/api/comments`, `/api/me`, `/admin/inbox`, or `LeaveNoteButton`.
+- **Build-time check:** the existing `verify-build-filter.mjs` post-build script gets extended to also assert `dist-public/assets/*.js` does not contain `/api/comments`, `/api/me`, `/admin/inbox`, `LeaveNoteButton`, `Resend`, or `RESEND_API_KEY`. Note: minifiers may keep dead-code string literals even after tree-shaking, so the assertion is checking the *built* bundle, not the source — this catches both code-path leaks and literal-string leaks.
 
 ## Operational checklist (before shipping)
 
@@ -233,7 +235,7 @@ Suggested decomposition for `writing-plans`:
 1. **Worker refactor + foundation** — extract `verifyAccessJwt` / `readToken` to `cf-worker/lib/access.js`; add itty-router; introduce `requireAdmin` middleware; add KV namespace binding; wire up `GET /api/me` first as the auth probe; verify deploy still works for `/media/*`.
 2. **Comment submission** — `POST /api/comments` + schema validation + rate limit + counts-cache update; modal component + 3 trigger surfaces (header / card / lightbox) + `BUILD_MODE === 'private'` gates; first-submission detection via cached `/api/me`.
 3. **Comment counts** — `GET /api/comments/counts` batch endpoint; `MediaCard 💬N` indicator hooks into a single page-load fetch.
-4. **Admin inbox** — `/admin/inbox` route gated on `isAdmin`; tabs + filters + pagination + triage actions + annotation editor; header badge with pending count.
+4. **Admin inbox + vault deep-link** — `/admin/inbox` route gated on `isAdmin`; tabs + filters + cursor pagination + triage actions + annotation editor; header badge with pending count. **Also extend `VaultPage` to parse `?focus=<id>` on mount**, locate the matching item, scroll to it, and open the `MediaLightbox` — required for the inbox-row target pills to work.
 5. **Notifications** — Resend integration; sender DKIM TXT record on `87sockeyes.win`; secrets; best-effort send with KV-recorded failure flag.
 6. **Tests + smoke flow** — Vitest unit, Miniflare worker tests, public-bundle no-leak assertion, manual E2E walkthrough.
 
