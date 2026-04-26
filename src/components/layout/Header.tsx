@@ -3,6 +3,7 @@ import { Nav } from './Nav';
 import { SearchBar } from '../search/SearchBar';
 import { BUILD_MODE } from '../../lib/buildMode';
 import { LeaveNoteButton } from '../comments/LeaveNoteButton';
+import { AdminBadge } from '../inbox/AdminBadge';
 
 export function Header() {
   return (
@@ -14,7 +15,10 @@ export function Header() {
         </Link>
         <div className="flex items-center gap-6 flex-1 justify-end">
           {BUILD_MODE === 'private' && (
-            <LeaveNoteButton target="global" targetLabel="General archive note" variant="pill" className="ml-2" />
+            <>
+              <AdminBadge />
+              <LeaveNoteButton target="global" targetLabel="General archive note" variant="pill" className="ml-2" />
+            </>
           )}
           <SearchBar />
           <Nav />
