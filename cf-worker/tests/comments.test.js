@@ -164,6 +164,24 @@ describe('POST /api/comments/:id/status', () => {
     expect(updated.status).toBe('applied');
     expect(updated.adminNote).toBe('merged into bio');
   });
+
+  it('rejects non-admin', async () => {
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/comments/x/status', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-test-email': 'cousin@example.com', Origin: 'https://archive.87sockeyes.win' },
+      body: JSON.stringify({ status: 'applied' }),
+    });
+    expect(res.status).toBe(403);
+  });
+
+  it('rejects missing Origin', async () => {
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/comments/x/status', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-test-email': 'admin@example.com' },
+      body: JSON.stringify({ status: 'applied' }),
+    });
+    expect(res.status).toBe(403);
+  });
 });
 
 describe('POST /api/annotations/:email', () => {
@@ -175,6 +193,24 @@ describe('POST /api/annotations/:email', () => {
     });
     expect(res.status).toBe(200);
     expect((await getAnnotation(env, 'cousin@example.com')).label).toBe("Brian Kozak's son");
+  });
+
+  it('rejects non-admin', async () => {
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/annotations/c%40e.com', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-test-email': 'cousin@example.com', Origin: 'https://archive.87sockeyes.win' },
+      body: JSON.stringify({ label: 'x' }),
+    });
+    expect(res.status).toBe(403);
+  });
+
+  it('rejects missing Origin', async () => {
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/annotations/c%40e.com', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-test-email': 'admin@example.com' },
+      body: JSON.stringify({ label: 'x' }),
+    });
+    expect(res.status).toBe(403);
   });
 });
 
@@ -192,5 +228,21 @@ describe('POST /api/admin/recount', () => {
     const counts = await res.json();
     expect(counts.byStatus.applied).toBe(1);
     expect(counts.byTarget['media:s1']).toBe(1);
+  });
+
+  it('rejects non-admin', async () => {
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/admin/recount', {
+      method: 'POST',
+      headers: { 'x-test-email': 'cousin@example.com', Origin: 'https://archive.87sockeyes.win' },
+    });
+    expect(res.status).toBe(403);
+  });
+
+  it('rejects missing Origin', async () => {
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/admin/recount', {
+      method: 'POST',
+      headers: { 'x-test-email': 'admin@example.com' },
+    });
+    expect(res.status).toBe(403);
   });
 });
