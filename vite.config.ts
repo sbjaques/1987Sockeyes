@@ -20,7 +20,7 @@ export default defineConfig(({ mode }) => {
       environment: 'jsdom',
       globals: true,
       setupFiles: ['./src/test-setup.ts'],
-      exclude: ['**/node_modules/**', '**/dist/**', '**/dist-public/**', '**/dist-private/**', '**/.worktrees/**'],
+      exclude: ['**/node_modules/**', '**/dist/**', '**/dist-public/**', '**/dist-private/**', '**/.worktrees/**', 'cf-worker/**'],
     },
   };
 });
