@@ -6,6 +6,7 @@ import { sendNotification } from './lib/email.js';
 import {
   getAnnotation, putAnnotation, putComment,
   recordNewComment, getRateWindow, recordRateHit, addSubmitter,
+  readCounts,
 } from './lib/kv.js';
 
 const RATE_HOUR = 10;
@@ -103,7 +104,9 @@ export async function handleCreateComment(request, env) {
 }
 
 export async function handleCommentCounts(request, env) {
-  return new Response('not implemented', { status: 501 });
+  const auth = await authenticate(request, env);
+  if (!auth.ok) return auth.response;
+  return Response.json(await readCounts(env));
 }
 export async function handleListComments(request, env) {
   return new Response('not implemented', { status: 501 });
