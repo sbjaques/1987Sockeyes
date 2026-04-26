@@ -1,0 +1,32 @@
+{
+  "id": "scan-495194669",
+  "imageId": "495194669",
+  "date": "1987-04-16",
+  "paper": "The Vancouver Sun",
+  "page": "p83",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Byline is wrong: the OCR clearly shows 'Sun News Services' as part of the headline/dateline text, but it is the wire attribution, not a byline in the traditional sense — however the draft lists it as byline, which is acceptable. The real issue: the draft omits the goal scorers entirely, which are a key factual detail present in the OCR (Rob Clarke hat trick, plus Bobbitt, Tomlinson, McCormick). The short description is accurate but the long description could be improved to include Clarke's hat trick.",
+      "The long description says 'Coach Orland Kurtenbach credited improved officiating and Kozak's goal for turning the series momentum' — this is accurate but incomplete without noting Rob Clarke's hat trick, a prominent factual detail in the OCR."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeated Red Deer Rustlers 7-3 to even their western Centennial Cup semi-final series at 3-3, forcing a deciding game seven.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Red Deer Rustlers 7-3 in game six of their best-of-seven western Centennial Cup semi-final on April 15, 1987, in Red Deer, Alberta, evening the series at 3-3 and forcing a deciding game seven. The Sockeyes surged to a 5-1 lead after the first period before Red Deer narrowed the gap to 5-3, but a shorthanded goal by centre Brian Kozak early in the third period halted the Rustlers' comeback. Rob Clarke led Richmond with a hat trick, while Tony Bobbitt, Dave Tomlinson, and Mike McCormick each added singles. Coach Orland Kurtenbach credited Kozak's goal and improved officiating — which had begun calling instigating penalties rather than retaliation calls — for turning the series around.",
+    "correctedHeadline": "",
+    "correctedByline": "Sun News Services",
+    "notes": "The headline and byline as drafted are correct per the OCR. The main fixes are: (1) the long description omitted Rob Clarke's hat trick and the other goal scorers, which are key factual details; (2) the game was played Wednesday April 15 (the paper is dated April 16), though the article date metadata is April 16 so publication date is fine. The short description is largely accurate but slightly rephrased for clarity.",
+    "_usage": {
+      "input_tokens": 2759,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 685,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

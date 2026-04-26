@@ -1,0 +1,35 @@
+{
+  "id": "scan-324861343",
+  "imageId": "324861343",
+  "date": "1987-01-22",
+  "paper": "Nanaimo Daily News",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says Sean Stotts was 'unavailable due to an ankle injury' but the OCR specifies his replacement will be 'Brad Pascal of Langley Eagles or Rod Sumner of Richmond' — this detail is omitted from the draft.",
+      "The byline 'Rod Sumner' in the OCR likely refers to Rob Sumner (known Sockeyes player); the draft does not mention him as a potential replacement for Stotts.",
+      "The draft omits that the Interior All-Stars, coached by Bill Hogaboam of Kelowna Packers, won the previous year's game in Nanaimo.",
+      "The draft says Stotts was 'unavailable' but the OCR clarifies he 'did not travel to Merritt Wednesday night' and 'will likely play for the Clippers Friday night', suggesting he may still participate in the All-Star Game — his absence is from travel, not the game itself.",
+      "The headline in the draft is generic ('B.C. Junior Hockey League All-Star Game') — the OCR does not clearly show a distinct headline beyond the article's opening words, so this is acceptable, but the draft should reflect the article's actual focus more precisely."
+    ],
+    "correctedDescriptionShort": "Preview of the BCJHL All-Star Game in Merritt, with Richmond Sockeyes coach Orland Kurtenbach leading the Coastal Division squad and Rob Clarke on a four-game hat-trick streak.",
+    "correctedDescriptionLong": "The article previews the BC Junior Hockey League All-Star Game at Nicola Valley Memorial Arena in Merritt, with Richmond Sockeyes coach Orland Kurtenbach heading the Coastal Division All-Stars. Coastal forwards Darren Biggs and Mike Knapton and defenceman Grant McDonald are named, while Nanaimo Clippers blueliner Sean Stotts missed travel to Merritt due to an ankle injury sustained in a 6-2 win over the Delta Flyers, with his spot to be filled by either Brad Pascal of the Langley Eagles or Rob Sumner of Richmond. The piece also notes that Richmond's Rob Clarke recorded his fourth three-goal game in as many games.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR cuts off mid-sentence at the end (\"the Richmond Sockeyes\"), so some detail about Clarke's hat-trick streak may be missing. 'Rod Sumner' in the OCR is almost certainly Rob Sumner of the Sockeyes roster — treated as such in the corrected description. No clear standalone headline is visible in the OCR beyond the opening sentence of the article.",
+    "_usage": {
+      "input_tokens": 2685,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 732,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

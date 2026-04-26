@@ -1,0 +1,34 @@
+{
+  "id": "scan-1011089155",
+  "imageId": "1011089155",
+  "date": "1987-05-11",
+  "paper": "The Hamilton Spectator",
+  "page": "p34",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says the game was played on May 10, 1987, but the OCR says 'Saturday night' and the paper is dated May 11, 1987 — the actual game date per the Centennial Cup final was May 9, 1987 (Saturday), not May 10.",
+      "The draft says 'stopping 46 shots' for Romeo but the OCR says he 'stood up to 46 Humboldt shots' while Richmond managed only 23 — this phrasing is acceptable, but the draft omits that Richmond only generated 23 shots, a notable detail.",
+      "The draft says Rutherford scored but the OCR specifies he 'scored the winning goal in the third' — the draft's characterisation is not wrong but undersells the detail.",
+      "The headline 'Sockeyes Win Centennial Cup Championship' does not match any clear headline in the OCR; there is no distinct headline visible — it appears to be a wire brief without a standalone headline."
+    ],
+    "correctedDescriptionShort": "Jason Phillips scored three goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-2 to win the Centennial Cup Tier Two junior-A hockey championship, with goaltender Frank Romeo named tournament MVP after stopping 46 shots.",
+    "correctedDescriptionLong": "Jason Phillips scored three goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-2 to win the Centennial Cup Tier Two junior-A hockey championship in Humboldt, Saskatchewan. Goaltender Frank Romeo was named most valuable player of the four-team round-robin series after turning aside 46 shots while Richmond managed only 23 on the Broncos' net. Paul Rutherford scored the winning goal in the third period and Dave Tomlinson also scored for Richmond; Curtis Chamberlin and Kevin Luke replied for the Saskatchewan champion Broncos.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR is a wire brief with no distinct headline. The draft's stated game date of May 10 is incorrect — the paper is dated May 11 and refers to \"Saturday night,\" consistent with the known final date of May 9, 1987 (Saturday). The adjacent-column content about the Rochester Americans vs. Sherbrooke Canadiens AHL series is unrelated noise and should be ignored.",
+    "_usage": {
+      "input_tokens": 2765,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 668,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

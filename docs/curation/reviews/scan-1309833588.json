@@ -1,0 +1,36 @@
+{
+  "id": "scan-1309833588",
+  "imageId": "1309833588",
+  "date": "1988-01-09",
+  "paper": "Portland Press Herald",
+  "page": "p5",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "tangential",
+    "issues": [
+      "The draft headline is blank but the OCR shows no clear standalone headline either — acceptable, but should be noted.",
+      "The byline 'John Ewing' is actually a photo credit ('Staff photo by John Ewing'), not a article byline — there is no article byline in the OCR.",
+      "The article is about a Maine Mariners vs. Moncton AHL game, not a 'junior hockey' game — these are professional AHL teams.",
+      "The draft's short description incorrectly calls this 'junior hockey'; it is an AHL (professional) game recap.",
+      "Matt Hervey's penalty is described as 'slashing' in the draft short description, but the OCR says his first penalty was 'slashing' and then he also received interference (for interfering with John Carter), unsportsmanlike conduct, and a 10-minute misconduct — the draft omits the interference penalty which was the one he was serving when the Pasin goal was scored.",
+      "The draft short description says 'Moncton and Maine junior hockey game' — should be AHL game."
+    ],
+    "correctedDescriptionShort": "AHL game recap: Moncton defenseman Matt Hervey (ex-1987 Richmond Sockeyes) picked up multiple penalties as the Maine Mariners defeated Moncton 5-3.",
+    "correctedDescriptionLong": "A recap of an AHL game in which the Maine Mariners rallied from three early goals allowed by goalie Bill Ranford to defeat Moncton 5-3. Former Richmond Sockeyes defenseman Matt Hervey of Moncton received a slashing minor, an interference minor (for interfering with John Carter in front of goalie Bob Essensa), an unsportsmanlike conduct minor, and a 10-minute misconduct for arguing with referee Mike North. While Hervey was serving the interference penalty, Maine's Pasin deflected a Gordie Hynes wrist shot from the point to score. The page includes a staff photo credited to John Ewing; no separate article byline is present in the OCR.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The 'byline' John Ewing is a photo credit, not an article byline — corrected to empty. This article is AHL (professional), not junior hockey. Sockeyes relevance is tangential: Matt Hervey was a 1987 Sockeyes player now playing for Moncton in the AHL, making this archive-worthy as an ex-Sockeyes follow-up.",
+    "_usage": {
+      "input_tokens": 2556,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 710,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

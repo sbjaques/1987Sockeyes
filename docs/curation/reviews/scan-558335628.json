@@ -1,0 +1,35 @@
+{
+  "id": "scan-558335628",
+  "imageId": "558335628",
+  "date": "1987-04-13",
+  "paper": "Red Deer Advocate",
+  "page": "p7",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft short description says the series is 'Centennial Cup semifinal' which is correct, but omits that this was the Abbott Cup (western final) — actually, checking: the OCR says 'western Centennial Cup semifinal', so the series name is correct as stated.",
+      "The headline in the draft is missing the possessive apostrophe: draft says 'All Richmond Sockeyes Can Do Is Watch Helplessly' but OCR reads 'ALL RICHMOND SOCKEYES' CAN DO IS WATCH HELPLESSLY' (with apostrophe after SOCKEYES).",
+      "The draft long description says 'Coach Larry Billows credited hard play and physical contact, noting the Sockeyes struggled with the Rustlers' aggressive style' — this is a vague paraphrase that omits key specific details from the article, such as the 392 minutes in penalties (221 to Richmond), the 30-minute delay in the second period due to four on-ice battles, a fan fracas behind the Richmond bench, and Dave Tomlinson scoring Richmond's only goal (his 4th of the series).",
+      "The photo caption in the OCR names 'Rich Anderson (left)' bouncing a puck off goalie 'Jamie' — this appears to reference Sockeyes goalie Jamie Stewart, which is worth noting.",
+      "The draft description does not mention the key detail about the 17-game Sockeyes winning streak that Red Deer snapped in Richmond."
+    ],
+    "correctedHeadline": "ALL RICHMOND SOCKEYES' CAN DO IS WATCH HELPLESSLY",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Red Deer Rustlers post back-to-back wins over Richmond Sockeyes — 6-3 Saturday and 7-1 Sunday — to even their best-of-seven western Centennial Cup semifinal at 2-2, with Dave Tomlinson scoring Richmond's lone goal in the Sunday game.",
+    "correctedDescriptionLong": "The Red Deer Rustlers swept a home weekend against the Richmond Sockeyes, winning 6-3 Saturday and 7-1 Sunday to deadlock their best-of-seven western Centennial Cup semifinal at 2-2, after Richmond had taken the first two games in B.C. 11-4 and 6-4, snapping the Sockeyes' 17-game winning streak. Rustlers goaltender Ken Weiss was outstanding, and Sunday's contest was marked by 392 penalty minutes — 221 to Richmond — including a 30-minute delay in the second period caused by four on-ice fights and a fan fracas behind the Richmond bench. Dave Tomlinson scored Richmond's only goal of Sunday's game, his fourth of the series, at 1:39 of the third period. Rustler coach Larry Billows noted that Richmond struggled with Red Deer's physical style, predicting the Sockeyes would have to earn any further wins before the series moved to Humboldt, site of the 1987 Centennial Cup.",
+    "notes": "The headline possessive apostrophe is present in OCR: 'SOCKEYES' CAN DO'. The photo caption references Rich Anderson and goalie 'Jamie' — likely Sockeyes goalie Jamie Stewart. Series context: this is the Abbott Cup / western Centennial Cup semifinal, April 1987, prior to the Sockeyes' eventual Centennial Cup championship.",
+    "_usage": {
+      "input_tokens": 3096,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 911,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

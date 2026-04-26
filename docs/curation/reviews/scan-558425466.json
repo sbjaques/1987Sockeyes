@@ -1,0 +1,29 @@
+{
+  "id": "scan-558425466",
+  "imageId": "558425466",
+  "date": "1987-10-22",
+  "paper": "Red Deer Advocate",
+  "page": "p14",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "tangential",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR is a partial extract — the article appears to be about the Red Deer Kings' season opener, with Bill Hardy (ex-Sockeyes) mentioned in a single line as a forward-line newcomer. No headline or byline is visible in the OCR fragment. The Sockeyes reference is brief and tangential (one mention of Hardy's prior team). Headline remains unknown; byline is genuinely absent from the OCR. Draft is otherwise factually accurate against the OCR.",
+    "_usage": {
+      "input_tokens": 2641,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 272,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

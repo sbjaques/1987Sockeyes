@@ -1,0 +1,33 @@
+{
+  "id": "scan-1107105854",
+  "imageId": "1107105854",
+  "date": "1988-01-04",
+  "paper": "The Times-Transcript",
+  "page": "p8",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Matt Hervey is a known Sockeyes player — his appearance in the Moncton box score is the archive-relevant content, but the draft fails to note this connection or flag him as a former Sockeyes player.",
+      "The draft describes the page accurately in general terms but does not identify Matt Hervey as a Sockeyes-connected player, which is the primary reason this clipping is in the archive.",
+      "The draft is otherwise factually correct about the game details (Moncton 4–1 Nova Scotia, goals by Hervey, Larose, Pesetti, Douris; Essensa vs. Skorodenski in goal; three stars: Essensa, Hervey, Larose)."
+    ],
+    "correctedDescriptionShort": "Box score and game recap of a Moncton 4–1 win over Nova Scotia in junior hockey, January 4, 1988, featuring ex-Sockeyes player Matt Hervey scoring the opening goal and earning a second-star selection.",
+    "correctedDescriptionLong": "The Times-Transcript reports on a junior hockey game in which Moncton defeated Nova Scotia 4–1. Former Richmond Sockeyes player Matt Hervey scored the first goal (a power-play marker at 2:13 of the first period) and was named second star of the game. Guy Larose, Ron Pesetti, and Peter Douris added goals for Moncton, while goaltender Bob Essensa (6-6-0) earned the win over Nova Scotia's Warren Skorodenski. The page also includes box scores for a Canada vs. Soviet Union exhibition game (Canada 5, Soviet Union 2) and World Junior Championship standings from Moscow.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "This clipping is archive-relevant because of Matt Hervey, a former Sockeyes player, who scored and was named second star in the Moncton vs. Nova Scotia game. The draft did not surface this connection — it should be the focus of the description.",
+    "_usage": {
+      "input_tokens": 3720,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 594,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

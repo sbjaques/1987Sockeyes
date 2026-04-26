@@ -1,0 +1,38 @@
+{
+  "id": "scan-496463470",
+  "imageId": "496463470",
+  "date": "1987-04-30",
+  "paper": "The Leader-Post",
+  "page": "p32",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft short description says '5-4 to earn Centennial Cup tournament berth in best-of-seven Western Canada Tier Two junior hockey playoff series' — this is largely accurate but the framing suggests this was the final game of a series that went seven games; the OCR indicates the series went four games to three (Sockeyes won four games to three, i.e. 4-3 in games). The short description should note this was a game-seven series clincher.",
+      "The draft says 'best-of-seven Western Canada playoff series' without clarifying this was the Abbott Cup / Western Canada Tier Two final against Humboldt Broncos, and that the Sockeyes won the series four games to three.",
+      "The long description says 'clinching the best-of-seven Western Canada playoff series' which is correct in substance, but adds 'The article also covers personnel changes with the Lloydminster Lancers hockey organization' — while true (adjacent-column content), this adjacent noise should not be presented as part of the same article's content without clear separation.",
+      "The OCR confirms Dave Tomlinson scored the winner with 2:37 remaining, breaking a 4-4 tie (not a 4-3 deficit as might be implied). The description's account of the goal is accurate.",
+      "Other Sockeyes scorers listed in OCR are Matt Hervey, Dean Rutledge, Jason Phillips, and Bill Hardy — the draft does not mention these, which is acceptable for brevity, but the long description should at minimum list all scorers for historical record accuracy.",
+      "Humboldt Broncos' refusal to participate in post-game handshakes is a notable detail mentioned in the OCR that adds historical colour and should be included in the long description.",
+      "Headline in OCR is clearly 'Sockeyes gain Cup berth' — draft headline is correct.",
+      "No byline is present in the OCR — draft byline is correctly left empty."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 5-4 in game seven to clinch the Western Canada Tier Two junior hockey series and earn a berth in the 1987 Centennial Cup tournament in Humboldt.",
+    "correctedDescriptionLong": "The Richmond Sockeyes clinched the best-of-seven Western Canada Tier Two junior hockey series with a 5-4 victory over the Humboldt Broncos on April 29, 1987, winning four games to three. Dave Tomlinson scored the winner with 2:37 remaining in regulation, breaking a 4-4 tie; Matt Hervey, Dean Rutledge, Jason Phillips, and Bill Hardy also scored for Richmond. The Sockeyes will compete in the Centennial Cup tournament in Humboldt alongside Pembroke, Ontario and Dartmouth, Nova Scotia. The Broncos were booed by Richmond fans after declining to participate in the traditional post-game handshakes at centre ice.",
+    "correctedHeadline": "Sockeyes gain Cup berth",
+    "correctedByline": "",
+    "notes": "The OCR page contains significant adjacent-column noise from a separate article about the Lloydminster Lancers coaching/GM situation (Hawker buyout). The Sockeyes wire-service item (CP dateline, Richmond B.C.) is clearly distinct and is the archive-relevant content. The series result was four games to three in favour of Richmond, not implied seven straight. Humboldt's refusal to shake hands is a historically notable detail worth preserving in the long description.",
+    "_usage": {
+      "input_tokens": 3531,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 955,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

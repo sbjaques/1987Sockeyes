@@ -1,0 +1,29 @@
+{
+  "id": "scan-949123397",
+  "imageId": "949123397",
+  "date": "1993-01-08",
+  "paper": "The Toronto Star",
+  "page": "p10",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Draft is accurate. Headline and byline both confirmed in OCR. All key facts check out: Tomlinson's 51 points (21G+30A) in 37 games, his age (24), his role replacing Zezel (sprained right wrist), Gilmour's concussion, and Gill's back issue. The article is archive-worthy as a post-Sockeyes career piece on ex-Sockeye Dave Tomlinson.",
+    "_usage": {
+      "input_tokens": 2971,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 269,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

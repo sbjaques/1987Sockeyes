@@ -1,0 +1,29 @@
+{
+  "id": "scan-508260798",
+  "imageId": "508260798",
+  "date": "1986-07-24",
+  "paper": "Times Colonist",
+  "page": "p14",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "",
+    "_usage": {
+      "input_tokens": 2599,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 164,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

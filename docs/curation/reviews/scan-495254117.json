@@ -1,0 +1,36 @@
+{
+  "id": "scan-495254117",
+  "imageId": "495254117",
+  "date": "1987-04-27",
+  "paper": "The Vancouver Sun",
+  "page": "p18",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The short description states the score was 5–3 in the 'Abbott Cup western final playoff game' which is accurate, but calls it a 'final' game implying it was the last — the OCR and headline make clear it was a series game (Sockeyes 'grab series lead with split of weekend action'), not the deciding final game.",
+      "The long description says Richmond 'secured a berth in the Centennial Cup national championships' as a direct result of this game — but the OCR clarifies they were already guaranteed a berth regardless, because Humboldt is the host team. The win gave them the series lead, not the berth.",
+      "The long description says Dave Tomlinson scored the winning goal 'as Richmond secured a berth' — misleading framing; he scored the winning goal in a Sunday game that gave them the series lead.",
+      "The byline in the OCR reads 'By ELLIOTT PAP' — the AI draft has 'Elliott Pap' which appears correct but the OCR may be truncated (possibly 'Papp' or similar); flagging as minor uncertainty but leaving as-is since OCR is consistent.",
+      "The headline in the draft ('Sockeyes grab series lead with split of weekend action') is accurate per the OCR — no issue there.",
+      "Caption text identifies Frank Romeo (#29) as goalie and Matt Hervey (#22) as a Sockeyes player — these details are not reflected in the description but the core factual error is the mischaracterization of the game as the decisive final."
+    ],
+    "correctedDescriptionShort": "The Richmond Sockeyes defeated the Humboldt Broncos 5–3 on Sunday at Richmond Arena to take the series lead in the Abbott Cup western final, with Dave Tomlinson scoring the winning goal.",
+    "correctedDescriptionLong": "The Richmond Sockeyes beat Saskatchewan's Humboldt Broncos 5–3 at Richmond Arena on Sunday to grab the series lead in the Abbott Cup western final, splitting the weekend's action. Dave Tomlinson scored the winning goal, and the team was already guaranteed a Centennial Cup berth regardless of the series result — since Humboldt is host of the national tournament — but coach Orland Kurtenbach's squad made clear they wanted to earn their spot through the front door. Goalie Frank Romeo (#29) and forward Matt Hervey (#22) were also visible in action during the game.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The headline and byline in the draft are accurate per the OCR. The main errors are in the short and long descriptions: the game was one game in the Abbott Cup series (Sockeyes took the series lead with a weekend split), not the decisive final, and the Centennial Cup berth was already guaranteed due to Humboldt's host status — not earned by this win. Corrected descriptions reflect these distinctions. Note the byline may be truncated in OCR ('ELLIOTT PAP' could be 'Papp' — editor may wish to confirm).",
+    "_usage": {
+      "input_tokens": 2701,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 817,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

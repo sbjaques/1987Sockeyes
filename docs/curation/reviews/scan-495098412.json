@@ -1,0 +1,29 @@
+{
+  "id": "scan-495098412",
+  "imageId": "495098412",
+  "date": "1987-03-18",
+  "paper": "The Vancouver Sun",
+  "page": "p26",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR contains adjacent-column noise (Victoria Cougars WHL game, Briefly section with Nixon/Hayes eulogy, Socrates retirement, WHL fines, etc.) but the AI draft correctly focused on the Sockeyes article. All key facts check out: 7-0 win, Frank Romeo shutout with 27 saves, Dave Tomlinson (2 goals), Phillips/Hardy/Claringbull/McCormick/Jaques singles, Kurtenbach quote, Hogaboam quote, venue (Richmond Arena), and byline (Elliott Pap). The headline \"Sockeyes shut out Packers\" matches the OCR exactly.",
+    "_usage": {
+      "input_tokens": 3606,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 315,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

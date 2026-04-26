@@ -1,0 +1,29 @@
+{
+  "id": "scan-512311584",
+  "imageId": "512311584",
+  "date": "1987-04-25",
+  "paper": "Star-Phoenix",
+  "page": "p43",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR cuts off mid-sentence at the end of the visible text — the article likely continues on another column or page. The draft accurately captures all facts present in the available OCR: Kurtenbach's age (50), hometown (Cudworth), prior role (Canucks head coach, fired after 1978 season), coaching record with Vancouver (36-62-27), his insurance broker career, return to coaching with the Richmond Sockeyes (BCJHL), and the Abbott Cup series state (Sockeyes lead Humboldt Broncos 2-1 in the best-of-seven, game four in Richmond). No headline or byline is recoverable from the OCR as provided.",
+    "_usage": {
+      "input_tokens": 2817,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 318,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

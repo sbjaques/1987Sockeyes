@@ -1,0 +1,35 @@
+{
+  "id": "scan-512310501",
+  "imageId": "512310501",
+  "date": "1987-04-22",
+  "paper": "Star-Phoenix",
+  "page": "p36",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The short description says 'defeat Humboldt Broncos 1-1' — '1-1' refers to the series score, not a game score, and the phrasing 'defeat... 1-1' is contradictory and misleading. Should clearly state the series is tied 1-1 after Richmond won Game Two.",
+      "The OCR confirms the article is about the Abbott Cup series, NOT the Centennial Cup final. The Abbott Cup is the Western Canada final, not the national championship.",
+      "The short description's phrasing is factually garbled: 'defeat Humboldt Broncos 1-1' is nonsensical — a team cannot defeat another team 1-1.",
+      "Phillips's three goals and an assist are confirmed, but the draft omits the key quotes attributing his success to Brian Kozak and Rob Clarke, which are notable details.",
+      "The draft headline 'Sockeyes Even Abbott Cup Series with Humboldt' is reasonable but not sourced from OCR — no clear standalone headline is visible in the OCR text."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes even their Abbott Cup best-of-seven series against the Humboldt Broncos at one win apiece, with Jason Phillips scoring three goals and adding an assist in Game Two.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Humboldt Broncos in Game Two of their Abbott Cup series on April 22, 1987, tying the best-of-seven at one win apiece. The loss snapped Humboldt's 17-game winning streak, prompting coach Bernie Lynch to criticize his team's lack of hunger and intensity. Jason Phillips led Richmond offensively with three goals and an assist, crediting linemates Brian Kozak and Rob Clarke for setting him up throughout the game. Game Three was scheduled for that evening at 7:30 at the Humboldt Uniplex.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "No clear headline or byline is visible in the OCR text. The AI-drafted headline is plausible but not sourced from the scan. The article is cut off mid-sentence at the end of the OCR — the final game score is not captured, though context confirms Richmond won Game Two.",
+    "_usage": {
+      "input_tokens": 2871,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 646,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

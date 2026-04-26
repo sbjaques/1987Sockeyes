@@ -1,0 +1,40 @@
+{
+  "id": "scan-512312872",
+  "imageId": "512312872",
+  "date": "1987-04-30",
+  "paper": "Star-Phoenix",
+  "page": "p45",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes this as the Centennial Cup final (5-2 win), but the OCR clearly shows this is the Abbott Cup Game 7, won 5-4 by Richmond over Humboldt — that part is correct. However, the draft headline calls it 'Abbott Cup' which is accurate.",
+      "The draft byline 'S-P Services' appears correct per the OCR.",
+      "The draft says 'with Dave Tomlinson scoring the series-clinching goal with 2:37 remaining' — OCR confirms this is accurate.",
+      "The draft states 'Richmond outscoring Humboldt 26-24 overall' — OCR confirms this.",
+      "The draft says 'Humboldt coach Bernie Lynch praised his team's effort' — OCR confirms this.",
+      "The draft states the Centennial Cup 'officially opens in Humboldt on Friday' — OCR confirms this.",
+      "The draft short description says '5-4 in Game 7 of Abbott Cup series' — OCR confirms this is correct.",
+      "The OCR contains a second article (about Humboldt Broncos' financial success with the Centennial Cup tournament) that the draft does not mention, but the primary Sockeyes article is correctly described.",
+      "Minor: The draft long description says the series was decided 'four games to three' — OCR confirms this. No factual errors found in the core description.",
+      "The draft headline 'Richmond Sockeyes Win Abbott Cup, Edge Humboldt 5-4' is a reasonable summary but is AI-generated, not extracted from OCR. No clear standalone headline is visible in the OCR text — the article begins directly with 'S-P Services'."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeat visiting Humboldt Broncos 5-4 in Game 7 to win the Abbott Cup Western Canada Tier Two junior hockey series four games to three.",
+    "correctedDescriptionLong": "The Richmond Sockeyes won the Abbott Cup best-of-seven Western Canada Tier Two junior hockey series four games to three over the Humboldt Broncos, with Dave Tomlinson scoring the series-clinching goal with 2:37 remaining in regulation time Wednesday night to snap a 4-4 tie. Richmond outscored Humboldt 26-24 across the series, with each team winning two one-goal games. Humboldt coach Bernie Lynch praised his team's effort but noted that a Centennial Cup win over Richmond would render the Abbott Cup result moot. The page also includes a companion article on the Broncos' strong financial preparations for hosting the Centennial Cup tournament, which officially opens in Humboldt on Friday.",
+    "correctedHeadline": "",
+    "correctedByline": "S-P Services",
+    "notes": "No standalone headline is visible in the OCR — the article opens directly with the byline 'S-P Services'. The AI-generated headline should be cleared or left blank. The page contains two articles: the Abbott Cup Game 7 recap (primary, Sockeyes-relevant) and a companion piece about Humboldt's Centennial Cup tournament finances. The long description has been updated to note the companion article. All core facts in the draft are accurate per the OCR.",
+    "_usage": {
+      "input_tokens": 2957,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 884,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

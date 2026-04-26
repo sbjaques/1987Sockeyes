@@ -1,0 +1,35 @@
+{
+  "id": "scan-560090747",
+  "imageId": "560090747",
+  "date": "1987-01-30",
+  "paper": "Alberni Valley Times",
+  "page": "p8",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is missing — the OCR shows 'nipped 7-6' which is the tail end of the actual headline (likely 'Sockeyes nipped 7-6' or similar); should not be left blank.",
+      "Byline is listed as 'Canadian Press' but the OCR shows this is a wire report attributed to 'By The Canadian Press' — the byline should reflect the wire service accurately as 'The Canadian Press'.",
+      "The long description omits the other game mentioned in the article (Merritt Warriors 8-2 over Summerland Buckaroos) which is adjacent-column noise but worth noting the article covers multiple games.",
+      "The long description says Richmond 'scored twice from Dean Rutledge' — correct — but then reconstructs scorer order slightly differently than the OCR; minor but the OCR lists: Rutledge (2), Hardy, Rutherford, Phillips, Clarke — the draft matches this, so this is acceptable.",
+      "The short description is accurate but could note the wire-service context."
+    ],
+    "correctedHeadline": "Sockeyes nipped 7-6",
+    "correctedByline": "The Canadian Press",
+    "correctedDescriptionShort": "Vernon Lakers edged the Coast Division-leading Richmond Sockeyes 7-6 in a BCJHL game Thursday night, January 29, 1987.",
+    "correctedDescriptionLong": "Vernon's Doug Spooner fired four goals, with Dan Zeidel, Campbell Blair, and Kevin Scott also tallying, as the Lakers edged the Coast Division-leading Richmond Sockeyes 7-6 in a B.C. Junior Hockey League game Thursday night. Vernon led 4-2 after the first period and 6-4 after the second. Richmond's goals came from Dean Rutledge (2), Bill Hardy, Paul Rutherford, Jason Phillips, and Rob Clarke. The report, filed by The Canadian Press, also noted Merritt Warriors trounced the Summerland Buckaroos 8-2 in a separate game.",
+    "notes": "The OCR headline fragment reads \"nipped 7-6\" — this is almost certainly the tail of a cut-off headline such as \"Sockeyes nipped 7-6.\" Editor should confirm the full headline if a higher-resolution scan is available. Byline corrected from \"Canadian Press\" to \"The Canadian Press\" to match OCR exactly.",
+    "_usage": {
+      "input_tokens": 2541,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 675,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scan-496463200",
+  "imageId": "496463200",
+  "date": "1987-04-27",
+  "paper": "The Leader-Post",
+  "page": "p14",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft headline is invented/fabricated — the OCR contains no headline for this item, it is a wire brief (CP) with no headline present.",
+      "The draft long description states 'Humboldt had tied it 2-2 the previous day' — the OCR says Humboldt won 2-1 (not just tied the series) on Saturday.",
+      "The draft long description states 'Game 6 was scheduled for Tuesday night in Richmond' — the OCR says the sixth game is scheduled 'here' (i.e., in Richmond, B.C.), which is correct, but this is a minor confirmation.",
+      "The series context is described correctly but the score of the previous game (2-1 Humboldt win) is omitted from the draft long description, which only says Humboldt 'tied it 2-2', underplaying the detail.",
+      "The draft long description says 'Western Canada final' which matches the OCR, but the draft short description incorrectly calls it the 'Centennial Cup playoff' without specifying it is the Western Canada final. More importantly, the date in the draft (April 27) is the publication date; the game was played Sunday night, which aligns.",
+      "The draft headline 'RICHMOND SOCKEYES EDGE HUMBOLDT IN CENTENNIAL CUP PLAYOFF' does not appear in the OCR — this is a wire brief with no headline and should not have a fabricated headline."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Richmond Sockeyes defeated the Humboldt Broncos 5-3 to take a 3-2 lead in the Centennial Cup Western Canada final, with Matt Hervey scoring two goals.",
+    "correctedDescriptionLong": "Matt Hervey scored two goals to lead the Richmond Sockeyes to a 5-3 win over the Humboldt Broncos in Centennial Cup Western Canada final playoff action, giving Richmond a 3-2 series lead in the best-of-seven. The previous day, Humboldt had evened the series at 2-2 with a 2-1 victory. Humboldt led 2-0 after the first period before Richmond tied the game 2-2 in the middle frame and went on to win. Game 6 was scheduled for Tuesday night in Richmond, B.C. This is a Canadian Press wire brief with no headline.",
+    "notes": "The OCR is a short CP wire brief with no headline. The fabricated headline in the draft should be removed. The previous game's score (2-1 Humboldt win) was present in the OCR and should be reflected accurately. Note also that April 27, 1987 was the publication date; the Centennial Cup final was ultimately won by Richmond over Humboldt on May 9, 1987 — this article covers an earlier Western Canada final series, not the national championship final.",
+    "_usage": {
+      "input_tokens": 2595,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 797,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

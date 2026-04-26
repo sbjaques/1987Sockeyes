@@ -1,0 +1,34 @@
+{
+  "id": "scan-339097039",
+  "imageId": "339097039",
+  "date": "1992-11-29",
+  "paper": "The Tampa Tribune",
+  "page": "p30",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The AI-drafted headline 'Dynamic duo: Offensive-defensemen strength for IHL team' is a paraphrase — the actual headline/subhead in the OCR is 'Dynamic duo: The defensive pair of Matt Hervey and Rick Lanz...' making the real slug 'Dynamic duo'",
+      "The short and long descriptions are generic and do not name the team (Tampa Bay Lightning, IHL affiliate) or explicitly identify Matt Hervey as a 1987 Richmond Sockeyes alumnus, which is the archival relevance of this clipping",
+      "The long description says the article highlights 'offensive production of defensemen Matt Hervey and Rick Lanz' but omits that Hervey has 11 points in 12 games and Lanz 14 points in 14 games, and omits Chris Lipuma's plus-13 rating (5th best in IHL)",
+      "The article is about an IHL team — context and the Lightning affiliation should be noted; the team appears to be the Atlanta Knights or a Tampa-area IHL affiliate based on the roster and coach Ubriaco"
+    ],
+    "correctedHeadline": "Dynamic duo",
+    "correctedByline": "",
+    "correctedDescriptionShort": "IHL team statistics blurb highlights ex-Sockeye Matt Hervey (11 points in 12 games) as one of the most potent offensive defensemen in the league alongside Rick Lanz.",
+    "correctedDescriptionLong": "This clipping from The Tampa Tribune (Nov. 29, 1992, p. 30) contains an IHL team statistics table and a \"Dynamic duo\" notes item praising the offensive output of defensemen Matt Hervey — a 1987 Richmond Sockeyes alumnus — and Rick Lanz. Hervey had 11 points in 12 games and Lanz 14 points in 14 games; coach Ubriaco is quoted calling offense from the blue line \"a strength of the team.\" Defenseman Chris Lipuma's plus-13 rating (fifth-best in the IHL) is also noted. Adjacent-column items cover NHL results: Capitals 6, Penguins 4 and Jets 3, Sharks 2.",
+    "notes": "The IHL team featured is likely the Atlanta Knights (Tampa Bay Lightning's IHL affiliate coached by Gene Ubriaco in 1992-93). Matt Hervey is the Sockeyes connection. Editor should confirm team identity if possible; the OCR does not explicitly name the team but Ubriaco and the roster strongly suggest the Atlanta Knights.",
+    "_usage": {
+      "input_tokens": 2948,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 711,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

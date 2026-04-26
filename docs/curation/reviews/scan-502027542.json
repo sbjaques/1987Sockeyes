@@ -1,0 +1,29 @@
+{
+  "id": "scan-502027542",
+  "imageId": "502027542",
+  "date": "1987-05-04",
+  "paper": "The Province",
+  "page": "p18",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR confirms all key facts in the draft: Richmond 7 Dartmouth 3, Humboldt 4 Pembroke 2, attendance 8,033, round-robin standings with Humboldt 2-0 and Richmond 1-1, and Pembroke vs. Richmond scheduled for that evening. The page is a scores/results digest with adjacent-column noise from other sports (lacrosse, rugby, soccer, softball, water polo), but the Sockeyes-relevant Centennial Cup content is correctly identified and described. No headline or byline is present beyond the section label \"Centennial Cup.\"",
+    "_usage": {
+      "input_tokens": 2755,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 303,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

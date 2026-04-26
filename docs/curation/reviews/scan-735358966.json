@@ -1,0 +1,36 @@
+{
+  "id": "scan-735358966",
+  "imageId": "735358966",
+  "date": "1989-10-04",
+  "paper": "The Winnipeg Sun",
+  "page": "p37",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft's short and long descriptions entirely omit the Sockeyes-relevant content: Matt Hervey (1987 Richmond Sockeyes player) is named in the OCR as one of five players demoted to the Moncton Hawks, the Winnipeg Jets' AHL affiliate — this is the key archive reason this clipping was saved.",
+      "The headline in the draft has a minor transcription error: OCR reads 'Yellow Brick Road\"' (closing quotation mark only), but the headline text is otherwise correct.",
+      "The byline attribution 'Brian Smiley' is correct per the OCR ('Stories by BRIAN SMILEY Sun Staff Writer'), but his name appears mid-article rather than at the top — still accurate.",
+      "The short description incorrectly names the player as 'Pete Peters' — the OCR consistently spells the goaltender's name as 'Pete Peeters' (e.g., 'Peeters, more than anyone...').",
+      "The long description mentions 'Pete Peters' again — same spelling error for Peeters.",
+      "The draft does not mention Matt Hervey at all, which is the primary reason this clipping is in the Sockeyes archive."
+    ],
+    "correctedDescriptionShort": "A Winnipeg Sun article reporting that ex-Richmond Sockeyes defenceman Matt Hervey was among five players demoted to the Moncton Hawks as the Jets finalised their 1989-90 roster, alongside news of trades involving Pete Peeters and Keith Acton.",
+    "correctedDescriptionLong": "A October 4, 1989 Winnipeg Sun story by Brian Smiley covers multiple Jets roster moves, most notably that former Richmond Sockeyes defenceman Matt Hervey was sent down to the AHL's Moncton Hawks along with Grant Richison, Bryan Marchment, goaltender Bob Essensa, and forward Brent Hughes. The Jets also traded goaltender Pete Peeters and forward Keith Acton back to the Philadelphia Flyers in exchange for draft picks, in a deal GM Mike Smith described as unrelated to waiver activity. Moe Mantha, claimed off waivers from Philadelphia, rejoined Winnipeg five years after being traded away, while Daniel Berthiaume was confirmed as the Jets' No. 1 goalie ahead of their season opener against the New York Rangers.",
+    "correctedHeadline": "Peters, Acton sent down the 'Yellow Brick Road'",
+    "correctedByline": "Brian Smiley",
+    "notes": "The clipping is archived because it documents ex-Sockeyes defenceman Matt Hervey being demoted to the Moncton Hawks during the Jets' 1989-90 preseason roster cuts. The AI draft completely missed this Sockeyes connection and instead summarised the non-Hervey trade content. Also note the player's name is Pete Peeters (goaltender), not \"Pete Peters\" as written in the draft.",
+    "_usage": {
+      "input_tokens": 3491,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 809,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

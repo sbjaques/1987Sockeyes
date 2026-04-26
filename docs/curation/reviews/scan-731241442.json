@@ -1,0 +1,36 @@
+{
+  "id": "scan-731241442",
+  "imageId": "731241442",
+  "date": "1987-04-13",
+  "paper": "The Daily Herald-Tribune",
+  "page": "p7",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes this as a 'Centennial Cup playoff game' — the OCR indicates this is a B.C.-Alberta Centennial Cup hockey playoff, which corresponds to the Doyle Cup (BC vs. Alberta inter-league playoff), not the national Centennial Cup itself.",
+      "The draft omits scorers Brian Puhalsky, Tracy Georgsen, and Bob Duchak for Red Deer, listing only Dixon Ward and Richard Anderson.",
+      "The draft omits the penalty details: Red Deer outshot Richmond 46-34, and the game had 28 minor penalties, 20 majors, and 20 game misconducts — indicating a very rough, chippy game.",
+      "The draft omits context that before this series, the Sockeyes had gone undefeated in playoffs, including a 2-0 sweep of Quesnel Millionaires (PCJHL champions).",
+      "The headline is AI-generated and does not reflect an actual headline from the OCR (only a CP wire paragraph is present, no distinct headline text).",
+      "The series result noted in the draft (2-2) is correct, but the draft omits that Red Deer won the previous game 6-3 on Saturday."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Red Deer Rustlers rout the Richmond Sockeyes 7-1 in a chippy B.C.–Alberta Centennial Cup inter-league playoff game, evening the best-of-seven series at 2-2.",
+    "correctedDescriptionLong": "In a chippy B.C.–Alberta Centennial Cup inter-league playoff game in Red Deer on April 12, 1987, the Red Deer Rustlers thumped the Richmond Sockeyes 7-1, evening the best-of-seven series at 2-2. Dixon Ward and Richard Anderson each scored twice for the AJHL champion Rustlers, with Brian Puhalsky, Tracy Georgsen, and Bob Duchak also scoring; Red Deer led 3-0 after the first period and 6-0 after the second, and outshot Richmond 46-34. Dave Tomlinson scored the Sockeyes' lone goal. The game was marked by heavy penalties — 28 minors, 20 majors, and 20 game misconducts — and the CP wire item notes that prior to this series, the Sockeyes had gone undefeated in playoffs, including a 2-0 sweep of Quesnel Millionaires (PCJHL champions).",
+    "notes": "No distinct headline is visible in the OCR — this is a CP wire dispatch. The corrected headline field has been left blank accordingly. The series described is the Doyle Cup (BC vs. Alberta inter-league), not the national Centennial Cup; the draft's labeling of this as a \"Centennial Cup playoff\" follows the OCR's own wording (\"B.C.-Alberta Centennial Cup hockey playoff\"), but editor should note this is the Doyle Cup stage of the path to the national Centennial Cup.",
+    "_usage": {
+      "input_tokens": 2751,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 852,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

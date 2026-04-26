@@ -1,0 +1,36 @@
+{
+  "id": "scan-536980538",
+  "imageId": "536980538",
+  "date": "1987-04-22",
+  "paper": "Langley Advance",
+  "page": "p15",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Player name misspelled: OCR clearly states 'Bryan' (not 'Bryon') Moller — the draft uses 'Bryan' in short but 'Bryan' is correct; however the long description also uses 'Bryan' correctly. The roster lists him as 'Bryon Moller' but OCR explicitly corrects to 'Bryan'.",
+      "The Centennial Cup final described here (April 22, 1987) is against Humboldt Broncos in a best-of-seven for 'Western Canadian champion' — but the Centennial Cup is the national championship, not just Western Canadian. The article itself uses this language so it should be reflected accurately.",
+      "The draft's long description says 'scoring ace Bryan Moller from the Langley Eagles' — correct — but omits the key self-deprecating columnist angle: the writer had previously praised the trade and is now second-guessing it after Moller's strong play for Richmond.",
+      "The date is April 22, 1987, but the Centennial Cup final did not begin until May 1987. The article's internal timeline (Game 1 on Monday, Game 2 on Tuesday past press deadline) is inconsistent with the known May 9 final date, suggesting the competition referenced may be an earlier playoff round (possibly the Abbott Cup or Doyle Cup), not the Centennial Cup final. The draft uncritically repeats the OCR's 'Centennial Cup final' label without flagging this discrepancy.",
+      "The headline 'Maybe we shouldn't have traded him' is accurate per OCR.",
+      "No byline is present in the OCR — correctly left blank in the draft."
+    ],
+    "correctedDescriptionShort": "A Langley Advance columnist second-guesses his earlier praise of the Langley Eagles' trade of Bryan Moller to the Richmond Sockeyes, noting Moller scored in Richmond's 5-3 Game 1 loss to the Humboldt Broncos in what the article calls the Centennial Cup final.",
+    "correctedDescriptionLong": "A Langley Advance sports columnist revisits his earlier endorsement of Langley Eagles coach Muzz MacPherson's decision to trade scoring ace Bryan Moller to the Richmond Sockeyes, admitting he may have been wrong given Moller's strong contributions to the Sockeyes' deep playoff run. The column notes Moller scored a goal in Richmond's 5-3 Game 1 loss to the Humboldt Broncos in what it describes as the Centennial Cup final best-of-seven series. The article was published April 22, 1987 — notably before the known May 9 Centennial Cup final — suggesting the competition referenced may be an earlier playoff round; editors should verify which series is actually described. Game 2 results were not available before the paper's press deadline.",
+    "correctedHeadline": "Maybe we shouldn't have traded him",
+    "correctedByline": "",
+    "notes": "Important dating discrepancy: the article is dated April 22, 1987 and references Game 1 of what it calls the \"Centennial Cup final\" against Humboldt Broncos. However, the actual Centennial Cup final was played in May 1987 (final: May 9). On April 22, Richmond would more likely have been in the Doyle Cup (vs. Alberta) or Abbott Cup (Western final) stage. The OCR may be mislabeling the series, or the newspaper date may be slightly off. Editor should cross-reference the playoff schedule to confirm which series this actually covers.",
+    "_usage": {
+      "input_tokens": 2637,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 952,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

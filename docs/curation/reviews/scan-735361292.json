@@ -1,0 +1,36 @@
+{
+  "id": "scan-735361292",
+  "imageId": "735361292",
+  "date": "1989-09-26",
+  "paper": "The Winnipeg Sun",
+  "page": "p39",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Matt Hervey (ex-Sockeyes player) is mentioned as scoring a goal for the Winnipeg Jets, but the draft does not flag this Sockeyes connection — the draft treats this as a generic Jets article rather than an ex-Sockeyes player mention.",
+      "The draft's short description omits Matt Hervey entirely, focusing only on Tabaracci and Cronin.",
+      "The long description mentions Matt Hervey only incidentally in a list of goal-scorers without noting his Sockeyes connection, which is the primary reason for archiving this clipping.",
+      "Headline 'his dues' is a partial headline — the OCR suggests this is a fragment of a larger headline, but as rendered in OCR it reads 'his dues' which matches the draft. However, the full headline likely reads something like 'Paying his dues' — this cannot be confirmed from OCR alone.",
+      "Todd Flichel's assignment to Moncton is mentioned in the article but not in the draft descriptions, which is fine — that is not the Sockeyes-relevant content.",
+      "The score is 3-3 (overtime tie), not simply '3-3' — the draft's long description says 'tied Vancouver 3-3' which is acceptable but the article specifies an overtime deadlock."
+    ],
+    "correctedDescriptionShort": "Ex-Sockeyes player Matt Hervey scored a goal for the Winnipeg Jets in a 3-3 overtime pre-season tie against the Vancouver Canucks, as reported in The Winnipeg Sun.",
+    "correctedDescriptionLong": "The Winnipeg Sun covers a Jets-Canucks pre-season game that ended in a 3-3 overtime tie, with goals for Winnipeg from Dale Hawerchuk, Dave McIlwain, and former Richmond Sockeyes player Matt Hervey. The article focuses primarily on goaltender Rick Tabaracci's demotion to the Moncton Hawks farmclub after allowing 10 goals in two pre-season games, and on rookie defenceman Shawn Cronin's physical play impressing the home crowd of 9,829 at the Arena. Daniel Berthiaume started in goal for Winnipeg, stopping 24 of 27 shots.",
+    "correctedHeadline": "his dues",
+    "correctedByline": "BRIAN SMILEY",
+    "notes": "The primary reason this clipping is archive-worthy is the mention of ex-Sockeyes player Matt Hervey scoring for the Jets. The draft descriptions should lead with or prominently feature the Hervey connection rather than burying him in a list. The headline appears to be a fragment — the full headline is not clearly recoverable from the OCR — editor may wish to review the original scan for the complete headline text (possibly \"Paying his dues\" or similar).",
+    "_usage": {
+      "input_tokens": 3552,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 767,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "scan-325076956",
+  "imageId": "325076956",
+  "date": "1987-04-27",
+  "paper": "Nanaimo Daily News",
+  "page": "p10",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Draft says 'Western Canada final' but the OCR shows this is the Centennial Cup playoff, not the Centennial Cup final — in April 1987, the Sockeyes would still be in the Abbott Cup (Western Canada final) stage, not yet the Centennial Cup national final. The OCR text itself calls it 'Centennial Cup hockey playoff action' and 'Western Canada final', but the Centennial Cup final was in May 1987 — this appears to be the Abbott Cup Western Canada final against Humboldt, which is mislabeled in the OCR as 'Centennial Cup'. The draft headline calls it 'Centennial Cup Playoff' which matches the OCR wording.",
+      "Draft says series lead is '3-1' but the OCR reads '3-9' (likely an OCR error for '3-2' given the context of a best-of-seven and Saturday's Broncos win evening the series — the correct series lead is almost certainly 3-2, not 3-1).",
+      "Draft says 'Dave Rutherford' but the OCR says 'Dave Rutherford' — however the known Sockeyes roster lists 'Dean Rutledge', not 'Dave Rutherford'. The OCR mentions both 'Dave Rutherford' (as a goal scorer in game 5) and 'Dean Rutledge' (as the scorer in Saturday's game 4). 'Dave Rutherford' may be an OCR misread of 'Dean Rutledge' or a different player; the draft should not assert 'Dave Rutherford' without flagging the discrepancy.",
+      "The OCR contains a substantial adjacent-column noise section about a WHL playoff game (Medicine Hat Tigers vs Portland Winter Hawks) — this is unrelated to the Sockeyes and should not be described.",
+      "Draft headline 'Sockeyes Edge Broncos in Centennial Cup Playoff' is AI-generated and not directly sourced from OCR large/bold text — no clear headline is visible in the OCR."
+    ],
+    "correctedDescriptionShort": "Matt Hervey scored two goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-3 on Sunday in Centennial Cup playoff action, taking a 3-2 series lead in the best-of-seven Western Canada final.",
+    "correctedDescriptionLong": "Matt Hervey scored two goals to lead the Richmond Sockeyes to a 5-3 win over the Humboldt Broncos on Sunday in Centennial Cup playoff action, giving Richmond a 3-2 lead in the best-of-seven Western Canada final. Brian Kozak, Dave Tomlinson, and a third Richmond player also scored; Frank Romeo made 30 saves while Humboldt's Bruce Hoffort stopped 22 shots. Humboldt had led 2-0 after the first period before Richmond rallied to tie it 2-2 through the middle frame. Game six was scheduled for Tuesday night in Richmond.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Several issues flagged: (1) The OCR's '3-9 lead' is almost certainly an OCR artifact for '3-2' given the best-of-seven context and Saturday's loss. (2) 'Dave Rutherford' in the OCR does not match any known Sockeyes roster name — 'Dean Rutledge' is the closest match and is separately mentioned in the Saturday game recap within the same OCR block; editor should verify. (3) No clear headline is present in the OCR — the AI-generated headline has been cleared. (4) The lower portion of the OCR is adjacent-column content about the WHL (Medicine Hat vs Portland) and is unrelated to the Sockeyes.",
+    "_usage": {
+      "input_tokens": 2934,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 1014,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

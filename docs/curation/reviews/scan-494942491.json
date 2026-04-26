@@ -1,0 +1,35 @@
+{
+  "id": "scan-494942491",
+  "imageId": "494942491",
+  "date": "1990-04-28",
+  "paper": "The Vancouver Sun",
+  "page": "p62",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The drafted headline appears to be AI-generated and does not reflect any actual headline found in the OCR text — no headline is visible in the OCR excerpt.",
+      "The draft attributes the quote 'They are not close to that Sockeyes team' and the 'half a million' spending remark to an unnamed observer, but the OCR attributes the budget/spending quote and the Sockeyes comparison to a person named Phelps, not an anonymous source.",
+      "The draft does not mention Phelps by name, who is the key speaker making the Sockeyes comparison and the 'half a million dollar team' remark.",
+      "The draft conflates two speakers: John Olver provides the budget figures, while Phelps makes the Sockeyes comparison and the 'four straight' remark — the draft blurs this distinction.",
+      "The byline is absent from the OCR; leaving it blank is correct, but the headline should also be left blank or flagged rather than fabricated."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "A Vancouver Sun article quotes hockey observer Phelps and Royals coach John Olver comparing the 1990 Surrey Royals unfavourably to the 1987 Centennial Cup champion Richmond Sockeyes, with both teams linked by owner Bruce Taylor.",
+    "correctedDescriptionLong": "This Vancouver Sun clipping features commentary from a hockey observer named Phelps, who argues the 1987 Centennial Cup champion Richmond Sockeyes would \"easily handle\" the 1990 Surrey Royals, describing the Royals as a \"half-million-dollar team\" that \"weren't as awesome as I expected\" despite sweeping his team four straight. Royals coach John Olver disputes the spending figure, stating the operating budget is under $140,000, though league insiders suggest costs could reach $200,000–$300,000. The common thread between the two clubs is owner Bruce Taylor, described as a fierce competitor and Burnaby businessman, with Royals players finding employment at Taylor's roofing and sheet metal company rather than receiving direct pay.",
+    "notes": "No headline or byline is visible in the OCR excerpt — both have been left blank. The key speaker for the Sockeyes comparison is \"Phelps,\" which the AI draft omitted entirely. Editor should check if a headline appears elsewhere on the page scan.",
+    "_usage": {
+      "input_tokens": 2720,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 671,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

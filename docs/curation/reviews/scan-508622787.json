@@ -1,0 +1,37 @@
+{
+  "id": "scan-508622787",
+  "imageId": "508622787",
+  "date": "1987-09-17",
+  "paper": "Times Colonist",
+  "page": "p10",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Byline is 'The Canadian Press' in the OCR, but it appears as a label/dateline, not a traditional byline — this is likely correct for a wire story, though it precedes unrelated text and is ambiguous.",
+      "The headline in the OCR is 'How the season shapes up' which does match the draft, but it appears mid-article as a subhead/section header rather than the main article headline — the actual article has no clear standalone headline in the OCR.",
+      "The draft attributes the defensive comment ('We look pretty solid on defence') to 'Coach Ernie Gare' of the Richmond Sockeyes — but the OCR clearly attributes this quote to Ernie Gare as coach of the VERNON LAKERS, not the Richmond Sockeyes.",
+      "The draft says Richmond 'finished first last season with a 38-14 record' — this is correct per the OCR, but the draft misleadingly pairs this with Gare's quote as if Gare coaches Richmond.",
+      "The draft says Richmond 'are expected to take a back seat to Interior rivals Kelowna and Penticton' — the OCR says the Sockeyes 'likely take a back seat to the Flyers' (Delta Flyers, a Coastal Division rival), not Interior rivals Kelowna and Penticton.",
+      "Vernon Lakers are described as Interior favorites in both draft and OCR — correct.",
+      "Delta Flyers favored in Coastal Division — correct per OCR."
+    ],
+    "correctedHeadline": "How the season shapes up",
+    "correctedByline": "The Canadian Press",
+    "correctedDescriptionShort": "A Canadian Press preview of the 1987-88 BCJHL season surveys all divisions, noting the Richmond Sockeyes' first-place 38-14 finish in 1986-87 and their expected challenge from Delta Flyers in the Coastal Division.",
+    "correctedDescriptionLong": "This Canadian Press preview of the 1987-88 British Columbia Junior Hockey League season covers both the Interior and Coastal divisions ahead of opening night. The Richmond Sockeyes, who finished first in the Coastal Division with a 38-14 record the prior season after bolstering their roster with WHL veterans, are expected to face a stiff challenge from the heavily-recruited Delta Flyers. In the Interior Division, the Vernon Lakers — not Kelowna or Penticton — are touted as the team to beat, with coach Ernie Gare (of Vernon, not Richmond) expressing confidence in the Lakers' defensive depth and recruiting. New franchise Salmon Arm Tigers and the transfer of Langley Eagles to Chilliwack are also noted as league changes.",
+    "notes": "Critical factual error in the draft: the quote from coach Ernie Gare about defensive prospects belongs to the Vernon Lakers, not the Richmond Sockeyes. Additionally, the draft incorrectly states Richmond is expected to trail Kelowna and Penticton (Interior teams); the OCR says Richmond trails the Delta Flyers (Coastal). Editor should confirm the article's actual main headline, as 'How the season shapes up' appears to be a mid-article subhead in the OCR.",
+    "_usage": {
+      "input_tokens": 3427,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 864,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

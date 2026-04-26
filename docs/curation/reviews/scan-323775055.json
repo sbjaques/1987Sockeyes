@@ -1,0 +1,36 @@
+{
+  "id": "scan-323775055",
+  "imageId": "323775055",
+  "date": "1988-02-11",
+  "paper": "Nanaimo Daily News",
+  "page": "p10",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft omits the photo caption, which is the most visually prominent Sockeyes-specific content on the page: a Bruce Lantz photo of Sockeyes goaltender Dave Charron making a save against Nanaimo Clippers' Craig Frankford (#2), with Greg Allen (#11) also pictured.",
+      "The game score described (10-1 Sockeyes over Chilliwack) comes from a Canadian Press wire item, not a locally-reported article — the OCR has no standalone headline for it.",
+      "Jason Talo is a known Sockeyes player, but the other players named (Dwayne Wills, Rick Rozecki, Barry Kress, Wayne Stripp, Steve Rutledge, Garth Lamb, Dave Charron) are not on the 1987 Sockeyes roster list — this appears to be the 1987-88 season squad, which is still archive-worthy as an ex-Sockeyes/successor team context.",
+      "The long description fails to mention the photo caption (Bruce Lantz Photo), which references a separate Sockeyes vs. Nanaimo Clippers game from Tuesday night — this is additional Sockeyes-relevant content on the page.",
+      "The draft does not mention that the Chilliwack game report came via CP (Canadian Press) wire.",
+      "Headline is not present in the OCR for the wire item; the photo caption line 'Bruce Lantz Photo' with its description is the closest identifiable label."
+    ],
+    "correctedDescriptionShort": "A CP wire brief reports the Richmond Sockeyes defeated Chilliwack Eagles 10-1 in BCJHL play, with Dwayne Wills scoring three goals and Jason Talo adding two; the page also features a Bruce Lantz photo of Sockeyes goaltender Dave Charron making a save against Nanaimo Clippers' Craig Frankford (#2) in Tuesday night's BCJHL action.",
+    "correctedDescriptionLong": "A Canadian Press wire brief reports the Richmond Sockeyes defeated the Chilliwack Eagles 10-1 in the only BCJHL game played Wednesday night, with Dwayne Wills scoring three goals and Jason Talo adding two for the Coastal Division leaders. The Sockeyes held period leads of 2-1 and 7-1 and outshot Chilliwack 61-35; other scorers included Rick Rozecki, Barry Kress, Wayne Stripp, Steve Rutledge, and Garth Lamb. The page also carries a Bruce Lantz photo showing Sockeyes goaltender Dave Charron stopping a shot from Nanaimo Clippers' Craig Frankford (#2), with Clippers' Greg Allen (#11) looking on during Tuesday night's BCJHL contest. The remainder of the page contains unrelated NBA and WHL game reports.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The page has no standalone headline for the Sockeyes wire item. The photo caption (Bruce Lantz Photo) references a separate Sockeyes vs. Nanaimo Clippers game from Tuesday night — both pieces of Sockeyes content should be captured in the description. Players named in the wire item (Wills, Rozecki, Kress, Stripp, Rutledge, Charron) do not appear on the known 1987 championship roster; this is the 1987-88 season. Jason Talo is the one confirmed roster name present.",
+    "_usage": {
+      "input_tokens": 3071,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 951,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

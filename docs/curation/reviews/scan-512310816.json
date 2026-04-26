@@ -1,0 +1,36 @@
+{
+  "id": "scan-512310816",
+  "imageId": "512310816",
+  "date": "1987-04-23",
+  "paper": "Star-Phoenix",
+  "page": "p16",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The short description says 'Box score and play-by-play' but the OCR shows only penalty/goal summaries by period (a game summary sheet), not a traditional box score or narrative play-by-play. The term 'box score' is inaccurate.",
+      "The short description omits the final score details and key goal scorers visible in the OCR (e.g., Tomlinson shorthanded goal, Clarke's late third-period goal).",
+      "The long description says 'seven goals total' but the OCR lists goals numbered 1 through 7, with goal #1 missing from the visible OCR text — the description infers seven correctly, but the first goal is not shown in the OCR so this should be flagged as partially inferred.",
+      "The long description does not mention that Tomlinson's goal in the second period was a shorthanded goal (marked 'sh' in OCR), which is a notable detail.",
+      "The long description omits Clarke's tying goal at 19:27 of the third period (assisted by Kozak and Tomlinson), which was crucial context — Richmond had to tie it late before winning in OT.",
+      "No headline or byline are present in the OCR, which is consistent with a standalone game summary/stat sheet rather than a written article — the draft correctly leaves these blank."
+    ],
+    "correctedDescriptionShort": "Game summary sheet for a 1987 playoff game in which Richmond Sockeyes defeated Humboldt 4–3 in overtime on Bobbitt's goal at 1:04 OT, with Clarke's tying goal at 19:27 of the third period setting up the win.",
+    "correctedDescriptionLong": "Period-by-period goal and penalty summary for a 1987 playoff game between the Richmond Sockeyes and Humboldt, with Richmond winning 4–3 in overtime. Sockeyes goals came from Tomlinson (shorthanded, second period), Claringbull (third period), Clarke (tying goal at 19:27 of the third, assisted by Kozak and Tomlinson), and Bobbitt's overtime winner at 1:04 assisted by McCormick and Czenczek. The game featured heavy penalty totals across all periods, including a major to Gunn (highsticking) and a late bench minor to Richmond for too many men in overtime.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR begins mid-game (first period penalties, no first goal visible), suggesting the top of the clipping may be cut off. Goal #1 is not shown; all other goals (2–7) are present. This appears to be a standalone game summary stat sheet rather than a written article — no headline or byline are expected.",
+    "_usage": {
+      "input_tokens": 2940,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 761,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

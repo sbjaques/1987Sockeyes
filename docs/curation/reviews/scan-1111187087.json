@@ -1,0 +1,29 @@
+{
+  "id": "scan-1111187087",
+  "imageId": "1111187087",
+  "date": "1988-03-04",
+  "paper": "Telegraph-Journal",
+  "page": "p26",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR cuts off mid-sentence at \"His best strength is\" — article appears to continue on the next page/column but the available text is sufficient to confirm the draft's accuracy. The BCJHL is described in the OCR as \"British Columbia Tier II Junior Hockey League,\" which aligns with the draft's reference to the Richmond Sockeyes. No byline is visible in the OCR, consistent with the draft leaving it blank.",
+    "_usage": {
+      "input_tokens": 2794,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 258,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

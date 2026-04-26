@@ -1,0 +1,35 @@
+{
+  "id": "scan-558335639",
+  "imageId": "558335639",
+  "date": "1987-04-13",
+  "paper": "Red Deer Advocate",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The series score context is wrong: the box scores show the series tied 2-2 with games scheduled ahead (Tuesday/Wednesday/Thursday), meaning these are Games 3 and 4, not a tie entering Game 5. The draft says 'Series tied 2-2 entering Game 5 scheduled for Tuesday' but the OCR shows three upcoming games listed (Tuesday, Wednesday, Thursday if necessary), suggesting these are mid-series results. The earlier results (Apr 7 & 8) show Richmond won both home games 11-4 and 6-4, so Richmond led 2-0 before these road losses — the series is actually tied 2-2 after Games 3 and 4.",
+      "Saturday April 11 score: the draft correctly states Richmond lost 3-6. Sunday April 12 score: the draft correctly states Richmond lost 1-7.",
+      "The Sunday game header in OCR reads 'SUNDAY Richmond 1 at Red Deer' (the '7' is actually found in the scoring summary, not the header) — this is consistent with the draft.",
+      "Goal for Saturday was 'Romeo, Richmond; Weiss, Red Deer' — the draft does not mention goaltenders, which is acceptable but worth noting. Goal for Sunday was 'Stewart, Richmond; Weiss, Red Deer'.",
+      "The series context: Games 1 and 2 were in Richmond (Richmond won both), Games 3 and 4 were in Red Deer (Red Deer won both), series now tied 2-2 with Games 5/6/7 in Red Deer — this is actually unusual and may reflect a split-venue format. The draft's framing of 'entering Game 5' is acceptable but the description should clarify Richmond had won the first two games at home."
+    ],
+    "correctedDescriptionShort": "Box scores from Richmond Sockeyes playoff road losses at Red Deer Rebels (3-6 on April 11 and 1-7 on April 12, 1987), tying their best-of-seven series 2-2.",
+    "correctedDescriptionLong": "Weekend box scores from the Richmond Sockeyes' playoff series against the Red Deer Rebels, with both games played in Red Deer. On Saturday, April 11, Richmond lost 3-6, with goals from McCormick, Hardy (PP), and Tomlinson (SH); on Sunday, April 12, Richmond lost 1-7, with Richmond's lone goal from Tomlinson. Both game summaries include period-by-period scoring, goal scorers with assists, extensive penalty logs, and shots on goal; goaltenders were Romeo (Sat.) and Stewart (Sun.) for Richmond, and Weiss for Red Deer. The series, in which Richmond had won the first two games at home (11-4 and 6-4), is now tied 2-2, with Games 5, 6, and 7 (if necessary) scheduled in Red Deer on Tuesday, Wednesday, and Thursday.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The draft's core facts (scores, dates, series state) are essentially correct but the framing slightly misrepresents the series context. Richmond actually won the first two games at home before dropping Games 3 and 4 on the road to tie the series 2-2. Also note: the OCR lists three upcoming games (Tue/Wed/Thu), not just one Game 5 — corrected description reflects this. Goaltender names (Romeo/Stewart for Richmond, Weiss for Red Deer) are present in OCR and worth including.",
+    "_usage": {
+      "input_tokens": 4187,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 951,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

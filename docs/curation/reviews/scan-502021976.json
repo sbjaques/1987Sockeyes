@@ -1,0 +1,32 @@
+{
+  "id": "scan-502021976",
+  "imageId": "502021976",
+  "date": "1987-04-30",
+  "paper": "The Province",
+  "page": "p12",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline in the draft ('Sockeyes Add Humboldt Broncos to Hit List') is fabricated/paraphrased — the OCR shows the actual headline text is embedded in the byline paragraph and reads 'Add Humboldt Broncos to the Richmond Sockeyes' hit list' (a deck or lede, not a standalone headline). No bold standalone headline is clearly present in the OCR.",
+      "The long description omits a notable and colourful detail from the article: the Humboldt Broncos were booed by the Richmond Arena crowd for refusing to participate in the traditional post-game handshakes at centre ice."
+    ],
+    "correctedHeadline": "Add Humboldt Broncos to the Richmond Sockeyes' Hit List",
+    "correctedByline": "Frank Luba",
+    "correctedDescriptionShort": "Richmond Sockeyes defeat the Humboldt Broncos 5-4 to win the Abbott Cup Western Canadian junior-A championship series 4-3, advancing to the Centennial Cup.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Humboldt Broncos 5-4 in Game 7 to win the Abbott Cup Western Canadian junior-A championship series 4-3, adding the Saskatchewan champions to their list of vanquished opponents — Nanaimo, Delta, Kelowna, and Red Deer. The Broncos, as Centennial Cup hosts in Humboldt, will face Richmond again starting Saturday in the national championship tournament. The Broncos were booed by a finally-noisy Richmond Arena crowd for failing to participate in the traditional post-game handshakes at centre ice.",
+    "notes": "The OCR does not contain a clearly distinct bold headline separate from the byline/lede. The phrase 'Add Humboldt Broncos to the Richmond Sockeyes' hit list' appears to function as a deck headline or strong lede rather than a traditional headline — editor should confirm from the original image. The corrected headline above reflects the OCR text as closely as possible.",
+    "_usage": {
+      "input_tokens": 2649,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 595,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

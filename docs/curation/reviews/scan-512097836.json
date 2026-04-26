@@ -1,0 +1,35 @@
+{
+  "id": "scan-512097836",
+  "imageId": "512097836",
+  "date": "1987-05-09",
+  "paper": "Star-Phoenix",
+  "page": "p47",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft headline is wrong — the OCR does not show a clear standalone headline; the opening rhetorical question 'Rob Rice? Duncan Ryhorchuk? All-stars?' appears to serve as the article's lede, not a formal headline.",
+      "The draft omits Sockeyes players Jason Phillips (left wing all-star, three goals and three assists) and Matt Hervey (defence all-star, two goals and three assists), who were also named to the Centennial Cup all-star squad — this is the most significant Sockeyes-relevant content on the page.",
+      "The draft frames the article as primarily about Humboldt players, but the Sockeyes angle (Phillips and Hervey named all-stars) is equally central and should be highlighted.",
+      "Grant Robb is identified in the OCR as 'Lumber King goaltender' (Pembroke Lumber Kings), not a Humboldt Bronco — the draft does not misstate this but ignores the clarification.",
+      "The byline is absent from the OCR; leaving it empty is correct."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Richmond Sockeyes' Jason Phillips and Matt Hervey join Humboldt Broncos' Rob Rice and Duncan Ryhorchuk on the Centennial Cup all-star squad, announced at a banquet Friday at the Uniplex.",
+    "correctedDescriptionLong": "Four players were named to the Centennial Cup all-star squad at a banquet Friday at the Uniplex: Humboldt Broncos defenceman Rob Rice and right winger Duncan Ryhorchuk, praised by coach Bernie Lynch for their standout tournament performances, and Richmond Sockeyes left winger Jason Phillips (three goals, three assists) and defenceman Matt Hervey (two goals, three assists). Pembroke Lumber Kings goaltender Grant Robb was the uncontested selection in goal, having played all three of his team's round-robin games. Humboldt's Bill McDougall led overall scoring with four goals and seven points in round-robin play. Richmond and Humboldt were set to meet in the Centennial Cup final that evening at 7:30 p.m. at the Uniplex.",
+    "notes": "The draft's most critical error is omitting Sockeyes players Jason Phillips and Matt Hervey from the all-star announcement — they are explicitly named in the OCR alongside the Humboldt players. No formal headline is discernible in the OCR; the opening line is a rhetorical lede. Corrected headline left blank accordingly.",
+    "_usage": {
+      "input_tokens": 2837,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 724,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

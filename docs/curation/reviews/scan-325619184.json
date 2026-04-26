@@ -1,0 +1,36 @@
+{
+  "id": "scan-325619184",
+  "imageId": "325619184",
+  "date": "1987-12-17",
+  "paper": "Nanaimo Daily News",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is missing the column author/title — OCR shows 'Notes and quotes from around the B.C. Junior Hockey League' which appears correct, but byline is missing and should remain empty as OCR shows none.",
+      "The draft mentions 'Jamie Stewart of Langley Eagles' — the OCR confirms Jamie Stewart played with Langley Eagles (not Richmond), but Jamie Stewart IS a known Sockeye; this nuance is not flagged.",
+      "The short description is broadly accurate but omits Tony Bobbitt, a Sockeyes roster member, who is named as a scorer in the OCR.",
+      "The long description attributes Steve Tuttle to 'Richmond Sockeyes' correctly, but incorrectly states Jamie Stewart 'starred with Richmond Sockeyes' — the OCR clearly states he starred with Langley Eagles last season before playing for Michigan State.",
+      "The long description says 'junior alumni playing college hockey, including Steve Tuttle of Richmond Sockeyes' — this is correct, but omits that Jamie Stewart (also a Sockeye) is mentioned in the same context.",
+      "McFarlane's backstory (recently traded to Kelowna Packers then returning to Richmond) is not mentioned in either description, which is a notable omission for context."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes routed visiting Abbotsford Falcons 11-1, with returning player Brian McFarlane scoring five goals and an assist, and Barry Kress adding three goals and two assists; Tony Bobbitt also scored for Richmond.",
+    "correctedDescriptionLong": "Nanaimo Daily News BCJHL notes column reporting on the December 16 game in which the Richmond Sockeyes trounced visiting Abbotsford Falcons 11-1; Brian McFarlane — who had recently been traded to Kelowna Packers before returning to Richmond — scored five goals and an assist, while Barry Kress added three goals and two assists, and Dwayne Wills, Sasha Pogor, and Tony Bobbitt also scored. The column also highlights former Sockeyes in college hockey: goalie Jamie Stewart (ex-Langley Eagles) ranks second in CCHA goals-against average with Michigan State, and Steve Tuttle (ex-Richmond Sockeyes) is tied for sixth in WCHA scoring with 12 goals and 20 points for the Wisconsin Badgers.",
+    "correctedHeadline": "Notes and quotes from around the B.C. Junior Hockey League",
+    "correctedByline": "",
+    "notes": "The draft's long description incorrectly implies Jamie Stewart starred with the Richmond Sockeyes — the OCR states he starred with Langley Eagles. Both Jamie Stewart and Steve Tuttle are Sockeyes roster members appearing in this column. McFarlane's notable backstory (traded to Kelowna, then returned) is worth preserving in the description. Tony Bobbitt (a known Sockeyes player) is named as a scorer in the OCR but was omitted from both draft descriptions.",
+    "_usage": {
+      "input_tokens": 3002,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 838,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

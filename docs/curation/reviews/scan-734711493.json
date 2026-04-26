@@ -1,0 +1,33 @@
+{
+  "id": "scan-734711493",
+  "imageId": "734711493",
+  "date": "1989-02-18",
+  "paper": "North Bay Nugget",
+  "page": "p13",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft fails to mention Matt Hervey, a 1987 Richmond Sockeyes player, who is named in the OCR as one of the Moncton Hawks goalscorers. This is the key Sockeyes-relevant content that makes this page archive-worthy.",
+      "The draft describes the page as a generic AHL/NHL roundup without flagging the Hervey connection, which is the primary reason this scan is in the archive (search URL confirms 'Matt Hervey Jets' as search terms).",
+      "The short description omits any mention of Hervey entirely."
+    ],
+    "correctedDescriptionShort": "Former Richmond Sockeyes player Matt Hervey scored for the Moncton Hawks in an 8-2 AHL victory over the Cape Breton Oilers on February 17, 1989.",
+    "correctedDescriptionLong": "Former Richmond Sockeyes player Matt Hervey is listed among the Moncton Hawks goalscorers in their 8-2 AHL victory over the Cape Breton Oilers. The game marked new Hawks coach Alpo Suhonen's first AHL win; Suhonen, formerly of Finland's national team, had been hired after Rick Bowness moved up to coach the NHL's Winnipeg Jets. The article also covers NHL results from Friday night, including Toronto Maple Leafs 10 Rangers 6, Buffalo Sabres 5 Penguins 1, and Winnipeg Jets 3 Devils 2 in overtime, as well as a separate sidebar on Don Cherry's controversial on-air remarks about Suhonen and the Jets organization.",
+    "correctedHeadline": "",
+    "correctedByline": "The Canadian Press",
+    "notes": "This scan is archive-relevant because ex-Sockeye Matt Hervey scored for the Moncton Hawks (Winnipeg Jets AHL affiliate). The search URL confirms the Matt Hervey connection. The AI draft correctly identified the Suhonen/Hawks/Cherry storyline but completely missed Hervey, which is the central Sockeyes-relevance hook. No distinct headline is visible in the OCR for the main AHL article; the draft's suggested headline appears to be AI-generated rather than sourced from the OCR.",
+    "_usage": {
+      "input_tokens": 4117,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 636,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

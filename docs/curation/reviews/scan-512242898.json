@@ -1,0 +1,34 @@
+{
+  "id": "scan-512242898",
+  "imageId": "512242898",
+  "date": "1986-11-29",
+  "paper": "Star-Phoenix",
+  "page": "p69",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "tangential",
+    "issues": [
+      "The draft describes this as a Saskatchewan vs. UBC college hockey game, which is technically correct, but it misses the key reason this scan is archive-relevant: the OCR contains 'Czenczek' playing for UBC, who is Stan Czenczek, a known 1987 Richmond Sockeyes player. The description should flag this Sockeyes connection.",
+      "The draft makes no mention of Czenczek (listed as 'Czenczek, UBC' with two penalties), which is the sole reason this clipping was flagged for the archive (the newspaper.com search URL shows terms=Czenczek).",
+      "No headline is present in the OCR — the draft correctly leaves it blank.",
+      "No byline is present in the OCR — the draft correctly leaves it blank."
+    ],
+    "correctedDescriptionShort": "Box score from a 1986 college hockey game between Saskatchewan and UBC, notable for listing Stan Czenczek (later a 1987 Richmond Sockeyes player) as a UBC player who drew two penalties.",
+    "correctedDescriptionLong": "Box score and game summary from a college hockey matchup between the University of Saskatchewan Huskies and UBC, published in the Star-Phoenix on November 29, 1986. Saskatchewan won the game, outshooting UBC 43–31, with Sakundiak recording two goals and converting 3-of-12 power plays while UBC went 0-for-8. The scan is archive-relevant because Stan Czenczek — later a player on the 1987 Centennial Cup–winning Richmond Sockeyes — appears in the UBC penalty summary, drawing hooks and holding minors.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The draft accurately describes the game content but omits the critical Sockeyes connection: Stan Czenczek appears twice in the UBC penalty log. This is almost certainly the reason the clipping was flagged (the search URL uses terms=Czenczek). Sockeyes relevance is tangential — it documents a pre-Sockeyes appearance by a future roster member playing college hockey for UBC in late 1986.",
+    "_usage": {
+      "input_tokens": 3159,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 627,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "scan-508000096",
+  "imageId": "508000096",
+  "date": "1987-02-08",
+  "paper": "Times Colonist",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes the article as being about a game between the Sockeyes and Victoria Cougars — this is wrong. The Sockeyes-relevant article is about a game between the Richmond Sockeyes and the Juan de Fuca Whalers, which Richmond won 6-2.",
+      "The headline 'Sockeye star socks Whalers' does appear in the OCR, but it belongs to the Sockeyes vs. Juan de Fuca Whalers article, not a Sockeyes vs. Cougars game.",
+      "The draft omits the actual scorer details: Mike McCormick scored three goals; Paul Rutherford, Rob Clarke, and Tony Bobbitt scored the other Richmond goals.",
+      "The draft says Frank Romeo 'made 22 saves' but the OCR states Juan de Fuca netminder Tim Renton faced 28 shots, and Frank Romeo 'parried 22 shots' — Romeo made 22 saves for Richmond, which is correct, but the opponent is Juan de Fuca, not the Cougars.",
+      "The Goglin/Bewley altercation was in the Sockeyes vs. Juan de Fuca Whalers game, not a Sockeyes vs. Cougars game.",
+      "The 'Sockeye star socks Whalers' headline and 'By Dave Senick' byline in the OCR are actually associated with a separate WHL article about the Victoria Cougars vs. Seattle Thunderbirds (the column noise from an adjacent article). The Sockeyes article does not appear to have its own distinct headline or byline visible in the OCR.",
+      "The long description incorrectly references 'Western Hockey League's response to player discipline' — the league discipline mentioned (Ron Bhala and Cory Manton suspensions) relates to the BCJHL Coastal Division, not the WHL.",
+      "The draft mentions 'broader trends in junior hockey conduct' as part of the Sockeyes article — this is actually content from the adjacent Pat Ginnell WHL feature, which is unrelated to the Sockeyes article."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Mike McCormick scored three goals as the Richmond Sockeyes defeated the Juan de Fuca Whalers 6-2 in a BCJHL game at Juan de Fuca Recreation Centre.",
+    "correctedDescriptionLong": "Mike McCormick netted a hat trick to lead the Richmond Sockeyes past the Juan de Fuca Whalers 6-2 in a BC Junior Hockey League game before 320 fans at Juan de Fuca Recreation Centre. Paul Rutherford, Rob Clarke, and Tony Bobbitt also scored for Richmond, while Frank Romeo stopped 22 shots. The game was marred late when Russ Goglin of the Sockeyes and Graham Bewley of the Whalers each received a major penalty and a game misconduct with less than two minutes remaining.",
+    "notes": "The AI draft confused adjacent-column content: the headline \"Sockeye star socks Whalers\" and byline \"By Dave Senick\" visible in the OCR are from an adjacent WHL column about the Victoria Cougars vs. Seattle Thunderbirds — not the Sockeyes article. The Sockeyes article does not appear to carry its own headline or byline in the OCR. The Ginnell feature and Bernie Geoffrion blurb are also unrelated column noise. The Sockeyes-relevant content is clearly the Richmond vs. Juan de Fuca Whalers game report.",
+    "_usage": {
+      "input_tokens": 3835,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 985,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

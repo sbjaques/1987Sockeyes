@@ -1,0 +1,36 @@
+{
+  "id": "scan-558334897",
+  "imageId": "558334897",
+  "date": "1987-04-09",
+  "paper": "Red Deer Advocate",
+  "page": "p14",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is a section label, not a true headline — 'Centennial Cup West Semifinal' is acceptable but the draft omits that this is actually the Abbott Cup (Western Canadian junior-A championship), not the Centennial Cup West Semifinal. The OCR header reads 'CENTENNIAL CUP WEST SEMIFINAL' so the label is taken directly from OCR — however the April 9 date and context (Richmond vs Red Deer) places this as the Abbott Cup western final/semifinal, not the Centennial Cup itself. The OCR label should be used as-is but the description should not call it a 'Centennial Cup' game in prose.",
+      "The draft says 'Richmond's Hervey scored multiple times, with assists from Czenczek, Tomlinson, and Rutherford' — this is accurate but incomplete and slightly misleading: Hervey scored three goals (a hat trick) in Wednesday's game, which is a notable detail omitted from both descriptions.",
+      "The draft short description says 'box score and game summary' but the OCR also includes the full series schedule and standings (W/F/A/Pts), which should be noted.",
+      "Rutledge scored a goal (not mentioned in the draft), and Jaques and Kozak also scored — the long description implies only Hervey scored multiple goals without noting Rutledge, Jaques, and Kozak also scored.",
+      "The draft long description says 'Richmond defeated Red Deer 6–4 in Wednesday's game to lead the series 2–0' — this is accurate per the OCR (Wednesday: Red Deer 4 at Richmond 6; Tuesday: Red Deer 4 at Richmond 11), but the series record shows Richmond leads 2-0 which is correct.",
+      "Shots on goal total for Red Deer reads '12 10 30' which sums to 52 but the Richmond total '19 13 20 52' is also 52 — the OCR appears to show Red Deer had shots of 12+10+30=52 as well, but that seems like an OCR artifact; the draft does not address this discrepancy. This is minor but worth noting."
+    ],
+    "correctedDescriptionShort": "Box score, series schedule, and game summary for the Centennial Cup West Semifinal series between Richmond Sockeyes and Red Deer, with Richmond leading 2–0 after wins of 11–4 and 6–4.",
+    "correctedDescriptionLong": "The Red Deer Advocate published the full series schedule, standings, and a detailed period-by-period summary of Wednesday's Centennial Cup West Semifinal game in which Richmond defeated Red Deer 6–4, extending their series lead to 2–0 (Tuesday's result was 11–4 for Richmond). Matt Hervey recorded a hat trick in Wednesday's game, with further goals from Steve Jaques, Dean Rutledge, and Brian Kozak; assists were distributed among Czenczek, Tomlinson, Rutherford, and McCormick. Goalies listed were Weiss (Red Deer) and Romeo (Richmond), with attendance of 800.",
+    "correctedHeadline": "CENTENNIAL CUP WEST SEMIFINAL",
+    "correctedByline": "",
+    "notes": "The section label \"CENTENNIAL CUP WEST SEMIFINAL\" is used directly from the OCR as the headline — no separate article headline is present. The April 9, 1987 date and Richmond vs. Red Deer matchup is consistent with the Abbott Cup / Centennial Cup West playoff path. Hervey's hat trick in Wednesday's game is the most notable individual detail and should be highlighted. The shots-on-goal column for Red Deer (12+10+30=52) appears to match Richmond's total, which may be an OCR misread of the Red Deer column; editor may wish to verify against the original image.",
+    "_usage": {
+      "input_tokens": 3202,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 1035,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

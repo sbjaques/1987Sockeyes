@@ -1,0 +1,33 @@
+{
+  "id": "scan-663903402",
+  "imageId": "663903402",
+  "date": "1985-03-13",
+  "paper": "The Bangor Daily News",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is fabricated — no headline is present in the OCR text. The AI generated one that does not appear in the source.",
+      "The short description says 'reflect on season' but the article is forward-looking ('setting their sights on the 1985-86 season'), so the framing is slightly misleading, though minor.",
+      "The long description is broadly accurate but omits the specific forward-looking framing and the Providence semifinals/finals detail is already there. No major factual errors, but the headline must be corrected to empty since none is in the OCR."
+    ],
+    "correctedDescriptionShort": "University of Maine freshman defensemen Stan Czenczek and Dave Nonis look ahead to the 1985-86 season after the Bears' elimination from the Hockey East quarterfinals by Boston University.",
+    "correctedDescriptionLong": "Following the University of Maine-Orono hockey team's elimination from the Hockey East quarterfinals by Boston University, freshman defensemen Stan Czenczek and Dave Nonis — both British Columbia natives — express optimism about the 1985-86 season. Both players acknowledge that freshman mistakes cost the team some games but credit the extensive playing time for their development. They express disappointment for the graduating senior class, who fell short of the Hockey East semifinals and finals in Providence, praising the seniors for supporting the younger players throughout the season.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Stan Czenczek (listed on the Sockeyes roster) appears here in a 1985 UMaine context, predating his time with the 1987 Richmond Sockeyes — archive-worthy as an early career reference. No headline is visible in the OCR; the AI-generated headline should be cleared.",
+    "_usage": {
+      "input_tokens": 2691,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 521,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

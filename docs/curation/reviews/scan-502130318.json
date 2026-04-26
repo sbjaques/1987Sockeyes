@@ -1,0 +1,34 @@
+{
+  "id": "scan-502130318",
+  "imageId": "502130318",
+  "date": "1988-03-23",
+  "paper": "The Province",
+  "page": "p16",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline is AI-fabricated — no headline is visible in the OCR text. The actual headline cannot be confirmed from the OCR provided.",
+      "Rick Loughran is a photographer credit ('Staff photo by Rick Loughran'), not the article byline/author. No byline is present in the OCR text.",
+      "The long description states 'March 22, 1988' as the date of the game — the OCR says 'last night' relative to the publication date of March 23, 1988, which is consistent with March 22, but this is an inference; the OCR itself does not explicitly state the game date.",
+      "The long description's final sentence ('The Lakers displayed swift skating and passing prowess in their dominant performance') is a paraphrase of OCR detail but is acceptable; however the description should not attribute a byline to Rick Loughran when he is only the staff photographer."
+    ],
+    "correctedDescriptionShort": "The Richmond Sockeyes were defeated 6-2 by the Vernon Lakers at Richmond Arena, putting the defending BCJHL champions down 3-0 in the best-of-seven league final.",
+    "correctedDescriptionLong": "The defending B.C. Junior Hockey League champion Richmond Sockeyes were defeated 6-2 at Richmond Arena by the swift-skating Vernon Lakers on the night of March 22, 1988. Vernon, the Interior Division champion, leads the best-of-seven league final 3-0 and could eliminate the Coastal Division champions in Game 4 that same evening. The article includes a staff photo by Rick Loughran.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Rick Loughran is credited as a staff photographer ('Staff photo by Rick Loughran'), not the article author — the draft incorrectly used him as the byline. No headline or writer byline is recoverable from the OCR fragment. Editor should check the full scan for a headline and byline.",
+    "_usage": {
+      "input_tokens": 2542,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 571,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

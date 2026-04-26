@@ -1,0 +1,35 @@
+{
+  "id": "scan-1107148440",
+  "imageId": "1107148440",
+  "date": "1987-10-29",
+  "paper": "The Times-Transcript",
+  "page": "p36",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline in the draft ('Moncton Hawks Rally Past Baltimore Skipjacks 6-4') does not appear verbatim in the OCR; the OCR does not show a clear headline for this article.",
+      "The draft attributes two goals to Matt Hervey ('Hervey scored twice'), but the OCR only explicitly states Hervey cut the lead to 3-2 at 2:33 of the third period — no second Hervey goal is mentioned.",
+      "The draft states 'Jamie Gilhen added two goals' but the OCR attributes the goals to 'Jamie Husgen' scoring at 5:48 and 'Randy Gilhen' (not Jamie Gilhen) scoring at 13:36 and 15:43 — these appear to be two different players conflated into one.",
+      "The draft says 'five-goal third-period comeback' which is supported by the OCR, but misattributes the goals to the wrong players.",
+      "The byline field is left empty which appears correct based on the OCR."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Moncton Hawks defeat Baltimore Skipjacks 6-4 in AHL play, with ex-Sockeyes defenseman Matt Hervey converted to right wing and contributing to a five-goal third-period rally.",
+    "correctedDescriptionLong": "The Moncton Hawks moved into third place in the AHL's Northern Division by defeating the Baltimore Skipjacks 6-4 on October 28, 1987, before 1,799 fans at Baltimore Arena. Coach Rick Bowness converted defensemen Matt Hervey (ex-Richmond Sockeyes) and Jamie Husgen to right wing, and their hard-hitting play sparked a five-goal third-period comeback after the Hawks trailed 4-2. Randy Gilhen scored twice in the third, including the winner at 15:43, with Chris Levasseur adding an insurance goal; Hervey scored once to cut the early deficit.",
+    "notes": "Matt Hervey is a former 1987 Sockeyes player now with the Moncton Hawks (AHL), making this archive-relevant. The draft conflates Randy Gilhen and Jamie Husgen into a fictional 'Jamie Gilhen,' and incorrectly credits Hervey with two goals. OCR does not show a clear standalone headline for this article. Byline not visible in OCR.",
+    "_usage": {
+      "input_tokens": 3062,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 686,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

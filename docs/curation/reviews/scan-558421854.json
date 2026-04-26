@@ -1,0 +1,34 @@
+{
+  "id": "scan-558421854",
+  "imageId": "558421854",
+  "date": "1987-05-08",
+  "paper": "Red Deer Advocate",
+  "page": "p22",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Byline is wrong: OCR shows '(CP)' wire service credit, not no byline — should be noted as a CP (Canadian Press) wire story.",
+      "Player name 'Steve Dartmouth' in the draft is incorrect. The OCR clearly reads 'Steve Jacques' (i.e., Steve Jaques, a known Sockeyes player). 'Dartmouth' is noise from the adjacent reference to the 'Dartmouth Fuel Kids' team appearing later in the article.",
+      "The draft omits key tournament context: Humboldt Broncos beat Richmond 6-1 in round-robin; the Broncos won all three round-robin games; Pembroke (Ontario champions) had a 1-2 round-robin record; the fourth team (Dartmouth Fuel Kids, Nova Scotia) lost all three round-robin games.",
+      "The draft does not mention that Richmond led 1-0 after the first period and 3-0 after the second."
+    ],
+    "correctedDescriptionShort": "The Richmond Sockeyes defeated the Pembroke Lumber Kings 9-3 in a Centennial Cup semifinal in Humboldt, Saskatchewan, advancing to meet the Humboldt Broncos in Saturday's sudden-death final.",
+    "correctedDescriptionLong": "The Richmond Sockeyes (British Columbia) whipped the Ontario-champion Pembroke Lumber Kings 9-3 in a Thursday-night semifinal at the Centennial Cup junior-A championship in Humboldt, Saskatchewan. Goals came from Trevor Dickie, Steve Jaques, Matt Hervey, Brian Kozak, Paul Rutherford, Jason Phillips, Tony Bobbitt, Bryon Moller, and Bill Hardy; Richmond outshot Pembroke 44-32 and led 1-0 after one period and 3-0 after two. The Sockeyes will face the Saskatchewan-champion Humboldt Broncos — who went undefeated in round-robin play, including a 6-1 win over Richmond — in the sudden-death final Saturday night.",
+    "correctedHeadline": "Sockeyes reach final",
+    "correctedByline": "CP",
+    "notes": "The draft incorrectly names a goal-scorer as \"Steve Dartmouth\" — this is a conflation of Sockeyes player Steve Jaques and the opposing team name \"Dartmouth Fuel Kids\" which appears later in the same OCR column. The correct name from the OCR is \"Steve Jacques\" (roster spelling: Steve Jaques). Byline is Canadian Press wire (CP).",
+    "_usage": {
+      "input_tokens": 2815,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 719,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

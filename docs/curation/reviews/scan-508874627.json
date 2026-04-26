@@ -1,0 +1,35 @@
+{
+  "id": "scan-508874627",
+  "imageId": "508874627",
+  "date": "1987-04-16",
+  "paper": "Times Colonist",
+  "page": "p3",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes this as a 'Centennial Cup semifinal' but the OCR says 'western Centennial Cup semifinal' — this is the Abbott Cup (Western final), not the Centennial Cup itself. The game was played in Red Deer, consistent with a BC vs Alberta western playoff series.",
+      "The headline is listed as UNKNOWN — OCR does not show a clear headline, so it should remain unset.",
+      "The byline is attributed to 'Canadian Press' which is correct per the OCR ('The Canadian Press'), but it should be noted this is a wire service credit, not a byline in the traditional sense.",
+      "The draft's short description says 'Centennial Cup semifinal' which is misleading — the series is the western (Abbott Cup) semifinal/final, not the national Centennial Cup semifinal.",
+      "The OCR is cut off mid-sentence ('Pete') suggesting there may be additional scorer or goaltender information not captured."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeat Red Deer Rustlers 7-3 to square their western Centennial Cup semifinal series at three wins apiece.",
+    "correctedDescriptionLong": "The Richmond Sockeyes scored five first-period goals on their way to a 7-3 victory over the Red Deer Rustlers in Red Deer on April 16, 1987, squaring their western Centennial Cup semifinal series at three wins each. The BCJHL champions led 5-1 after the first period and 5-3 after the second, outshooting the Alberta junior champions 36-33. Rob Clarke scored three goals, with Tony Bobbitt, Dave Tomlinson, Brian Kozak, and Mike McCormick each adding singles. The OCR appears truncated and may omit additional details.",
+    "correctedHeadline": "",
+    "correctedByline": "The Canadian Press",
+    "notes": "The draft incorrectly labels this a \"Centennial Cup semifinal\" — the OCR clearly says \"western Centennial Cup semifinal,\" which corresponds to the Abbott Cup western final series (BC vs Alberta). The national Centennial Cup came later in May. Also, the OCR is cut off mid-sentence (\"Pete\"), so scorer/goaltender details may be incomplete. Editor should check if a fuller scan is available.",
+    "_usage": {
+      "input_tokens": 2595,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 649,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

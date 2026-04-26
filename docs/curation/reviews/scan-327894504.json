@@ -1,0 +1,35 @@
+{
+  "id": "scan-327894504",
+  "imageId": "327894504",
+  "date": "1987-03-18",
+  "paper": "Surrey Leader",
+  "page": "p48",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The drafted headline 'Sockeyes Eliminate Delta in Overtime' is not confirmed by the OCR — no clear headline is visible in the extracted text, so it should not be asserted as fact.",
+      "The long description states 'Coach Orland Kurtenbach praised the team's execution and Delta's goaltending' — while broadly accurate, the OCR more specifically quotes Kurtenbach saying the score would have been higher if not for Delta's goaltending and praising Chris Dickson by name ('Chris had a helluva game'), which is worth capturing.",
+      "The long description says Dickson stopped 49 shots but the OCR confirms this; however, the description omits the notable detail that Delta coach Rick Hopper admitted Richmond were the better team and was already planning for next season, which adds context.",
+      "The short description says 'BCJHL Coastal Division final series 4-0' — while correct (4 straight games in a best-of-seven), the phrasing '4-0' is not explicitly used in the OCR; 'four straight games' is more faithful.",
+      "The OCR does not confirm the headline used in the draft — no large bold headline text is present in the extracted content."
+    ],
+    "correctedDescriptionShort": "The Richmond Sockeyes defeated the Delta Flyers 6-5 in sudden-death overtime at Sungod Arena to clinch the BCJHL Coastal Division final series in four straight games, with Paul Rutherford scoring the winner at 4:37 of overtime.",
+    "correctedDescriptionLong": "The Richmond Sockeyes eliminated the Delta Flyers 6-5 in sudden-death overtime on Saturday at Sungod Arena, sweeping the BCJHL Coastal Division final series in four straight games and advancing to face the Kelowna Packers for the league championship. Paul Rutherford banged in a rebound at 4:37 of the extra session for the winner, after Delta's Momotani had tied it at 5-5 with 2:07 remaining in regulation. Delta goaltender Chris Dickson was spectacular in stopping 49 shots, drawing praise from Sockeyes head coach Orland Kurtenbach, who said the score would have been much higher without Dickson's performance. Flyers coach Rick Hopper acknowledged Richmond were the better team, while already looking ahead to rebuilding for next season.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR text begins mid-article (no headline or byline visible in the extracted content), so the drafted headline cannot be verified and has been cleared. The article content itself is accurately reported in the OCR and the core facts in the draft are correct, but the long description has been updated to include additional specifics from the OCR including Momotani's tying goal, Kurtenbach's direct quote about Dickson, and Hopper's post-game comments.",
+    "_usage": {
+      "input_tokens": 2947,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 792,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

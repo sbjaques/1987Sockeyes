@@ -1,0 +1,29 @@
+{
+  "id": "scan-1011070382",
+  "imageId": "1011070382",
+  "date": "1987-05-09",
+  "paper": "The Hamilton Spectator",
+  "page": "p59",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Draft accurately reflects all key details in the OCR: score (9-3), opponents (Pembroke Lumber Kings), venue (Humboldt, SK), all nine Sockeyes goal scorers, shot differential (44-32), period-by-period leads (1-0, 3-0), the Broncos' undefeated round-robin record including their 6-1 win over Richmond, and the Dartmouth Fuel Kids as the fourth team. Headline and byline match OCR exactly.",
+    "_usage": {
+      "input_tokens": 2838,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 279,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

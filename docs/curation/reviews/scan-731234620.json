@@ -1,0 +1,36 @@
+{
+  "id": "scan-731234620",
+  "imageId": "731234620",
+  "date": "1987-05-08",
+  "paper": "The Daily Herald-Tribune",
+  "page": "p12",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline 'Sockeyes Advance to Centennial Cup Final' is not confirmed by the OCR — no headline text is present in the OCR excerpt, only body paragraph text.",
+      "The final is described as being on May 8 ('tomorrow night') but per the draft it says 'May 8'; the paper date is May 8 so the game was reported for May 9, not May 8 — the draft says the final is on May 8 which is the publication date, not the game date.",
+      "The draft says 'Goals were scored by Dickie, Jaques, Hervey, Kozak, Rutherford, Phillips, Bobbitt, Bryon, and Hardy' — the OCR lists 'Bryon' (likely Bryon Moller) separately, which is correct, but the first name 'Dickie' is listed without a first name in the OCR; the draft uses only 'Dickie' which is acceptable but note that 'Phillips' also has no first name in the OCR and is listed correctly.",
+      "Draft does not mention that Pembroke were the Ontario champions or that they had a 1-2 round-robin record, or that Pembroke scored through Dave Hoof, George Dupont, and Clarke — these are details from the OCR omitted from the description.",
+      "Draft does not mention Richmond outshot Pembroke 44-32 and took 11 of 17 penalties — notable game detail present in the OCR.",
+      "The date of the game was May 7 ('last night') per OCR, and the final is 'tomorrow night' (May 9), not May 8 as stated in the draft — the draft incorrectly states the final is on May 8."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Richmond Sockeyes defeated Ontario champion Pembroke Lumber Kings 9-3 in a Centennial Cup junior-A semifinal on May 7, 1987, advancing to a sudden-death final against Humboldt Broncos on May 9.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Ontario champion Pembroke Lumber Kings 9-3 in a Centennial Cup junior-A hockey semifinal on May 7, 1987, advancing to the championship final. Richmond entered the semifinal with a 2-1 round-robin record and will face Saskatchewan champion Humboldt Broncos in a sudden-death final on May 9. Goals were scored by Dickie, Steve Jaques, Matt Hervey, Brian Kozak, Paul Rutherford, Phillips, Tony Bobbitt, Bryon (Moller), and Bill Hardy; Pembroke replied through Dave Hoof, George Dupont, and Clarke. Richmond outshot Pembroke 44-32, took 11 of 17 penalties, and led 1-0 after one period and 3-0 after two.",
+    "notes": "No headline is visible in the OCR — the draft headline appears to be AI-fabricated and has been cleared. The draft also incorrectly stated the final was on May 8; based on the publication date of May 8 and the OCR saying \"tomorrow night,\" the final was May 9. Key game details (shot totals, penalty count, Pembroke scorers, Ontario champion status) were omitted from the draft and have been added to the corrected long description.",
+    "_usage": {
+      "input_tokens": 2709,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 933,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

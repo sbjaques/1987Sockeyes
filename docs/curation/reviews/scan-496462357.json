@@ -1,0 +1,36 @@
+{
+  "id": "scan-496462357",
+  "imageId": "496462357",
+  "date": "1987-04-18",
+  "paper": "The Leader-Post",
+  "page": "p28",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline 'Richmond Sockeyes Advance in Centennial Cup' does not appear in the OCR text — no clear standalone headline is present for the Sockeyes item; it appears to be a wire/briefs column with no distinct headline.",
+      "The description conflates the Sockeyes semi-final result with the Centennial Cup final. As of April 18, 1987, the Centennial Cup national championship had not yet been played — this is a Western semi-final result, not the final. The draft short description correctly says 'Western semi-final 4-3' but the headline implies a broader advancement that is misleading.",
+      "The series win is described as 4-3 in a best-of-seven, but the OCR says the Sockeyes won the semi-final 4-3 — this detail is correctly stated in the draft body but the context should be clear it is the Western semi-final, not the Centennial Cup final.",
+      "The draft long description mentions the Brantford/St. John's Allan Cup result as secondary content, which is accurate per OCR, but the description slightly misstates it: the OCR says Blake Hull's goal gave Brantford a 3-2 victory to win the series 4-2 (not just to win that game), so the series result should be noted.",
+      "No byline is visible in the OCR, which the draft correctly leaves blank.",
+      "No distinct headline is present in the OCR for the Sockeyes content; the AI-drafted headline is fabricated and should be left empty."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Dave Tomlinson scored three goals as the Richmond Sockeyes routed the Red Deer Rustlers 9-1 to win the Centennial Cup Western best-of-seven semi-final 4-3, advancing to face the Humboldt Broncos.",
+    "correctedDescriptionLong": "Dave Tomlinson scored three goals to pace the Richmond Sockeyes to a 9-1 victory over the Red Deer Rustlers on Thursday, clinching the Centennial Cup Western best-of-seven semi-final 4-3 in Red Deer. The Sockeyes advance to play the Humboldt Broncos in the next round. The page also carries a brief on the Brantford Mott's Clamatos defeating the St. John's Caps 4-2 in the Allan Cup Eastern Canada final, and a note on the Miramichi-Gagnon Packers offering to fund travel for the Stoney Plain Chiefs for a Canada Challenge Cup senior hockey series.",
+    "notes": "No distinct headline appears in the OCR for the Sockeyes item — it reads as a wire briefs column. The AI-fabricated headline has been removed. The date (April 18, 1987) places this well before the May 9 Centennial Cup final, so references to \"advancing to Humboldt Broncos\" refer to the next round, not the championship final.",
+    "_usage": {
+      "input_tokens": 2770,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 823,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

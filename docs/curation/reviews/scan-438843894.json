@@ -1,0 +1,35 @@
+{
+  "id": "scan-438843894",
+  "imageId": "438843894",
+  "date": "1988-03-06",
+  "paper": "The Boston Globe",
+  "page": "p64",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes a Providence College vs. BU hockey game with no mention of the Sockeyes relevance — the key hook is that Dave Tomlinson (1987 Richmond Sockeyes player) is mentioned as providing the assist on Joe Sacco's goal for BU ('Joe Sacco took a Dave Tomlinson feed and cut in front to beat Merten'). The draft should be reframed to highlight Tomlinson's appearance.",
+      "The draft's headline ('Providence defeats BU in hockey game') is a fabrication — the OCR shows no standalone headline, only a score-line fragment: 'Providence, 6-4 at Walter Brown Arena'.",
+      "The draft states 'Gord Cruikshank achieved 96 career goals' but the OCR spells the name 'Cruickshank' in the scoring summary and 'Cruikshank' in the narrative — the narrative form should be used consistently.",
+      "No byline is present in the OCR, which the draft correctly leaves blank — that is fine.",
+      "The draft does not mention Dave Tomlinson at all, which is the sole reason this clipping is in the Sockeyes archive."
+    ],
+    "correctedHeadline": "Providence, 6-4 at Walter Brown Arena",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Boston Globe game recap of Providence College defeating BU 6-4 on March 6, 1988, featuring an assist by ex-Sockeye Dave Tomlinson playing for BU.",
+    "correctedDescriptionLong": "Providence College defeated Boston University 6-4 at Walter Brown Arena on March 6, 1988, in an ECAC playoff game. Former Richmond Sockeyes player Dave Tomlinson, skating for BU, recorded an assist when Joe Sacco took his feed and scored to pull BU within one goal at 3-2. Andy Mattice scored twice for Providence and Rick Bennett added a power-play goal with 5:39 remaining to seal the win; Gord Cruikshank's 96th career goal made him Providence's all-time leading goal scorer.",
+    "notes": "This clipping is archived because of the Dave Tomlinson (1987 Sockeyes) mention — he is credited with the primary assist on Sacco's goal for BU. The description and headline should foreground that connection. Cruikshank's name is spelled two ways in the OCR ('Cruickshank' in the scoring line, 'Cruikshank' in the narrative); the narrative spelling is used here.",
+    "_usage": {
+      "input_tokens": 3438,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 714,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "scan-512310521",
+  "imageId": "512310521",
+  "date": "1987-04-22",
+  "paper": "Star-Phoenix",
+  "page": "p38",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says 'goals from Czenczek, Phillips (twice), Kozak, and others' but the OCR clearly shows Phillips scored THREE times (goals 3, 5, and 8), not twice. Kozak also scored (goal 6), and Czenczek scored (goal 1) — Richmond's five goals are: Czenczek, Phillips, Phillips, Kozak, Phillips.",
+      "The draft describes this as 'Centennial Cup Western final' but the date is April 22, 1987 — the Centennial Cup was in May 1987. Per the OCR this is the Abbott Cup (Western final) stage, but the OCR itself labels it 'Centennial Cup Western final,' which may refer to the Western qualifier round. The draft should not call it the Centennial Cup final outright, as that final was 5-2 over Humboldt on May 9.",
+      "Shot totals are correct (Humboldt 45, Richmond 31) but the long description omits that Phillips was the hat-trick scorer and the power-play goals context.",
+      "The headline as written is accurate per the OCR ('CENTENNIAL CUP Western final Richmond 5 Humboldt 3')."
+    ],
+    "correctedDescriptionShort": "Box score of Richmond Sockeyes defeating Humboldt 5-3 in Game 2 of the Centennial Cup Western final, tying the best-of-seven series 1-1.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Humboldt Broncos 5-3 in Game 2 of the Centennial Cup Western final on April 22, 1987, tying the best-of-seven series 1-1. Jason Phillips led Richmond with a hat trick (goals 3, 5, and 8), while Czenczek and Kozak each added a goal; two of Richmond's goals came on the power play in the second period. The detailed box score lists all penalties, goaltenders (Humboldt: Backlund/Lloyd; Richmond: Romeo), shots on goal (Humboldt 45, Richmond 31), and power-play statistics.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR labels this as the \"Centennial Cup Western final,\" but chronologically (April 22, 1987) this precedes the Centennial Cup national tournament in May — this is likely the Abbott Cup (Western Canada final) stage. However, since the OCR text itself uses the term \"Centennial Cup Western final,\" the description follows that label. The key factual error in the draft is that Phillips scored a hat trick, not twice; corrected accordingly.",
+    "_usage": {
+      "input_tokens": 3245,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 759,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

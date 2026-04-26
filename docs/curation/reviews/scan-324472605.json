@@ -1,0 +1,35 @@
+{
+  "id": "scan-324472605",
+  "imageId": "324472605",
+  "date": "1987-02-25",
+  "paper": "Nanaimo Daily News",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The byline is 'By MICHAEL RHODE For The Daily Free Press' — the AI draft rendered the surname as 'Rhode' but the OCR reads 'RHODE' which is ambiguous; however more importantly, the affiliation 'For The Daily Free Press' was omitted from the byline entirely.",
+      "The short description says the game was won 'in overtime' which is correct, but also states the score as '7-4 in overtime' which could be read as the overtime score rather than the final score — minor but worth clarifying.",
+      "The long description says 'The Clippers played evenly for 60 minutes but could not solve Richmond goalie Frank Romeo' — the OCR actually says they 'had trouble beating' Romeo, not that they could not solve him at all (they scored 4 goals). The phrasing overstates Romeo's shutout performance.",
+      "The long description says 'Brian Kozak scored the overtime winner at 3:28 of the extra period' which is accurate, but omits that it was his SECOND goal of the game, a notable detail from the OCR.",
+      "The byline should reflect 'By MICHAEL RHODE For The Daily Free Press' not just 'Michael Rhode'."
+    ],
+    "correctedDescriptionShort": "The Richmond Sockeyes defeated the Nanaimo Clippers 7-4 in overtime in the opening game of the BCJHL Coastal Division semi-final playoff series on February 24, 1987, with Brian Kozak scoring his second goal of the game as the overtime winner at 3:28.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Nanaimo Clippers 7-4 in overtime on February 24, 1987, in the opening game of the BCJHL Coastal Division best-of-seven semi-final playoff series. The Clippers played competitively for the full 60 minutes, skating stride for stride with Richmond, but had trouble beating Sockeyes goalie Frank Romeo. Brian Kozak netted his second goal of the game at 3:28 of the 10-minute overtime session to clinch the win. Game two of the series was scheduled for that night in Richmond.",
+    "correctedHeadline": "Clippers 4, Sockeyes 7",
+    "correctedByline": "By MICHAEL RHODE, For The Daily Free Press",
+    "notes": "The byline surname in the OCR reads 'RHODE' — the AI draft spelled it 'Rhode' which matches, but the affiliation 'For The Daily Free Press' was dropped. The article is a game report from the Nanaimo Daily News covering a BCJHL Coastal Division playoff game; there is also a secondary adjacent-column opinion/column fragment visible in the OCR, but the primary Sockeyes-relevant article is the game report. The paper is the Nanaimo Daily News but the byline says the writer is from 'The Daily Free Press' — this may refer to a wire or partner publication and is worth flagging for the editor.",
+    "_usage": {
+      "input_tokens": 2755,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 822,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "scan-324471274",
+  "imageId": "324471274",
+  "date": "1987-02-24",
+  "paper": "Nanaimo Daily News",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Byline is missing but a Nanaimo coach named 'Dutka' is quoted in the OCR, suggesting there may be a byline not captured in the OCR. Minor omission but not a factual error.",
+      "The player listed as 'Brian Moller' in the draft should be 'Bryon Moller' per the roster (OCR also renders it as 'Brian Moller' — acceptable OCR artifact, but worth noting the correct name is Bryon Moller).",
+      "The draft says Kurtenbach 'discusses lineup matchups' but it is actually the Nanaimo coach Dutka who discusses matching lines (e.g., Corky Parkes against Dave Tomlinson). Kurtenbach's quotes are about game planning and keeping the puck out of the net, not about lineup matchups.",
+      "The draft does not mention the Nanaimo Clippers' goaltenders (Wade Flaherty and Drew Smith) or the scoring stats table for Clippers, though omission of Clippers detail is minor.",
+      "The headline in the draft ('Sockeyes\\' Potent Lineup Takes On Clippers') is a plausible paraphrase but is not confirmed verbatim from the OCR — the OCR does not clearly show a headline. Should be flagged as unconfirmed."
+    ],
+    "correctedDescriptionShort": "The Nanaimo Daily News previews the upcoming BCJHL playoff series between the Richmond Sockeyes and Nanaimo Clippers, profiling Richmond's top scorers and goaltender Frank Romeo ahead of the matchup.",
+    "correctedDescriptionLong": "The Nanaimo Daily News previews the upcoming playoff series between the Richmond Sockeyes and Nanaimo Clippers. The article highlights Richmond's potent offence, led by league top goalscorer Rob Clarke (65 goals in 49 games), Dave Tomlinson (43-65-108), and Bryon Moller (27-64-91), plus goaltender Frank Romeo, who led the division with a 2.95 goals-against average. Sockeyes coach Orland Kurtenbach stresses taking the series one game at a time, keeping the puck out of the net, and staying out of the penalty box, warning that Nanaimo's power play has hurt them in the past. Nanaimo coach Dutka discusses his own line-matching strategy, targeting Tomlinson with Corky Parkes and emphasizing playing their own game rather than reacting defensively.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR does not clearly surface a headline for this article — the AI-drafted headline appears to be a paraphrase rather than a verbatim pull. The Nanaimo coach is referred to as 'Dutka' in the OCR; this name does not appear on the known Sockeyes staff list, confirming he is a Clippers-side figure. 'Brian Moller' in the OCR is likely Bryon Moller from the Sockeyes roster. Byline not visible in OCR.",
+    "_usage": {
+      "input_tokens": 3156,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 844,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}
