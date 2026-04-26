@@ -1,0 +1,35 @@
+{
+  "id": "scan-558457835",
+  "imageId": "558457835",
+  "date": "1987-09-26",
+  "paper": "Red Deer Advocate",
+  "page": "p14",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "tangential",
+    "issues": [
+      "The draft short description focuses on NAIT but the OCR text is actually about a Camrose College hockey team (coach Ferchuk) preparing for a game against NAIT — not NAIT preparing for a game against Camrose. The teams are reversed.",
+      "The headline 'NAIT prepares for junior hockey season opener' is not supported by the OCR, which describes Camrose/Ferchuk's perspective and lineup. No headline text is visible in the OCR.",
+      "The short description says 'goaltender Matt Cassidy from Stettler' but omits that the Sockeyes connection (Bill Hardy) is the primary reason this article is archive-relevant.",
+      "The OCR does not show a byline, which the draft correctly left blank — that part is fine.",
+      "The long description is mostly accurate in its details but incorrectly frames NAIT as the subject team; Ferchuk is Camrose's coach, and the article is about Camrose preparing to face NAIT."
+    ],
+    "correctedDescriptionShort": "Camrose College hockey team prepares for season opener against NAIT, with roster bolstered by Bill Hardy, a 1987 Centennial Cup champion from the Richmond Sockeyes.",
+    "correctedDescriptionLong": "Camrose College hockey coach Ferchuk discusses roster depth ahead of the team's season opener against NAIT. Veteran forwards Jay Glass and Cam Bowles lead returnees, joined by newcomers Dan Gunton (Prince George, Peace Caribou loop) and Bill Hardy, a member of the 1987 Centennial Cup champion Richmond Sockeyes. Goaltenders Matt Cassidy of Stettler and returnee Ward Willson will share duties in the opener, with Cassidy described as the biggest surprise in camp despite no netminder having claimed the number-one spot.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR is a partial column fragment — no headline is visible. The article is about Camrose College (coach Ferchuk), not NAIT. Sockeyes relevance is tangential: Bill Hardy (assistant captain #16) is mentioned as a Camrose newcomer following his 1987 Centennial Cup win with Richmond. Archive-worthy for Hardy's post-Sockeyes career tracking.",
+    "_usage": {
+      "input_tokens": 2837,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 669,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

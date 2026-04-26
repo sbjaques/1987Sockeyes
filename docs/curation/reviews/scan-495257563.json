@@ -1,0 +1,35 @@
+{
+  "id": "scan-495257563",
+  "imageId": "495257563",
+  "date": "1987-04-29",
+  "paper": "Vancouver Sun",
+  "page": "p15",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline 'Sockeyes and Broncos Set for Game Seven' is not confirmed by OCR — no headline text is visible in the OCR; it should not be asserted.",
+      "Draft says 'Humboldt Broncos' as opponent in the Abbott Cup western final, but the Abbott Cup is the western Canada junior-A final (not 'western final' between Richmond and Humboldt — Humboldt is from Saskatchewan/east). Minor framing issue but the series is correctly the Abbott Cup.",
+      "Draft long description omits key details from the OCR: Tony Bobbitt's hand-on-puck penalty that led to Humboldt's tying goal, Steve Jaques' five-minute match penalty (helmet-butt on McDougall) that put Richmond on the ropes in overtime, and the Richmond scorers (Paul Rutherford with two goals, Dave Tomlinson).",
+      "Draft says 'Mike Gaber scoring the winner' — correct, but omits that it was a deflection of Brad Bergen's point shot at 3:31 of overtime.",
+      "Draft short description incorrectly states this is a 'western final game seven between Richmond Sockeyes and Humboldt Broncos' — while accurate in broad strokes, it is the Abbott Cup (western junior-A championship), not just a 'western final', and the opponent is from Humboldt, SK (Broncos)."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "Elliott Pap",
+    "correctedDescriptionShort": "Game seven of the Abbott Cup junior-A western championship between the Richmond Sockeyes and Humboldt Broncos is set for April 29 at Richmond Arena after Humboldt forced the decider with a 4-3 overtime win.",
+    "correctedDescriptionLong": "The Richmond Sockeyes and Humboldt Broncos meet in game seven of their Abbott Cup junior-A western championship series on April 29 at Richmond Arena (7:30 p.m.), with both clubs already guaranteed spots in the Centennial Cup. Humboldt forced the decider with a 4-3 overtime win, as Mike Gaber deflected Brad Bergen's point shot at 3:31 of extra time; Richmond was hurt by a hand-on-puck penalty to Tony Bobbitt and a five-minute match penalty to defenceman Steve Jaques for helmet-butting Bill McDougall. Paul Rutherford (two goals) and Dave Tomlinson scored for Richmond, and coach Orland Kurtenbach lamented the defensive mistakes that cost them the game. Through six games the teams are separated by just one goal (21-20 for Richmond), with three contests decided in overtime.",
+    "notes": "No headline text is discernible in the OCR — the AI-drafted headline should be treated as unverified and left blank. Byline confirmed as Elliott Pap. Several key game details from the OCR were missing from the draft's long description.",
+    "_usage": {
+      "input_tokens": 2871,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 820,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

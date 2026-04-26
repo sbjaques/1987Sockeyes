@@ -1,0 +1,34 @@
+{
+  "id": "scan-1128706608",
+  "imageId": "1128706608",
+  "date": "1987-04-15",
+  "paper": "Grand Forks Herald",
+  "page": "p23",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The player's first name is wrong: the OCR refers to 'McCormick' without a first name 'Dave' — the draft says 'Dave McCormick' but the archive roster lists him as 'Mike McCormick' from Lynnwood, WA. The OCR says 'Washington native,' consistent with Mike McCormick from Lynnwood, WA, not 'Dave McCormick'. The draft incorrectly uses 'Dave McCormick'.",
+      "The headline 'UND Recruits Feature Size and Skill' does not appear in the OCR — the OCR is truncated and does not show the article headline. This headline may be fabricated by the AI.",
+      "The long description says 'coach Gasparini' without his first name — the OCR does not supply a first name, so this is acceptable, but the description should not invent one.",
+      "The short description says 'six recruits' which is supported by the OCR and is accurate."
+    ],
+    "correctedDescriptionShort": "UND hockey coach Gasparini announces six recruits for 1987–88, including Richmond Sockeyes forward Mike McCormick (6-3, 215), who had 26 goals and 24 assists in 51 regular-season games.",
+    "correctedDescriptionLong": "UND hockey coach Gasparini announces six size-and-skill recruits for the 1987–88 season, among them Richmond Sockeyes forward Mike McCormick, a 6-3, 215-pound Washington native who scored 26 goals and 24 assists in 51 BCJHL regular-season games and added 15 goals in 13 playoff games as the Sockeyes competed in Centennial Cup post-season play. Gasparini praised McCormick's physical presence and versatility, noting he has the potential to play any forward position. Other recruits include players from Minnesota, the Alberta Junior Hockey League, and additional BCJHL clubs including the Langley Eagles and Penticton Knights.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The AI draft incorrectly names the player \"Dave McCormick\" — the Sockeyes roster lists him as Mike McCormick (from Lynnwood, WA), consistent with the OCR's description of a \"Washington native.\" No headline is visible in the OCR fragment; the AI-drafted headline appears to be fabricated and has been cleared. Editor should confirm the article headline if a fuller scan is available.",
+    "_usage": {
+      "input_tokens": 3213,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 698,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

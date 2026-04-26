@@ -1,0 +1,29 @@
+{
+  "id": "scan-496462581",
+  "imageId": "496462581",
+  "date": "1987-04-22",
+  "paper": "The Leader-Post",
+  "page": "p18",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Page contains adjacent-column noise from an NHL Toronto Maple Leafs vs. Detroit Red Wings playoff article (featuring Vaive, Wendel Clark, Todd Gill, etc.), but the AI draft correctly identified and described only the Sockeyes-relevant item. The short description's score (5-3) and series context are confirmed by OCR. No byline present — wire item credited to CP (Canadian Press). Headline \"Richmond ties series\" confirmed in OCR.",
+    "_usage": {
+      "input_tokens": 2842,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 266,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

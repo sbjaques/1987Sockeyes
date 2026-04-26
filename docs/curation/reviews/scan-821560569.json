@@ -1,0 +1,33 @@
+{
+  "id": "scan-821560569",
+  "imageId": "821560569",
+  "date": "1991-06-23",
+  "paper": "Tri-City Herald",
+  "page": "p17",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes Steve Jaques as a former 'Tri-City Americans defenseman and captain' without mentioning his Sockeyes connection — the OCR refers to him as 'Spenner and Steve Jaques' gaining celebrity as the 'Bruise Brothers,' indicating Jaques' earlier career included the Sockeyes (Stan Czenczek, aka 'Spenner/Stemmer', is a known Sockeyes player). The article is a broader multi-player follow-up column, not solely about Jaques.",
+      "The draft headline 'Steve Jaques' is correct for the Jaques section but the OCR is a multi-subject column covering several ex-Americans players (Krauss, LeBrun, Kolzig, Jaques, etc.); the actual headline/column title is not cleanly visible in the OCR but the Jaques section header appears as '• STEVE JAQUES •'.",
+      "The draft short description omits the Sockeyes connection (Jaques and Stan Czenczek aka 'Spenner' were known as the 'Bruise Brothers,' linking this article to the 1987 Sockeyes roster)."
+    ],
+    "correctedDescriptionShort": "A multi-player follow-up column on ex-Tri-City Americans, including a section on former Sockeyes defenseman Steve Jaques — who with Sockeye Stan Czenczek (\"Spenner\") formed the \"Bruise Brothers\" — covering his 1990-91 season with the IHL's Phoenix Roadrunners.",
+    "correctedDescriptionLong": "A Tri-City Herald column traces the post-junior careers of several former Americans players, including a dedicated section on Steve Jaques, a defenseman who played for the 1987 Richmond Sockeyes alongside Stan Czenczek (\"Spenner\") as the famed \"Bruise Brothers.\" Jaques served as captain of the Tri-City Americans during the 1989-90 WHL season before spending 1990-91 with the Phoenix Roadrunners of the IHL, a Los Angeles Kings farm team. In 58 regular-season games he recorded 10 goals, 24 assists, and 227 penalty minutes; in nine playoff games he added 2 goals, 6 assists, and 21 penalty minutes before Phoenix was eliminated by Peoria in the Turner Cup semifinals. A Roadrunners broadcaster noted Jaques \"grew more aggressive\" and finished the year at plus-7.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR covers a multi-subject career-update column; the Steve Jaques section is the Sockeyes-relevant portion. The lede explicitly links Jaques with Stan Czenczek (\"Spenner\") as the \"Bruise Brothers,\" confirming Sockeyes relevance. The column also mentions Olie Kolzig (ex-Portland, not a Sockeye) and other ex-Americans. No clear standalone headline or byline is recoverable from the OCR for this column.",
+    "_usage": {
+      "input_tokens": 3453,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 837,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

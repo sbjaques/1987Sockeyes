@@ -1,0 +1,34 @@
+{
+  "id": "scan-495242331",
+  "imageId": "495242331",
+  "date": "1987-04-21",
+  "paper": "The Vancouver Sun",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft description says 'scored twice in overtime' implying two separate overtime goals, but the OCR says 'scored twice in an overtime period' — this is a subtle but important distinction, and the score was 5-3 meaning only one overtime goal was needed after 3-3 regulation. The overtime period produced two goals total (one winner), which is plausible, but the phrasing in the draft is misleading.",
+      "The draft long description says 'Curtis Chamberlain scored three goals including the winner' which is accurate, but also repeats 'scored twice in overtime' which is ambiguous/misleading — the OCR says the Broncos scored twice in the overtime period to make it 5-3 from 3-3, which is consistent (two OT goals for Humboldt), so this is actually accurate on reflection.",
+      "The date in the short description says April 21, 1987, but the OCR says the game was played 'Monday night' — April 21, 1987 was a Tuesday, so the game was likely played Monday April 20, 1987, and the article was published April 21. The draft incorrectly states the game occurred on April 21.",
+      "The short description calls this the 'Centennial Cup Western Canada final' — the Centennial Cup IS the national championship; the Western Canada final would be the Abbott Cup. This appears to be what the OCR says ('Centennial Cup Western Canada junior hockey final') so the draft is faithfully reproducing the OCR text, but it is worth noting."
+    ],
+    "correctedDescriptionShort": "The Humboldt Broncos beat the Richmond Sockeyes 5-3, scoring twice in overtime, to take game one of the best-of-seven Centennial Cup Western Canada junior hockey final on April 20, 1987.",
+    "correctedDescriptionLong": "The Humboldt Broncos scored twice in an overtime period to defeat the Richmond Sockeyes 5-3 on Monday, April 20, 1987, in the opening game of the best-of-seven Centennial Cup Western Canada junior hockey final in Humboldt, Saskatchewan. Curtis Chamberlain scored three goals, including the overtime winner, for Saskatchewan's champion Broncos, with Brad Bergen and Bill McDougall adding the other markers. Richmond's goals came from Bryan Moller, Matt Hervey, and Jason Phillips; the Sockeyes led 2-1 after two periods before the teams were tied 3-3 at the end of regulation.",
+    "correctedHeadline": "Sockeyes lose first in overtime",
+    "correctedByline": "Canadian Press",
+    "notes": "The article was published April 21 but the game was played Monday April 20 (April 21, 1987 was a Tuesday). The draft incorrectly states the game was played on April 21. Also note: the OCR refers to this series as the \"Centennial Cup Western Canada junior hockey final\" — this may reflect contemporary usage conflating the Abbott Cup Western final with the Centennial Cup, or the series was branded differently. Editor should verify. Player name is spelled \"Bryan Moller\" in OCR (vs. \"Bryon Moller\" in the roster) — used OCR spelling in corrections.",
+    "_usage": {
+      "input_tokens": 2622,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 864,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scan-325826432",
+  "imageId": "325826432",
+  "date": "1987-10-14",
+  "paper": "Nanaimo Daily News",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft names 'Brad Dickson' as a Sockeyes scorer, but the OCR clearly states 'Brad Dickson' scored two goals for Richmond — however, the Sockeyes roster includes 'Chris Dickson' as a player and 'Rob Clarke' as a player. The OCR says 'Brad Dickson scored two goals' for the Sockeyes and 'Delta goalie Chris Dickson blocked 25 shots' — Brad Dickson appears to be the Sockeyes scorer, not a known roster name (possible OCR garble of a Sockeyes player). This should be flagged but is reproduced faithfully from OCR.",
+      "The draft omits Rob Clarke and Mario Desjardins as Sockeyes scorers, mentioning only Brad Dickson.",
+      "The draft omits that the Sockeyes goalie is named 'Jason Palmer' (OCR), which is notable as the roster lists 'Ray Palmer' — possible OCR error or different player.",
+      "The draft does not mention that the Flyers improved to 9-0 (nine wins, no losses), which is a notable detail for context.",
+      "The long description says 'Holmes, Biagioni, and MacDonald combined for 12 points' — this is accurate per OCR, but spells MacDonald as 'McDonald' inconsistently in the draft (minor).",
+      "The article is primarily a Nanaimo Clippers game recap with a secondary Delta/Richmond result; the draft accurately reflects the dual-game structure but could better represent the Sockeyes content."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes fall 6-4 to undefeated Delta Flyers; Rob Clarke and Mario Desjardins each score as Sockeyes drop to 6-5 in the Coastal Division.",
+    "correctedDescriptionLong": "A Nanaimo Daily News recap of two October 13, 1987 BCJHL games includes a notable Richmond Sockeyes result: the Sockeyes lost 6-4 to the Delta Flyers in Delta, with Brad Dickson (two goals), Mario Desjardins, and Rob Clarke scoring for Richmond. Delta's Peter Holmes, Ben Biagioni, and Doug MacDonald combined for 12 points as the Flyers improved to a perfect 9-0 record to lead the Coastal Division; the Sockeyes sit second at 6-5. Sockeyes goalie Jason Palmer turned aside 37 shots. The article also recaps a Nanaimo Clippers 5-2 win over Juan de Fuca Whalers at Civic Arena, and notes the Clippers' next home game is against the Richmond Sockeyes on Friday.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR names 'Brad Dickson' as a Sockeyes scorer and 'Chris Dickson' as the Delta goalie — the Sockeyes roster includes Chris Dickson as a player, so 'Brad Dickson' may be an OCR misread of another Sockeyes player's name. Editor should verify against original image. Also, 'Jason Palmer' is named as Sockeyes goalie; the known roster lists Ray Palmer — possible OCR garble or a different player. The article date in the paper is Oct 14 but games likely played Oct 13.",
+    "_usage": {
+      "input_tokens": 3161,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 905,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

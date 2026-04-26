@@ -26,3 +26,6 @@ docs/extractions/new-sources/*-ocr.pdf
 /vault.png
 /*.png
 /*.png
+
+# brainstorming visual companion
+.superpowers/

@@ -1,0 +1,37 @@
+{
+  "id": "scan-558421571",
+  "imageId": "558421571",
+  "date": "1987-05-04",
+  "paper": "Red Deer Advocate",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline 'Early lead to Broncos' is correct, but the draft short/long descriptions frame this primarily as a Sockeyes-win story without acknowledging that the article's primary focus is the Humboldt Broncos' early tournament lead — the Sockeyes game is the secondary story.",
+      "The long description says the Sockeyes 'dominated with 44 shots and led 3-1 after one period, extending to 6-2 by the second' — these details are accurate, but the article also attributes those period leads correctly in context.",
+      "The draft does not mention that the 3-1 first-period lead and 6-2 second-period margin described in the long description actually refers to the Broncos vs. Lumber Kings game in that paragraph structure — however, re-reading the OCR confirms the 3-1/6-2 details are correctly attributed to the Sockeyes game in the draft.",
+      "The draft omits that Humboldt also beat Dartmouth 7-2 on Saturday (the tournament opener), which is relevant context.",
+      "The draft does not mention that Richmond was scheduled to play Pembroke in the only game on May 4 (the publication date), which is a newsworthy detail in the article.",
+      "The long description does not mention the Broncos' win over Pembroke 4-2, which is the lead story of the article — the draft undersells the dual-game nature of the article.",
+      "The headline in the draft matches the OCR correctly."
+    ],
+    "correctedDescriptionShort": "A Canadian Press round-robin recap from the 1987 Centennial Cup in Humboldt, SK, reporting that the Richmond Sockeyes beat Dartmouth Fuel Kids 7-3 and the Humboldt Broncos beat Pembroke 4-2 to take an early tournament lead.",
+    "correctedDescriptionLong": "This Canadian Press game report from the 1987 Centennial Cup junior-A championship in Humboldt, Saskatchewan covers two Sunday games: the Humboldt Broncos beat Pembroke Lumber Kings 4-2 to take an early round-robin lead (having also won the opener 7-2 over Dartmouth), while the Richmond Sockeyes defeated the Dartmouth Fuel Kids 7-3. Jason Phillips scored three goals for Richmond, with Bryon Moller, Steve Jaques, Dave Tomlinson, and Matt Hervey also scoring; the Sockeyes outshot Dartmouth 44-29 and led 3-1 after the first period and 6-2 after the second. Richmond was scheduled to face Pembroke in the only game on May 4.",
+    "correctedHeadline": "Early lead to Broncos",
+    "correctedByline": "",
+    "notes": "The draft's short and long descriptions are mostly accurate for the Sockeyes content but omit the article's primary framing (Broncos taking the early tournament lead) and the note that Richmond plays Pembroke on publication day. The headline is correct. No byline — article is attributed to CP (Canadian Press) wire service.",
+    "_usage": {
+      "input_tokens": 2850,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 834,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

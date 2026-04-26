@@ -1,0 +1,35 @@
+{
+  "id": "scan-495156118",
+  "imageId": "495156118",
+  "date": "1987-05-02",
+  "paper": "The Vancouver Sun",
+  "page": "p26",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Drafted headline 'Richmond Sockeyes' National Championship Quest' is fabricated — no clear standalone headline is present in the OCR text. The OCR begins mid-sentence, suggesting the headline was cut off above the captured text.",
+      "The long description omits several specific player names mentioned in the OCR: captain Trevor Dickie, defenceman Mike Claringbull, and winger Dean Rutledge.",
+      "The long description omits the specific anecdote about Kurtenbach remaining calm while fans in Red Deer threw eggs and fish at the bench.",
+      "The long description omits that the only Richmond native on the roster is specifically named as rookie Jason Talo.",
+      "No byline is visible in the OCR — draft correctly left it blank, but headline should not be fabricated."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "The Richmond Sockeyes prepare for the national junior-A Centennial Cup tournament in Humboldt, with only nine players remaining from training camp and rookie Jason Talo as the sole Richmond native on the roster.",
+    "correctedDescriptionLong": "The Richmond Sockeyes open their national Centennial Cup tournament in Humboldt on Sunday, facing Atlantic champion Dartmouth, then Ontario champion Pembroke, and host Humboldt Broncos in round-robin play. Owner Bruce Taylor praises head coach Orland Kurtenbach — a former Vancouver Canuck captain — crediting him with the team's success, including a notable moment of composure when fans in Red Deer threw eggs and fish at the Sockeyes' bench. The roster was heavily rebuilt, with only nine players remaining from training camp and just one Richmond native, rookie Jason Talo, on the squad. Captain Trevor Dickie, defenceman Mike Claringbull, and winger Dean Rutledge are among the players drawn from across the hockey world.",
+    "notes": "The OCR begins mid-sentence, indicating the top of the article — including the headline and likely the byline — was not captured. The drafted headline is entirely fabricated and should be left blank pending a cleaner scan or manual review.",
+    "_usage": {
+      "input_tokens": 2705,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 609,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "scan-688061731",
+  "imageId": "688061731",
+  "date": "1987-04-08",
+  "paper": "Quesnel Cariboo Observer",
+  "page": "p.B4",
+  "review": {
+    "verdict": "uncertain",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The OCR text is extremely sparse — only a single paragraph is present, likely a fragment or caption rather than a full article.",
+      "No headline is visible in the OCR; the AI-drafted headline 'Richmond Sockeyes Win Mowat Cup' is not supported by the source text.",
+      "No byline is present in the OCR.",
+      "The draft short description implies the Millionaires won the Peace-Cariboo league title in a 'comeback season' — the OCR does say they 'struggled from behind time after time to eventually win' the league title, so that detail is supported, but the description omits the comeback/struggle framing.",
+      "The OCR content is very thin — it is unclear whether this is the full article or just a fragment/intro paragraph; the actual article body may not have been captured by the OCR."
+    ],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR captured only a single introductory paragraph — the full article body appears to be missing. The AI-drafted headline is not supported by any OCR text. No byline is present. The gist of the draft (Quesnel Millionaires lost the Mowat Cup to the Richmond Sockeyes after winning the Peace-Cariboo league title) is consistent with the one paragraph that is present, but an editor should inspect the actual scan image to confirm the headline, verify whether more article text exists, and check whether the description is complete and accurate.",
+    "_usage": {
+      "input_tokens": 2493,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 469,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

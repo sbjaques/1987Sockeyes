@@ -1,0 +1,34 @@
+{
+  "id": "scan-875335064",
+  "imageId": "875335064",
+  "date": "1989-06-18",
+  "paper": "The Buffalo News",
+  "page": "p57",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft description correctly identifies Steve Jaques (Sockeyes player) being drafted by Los Angeles in the 11th round, but misidentifies his team affiliation. The OCR clearly states 'Steve Jaques, d, Tri-Cities (WHL)' — he is listed as playing for Tri-Cities WHL, not as a Sockeyes player in this context. However, Steve Jaques is a known Sockeyes roster member, making this archive-relevant.",
+      "The draft short description is accurate but generic and does not highlight the Sockeyes connection.",
+      "The draft long description mentions 'Steve Jaques from Tri-Cities WHL (Los Angeles)' which is correct per the OCR, but fails to call out his Sockeyes connection explicitly. The description is otherwise factually accurate.",
+      "The OCR also contains adjacent-column noise from earlier rounds (rounds 4-5 area, picks ~70-102) that is unrelated to the main 10th-12th round content the draft describes — the draft correctly ignores this noise."
+    ],
+    "correctedDescriptionShort": "NHL Entry Draft rounds 10–12 listings from June 18, 1989, including pick #228 Steve Jaques (ex-Richmond Sockeyes) selected by the Los Angeles Kings from Tri-Cities (WHL).",
+    "correctedDescriptionLong": "The Buffalo News publishes the full NHL Entry Draft pick listings for rounds 10 through 12, conducted June 18, 1989. Among the 63 selections listed are several notable picks including Vladimir Malakhov (New York Islanders, 191st overall), Artur Irbe (Minnesota, 196th), and Vladimir Konstantinov (Detroit, 221st). Of particular archive relevance, Richmond Sockeyes alumnus Steve Jaques is selected 228th overall by the Los Angeles Kings, listed as playing defense for Tri-Cities (WHL). The page also contains adjacent-column noise from earlier draft rounds (approximately picks 70–102).",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Steve Jaques is on the Sockeyes roster and is the primary reason this clipping is archive-relevant. The OCR lists him as playing for Tri-Cities (WHL) at the time of the 1989 draft — he had moved on from Richmond by then. The draft description was accurate in its facts but undersold the Sockeyes connection and didn't flag it clearly. Adjacent-column noise from earlier draft rounds (picks ~70–102) is present but correctly ignored by the original draft.",
+    "_usage": {
+      "input_tokens": 4659,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 714,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

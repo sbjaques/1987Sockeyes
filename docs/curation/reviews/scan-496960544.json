@@ -1,0 +1,29 @@
+{
+  "id": "scan-496960544",
+  "imageId": "496960544",
+  "date": "1987-05-08",
+  "paper": "The Leader-Post",
+  "page": "p42",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The second paragraph in the OCR is adjacent-column noise about Canadian national junior team coaching applicants (including a mention of Humboldt Broncos coach Bernie Lynch). The AI draft correctly focused on the Sockeyes article. All facts in the draft — score (9-3), opponent (Pembroke Lumber Kings), goalscorers, shots (44-32), round-robin record (2-1), and upcoming final against Humboldt — are confirmed by the OCR. No headline or byline appears in the OCR text beyond the dateline \"HUMBOLDT (CP)\".",
+    "_usage": {
+      "input_tokens": 3058,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 294,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

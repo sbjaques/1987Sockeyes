@@ -1,0 +1,35 @@
+{
+  "id": "scan-495152785",
+  "imageId": "495152785",
+  "date": "1989-03-22",
+  "paper": "The Vancouver Sun",
+  "page": "p32",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is AI-fabricated — no such headline appears in the OCR; the article has no standalone headline in the OCR text, only a byline.",
+      "Draft says Taylor's fifth championship was a 'Coastal Division title' — correct, but the draft omits that he owned FIVE STRAIGHT championships across THREE locales (Burnaby Bluehawks 1985, Richmond Sockeyes 1986/1987/1988, then New Westminster 1989), which is the key framing of the article.",
+      "Draft says 'Tony Bobbit scored the overtime winner at 3:07, followed by Blaine Moore's shorthanded goal' — this is accurate but slightly misleading in order; Moore's shorthanded goal at 7:32 clinched the victory (two separate goals, both in OT), not 'followed by' in the scoring sequence sense — the description is acceptable but could be clearer.",
+      "Draft says the Royals 'rallied from a 3-1 series deficit' — accurate, but also omits they were down 2-0 before that, a detail that adds context.",
+      "Byline is correct (Elliott Pap) but the headline field should be empty or reflect there is no distinct headline in the OCR."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "Elliott Pap",
+    "correctedDescriptionShort": "Bruce Taylor, owner of the Richmond Sockeyes, wins his fifth straight Coastal Division title as his New Westminster Royals defeat Powell River 7-5 in overtime, completing a comeback from a 3-1 series deficit.",
+    "correctedDescriptionLong": "Burnaby businessman Bruce Taylor, former owner of the Richmond Sockeyes (1986–1988 Coastal Division champions, including the 1987 Centennial Cup), extended his streak to five straight BCJHL Coastal Division titles when his New Westminster Royals defeated the Powell River Paper Kings 7-5 in overtime, winning the best-of-seven final 4-3. Taylor's championship run spans three franchises: the Burnaby Bluehawks (1985), the Richmond Sockeyes (1986, 1987, 1988), and now the Royals (1989). New Westminster rallied from deficits of 2-0 and 3-1 in the series; Tony Bobbit scored the overtime winner at 3:07 of the extra period, and Blaine Moore added a shorthanded goal at 7:32 to clinch the win.",
+    "notes": "No distinct article headline is present in the OCR — the AI fabricated one. Byline confirmed as Elliott Pap. Key detail corrected: Taylor's five titles span 1985–1989 across three teams, not just \"Richmond Sockeyes\" as implied by the draft's framing. Player name in OCR is \"Tony Bobbit\" (one 't'), matching roster name \"Tony Bobbitt\" — close enough, used OCR spelling in corrections.",
+    "_usage": {
+      "input_tokens": 2785,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 809,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

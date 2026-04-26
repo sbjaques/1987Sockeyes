@@ -545,7 +545,13 @@
     ],
     "links": {
       "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=3525",
-      "eliteprospects": "https://www.eliteprospects.com/player/127764/mike-mccormick"
+      "eliteprospects": "https://www.eliteprospects.com/player/127764/mike-mccormick",
+      "other": [
+        {
+          "label": "North Dakota Fighting Hawks men’s ice hockey (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/North_Dakota_Fighting_Hawks_men%27s_ice_hockey"
+        }
+      ]
     },
     "careerStats": [
       {
@@ -896,7 +902,13 @@
       "BC Hockey Hall of Fame Inductee 2025"
     ],
     "links": {
-      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=23296"
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=23296",
+      "other": [
+        {
+          "label": "Maine Black Bears men’s ice hockey (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Maine_Black_Bears_men%27s_ice_hockey"
+        }
+      ]
     },
     "careerStats": [
       {
@@ -1047,7 +1059,13 @@
     ],
     "links": {
       "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=6267",
-      "eliteprospects": "https://www.eliteprospects.com/player/85435/paul-rutherford"
+      "eliteprospects": "https://www.eliteprospects.com/player/85435/paul-rutherford",
+      "other": [
+        {
+          "label": "Ohio State Buckeyes men’s ice hockey (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ohio_State_Buckeyes_men%27s_ice_hockey"
+        }
+      ]
     },
     "careerStats": [
       {
@@ -2313,7 +2331,13 @@
     ],
     "links": {
       "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=17394",
-      "eliteprospects": "https://www.eliteprospects.com/player/165360/bryan-moller"
+      "eliteprospects": "https://www.eliteprospects.com/player/165360/bryan-moller",
+      "other": [
+        {
+          "label": "Alabama–Huntsville Chargers men’s ice hockey (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Alabama%E2%80%93Huntsville_Chargers_men%27s_ice_hockey"
+        }
+      ]
     },
     "careerStats": [
       {
@@ -4293,7 +4317,13 @@
     ],
     "links": {
       "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=7151",
-      "eliteprospects": "https://www.eliteprospects.com/player/273387/jamie-stewart"
+      "eliteprospects": "https://www.eliteprospects.com/player/273387/jamie-stewart",
+      "other": [
+        {
+          "label": "Michigan State Spartans men’s ice hockey (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Michigan_State_Spartans_men%27s_ice_hockey"
+        }
+      ]
     },
     "careerStats": [
       {
@@ -4469,7 +4499,13 @@
     ],
     "links": {
       "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=17502",
-      "eliteprospects": "https://www.eliteprospects.com/player/427593/christopher-dickson"
+      "eliteprospects": "https://www.eliteprospects.com/player/427593/christopher-dickson",
+      "other": [
+        {
+          "label": "North Dakota Fighting Hawks men’s ice hockey (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/North_Dakota_Fighting_Hawks_men%27s_ice_hockey"
+        }
+      ]
     },
     "careerStats": [
       {
@@ -5193,7 +5229,82 @@
     "priorTeams": [
       "North Delta Minor Hockey"
     ],
-    "scoutingNotes": "Third season with the Sockeyes (1984-87); regular backup until playoff injury."
+    "scoutingNotes": "Third season with the Sockeyes (1984-87); regular backup until playoff injury.",
+    "links": {
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=92478"
+    },
+    "careerStats": [
+      {
+        "season": "1984-85",
+        "team": "Richmond Sockeyes",
+        "league": "BCJHL",
+        "type": "regular",
+        "stats": {
+          "gp": 21,
+          "w": 7,
+          "l": 10,
+          "gaa": 5.93,
+          "svpct": 0.818,
+          "so": 0
+        }
+      },
+      {
+        "season": "1985-86",
+        "team": "Delta Flyers",
+        "league": "BCJHL",
+        "type": "regular",
+        "stats": {
+          "gp": 3,
+          "w": 3,
+          "l": 0,
+          "gaa": 4.29,
+          "svpct": 0.846,
+          "so": 0
+        }
+      },
+      {
+        "season": "1985-86",
+        "team": "Richmond Sockeyes",
+        "league": "BCJHL",
+        "type": "regular",
+        "stats": {
+          "gp": 7,
+          "w": 5,
+          "l": 1,
+          "gaa": 3.07,
+          "svpct": 0.89,
+          "so": 0
+        }
+      },
+      {
+        "season": "1986-87",
+        "team": "Richmond Sockeyes",
+        "league": "BCJHL",
+        "type": "regular",
+        "stats": {
+          "gp": 23,
+          "w": 16,
+          "l": 5,
+          "gaa": 4.2,
+          "svpct": 0.876,
+          "so": 0
+        }
+      },
+      {
+        "season": "1987-88",
+        "team": "Chilliwack Eagles",
+        "league": "BCJHL",
+        "type": "regular",
+        "stats": {
+          "gp": 43,
+          "w": 21,
+          "l": 19,
+          "gaa": 5.91,
+          "svpct": 0.868,
+          "so": 0
+        }
+      }
+    ]
   },
   {
     "id": "paul-tucker",
@@ -5214,27 +5325,62 @@
       "Abbott Cup Champion 1987",
       "Doyle Cup Champion 1987",
       "Mowat Cup Champion 1987"
+    ],
+    "links": {
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=230990"
+    },
+    "careerStats": [
+      {
+        "season": "1986-87",
+        "team": "Richmond Sockeyes",
+        "league": "BCJHL",
+        "type": "regular",
+        "stats": {
+          "gp": 1,
+          "g": 0,
+          "a": 0,
+          "pts": 0,
+          "pim": 0
+        }
+      }
     ]
   },
   {
     "id": "ray-palmer",
     "name": "Ray Palmer",
-    "position": "F",
-    "hometown": "",
+    "position": "G",
+    "hometown": "Campbell River, BC",
     "role": "player",
-    "notes": "Affiliate player (AP) called up for 4 playoff games during the 1987 Abbott Cup run.",
+    "notes": "Affiliate-player (AP) goaltender called up for 4 playoff games during the 1987 Abbott Cup run. Position corrected to G per hockeydb (pid 97141), which lists Palmer as a goaltender from Campbell River, BC. The 1987 Abbott Cup Souvenir Program logged his AP playoff appearances in the skater playoff-stats table (4 GP, no scoring); goalie save/GAA splits for those games were not separately tabulated in the program.",
     "abbottCupStats": {
-      "gp": 4,
-      "g": 0,
-      "a": 0,
-      "pts": 0,
-      "pim": 0
+      "gp": 4
     },
-    "bio": "Ray Palmer was listed as an affiliate-player (AP) call-up with the Richmond Sockeyes during the 1987 Abbott Cup run. Per the 1987 Abbott Cup Souvenir Program playoff-stats table, Palmer appeared in 4 games with zero points and zero penalty minutes.",
+    "bio": "Ray Palmer was an affiliate-player (AP) goaltender call-up with the Richmond Sockeyes during the 1987 Abbott Cup run. Born 1966 in Campbell River, BC (5'8\", 145 lbs), Palmer played one BCJHL regular-season game with the Sockeyes in 1986-87, going 1-0-0 with a 2.00 goals-against average and a .944 save percentage on 36 shots. He appeared in 4 games during the playoff run per the 1987 Abbott Cup Souvenir Program. Palmer's prior BCJHL stops included two appearances split between the Esquimalt Buccaneers and Nanaimo Clippers (1982-83), 37 games with the Merritt Centennials, and one with the Revelstoke Rangers (1983-84). Source: hockeydb pid 97141.",
     "awards": [
       "Abbott Cup Champion 1987",
       "Doyle Cup Champion 1987",
       "Mowat Cup Champion 1987"
+    ],
+    "height": "5'8\"",
+    "weight": 145,
+    "links": {
+      "hockeydb": "https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=97141"
+    },
+    "careerStats": [
+      {
+        "season": "1986-87",
+        "team": "Richmond Sockeyes",
+        "league": "BCJHL",
+        "type": "regular",
+        "stats": {
+          "gp": 1,
+          "w": 1,
+          "l": 0,
+          "gaa": 2,
+          "svpct": 0.944,
+          "so": 0
+        }
+      }
     ]
   },
   {

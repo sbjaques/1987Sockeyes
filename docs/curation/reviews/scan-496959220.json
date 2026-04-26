@@ -1,0 +1,36 @@
+{
+  "id": "scan-496959220",
+  "imageId": "496959220",
+  "date": "1987-05-04",
+  "paper": "The Leader-Post",
+  "page": "p27",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes the article as 'Humboldt Broncos' victories AND Richmond Sockeyes' 7-3 win' but frames it primarily around the Broncos. The article headline and lead are indeed about the Broncos, but Sockeyes content is present and should be highlighted.",
+      "The byline in the OCR is 'From L-P Wire Services', not 'L-P Wire Services' — minor but the draft omits 'From'.",
+      "The draft short description says 'Jason Phillips' but the OCR spells it 'Jason Pl Phillips' (OCR artifact) — the correct name per the roster is Jason Phillips, so that part is actually correct.",
+      "The draft mentions 'Bryon Moller' correctly in the long description but spells it 'Byron Moller' — the OCR reads 'Byron Moller' and the roster lists 'Bryon Moller'; the draft uses 'Byron' matching OCR, acceptable.",
+      "The long description is accurate in its facts but buries the Sockeyes content. The short description should lead with the Sockeyes angle for this archive.",
+      "The draft short description is acceptable in length and accuracy but could better foreground the Sockeyes result for archive relevance."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeated Dartmouth 7-3 in 1987 Centennial Cup round-robin play, with Jason Phillips scoring three goals; host Humboldt Broncos also won twice.",
+    "correctedDescriptionLong": "In the 1987 Centennial Cup junior-A championship in Humboldt, Saskatchewan, the Richmond Sockeyes opened round-robin play with a 7-3 win over the Dartmouth Fuel Kings, led by Jason Phillips' hat trick; Bryon Moller, Steve Jaques, Dave Tomlinson, and Matt Hervey also scored. The host Humboldt Broncos went 2-0 in round-robin action, defeating Dartmouth 7-2 and the Pembroke Lumber Kings 4-2. Richmond stood at 1-0 after the results, with a game against Pembroke scheduled next.",
+    "correctedHeadline": "Fast start for Broncos",
+    "correctedByline": "From L-P Wire Services",
+    "notes": "The page also contains an unrelated article about Saskatchewan junior volleyball championships (silver medal result); that content should be ignored for this archive. The headline and article focus primarily on the Broncos but the Sockeyes round-robin result is clearly present and relevant. Corrected descriptions foreground the Sockeyes content. Byline adjusted to match OCR phrasing 'From L-P Wire Services'.",
+    "_usage": {
+      "input_tokens": 3179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 748,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

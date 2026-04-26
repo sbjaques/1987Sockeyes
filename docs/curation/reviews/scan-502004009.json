@@ -1,0 +1,35 @@
+{
+  "id": "scan-502004009",
+  "imageId": "502004009",
+  "date": "1987-05-11",
+  "paper": "The Province",
+  "page": "p22",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes a written article but the OCR reveals this is a photo caption — 'Champagne shampoo' is the caption title for a CP photo, not a standalone article headline. The text block is a caption describing coach Orland Kurtenbach getting a champagne shower, followed by supporting article text.",
+      "The byline is missing — the caption credit is 'CP photo' (Canadian Press photo), which should be noted.",
+      "The draft omits the key detail that the photo caption specifically features coach Orland Kurtenbach receiving a champagne shower from team members.",
+      "The draft states Frank Romeo is a 'Revelstoke native' — the OCR confirms this is correct, no issue there.",
+      "The draft does not mention Humboldt goaltender Bruce Hoffort's 18 saves, which is a notable comparative detail in the OCR text."
+    ],
+    "correctedHeadline": "Champagne shampoo",
+    "correctedByline": "CP photo",
+    "correctedDescriptionShort": "CP photo caption shows Richmond Sockeyes coach Orland Kurtenbach receiving a champagne shower after the team's 5-2 Centennial Cup victory over the Humboldt Broncos.",
+    "correctedDescriptionLong": "A CP wire photo captioned \"Champagne shampoo\" shows Sockeyes head coach Orland Kurtenbach being doused by team members following Richmond's 5-2 win over the host Humboldt Broncos for the Canadian junior-A Centennial Cup championship on Saturday night. Goaltender Frank Romeo anchored the victory with 44 saves — compared to 18 for Humboldt's Bruce Hoffort — and was named both Richmond's player of the game and the tournament's most valuable player. Romeo, a Revelstoke native, dedicated the performance to his parents who were in the stands.",
+    "notes": "The page content is a photo caption (CP photo credit) rather than a bylined article. The 'byline' field has been set to 'CP photo' to reflect the photo credit. The surrounding text appears to be caption/cutline copy rather than a separate article body.",
+    "_usage": {
+      "input_tokens": 2602,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 610,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

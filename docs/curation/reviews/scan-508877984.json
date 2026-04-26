@@ -1,0 +1,33 @@
+{
+  "id": "scan-508877984",
+  "imageId": "508877984",
+  "date": "1987-04-28",
+  "paper": "Times Colonist",
+  "page": "p3",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Draft says the final score was 5-3 but then says 'Centennial Cup playoff game' — the score is actually correct at 5-3, but note: this is the Abbott Cup (Western Canada Tier 2 junior final), NOT the Centennial Cup final. The Centennial Cup is the national championship; this series is described in the OCR as the 'Western Canada Tier 2 junior final', which is the Abbott Cup.",
+      "The draft describes this as a 'Centennial Cup playoff game' which is inaccurate — the OCR clearly states it is the 'Western Canada Tier 2 junior final' (Abbott Cup).",
+      "The draft omits the detail that Hervey was a former member of the Victoria Cougars in major junior hockey, which is a notable contextual fact in the article."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeat Humboldt Broncos 5-3 to take a 3-2 series lead in the Western Canada Tier 2 junior final (Abbott Cup).",
+    "correctedDescriptionLong": "Matt Hervey, a former Victoria Cougars major junior player, scored two goals to lead the Richmond Sockeyes to a 5-3 win over the Humboldt Broncos in a Western Canada Tier 2 junior final (Abbott Cup) playoff game on Sunday night. The victory gave the Sockeyes a 3-2 lead in the best-of-seven series. Game six was scheduled in Richmond on April 28.",
+    "correctedHeadline": "'Eyes go up 3-2 in Tier 2 tussle",
+    "correctedByline": "The Canadian Press",
+    "notes": "The draft misidentifies this series as the Centennial Cup, but the OCR clearly labels it the \"Western Canada Tier 2 junior final,\" which corresponds to the Abbott Cup. The Centennial Cup is the subsequent national championship. Score and headline/byline are otherwise correct.",
+    "_usage": {
+      "input_tokens": 2556,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 581,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "scan-558337700",
+  "imageId": "558337700",
+  "date": "1987-04-30",
+  "paper": "Red Deer Advocate",
+  "page": "p20",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The short description states the score was '5-4 over Humboldt Broncos in seven-game series' — this is partially correct but omits that it was the Abbott Cup (Western Canada Tier Two final), not the Centennial Cup final. The draft's short description is otherwise close but could be clearer.",
+      "The long description says 'The Sockeyes advance to the Centennial Cup tournament in Humboldt with other regional champions' — this is accurate per the OCR, but it omits mention of other Centennial Cup participants named in the OCR (host club Pembroke, Ont. and Dartmouth, N.S.).",
+      "The long description omits the other Sockeyes scorers named in the OCR: Matt Hervey, Dean Rutledge, Jason Phillips, and Bill Hardy.",
+      "The long description omits the notable postgame incident: Humboldt Broncos were booed by Richmond fans for not participating in the post-game handshake, and Humboldt coach Bernie Lynch's quote warning the Sockeyes they hadn't won anything yet.",
+      "The headline 'Richmond West champs' is correct per the OCR."
+    ],
+    "correctedDescriptionShort": "Dave Tomlinson's goal with 2:37 left gave the Richmond Sockeyes a 5-4 win over the Humboldt Broncos, claiming the Western Canada Tier Two junior hockey title four games to three.",
+    "correctedDescriptionLong": "Dave Tomlinson scored 35 seconds after Humboldt tied the game to give the Richmond Sockeyes a 5-4 victory over the Humboldt Broncos on April 29, 1987, capturing the best-of-seven Western Canada Tier Two junior hockey title four games to three. Matt Hervey, Dean Rutledge, Jason Phillips, and Bill Hardy also scored for Richmond. The Sockeyes advance to the Centennial Cup tournament in Humboldt alongside host club Pembroke, Ont., and Dartmouth, N.S. The Broncos were booed by Richmond fans for skipping the post-game handshake, with Humboldt coach Bernie Lynch defiantly warning the Sockeyes they had not yet won anything.",
+    "correctedHeadline": "Richmond West champs",
+    "correctedByline": "",
+    "notes": "The series described here is the Abbott Cup (Western Canada Tier Two final), not the Centennial Cup final — the Centennial Cup tournament in Humboldt comes next. The draft's framing is accurate in substance but the corrected description adds important missing detail: the other Sockeyes scorers, the handshake controversy, and Coach Lynch's quote, all of which appear clearly in the OCR.",
+    "_usage": {
+      "input_tokens": 2710,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 761,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "scan-437934229",
+  "imageId": "437934229",
+  "date": "1987-11-01",
+  "paper": "The Boston Globe",
+  "page": "p79",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Dave Tomlinson (a known Sockeyes player) scored a goal for Boston University, which is the Sockeyes-relevant content — the draft mentions him but buries him incorrectly. The draft states 'Dave Tomlinson and Sullivan also scored' which is inaccurate; Sullivan scored in the first period and had an assist, while the third-period scorers were Tomlinson and Kelfer (not Sullivan again).",
+      "The drafted headline 'Mike Kelfer Scores Twice as BU Shuts Out Lowell' does not appear in the OCR — there is no clear standalone headline visible in the OCR text.",
+      "The short description omits Dave Tomlinson entirely despite him being the archivally significant Sockeyes-connected player on the page.",
+      "The long description incorrectly says 'Dave Tomlinson and Sullivan also scored' — Sullivan did not score a second time; the third-period goals were by Tomlinson and Kelfer."
+    ],
+    "correctedDescriptionShort": "Former Richmond Sockeyes player Dave Tomlinson scored a third-period goal for Boston University in a 5-0 Hockey East shutout of the University of Lowell at Tully Forum.",
+    "correctedDescriptionLong": "Boston University blanked the University of Lowell 5-0 in the Hockey East opener for both schools at Billerica's Tully Forum on October 31, 1987. Mike Kelfer scored twice and Mike Sullivan had a goal and an assist, while former Richmond Sockeyes player Dave Tomlinson added a third-period goal. Goalie Peter Fish recorded his first career shutout with 29 saves against 29 shots.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Dave Tomlinson (North Vancouver, BC) is the Sockeyes-relevant connection here — he scored a goal for BU. The draft mentioned him but misattributed the second scorer in the long description (said Sullivan scored twice; it was Tomlinson and Kelfer in the third period). No clear standalone headline is visible in the OCR. Short description updated to foreground Tomlinson's Sockeyes connection.",
+    "_usage": {
+      "input_tokens": 2778,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 628,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "scan-495156572",
+  "imageId": "495156572",
+  "date": "1987-03-23",
+  "paper": "The Vancouver Sun",
+  "page": "p15",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Byline is wrong: the draft says 'Sun News Services' but in the OCR the byline 'Sun News Services' precedes the Sockeyes paragraph, not the headline. The headline 'Sockeyes one more win away' appears at the top with no separate byline attribution above it; 'Sun News Services' functions as the wire credit inline with the article body.",
+      "Player name misspelled in draft: OCR spells the player 'Jason Philips' (one 'l'), but the draft inconsistently uses 'Jason Philips' in the long description — this matches OCR but the short description omits the name entirely, which is fine.",
+      "The long description omits Bill Hardy and Mike McCormick as third-period scorers, listing only 'others contributing', which undersells the detail available in the OCR.",
+      "The draft says Kurtenbach 'expressed confidence ahead of Tuesday's decisive game' which is slightly misleading — it is not yet decisive/clinching in a sweep sense until the Sockeyes win; the OCR says a win Tuesday gives them a sweep, implying it is game 5 of a best-of-nine, not a 'decisive' game per se. This is a minor framing issue but worth correcting for accuracy."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes hold a 4-0 series lead over the Kelowna Packers after a 5-1 win Saturday, with a potential sweep on the line Tuesday at Richmond Arena.",
+    "correctedDescriptionLong": "The Richmond Sockeyes took a commanding 4-0 lead in their best-of-nine BCJHL championship series against the Kelowna Packers with a 5-1 road win Saturday, and can clinch a sweep Tuesday night at Richmond Arena. Coach Orland Kurtenbach praised the team's play and called on the players to limit mistakes heading into the home game. Jason Philips opened scoring with a shorthanded goal in the first period, Dave Tomlinson made it 2-0 before Kelowna's Brent Mowery cut the lead, and Richmond sealed the win with third-period goals from Philips, Bill Hardy, and Mike McCormick.",
+    "correctedHeadline": "Sockeyes one more win away",
+    "correctedByline": "Sun News Services",
+    "notes": "The OCR page contains significant adjacent-column noise from two unrelated articles: a Vancouver Canucks vs. Winnipeg Jets game recap and a Kamloops Blazers/WHL item. The Sockeyes article is clearly identifiable and was correctly targeted by the draft. The byline 'Sun News Services' appears inline in the OCR body text rather than as a traditional byline above the headline, but it is the correct attribution. Player name 'Jason Philips' is spelled with one 'l' in the OCR — use that spelling.",
+    "_usage": {
+      "input_tokens": 3582,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 789,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "scan-508875734",
+  "imageId": "508875734",
+  "date": "1987-04-22",
+  "paper": "Times Colonist",
+  "page": "p14",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline in the draft ('Richmond Sockeyes beat Humboldt Broncos 5-3') does not appear in the OCR — no clear headline is present in the OCR text.",
+      "The byline is listed as 'Canadian Press' in the draft, but the OCR shows it as a dateline/wire attribution: 'The Canadian Press' with 'HUMBOLDT, Sask.' — this is a wire service credit, not a personal byline. The draft byline is acceptable but should be noted as a wire credit.",
+      "The short description says '5-3 in Centennial Cup playoff game' — this is accurate per OCR.",
+      "NOTE: The date is April 22, 1987 — the Centennial Cup final (5-2 win) was May 9, 1987. This game is a *preliminary* Centennial Cup playoff game, not the final. The draft correctly does not call it the final, but the score (5-3) and context are consistent with an earlier round.",
+      "No factual errors found in the score, player name, or series description — OCR confirms all details in the draft body."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "The Canadian Press",
+    "correctedDescriptionShort": "Jason Phillips scored three goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-3 in a Centennial Cup junior hockey playoff game in Humboldt, Saskatchewan.",
+    "correctedDescriptionLong": "Jason Phillips scored three goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-3 in a Centennial Cup junior hockey playoff game Tuesday night in Humboldt, Saskatchewan. The victory tied the best-of-seven series. The article is a wire report from The Canadian Press with no individual byline or distinct headline visible in the OCR.",
+    "notes": "No headline is visible in the OCR — the draft headline appears to be AI-generated and has been cleared. The byline has been corrected to reflect the wire service credit as it appears in the OCR (\"The Canadian Press\"). All other facts (score, player, series status) match the OCR. This game predates the Centennial Cup final (May 9, 1987), so it is an earlier round of the tournament.",
+    "_usage": {
+      "input_tokens": 2469,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 644,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

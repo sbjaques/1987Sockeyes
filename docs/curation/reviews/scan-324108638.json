@@ -1,0 +1,33 @@
+{
+  "id": "scan-324108638",
+  "imageId": "324108638",
+  "date": "1992-12-13",
+  "paper": "Tampa Bay Times",
+  "page": "p15",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft correctly identifies the general NHL news content but completely fails to mention Matt Hervey, a former 1987 Richmond Sockeyes player, who appears in the Tampa Bay Lightning statistics (#26, +2) and also in the Atlanta Knights statistics, which is the primary reason this clipping is archived.",
+      "The draft headline 'NHL News and Scores' is generic and not derived from any actual headline in the OCR text.",
+      "The draft is otherwise a reasonable summary of the page content but omits the Sockeyes-relevant detail (Matt Hervey's appearance in both team stat tables)."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Tampa Bay Times NHL statistics page from December 1992, featuring former Richmond Sockeyes player Matt Hervey listed in both the Tampa Bay Lightning and Atlanta Knights statistics tables.",
+    "correctedDescriptionLong": "This Tampa Bay Times sports page (p.15, December 13, 1992) carries NHL news, scores, and full statistics tables for the Tampa Bay Lightning and the IHL's Atlanta Knights. Former 1987 Richmond Sockeyes player Matt Hervey appears in both stat tables — listed as #26 for the Lightning (with a +2 rating) and also among the Atlanta Knights skaters (with a +8 rating and 31 shots, 16.1 shooting percentage). The page also reports Gary Bettman's selection as the NHL's first commissioner and includes a Tampa Bay Lightning schedule through mid-January 1993.",
+    "notes": "Matt Hervey (former Sockeyes player) is the reason this clipping is archived — he appears in statistics for both the Tampa Bay Lightning and the Atlanta Knights (their IHL affiliate). The AI draft missed this entirely and should be corrected.",
+    "_usage": {
+      "input_tokens": 4305,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 525,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scan-495157739",
+  "imageId": "495157739",
+  "date": "1987-03-25",
+  "paper": "The Vancouver Sun",
+  "page": "p63",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft's short description incorrectly states the Sockeyes 'sweep Kelowna 3-2 in final game' — 3-2 was the score of the final game, not the series result; the series was swept five games to none (5-0).",
+      "The draft's long description says 'five games to none' which is correct for the series but the short description is misleading/wrong by saying 'sweep Kelowna 3-2 in final game' without clarifying context.",
+      "The draft omits the notable caption detail identifying Dean Rutledge (#20) and Rob Sumner as celebrating alongside captain Trevor Dickie with the BC Junior League trophy.",
+      "The byline is listed as 'Elliott Pap' but the OCR shows 'By ELLIOTT PAP' — the name casing is fine, but the headline 'The \\'Eyes have it' is the article text/title, not a standalone headline label; this appears accurate per OCR.",
+      "The draft describes Kurtenbach as 'former Vancouver Canuck captain and coach' which matches the OCR — this is accurate.",
+      "The draft omits the photo caption detail about Craig Hodge being credited for the photo."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes win their first BCJHL championship in eight years, defeating Kelowna Packers 3-2 in Game 5 to complete a five-game sweep of the best-of-nine final.",
+    "correctedDescriptionLong": "Orland Kurtenbach's Richmond Sockeyes captured their first BC Junior Hockey League championship in eight years on March 25, 1987, defeating the Kelowna Packers 3-2 at Richmond Arena to sweep the best-of-nine final series five games to none. The Sockeyes ran up 13 consecutive wins across three BCJHL playoff series, going through the entire playoffs without a loss. Captain Trevor Dickie hoisted the BC Junior League trophy alongside teammate Dean Rutledge (#20) and Rob Sumner. Kurtenbach, a former Vancouver Canuck captain and coach, expressed pride in winning in his first year of junior coaching, with the team's sights next set on the Centennial Cup national championship.",
+    "correctedHeadline": "The 'Eyes have it",
+    "correctedByline": "Elliott Pap",
+    "notes": "The short description in the draft was misleading — \"sweep Kelowna 3-2\" reads as a series result rather than a game score. Corrected to clarify 3-2 was the Game 5 score and the series was a five-game sweep. Also added photo caption details (Rutledge #20, Sumner) which are Sockeyes-relevant and present in the OCR. Note the OCR caption references \"CRAIG HODGE\" as the photographer credit.",
+    "_usage": {
+      "input_tokens": 2716,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 777,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "scan-512094454",
+  "imageId": "512094454",
+  "date": "1987-05-05",
+  "paper": "Star-Phoenix",
+  "page": "p15",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline 'Richmond and Humboldt set for showdown' is not found verbatim in the OCR; the actual implied headline from the OCR content is more accurately derived from the opening question/narrative, but the draft headline is likely AI-fabricated — no clear bold headline is present in the OCR text for the Sockeyes article.",
+      "Score in the 'At a glance' box reads 'Richmond 4 Pembroke 3', not 4-1 as stated in both the short and long descriptions. The draft incorrectly states the score as 4-1.",
+      "The long description attributes a quote about killing penalties to Kurtenbach but does not mention Steve Jaques, who is the primary named quote source in the OCR and whose quote is the article's lead.",
+      "The long description omits the key narrative framing: the article is primarily about the upcoming Richmond vs. Humboldt showdown, built around their prior seven-game series rivalry, not just a recap of the Pembroke game."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes beat Pembroke 4-3 to go 2-0 in Centennial Cup round robin, setting up a winner-take-all showdown with Humboldt Broncos on Wednesday.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Pembroke Lumber Kings 4-3 on Monday to move to 2-0 in the Centennial Cup round robin at the Humboldt Uniplex, tying Humboldt Broncos atop the standings. Dave Tomlinson scored two third-period goals to seal the win, while coach Orland Kurtenbach credited the team for killing numerous penalties. The win sets up a decisive Wednesday clash between Richmond and Humboldt — teams with a heated prior seven-game series rivalry — with the winner earning an automatic berth in Saturday's championship final. Defenceman Steve Jaques summed up the mood: \"We know who we have to beat to win the Centennial Cup.\"",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "No clear standalone headline is visible in the OCR for the Sockeyes article — the draft headline appears AI-fabricated. The scoreline in the 'At a glance' box clearly reads 4-3, not 4-1 as the draft states. Editor should confirm the article's actual headline from the original image.",
+    "_usage": {
+      "input_tokens": 2994,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 680,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

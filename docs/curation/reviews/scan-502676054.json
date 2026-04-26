@@ -1,0 +1,33 @@
+{
+  "id": "scan-502676054",
+  "imageId": "502676054",
+  "date": "1988-03-13",
+  "paper": "The Province",
+  "page": "p10",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Player name is misspelled in the draft: OCR says 'Rob Clark' not 'Rob Clarke' — however the roster lists 'Rob Clarke', so the OCR may reflect a newspaper typo; the draft should match the OCR exactly as 'Rob Clark'.",
+      "The draft describes Game 3 as 'a 5-3 Richmond victory' and separately says the series-clinching game was 3-2, which is accurate and matches OCR, but the draft's long description awkwardly reverses the chronological order — minor but worth noting.",
+      "The draft headline 'Sockeyes advance' is accurate per OCR, but the OCR presents it as a run-on with the article body (no separate headline markup), suggesting it may be a section label rather than a standalone headline — low confidence."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes swept the Delta Flyers 3-2 in the BCJHL Coastal Division final and will face Interior champion Vernon for the league championship.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Delta Flyers 3-2 on March 12, 1988 to complete a straight-games sweep of their best-of-seven BCJHL Coastal Division final. In the third game on Friday, Rob Clark scored two goals to lead Richmond to a 5-3 victory. The Sockeyes now advance to a best-of-seven series against Interior champion Vernon for the BCJHL league championship.",
+    "correctedHeadline": "Sockeyes advance",
+    "correctedByline": "",
+    "notes": "The OCR spells the player's name as \"Rob Clark\" (not \"Rob Clarke\" as on the roster). The draft used \"Rob Clark\" in the long description but \"Rob Clarke\" should be verified — using OCR spelling here. The headline appears to be a run-on label rather than a distinct headline in the OCR; editor may wish to confirm. This is a 1988 playoff article, one year after the 1987 Centennial Cup season, covering the Sockeyes' continued BCJHL play.",
+    "_usage": {
+      "input_tokens": 2498,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 605,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

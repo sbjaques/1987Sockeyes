@@ -1,0 +1,35 @@
+{
+  "id": "scan-483768383",
+  "imageId": "483768383",
+  "date": "1987-04-26",
+  "paper": "Calgary Herald",
+  "page": "p4",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes a Centennial Cup playdown game, but the date is 1987-04-26 — the Centennial Cup final was played May 9, 1987. In late April 1987, the Sockeyes would have been in the Abbott Cup (Western Canadian final), not the Centennial Cup. The OCR dateline says 'Centennial Cup playdowns' but this likely refers to a preliminary Western playoff (Abbott Cup) leading toward the Centennial Cup, or the OCR/article itself uses the term loosely. However, we must report what the OCR actually states.",
+      "No headline is present in the OCR text — the draft correctly left it blank.",
+      "No byline is present in the OCR text — the draft correctly left it blank.",
+      "The short description says 'series tied 2-2' which is accurate per OCR, but calls it a 'Centennial Cup playdown game' — the OCR does use this phrase, so it is technically faithful to the source, though the timing suggests this is an Abbott Cup (Western final) series. This should be flagged for editor review.",
+      "The long description says 'Western Canadian playoff series' which is a reasonable paraphrase, but the OCR specifically says 'Western Canadian playoffs for the Centennial Cup' — minor wording discrepancy but not a critical error."
+    ],
+    "correctedDescriptionShort": "Humboldt Broncos defeat Richmond Sockeyes 2-1 in Centennial Cup Western Canadian playdowns, tying the best-of-seven series 2-2.",
+    "correctedDescriptionLong": "Bill McDougall and Brad Bergen each scored as the Humboldt Broncos defeated the Richmond Sockeyes 2-1 on Saturday night in Centennial Cup Western Canadian playdowns, tying the best-of-seven series at 2-2. Dean Rutledge scored Richmond's lone goal in the third period. The game was played in Richmond, B.C., and the result was reported by Canadian Press.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The April 26, 1987 date places this in the Abbott Cup (Western Canadian final) window, not the Centennial Cup final (which was May 9, 1987). The OCR text refers to \"Centennial Cup playdowns / Western Canadian playoffs for the Centennial Cup,\" which is the period terminology for the Abbott Cup stage leading to the Centennial Cup. Editor should confirm whether this is an Abbott Cup game mislabelled in the source, or whether the paper's terminology is simply different. Descriptions have been kept faithful to the OCR language. No headline or byline present in the OCR.",
+    "_usage": {
+      "input_tokens": 2490,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 734,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

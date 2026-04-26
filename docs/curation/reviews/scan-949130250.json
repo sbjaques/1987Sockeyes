@@ -1,0 +1,33 @@
+{
+  "id": "scan-949130250",
+  "imageId": "949130250",
+  "date": "1993-01-18",
+  "paper": "The Toronto Star",
+  "page": "p13",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft completely omits the most Sockeyes-relevant content on the page: a note that ex-Sockeyes player Dave Tomlinson (then a Maple Leafs rookie forward) is expected to rejoin the AHL St. John's Leafs at the end of the Leafs' three-game road trip.",
+      "The draft accurately describes the Maple Leafs schedule and Greg Adams injury note, but those are secondary to the Tomlinson mention for this archive's purposes.",
+      "No headline or byline was extracted; the OCR does not show a clear article headline or byline for the main article."
+    ],
+    "correctedDescriptionShort": "Toronto Star NHL notes item reporting that Maple Leafs rookie forward Dave Tomlinson (ex-Richmond Sockeyes) was expected to rejoin the AHL St. John's Leafs after the team's three-game road trip.",
+    "correctedDescriptionLong": "This January 18, 1993 Toronto Star page includes an NHL notes column (\"Slapshots\") mentioning that rookie forward Dave Tomlinson — an alumnus of the 1987 Centennial Cup-winning Richmond Sockeyes — was expected to return to the AHL St. John's Leafs at the end of the Toronto Maple Leafs' three-game road trip, having been passed on the depth chart by returning defenceman Darryl Shannon. The page also carries the Toronto Maple Leafs' full game schedule from January through April 1993, and a brief injury report on Vancouver Canucks forward Greg Adams, who suffered a severe charley horse and was expected to miss four to six weeks.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The key Sockeyes hook is the Dave Tomlinson mention in the \"Slapshots\" notes column. The original draft missed this entirely and focused only on the schedule listing and the Adams injury item. No clear standalone headline or byline is visible in the OCR for the notes column.",
+    "_usage": {
+      "input_tokens": 4197,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 579,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

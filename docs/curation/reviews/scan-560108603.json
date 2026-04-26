@@ -1,0 +1,36 @@
+{
+  "id": "scan-560108603",
+  "imageId": "560108603",
+  "date": "1987-05-05",
+  "paper": "Alberni Valley Times",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Byline is wrong: the OCR shows 'By The Canadian Press' as a credit line embedded in the article text, but the actual byline format from OCR is 'HUMBOLDT, Sask. (CP)' — the dateline indicates a CP wire story; the drafted byline 'The Canadian Press' is functionally correct but the headline attribution should note it's a CP wire dispatch.",
+      "The Dartmouth team is described in the draft as 'Saskatchewan champion Humboldt Broncos' sharing first place, which is correct, but the draft omits that Dartmouth (described in OCR as 'Fuel Kids from British Columbia') is also 0-2 — minor omission but not an error in the short/long descriptions.",
+      "The long description says 'third-period explosion' which is accurate but omits that the score was 1-0 after two periods and Czenczek's winning goal came at 6:35 of the third — minor detail gap, not a factual error.",
+      "The long description incorrectly implies Czenczek scored the winning goal as part of a general list; the OCR confirms Czenczek scored the winning goal specifically at 6:35 of the third period after a 1-0 lead through two frames — this is accurately captured in the draft so no correction needed there.",
+      "The draft short description says 'third-period explosion' is not in the short — short description is accurate.",
+      "Dartmouth is described in the OCR as 'Dartmouth Fuel Kids from British Columbia' (Nova Scotia, not BC — this appears to be an OCR/print error in the source, not a draft error)."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes beat Pembroke Lumber Kings 4-1, exploding for three third-period goals to go 2-0 in Centennial Cup round-robin play in Humboldt, Saskatchewan.",
+    "correctedDescriptionLong": "The Richmond Sockeyes scored three goals in the third period to defeat the Pembroke Lumber Kings 4-1 on Monday night at the Centennial Cup junior-A championship in Humboldt, Saskatchewan. The win gave BC's champions a 2-0 record and a share of first place with the Saskatchewan champion Humboldt Broncos. Dave Tomlinson led Richmond with two goals, while Brian Kozak and Stan Czenczek each added one; Czenczek's winning goal came at 6:35 of the third period after the Sockeyes held a 1-0 lead through two frames. Richmond outshot Pembroke 26-25 but was assessed 11 of 15 minor penalties.",
+    "correctedHeadline": "Sockeyes win 2nd in Centennial",
+    "correctedByline": "CP",
+    "notes": "The headline is confirmed accurate by the OCR. The byline is a CP wire story — the OCR shows 'HUMBOLDT, Sask. (CP)' as a dateline and 'By The Canadian Press' embedded in the standings block; corrected to 'CP'. The draft's long description is largely accurate but omits the key detail that the score was 1-0 through two periods before the third-period eruption, and the exact time of Czenczek's winner — corrected descriptions include these details. Note: OCR oddly describes Dartmouth as 'from British Columbia' which is likely a scan/print artifact; Dartmouth Fuel Kids are from Nova Scotia.",
+    "_usage": {
+      "input_tokens": 2853,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 925,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

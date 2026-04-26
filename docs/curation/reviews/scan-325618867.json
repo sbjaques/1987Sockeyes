@@ -1,0 +1,35 @@
+{
+  "id": "scan-325618867",
+  "imageId": "325618867",
+  "date": "1987-12-16",
+  "paper": "Nanaimo Daily News",
+  "page": "p12",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The short description omits the third Sockeyes-Clippers result visible in the OCR (Mike McCormick's hat-trick in an 11-6 Sockeyes win in January). There are three distinct Sockeyes game results, not two.",
+      "The long description states 'won 4-3 in a second matchup with Mike McCormick scoring the game-winner' as if this is the only other result, but the OCR also contains a third entry: Mike McCormick scoring three goals in an 11-6 Sockeyes win over Nanaimo Clippers (item 3 in the January section).",
+      "The long description says 'December 1987' but the OCR clearly covers both December 1987 and January (likely January 1988) items — this is a sports briefs roundup spanning multiple months.",
+      "Item 6 in the January section mentions Jamie Stewart winning a goaltending battle for Langley Eagles vs Nanaimo Clippers — this is a known Sockeyes-roster name, but the article refers to him playing for Langley Eagles, which is worth noting accurately.",
+      "The draft does not mention that the page is a numbered sports briefs roundup format, which is important context for understanding the clipping."
+    ],
+    "correctedDescriptionShort": "Nanaimo Daily News sports briefs roundup featuring three Richmond Sockeyes victories over Nanaimo Clippers in BCJHL action, including a Rob Clarke hat-trick in an 11-4 win, a Mike McCormick game-winner in a 4-3 win, and a McCormick hat-trick in an 11-6 win.",
+    "correctedDescriptionLong": "A numbered sports briefs column in the Nanaimo Daily News covering BCJHL and other regional sporting events across December 1987 and January 1988. Richmond Sockeyes appear three times: Rob Clarke notched a hat-trick in an 11-4 blowout of Nanaimo Clippers at Richmond Arena; Mike McCormick scored the game-winner as the Sockeyes edged Clippers 4-3 before 1,100 fans at Civic Arena; and McCormick recorded a hat-trick to lead Richmond to an 11-6 comeback win over Nanaimo before 650 fans at Civic Arena. Additional items cover Nanaimo Clippers roster cuts, the BCJHL All-Star game, basketball, soccer, and minor hockey.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR is a numbered sports briefs digest spanning both December 1987 and January (likely 1988) entries on the same page. Three separate Sockeyes game results are present (items 15, 23, and 3-January). The draft missed the third result entirely and incorrectly described the date range as solely December 1987. Also note item 6 (January) references a \"Jamie Stewart\" winning a goaltending battle for Langley Eagles — if this is the same Jamie Stewart on the Sockeyes roster, it may indicate a roster move; editor should verify.",
+    "_usage": {
+      "input_tokens": 3417,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 844,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

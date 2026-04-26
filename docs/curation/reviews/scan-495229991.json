@@ -1,0 +1,36 @@
+{
+  "id": "scan-495229991",
+  "imageId": "495229991",
+  "date": "1987-05-11",
+  "paper": "The Vancouver Sun",
+  "page": "p20",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says 'five titles including the Mowat Cup, Abbott Cup, and Centennial Cup' — the OCR lists five titles as: B.C. Junior League, Mowat Cup, Alberta-B.C. (Doyle Cup), Abbott Cup, and Centennial Cup. The draft omits the B.C. Junior League and Alberta-B.C. titles and implies only three are listed.",
+      "The draft credits goals to 'Dave Tomlinson, Jason Phillips, and Paul Rutherford' but omits a fifth goal and the empty-net goal by Phillips. Per OCR: Tomlinson at 16:53 and Phillips at 18:13 in period 1; Rutherford at 8:48 of period 3; Phillips again at 13:28; and Phillips into the empty net at 19:07 — five total Sockeyes goals.",
+      "The draft says 'Phillips was named player-of-the-game' — the OCR states Romeo was player-of-the-game in all three games he appeared in (not Phillips). Phillips won most sportsmanlike player.",
+      "The byline is listed as 'Elliott Pap' in the draft but the OCR clearly shows 'By ELLIOTT PAP, Sun Sports Reporter' — the name is correct but the byline format should reflect the full credit as given.",
+      "The headline in the draft ('Sockeyes add Centennial Cup to their silverware collection') matches the OCR exactly — no issue there.",
+      "The draft does not mention the photo caption ('CHAMPAGNE SHOWER anoints Richmond Sockeyes coach Orland Kurtenbach') or the post-Cup human interest angle about Kurtenbach's uncertain return and Bruce Taylor's comments, which are central to the article."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeat the Humboldt Broncos 5-2 in Saskatchewan to claim the Centennial Cup, with goaltender Frank Romeo named tournament MVP and coach Orland Kurtenbach's future with the club left uncertain.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Humboldt Broncos 5-2 on Saturday in Humboldt, Saskatchewan to win the Centennial Cup, Canada's tier-two junior hockey championship. Goals by Dave Tomlinson and Jason Phillips in the first period set the tone, with Paul Rutherford adding a breakaway goal in the third; Phillips contributed a hat trick including the empty-netter. Goaltender Frank Romeo — player-of-the-game in all three of his tournament appearances — earned MVP honours, while Phillips took the most sportsmanlike player award. The victory capped a post-season in which Richmond won 27 of 34 playoff games and five titles (BCJHL, Mowat Cup, Alberta-BC, Abbott Cup, Centennial Cup); coach Orland Kurtenbach said he would decide over the summer whether to return to defend the title, with owner Bruce Taylor vowing not to pressure him.",
+    "correctedHeadline": "Sockeyes add Centennial Cup to their silverware collection",
+    "correctedByline": "By Elliott Pap, Sun Sports Reporter",
+    "notes": "The photo caption at the top of the OCR (\"CHAMPAGNE SHOWER anoints Richmond Sockeyes coach Orland Kurtenbach…\") is credited to Canadian Press and is a separate image element on the page. The article text is attributed to Elliott Pap. The draft had two notable factual errors: it misidentified who won player-of-the-game (Romeo, not Phillips), and it understated both the number of goals scored and the full list of five titles won.",
+    "_usage": {
+      "input_tokens": 4027,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 979,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

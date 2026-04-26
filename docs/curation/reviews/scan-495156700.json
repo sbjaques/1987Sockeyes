@@ -1,0 +1,35 @@
+{
+  "id": "scan-495156700",
+  "imageId": "495156700",
+  "date": "1987-03-23",
+  "paper": "The Vancouver Sun",
+  "page": "p10",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Byline is wrong: the article begins with 'Sun News Services' as the byline, but the draft attributes it correctly — however the OCR shows 'Sun News Services' appears mid-column before the Sockeyes paragraph, so that is accurate. On reflection the byline is correct.",
+      "Player name misspelled in long description: 'Jason Philips' (single 'l') matches OCR, but the roster spells it 'Jason Phillips' — the OCR is the source of truth for what the article says, so this is acceptable. However the long description says 'Jason Philips scoring short-handed in the first' which is accurate per OCR.",
+      "The long description omits the other third-period scorers mentioned in the OCR: Bill Hardy and Mike McCormick scored Richmond's third-period insurance markers alongside Philips' second goal. The draft only vaguely says 'Richmond scored three unanswered goals in the third period' without naming Hardy and McCormick.",
+      "The long description says 'a Sockeyes victory Tuesday night at Richmond Arena would sweep the series' — the OCR specifies the game time as 7:30, a minor omission but not an error.",
+      "The headline 'Sockeyes one more win away' is confirmed correct by OCR."
+    ],
+    "correctedDescriptionShort": "The Richmond Sockeyes took a 4-0 series lead in the BCJHL championship playoffs with a 5-1 win over the Kelowna Packers on Saturday, one victory away from a sweep.",
+    "correctedDescriptionLong": "The Richmond Sockeyes moved to within one win of sweeping the best-of-nine BCJHL championship playoff series, taking a 4-0 lead with a 5-1 road victory over the Kelowna Packers on Saturday. Coach Orland Kurtenbach said the team was on a \"natural high\" and looked forward to clinching Tuesday night at Richmond Arena (7:30 p.m.). Jason Philips opened the scoring with a short-handed goal in the first period, Dave Tomlinson made it 2-0 early in the second before Kelowna's Brent Mowery cut the lead to 2-1, and Richmond then scored three unanswered third-period goals from Philips, Bill Hardy, and Mike McCormick.",
+    "correctedHeadline": "",
+    "correctedByline": "Sun News Services",
+    "notes": "The page contains two adjacent non-Sockeyes articles (Kamloops Blazers/Rob Brown injury and Vancouver Canucks vs. Winnipeg Jets), which appear as OCR noise. The Sockeyes article is clearly identifiable. Long description corrected to include all named third-period scorers (Philips, Hardy, McCormick) as stated in OCR.",
+    "_usage": {
+      "input_tokens": 3613,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 771,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

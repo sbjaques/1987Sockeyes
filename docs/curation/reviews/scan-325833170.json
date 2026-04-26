@@ -1,0 +1,32 @@
+{
+  "id": "scan-325833170",
+  "imageId": "325833170",
+  "date": "1987-10-22",
+  "paper": "Nanaimo Daily News",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline was invented by the AI — there is no visible headline in the OCR text for this article.",
+      "The byline 'The Canadian Press' is a wire service credit, not a byline in the traditional sense; however it does appear in the OCR as 'By The Canadian Press', so the byline attribution itself is accurate. The headline field should be cleared as no headline is present in the OCR."
+    ],
+    "correctedDescriptionShort": "The Richmond Sockeyes and Juan De Fuca Whalers played to an 8-8 overtime tie in a penalty-filled BCJHL game Wednesday night in Richmond.",
+    "correctedDescriptionLong": "The Richmond Sockeyes and Juan De Fuca Whalers played to an 8-8 overtime tie in a penalty-filled BC Junior Hockey League game Wednesday night in Richmond. The Sockeyes appeared to have the game in hand until a string of penalties left them shorthanded for the final 14 minutes of the third period, during which the Whalers fired three power-play goals to equalize. Jason Talo scored twice for Richmond, while Mauro Padula, Mario Desjardins, Greg Hadden, Keith Fair, Rob Clarke, and Kirk Phare each added singles.",
+    "correctedHeadline": "",
+    "correctedByline": "The Canadian Press",
+    "notes": "No headline is present in the OCR text — the AI invented one. The byline is correctly identified as 'The Canadian Press' (wire service). All game details in the short and long descriptions are accurate per the OCR; only the fabricated headline needed removal.",
+    "_usage": {
+      "input_tokens": 2634,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 492,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scan-502004558",
+  "imageId": "502004558",
+  "date": "1987-05-11",
+  "paper": "The Province",
+  "page": "p12",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The article date for the championship game is described as 'Saturday' which was May 9, 1987, but the draft says 'May 10, 1987' — the correct game date is May 9, 1987.",
+      "The draft focuses narrowly on the win and Romeo's MVP award but misses the article's main angle: the mass departures facing the Sockeyes (and Humboldt Broncos) after the championship.",
+      "The draft omits key detail that only Rob Sumner and Jason Talo (both 16-year-olds) are expected to return to the Sockeyes.",
+      "The draft omits that president Horst Willkomm is considering stepping away from hockey and that coach Orland Kurtenbach must also decide his future.",
+      "The draft omits the Humboldt Broncos' refusal to shake hands with the Sockeyes after Richmond won the Western Canadian championship, and the fan backlash that followed.",
+      "Headline is fabricated/generic — the OCR does not surface a clear standalone headline for this article; the visible caption text is 'Champagne shampoo' (a CP photo caption), not the article headline."
+    ],
+    "correctedDescriptionShort": "After winning the 1987 Centennial Cup, the Richmond Sockeyes face a near-complete roster turnover, with only teenagers Rob Sumner and Jason Talo expected to return.",
+    "correctedDescriptionLong": "Frank Luba reports that the Richmond Sockeyes' Centennial Cup triumph — a 5-2 win over the Humboldt Broncos on May 9, 1987 — is likely the last game together for most of the squad: nine 20-year-olds, including MVP goaltender Frank Romeo and defenceman Matt Hervey, are no longer eligible, leaving only 16-year-olds Rob Sumner and Jason Talo set to return. Coach Orland Kurtenbach and president Horst Willkomm must also decide their own futures. The article also notes that Humboldt Broncos head coach Bernie Lynch drew fan outrage for his team's refusal to shake hands with the Sockeyes after Richmond clinched the Western Canadian championship.",
+    "correctedHeadline": "",
+    "correctedByline": "By Frank Luba",
+    "notes": "No standalone article headline is visible in the OCR; the only display text is the photo caption 'Champagne shampoo'. The draft's headline appears to be AI-fabricated. The draft's game date of May 10 is wrong — the article refers to 'Saturday' which was May 9, 1987, consistent with known Centennial Cup final date. The article's primary angle is post-championship roster dispersal, not the win itself.",
+    "_usage": {
+      "input_tokens": 2827,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 756,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

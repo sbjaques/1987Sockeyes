@@ -1,0 +1,29 @@
+{
+  "id": "scan-663903394",
+  "imageId": "663903394",
+  "date": "1985-03-13",
+  "paper": "The Bangor Daily News",
+  "page": "p7",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Stan Czenczek (a known Sockeyes player) is quoted here as a University of Maine freshman in March 1985 — pre-Sockeyes career coverage, archive-worthy. No clear headline or byline visible in the OCR. Dave Nonis is also mentioned; he is not on the Sockeyes roster but was Czenczek's UMaine teammate. The description accurately captures the article content.",
+    "_usage": {
+      "input_tokens": 2674,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 259,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

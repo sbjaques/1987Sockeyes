@@ -1,0 +1,35 @@
+{
+  "id": "scan-324852401",
+  "imageId": "324852401",
+  "date": "1987-01-03",
+  "paper": "Nanaimo Daily News",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes only the 'Eagles nip Sockeyes' article, but the OCR page also contains a second article about the Nanaimo Clippers' 9-7 win over Delta Flyers, which directly mentions the Richmond Sockeyes as Nanaimo's next opponent. The long description should acknowledge this secondary Sockeyes mention.",
+      "Mike Clairinbull is a misspelling carried over from the OCR — the correct name is Mike Claringbull.",
+      "Jamie Stewart is listed in the draft as Langley's goaltender, but Jamie Stewart is actually a Richmond Sockeyes player. The OCR says 'Jamie Stewart stopped 46 shots for Langley' — this is likely an OCR/source error or a different Jamie Stewart; the draft should not present this as fact without a flag, but the name as printed in the OCR is 'Jamie Stewart' for Langley.",
+      "The byline 'The Canadian Press' applies only to the first article. The second article on the page (Nanaimo Clippers vs Delta) has no byline in the OCR and is from a different source. The draft does not reflect this second article at all.",
+      "The long description omits the secondary Sockeyes-relevant detail: the Nanaimo Clippers article mentions Richmond Sockeyes as Nanaimo's next opponent that night (Jan 3, 8 o'clock, Civic Arena)."
+    ],
+    "correctedDescriptionShort": "Langley Eagles defeated the Richmond Sockeyes 5-4 in BCJHL action Friday night, with Neil Eisenhut scoring twice and Tony Bobbitt netting two for Richmond; a separate article notes the Nanaimo Clippers were set to face the first-place Sockeyes later that same night.",
+    "correctedDescriptionLong": "Neil Eisenhut scored twice to lead the Langley Eagles to a 5-4 win over the Richmond Sockeyes in B.C. Junior Hockey League play Friday night. Tony Bobbitt scored twice for Richmond, with singles from Bill Hardy and Mike Claringbull; Jamie Stewart stopped 46 shots for Langley while Richmond netminder Glen Pencer made 27 saves. A second article on the same page covers the Nanaimo Clippers' 9-7 win over the Delta Flyers, and notes the Clippers were scheduled to face first-place Richmond Sockeyes that same evening at 8 o'clock at Civic Arena.",
+    "correctedHeadline": "Eagles nip Sockeyes",
+    "correctedByline": "The Canadian Press",
+    "notes": "The OCR page contains two articles: (1) the CP wire story \"Eagles nip Sockeyes\" covering the Langley 5-4 win; and (2) a local Nanaimo Clippers game recap that mentions Richmond Sockeyes as that night's opponent. Both are Sockeyes-relevant and are reflected in the corrected description. Note also that \"Jamie Stewart\" appears as Langley's goaltender in the OCR — this conflicts with Jamie Stewart being a known Sockeyes player; editor should verify whether this is a different person or an OCR/source error. \"Mike Clairinbull\" in the OCR is corrected to \"Mike Claringbull\" in the description.",
+    "_usage": {
+      "input_tokens": 3349,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 905,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

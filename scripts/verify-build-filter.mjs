@@ -3,7 +3,8 @@
 // Adds a private item with a distinctive marker string, builds both modes,
 // greps both bundles for the marker, confirms public does NOT contain it.
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
 import { execSync } from 'node:child_process';
 
 const MARKER = 'BUILDFILTERTESTMARKERxyzzy12345';
@@ -52,6 +53,46 @@ try {
     failed = true;
   } else {
     console.log('PASS: private bundle contains marker (as expected).');
+  }
+
+  if (failed) process.exitCode = 1;
+
+  // Check that public bundle does NOT contain comment/admin feature strings
+  const FORBIDDEN_IN_PUBLIC = [
+    '/api/comments',
+    '/api/me',
+    '/api/admin/recount',
+    '/admin/inbox',
+    'LeaveNoteModal',
+    'LeaveNoteButton',
+    'AdminInboxPage',
+    'AdminBadge',
+    'Resend',
+    'RESEND_API_KEY',
+    'NOTIFY_EMAIL',
+    'ADMIN_EMAIL',
+  ];
+
+  const distPublic = join(process.cwd(), 'dist-public');
+  if (existsSync(distPublic)) {
+    const assetsDir = join(distPublic, 'assets');
+    if (existsSync(assetsDir)) {
+      const jsFiles = readdirSync(assetsDir).filter(f => f.endsWith('.js'));
+      let forbiddenFound = false;
+      for (const f of jsFiles) {
+        const content = readFileSync(join(assetsDir, f), 'utf8');
+        for (const forbidden of FORBIDDEN_IN_PUBLIC) {
+          if (content.includes(forbidden)) {
+            console.error(`✗ FAIL: dist-public/assets/${f} contains "${forbidden}"`);
+            forbiddenFound = true;
+            failed = true;
+          }
+        }
+      }
+      if (!forbiddenFound) {
+        console.log('✓ public bundle clean of comment/admin strings.');
+      }
+    }
   }
 
   if (failed) process.exitCode = 1;

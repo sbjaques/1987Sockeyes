@@ -63,7 +63,7 @@ CI reads `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` from repo secrets. Loc
 - `/the-season/the-run` **The Run** — PlayoffTimeline, 26 games across Mowat / Doyle / Abbott / Centennial.
 - `/playoffs` → redirects to `/the-season/the-run`.
 - `/roster` **Roster** — skater + goalie tables; staff as grouped cards.
-- `/vault` **The Vault** — 330 items, chronological sort, ACCESS filter (all/public/private). Private items show a crimson lock badge. AI-drafted scan descriptions still carry `needsReview: true` in the data, but the amber "AI DRAFT" badge **only renders on the private tier** (was confusing on the public tier; hidden 2026-04-24). Click-through behaviour: public tier + private item → `LockedLightbox` (renders only `descriptionShort` + request-access CTA; never `descriptionLong` since that field is stripped from the public bundle). Private tier → regular `MediaLightbox` with zoom + download for any image (Worker proxies R2 behind CF Access). `MediaLightbox` translates the click index into `viewable` via item id — earlier the index was off because `openable` includes private items but `viewable` doesn't.
+- `/vault` **The Vault** — 330 items, chronological sort, ACCESS filter (all/public/private). Private items show a crimson lock badge. AI-drafted scan descriptions still carry `needsReview: true` in the data, but the amber "AI DRAFT" badge **only renders on the private tier** (was confusing on the public tier; hidden 2026-04-24). Click-through behaviour: public tier + private item → `LockedLightbox` (renders `descriptionShort` + lock notice + Close button only; no contact link, never `descriptionLong` since that field is stripped from the public bundle). Private tier → regular `MediaLightbox` with zoom + download for any image (Worker proxies R2 behind CF Access). `MediaLightbox` translates the click index into `viewable` via item id — earlier the index was off because `openable` includes private items but `viewable` doesn't.
 - `/hall-of-fame` **Hall of Fame** — 2025 BC Hall of Fame induction page with Sequeira photos, five-stat citation strip, interview + induction video grids, class-of-2025 cards. Kimberley Dynamiters card correctly cites the 1978 Allan Cup (Senior WIHL), not Centennial Cup. H1 + body copy avoid the "BCHHoF" abbreviation per the 2026-04-24 plain-viewer pass.
 - `/player/:id` — profile with aliases, pull-quote scoutingNotes, Vitals / Path to Richmond / Linemates / Off the Ice grid, 1987 Program Snapshot block, career tables, full bio (markdown-rendered when appropriate), games-mentioned, clippings-mentioned.
 - `/timeline/:cup` — per-cup deep link (retained).
@@ -166,9 +166,9 @@ scripts/
 
 ## Privacy rules (do NOT relax)
 - No phone numbers or home addresses in anything that lands in the public bundle. (Bill Reid letter `jaques-mom-IMG_6519.JPEG` has Steve's home address — classify private if it's ever brought into media.json.)
-- `archive@87sockeyes.win` is the contact address on the LockedLightbox CTA. Do NOT put personal email in any publicly-deployed code. CF Email Routing will forward to Yahoo.
+- **No contact info — email, phone, address — in any deployed code, rendered UI, or commit message.** Removed 2026-04-25 (LockedLightbox "Request access" CTA + Footer corrections mailto both deleted; no role-based forwarder either). Family, teammates, and contributors who need archive access know how to reach the archivist out of band. Do NOT re-add a "Request access" button, footer mailto, or any address (personal or role-based) without explicit approval.
 - **Public bundle stripping for private items:** the Vite filter plugin removes `url`, `attribution`, AND `descriptionLong`. Do not weaken this — the AI-drafted long descriptions paraphrase article content and would effectively reveal the private archive.
-- **`LockedLightbox` is the visual gate on the public tier only.** It renders `descriptionShort` (one-sentence teaser), the type/date, the lock notice, and the request-access mailto. Never `descriptionLong`. The private tier never reaches `LockedLightbox` — gated by `BUILD_MODE === 'public'` in `MediaLightbox`.
+- **`LockedLightbox` is the visual gate on the public tier only.** It renders `descriptionShort` (one-sentence teaser), the type/date, the lock notice, and a Close button. No contact link. Never `descriptionLong`. The private tier never reaches `LockedLightbox` — gated by `BUILD_MODE === 'public'` in `MediaLightbox`.
 - **Public tier strips archivist voice from prose.** `stripArchivistNotesForPublic` removes inline 9-digit imageId citations, `## Sources & gaps` markdown sections, and `[verified later as ...]` brackets. Don't disable the strip pipeline — readers without the source corpus see meaningless 9-digit numbers and editor-only notes.
 - Factual tone only — no opinion or subjective commentary from source material.
 - Cross-reference every claim to a cited media id or URL in commit messages.
@@ -179,7 +179,6 @@ scripts/
 
 ## Known deferred work (low priority)
 - **Editorial pass on 225 scan `needsReview: true` descriptions.** Flip to false as each is verified. AI drafts occasionally hallucinate details. Badge only shows on private tier.
-- **CF Email Routing** for `archive@87sockeyes.win` → personal email. Until set up, the LockedLightbox "Request access" mailto bounces.
 - **Career completion** — ~25 players still need hockey-reference / HOF / university roster links. Many need playoff rows separated from regular-season in `careerStats`.
 - **Lighthouse audit** + bundle code-splitting (current JS is ~1.1 MB → ~315 KB gzip — warn threshold).
 - **Tom Harrison** roster entry has no bio. "Unidentifiable staff" — needs program-PDF OCR or removal.

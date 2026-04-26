@@ -1,0 +1,35 @@
+{
+  "id": "scan-494902975",
+  "imageId": "494902975",
+  "date": "1986-11-04",
+  "paper": "The Vancouver Sun",
+  "page": "p40",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline in the OCR is 'STEVE ORLAND KURTENBACH: putting in 16-hour days' — the draft incorrectly shortens this to 'STEVE ORLAND KURTENBACH: putting in 16-hour days' (actually matches, but the draft headline omits 'STEVE' from the full name rendering it as just 'ORLAND KURTENBACH'). Wait — re-examining: the draft headline reads 'STEVE ORLAND KURTENBACH: putting in 16-hour days' which does match the OCR exactly. No headline issue.",
+      "The draft says Kurtenbach 'captained and coached the team' (the Canucks) but the OCR only says he 'captained and coached the team' — this is accurate.",
+      "The draft states 'Owner Bruce Taylor recruited him in July 1986' — the OCR says Bruce Taylor called him 'in July' with no year specified. Since the article is dated November 1986, 'July 1986' is a reasonable inference but is technically an addition not in the OCR.",
+      "The draft describes the headline as 'STEVE ORLAND KURTENBACH: putting in 16-hour days' which matches the OCR. However, looking again at the OCR headline 'STEVE ORLAND KURTENBACH: putting in 16-hour days' — the draft headline actually matches. The only real issue is the draft says '16-hour days' in the headline but the OCR article body says '8 a.m. until midnight' which is indeed 16 hours — consistent.",
+      "Minor: The OCR says the article is by 'ARV OLSON' (formatted as 'By ARV OLSON') — the draft byline is correct."
+    ],
+    "correctedDescriptionShort": "Profile of Richmond Sockeyes head coach Orland Kurtenbach, former Canucks captain, balancing his insurance business, a Surrey driving range, and junior hockey coaching while working 8 a.m. to midnight.",
+    "correctedDescriptionLong": "Orland Kurtenbach, the first member of the NHL Canucks in 1970 who went on to captain and coach the team, is profiled juggling three ventures: a year-old general insurance business in New Westminster, a golf driving range under development in Surrey, and coaching the Richmond Sockeyes junior hockey team. Now 50 and just five pounds over his playing weight, Kurtenbach says owner Bruce Taylor called him in July to ask if he was interested in coaching, and despite initial hesitation over his business commitments, he agreed. Assistant coach Mike O'Brien is also mentioned. Kurtenbach describes his typical day as running from 8 a.m. to midnight.",
+    "correctedHeadline": "STEVE ORLAND KURTENBACH: putting in 16-hour days",
+    "correctedByline": "ARV OLSON",
+    "notes": "The draft is largely accurate. The main fix is a slight tightening of the long description to note that Kurtenbach captained and coached the Canucks (not just was the first member), and to avoid inferring the year \"1986\" for the July call since the OCR does not specify it. The headline and byline both match the OCR exactly. Mike O'Brien (assistant coach, known Sockeyes staff) is mentioned in the OCR and worth noting in the long description.",
+    "_usage": {
+      "input_tokens": 2752,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 896,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

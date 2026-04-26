@@ -1,0 +1,35 @@
+{
+  "id": "scan-949130354",
+  "imageId": "949130354",
+  "date": "1992-11-02",
+  "paper": "The Toronto Star",
+  "page": "p14",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is wrong — the OCR shows 'SLAPSHOTS' as the column header/headline, not 'Maple Leafs'",
+      "Byline is missing — OCR clearly shows 'By Frank Orr' as the byline",
+      "Draft fails to mention Dave Tomlinson (ex-Sockeyes player, North Vancouver) by name, which is the primary reason this clipping is archive-relevant",
+      "The short description makes no mention of Dave Tomlinson despite his named appearance being the Sockeyes-relevant hook",
+      "The long description mentions 'Dave Tomlinson added a pair' of goals but buries it in a list and does not connect him to the Sockeyes"
+    ],
+    "correctedHeadline": "SLAPSHOTS",
+    "correctedByline": "By Frank Orr",
+    "correctedDescriptionShort": "Toronto Star hockey column noting ex-Sockeyes player Dave Tomlinson scored two goals in the St. John's Maple Leafs' record 10-2 AHL win over Hershey, November 2, 1992.",
+    "correctedDescriptionLong": "Frank Orr's \"Slapshots\" column in the November 2, 1992 Toronto Star includes a note on the St. John's Maple Leafs' franchise-record 10-2 AHL win over the Hershey Bears, in which ex-Richmond Sockeyes forward Dave Tomlinson scored two goals; Yanic Perrault led with three. The column also covers the NHL trade of defenceman Paul Cavallini from St. Louis to Washington for Kevin Miller, and humorous anecdotes about Red Wings defenceman Dennis Vial and Soviet rookie Viacheslav Butsayev at Denny's.",
+    "notes": "Dave Tomlinson (ex-1987 Sockeyes, North Vancouver) is explicitly named as a two-goal scorer for the St. John's Maple Leafs — this is the Sockeyes-relevant hook for this clipping. Headline corrected to the column name \"SLAPSHOTS\" per OCR; byline confirmed as Frank Orr.",
+    "_usage": {
+      "input_tokens": 4138,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 622,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

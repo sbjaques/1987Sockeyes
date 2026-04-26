@@ -1,0 +1,36 @@
+{
+  "id": "scan-558335956",
+  "imageId": "558335956",
+  "date": "1987-04-15",
+  "paper": "Red Deer Advocate",
+  "page": "p23",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says 'Red Deer defeated Richmond 7-5 in overtime' but the OCR clearly shows the Tuesday game was 'Richmond 5 at Red Deer 7 (OT)' — Richmond scored 5, Red Deer 7, so the score is correct, but the framing is fine. However, the overtime section lists TWO overtime goals (Ward at 0:59 AND Gosselin at 9:50), meaning the game went to double overtime, not just one OT period — this is not mentioned in the draft.",
+      "The draft says 'series standings show Red Deer leading best-of-seven 3-2' but the OCR heading shows this refers to the Abbott Cup West Semifinal, not the 'Centennial Cup West semifinal'. Based on the date (April 1987) and opponents (Richmond Sockeyes vs Red Deer), this is the Abbott Cup (Western Canadian Junior A championship), not the Centennial Cup (national). The Centennial Cup was played in May 1987.",
+      "The headline 'Centennial Cup West Semifinal' is incorrect — the OCR text reads 'CENTENNIAL CUP WEST SEMIFINAL' but contextually (April 1987, BC vs Alberta teams) this is the Abbott Cup series. However, the OCR itself uses the term 'CENTENNIAL CUP WEST SEMIFINAL', so the headline as printed should be taken from OCR at face value.",
+      "The draft omits that the summary lists results of multiple games in the series (Saturday, Sunday, Wednesday April 8, Tuesday April 7), not just the Tuesday game.",
+      "The draft states there was one overtime winner (Ward at 0:59) but the OCR shows a second overtime goal by Gosselin at 9:50, indicating a double-overtime game.",
+      "No byline is present in the OCR — this is correctly left blank in the draft."
+    ],
+    "correctedHeadline": "Centennial Cup West Semifinal",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Box score and series summary for the Abbott Cup West semifinal between Richmond Sockeyes and Red Deer, including the double-overtime Tuesday, April 7, 1987 result (Red Deer 7, Richmond 5).",
+    "correctedDescriptionLong": "Game summary and box score for Game 5 of the Centennial Cup West (Abbott Cup) semifinal between the Richmond Sockeyes and Red Deer, played Tuesday, April 7, 1987, with Red Deer winning 7-5 in double overtime — Ward scoring at 0:59 and Gosselin at 9:50 of overtime. Multiple Sockeyes are mentioned in the scoring and penalty summaries, including Kozak (2 goals), Claringbull, Phillips, Rutherford, Jaques, Czenczek, Dickie, Sumner, McCormick, Romeo, and Bobbitt. The series standings at time of publication showed Red Deer leading the best-of-seven 3-2, with Game 6 scheduled that evening at 7:30 p.m. in Red Deer.",
+    "notes": "The OCR labels this 'CENTENNIAL CUP WEST SEMIFINAL' but in April 1987 the Richmond Sockeyes were playing the Abbott Cup (Western Canadian Junior A final path), not the Centennial Cup (which was in May). Editor should confirm the correct tournament name. Also note the game went to double overtime, not single OT — the draft missed Gosselin's second OT goal at 9:50.",
+    "_usage": {
+      "input_tokens": 3346,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 957,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

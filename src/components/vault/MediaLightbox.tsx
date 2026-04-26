@@ -6,6 +6,7 @@ import 'yet-another-react-lightbox/styles.css';
 import 'yet-another-react-lightbox/plugins/captions.css';
 import type { MediaItem } from '../../types/media';
 import { BUILD_MODE } from '../../lib/buildMode';
+import { LeaveNoteButton } from '../comments/LeaveNoteButton';
 import { LockedLightbox } from './LockedLightbox';
 
 export function MediaLightbox({
@@ -56,14 +57,25 @@ export function MediaLightbox({
   }));
 
   return (
-    <Lightbox
-      open={open}
-      close={onClose}
-      slides={slides}
-      index={viewableIndex}
-      plugins={[Zoom, Captions, Download]}
-      zoom={{ maxZoomPixelRatio: 4, zoomInMultiplier: 2, doubleTapDelay: 300, doubleClickDelay: 300, doubleClickMaxStops: 2, keyboardMoveDistance: 50, wheelZoomDistanceFactor: 100, pinchZoomDistanceFactor: 100, scrollToZoom: true }}
-      carousel={{ finite: true }}
-    />
+    <>
+      <Lightbox
+        open={open}
+        close={onClose}
+        slides={slides}
+        index={viewableIndex}
+        plugins={[Zoom, Captions, Download]}
+        zoom={{ maxZoomPixelRatio: 4, zoomInMultiplier: 2, doubleTapDelay: 300, doubleClickDelay: 300, doubleClickMaxStops: 2, keyboardMoveDistance: 50, wheelZoomDistanceFactor: 100, pinchZoomDistanceFactor: 100, scrollToZoom: true }}
+        carousel={{ finite: true }}
+      />
+      {open && BUILD_MODE === 'private' && active && (
+        <div className="fixed bottom-6 right-6 z-40 pointer-events-auto">
+          <LeaveNoteButton
+            target={`media:${active.id}`}
+            targetLabel={`${active.attribution?.paper ?? active.type}${active.date ? ' · ' + active.date : ''}`}
+            variant="pill"
+          />
+        </div>
+      )}
+    </>
   );
 }

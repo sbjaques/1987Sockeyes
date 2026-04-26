@@ -1,0 +1,35 @@
+{
+  "id": "scan-560107428",
+  "imageId": "560107428",
+  "date": "1987-04-08",
+  "paper": "Alberni Valley Times",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is fabricated — no headline is present in the OCR text.",
+      "Draft says 'five other Sockeyes contributed goals' but names them as Jim Dunn, Tony Bobbitt, Jason Phillips, Mike McCormick, and Dean Rutlege — 'Jim Dunn' should be 'Jim Gunn' (known Sockeyes player; likely OCR misread). Draft omits these names entirely.",
+      "Draft describes the series as 'opening game of a Centennial Cup playoff semi-final' but the OCR specifies it is a best-of-seven Western semi-final between BC and Alberta Tier II junior champions, not yet the Centennial Cup itself.",
+      "Draft says 'Game two was scheduled for the same evening in Richmond before shifting to Red Deer' — accurate in substance but omits that the rest of the series (after game two) shifts to Red Deer, which is a meaningful detail.",
+      "Byline is correctly left empty — no byline appears in the OCR, though a CP wire tag is present."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Richmond Sockeyes defeat Red Deer Rustlers 11-4 in game one of the best-of-seven Western semi-final between BC and Alberta Tier II junior hockey champions.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Red Deer Rustlers 11-4 on April 7, 1987, in game one of the best-of-seven Western semi-final between the BC and Alberta Tier II junior hockey champions. Bill Hardy, Dave Tomlinson, and Matt Hervey each scored twice, while Jim Gunn, Tony Bobbitt, Jason Phillips, Mike McCormick, and Dean Rutledge added single goals. Richmond led 4-2 after one period and 6-3 after two, outshooting Red Deer 60-34; game two was scheduled for that evening in Richmond before the series shifted to Red Deer.",
+    "notes": "No headline present in OCR — the AI-drafted headline \"Sockeyes Rout Rustlers 11-4\" is fabricated and should be removed. The article is a CP wire dispatch. \"Jim Dunn\" in the OCR is almost certainly a misread of \"Jim Gunn\" (known Sockeyes player). The series is described as a Western semi-final, not a Centennial Cup semi-final — the Centennial Cup was the subsequent national championship stage.",
+    "_usage": {
+      "input_tokens": 2670,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 700,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

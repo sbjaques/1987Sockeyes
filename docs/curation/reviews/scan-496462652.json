@@ -1,0 +1,34 @@
+{
+  "id": "scan-496462652",
+  "imageId": "496462652",
+  "date": "1987-04-23",
+  "paper": "The Leader-Post",
+  "page": "p14",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline 'Sockeyes Win Overtime Thriller Over Broncos' does not appear in the OCR — there is no identifiable headline in the extracted text; the AI appears to have fabricated it.",
+      "The draft describes this as a 'Centennial Cup western final' but the OCR says it is a 'Tier 2 western final series' (the Abbott Cup/western final stage), NOT the Centennial Cup final. The Centennial Cup is the national championship; the western final is the Abbott Cup round — and notably the opponent is Humboldt Broncos, who are the Saskatchewan (not national) champion at this stage.",
+      "The date April 23 1987 is inconsistent with the Centennial Cup final (which was May 9 1987); this game is from the Abbott Cup (western final) series, not the Centennial Cup.",
+      "Opponent's scorer surname spelled 'Chamberlin' in draft but OCR reads 'Chamberlin' — acceptable; however McDougall's first name 'Bill' is confirmed by OCR as 'Bill McDougall', so that is correct."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Tony Bobbitt scored at 1:04 of overtime as the Richmond Sockeyes defeated the Humboldt Broncos 4-3 to take a 2-1 lead in the Tier 2 western final (Abbott Cup) series.",
+    "correctedDescriptionLong": "Tony Bobbitt's overtime goal at 1:04 gave the Richmond Sockeyes a 4-3 win over the Humboldt Broncos in Game 3 of the best-of-seven Tier 2 western final series, played Wednesday night in Humboldt. The victory put Richmond ahead 2-1 in the series, with Game 4 scheduled for Saturday in Richmond. Dave Tomlinson, Mike Claringbull, and Rob Clarke also scored for the Sockeyes, who were outshot 39-23; Bill McDougall (2) and Curtis Chamberlin replied for the Saskatchewan champion Broncos. A brief note in the same article reports that the Pembroke Lumber Kings led their eastern final series 3-1 after an 8-2 win over Nickel Centre.",
+    "notes": "The AI draft incorrectly labels this a \"Centennial Cup\" game; the OCR clearly identifies it as the \"Tier 2 western final\" (Abbott Cup stage). No headline is visible in the OCR — the AI-drafted headline appears fabricated. The corrected descriptions reflect the proper tournament context.",
+    "_usage": {
+      "input_tokens": 2770,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 733,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "scan-1107674585",
+  "imageId": "1107674585",
+  "date": "1993-04-13",
+  "paper": "The Times-Transcript",
+  "page": "p8",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The article is not primarily about the Sockeyes but is archive-worthy because it mentions ex-Sockeye Dave Tomlinson by name as part of the St. John's Maple Leafs' top line in the 1993 AHL playoffs.",
+      "The draft's short and long descriptions make no mention of Dave Tomlinson, who is the reason this clipping is in the Sockeyes archive.",
+      "The draft is otherwise a reasonably accurate summary of the article's content, but fails to highlight the Sockeyes-relevant connection.",
+      "No byline is visible in the OCR — draft correctly leaves it blank.",
+      "Headline 'Hawks ready for Leafs challenge' is plausible but not confirmed by the OCR text provided; OCR does not show a clear headline."
+    ],
+    "correctedDescriptionShort": "Ex-Sockeye Dave Tomlinson, skating on the St. John's Maple Leafs' top AHL line with Kent Manderville and Patrik Augusta, is highlighted as an offensive threat ahead of the Atlantic Division semifinal against the Moncton Hawks.",
+    "correctedDescriptionLong": "A 1993 AHL playoff preview in the Times-Transcript notes that ex-Richmond Sockeye Dave Tomlinson has joined Kent Manderville and Patrik Augusta on the St. John's Maple Leafs' top line, with the trio combining for 12 points and a +12 rating in a recent game against Halifax. The article previews the best-of-seven Atlantic Division semifinal between the Moncton Hawks and first-place St. John's, beginning Wednesday in Halifax. Moncton coach Rob Laird acknowledges the difficulty of matching lines against St. John's balanced attack, citing their checking line \"The Blanket\" (Rob Murray, Russ Romaniuk, Alan Kerr) as key, while the author predicts St. John's in five games.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "This clipping is in the archive because ex-Sockeye Dave Tomlinson is mentioned by name as part of St. John's top AHL line. The draft described the article accurately in general terms but omitted the Sockeyes connection entirely. Headline is not confirmed in the OCR — editor should check the scan image for the actual headline text before publishing.",
+    "_usage": {
+      "input_tokens": 3400,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 660,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

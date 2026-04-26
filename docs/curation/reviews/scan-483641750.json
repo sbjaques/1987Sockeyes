@@ -1,0 +1,29 @@
+{
+  "id": "scan-483641750",
+  "imageId": "483641750",
+  "date": "1987-05-07",
+  "paper": "Calgary Herald",
+  "page": "p13",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR contains adjacent-column noise from NHL playoff and WHL scores, but the Sockeyes-relevant CP wire article is clearly present and was correctly summarized by the draft. One minor spelling note: OCR reads \"Duncon Ryhorchuk\" (likely \"Duncan\") — the draft uses \"Duncan,\" which is the correct spelling. No factual errors found.",
+    "_usage": {
+      "input_tokens": 3647,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 244,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

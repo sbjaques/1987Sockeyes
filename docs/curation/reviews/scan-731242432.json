@@ -1,0 +1,37 @@
+{
+  "id": "scan-731242432",
+  "imageId": "731242432",
+  "date": "1987-04-23",
+  "paper": "The Daily Herald-Tribune",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says Sockeyes 'trailed 2-1 after two periods' but the OCR says they trailed 1-0 after the first period and 2-1 after the second — the draft's phrasing is correct on the deficit but omits the first-period trail detail; minor but not an error per se.",
+      "The draft states the series is the 'Tier 2 western final series', which matches the OCR.",
+      "The headline is AI-generated and not from the OCR — no clear headline is present in the OCR text for this article.",
+      "The draft omits the detail that the fourth game will be played in Richmond on Saturday.",
+      "The draft incorrectly says Richmond 'rallied from a 2-1 deficit after two periods' — the OCR says they trailed 1-0 after one period and 2-1 after two periods, meaning they were behind (not level) after each intermission; the framing implies a late comeback but the OCR does not support 'rallied' specifically.",
+      "The OCR clarifies Humboldt Broncos are the Saskatchewan champions, which is not mentioned in the draft.",
+      "The draft notes the overtime period without specifying it was a 10-minute overtime period, as stated in the OCR."
+    ],
+    "correctedDescriptionShort": "Tony Bobbitt scored 1:04 into a 10-minute overtime to give the Richmond Sockeyes a 4-3 win over the Humboldt Broncos, taking a 2-1 lead in the Centennial Cup Tier 2 western final series.",
+    "correctedDescriptionLong": "Tony Bobbitt scored at 1:04 of a 10-minute overtime period to give the Richmond Sockeyes a 4-3 win over the Saskatchewan-champion Humboldt Broncos in a Centennial Cup junior hockey playoff game. The victory gave Richmond a 2-1 lead in the best-of-seven Tier 2 western final series, with Game 4 scheduled in Richmond on Saturday. Dave Tomlinson, Mike Claringbull, and Rob Clarke also scored for the Sockeyes, who were outshot 39-23 and trailed 1-0 after the first period and 2-1 after the second. Bill McDougall (two goals) and Curtis Chamberlin scored for Humboldt.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "No clear article headline is present in the OCR — the AI-generated headline should be removed or treated as a descriptive label only. The article is a CP wire brief. Key details added: 10-minute OT specification, first-period deficit, Game 4 location, Broncos identified as Saskatchewan champions, and Humboldt scorers.",
+    "_usage": {
+      "input_tokens": 2655,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 766,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

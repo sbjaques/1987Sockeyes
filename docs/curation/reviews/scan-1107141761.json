@@ -1,0 +1,36 @@
+{
+  "id": "scan-1107141761",
+  "imageId": "1107141761",
+  "date": "1988-04-12",
+  "paper": "The Times-Transcript",
+  "page": "p30",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft correctly identifies Matt Hervey as being re-signed, but frames the article as being primarily about 'roster moves and player prospects for the 1988 season' without clarifying this is a Moncton Hawks/Winnipeg Jets AHL-NHL column — which is accurate enough, but the short description omits Matt Hervey entirely despite him being the Sockeyes-relevant figure.",
+      "The draft short description focuses on Winnipeg Jets management generically and omits Matt Hervey, the key Sockeyes-relevant name that makes this archive-worthy.",
+      "The draft long description mentions Matt Hervey correctly but buries him and misidentifies Ron Wilson as being assigned as 'assistant coach and player' — the OCR says Wilson will join as 'an assistant to head coach Rick Bowness' while also playing 40-50 games, which the draft conflates slightly but is broadly accurate.",
+      "Rick Bowness is described as 'coach' in the draft, but the OCR makes clear Bowness is the Moncton Hawks head coach, not the Winnipeg Jets head coach — the Jets coach is not named explicitly in the OCR; Bowness is the Hawks coach who also has influence over Jets roster decisions with GM John Ferguson.",
+      "No headline or byline is discernible from the OCR text — the draft correctly marks both as UNKNOWN.",
+      "The draft's long description omits the key context that Matt Hervey is a former 1987 Richmond Sockeyes player, which is the reason this clipping is archived."
+    ],
+    "correctedDescriptionShort": "A Times-Transcript column reports that Winnipeg Jets GM John Ferguson has been convinced by Moncton Hawks coach Rick Bowness to re-sign tough defenceman Matt Hervey, a former 1987 Richmond Sockeyes player.",
+    "correctedDescriptionLong": "A Times-Transcript hockey notes column from April 12, 1988 reports that Moncton Hawks coach Rick Bowness has persuaded Jets GM John Ferguson to re-sign defenceman Matt Hervey — a former 1987 Richmond Sockeyes standout — for the following season. The column also covers Bowness's plans to add veteran Ron Wilson to the Moncton AHL roster as both a player (40–50 games) and an assistant to Bowness, noting Wilson's strong AHL track record. Additional notes discuss Joel Baillargeon being told not to return to training camp, Randy Gilhen's NHL prospects, and the possibility of Dwight Schofield and Gilles Hamel joining Moncton next season.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Matt Hervey (former Sockeyes player) is the Sockeyes-relevant hook for this clipping — his name appears explicitly in the OCR as the player Bowness convinced Ferguson to re-sign. The rest of the article is standard 1988 NHL/AHL playoff notes. No headline or byline is visible in the OCR. Rick Bowness is the Moncton Hawks head coach, not the Winnipeg Jets head coach — the draft's framing was slightly misleading on this point.",
+    "_usage": {
+      "input_tokens": 3808,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 858,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

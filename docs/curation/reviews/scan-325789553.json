@@ -1,0 +1,35 @@
+{
+  "id": "scan-325789553",
+  "imageId": "325789553",
+  "date": "1987-11-10",
+  "paper": "Nanaimo Daily News",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft incorrectly identifies Clarke as 'captain' — the OCR identifies Clarke as 'rugged captain' which is consistent, but the known captain is Trevor Dickie (#21); Rob Clarke is a player, not the captain. The draft's short and long descriptions should not call Clarke the captain.",
+      "The draft says Clarke fought 'against Nanaimo Clippers' Jack Piechutta' but the OCR clarifies Piechutta is a 'Clipper smurf' (small player), and the quote attributes the fight to Clarke being hit on the head — this context is missing.",
+      "The BCJHL standings in the draft place Sockeyes first with 11-8-1, Clippers second with 10-6-1, and Whalers third with 7-7-1 — this matches the OCR, so standings are accurate.",
+      "The draft omits the notable detail that the Whalers beat Richmond on Saturday in a game marred by a bench-clearing brawl with a minute left, which is Sockeyes-relevant context.",
+      "The headline in the draft ('Notes, quotes and leftovers from the wonderful world of sports') matches the OCR and is accurate."
+    ],
+    "correctedDescriptionShort": "Nanaimo Daily News sports notes column covering BCJHL action including Rob Clarke of the Richmond Sockeyes dropping gloves against Nanaimo Clipper Jack Piechutta, BCJHL standings, and a bench-clearing brawl in a Whalers–Sockeyes game.",
+    "correctedDescriptionLong": "A sports notes column in the November 10, 1987 Nanaimo Daily News covers several BCJHL items involving the Richmond Sockeyes. Sockeyes player Rob Clarke dropped his gloves against Nanaimo Clipper Jack Piechutta in a Friday BCJHL game, explaining he \"just got riled up\" after being hit on the head. BCJHL standings show the Sockeyes leading with an 11-8-1 record, the Clippers second at 10-6-1, and the Nanaimo Whalers third at 7-7-1 — the Whalers having just earned an impressive home win over Richmond on Saturday in a game marred by a bench-clearing brawl with a minute remaining.",
+    "correctedHeadline": "Notes, quotes and leftovers from the wonderful world of sports",
+    "correctedByline": "",
+    "notes": "The draft incorrectly labels Rob Clarke as 'captain' of the Sockeyes — Trevor Dickie is the known captain. The OCR does use the word 'captain' before Clarke's name, which may be an error in the original article or a loose use of the term; editor should note this discrepancy. Also, the draft omits the bench-clearing brawl detail from the Whalers–Sockeyes Saturday game, which is notable Sockeyes-relevant content.",
+    "_usage": {
+      "input_tokens": 2979,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 802,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

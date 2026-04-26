@@ -1,0 +1,34 @@
+{
+  "id": "scan-558421757",
+  "imageId": "558421757",
+  "date": "1987-05-07",
+  "paper": "Red Deer Advocate",
+  "page": "p17",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Draft says Richmond 'qualified for the semifinal against Pembroke Lumber Kings, scheduled for that evening' — the OCR says it was 'tonight's semifinal', not just that evening; this is a minor phrasing issue but more importantly the draft omits that Stan Czenczek scored the lone Richmond goal, which is a key Sockeyes-relevant fact.",
+      "Draft long description says Humboldt 'advanced to the Centennial Cup final' but omits mentioning the other tournament teams (Dartmouth Fuel Kids went 0-3, Lumber Kings 1-2), context present in the OCR.",
+      "Draft short description does not mention Czenczek's goal, which is the primary Sockeyes player detail in the article.",
+      "Draft long description does not mention Stan Czenczek scoring for Richmond."
+    ],
+    "correctedDescriptionShort": "Humboldt Broncos defeated Richmond Sockeyes 6-1 in Centennial Cup round-robin play, with Stan Czenczek scoring the lone Richmond goal.",
+    "correctedDescriptionLong": "Humboldt Broncos clinched a spot in the Centennial Cup final with a 6-1 round-robin victory over the Richmond Sockeyes in Humboldt, Saskatchewan on Wednesday. Bill McDougall and Garnett Kazuik each scored twice for Humboldt, which finished the round-robin undefeated at 3-0. Stan Czenczek scored the only goal for Richmond, who finished 2-1 and moved on to face the Pembroke Lumber Kings in the semifinal that same evening, with the final set for Saturday.",
+    "correctedHeadline": "Broncs in final",
+    "correctedByline": "",
+    "notes": "The headline is accurate. The key fix is adding Stan Czenczek's goal for Richmond, which is the primary Sockeyes player detail in the article and was missing from both draft descriptions.",
+    "_usage": {
+      "input_tokens": 2639,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 571,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

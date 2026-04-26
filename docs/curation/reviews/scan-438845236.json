@@ -1,0 +1,35 @@
+{
+  "id": "scan-438845236",
+  "imageId": "438845236",
+  "date": "1988-01-17",
+  "paper": "The Boston Globe",
+  "page": "p64",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Dave Tomlinson (Richmond Sockeyes alumni) scored and had an assist for BU — this is the Sockeyes-relevant content, but the draft does not flag his significance to the archive.",
+      "Draft says 'Mike Ketter' but OCR spells it 'Kelfer' in the box score (Ketter appears to be a misread — Kelfer scored twice, not once).",
+      "Draft says 'BU's Ian Wood, Mike Ketter, and Dave Tomlinson scored' — this omits Kelfer's second goal; BU actually had four scorers: Ian Wood, Mike Kelfer (two goals), and Dave Tomlinson.",
+      "Draft attributes only one goal to Tomlinson, which is correct, but misses that Tomlinson also had an assist on Ian Wood's opening goal.",
+      "Draft says 'Grant Paranica scoring twice for North Dakota' — this is correct, but the description focuses on the game recap rather than Tomlinson's specific contribution, which is the archival relevance."
+    ],
+    "correctedDescriptionShort": "Box score and game recap of BU's 4-2 win over North Dakota at Walter Brown Arena, featuring a goal and an assist by ex-Richmond Sockeyes player Dave Tomlinson.",
+    "correctedDescriptionLong": "Boston University defeated North Dakota 4-2 in a college hockey game at Walter Brown Arena on January 17, 1988. Former Richmond Sockeyes player Dave Tomlinson contributed a goal and an assist for BU: he assisted on Ian Wood's opening tally and scored the go-ahead goal at 19:14 of the second period by redirecting a shot past Sioux goalie Scott Brower. Mike Kelfer led BU with two goals, while Grant Paranica scored both North Dakota goals. Peter Fish made 34 saves for BU against Brower's 26.",
+    "correctedHeadline": "BU, 4-2 at Walter Brown Arena",
+    "correctedByline": "",
+    "notes": "Sockeyes relevance is Dave Tomlinson (North Vancouver, BC), who played for the 1987 Centennial Cup–winning Richmond Sockeyes before joining BU. The AI draft accurately identifies the game but misreads \"Kelfer\" as \"Ketter\" and understates Tomlinson's contribution (goal + assist). The headline is drawn directly from the box score header in the OCR.",
+    "_usage": {
+      "input_tokens": 2820,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 695,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

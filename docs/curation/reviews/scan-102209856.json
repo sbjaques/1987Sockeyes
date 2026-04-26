@@ -1,0 +1,35 @@
+{
+  "id": "scan-102209856",
+  "imageId": "102209856",
+  "date": "1996-06-15",
+  "paper": "The Cincinnati Enquirer",
+  "page": "p36",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft's headline and description omit the second major story on the page: that Cyclones coach Ron Smith is a candidate for the Toronto Maple Leafs head coaching job, which receives roughly equal column space in the OCR.",
+      "The headline in the draft ('Cyclones center Tomlinson signs with German team') is plausible but the OCR does not clearly show a single headline — the two stories appear to be side-by-side items, so the drafted headline is an editorial inference rather than confirmed OCR text.",
+      "The long description says Tomlinson 'sought compensation in the top three of the league' — more precisely, he wanted to be paid 'somewhere among the top three in the league' (~$140,000), which the draft captures adequately, but it omits that Mannheim also provides housing/benefits (OCR: 'Mannheim will also provide Tomlinson')—the sentence is cut off but implies additional compensation beyond salary.",
+      "The draft does not mention that Tomlinson played 31 games with the Winnipeg Jets of the NHL, which is relevant context in the article.",
+      "The byline 'Tim Pennington' is correctly identified as 'BY TIM PENNINGTON' but his credit is 'Enquirer contributor', not a staff writer — a minor but factual nuance."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "Tim Pennington",
+    "correctedDescriptionShort": "Ex-Sockeyes center Dave Tomlinson signs a one-year deal with Mannheim of Germany's Elite League after two seasons as Cincinnati Cyclones' leading scorer; a sidebar notes Cyclones coach Ron Smith is a candidate for the Toronto Maple Leafs head coaching job.",
+    "correctedDescriptionLong": "Cincinnati Cyclones center Dave Tomlinson, former Richmond Sockeyes player and the team's leading scorer for two seasons, signed a one-year contract with Mannheim of Germany's Elite League on June 15, 1996, for more than double his Cyclones salary believed to be just under $100,000. Tomlinson, 28, had sought around $140,000 but negotiations with Cincinnati broke down, prompting him to accept Mannheim's offer; Mannheim also provides additional benefits beyond salary. The article also notes that Tomlinson played 31 games with the Winnipeg Jets (NHL), and a sidebar reports that Cyclones coach Ron Smith is a leading candidate to replace Nick Beverley as head coach of the Toronto Maple Leafs.",
+    "notes": "The OCR page contains two distinct stories: (1) Tomlinson's signing with Mannheim, and (2) a sidebar on Cyclones coach Ron Smith being a Maple Leafs coaching candidate. The draft focused only on the Tomlinson story. No clear standalone headline is visible in the OCR for either piece; the drafted headline is an inference. The byline 'Tim Pennington' with credit 'Enquirer contributor' applies to both items. The Tomlinson sentence about what Mannheim provides is cut off in the OCR, so full additional compensation details are unknown.",
+    "_usage": {
+      "input_tokens": 2919,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 829,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

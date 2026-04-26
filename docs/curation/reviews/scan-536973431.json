@@ -1,0 +1,35 @@
+{
+  "id": "scan-536973431",
+  "imageId": "536973431",
+  "date": "1987-01-21",
+  "paper": "Langley Advance",
+  "page": "p13",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is AI-generated, not from OCR. The actual headline/lead is 'The Langley Eagles are hot on the trail of the Richmond Sockeyes - despite trading their top marksman to the Coastal Division leaders.' No standalone bold headline is present in the OCR.",
+      "Player's name is spelled 'Bryon Moller' on the Sockeyes roster and 'Bryan Moller' in the OCR — the draft uses 'Bryan Moller' which matches the OCR, but the roster spells it 'Bryon'. This is a minor inconsistency worth noting but OCR is source of truth for the article text.",
+      "The draft says the Eagles 'won three of its last four games' but the OCR says they won three of four games WITHOUT Moller, not that overall record is three of four — a subtle but meaningful distinction.",
+      "Defenceman's name in OCR is 'Philip Von •Stefenelli' (with a bullet artifact from OCR noise); draft renders it as 'Philip Von Stefenelli' which is acceptable and likely correct.",
+      "No byline is present in the OCR, which the draft correctly leaves blank. No correction needed there."
+    ],
+    "correctedDescriptionShort": "The Langley Eagles trail the Richmond Sockeyes by three points in the BCJHL Coastal Division standings despite having traded top scorer Bryan Moller to Richmond in exchange for defenceman Philip Von Stefenelli.",
+    "correctedDescriptionLong": "The Langley Eagles are three points behind the Richmond Sockeyes in the BCJHL Coastal Division playoff race, having won three of their last four games without top scorer Bryan Moller after trading him to Richmond. Eagles coach and general manager Muzz MacPherson defended the deal, conceding \"we gave them a lot of points\" by trading Moller but saying the team needed a defenceman who could move the puck well. In return, Langley received defenceman Philip Von Stefenelli from Richmond.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "No standalone headline appears in the OCR — the AI-drafted headline is a paraphrase of the article's opening sentence, not an actual headline. Cleared it. Also note: the Sockeyes roster spells the traded player as \"Bryon Moller\" but the OCR consistently uses \"Bryan Moller\"; the OCR is treated as source of truth for spelling here. The description has been corrected to accurately reflect that the three wins came without Moller specifically, not just generically in the last four games.",
+    "_usage": {
+      "input_tokens": 2637,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 711,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

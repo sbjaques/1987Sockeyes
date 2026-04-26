@@ -1,0 +1,33 @@
+{
+  "id": "scan-502033093",
+  "imageId": "502033093",
+  "date": "1987-05-10",
+  "paper": "The Province",
+  "page": "p90",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Jason Phillips' scoring is stated as '7 points' in the draft, but the OCR clearly says 'three goals and three assists' (6 points, consistent with the draft's parenthetical). More critically, Bill McDougall's scoring is described in the draft as '7 points' but the OCR says 'four goals and three assists' which is also 7 — however the draft says Phillips had '6 points' which matches the OCR (3+3=6). So the points tallies in the draft are internally consistent but the description of McDougall's scoring lead as 'tied... with 7 points' is correct per the OCR. The main factual error is that the draft describes the all-star team as 'selected before semifinal play' without noting this is from a longer article by Frank Luba about the Sockeyes vs. Broncos final matchup — the OCR contains two distinct pieces: the all-star blurb AND the start of a Luba article about the Sockeyes/Broncos final. The draft ignores the more substantive Sockeyes-relevant article content entirely.",
+      "The draft describes only the all-star item but the OCR's primary Sockeyes content is Frank Luba's article about the Richmond Sockeyes vs. Humboldt Broncos Centennial Cup final, calling both teams 'underdogs against each other.' The description should prioritize or at least acknowledge this main article.",
+      "Byline 'Frank Luba' in the draft is correct but is attached to the second (main) article about the final, not the all-star blurb, which appears to have no byline."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "Frank Luba",
+    "correctedDescriptionShort": "Frank Luba previews the Centennial Cup final between the Richmond Sockeyes and Humboldt Broncos, noting both clubs have been called evenly matched — and now find themselves mutual underdogs heading into the championship.",
+    "correctedDescriptionLong": "In a May 10, 1987 Sports Reporter column from Humboldt, SK, Frank Luba sets up the Centennial Cup final by observing that the Richmond Sockeyes and Humboldt Broncos have long been considered evenly matched, leaving both teams cast as underdogs against each other. The page also carries the Centennial Cup all-star selections announced before semifinal play: Humboldt's Bill McDougall (4G, 3A, tied for round-robin scoring lead), Rob Rice (defence), and Duncan Ryhorchuk (right wing); Richmond's Jason Phillips (3G, 3A, second in scoring) and Matt Hervey (defence); and Pembroke goaltender Grant Robb.",
+    "notes": "The OCR contains two items: (1) an all-star blurb (no byline) and (2) the opening of Frank Luba's pre-final feature on the Sockeyes vs. Broncos matchup. The AI draft focused entirely on the all-star item and missed the more substantive Luba article. Corrections prioritize the Luba article while retaining the all-star detail. No clear standalone headline is visible in the OCR for either piece.",
+    "_usage": {
+      "input_tokens": 2702,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 870,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scan-558335948",
+  "imageId": "558335948",
+  "date": "1987-04-15",
+  "paper": "Red Deer Advocate",
+  "page": "p21",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says Phillips' penalty shot was 'late in overtime' — the OCR says it was with 24 seconds left in overtime, and crucially it was NOT a penalty shot in the traditional sense: the article describes it as a penalty shot awarded after a Red Deer player intentionally dislodged the goal. The AI framing is close but subtly implies a typical penalty shot scenario rather than the unusual goal-dislodging call.",
+      "The headline 'Rustlers Hold Off Sockeyes in Overtime' does not appear in the OCR. The actual headline is not clearly extractable from the OCR as provided — no bold headline text is visible in the paragraphs.",
+      "The draft says the penalty shot was 'stopped by goaltender Ken Weiss, who made 46 saves' — this conflates two separate facts. Weiss stopped 46 shots overall (saves), and separately stopped the penalty shot. The draft's phrasing implies the 46 saves included or referred to the penalty shot stop, which is misleading.",
+      "The draft does not mention Orland Kurtenbach's quote, which is Sockeyes-relevant content in the OCR.",
+      "The draft short description says 'overtime' win at 7-5, but does not clarify it was an empty-net goal that sealed it (the Rustlers led by one in OT, then added an empty netter 14 seconds after the penalty shot was stopped). This is a minor but factual nuance.",
+      "Dixon Ward scored the overtime winner — this is correctly stated in the draft."
+    ],
+    "correctedDescriptionShort": "The Red Deer Rustlers defeated the Richmond Sockeyes 7-5 in overtime to take a 3-2 series lead in the Western Centennial Cup semifinal, with Jason Phillips' late penalty shot stopped by Ken Weiss and Dixon Ward scoring the overtime winner 59 seconds into the extra period.",
+    "correctedDescriptionLong": "The Red Deer Rustlers beat the Richmond Sockeyes 7-5 in overtime on April 14, 1987, taking a 3-2 lead in the best-of-seven Western Centennial Cup semifinal series. Dixon Ward scored the winner just 59 seconds into overtime, and the Rustlers sealed the game with an empty-net goal 14 seconds after Sockeyes forward Jason Phillips failed to convert a penalty shot — awarded after a Rustler player intentionally dislodged the goal — with 24 seconds left in OT. Goaltender Ken Weiss stopped 46 shots for Red Deer. Sockeyes GM-coach Orland Kurtenbach praised the refereeing in Game 5 while noting concerns about fan conduct in earlier games; Rustlers GM Graham Parsons credited Red Deer fans for heeding his appeal to stop throwing debris, after the CAHA had threatened to cancel or relocate the series.",
+    "correctedHeadline": "",
+    "correctedByline": "By Greg Meachem",
+    "notes": "No clear headline text is visible in the OCR paragraphs — the AI-drafted headline appears to be fabricated. The byline \"By GREG MEACHEM of The Advocate\" is confirmed in the OCR. The article covers Game 5 of the Western Centennial Cup semifinal (played April 14, published April 15). Note this is the Abbott Cup path (Western final), not yet the Centennial Cup itself — the Rustlers were advancing toward a Western final against Humboldt. Editor should confirm the exact game date (article says \"Tuesday\" which would be April 14, published April 15).",
+    "_usage": {
+      "input_tokens": 3505,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 942,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

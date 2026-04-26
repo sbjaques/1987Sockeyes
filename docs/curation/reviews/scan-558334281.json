@@ -1,0 +1,34 @@
+{
+  "id": "scan-558334281",
+  "imageId": "558334281",
+  "date": "1987-04-07",
+  "paper": "Red Deer Advocate",
+  "page": "p8",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is AI-invented — no headline is visible in the OCR text for this article. The draft headline does not appear in the source.",
+      "The article is datestamped April 7 1987 but describes preparation for *tonight's* opening game of the Western Canada Centennial Cup semifinal — this is the Abbott Cup (Western final) semifinal series against Red Deer Rustlers, NOT the Centennial Cup itself. The Centennial Cup is the national championship; the Western Canada Centennial Cup semifinal is a different stage (Abbott Cup path). The draft conflates these.",
+      "The coach's name is misspelled 'Kurtebach' in the OCR but correctly 'Kurtenbach' — the draft spells it correctly, which is fine, but the article context (Abbott Cup path vs. Centennial Cup) is mislabeled.",
+      "The long description says 'Centennial Cup semifinal' which is inaccurate — the OCR clearly calls it the 'Western Canada Centennial Cup semifinal,' which in context is the Abbott Cup / western playoff round, not the national Centennial Cup final stage."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "Greg Meachem",
+    "correctedDescriptionShort": "Coach Orland Kurtenbach discusses the Richmond Sockeyes' physical but disciplined style ahead of their Western Canada Centennial Cup semifinal series opener against the Red Deer Rustlers.",
+    "correctedDescriptionLong": "Writing from Richmond, BC, Red Deer Advocate reporter Greg Meachem profiles Sockeyes general manager-coach Orland Kurtenbach ahead of the opening game of the Western Canada Centennial Cup semifinal series against the Red Deer Rustlers on April 7, 1987. Kurtenbach, a former hard-nosed NHL player with stops in New York, Toronto, and Vancouver, says he values physical but clean hockey with strong puck movement, telling the reporter \"there's nothing wrong with good, tough hockey as long as it doesn't take away from the flow of the game.\" While acknowledging the BC-champion Sockeyes are \"fairly aggressive overall,\" Kurtenbach emphasizes that excessive rough play — \"goony stuff\" — has no place in his system.",
+    "notes": "No headline is visible in the OCR for this article — the AI-invented headline should be removed or left blank. Also note the article refers to the \"Western Canada Centennial Cup semifinal,\" which is the Abbott Cup western playoff path, not the national Centennial Cup final that the Sockeyes later won in May 1987. The draft incorrectly labels this a \"Centennial Cup semifinal\" without the \"Western Canada\" qualifier, which implies the national championship round. The OCR also cuts off mid-sentence (\"the B.C. champs are…\") suggesting additional column text was not captured.",
+    "_usage": {
+      "input_tokens": 2684,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 770,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "scan-1114414764",
+  "imageId": "1114414764",
+  "date": "1986-11-05",
+  "paper": "Saint John Times Globe",
+  "page": "p28",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR contains adjacent-column noise from two unrelated articles: a Red Sox World Series reference at the top, and a Kennebecasis Men's Darts league standings item at the bottom. The Sockeyes-relevant CP wire story \"Orland Kurtenbach Returns\" is clearly the correct target article and the draft accurately summarizes it. No byline is present (wire service credit is \"CP\" in the dateline, not a named author).",
+    "_usage": {
+      "input_tokens": 3184,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 264,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

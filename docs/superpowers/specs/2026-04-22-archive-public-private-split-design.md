@@ -149,8 +149,8 @@ Every media card shows `thumb` + `descriptionShort` + `date`. Private items addi
 
 ### Locked-lightbox CTA target
 
-- Initial: `mailto:sbjaques@yahoo.com?subject=1987%20Sockeyes%20archive%20access%20request`.
-- Future (Phase 2): replaced by the `/request-access` page.
+- Initial: `mailto:[REDACTED]?subject=1987%20Sockeyes%20archive%20access%20request`. (Removed entirely 2026-04-25 — see Privacy rules in CLAUDE.md.)
+- Future (Phase 2): replaced by the `/request-access` page. (Superseded — no contact CTA on the public site.)
 
 ### Private-build rendering
 

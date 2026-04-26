@@ -1,0 +1,35 @@
+{
+  "id": "scan-324456989",
+  "imageId": "324456989",
+  "date": "1987-02-09",
+  "paper": "Nanaimo Daily News",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline in the OCR is 'Clippers shade Falcons, bow to Sockeyes' — this is the main headline for the combined article covering both the Clippers vs. Falcons win and the Clippers vs. Sockeyes loss. The draft uses 'Clippers 2, Sockeyes 8' which is a subheading within the article, not the main headline.",
+      "The byline in the OCR reads 'By MICHAEL RHODET For Daily' — 'Rhodet' may be a garbled OCR rendering of a surname (possibly 'Rhoades' or similar), but the draft spells it 'Michael Rhodet' which matches the OCR literally and is acceptable, though flagged.",
+      "The short description omits context that this is part of a dual-game report also covering Nanaimo's 4-3 OT win over Abbotsford Falcons. The Sockeyes coverage is the primary Sockeyes-relevant content but the article's framing covers both results.",
+      "The long description does not mention Sockeyes coach Orland Kurtenbach's post-game quote, or that Jim Gunn's hit on Flaherty started the third-period brawl — both are in the OCR and Sockeyes-relevant details.",
+      "Score in the draft's short description says '8-4' but OCR clearly states the Clippers 'were 8-2 losers in Richmond' and the subhead reads 'Clippers 2, Sockeyes 8' — the final score was 8-2, not 8-4. Nanaimo scored 2 goals (Parkes and Finner), not 4."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeated Nanaimo Clippers 8-2 in BCJHL play, outshooting them 59-22, in a report that also covers Nanaimo's 4-3 OT win over Abbotsford Falcons.",
+    "correctedDescriptionLong": "The Richmond Sockeyes routed the Nanaimo Clippers 8-2 in BCJHL action, peppering the Nanaimo goaltending tandem with 59 shots while Frank Romeo stopped 22 in return. Matt Hervey, Dave Tomlinson, and Paul Rutherford each scored twice for Richmond, with singles from Mike McCormick and Russ Goglin; Parkes (36th) and Finner (23rd) replied for Nanaimo. A late third-period brawl, sparked when Sockeyes defenceman Jim Gunn ran Nanaimo goalie Flaherty, resulted in six ejections from each team. Coach Orland Kurtenbach noted the team was getting healthy: \"We played well. We're starting to get players back from injuries and suspensions and we're starting to come together.\" The same article also reports Nanaimo's 4-3 overtime road win over Abbotsford Falcons, ending a 14-game winless streak.",
+    "correctedHeadline": "Clippers shade Falcons, bow to Sockeyes",
+    "correctedByline": "By Michael Rhodet",
+    "notes": "The draft's score of 8-4 is a clear factual error — the OCR and subheading both confirm the final was 8-2. The main headline covers both games in the article; 'Clippers 2, Sockeyes 8' is only a subhead. The byline surname 'Rhodet' is taken literally from OCR and may be a garbled scan of a real name — editor may wish to verify against the original print.",
+    "_usage": {
+      "input_tokens": 3771,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 984,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "scan-494903084",
+  "imageId": "494903084",
+  "date": "1986-11-04",
+  "paper": "The Vancouver Sun",
+  "page": "p17",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Byline attribution is partially wrong: the OCR shows 'STEVE BOSCH' as the photo credit immediately before the headline, and 'By ARV OLSON' as the article byline. The draft lists only 'ARV OLSON' as the byline, which is correct for the writer, but the photo credit STEVE BOSCH should be noted.",
+      "The draft says Kurtenbach was 'the first member of the NHL Canucks in 1970' but the OCR specifies he 'became the first member of the NHL Canucks in 1970, captained and coached the team' — the draft omits that he also captained and coached the Canucks, which is a meaningful omission for context.",
+      "The draft describes Kurtenbach's insurance business as being in New Westminster, which matches the OCR — this is correct.",
+      "The draft describes his golf driving range as being in Surrey, which matches the OCR — this is correct.",
+      "The draft's short description is broadly accurate but could better reflect the full scope of the article including his Canucks history."
+    ],
+    "correctedDescriptionShort": "Profile of Richmond Sockeyes coach Orland Kurtenbach, first Canuck in 1970, balancing coaching with his New Westminster insurance business and Surrey golf driving range.",
+    "correctedDescriptionLong": "Orland Kurtenbach, the first member of the NHL Canucks in 1970 who also captained and coached the franchise, juggles three major commitments: coaching the Richmond Sockeyes junior team, building his insurance business in New Westminster, and developing a golf driving range in Surrey. The 50-year-old, only five pounds over his playing weight, works from 8 a.m. until midnight most days. He was recruited by Sockeyes owner Bruce Taylor in July, initially declining due to his business obligations, but ultimately accepted having missed involvement in the game. His assistant coach Mike O'Brien also appears in the piece.",
+    "correctedHeadline": "ORLAND KURTENBACH: putting in 16-hour days",
+    "correctedByline": "By ARV OLSON",
+    "notes": "The photo credit 'STEVE BOSCH' appears in the OCR immediately before the headline and caption, separate from the article byline 'By ARV OLSON'. The draft's byline of ARV OLSON is correct for the writer. Minor omission corrected: OCR confirms Kurtenbach also captained and coached the Canucks, not just was their first member.",
+    "_usage": {
+      "input_tokens": 2796,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 696,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

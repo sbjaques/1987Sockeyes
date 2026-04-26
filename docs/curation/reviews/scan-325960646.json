@@ -1,0 +1,34 @@
+{
+  "id": "scan-325960646",
+  "imageId": "325960646",
+  "date": "1988-03-10",
+  "paper": "Nanaimo Daily News",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline in the OCR is a two-story headline: 'Lakers oust Penticton' is the primary/dominant headline for the Vernon story, while 'SOCKEYES 12 FLYERS 4' is the sub-headline for the Sockeyes section. The AI draft combines both as a single headline, but the dominant bold headline on the page is 'Lakers oust Penticton' with 'SOCKEYES 12 FLYERS 4' as a secondary header — both should be represented accurately.",
+      "The byline 'By The Canadian Press' belongs to the Vernon Lakers story ('Lakers oust Penticton'), not to the Sockeyes section, which has no separate byline.",
+      "The short and long descriptions are factually accurate about the Sockeyes content, but the short description should note this is a 1988 BCJHL playoff (not 1987), and the descriptions focus only on the Sockeyes game while ignoring the page's primary article (Vernon Lakers). Since there IS Sockeyes content, the descriptions should prioritize that content — they are otherwise acceptable.",
+      "The long description omits the context that Vernon will face the winner of the Richmond-Delta series, which is a relevant Sockeyes connection in the Lakers article."
+    ],
+    "correctedHeadline": "SOCKEYES 12 FLYERS 4",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Richmond Sockeyes blasted visiting Delta Flyers 12-4 to take a 2-0 lead in their best-of-seven 1988 BCJHL playoff semifinal series.",
+    "correctedDescriptionLong": "Richmond Sockeyes dominated the visiting Delta Flyers 12-4 on Wednesday to claim a 2-0 lead in their best-of-seven BCJHL semifinal series. Barry Kress and Marty Comeau each scored three goals for Richmond, with additional tallies from Jason Talo, Rob Clarke, Kirk Phare, Dan Walton, Garth Lamb, and Tony Bobbitt. The teams accumulated 450 minutes in penalties, including 99 minutes assessed after a major fight in the second period, and Richmond outshot Delta 55-24. The page also carries a Canadian Press report on Vernon Lakers' 5-4 win over Penticton Knights to sweep their semifinal 4-0; Vernon will face the winner of the Richmond-Delta series.",
+    "notes": "The page contains two hockey articles. The dominant article (with the 'By The Canadian Press' byline) is about Vernon Lakers ousting Penticton Knights; the Sockeyes game appears as a secondary item under the bold sub-header 'SOCKEYES 12 FLYERS 4' with no separate byline. The AI draft incorrectly attributed the CP byline to the Sockeyes section. The headline has been corrected to the Sockeyes-specific sub-header since that is the Sockeyes-relevant content. This is a 1988 playoff article, post-dating the 1987 championship season.",
+    "_usage": {
+      "input_tokens": 2914,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 830,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

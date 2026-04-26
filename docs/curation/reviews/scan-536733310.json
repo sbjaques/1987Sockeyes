@@ -1,0 +1,38 @@
+{
+  "id": "scan-536733310",
+  "imageId": "536733310",
+  "date": "1987-09-19",
+  "paper": "The Abbotsford News",
+  "page": "p24",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is listed as UNKNOWN but the OCR contains no standalone bold headline for this article — the section header 'Richmond Sockeyes' and the framing phrase are the closest thing, but the actual article appears to be a league preview column. No clear formal headline is present in the OCR.",
+      "The byline source is partially wrong: the OCR clearly states 'by Russ Ullyot The Chilliwack Progress', meaning this is a Chilliwack Progress column reprinted in The Abbotsford News — the draft omits the paper attribution for the byline.",
+      "The long description says 'won the Centennial Cup in spring 1987' without noting it was emblematic of Tier Two Junior A supremacy in Canada — minor omission but acceptable.",
+      "The long description says Clarke had '65 goals, 35 assists' — correct per OCR.",
+      "The long description misspells 'Jason Tallo' as 'Jason Tallo' — actually the OCR uses 'Jason Tallo' which matches, but the short description spells it 'Jason Tallo' — consistent, no issue.",
+      "The long description does not mention that Pencer posted a 4.20 GAA while sharing netminding with Frank Romeo, which is a notable Sockeyes-relevant detail worth including.",
+      "The short description says 'only four players return' which is accurate, but the long description adds the important nuance that none of the four returnees play defence — this is worth retaining.",
+      "The byline in the draft is listed as just 'Russ Ullyot' but should be 'Russ Ullyot, The Chilliwack Progress' to reflect the syndicated/reprinted source noted in the OCR."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "Russ Ullyot, The Chilliwack Progress",
+    "correctedDescriptionShort": "Preview of the Richmond Sockeyes' 1987-88 BCJHL season, highlighting their Centennial Cup title, returning players including goalie Glenn Pencer and scorer Rob Clarke, and coach Orland Kurtenbach's recruitment approach.",
+    "correctedDescriptionLong": "A Chilliwack Progress column reprinted in The Abbotsford News previews the 1987-88 BCJHL season with a focus on the Richmond Sockeyes, who won the Centennial Cup in spring 1987. Only four players return from the championship roster — none on defence — including five-year veteran goalie Glenn Pencer (4.20 GAA, shared duties with Frank Romeo), leading scorer Rob Clarke (65 goals, 35 assists, third in Coast Division), centre Jason Tallo, and right winger Tony Bobbit. Despite the thin returning core, coach Orland Kurtenbach's strong recruiting record is cited as the reason the Sockeyes are expected to remain competitive in the Coastal Division.",
+    "notes": "No formal headline appears in the OCR for the Sockeyes section; it is a subsection of a broader BCJHL league preview. Byline corrected to include the originating paper (The Chilliwack Progress) as stated in the OCR. The corrected long description adds the Frank Romeo / GAA detail and the no-returning-defencemen nuance.",
+    "_usage": {
+      "input_tokens": 2978,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 877,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

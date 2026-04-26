@@ -1,0 +1,35 @@
+{
+  "id": "scan-688061732",
+  "imageId": "688061732",
+  "date": "1987-04-08",
+  "paper": "Quesnel Cariboo Observer",
+  "page": "C1",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Draft mentions 'Czenczek' as a goal scorer, but the OCR shows only two goals: period 3 scored by Claringbull (assisted by Phillips and Kozak), and period 4 scored by Phillips (assisted by Hardy and Czenczek). Czenczek had an assist, not a goal.",
+      "Draft does not mention that Czenczek had an assist on the Phillips goal, nor that Hardy also had an assist.",
+      "Draft omits Kozak's assist on the Claringbull goal.",
+      "The draft's short description says 'goal scorers' include 'Czenczek', which is inaccurate — Czenczek recorded an assist, not a goal.",
+      "The OCR appears to show two periods of a box score (periods 3 and 4), not the full game summary."
+    ],
+    "correctedDescriptionShort": "Partial box score from a Richmond Sockeyes vs. Quesnel game, showing goals by Claringbull and Phillips and extensive penalty details for both sides.",
+    "correctedDescriptionLong": "Two-period box score excerpt (periods 3 and 4) from a Sockeyes game against Quesnel, published in the Quesnel Cariboo Observer. Goals recorded for Richmond include Claringbull (assisted by Phillips and Kozak) and Phillips (assisted by Hardy and Czenczek). Numerous penalties were assessed to both teams across the two periods, including charging, high sticking, boarding, roughing, elbowing, slashing, interference, crosschecking, and unsportsmanlike conduct infractions involving Sockeyes players Kozak, Dickie, McCormick, Rutledge, Jaques, Claringbull, Czenczek, Gunn, and Moller.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR contains only periods 3 and 4 of the box score — the full game context (date, opponent, final score) is not visible in the excerpt. Czenczek had an assist (not a goal) on the period-4 Phillips goal; the draft incorrectly credited him as a scorer.",
+    "_usage": {
+      "input_tokens": 2775,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 631,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

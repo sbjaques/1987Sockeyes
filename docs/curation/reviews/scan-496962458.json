@@ -1,0 +1,33 @@
+{
+  "id": "scan-496962458",
+  "imageId": "496962458",
+  "date": "1987-05-11",
+  "paper": "The Leader-Post",
+  "page": "p20",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Date is wrong in the long description: the OCR article is dated May 11, 1987 (publication date), but the Centennial Cup final was played Saturday night May 9, 1987, not May 11. The draft says 'May 11, 1987' for the game itself.",
+      "The headline in the draft ('Richmond Sockeyes Win Centennial Cup') does not appear in the OCR — the article has no clear headline visible, only a dateline 'HUMBOLDT'. The drafted headline should be flagged as fabricated.",
+      "The long description says Rutherford scored 'the winning goal in the third' which is accurate per the OCR, but the draft omits this specific detail about the winning goal while implying Rutherford merely 'also scored', which slightly misrepresents his contribution."
+    ],
+    "correctedDescriptionShort": "Jason Phillips scored three goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-2 to win the Centennial Cup junior-A hockey championship, with Frank Romeo stopping 46 shots and earning MVP honours.",
+    "correctedDescriptionLong": "The Richmond Sockeyes won the Centennial Cup junior-A hockey championship by defeating the Humboldt Broncos 5-2, with Jason Phillips leading the offence with three goals. Goaltender Frank Romeo was the cornerstone of the victory, turning aside 46 of 48 Humboldt shots while the Sockeyes managed only 23, and was named both tournament and final-game MVP. Paul Rutherford scored the third-period winner and Dave Tomlinson also scored, as Richmond won before a standing-room crowd of 2,400 in Humboldt, Saskatchewan. Broncos general manager and coach Bernie Lynch credited Richmond's aggressive play, calling them \"deserving champions.\"",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR article has no visible headline — only a dateline (\"HUMBOLDT\"). The AI-fabricated headline \"Richmond Sockeyes Win Centennial Cup\" should be removed. Also, the game was played Saturday night (May 9, 1987); May 11 is the newspaper publication date, not the game date — the long description must not conflate the two. The short description is accurate but the long description needed these corrections.",
+    "_usage": {
+      "input_tokens": 2729,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 659,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

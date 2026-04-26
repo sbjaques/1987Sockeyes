@@ -1,0 +1,36 @@
+{
+  "id": "scan-536570359",
+  "imageId": "536570359",
+  "date": "1987-04-11",
+  "paper": "The Abbotsford News",
+  "page": "p34",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "League Final record is wrong in the draft: Richmond went 5–0 in a best-of series, not a 5–0 sweep described as such — more importantly the draft says 'sweeping the league final 5–0 against Kelowna Packers' which is accurate on wins but omits that the series record is confirmed by the standings table; minor phrasing issue.",
+      "The draft omits Brian Kozak (spelled 'Kozack' in OCR) from the top scorers list, who is a Sockeyes player and appears in the OCR.",
+      "The draft omits Pat Mangold (Kelowna) and Brent Mowery (Kelowna) from the top scorers list — while they are opponents, their omission makes the summary incomplete for the stats table.",
+      "Richmond's quarterfinal record was 4–0 (not just noted as 'perfect 4–0'), which the draft correctly states, but the semifinals record was also 4–0, not a generic '4–0 record' — the draft conflates semifinals and quarterfinals phrasing.",
+      "The headline in the OCR is 'B.C. Junior Hockey League final statistics: Playoffs' — this matches the draft headline, so no correction needed there.",
+      "The byline is correctly left empty — no byline appears in the OCR."
+    ],
+    "correctedDescriptionShort": "B.C. Junior Hockey League 1987 playoff final statistics, showing Richmond Sockeyes going undefeated through quarterfinals, semifinals, and the league final against Kelowna Packers, with top scorers including Dean Rutledge, Dave Tomlinson, Jason Phillips, and Brian Kozak of Richmond.",
+    "correctedDescriptionLong": "The Abbotsford News published the B.C. Junior Hockey League 1987 final playoff statistics on April 11, 1987. The Richmond Sockeyes went undefeated through all three rounds: 4–0 in the quarterfinals (over Nanaimo Clippers), 4–0 in the semifinals (over Delta Flyers), and 5–0 in the league final over the Kelowna Packers. Top Sockeyes scorers were Jason Phillips (20 pts in 13 games), Dean Rutledge and Dave Tomlinson (21 pts each), and Brian Kozak (19 pts); Kerry Russell of Kelowna led all scorers with 26 points.",
+    "correctedHeadline": "B.C. Junior Hockey League final statistics: Playoffs",
+    "correctedByline": "",
+    "notes": "Brian Kozak appears in OCR as \"Kozack\" — corrected to known roster spelling \"Kozak\". The draft omitted him entirely despite being a key Sockeyes scorer in the table. All other stats cross-check cleanly against the OCR.",
+    "_usage": {
+      "input_tokens": 2849,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 782,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

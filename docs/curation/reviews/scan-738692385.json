@@ -1,0 +1,36 @@
+{
+  "id": "scan-738692385",
+  "imageId": "738692385",
+  "date": "1987-01-26",
+  "paper": "Fort McMurray Today",
+  "page": "p6",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The drafted headline 'Oil Barons 7, Hawks 3' is a scoreline that appears mid-OCR as a section header, not clearly the article's headline — the OCR is truncated at the top so no true headline is visible; this is uncertain but the score label is a reasonable candidate.",
+      "The draft describes only one game (Sunday's hat-trick game), but the OCR covers TWO games: a Sunday game (7-0 win, hat-trick by Hendry) and a Saturday game (7-3 win over Hobbema with Hendry scoring twice). The final score of 7-3 in the draft is actually the SATURDAY game result; the Sunday game ended 7-0 according to the OCR ('put Fort McMurray up 7-0').",
+      "The short description says 'hat-trick in debut game' — but per the OCR, Sunday was not explicitly the debut; Hendry had already played Saturday (scoring twice). The hat-trick was in Sunday's game, not necessarily the debut.",
+      "The long description conflates the two games: '7-3 victory' and 'hat-trick' are from different games. The 7-3 was Saturday; the hat-trick (and apparent 7-0 final) was Sunday.",
+      "The long description says Hendry 'led Fort McMurray to a 7-3 victory' — but per the OCR the 7-3 was Saturday's game where Hendry scored twice, not a hat-trick.",
+      "No byline is visible in the OCR, which is consistent with the draft leaving it blank — that part is fine."
+    ],
+    "correctedDescriptionShort": "Fort McMurray Oil Barons acquired left-winger Hendry from the Richmond Sockeyes (in a trade for Dean Rutledge), and in his two first games he scored twice in a Saturday 7-3 win and added a hat-trick in Sunday's game over the Hobbema Hawks.",
+    "correctedDescriptionLong": "The Fort McMurray Oil Barons acquired left-winger Hendry from the Richmond Sockeyes in a deal for Dean Rutledge, and he made an immediate impact. In his first game on Saturday he scored twice in a 7-3 victory over the Hobbema Hawks, then followed up on Sunday by completing a hat-trick — including a backhand over the goalie for the final goal — in another Oil Barons win (leading 7-0 per the article). The Terrace, B.C. native, who had attended the NHL Hartford Whalers training camp the previous fall, impressed Oil Barons coach and GM Ivan Prediger with his play and hockey sense.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR is missing the top of the article (headline, byline, and article opening) — it begins mid-paragraph. The draft's headline of \"Oil Barons 7, Hawks 3\" appears to be a mid-text scoreline subhead rather than the article's true headline. The draft also incorrectly describes only one game and attributes the 7-3 score to the hat-trick game; in fact the OCR covers two separate games (Saturday 7-3 and Sunday ending 7-0). Editor should check the full scan image to confirm the actual headline and game details.",
+    "_usage": {
+      "input_tokens": 3144,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 900,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}
