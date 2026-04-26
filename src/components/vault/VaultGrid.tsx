@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import type { MediaItem } from '../../types/media';
 import { useMediaFilters } from '../../hooks/useMediaFilters';
 import { useCommentCounts } from '../../hooks/useCommentCounts';
@@ -6,7 +6,7 @@ import { MediaCard } from './MediaCard';
 import { MediaLightbox } from './MediaLightbox';
 import { VaultFilters, type AccessFilter } from './VaultFilters';
 
-export function VaultGrid({ items }: { items: MediaItem[] }) {
+export function VaultGrid({ items, focusId }: { items: MediaItem[]; focusId?: string }) {
   const { byTarget: commentCounts } = useCommentCounts();
   const sorted = useMemo(
     () => [...items].sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999')),
@@ -26,6 +26,13 @@ export function VaultGrid({ items }: { items: MediaItem[] }) {
   const openable = accessFiltered.filter(
     m => m.access === 'private' || (m.type !== 'program' && m.type !== 'video' && m.type !== 'document')
   );
+
+  // Auto-open the lightbox when a ?focus=<id> param is present on mount.
+  useEffect(() => {
+    if (!focusId) return;
+    const i = openable.findIndex(x => x.id === focusId);
+    if (i >= 0) setOpenIndex(i);
+  }, [focusId, openable]);
 
   const handleOpen = (item: MediaItem) => {
     const i = openable.findIndex(x => x.id === item.id);
