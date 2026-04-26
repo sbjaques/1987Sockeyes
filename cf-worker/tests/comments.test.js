@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { env, SELF } from 'cloudflare:test';
 import * as access from '../lib/access.js';
-import { readCounts, listComments } from '../lib/kv.js';
+import { readCounts, listComments, putComment, applyStatusChange, getAnnotation, recountAll } from '../lib/kv.js';
 
 beforeEach(async () => {
   vi.spyOn(access, 'authenticate').mockImplementation(async (request) => {
@@ -115,5 +115,82 @@ describe('POST /api/comments — email side effect', () => {
     const all = await listComments(env, { limit: 10 });
     expect(all.comments[0].emailNotified).toBe(false);
     expect(all.comments[0].emailError).toMatch(/500/);
+  });
+});
+
+describe('GET /api/comments (admin-only list)', () => {
+  it('rejects 403 for non-admin', async () => {
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/comments', {
+      headers: { 'x-test-email': 'cousin@example.com' },
+    });
+    expect(res.status).toBe(403);
+  });
+
+  it('returns paginated list for admin', async () => {
+    for (let i = 0; i < 25; i++) {
+      await putComment(env, {
+        id: `id-${i}`, target: 'global', body: `b${i}`,
+        submitterEmail: 'a@b.test', status: 'pending', submittedAt: Date.now() + i,
+      });
+    }
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/comments?status=pending', {
+      headers: { 'x-test-email': 'admin@example.com' },
+    });
+    expect(res.status).toBe(200);
+    const body = await res.json();
+    expect(body.comments.length).toBe(20);
+    expect(body.cursor).toBeTruthy();
+    const page2 = await SELF.fetch(`http://archive.87sockeyes.win/api/comments?status=pending&cursor=${encodeURIComponent(body.cursor)}`, {
+      headers: { 'x-test-email': 'admin@example.com' },
+    });
+    const p2 = await page2.json();
+    expect(p2.comments.length).toBe(5);
+  });
+});
+
+describe('POST /api/comments/:id/status', () => {
+  it('flips status, updates counts, sets adminNote', async () => {
+    await putComment(env, {
+      id: 'flip-1', target: 'global', body: 'x',
+      submitterEmail: 'a@b.test', status: 'pending', submittedAt: Date.now(),
+    });
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/comments/flip-1/status', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-test-email': 'admin@example.com', Origin: 'https://archive.87sockeyes.win' },
+      body: JSON.stringify({ status: 'applied', adminNote: 'merged into bio' }),
+    });
+    expect(res.status).toBe(200);
+    const updated = JSON.parse(await env.SOCKEYES_COMMENTS.get('comment:flip-1'));
+    expect(updated.status).toBe('applied');
+    expect(updated.adminNote).toBe('merged into bio');
+  });
+});
+
+describe('POST /api/annotations/:email', () => {
+  it('admin can set annotation', async () => {
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/annotations/cousin%40example.com', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-test-email': 'admin@example.com', Origin: 'https://archive.87sockeyes.win' },
+      body: JSON.stringify({ label: 'Brian Kozak\'s son' }),
+    });
+    expect(res.status).toBe(200);
+    expect((await getAnnotation(env, 'cousin@example.com')).label).toBe("Brian Kozak's son");
+  });
+});
+
+describe('POST /api/admin/recount', () => {
+  it('recomputes counts from scratch', async () => {
+    await putComment(env, {
+      id: 'rc-1', target: 'media:s1', body: 'x',
+      submitterEmail: 'a@b.test', status: 'applied', submittedAt: Date.now(),
+    });
+    const res = await SELF.fetch('http://archive.87sockeyes.win/api/admin/recount', {
+      method: 'POST',
+      headers: { 'x-test-email': 'admin@example.com', Origin: 'https://archive.87sockeyes.win' },
+    });
+    expect(res.status).toBe(200);
+    const counts = await res.json();
+    expect(counts.byStatus.applied).toBe(1);
+    expect(counts.byTarget['media:s1']).toBe(1);
   });
 });
