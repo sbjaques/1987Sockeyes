@@ -1,7 +1,8 @@
 import type { MediaItem } from '../../types/media';
 import { BUILD_MODE } from '../../lib/buildMode';
+import { CommentIcon } from '../comments/CommentIcon';
 
-export function MediaCard({ item, onOpen }: { item: MediaItem; onOpen: (m: MediaItem) => void }) {
+export function MediaCard({ item, onOpen, commentCount }: { item: MediaItem; onOpen: (m: MediaItem) => void; commentCount?: number }) {
   const isDoc = item.type === 'program' || item.type === 'document' || item.type === 'video';
   const filename = item.url?.split('/').pop() ?? 'download';
   const handleDownload = (e: React.MouseEvent) => e.stopPropagation();
@@ -61,6 +62,13 @@ export function MediaCard({ item, onOpen }: { item: MediaItem; onOpen: (m: Media
           )}
         </div>
       </button>
+      {BUILD_MODE === 'private' && (
+        <CommentIcon
+          target={`media:${item.id}`}
+          targetLabel={`${item.attribution?.paper ?? item.type}${item.date ? ' · ' + item.date : ''}`}
+          count={commentCount}
+        />
+      )}
       {item.url && (
         <a
           href={item.url}
