@@ -1,6 +1,14 @@
 // All /api/* route handlers. Stubs are filled in by Tasks 9, 10, 18, 20, 21.
 import { authenticate, requireAdmin } from './lib/access.js';
-import { getAnnotation } from './lib/kv.js';
+import { requireOrigin, ALLOWED_ORIGINS } from './lib/csrf.js';
+import { validateCommentBody } from './lib/schema.js';
+import {
+  getAnnotation, putAnnotation, putComment,
+  recordNewComment, getRateWindow, recordRateHit, addSubmitter,
+} from './lib/kv.js';
+
+const RATE_HOUR = 10;
+const RATE_DAY  = 50;
 
 export async function handleMe(request, env) {
   const auth = await authenticate(request, env);
@@ -15,8 +23,74 @@ export async function handleMe(request, env) {
 }
 
 export async function handleCreateComment(request, env) {
-  return new Response('not implemented', { status: 501 });
+  const csrf = requireOrigin(request, ALLOWED_ORIGINS);
+  if (!csrf.ok) return csrf.response;
+
+  const auth = await authenticate(request, env);
+  if (!auth.ok) return auth.response;
+  const submitterEmail = auth.payload.email;
+
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return Response.json({ error: 'invalid json' }, { status: 400 });
+  }
+
+  const v = validateCommentBody(body);
+  if (!v.ok) {
+    return Response.json({ error: 'schema', details: v.errors }, { status: 400 });
+  }
+
+  // Reject control characters (except \t \r \n) and null bytes.
+  if (/[\x00-\x08\x0B\x0C\x0E-\x1F]/.test(body.body)) {
+    return Response.json({ error: 'control characters not allowed' }, { status: 400 });
+  }
+
+  // Rate limit
+  const now = Date.now();
+  const window = await getRateWindow(env, submitterEmail, now);
+  if (window.hour.length >= RATE_HOUR || window.day.length >= RATE_DAY) {
+    const oldestHour = Math.min(...window.hour);
+    const retryAfter = Math.max(1, Math.ceil((oldestHour + 60 * 60 * 1000 - now) / 1000));
+    return new Response(JSON.stringify({
+      error: 'rate_limited',
+      limit: window.hour.length >= RATE_HOUR ? '10/hour' : '50/day',
+      retryAfterSeconds: retryAfter,
+    }), {
+      status: 429,
+      headers: { 'content-type': 'application/json', 'retry-after': String(retryAfter) },
+    });
+  }
+
+  const id = crypto.randomUUID();
+  const comment = {
+    id,
+    target: body.target,
+    body: body.body.trim(),
+    submitterEmail,
+    submitterFirstAnnotation: body.firstAnnotation,
+    status: 'pending',
+    submittedAt: now,
+    emailNotified: false,
+  };
+
+  await putComment(env, comment);
+  await recordRateHit(env, submitterEmail, now);
+  await recordNewComment(env, body.target);
+  await addSubmitter(env, submitterEmail);
+
+  // Write-once annotation seed
+  if (body.firstAnnotation) {
+    const existing = await getAnnotation(env, submitterEmail);
+    if (!existing) {
+      await putAnnotation(env, submitterEmail, { label: body.firstAnnotation, updatedAt: now });
+    }
+  }
+
+  return Response.json({ id, submittedAt: now }, { status: 201 });
 }
+
 export async function handleCommentCounts(request, env) {
   return new Response('not implemented', { status: 501 });
 }
