@@ -99,11 +99,7 @@ wrangler secret put RESEND_API_KEY      # transactional email API key
 
 These never enter the repo, the build output, or any HTTP response. They live encrypted in Cloudflare's Worker env, read at runtime only.
 
-**Default service: Resend.** Free tier (3000 emails/month) is plenty. The sender becomes `noreply@87sockeyes.win`; setup adds one DKIM TXT record to the existing CF DNS zone.
-
-**Alternative if the main `1987Sockeyes` GitHub repo is private:** Cloudflare's native `send_email` binding via Email Workers. Simpler, one less external service, but requires `destination_address` in `wrangler.toml` (committed to the repo). Only acceptable if the repo is private. Fallback if Resend setup is undesired and repo is private.
-
-**Open question — please confirm:** is `github.com/sbjaques/1987Sockeyes` public or private?
+**Service: Resend.** Free tier (3000 emails/month) is more than enough. Sender is `noreply@87sockeyes.win`; setup adds one DKIM TXT record to the existing CF DNS zone for `87sockeyes.win`. Resend was chosen over Cloudflare's native `send_email` binding because the binding requires `destination_address` in `wrangler.toml` (committed to the repo and preserved in Git history forever). The privacy rule covers commit history regardless of current repo visibility, so the Resend path — destination as a Wrangler secret — is the durable choice.
 
 ## Form UX
 
@@ -178,12 +174,8 @@ Suggested decomposition for the implementation plan (next skill, `writing-plans`
 1. **Worker + KV foundation** — extend `cf-worker/archive-media-resolver.js` with `/api/comments` POST + GET, `/api/comments/:id/status` POST, `/api/annotations/:email` POST. Bind KV namespace. Add JWT email-claim admin check. Wrangler secrets for notification.
 2. **Comment submission UI** — modal component, three trigger surfaces (header / card / lightbox), first-submission detection.
 3. **Admin inbox UI** — `/admin/inbox` route, tabs, filters, triage actions, annotation editor. Header badge.
-4. **Notifications** — Resend integration (or CF native if repo is private).
+4. **Notifications** — Resend integration. Sign up, add the DKIM TXT record to the `87sockeyes.win` zone, store API key + destination email as Wrangler secrets, wire the `POST /api/comments` handler to fire a one-line "new comment from X about Y" email.
 5. **Tests + E2E walkthrough** — Vitest unit tests, manual smoke flow.
-
-## Open questions before implementation
-
-1. **Repo visibility:** is `github.com/sbjaques/1987Sockeyes` public or private? Determines Resend (public) vs CF native `send_email` binding (private).
 
 ## Future / out of scope (tracked here, not built)
 
