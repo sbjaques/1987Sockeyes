@@ -12,8 +12,8 @@ binding = "SOCKEYES_COMMENTS"
 # obtained by running:
 #   wrangler kv:namespace create SOCKEYES_COMMENTS
 #   wrangler kv:namespace create SOCKEYES_COMMENTS --preview
-id = "REPLACE_WITH_PRODUCTION_KV_NAMESPACE_ID"
-preview_id = "REPLACE_WITH_PREVIEW_KV_NAMESPACE_ID"
+id = "45eaa61c64f244cfacfee81aff09ff60"
+preview_id = "177af83c3280428ba58b6776c8ed98c5"
 
 # Cloudflare Access JWT verification (defense in depth).
 # Both values are public identifiers — safe to commit.
