@@ -11,6 +11,7 @@ import VaultPage from './pages/VaultPage';
 import CupPage from './pages/CupPage';
 import PlayerProfile from './pages/PlayerProfile';
 import NotFound from './pages/NotFound';
+import { AdminInboxPage } from './pages/AdminInboxPage';
 import { BUILD_MODE } from './lib/buildMode';
 
 export default function App() {
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/timeline/:cup"            element={<CupPage />} />
             <Route path="/banner-night"             element={<Navigate to="/hall-of-fame" replace />} />
             <Route path="/player/:id"               element={<PlayerProfile />} />
+            {BUILD_MODE === 'private' && <Route path="/admin/inbox" element={<AdminInboxPage />} />}
             <Route path="*"                         element={<NotFound />} />
           </Routes>
         </main>
