@@ -1,0 +1,10 @@
+export default {
+  $schema: 'http://json-schema.org/draft-07/schema#',
+  type: 'object',
+  required: ['status'],
+  properties: {
+    status:    { enum: ['pending', 'applied', 'rejected', 'parked'] },
+    adminNote: { type: 'string', maxLength: 500 },
+  },
+  additionalProperties: false,
+};

@@ -1,7 +1,7 @@
 import Ajv from 'ajv';
-import commentSchema from '../schemas/comment.schema.json' with { type: 'json' };
-import statusSchema from '../schemas/status.schema.json' with { type: 'json' };
-import annotationSchema from '../schemas/annotation.schema.json' with { type: 'json' };
+import commentSchema from '../schemas/comment.schema.js';
+import statusSchema from '../schemas/status.schema.js';
+import annotationSchema from '../schemas/annotation.schema.js';
 
 const ajv = new Ajv({ allErrors: true });
 const compiledComment    = ajv.compile(commentSchema);

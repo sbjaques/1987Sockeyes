@@ -1,0 +1,9 @@
+export default {
+  $schema: 'http://json-schema.org/draft-07/schema#',
+  type: 'object',
+  required: ['label'],
+  properties: {
+    label: { type: 'string', minLength: 1, maxLength: 200 },
+  },
+  additionalProperties: false,
+};
