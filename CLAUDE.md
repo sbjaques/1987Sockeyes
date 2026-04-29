@@ -12,7 +12,7 @@ Vite + React + TypeScript + Tailwind + React Router (HashRouter). Two build outp
 npm install              # first time only
 npm run dev              # public build, http://localhost:5173/
 npm run dev:private      # private build (shows private-archive ribbon)
-npm test                 # Vitest — 45 tests across 16 files
+npm test                 # Vitest — 59 frontend tests; cf-worker has its own (cd cf-worker && npm test, 51 tests)
 npm run build:public     # → dist-public/
 npm run build:private    # → dist-private/
 npm run build:all        # both
@@ -53,6 +53,7 @@ CI reads `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` from repo secrets. Loc
 - **Vite plugin `filterMediaPlugin`** (at `vite-plugin-filter-media.ts`) strips `url` + `attribution` + `descriptionLong` from private MediaItems in the PUBLIC bundle at build time. (`descriptionLong` was added 2026-04-24 — AI-drafted summaries paraphrased article content and were leaking through `LockedLightbox` on the public tier.) Security boundary, not a UI toggle.
 - **Build-time mode** via `src/lib/buildMode.ts` reads `import.meta.env.VITE_BUILD_MODE` — `.env.public` / `.env.private` set it.
 - **`stripArchivistNotesForPublic` (`src/lib/stripArchivistNotes.ts`)** runs at render time on every prose surface (Season chapters, player bios, roster `programBio`, GameCard highlights). On public it removes inline 9-digit imageId citations, the `## Sources & gaps` markdown section, and `[verified later as ...]` editor brackets. No-op on private.
+- **Comments + admin inbox (live 2026-04-29)** — same Worker `sockeyes-archive-media` exposes `/api/*` routes alongside `/media/*` (route binding `archive.87sockeyes.win/api/*`). Backed by KV namespace `SOCKEYES_COMMENTS` (production id `45eaa61c…`, preview id `177af83c…`). Three Wrangler secrets: `ADMIN_EMAIL` (matched against the CF Access JWT email claim by `requireAdmin`), `NOTIFY_EMAIL` (where notifications land), `RESEND_API_KEY`. Notifications go through Resend (sender `noreply@87sockeyes.win`, DKIM-verified on the `87sockeyes.win` zone via the Resend ↔ Cloudflare OAuth integration). Per-submitter rate limit 10/hour + 50/day. Origin-header CSRF check on every mutating route. Only the private bundle ships any of this — `BUILD_MODE === 'private'` gates the Header pill, the vault `💬` icons, the lightbox "Leave a note" button, the AdminBadge, and the `/admin/inbox` route. `scripts/verify-build-filter.mjs` asserts zero comment/admin strings in `dist-public/assets/*.js`. JSON Schemas are JS modules (not `.json` with import attributes) — wrangler 3.90's esbuild doesn't support `with { type: 'json' }` and the auto-deploy fell over the first time on `0df58a5`. Fixed in `9a7ff74` by converting to `.js` exports.
 
 ## Information architecture (2026-04-23, post-cutover)
 
@@ -68,6 +69,7 @@ CI reads `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` from repo secrets. Loc
 - `/player/:id` — profile with aliases, pull-quote scoutingNotes, Vitals / Path to Richmond / Linemates / Off the Ice grid, 1987 Program Snapshot block, career tables, full bio (markdown-rendered when appropriate), games-mentioned, clippings-mentioned.
 - `/timeline/:cup` — per-cup deep link (retained).
 - `/banner-night` → redirects to `/hall-of-fame`.
+- `/admin/inbox` **(private build only)** — comment triage queue. Tabs: Pending / Applied / Rejected / Parked with cursor pagination. Triage actions flip status server-side with optional admin note. Submitter annotation prompt (`window.prompt`) seeds a one-line note rendered next to the email on every future comment from that address. Renders "Not authorized" unless the signed-in CF Access email matches `ADMIN_EMAIL`. Email-failure pill shows on rows where Resend didn't deliver. Inbox filter UI (search / submitter dropdown / sort) is intentionally v1.1 — only tabs ship in v1.
 
 ## Architecture
 ```
@@ -87,16 +89,29 @@ src/
     vault/     VaultGrid, MediaCard (with needsReview badge), MediaLightbox,
                LockedLightbox (private-item gate on public tier)
     search/    SearchBar (Ctrl+K / Cmd+K)
+    comments/  LeaveNoteModal, LeaveNoteButton, CommentIcon       # private build only
+    inbox/     InboxRow, AdminBadge                               # private build only
+  hooks/     useMe, useCommentCounts                              # private build only
+  lib/       api.ts, comments.ts                                  # private build only (typed API client + types)
   pages/
     Landing, RosterPage, PlayoffsPage, SeasonStoryPage, HallOfFamePage,
-    VaultPage, CupPage, PlayerProfile, NotFound
+    VaultPage, CupPage, PlayerProfile, NotFound,
+    AdminInboxPage                                                # private build only
   content/
     the-season/*.md                      # 8 chapter markdown files
     private/ocr/*.md                     # 225 OCR'd newspaper clippings
 
 cf-worker/
-  archive-media-resolver.js              # /media/* → R2
-  wrangler.toml                          # R2 binding config
+  archive-media-resolver.js              # itty-router; /api/* + /media/* → R2 + KV
+  handlers.js                            # 7 /api/* route handlers
+  lib/access.js                          # CF Access JWT verification + admin gate
+  lib/csrf.js                            # Origin-header check on mutating routes
+  lib/kv.js                              # KV ops (comments, annotations, counts, rate)
+  lib/email.js                           # Resend notification (best-effort)
+  lib/schema.js                          # ajv validators (schemas in schemas/*.js)
+  schemas/{comment,status,annotation}.schema.js   # JS modules — NOT .json
+  wrangler.toml                          # R2 + KV bindings, CF Access vars
+  tests/*.test.js                        # 51 tests via @cloudflare/vitest-pool-workers
 
 scripts/
   build-image-index.mjs                    # prebuild: generates src/data/imageIndex.json
@@ -183,6 +198,7 @@ scripts/
 - **Lighthouse audit** + bundle code-splitting (current JS is ~1.1 MB → ~315 KB gzip — warn threshold).
 - **Tom Harrison** roster entry has no bio. "Unidentifiable staff" — needs program-PDF OCR or removal.
 - **Scan attribution polish** — AI-drafted headline/byline often wrong; editor pass corrects. `attribution.paper` + `page` + `date` are filename-derived and reliable.
+- **Comments feature v1.1 follow-ups** — Inbox filter UI (target type / submitter dropdown / body search / sort) — data layer is wired (`meta:submitters`, status filtering) but only tabs + cursor pagination ship in v1. D1 migration trigger if KV list latency exceeds 500ms p99 or > 2000 comments total. Photo / file attachments on submission. Comment threading. `relatedPlayers: []` field on media items (separate spec for the download-everything-related-to-player-X feature).
 
 ## Key documents
 - `docs/superpowers/specs/2026-04-22-archive-public-private-split-design.md` — public/private split design
@@ -204,5 +220,7 @@ scripts/
 - `42cb5b4` Worker — verify CF Access JWT before serving R2 objects (RS256 against JWKS, iss/aud/exp/nbf claims; `CF_ACCESS_TEAM` + `CF_ACCESS_AUD` vars)
 - `df6697b` CI — auto-deploy archive media Worker on `cf-worker/**` changes
 - `92e31e9` Vault — only route private items to `LockedLightbox` on the public tier (private tier was incorrectly locking authenticated users out of zoom + download)
+- `0df58a5` Merge feature/private-comments → main: comments + admin inbox feature (28 commits squashed). Private-tier `/api/*` Worker routes, KV-backed queue, Resend notifications, `/admin/inbox` triage, per-submitter rate limit, Origin CSRF check, build-mode-gated UI.
+- `9a7ff74` Worker — convert JSON schemas to JS modules (the auto-deploy at `0df58a5` failed because wrangler 3.90's esbuild rejects the `with { type: 'json' }` import attribute; JS modules are version-agnostic).
 
 The companion repo `1987Sockeyes-images` was flipped **private** 2026-04-23. Old `sbjaques.github.io/1987Sockeyes/` GitHub Pages site disabled. Unused `1987Sockeyes-archive-dist` repo deleted.
