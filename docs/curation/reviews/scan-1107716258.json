@@ -1,0 +1,35 @@
+{
+  "id": "scan-1107716258",
+  "imageId": "1107716258",
+  "date": "1993-11-10",
+  "paper": "The Times-Transcript",
+  "page": "p27",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft states Tomlinson played 'junior hockey in Richmond, B.C.' but the OCR specifies he played 'Tier II junior in Richmond, B.C.' — this is a meaningful detail worth including.",
+      "The draft omits that Tomlinson played for the AHL's St. John's Maple Leafs (two seasons) before joining Moncton, which is part of his career arc described in the article.",
+      "The draft does not mention that Tomlinson was the third overall pick in the 1989 supplemental draft by the Toronto Maple Leafs, a notable fact in the OCR.",
+      "The draft's long description says 'coach Rob Laird praises Tomlinson's defensive play and penalty-killing abilities' accurately, but omits the direct quote that Laird called him 'one of the best penalty-killers I've seen' and 'the best two-way forward in the American Hockey League' — the short description attributes this to Laird correctly, but the long description softens it to 'top two-way forwards' (plural), losing the superlative claim.",
+      "The draft's headline 'Tomlinson makes smooth transition to two-way forward' does not appear in the OCR. No clear display headline is visible in the OCR text; the article begins directly with the byline and body text."
+    ],
+    "correctedDescriptionShort": "Profile of Moncton Hawks centre and ex-Richmond Sockeyes junior Dave Tomlinson, whom Hawks coach Rob Laird calls the best two-way forward in the AHL, leading the team with 11 goals in 12 games.",
+    "correctedDescriptionLong": "Dave Tomlinson, 24, a centre for the AHL's Moncton Hawks and former Tier II junior player in Richmond, B.C. with the Sockeyes, is profiled ahead of a game in Fredericton. Hawks coach Rob Laird calls him the best two-way forward in the AHL, praising his penalty-killing and defensive tenacity alongside his league-leading offensive pace of 11 goals in 12 games. Tomlinson credits his defensive development to Boston University coach Jackie Parker, and was the third overall pick in the 1989 supplemental draft by the Toronto Maple Leafs; he turned pro with the AHL's St. John's Maple Leafs before being dealt to the Florida Panthers and ultimately the Winnipeg Jets organization, which assigned him to Moncton.",
+    "correctedHeadline": "",
+    "correctedByline": "Dwayne Tingley",
+    "notes": "No display headline is visible in the OCR — the article begins directly with the byline \"By Dwayne Tingley * Sports Editor.\" The draft headline appears to be AI-fabricated. The OCR also contains adjacent-column noise (NHL scores at top, bodybuilding article at bottom) unrelated to the Sockeyes content; the Tomlinson profile is the relevant article. Byline is confirmed correct.",
+    "_usage": {
+      "input_tokens": 3969,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 807,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

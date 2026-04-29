@@ -1,0 +1,33 @@
+{
+  "id": "scan-1309397751",
+  "imageId": "1309397751",
+  "date": "1985-01-27",
+  "paper": "Maine Sunday Telegram",
+  "page": "p38",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "tangential",
+    "issues": [
+      "Draft omits two players named in the OCR: Dave Wensley and Paul Lelievre are both listed among the BC freshmen brought in by Coach Walsh, but neither appears in the short or long description.",
+      "Short description is vague and incomplete — it only singles out Czenczek when four BC players are mentioned.",
+      "Headline and byline are absent in the OCR, so no correction is needed there, but the draft should not imply there is a headline."
+    ],
+    "correctedDescriptionShort": "A January 1985 Maine Sunday Telegram article references freshman hockey players recruited by Coach Walsh, including Stan Czenczek, Dave Wensley, Dave Nonis, and Paul Lelievre from British Columbia.",
+    "correctedDescriptionLong": "A Maine Sunday Telegram article from January 1985 notes that Coach Walsh recruited a class of freshmen including Dave Wensley, Stan Czenczek, Dave Nonis, and Paul Lelievre from British Columbia, Todd Studnicka from Ontario, and Dewey Wahlin from St. Paul, Minnesota. Among them, Nonis and Wahlin emerged as top scorers, Studnicka plays center, and Czenczek developed into a solid defenseman. The article is relevant to the Sockeyes archive as Stan Czenczek was a member of the 1987 Richmond Sockeyes roster.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR is a short fragment — likely a sidebar or partial column. Dave Wensley and Paul Lelievre are named in the OCR but were omitted from the AI draft; both should be included as they provide fuller context for Czenczek's recruitment class. Sockeyes relevance is tangential: Czenczek is on the Sockeyes roster but this article covers his college/junior career pre-Sockeyes.",
+    "_usage": {
+      "input_tokens": 2489,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 557,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

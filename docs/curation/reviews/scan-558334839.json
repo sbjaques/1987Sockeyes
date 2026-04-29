@@ -1,0 +1,35 @@
+{
+  "id": "scan-558334839",
+  "imageId": "558334839",
+  "date": "1987-04-09",
+  "paper": "Red Deer Advocate",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is AI-invented and does not reflect any actual headline in the OCR — no headline is visible in the OCR text.",
+      "The draft omits key individual contributors mentioned in the article: Matt Hervey (hat trick, including the game-winner), Dean Rutledge, and Brian Kozak scored the three power-play goals that sealed the win.",
+      "The draft does not mention that the power play resulted from Rustler defenceman Keith Lightbown ejecting for hitting Dave Tomlinson (who never dropped his gloves) — a key narrative detail.",
+      "The draft describes Kurtenbach only as 'Coach' but the OCR identifies him as 'general manager-coach'.",
+      "The short description says 'Western Canada Centennial Cup semifinal' which is accurate, but omits that this was Game 2 of the series (the opener was an 11-4 Richmond win)."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Richmond Sockeyes defeat Red Deer Rustlers 6-4 in Game 2 of the Western Canada Centennial Cup semifinal, extending their post-season winning streak to 17 games and taking a 2-0 series lead.",
+    "correctedDescriptionLong": "The Richmond Sockeyes rallied from a 4-3 deficit with 13 minutes remaining in Game 2 of their Western Canada Centennial Cup semifinal against the Red Deer Rustlers on April 8, 1987, at Richmond Arena, winning 6-4 to extend a post-season winning streak to 17 consecutive games. Richmond's comeback was sparked by a five-minute power play after Rustler defenceman Keith Lightbown was ejected for attacking Sockeye forward Dave Tomlinson, who never dropped his gloves; Dean Rutledge tied the game, Matt Hervey scored the winner (his hat-trick goal), and Brian Kozak added insurance during the man advantage. Despite strong goaltending from Red Deer pick-up Ken Weiss and a disciplined Rustler defence that had frustrated the Sockeyes through two periods, general manager-coach Orland Kurtenbach's club pulled out the victory to lead the best-of-seven series 2-0, with all remaining games to be played in Red Deer.",
+    "notes": "No headline is discernible in the OCR; the AI-generated headline should be removed. Article is a game report filed from Richmond, B.C., appearing in the Red Deer Advocate on April 9, 1987. No byline is present in the OCR.",
+    "_usage": {
+      "input_tokens": 3070,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 735,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

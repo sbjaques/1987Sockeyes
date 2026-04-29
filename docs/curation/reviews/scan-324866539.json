@@ -1,0 +1,35 @@
+{
+  "id": "scan-324866539",
+  "imageId": "324866539",
+  "date": "1987-01-30",
+  "paper": "Nanaimo Daily News",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft's short description says 'league history and alumni notes' but doesn't mention the specific Sockeyes scorers, which are the most directly Sockeyes-relevant detail.",
+      "The long description says 'mentioning players like Ray Ferraro and Dean Evason, plus current coaches including Mike O'Brien of Richmond' — while accurate, the more important Sockeyes-specific detail is the individual goal scorers (Dean Rutledge ×2, Bill Hardy, Paul Rutherford, Jason Phillips, Rob Clarke) which is omitted.",
+      "The draft does not mention that the Sockeyes outshot the Lakers 55-31, a notable detail.",
+      "The headline field is blank — the OCR does not contain a clear standalone headline for this column, so that is acceptable, but the draft should reflect that this is a BCJHL notes/roundup column rather than a single-game recap article.",
+      "The draft headline is blank which is correct given OCR, but the description framing should reflect a BCJHL notes column rather than a dedicated game recap."
+    ],
+    "correctedDescriptionShort": "BCJHL notes column: Vernon Lakers edged the Coast Division-leading Richmond Sockeyes 7-6 Thursday night, with Doug Spooner scoring four goals; Richmond scorers included Dean Rutledge (2), Bill Hardy, Paul Rutherford, Jason Phillips, and Rob Clarke.",
+    "correctedDescriptionLong": "A BCJHL roundup column reports that Vernon Lakers defeated the Coast Division-leading Richmond Sockeyes 7-6 Thursday night, with Doug Spooner netting four goals; Richmond's scorers were Dean Rutledge (2), Bill Hardy, Paul Rutherford, Jason Phillips, and Rob Clarke, and the Sockeyes outshot Vernon 55-31. The column also notes that BCJHL historian Fred Hume counts over 30 former BCJHL players in the NHL, citing alumni such as Ray Ferraro, Dean Evason, and Stan Smyl. Among coaches now in the league with BCJHL playing backgrounds, Richmond's Mike O'Brien is mentioned alongside coaches from Vernon, Penticton, Delta, Merritt, and Nanaimo.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR is a BCJHL notes/roundup column — there is no standalone headline visible in the extracted text. The Sockeyes-relevant content is the game result with named goal scorers and the mention of assistant coach Mike O'Brien. The corrected descriptions prioritise these details. The 55-31 shots-on-goal stat is also worth preserving as it appears in the OCR.",
+    "_usage": {
+      "input_tokens": 3269,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 744,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "scan-558336261",
+  "imageId": "558336261",
+  "date": "1987-04-18",
+  "paper": "Red Deer Advocate",
+  "page": "p12",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline is AI-invented and does not appear in the OCR. No clear bold headline is present in the OCR text — the article begins with body copy.",
+      "The series is described as the 'Alberta-B.C. junior hockey playoff series' or 'western Centennial Cup tier two junior hockey semifinal' — not 'Centennial Cup tier two semifinal' without context, but that detail is fine. More importantly, the draft does not mention the goalscorers named in the OCR: Dave Tomlinson (3 goals), Rob Clarke, Mike Claringbull, Jason Phillips, and Jim Gunn.",
+      "The draft attributes Orland Kurtenbach solely as 'head coach' but the OCR quotes him as 'general manager-coach.'",
+      "The draft omits the key context that Red Deer had won the Alberta championship by upsetting Calgary Canucks and St. Albert Saints, and that Jamie Stewart was the Sockeyes goaltender.",
+      "The draft short description says 'game seven of Centennial Cup tier two semifinal' which is accurate but omits that this is an Abbott Cup / western Centennial Cup tier two path — minor but acceptable. However the short description is otherwise accurate."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "The Richmond Sockeyes defeated the Red Deer Rustlers 9-1 in game seven of the western Centennial Cup tier-two junior hockey semifinal series on April 17, 1987, with Dave Tomlinson scoring three goals.",
+    "correctedDescriptionLong": "The Richmond Sockeyes eliminated the Red Deer Rustlers 9-1 in the seventh and deciding game of the western Centennial Cup tier-two junior hockey semifinal on April 17, 1987, at the Red Deer Arena. An exhausted Rustlers squad, playing their 27th post-season game in 47 days, could not match the bigger, more talented Sockeyes, who blew open a scoreless game with five unanswered second-period goals. Dave Tomlinson led the Sockeyes with three goals, while Rob Clarke, Mike Claringbull, Jason Phillips, and Jim Gunn also scored; Jamie Stewart was in goal for Richmond. Pete deGraaf scored the lone Red Deer goal late in the third period, and Sockeyes general manager-coach Orland Kurtenbach praised his team's effort after the series win.",
+    "notes": "No headline is visible in the OCR — the article opens directly with body copy. The AI-invented headline has been cleared. The article is a Red Deer Advocate game recap/column covering the Sockeyes' series-clinching win and is highly relevant to the archive. Note the OCR appears to be cut off at the end mid-sentence; additional scorers may be listed on a continuation not captured.",
+    "_usage": {
+      "input_tokens": 3312,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 780,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

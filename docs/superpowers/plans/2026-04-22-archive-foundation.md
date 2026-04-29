@@ -1610,7 +1610,7 @@ export function LockedLightbox({ item, onClose }: { item: MediaItem; onClose: ()
             </div>
             <div className="flex gap-3">
               <a
-                href={`mailto:sbjaques@yahoo.com?subject=${subject}`}
+                href={`mailto:[REDACTED]?subject=${subject}`}
                 className="bg-crimson text-cream px-4 py-2 rounded uppercase tracking-widest text-xs hover:bg-crimson/90">
                 Request access →
               </a>

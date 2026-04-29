@@ -1,0 +1,29 @@
+{
+  "id": "scan-494943215",
+  "imageId": "494943215",
+  "date": "1990-04-28",
+  "paper": "The Vancouver Sun",
+  "page": "p11",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR confirms the headline is \"HOCKEY NOTEBOOK\" (all-caps in source). No byline is visible in the OCR. The draft accurately captures the key content: the Sockeyes-vs-Royals comparison (sourced from a quote attributed to someone named Phelps), owner Bruce Taylor, coach John Olver's budget comments, and the 1990 Centennial Cup tournament details. The Phelps quote explicitly names the 1987 Richmond Sockeyes as superior to the current Royals squad, which is the core Sockeyes-relevant content.",
+    "_usage": {
+      "input_tokens": 2892,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 294,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scan-738694983",
+  "imageId": "738694983",
+  "date": "1987-04-27",
+  "paper": "Fort McMurray Today",
+  "page": "p7",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline is not present in the OCR — no large bold headline text is visible; the draft's headline appears to be AI-fabricated.",
+      "The scorer 'Dave Rutherford' in both the draft short and long descriptions is wrong. The OCR says 'Dave Rutherford' but the correct Sockeyes roster name is 'Dean Rutledge' — however the OCR itself reads 'Dave Rutherford', which is likely a garbled OCR rendering; the description should reflect the OCR as-is but flag the discrepancy.",
+      "The draft long description says the game was a 'Centennial Cup Western final' — this is correct per the OCR, but the draft short description says 'Western final' without specifying it is a best-of-seven series game (game 5).",
+      "The draft omits that Humboldt led 2-0 after the first period, a notable narrative detail.",
+      "The draft omits that Humboldt won game 4 (Saturday night) 2-1 using the same tight-checking tactics.",
+      "The article is a Canadian Press (CP) wire story — no byline author, but the CP credit should be noted."
+    ],
+    "correctedDescriptionShort": "Matt Hervey scored twice and Frank Romeo made 30 saves as the Richmond Sockeyes defeated the Humboldt Broncos 5-3 Sunday night to take a 3-2 lead in the best-of-seven Centennial Cup Western Canada final.",
+    "correctedDescriptionLong": "Matt Hervey scored two goals to lead the Richmond Sockeyes past the Humboldt Broncos 5-3 on Sunday night in Game 5 of the best-of-seven Centennial Cup Western Canada final, giving Richmond a 3-2 series lead. Brian Kozak, Dave Tomlinson, and Dave Rutherford (roster name uncertain — possibly Dean Rutledge per OCR) also scored for Richmond after the Sockeyes erased a 2-0 first-period deficit. Goalie Frank Romeo stopped 30 shots while Bruce Hoffort made 22 saves for Humboldt, whose tight-checking style had beaten Richmond 2-1 the previous night. Game 6 was scheduled for Humboldt on Tuesday.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "No headline is visible in the OCR — the draft's headline appears to be AI-fabricated and should be removed. The third Richmond scorer is listed as \"Dave Rutherford\" in the OCR (likely a garbled rendering of Dean Rutledge); flag for human review. This is a CP wire dispatch with no individual byline. The Centennial Cup Western final was played in April 1987 — note this predates the May 9 championship final, so these are Abbott Cup / Western final games, not the Centennial Cup championship round.",
+    "_usage": {
+      "input_tokens": 2699,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 789,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

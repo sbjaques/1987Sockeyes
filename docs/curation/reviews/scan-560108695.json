@@ -1,0 +1,29 @@
+{
+  "id": "scan-560108695",
+  "imageId": "560108695",
+  "date": "1987-05-08",
+  "paper": "Alberni Valley Times",
+  "page": "p8",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR is truncated mid-sentence (\"goals by Trevor Dickie, Steve Jaques, Matt Hervey, Brian Kozak, Paul Rutherford, Jason Phillips, Tony...\"), so the full scorer list is incomplete. The draft's goal-scorer list matches the visible OCR. Headline appears to be AI-generated (no clear headline visible in OCR), but is an accurate summary. No byline present in OCR — consistent with a CP wire dispatch. Content is otherwise accurate.",
+    "_usage": {
+      "input_tokens": 2608,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 271,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

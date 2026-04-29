@@ -1,0 +1,36 @@
+{
+  "id": "scan-512095951",
+  "imageId": "512095951",
+  "date": "1987-05-06",
+  "paper": "Star-Phoenix",
+  "page": "p19",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline 'Centennial Cup tension and college recruitment' is AI-invented — no clear standalone headline is visible in the OCR for this clipping.",
+      "The draft says Mike McCormick's school is 'undisclosed' but the OCR clearly states he (along with Paul Rutherford and Bryan Moller) will be heading to North Dakota, Ohio State, and Alabama respectively — specific schools are named.",
+      "The draft omits Steve Jaques' notable quote and his background detail (started the year with the Broncos before joining Richmond), which is key Sockeyes-relevant content.",
+      "The draft omits Paul Rutherford and Bryon Moller as additional Sockeyes players receiving NCAA scholarships.",
+      "The draft omits Humboldt's Morgan Watts and his backstory (played for three of the four Centennial Cup teams), which is context for the article.",
+      "Byline is absent from the OCR — leaving blank is correct, but should be confirmed."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Star-Phoenix article covering sportsmanship controversy involving Humboldt Broncos' Bernie Lynch and NCAA scholarship commitments for several Centennial Cup players including Richmond's Dave Tomlinson, Mike McCormick, Paul Rutherford, and Bryon Moller.",
+    "correctedDescriptionLong": "The Star-Phoenix reports on two intertwined storylines surrounding the 1987 Centennial Cup in Humboldt. Sockeyes coach Orland Kurtenbach criticised Broncos player Bernie Lynch's refusal to shake hands after their earlier series, while Richmond's Steve Jaques — who started the season with Humboldt — offered a sympathetic take, saying he wouldn't have wanted to shake hands with opponents either. On the recruitment front, several Sockeyes are bound for American college programs: Dave Tomlinson to Boston University, Mike McCormick to North Dakota, Paul Rutherford to Ohio State, and Bryon Moller to Alabama, with Pembroke and Humboldt players also drawing significant NCAA interest at the tournament.",
+    "notes": "No headline is legible in the OCR for this clipping — it appears to be an excerpt from a longer article. The AI-invented headline should be left blank until an editor can confirm from the original scan. Also note: the OCR spells the player's name \"Bryan Moller\" but the Sockeyes roster uses \"Bryon Moller\" — editor should verify spelling against the scan image.",
+    "_usage": {
+      "input_tokens": 2881,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 715,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

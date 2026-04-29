@@ -1,0 +1,29 @@
+{
+  "id": "scan-512310223",
+  "imageId": "512310223",
+  "date": "1987-04-21",
+  "paper": "Star-Phoenix",
+  "page": "p41",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR appears truncated at the end (\"floated a shot from a 1\") — likely a column cut-off. The draft accurately captures all verifiable details from the available OCR text. No byline is visible in the OCR. Frank Romeo is identified as the Sockeyes goalie, consistent with roster records.",
+    "_usage": {
+      "input_tokens": 2842,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 233,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

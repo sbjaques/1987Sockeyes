@@ -1,0 +1,29 @@
+{
+  "id": "scan-512093788",
+  "imageId": "512093788",
+  "date": "1987-05-04",
+  "paper": "Star-Phoenix",
+  "page": "p13",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The draft accurately captures the key facts from the OCR: Ryhorchuk's tipped goal securing Humboldt's 4-2 win over Pembroke, Lynch's quotes, and Richmond Sockeyes' 7-3 defeat of Dartmouth. No headline or byline is clearly identifiable in the OCR text, so the drafted headline is a reasonable editorial summary rather than a verbatim OCR headline — acceptable given no bold headline text is present. The Sockeyes' result (7-3 win over Dartmouth) is directly mentioned, confirming archive relevance.",
+    "_usage": {
+      "input_tokens": 2994,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 295,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

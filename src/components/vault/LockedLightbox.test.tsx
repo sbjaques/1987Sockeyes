@@ -15,12 +15,13 @@ const item: MediaItem = {
 };
 
 describe('LockedLightbox', () => {
-  it('renders only the short description and a mailto request link', () => {
+  it('renders only the short description and no contact link', () => {
     render(<LockedLightbox item={item} onClose={() => {}} />);
     expect(screen.getByText(/Short\./)).toBeInTheDocument();
     expect(screen.queryByText(/Long description/)).not.toBeInTheDocument();
-    const cta = screen.getByRole('link', { name: /Request access/ });
-    expect(cta).toHaveAttribute('href', expect.stringMatching(/^mailto:/));
+    expect(screen.queryByRole('link')).not.toBeInTheDocument();
+    expect(screen.queryByText(/Request access/i)).not.toBeInTheDocument();
+    expect(document.body.innerHTML).not.toMatch(/mailto:/i);
   });
 
   it('calls onClose when the close button is clicked', () => {

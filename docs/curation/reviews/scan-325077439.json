@@ -1,0 +1,35 @@
+{
+  "id": "scan-325077439",
+  "imageId": "325077439",
+  "date": "1987-04-29",
+  "paper": "Nanaimo Daily News",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The short description incorrectly states this is a 'Centennial Cup playoff game' — the OCR clearly identifies it as the 'Western Canada final' (Abbott Cup series), not the Centennial Cup. The Centennial Cup tournament was in Humboldt but this is the Abbott Cup deciding series.",
+      "The long description states 'Paul and Dave Tomlinson scored for Richmond' — the OCR reads 'Paul led the periderford Sockeyes with two goals while Dave Tomlinson added the other goal', indicating Paul Rutherford scored twice (OCR garbled his surname) and Tomlinson scored once, not both 'Paul and Dave Tomlinson'.",
+      "The long description says 'scored in overtime on April 28, 1987' — the OCR says 'Tuesday night' which aligns with April 28 (the paper is dated April 29), so the date is plausible but the series framing as 'Centennial Cup playoff series' is wrong; it should be 'Western Canada final' / Abbott Cup.",
+      "The headline as listed ('BRONCOS') is incomplete — the OCR shows 'BRONCOS Mike Gaber RICHMOND, SERIES' suggesting the headline or column label is 'BRONCOS' but the byline 'Mike Gaber' appears inline, which is consistent with a column format. This is minor but the headline is likely just a section/column label.",
+      "The series is described as forcing a 'seventh game' — OCR confirms 'seventh and deciding game', which is accurate. However the overall series framing in the description needs to reflect Abbott Cup (Western final), not Centennial Cup."
+    ],
+    "correctedDescriptionShort": "Humboldt Broncos defeat Richmond Sockeyes 4-3 in overtime to force a seventh and deciding game in the Abbott Cup (Western Canada final), with Bill McDougall scoring twice including the overtime winner.",
+    "correctedDescriptionLong": "The Humboldt Broncos scored in overtime on April 28, 1987 to defeat the Richmond Sockeyes 4-3, keeping their Abbott Cup (Western Canada final) series alive and forcing a seventh and deciding game in Humboldt on Wednesday night. Bill McDougall led Humboldt with two goals including the overtime winner, while Paul Rutherford scored twice and Dave Tomlinson added one for Richmond. Coach Orland Kurtenbach identified two key penalties — Tony Bobbitt for closing his hand on the puck and Steve Jaques for a five-minute match penalty for butt-ending — as the decisive mistakes that allowed Humboldt back into the game. The page also contains a sports column with additional notes on the Sockeyes' 21-6 post-season record and commentary on the Abbott Cup series location.",
+    "correctedHeadline": "BRONCOS",
+    "correctedByline": "Mike Gaber",
+    "notes": "The OCR contains two distinct portions: (1) the main Sockeyes/Broncos game recap and (2) a general sports column (covering Al Hill, Wayne McBean, Pat LaFontaine, Keith Gretzky, etc.) that also includes a brief Sockeyes-related paragraph about their 21-6 post-season record. The article is about the Abbott Cup Western final, NOT the Centennial Cup — the AI draft incorrectly labelled it as a Centennial Cup game throughout. Paul Rutherford's surname is garbled in the OCR ('periderford') but context and roster matching confirm it is him.",
+    "_usage": {
+      "input_tokens": 3551,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 927,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

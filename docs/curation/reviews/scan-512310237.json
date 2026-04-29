@@ -1,0 +1,35 @@
+{
+  "id": "scan-512310237",
+  "imageId": "512310237",
+  "date": "1987-04-21",
+  "paper": "Star-Phoenix",
+  "page": "p43",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Draft says 'Richmond Sockeyes vs. Humboldt playoff game' but the date is April 21, 1987 — this predates the Centennial Cup final (May 9) and context suggests this is a regular or earlier playoff game, not the Cup final; description should not imply it is a Centennial Cup final match.",
+      "Draft says scorers include 'Hervey, Phillips, and Richmond players Czenczek and Clarke' — Czenczek and Clarke are also Richmond/Sockeyes players, not a distinct group; phrasing is misleading.",
+      "Draft mentions goals in 'second and third periods' but the OCR also clearly shows first-period penalty data, indicating the box score begins with the first period (penalties listed include '1:30 Penalties' header), so the scoring context starts from at least the first period segment.",
+      "Draft claims 'goals scored in the second and third periods with player credits' — the OCR fragment shows goals numbered 2 through 6 (at minimum), meaning goal #1 is off-screen; the draft should not imply only second and third period goals are shown without acknowledging the partial nature of the excerpt.",
+      "No headline or byline is present in the OCR, which is consistent with a box score rather than a standalone article — draft correctly leaves these blank, but the description should clarify this is a box score/game summary excerpt."
+    ],
+    "correctedDescriptionShort": "Partial box score from a Richmond Sockeyes vs. Humboldt Broncos playoff game, listing goals and penalties from the first through third periods with scorers including Hervey, Phillips, Czenczek, and Clarke.",
+    "correctedDescriptionLong": "This Star-Phoenix clipping contains a partial box score from a Richmond Sockeyes vs. Humboldt Broncos playoff game, covering penalty and scoring details across all three periods. Visible goals are credited to Humboldt's Bergen and Chamberlin and Richmond's Hervey and Phillips (the latter assisted by Czenczek and Clarke), with at least six goals recorded in the fragment. Penalty records list infractions for multiple Sockeyes — including Jaques, Claringbull, Czenczek, Hervey, Dickie, Gunn, and Phillips — alongside Humboldt players, covering offences such as holding, slashing, roughing, hooking, elbowing, tripping, and interference. The excerpt is incomplete, with goal #1 and the end of the third period cut off.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR is a box score fragment with no headline or byline, as expected for game statistics. The April 21, 1987 date places this well before the Centennial Cup final (May 9), so this is likely an Abbott Cup or earlier BCJHL/Doyle Cup playoff game against Humboldt — though Humboldt as an opponent is unusual at this stage; editor should confirm the competition context. The box score is clearly cut off at both ends.",
+    "_usage": {
+      "input_tokens": 2694,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 832,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

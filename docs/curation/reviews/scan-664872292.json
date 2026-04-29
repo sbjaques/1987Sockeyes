@@ -1,0 +1,35 @@
+{
+  "id": "scan-664872292",
+  "imageId": "664872292",
+  "date": "1985-01-05",
+  "paper": "The Bangor Daily News",
+  "page": "p13",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Czenczek is from Surrey, BC per the OCR, not Surrey — actually this matches, but the draft omits that he played in the BCJHL (British Columbia Junior Hockey League) before Maine, which is the direct Sockeyes-era league connection.",
+      "The draft says 'Denver Coach Ralph Backstrom acknowledged Maine's successful recruitment, noting he had matched Maine's scholarship offer' — this is misleading/partially inverted: Backstrom said he matched Maine's offer (or his offer was better in dollars), but Stan's heart was set on Maine. The draft implies Backstrom conceded Maine's offer was better, which is inaccurate.",
+      "The draft omits the key detail that Czenczek played in the British Columbia Junior Hockey League (BCJHL) before attending Maine — directly relevant to his Sockeyes-era background.",
+      "The draft omits the detail that Walsh nearly gave up on Czenczek and was headed to Chicago to recruit another defenseman before learning of Stan's decision through his sister Angie.",
+      "The draft's long description says Backstrom 'noted he had matched Maine's scholarship offer' — per OCR Backstrom said 'We matched Maine's offer. In fact, I thought our offer was better in terms of dollars and cents.' This nuance is missing/mischaracterized."
+    ],
+    "correctedHeadline": "Czenczek nearly opted for Denver",
+    "correctedByline": "Larry Mahoney",
+    "correctedDescriptionShort": "University of Maine freshman defenseman Stan Czenczek, a former BCJHL player from Surrey, BC, explains why he chose Maine over the University of Denver.",
+    "correctedDescriptionLong": "University of Maine-Orono freshman defenseman Stan Czenczek, a 5-11, 185-pound Surrey, BC native who previously played in the British Columbia Junior Hockey League, recounts how he came \"pretty close\" to attending the University of Denver before choosing Maine. Czenczek credits Maine Coach Shawn Walsh's persistence — Walsh nearly abandoned his recruitment and had to learn of Czenczek's decision through Stan's sister Angie — as the decisive factor. Denver Coach Ralph Backstrom expressed disappointment, claiming his scholarship offer matched or exceeded Maine's in dollar value, but acknowledged Walsh \"did a real good recruiting job\" and that Stan had his heart set on Maine.",
+    "notes": "The BCJHL connection (noted in the OCR: Backstrom recruited other BCJHL players that year) is the key archive relevance — Czenczek is on the Sockeyes roster. The draft's summary of Backstrom's quote slightly inverts the meaning; corrected above. Headline and byline confirmed accurate from OCR.",
+    "_usage": {
+      "input_tokens": 3114,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 739,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

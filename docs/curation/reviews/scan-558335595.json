@@ -1,0 +1,34 @@
+{
+  "id": "scan-558335595",
+  "imageId": "558335595",
+  "date": "1987-04-13",
+  "paper": "Red Deer Advocate",
+  "page": "p1",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The drafted headline is a paraphrase, not the actual headline from the OCR. No clear bold headline is present in the OCR text — the article begins directly with the byline.",
+      "The long description omits key details: Red Deer fans threw eggs, tomatoes, and fish after every Rustler goal; one Richmond player was hit in the face by an egg; two Red Deer players received suspensions (1 and 3 games) for a post-game altercation with fans in Richmond the previous week; Richmond was fined $500 by the CAHA for failing to provide proper security at that game.",
+      "The long description incorrectly characterises the bench-clearing incident — the OCR describes a 'fracas behind the Richmond Sockeyes players bench instigated by disorderly fans,' not a bench-clearing incident per se.",
+      "The series is tied 2-2 in a best-of-seven (Game 4 won 7-1 by Red Deer), which is not mentioned in the draft."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "By JACK WILSON of The Advocate",
+    "correctedDescriptionShort": "CAHA warns the Alberta-B.C. junior championship between the Red Deer Rustlers and Richmond Sockeyes could be cancelled or moved unless fans stop throwing debris and eggs at players.",
+    "correctedDescriptionLong": "The Canadian Amateur Hockey Association warned that unruly fan behaviour at Red Deer Arena has jeopardized the best-of-seven junior championship series between the Red Deer Rustlers and the Richmond Sockeyes, tied 2-2 after Red Deer's 7-1 win in Game 4. The game was delayed 30 minutes by four on-ice battles and a fracas behind the Richmond bench in which disorderly fans threw debris including eggs — hitting one Richmond player in the face — along with tomatoes and fish thrown after every Rustler goal. The prior week in Richmond, two Red Deer players were suspended (one and three games) for a post-game altercation with fans, and the Richmond club was fined $500 by the CAHA for failing to provide adequate security.",
+    "notes": "No standalone headline is visible in the OCR; the article begins directly with the byline. The corrected byline includes the full attribution \"of The Advocate\" as it appears in the OCR. The drafted headline was a paraphrase and has been cleared.",
+    "_usage": {
+      "input_tokens": 2834,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 676,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

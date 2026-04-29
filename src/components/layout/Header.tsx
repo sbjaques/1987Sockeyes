@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Nav } from './Nav';
 import { SearchBar } from '../search/SearchBar';
+import { BUILD_MODE } from '../../lib/buildMode';
+import { LeaveNoteButton } from '../comments/LeaveNoteButton';
+import { AdminBadge } from '../inbox/AdminBadge';
 
 export function Header() {
   return (
@@ -11,6 +14,12 @@ export function Header() {
           <span className="font-display text-xl hidden sm:inline">1987 Richmond Sockeyes</span>
         </Link>
         <div className="flex items-center gap-6 flex-1 justify-end">
+          {BUILD_MODE === 'private' && (
+            <>
+              <AdminBadge />
+              <LeaveNoteButton target="global" targetLabel="General archive note" variant="pill" className="ml-2" />
+            </>
+          )}
           <SearchBar />
           <Nav />
         </div>

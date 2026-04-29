@@ -1,0 +1,33 @@
+{
+  "id": "scan-512096770",
+  "imageId": "512096770",
+  "date": "1987-05-07",
+  "paper": "Star-Phoenix",
+  "page": "p17",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Coach's name is wrong: the OCR reads 'Rich Kurtenbach' which is clearly a truncation/OCR error of 'Orland Kurtenbach' (his first name does not appear in the OCR, but 'Rich' is not his name — the archive key fact is his name is Orland Kurtenbach; 'Rich' appears to be OCR noise from 'Richmond Kurtenbach' being garbled). The draft uses 'Rich Kurtenbach' which is incorrect.",
+      "The draft states the coach said the team 'lacked intensity' — the actual quote from the OCR is 'We got outworked, outplayed, out-everythinged' and 'The oomph just wasn't there', which is a different characterization than 'lacked intensity'.",
+      "The headline in the draft ('Humboldt dominates Richmond in Centennial Cup round robin') is not confirmed by the OCR — no clear headline is visible in the OCR text provided beyond the dateline 'HUMBOLDT'."
+    ],
+    "correctedDescriptionShort": "Humboldt Broncos defeat Richmond Sockeyes 6-1 in Centennial Cup round-robin play, with goals from Stan Czenczek and Steve Jaques involved in key plays.",
+    "correctedDescriptionLong": "The Humboldt Broncos dominated the Richmond Sockeyes 6-1 in Centennial Cup round-robin play on May 7, 1987, in what turned into one of the most lopsided results in eight games between the two Western finalists. Stan Czenczek tied the game 1-1 in the first period with a hard slapshot, but Humboldt's Garnet Kazuik scored a shorthanded breakaway goal in the second period after stealing the puck from Steve Jaques, opening the floodgates. Coach Orland Kurtenbach lamented \"We got outworked, outplayed, out-everythinged — the 'oomph' just wasn't there.\" Richmond finished the round robin 2-1 and advanced to a semi-final against Pembroke, with the Broncos (3-0) going directly to the championship game.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR renders the coach's name as \"Rich Kurtenbach\" — this is almost certainly an OCR/truncation artifact of \"Richmond\" running into \"Kurtenbach\" in the text (i.e., \"said Richmond coach Kurtenbach\" garbled). The known head coach is Orland Kurtenbach; corrected accordingly. No clear standalone headline is visible in the OCR. Byline is absent.",
+    "_usage": {
+      "input_tokens": 3132,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 751,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

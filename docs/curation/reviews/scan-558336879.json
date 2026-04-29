@@ -1,0 +1,34 @@
+{
+  "id": "scan-558336879",
+  "imageId": "558336879",
+  "date": "1987-04-23",
+  "paper": "Red Deer Advocate",
+  "page": "p22",
+  "review": {
+    "verdict": "uncertain",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "OCR is heavily fragmented and garbled — words from adjacent columns are bleeding in (e.g. '2-1', 'Tier 2', 'fourth', 'Dave ingbull' which may be 'Dave Tomlinson' or 'Mike Claringbull'). The full article text is not recoverable from this OCR.",
+      "The headline 'Sockeyes Win in Overtime' does not appear in the OCR — it was likely AI-invented rather than extracted from the scan.",
+      "The date April 23 1987 is noted as the game day in the draft, but the Centennial Cup final (5-2 over Humboldt) took place on May 9 1987 — an April 23 Sockeyes vs Humboldt Broncos game would be outside the Centennial Cup tournament timeline, raising questions about what round/tournament this game belongs to.",
+      "The score 4-3 OT and scorer Tony Bobbitt at 1:04 appear plausible from the OCR fragment, but surrounding context is too garbled to confirm all details with confidence."
+    ],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR is too fragmented to verify the draft with confidence. The core facts (Tony Bobbitt OT goal at 1:04, 4-3 win over Humboldt Broncos) appear to be supported by the OCR fragment, but adjacent-column noise is bleeding heavily into the text (e.g. 'Tier 2', 'fourth', 'Dave ingbull'). The headline was not found in the OCR and appears AI-invented. Additionally, April 23 1987 is before the Centennial Cup tournament (May 1987), so this may be a different round or a pre-tournament game — the draft should clarify this or an editor should confirm the tournament context from the original image. Byline appears to be a Canadian Press (CP) wire dispatch with no named reporter.",
+    "_usage": {
+      "input_tokens": 2496,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 598,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

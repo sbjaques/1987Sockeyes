@@ -1,0 +1,34 @@
+{
+  "id": "scan-512096840",
+  "imageId": "512096840",
+  "date": "1987-05-07",
+  "paper": "Star-Phoenix",
+  "page": "p20",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft states 'Humboldt defeated Richmond 6–7' — this is backwards. The box score clearly shows Richmond won 7–6 (Humboldt 6, Richmond 7), which is also consistent with Richmond advancing to the final.",
+      "The headline 'Centennial Cup Round-Robin Results' is inferred/fabricated by the AI; the OCR shows the actual header text is 'CENTENNIAL CUP Round-Robin' with a standings table and game summary.",
+      "The draft says 'A semi-final matchup between Pembroke and Richmond was scheduled for that evening' — the OCR reads 'Semi-final Pembroke vs Richmond, 8:30 p.m.' which is correct, but the draft's framing is contradicted by the score: Richmond had already played Humboldt in a round-robin game (not a semi-final). The semi-final listed is a Tonight's Game entry, separate from the box score result.",
+      "The byline is correctly left empty — no byline is present in the OCR."
+    ],
+    "correctedDescriptionShort": "Box score and game summary from the Centennial Cup round-robin game in which Richmond defeated Humboldt 7–6 on May 7, 1987, with a semi-final between Pembroke and Richmond scheduled for that evening.",
+    "correctedDescriptionLong": "The Centennial Cup round-robin standings and detailed box score from the May 7, 1987 game in Humboldt, Saskatchewan, in which Richmond defeated Humboldt 7–6. The summary includes period-by-period scoring (Czenczek, Phillips, and Hervey among the Richmond scorers), full penalty details including multiple fighting game misconducts in the third period for Jaques, Dickie, and others, and shot totals (Humboldt 37, Richmond 19). Goaltenders were Hoffort for Humboldt and Stewart for Richmond; Richmond converted 1-of-9 power plays while Humboldt went 2-of-5. A semi-final between Pembroke and Richmond was scheduled for 8:30 p.m. that same evening, with the final set for Saturday at 7:30 p.m.",
+    "correctedHeadline": "Centennial Cup Round-Robin",
+    "correctedByline": "",
+    "notes": "The key factual error in the draft is reversing the winner — Richmond won 7–6, not Humboldt. This is directly contradicted by the OCR (\"Humboldt 6 Richmond 7\"). The round-robin standings in the OCR also confirm Richmond finished 2-1-0, consistent with winning this game. Editor should confirm the headline text as it appears in the print layout, as the OCR runs the header and standings together.",
+    "_usage": {
+      "input_tokens": 3240,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 760,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

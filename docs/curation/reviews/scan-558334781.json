@@ -1,0 +1,33 @@
+{
+  "id": "scan-558334781",
+  "imageId": "558334781",
+  "date": "1987-04-09",
+  "paper": "Red Deer Advocate",
+  "page": "p1",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is fabricated — no headline appears in the OCR text. The draft's headline 'Rustlers Take Confidence from Sockeyes Series' is AI-invented and not sourced from the scan.",
+      "The short description says Rustlers 'show improvement' but misstates the framing — the article's key point is that the Rustlers gained confidence, not merely showed improvement.",
+      "The long description has the score sequence slightly confused: it says 'trailing 4-2 after two periods in game two' but the OCR states the Rustlers were *leading* 4-2 after two periods before eventually falling 6-4."
+    ],
+    "correctedDescriptionShort": "Red Deer Rustlers drop the first two games of their Western Canada Centennial Cup semifinal series to Richmond Sockeyes, including an 11-4 loss and a 6-4 defeat, but take confidence from their improved showing in game two.",
+    "correctedDescriptionLong": "Writing from Richmond, BC, Greg Meachem of The Advocate reports that the Red Deer Rustlers lost the first two games of their Western Canada Centennial Cup semifinal series to the Richmond Sockeyes — an embarrassing 11-4 defeat in game one, followed by a 6-4 loss in game two. Despite the back-to-back losses, the Rustlers showed marked improvement in game two, leading 4-2 after two periods before the Sockeyes pulled away. The team returned home with confidence that they can compete against the large and mobile Sockeyes, who dominated the BCJHL playoffs before meeting Red Deer.",
+    "correctedHeadline": "",
+    "correctedByline": "By GREG MEACHEM of The Advocate",
+    "notes": "No headline is visible in the OCR — the AI fabricated one. The most critical factual error is the score context: the Rustlers were *leading* 4-2 after two periods in game two (not trailing), making their eventual 6-4 loss all the more notable. Byline also includes the outlet attribution \"of The Advocate\" which should be preserved.",
+    "_usage": {
+      "input_tokens": 2577,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 607,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

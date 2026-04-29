@@ -1,0 +1,33 @@
+{
+  "id": "scan-949148192",
+  "imageId": "949148192",
+  "date": "1992-10-22",
+  "paper": "The Toronto Star",
+  "page": "p23",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft describes the page as being about the Maple Leafs NHL schedule and game notes in general, but fails to mention the Sockeyes-relevant content: an AHL scouting note specifically mentions ex-Sockeye Dave Tomlinson playing for the St. John's Maple Leafs (AHL affiliate), combining with linemates for five goals and 12 points in a 6-2 win over Adirondack.",
+      "The draft is not wrong per se about what is on the page, but since this page was archived for its Sockeyes relevance (Dave Tomlinson mention), the description should foreground that content rather than the generic Leafs schedule/notes.",
+      "No headline was identified in the draft — the OCR does not show a clear standalone headline for this column, so that is acceptable, but the description focus is misaligned with the archive purpose."
+    ],
+    "correctedDescriptionShort": "A scouting note in The Toronto Star's Maple Leafs game-day column mentions ex-Richmond Sockeye Dave Tomlinson, playing for the AHL's St. John's Maple Leafs, combining with linemates Patrick Augusta and Todd Hawkins for five goals and 12 points in a 6-2 win over Adirondack.",
+    "correctedDescriptionLong": "A brief AHL scouting item in The Toronto Star's October 22, 1992 Maple Leafs game-day column notes that right wing Patrick Augusta recorded two goals and three assists as the St. John's Maple Leafs defeated the Adirondack Red Wings 6-2. Augusta combined with linemates Dave Tomlinson — a former Richmond Sockeye — and Todd Hawkins for five goals and 12 points. The surrounding page also features the Maple Leafs' 1992-93 NHL schedule, game notes on injuries to Grant Fuhr and Glenn Anderson, Dimitri Mironov's two-goal game, and Felix Potvin's first NHL win in a 5-3 victory over Ottawa.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "This page was archived because of the mention of ex-Sockeye Dave Tomlinson (St. John's Maple Leafs, AHL) in the SCOUTING note. The draft described the page accurately in general terms but entirely missed the Sockeyes-relevant content that motivated the archive. Corrections refocus the description on Tomlinson while still noting the broader page context.",
+    "_usage": {
+      "input_tokens": 4230,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 698,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

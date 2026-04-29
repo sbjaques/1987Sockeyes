@@ -1,0 +1,38 @@
+{
+  "id": "scan-560107877",
+  "imageId": "560107877",
+  "date": "1987-04-21",
+  "paper": "Alberni Valley Times",
+  "page": "p6",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says 'scored twice in overtime' which is technically accurate but misleading — the OCR says 'scored twice in an overtime period', meaning the overtime score was 2 goals total (making it 5-3), not that a single player scored twice in OT. Curtis Chamberlain scored the OT winner (one goal in OT), not two. The other OT goal was by Brad Bergen or Bill McDougall — the OCR does not specify which was the OT goal beyond Chamberlain's winner.",
+      "The draft says 'leading 2-1 after two periods before the teams tied 3-3 in regulation' — this is accurate and consistent with the OCR.",
+      "The draft omits Brad Bergen and Bill McDougall as Humboldt scorers, which should be noted in the long description.",
+      "The draft headline 'Cup opener' is correct per the OCR.",
+      "The draft short description says 'Humboldt Broncos defeat Richmond Sockeyes 5-3 in overtime' — this is accurate and the core fact is correct. However, 'in overtime' could imply the final score was decided in OT, which is true. Minor wording issue only.",
+      "The long description says Curtis Chamberlain 'scored three goals including the overtime winner' — this is accurate per OCR and is fine.",
+      "The long description omits Brad Bergen and Bill McDougall as the other two Humboldt scorers — these should be included for completeness and accuracy.",
+      "The article date (April 21) is inconsistent with the event being described: the Centennial Cup Western Canada final (Abbott Cup) hadn't started yet in April — this was likely the Abbott Cup series against the Alberta champion, not the Centennial Cup national final. However, the OCR itself explicitly says 'Centennial Cup Western Canada junior hockey final' so this is what the OCR states; the draft should reflect the OCR accurately. NOTE: The Centennial Cup was the national championship in May, while the Abbott Cup was the Western Canada final — the OCR's use of 'Centennial Cup Western Canada final' appears to be the wire service's terminology and should be reproduced faithfully."
+    ],
+    "correctedDescriptionShort": "The Humboldt Broncos defeated the Richmond Sockeyes 5-3 in overtime in the opening game of the best-of-seven Centennial Cup Western Canada junior hockey final.",
+    "correctedDescriptionLong": "The Humboldt Broncos scored twice in an overtime period to beat the Richmond Sockeyes 5-3 Monday night in the opening game of the best-of-seven Centennial Cup Western Canada junior hockey final in Humboldt, Saskatchewan. Curtis Chamberlain had three goals, including the overtime winner, for the Saskatchewan champion Broncos, with Brad Bergen and Bill McDougall adding the other Humboldt markers. The BC champion Sockeyes received goals from Bryon Moller, Matt Hervey, and Jason Phillips, and had led 2-1 after two periods before the teams were tied 3-3 after regulation.",
+    "correctedHeadline": "Cup opener",
+    "correctedByline": "",
+    "notes": "The OCR wire copy (CP) refers to this as the \"Centennial Cup Western Canada junior hockey final,\" which by the archive's key facts corresponds to the Abbott Cup (Western Canada final). The national Centennial Cup was played in May; this game on April 21 is from the Abbott Cup series. The descriptions above reproduce the OCR's terminology faithfully. Editor may wish to note this discrepancy. Also: the draft omitted Humboldt scorers Brad Bergen and Bill McDougall — corrected descriptions include them.",
+    "_usage": {
+      "input_tokens": 2627,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 957,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

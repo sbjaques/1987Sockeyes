@@ -1,0 +1,29 @@
+{
+  "id": "scan-495156113",
+  "imageId": "495156113",
+  "date": "1987-05-02",
+  "paper": "The Vancouver Sun",
+  "page": "p25",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR cuts off mid-sentence (\"The Sockeyes begin the final\") — the full article likely continues on another page/column, but the visible content is accurately summarized. Draft correctly identifies headline, byline, key players (Jim Gunn, Glenn Pencer), and owner Bruce Taylor's two-year BCJHL final-loss backstory. Note: the draft says \"BCJHL championship\" in the short but the OCR says they won the western junior A championship (Abbott Cup path), not just the BCJHL — however this is a minor nuance and not strictly wrong given context. Overall the draft is faithful to the OCR.",
+    "_usage": {
+      "input_tokens": 2667,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 305,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

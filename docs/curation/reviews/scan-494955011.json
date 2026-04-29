@@ -1,0 +1,29 @@
+{
+  "id": "scan-494955011",
+  "imageId": "494955011",
+  "date": "1989-10-06",
+  "paper": "The Vancouver Sun",
+  "page": "p19",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The draft is accurate. The OCR confirms all key facts: Kurtenbach as coach of the Richmond Sockeyes (BCJHL), Charlie Hodge scouting for Pittsburgh, Dan Johnson's jewelry store in Fort Frances (not just \"Ontario\"), Wayne Maki's death in 1974 and retired number 11, and the $6M expansion draft of 18 players with 37 total goals. No headline or byline text is visible in the OCR, so those fields are appropriately left blank/as-is. Minor note: the OCR gives Dan Johnson's store location as Fort Frances, Ont. — the draft's \"Ontario\" is a reasonable summary. The article is directly relevant to the archive via Orland Kurtenbach's Sockeyes coaching role.",
+    "_usage": {
+      "input_tokens": 3147,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 337,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

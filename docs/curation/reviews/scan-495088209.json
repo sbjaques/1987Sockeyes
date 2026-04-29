@@ -1,0 +1,35 @@
+{
+  "id": "scan-495088209",
+  "imageId": "495088209",
+  "date": "1987-04-08",
+  "paper": "The Vancouver Sun",
+  "page": "p24",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is fabricated/incorrect. The OCR shows no standalone headline matching the drafted text. The actual article opens with a rhetorical statement about the Red Deer Rustlers being 'the best fraud squad' and the visible byline is 'CRAIG HODGE' associated with a photo caption, not a formal headline.",
+      "The draft's headline 'Red Deer Rustlers embarrassed in Centennial Cup semi-final loss to Richmond Sockeyes' is AI-generated and does not appear in the OCR.",
+      "The article describes an Abbott Cup western semi-final, not a Centennial Cup western semi-final. The April 1987 timing (before the May 1987 Centennial Cup) and the playoff path context indicate this is the Abbott Cup (Western Canada junior-A championship), not the Centennial Cup.",
+      "The photo caption specifically identifies Steve Jaques (#10) as the Sockeye defenceman covering Red Deer's Pete deGraaf, with Frank Romeo in goal — these player details are not mentioned in the draft's long description.",
+      "The byline 'Craig Hodge' is correct per the OCR ('CRAIG HODGE' appears in the caption credit)."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "Craig Hodge",
+    "correctedDescriptionShort": "Richmond Sockeyes overwhelm Red Deer Rustlers 11-4 in Game 1 of their Abbott Cup western semi-final series on April 7, 1987.",
+    "correctedDescriptionLong": "Richmond Sockeyes dominated Red Deer Rustlers 11-4 in the opening game of their Abbott Cup western semi-final series on April 7, 1987, taking a 1-0 lead in the best-of-seven. Red Deer coach Larry Billows called it the worst game his team had played, criticising poor defensive effort and goaltender Glen Furgason's performance. Sockeye goaltender Frank Romeo expressed surprise at the margin of victory, predicting a tighter Game 2 scheduled for April 8 at Richmond Arena. A photo shows defenceman Steve Jaques (#10) checking Red Deer's Pete deGraaf while Romeo watches the play from his crease.",
+    "notes": "The draft incorrectly labels this series as the \"Centennial Cup western semi-final.\" Given the April 7–8, 1987 dates and the Sockeyes' documented playoff path (Mowat Cup → Doyle Cup → Abbott Cup → Centennial Cup), this game is part of the Abbott Cup western semi-final against Red Deer. The Centennial Cup was not played until May 1987. Editor should confirm the exact series name. Also, no clear standalone headline is present in the OCR — the article opens mid-sentence with a rhetorical lede.",
+    "_usage": {
+      "input_tokens": 2825,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 767,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

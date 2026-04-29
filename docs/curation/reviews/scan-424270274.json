@@ -1,0 +1,35 @@
+{
+  "id": "scan-424270274",
+  "imageId": "424270274",
+  "date": "1993-01-09",
+  "paper": "The Gazette",
+  "page": "p35",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "tangential",
+    "issues": [
+      "The draft is broadly accurate about the main article but misses the Sockeyes-relevant detail: ex-Sockeyes player Dave Tomlinson is explicitly mentioned in the NOTES section as replacing injured Peter Zezel as Leafs centre — this is the reason the scan is in the archive and should be highlighted in the description.",
+      "The short description makes no mention of Dave Tomlinson, who is the archive-relevant connection to the 1987 Richmond Sockeyes.",
+      "The long description also omits Dave Tomlinson's mention entirely.",
+      "Glenn Anderson had a hand in all five goals (2G, 3A) — the draft says 'five points (two goals, three assists)' which is correct, but Nikolai Borschevsky scored two goals and assisted on both of Anderson's, which contradicts calling it primarily Anderson's five-point game context — minor but the draft oversimplifies.",
+      "Byline is missing from the draft; OCR does not surface a clear byline, so leaving it empty is acceptable."
+    ],
+    "correctedDescriptionShort": "The Toronto Maple Leafs defeated the San Jose Sharks 5-1 to reach .500; ex-Sockeye Dave Tomlinson dressed for Toronto after replacing injured centre Peter Zezel.",
+    "correctedDescriptionLong": "The Toronto Maple Leafs beat the San Jose Sharks 5-1 at Toronto, climbing to .500 with 41 points in 41 games, ahead of a visit to the Montreal Forum to face the Canadiens. Glenn Anderson recorded five points (two goals, three assists) and Grant Fuhr was sharp against a Sharks team outshot 43-24. Notably for this archive, ex-Richmond Sockeye Dave Tomlinson was recalled from Fredericton and dressed for the Leafs, replacing injured centre Peter Zezel. The game preview section also covers Pat Burns's return to Montreal as Toronto coach and a scouting report on both teams.",
+    "correctedHeadline": "Maple Leafs back at .500 for tonight's Forum visit",
+    "correctedByline": "",
+    "notes": "The scan is archive-relevant because ex-Sockeyes player Dave Tomlinson is mentioned in the Notes section as replacing Peter Zezel in the Leafs lineup. The main article is otherwise a standard NHL game recap/preview. The corrected descriptions foreground Tomlinson's appearance as the Sockeyes connection.",
+    "_usage": {
+      "input_tokens": 4026,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 679,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

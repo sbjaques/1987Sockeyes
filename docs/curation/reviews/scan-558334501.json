@@ -1,0 +1,36 @@
+{
+  "id": "scan-558334501",
+  "imageId": "558334501",
+  "date": "1987-04-08",
+  "paper": "Red Deer Advocate",
+  "page": "p21",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft headline is invented/paraphrased — the actual OCR article does not present a clear standalone headline; the photo caption reads 'Red Deer Rustler Randy Cave finds going tough near Richmond goal' which is the closest headline-like text, not the AI's version.",
+      "The short description says 'Centennial Cup semifinal' which is correct, but omits that this is the Abbott Cup / Western Canada Centennial Cup semifinal — minor but acceptable.",
+      "The long description says 'goaltender Frank Romeo making few crucial saves' which misrepresents the OCR: Romeo 'wasn't required to make more than a half dozen quality saves' — meaning he made a handful of good saves, not 'few crucial saves' (a subtle but meaningful difference in framing).",
+      "The long description omits key details present in the OCR: Matt Hervey scored the second goal from the point just over a minute after Tomlinson's opener; Red Deer pulled within one goal at 4-3 on Rich Anderson's goal early in the second period before Richmond pulled away; Richmond fired 60 shots vs Red Deer's 34.",
+      "The byline 'Greg Meachem' in the draft is a misspelling — the OCR clearly reads 'GREG MEACHEM of The Advocate', which actually matches. However, the OCR text shows 'GREG MEACHEM' — this is correct.",
+      "The draft headline does not reflect the actual article headline/label. No bold standalone headline is present in the OCR; the article begins with the byline directly."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "By Greg Meachem of The Advocate",
+    "correctedDescriptionShort": "Richmond Sockeyes devoured the Red Deer Rustlers 11-4 in Game 1 of the Western Canada Centennial Cup semifinal, extending their post-season unbeaten streak to 16 games.",
+    "correctedDescriptionLong": "In the opening game of the Western Canada Centennial Cup semifinal at Richmond Arena on April 8, 1987, the Richmond Sockeyes overwhelmed the Red Deer Rustlers 11-4, extending their post-season unbeaten streak to 16 games before approximately 1,250 fans. Dave Tomlinson opened the scoring just 21 seconds in, and defenceman Matt Hervey quickly doubled the lead; Richmond fired 60 shots on Rustlers goaltender Glen Furgason while Frank Romeo faced only 34 shots and needed fewer than a half-dozen quality saves. Coach Orland Kurtenbach credited his team's relentless work ethic, while Rustlers coach Larry Billows lamented poor defence, weak goaltending, and a lack of intensity from his forwards. The article is illustrated by a Canadian Press photo of Rustler Randy Cave being contained near the Richmond goal by Stan Czenczek (#7) and Frank Romeo.",
+    "notes": "No bold standalone headline appears in the OCR — the article opens directly with the byline. The corrected headline field has been left blank accordingly. The photo caption ('Red Deer Rustler Randy Cave finds going tough near Richmond goal') is the only headline-like text present. Byline spelling confirmed as 'Greg Meachem' from OCR.",
+    "_usage": {
+      "input_tokens": 3145,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 869,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "scan-508633163",
+  "imageId": "508633163",
+  "date": "1987-05-10",
+  "paper": "Times Colonist",
+  "page": "p1",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft states Romeo 'made 46 saves' — the OCR says the Sockeyes faced 46 shots (Romeo faced 46 shots), while their teammates managed only 23. This is ambiguous but the draft implies Romeo made 46 saves against only 23 opponent shots, which inverts the facts: Richmond had 23 shots, Humboldt had 46. The correct reading is Romeo faced 46 shots (not made 46 saves in that framing), and Richmond managed only 23 shots on goal.",
+      "The draft says 'holding the Sockeyes' opponents to just 23 shots' — this is backwards. It was the SOCKEYES who managed only 23 shots; the BRONCOS fired 46 at Romeo.",
+      "The headline in the OCR reads 'as Sockeyes win Centennial Cup' — the leading 'as' suggests this is a subheadline or continuation, but the AI-drafted headline drops the 'as'. Minor, but the actual text should be noted."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeat the Humboldt Broncos 5-2 to win the Centennial Cup, as Frank Romeo stops 46 shots and Jason Phillips scores three goals.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Humboldt Broncos 5-2 in Humboldt, Saskatchewan on Saturday night to claim the Centennial Cup Tier II Junior A hockey championship. Jason Phillips scored three goals, with Paul Rutherford adding the game-winner in the third period and Dave Tomlinson also scoring. Goaltender Frank Romeo was the story, stopping 46 shots while his teammates managed only 23 on the Broncos' net; Romeo was named tournament MVP.",
+    "correctedHeadline": "Sockeyes win Centennial Cup",
+    "correctedByline": "The Canadian Press",
+    "notes": "The key factual error in the draft is the inversion of shot totals: Romeo faced 46 shots (Humboldt's), while Richmond managed only 23. The draft incorrectly states Romeo \"held the Sockeyes' opponents to just 23 shots,\" which has the numbers backwards. The leading \"as\" in the OCR headline likely indicates this was a subhead or secondary headline on page 1 rather than the primary headline; \"Sockeyes win Centennial Cup\" is a reasonable cleaned-up headline.",
+    "_usage": {
+      "input_tokens": 2592,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 683,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "scan-495161710",
+  "imageId": "495161710",
+  "date": "1987-05-09",
+  "paper": "The Vancouver Sun",
+  "page": "p38",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR is truncated mid-sentence but contains enough to confirm all drafted details: Phillips's 4G+5A tournament scoring lead, all-star selection, and the article's pre-final framing. Byline \"By ELLIOTT PAP Sun Sports Reporter\" matches the drafted byline. No headline text visible in OCR (likely cropped), but the drafted headline is a reasonable editorial label — flag for editor to confirm actual headline from the physical scan if needed.",
+    "_usage": {
+      "input_tokens": 2602,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 263,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

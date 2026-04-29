@@ -1,0 +1,29 @@
+{
+  "id": "scan-512309668",
+  "imageId": "512309668",
+  "date": "1987-04-18",
+  "paper": "Star-Phoenix",
+  "page": "p44",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "No standalone headline visible in the OCR — the AI-drafted headline is a reasonable editorial summary. No byline present. All factual claims match the OCR exactly.",
+    "_usage": {
+      "input_tokens": 2556,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 199,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -82,7 +82,7 @@ For CI deploys (from `.github/workflows/deploy-private.yml`):
 5. Save, then add a policy:
    - Policy name: "Allowlisted emails"
    - Action: Allow
-   - Rules: Include → Emails → add your email address (`sbjaques@yahoo.com`)
+   - Rules: Include → Emails → add your email address
 6. Save the policy
 
 Test: visit `archive.87sockeyes.win` in an incognito window. You should be redirected to a CF Access email-OTP prompt.

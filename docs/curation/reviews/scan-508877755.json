@@ -1,0 +1,34 @@
+{
+  "id": "scan-508877755",
+  "imageId": "508877755",
+  "date": "1987-04-28",
+  "paper": "Times Colonist",
+  "page": "p12",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft short description says '5-3' score but calls it the 'Centennial Cup Western final' — the OCR says 'Western Canada Tier 2 junior final', not 'Western final'. The Centennial Cup is the national championship; the Western final at this stage would be the Abbott Cup, not the Centennial Cup. However the OCR itself says 'Centennial Cup hockey playoff game', so the terminology in the article is internally mixed. The key issue is the draft short description says 'Centennial Cup Western final' while the long description correctly says 'Western Canada Tier 2 junior final'.",
+      "The byline is listed as 'The Canadian Press' but in the OCR this appears to be the dateline/wire service tag, not a byline in the traditional 'By [Name]' sense. However, The Canadian Press is a legitimate wire service credit and appears in the OCR, so this is acceptable.",
+      "The headline in the OCR is ''Eyes go up 3-2 in Tier 2 tussle' (with a leading apostrophe/curly quote, indicating 'Eyes is short for Sockeyes). The draft omits the leading apostrophe.",
+      "The draft short description inaccurately labels this a 'Centennial Cup Western final' — the OCR calls it a 'Western Canada Tier 2 junior final' (which is the Abbott Cup stage, not the Centennial Cup national final). The Centennial Cup final was won over Humboldt 5-2 on May 9; this April 28 game is part of the Abbott Cup / Western Tier 2 final series."
+    ],
+    "correctedDescriptionShort": "Matt Hervey scored two goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-3 to take a 3-2 series lead in the Western Canada Tier 2 junior final.",
+    "correctedDescriptionLong": "Matt Hervey, a former Victoria Cougars major-junior player, scored two goals to lead the Richmond Sockeyes to a 5-3 victory over the Humboldt Broncos in a Centennial Cup playoff game that finished late Sunday night. The win gave the Sockeyes a 3-2 lead in the best-of-seven Western Canada Tier 2 junior final. Game six of the series was scheduled in Richmond that evening (April 28).",
+    "correctedHeadline": "'Eyes go up 3-2 in Tier 2 tussle",
+    "correctedByline": "The Canadian Press",
+    "notes": "The April 28 date confirms this is the Abbott Cup / Western Canada Tier 2 final series against Humboldt, NOT the Centennial Cup national final (which was played May 9 and ended 5-2). The draft short description incorrectly labels this a \"Centennial Cup Western final.\" The OCR's own use of \"Centennial Cup hockey playoff game\" is loose wire-service shorthand for the broader Centennial Cup playoff tournament. The headline has a leading apostrophe (curly quote) representing the truncated 'Eyes = Sockeyes.",
+    "_usage": {
+      "input_tokens": 2561,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 847,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

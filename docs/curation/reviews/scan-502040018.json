@@ -1,0 +1,36 @@
+{
+  "id": "scan-502040018",
+  "imageId": "502040018",
+  "date": "1987-04-19",
+  "paper": "The Province",
+  "page": "p13",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says 'Centennial Cup western final against host Humboldt Broncos' — correct in substance, but the draft short description says 'Centennial Cup final' which is inaccurate; this is the western final (Abbott Cup), not the Centennial Cup final itself.",
+      "The draft says the series win over Red Deer was 'best-of-seven semifinal' but the OCR specifies it was a best-of-seven western semifinal won 4-3, not just 'semifinal series'.",
+      "The draft omits key scorers (Rob Clarke, Mike Claringbull, Jason Phillips, Jim Gunn, Mike McCormick, Tony Bobbitt) and goalie Jamie Stewart's near shutout.",
+      "The draft says 'western final begins April 20' — the OCR says 'tomorrow and Tuesday in Humboldt', consistent with April 19 publication date, so April 20 is plausible for the first game, but the article says games start 'tomorrow and Tuesday' implying April 20 and 21. Minor but worth precision.",
+      "No headline is visible in the OCR text — the draft headline 'Richmond Sockeyes bound for Centennial Cup either way' is AI-invented and not confirmed by the OCR. Should be cleared.",
+      "The draft describes the article as being about the 'Centennial Cup final' when the article is actually about advancing to the western final (Abbott Cup) with the Centennial Cup guaranteed either way."
+    ],
+    "correctedDescriptionShort": "The Richmond Sockeyes advanced to the Centennial Cup western final against host Humboldt Broncos after defeating Alberta champion Red Deer Rustlers 9-1 on April 17, taking the western semifinal series 4-3; the Sockeyes are guaranteed a Centennial Cup berth regardless of the western final result.",
+    "correctedDescriptionLong": "The Richmond Sockeyes clinched a berth in the Centennial Cup national championship tournament and advanced to the western final against host Humboldt Broncos by defeating the Alberta champion Red Deer Rustlers 9-1 on April 17, taking the best-of-seven western semifinal 4-3. Dave Tomlinson led the scoring with three goals, while Rob Clarke, Mike Claringbull, Jason Phillips, Jim Gunn, Mike McCormick, and Tony Bobbitt also scored; Red Deer's Pete DeGraaf spoiled Jamie Stewart's shutout bid. Because Humboldt is also the Centennial Cup host, the Sockeyes are guaranteed a national tournament spot even if they lose the western final, which opens April 20-21 in Humboldt with the balance of the series shifting to Richmond Arena if needed.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "No headline or byline is visible in the OCR — the AI-drafted headline appears to be invented. The draft short description incorrectly calls this the 'Centennial Cup final' when it is actually the western final (Abbott Cup), with the Centennial Cup berth guaranteed regardless of outcome. The trailing WHL playoff content (Kamloops vs Portland, Medicine Hat vs Saskatoon) is adjacent-column noise and not Sockeyes-related.",
+    "_usage": {
+      "input_tokens": 2801,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 885,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

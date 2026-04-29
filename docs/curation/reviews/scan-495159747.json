@@ -1,0 +1,29 @@
+{
+  "id": "scan-495159747",
+  "imageId": "495159747",
+  "date": "1987-05-07",
+  "paper": "The Vancouver Sun",
+  "page": "p24",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The page contains two adjacent Sockeyes-related articles both by Elliott Pap. The draft accurately synthesizes both: (1) the 6-1 round-robin loss to Humboldt with Kurtenbach's quotes and the resulting semi-final matchup vs. Pembroke, and (2) the Bernie Lynch handshake controversy. All facts — score, record, quote, coach names, opponents — check out against the OCR. The headline in the draft is a reasonable summary rather than a verbatim pull, but there is no standalone bold headline visible in the OCR text, so this is acceptable. Byline \"ELLIOTT PAP, Sun Sports Reporter\" matches exactly.",
+    "_usage": {
+      "input_tokens": 3043,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 314,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

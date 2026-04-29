@@ -1,0 +1,33 @@
+{
+  "id": "scan-496394992",
+  "imageId": "496394992",
+  "date": "1988-03-10",
+  "paper": "The Vancouver Sun",
+  "page": "p34",
+  "review": {
+    "verdict": "uncertain",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The OCR is a fragment — it begins mid-sentence ('Sockeyes got other goals from...') with no headline, byline, lede, or score visible. Key details such as the final score, which game in the series this was, and the series context are missing from the OCR.",
+      "The draft presents the content as a full game recap, but the OCR only contains the tail end of the article. The draft cannot be verified as accurate or complete against this partial OCR.",
+      "The AI-drafted short description says 'goals from Talo, Clarke, Phare, Walton, Lamb, and Bobbitt' — this matches the OCR fragment, but the word 'other' in 'Sockeyes got other goals from...' implies at least one more goal-scorer is missing from the description (likely the primary scorer mentioned before the OCR fragment begins)."
+    ],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR captures only the tail end of what appears to be a Richmond Sockeyes vs. Delta playoff game recap. The word \"other\" in \"Sockeyes got other goals from...\" confirms at least one goal-scorer precedes the fragment, meaning the draft's goal list is incomplete. No headline, byline, score, or series context is visible. Editor should locate the full article image to verify the complete content before publishing a description. The second paragraph about Vernon vs. Penticton is adjacent-column noise and correctly ignored by the draft.",
+    "_usage": {
+      "input_tokens": 2586,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 475,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

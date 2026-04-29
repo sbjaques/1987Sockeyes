@@ -1,0 +1,35 @@
+{
+  "id": "scan-511921636",
+  "imageId": "511921636",
+  "date": "1986-11-07",
+  "paper": "Star-Phoenix",
+  "page": "p31",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The AI-drafted headline is fabricated and not found in the OCR. The OCR shows no clear headline — the article begins with a pull quote followed by a Canadian Press dateline.",
+      "The byline is absent, but the OCR shows a '(CP)' wire attribution (Canadian Press), which should be noted.",
+      "The long description states Kurtenbach 'has no intention of returning to full-time coaching in professional hockey' — while that sentiment is in the pull quote, the OCR text is truncated (ends mid-word 'Kurten-') so the full article content is not confirmed beyond what is shown.",
+      "The long description says he 'works days from 8 a.m. until midnight' — this is accurate per the OCR, but the phrasing implies that is his coaching schedule; in context it refers to his combined regular job plus coaching workday.",
+      "The AI headline does not appear in the OCR and should not be presented as the actual headline."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "CP (Canadian Press)",
+    "correctedDescriptionShort": "A Canadian Press wire story on Orland Kurtenbach, former Vancouver Canucks captain and coach, returning to hockey as head coach of the BCJHL's Richmond Sockeyes in 1986.",
+    "correctedDescriptionLong": "A Canadian Press report from Richmond, B.C. profiles Orland Kurtenbach's return to hockey coaching at the Tier Two junior level with the Richmond Sockeyes in the British Columbia Junior Hockey League. Kurtenbach, now 50 and only five pounds over his playing weight, was the first member of the Vancouver Canucks franchise in 1970, later captaining and then coaching the NHL club. He balances a demanding schedule — averaging 8 a.m. to midnight — between his regular job and coaching, and is quoted saying coaching is \"nothing but a hobby\" with no desire to return to full-time professional coaching. The OCR is truncated mid-sentence; the full article text may contain additional detail.",
+    "notes": "No headline is visible in the OCR — the article opens with a pull quote and a CP dateline. The AI-generated headline should not be used. The article is cut off mid-word (\"Kurten-\"), so the long description flags that the OCR is incomplete. Byline is Canadian Press wire service (CP), not a named journalist.",
+    "_usage": {
+      "input_tokens": 2640,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 662,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

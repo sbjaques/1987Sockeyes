@@ -1,0 +1,36 @@
+{
+  "id": "scan-731240705",
+  "imageId": "731240705",
+  "date": "1987-04-08",
+  "paper": "The Daily Herald-Tribune",
+  "page": "p8",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says 'Jim Dunn' but the OCR says 'Jim Dunn' — however the Sockeyes roster lists this player as 'Jim Gunn (aka The Gunner)', so the draft has perpetuated an OCR misread of 'Gunn' as 'Dunn'.",
+      "The draft says 'Dean Rutledge' but the OCR spells it 'Dean Rutlege' — the roster confirms 'Dean Rutledge' so the corrected description should use the canonical spelling, but the OCR misread is worth noting.",
+      "The draft omits the penalty minute detail: Richmond took 91 minutes in penalties, the Rustlers took 101 (sentence cut off in OCR but still partially present).",
+      "The draft does not mention that the article is a CP wire report (Canadian Press), which is relevant context.",
+      "The draft describes this as a 'Western semifinal' but the OCR calls it a 'Centennial Cup playoff' Western semifinal — the draft's characterization of the series is acceptable, but 'Abbott Cup' (Western Canadian final) context is not applicable here; the series name in the OCR is simply the Centennial Cup Western semifinal, which is correct.",
+      "The headline 'Sockeyes crush Rustlers 11-4' is not confirmed by the OCR text — no headline is visible in the OCR paragraphs provided."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeated Red Deer Rustlers 11-4 in the opening game of their best-of-seven Centennial Cup Western semifinal playoff series.",
+    "correctedDescriptionLong": "The Richmond Sockeyes beat the Red Deer Rustlers 11-4 Tuesday night in Game 1 of their best-of-seven Centennial Cup Western semifinal, as reported by Canadian Press. Bill Hardy, Dave Tomlinson, and Matt Hervey each scored twice, while Jim Gunn, Tony Bobbitt, Jason Phillips, Mike McCormick, and Dean Rutledge also found the net. Richmond held period leads of 4-2 and 6-3, outshot Red Deer 60-34, and both teams scored three power-play goals while combining for over 190 minutes in penalties. Game 2 was scheduled for Richmond before the series shifted to Red Deer.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR clearly misreads Sockeyes player Jim Gunn as \"Jim Dunn\" — the draft perpetuates this error. No headline is visible in the OCR; the drafted headline appears to be AI-generated and should be cleared. The penalty details are partially cut off in the OCR but enough is present to include. This is a CP wire report.",
+    "_usage": {
+      "input_tokens": 2691,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 763,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

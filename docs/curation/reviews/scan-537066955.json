@@ -1,0 +1,34 @@
+{
+  "id": "scan-537066955",
+  "imageId": "537066955",
+  "date": "1990-10-03",
+  "paper": "The Abbotsford News",
+  "page": "p47",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The headline in the OCR is 'Edge Sockeyes 8-7 in season-opener' — the draft prefixes it with 'Pilots' which is not in the actual headline text. The byline 'DAVE PALLER' appears as a photo credit for the accompanying image, not necessarily a byline for the article text itself — no clear 'By Dave Paller' article byline is present in the OCR.",
+      "The draft describes the Richmond Sockeyes as an 'expansion' team, which is accurate per the OCR, but it is worth noting this is a 1990 West Coast Junior Hockey League team, distinct from the 1987 BCJHL Centennial Cup Sockeyes — however Jason Talo is a known Sockeyes roster member so the article is archive-relevant.",
+      "The draft short description is largely accurate but omits that the game was played before fewer than 200 fans and that this is the West Coast Junior Hockey League (not BCJHL). Minor but the short is otherwise fine.",
+      "The long description is accurate and well-summarised against the OCR. No factual errors detected in the body."
+    ],
+    "correctedHeadline": "Edge Sockeyes 8-7 in season-opener",
+    "correctedByline": "Dave Paller",
+    "correctedDescriptionShort": "Abbotsford Pilots defeat expansion Richmond Sockeyes 8-7 in West Coast Junior Hockey League season-opener at MSA Arena.",
+    "correctedDescriptionLong": "The Abbotsford Pilots defeated the expansion Richmond Sockeyes 8-7 in a back-and-forth West Coast Junior Hockey League season-opener at MSA Arena, before fewer than 200 fans. Scott Edwards' powerplay goal at 8:30 of the third period broke a 7-7 tie to give Abbotsford the win. Richmond's Jason Talo — a former BCJHL star and member of the 1987 Centennial Cup Sockeyes — recorded four points in the loss. Todd Geddes earned offensive player of the game honours for the Pilots for his playmaking and puck movement.",
+    "notes": "The headline as it appears in the OCR reads 'Edge Sockeyes 8-7 in season-opener' without a 'Pilots' prefix — the draft headline added that word. 'DAVE PALLER' appears as a photo caption credit rather than a clear article byline, though it is reasonable to attribute the article to him as well. Jason Talo links this 1990 West Coast Junior Hockey League article to the Sockeyes archive.",
+    "_usage": {
+      "input_tokens": 2881,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 724,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

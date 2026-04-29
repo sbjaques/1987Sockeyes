@@ -1,0 +1,34 @@
+{
+  "id": "scan-496959132",
+  "imageId": "496959132",
+  "date": "1987-06-19",
+  "paper": "The Leader-Post",
+  "page": "p57",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The short description is too vague and does not mention Rob Sumner or the Sockeyes specifically.",
+      "The long description incorrectly states the player is from 'North Vancouver' — the OCR clearly reads 'Vancouver, B.C.' as Sumner's listed hometown.",
+      "No headline is present in the OCR, so leaving it blank is correct, but the draft should not imply structure (e.g. 'roster or draft listing') beyond what the OCR supports — this appears to be an NHL draft list.",
+      "The long description mentions 'WHL, OHL, QMJHL, AJHL, and Quebec AAA teams' which is accurate but omits BCJHL context for Sumner."
+    ],
+    "correctedDescriptionShort": "An NHL draft prospect list from The Leader-Post (June 19, 1987) includes Rob Sumner of the Richmond Sockeyes (BCJHL), listed as being from Vancouver, B.C.",
+    "correctedDescriptionLong": "A 1987 NHL draft prospect listing published in The Leader-Post names Rob Sumner of the Richmond Sockeyes (BCJHL), listed as being from Vancouver, B.C., among candidates from across Canada. The list includes players from major junior leagues such as the WHL, OHL, and QMJHL, as well as junior-A leagues including the AJHL and BCJHL, and Quebec AAA Midget programs. Other notable names on the partial list include Dan Lambert (Swift Current Broncos, WHL), Adrien Plavsic (Ottawa 67's, OHL), and Kevin Chevaldayoff (Brandon Wheat Kings, WHL).",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR is a partial draft list (cut off mid-entry). Sumner's hometown is listed as \"Vancouver, B.C.\" in the OCR — not North Vancouver as may have been assumed elsewhere. The context strongly suggests this is an NHL Entry Draft list published the day before or around the 1987 NHL Draft.",
+    "_usage": {
+      "input_tokens": 2730,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 597,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

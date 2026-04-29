@@ -1,0 +1,33 @@
+{
+  "id": "scan-560108578",
+  "imageId": "560108578",
+  "date": "1987-05-04",
+  "paper": "Alberni Valley Times",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft headline 'Richmond Sockeyes Win Centennial Cup' is inaccurate and misleading — this article covers a round-robin game in the Centennial Cup tournament (May 4, 1987), not the championship final. The Centennial Cup final was won on May 9, 1987.",
+      "The short description says 'win Centennial Cup championship 7-3 over Dartmouth' — this was a round-robin tournament game, not the championship final.",
+      "The long description calls it 'the Centennial Cup junior-A hockey championship' in a way that implies the final match, when it was a preliminary round-robin game."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "HUMBOLDT, Sask. (CP)",
+    "correctedDescriptionShort": "Jason Phillips scores three goals as Richmond Sockeyes defeat Dartmouth Fuel Kids 7-3 in Centennial Cup round-robin play on May 4, 1987.",
+    "correctedDescriptionLong": "Jason Phillips scored three goals to lead the Richmond Sockeyes to a 7-3 win over the Dartmouth Fuel Kids in round-robin play at the Centennial Cup junior-A hockey tournament in Humboldt, Saskatchewan on May 4, 1987. Bryon Moller, Steve Jaques, Dave Tomlinson, and Matt Hervey also scored for Richmond, who piled up 44 shots to Dartmouth's 29. The Sockeyes jumped to a 3-1 lead after the first period and extended it to 6-2 in the second; it was Dartmouth's second loss in as many days, having previously fallen 7-2 to host Humboldt Broncos.",
+    "notes": "The draft headline incorrectly implies this was the championship-winning game. This is a round-robin pool game played May 4 — five days before the actual Centennial Cup final on May 9. Headline corrected to remove championship implication; no clear standalone headline exists in the OCR (CP wire dispatch), so correctedHeadline left blank. Byline is a wire credit (CP) rather than a named journalist.",
+    "_usage": {
+      "input_tokens": 2634,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 627,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

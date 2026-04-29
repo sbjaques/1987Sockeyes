@@ -1,0 +1,35 @@
+{
+  "id": "scan-560108760",
+  "imageId": "560108760",
+  "date": "1987-05-11",
+  "paper": "Alberni Valley Times",
+  "page": "p9",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Draft says 'decisive third period' implying all Richmond goals were scored in the third, but the OCR states the Sockeyes led 2-0 after the first period and 2-1 after the second — only Rutherford's winner and Tomlinson's goal came in the third.",
+      "Draft omits Humboldt scorers Curtis Chamberlin and Kevin Luke, which are present in the OCR.",
+      "Draft omits the shot disparity context (46 shots faced by Romeo vs. only 23 by Humboldt), though Romeo's shot count is mentioned — the framing in the draft ('stopping 46 shots') is accurate but the broader context is missing.",
+      "Draft describes the series as a 'four-team series' which matches OCR ('four-team, round-robin series') — this is fine.",
+      "Minor: draft says 'Rutherford and Dave Tomlinson also scored for Richmond in the decisive third period' — Rutherford scored the winner in the third, but the article does not explicitly place Tomlinson's goal in the third period either."
+    ],
+    "correctedDescriptionShort": "Jason Phillips scored three goals as the Richmond Sockeyes defeated the Humboldt Broncos 5-2 to win the Centennial Cup junior-A championship on May 9, 1987, in Humboldt, Saskatchewan.",
+    "correctedDescriptionLong": "Jason Phillips scored three goals to lead the Richmond Sockeyes to a 5-2 victory over the Humboldt Broncos in Humboldt, Saskatchewan on May 9, 1987, claiming the Centennial Cup junior-A championship. Goaltender Frank Romeo was named MVP of the four-team round-robin series after facing 46 shots while his teammates managed only 23. Paul Rutherford scored the winner in the third period and Dave Tomlinson also scored for Richmond; Curtis Chamberlin and Kevin Luke replied for the Saskatchewan champion Broncos.",
+    "correctedHeadline": "Centennial Cup champs",
+    "correctedByline": "",
+    "notes": "Draft incorrectly attributed all scoring to the third period; the OCR shows Richmond held leads of 2-0 and 2-1 before the third. Humboldt scorers were also omitted. Corrected long description restores accurate game flow and includes all scorers per the OCR.",
+    "_usage": {
+      "input_tokens": 2638,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 667,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

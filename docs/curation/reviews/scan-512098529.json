@@ -1,0 +1,29 @@
+{
+  "id": "scan-512098529",
+  "imageId": "512098529",
+  "date": "1987-05-11",
+  "paper": "Star-Phoenix",
+  "page": "p13",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "Sockeyes win Centennial Cup",
+    "correctedByline": "",
+    "notes": "OCR confirms headline as \"Sockeyes win Centennial Cup\" (rendered as \"Sockeyes win Centennial al Cup\" due to OCR artifact but clearly the same). No byline is visible in the OCR. All key facts in the draft — 5-2 final, Frank Romeo as game and tournament MVP, Jason Phillips as most gentlemanly player, Kurtenbach's first year, and Lynch's quotes — are directly supported by the OCR text. The draft is accurate.",
+    "_usage": {
+      "input_tokens": 3201,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 284,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "scan-495099771",
+  "imageId": "495099771",
+  "date": "1987-03-19",
+  "paper": "The Vancouver Sun",
+  "page": "p38",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "Draft is accurate. All key facts check out against OCR: 5-4 OT win over Kelowna Packers, Matt Hervey goal at 3:37 of OT, 2-0 series lead, four-for-four in OT, Kurtenbach coaching. Byline \"ELLIOTT PAP\" confirmed. Headline \"Sockeyes' OT magic continues\" is plausible for the content though not explicitly visible in the OCR text — no contradiction found. Hervey background details (LA native, Kings tryout, Flint IHL, Seattle WHL, Victoria/Lethbridge WHL) are in OCR and could enrich the long description but the draft is not inaccurate. Other Sockeyes scorers (Rutledge, Rutherford, Hardy, Tomlinson) are also confirmed in OCR.",
+    "_usage": {
+      "input_tokens": 2984,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 362,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

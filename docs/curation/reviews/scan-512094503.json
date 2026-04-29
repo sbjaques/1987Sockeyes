@@ -1,0 +1,35 @@
+{
+  "id": "scan-512094503",
+  "imageId": "512094503",
+  "date": "1987-05-05",
+  "paper": "Star-Phoenix",
+  "page": "p17",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Draft says 'Goals were scored by Kozak, Czenczek, and Tomlinson (twice)' — correct on scorers but misses that Pembroke also scored once; the final was 4-1, not 4-0. OCR clearly shows a Pembroke goal: '2. Pembroke, Dupont (Eastwood, Clarke) 4:06 (pp)'.",
+      "Draft short description states 'defeat Pembroke 4-0' but the score was Richmond 4, Pembroke 1 per the OCR box score ('Richmond 4 Pembroke' header and the listed goals including one Pembroke goal in the third period).",
+      "Draft long description says 'Romeo recorded the shutout' — this is incorrect; Pembroke scored once (Dupont, power play, third period), so it was not a shutout.",
+      "Headline in OCR is 'CENTENNIAL CUP' (all-caps), which matches the draft, so no correction needed there.",
+      "Draft omits that Richmond's power play was 0-for-2 and Pembroke's was 1-for-9, and that shots were Richmond 26, Pembroke 25 — minor omissions but the shutout/score error is the critical factual mistake."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeat Pembroke 4-1 in a Centennial Cup round-robin game on May 4, 1987, in Humboldt, Saskatchewan.",
+    "correctedDescriptionLong": "Richmond defeated Pembroke 4-1 in round-robin play at the 1987 Centennial Cup junior-A championship in Humboldt, Saskatchewan on May 4. Sockeyes goals were scored by Kozak (first period), Czenczek (third period), and Tomlinson twice (third period); Pembroke's only goal came from Dupont on a power play in the third period. Goaltender Romeo started for Richmond, which outshot Pembroke 26-25. The tournament schedule shows Richmond's next game against host Humboldt on Wednesday, May 6.",
+    "correctedHeadline": "Centennial Cup",
+    "correctedByline": "",
+    "notes": "The critical error in the draft is reporting the score as 4-0 (a shutout) when the OCR box score clearly records a Pembroke goal by Dupont in the third period, making it a 4-1 Richmond win. The shutout claim for Romeo is therefore also incorrect.",
+    "_usage": {
+      "input_tokens": 2999,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 717,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

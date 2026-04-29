@@ -1,0 +1,37 @@
+{
+  "id": "scan-558336127",
+  "imageId": "558336127",
+  "date": "1987-04-16",
+  "paper": "Red Deer Advocate",
+  "page": "p15",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is fabricated — the OCR contains no standalone headline for this game summary; the content appears as a box score/summary section without a bold headline.",
+      "The draft says 'Richmond scored multiple goals in the first period' — correct, but it omits that Richmond actually scored FIVE goals in the first period (Clarke, Bobbitt, Tomlinson, Clarke again, Clarke hat-trick), which is a notable detail.",
+      "The long description says 'The Sockeyes added two more goals in the third period' — this is accurate (Kozak and McCormick), but the second period detail is omitted entirely: Red Deer scored both of their non-first-period goals in the second period, and Richmond scored zero in the second period.",
+      "The long description implies the game date was April 15, 1987, but the OCR labels this game as 'SUMMARY WEDNESDAY' and the newspaper is dated April 16, 1987 (Wednesday), making the game Wednesday April 15/16 — more precisely the OCR series results show 'Result Wednesday Richmond 7 at Red Deer 3', consistent with the game being played Wednesday April 15, 1987. This is acceptable but the draft should not state the game date as April 15 with certainty given OCR ambiguity.",
+      "Byline is correctly left blank — no byline appears in the OCR for this item.",
+      "The draft does not mention the goaltenders: Jamie Stewart for Richmond and Neiss/Furgason for Red Deer, nor the attendance of 1,732 — minor omissions but worth including in the long description.",
+      "The OCR page also contains NHL Stanley Cup playoff standings/results, which is adjacent-column noise and unrelated to the Sockeyes content — the draft correctly focuses on the Sockeyes content."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Box score and game summary of the Richmond Sockeyes defeating Red Deer 7–3 on Wednesday (April 15, 1987) in Game 6 of the Doyle Cup playoff series, tying the best-of-seven at 3–3.",
+    "correctedDescriptionLong": "Box score and game summary from the Red Deer Advocate showing the Richmond Sockeyes defeating Red Deer 7–3 in the sixth game of the Doyle Cup best-of-seven series, leaving it tied 3–3 heading into a deciding Game 7 that night. Richmond exploded for five first-period goals, with Clarke recording a hat trick (including two power-play markers), and Bobbitt and Tomlinson also scoring; Red Deer managed just one first-period reply. The Sockeyes added goals from Kozak and McCormick in the third period to seal the win, while Red Deer's remaining goals came in the second period. Jamie Stewart was in goal for Richmond; attendance was 1,732.",
+    "notes": "No headline appears in the OCR for this specific game summary — it is presented as a series standings block followed by \"SUMMARY WEDNESDAY.\" The corrected headline field has been left blank accordingly. The page also contains adjacent-column NHL Stanley Cup playoff standings noise, which is unrelated to the Sockeyes content.",
+    "_usage": {
+      "input_tokens": 3687,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 876,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

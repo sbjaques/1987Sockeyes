@@ -1,0 +1,33 @@
+{
+  "id": "scan-1107681099",
+  "imageId": "1107681099",
+  "date": "1993-04-14",
+  "paper": "The Times-Transcript",
+  "page": "p12",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft does not mention Dave Tomlinson, the Sockeyes-relevant connection on this page. The OCR explicitly states 'Dave Tomlinson led the league with six shorthanded goals' in the penalty killing section of the 'Hawks, Leafs at a glance' sidebar — Tomlinson is a former Richmond Sockeyes player now on the St. John's Maple Leafs roster.",
+      "The draft describes the main article accurately but fails to surface the Tomlinson detail, which is the primary reason this scan is in the Sockeyes archive.",
+      "The short and long descriptions should be reframed to highlight the Sockeyes connection (Dave Tomlinson) rather than purely describing the Hawks' underdog narrative."
+    ],
+    "correctedDescriptionShort": "A 1993 AHL playoff preview sidebar notes that former Richmond Sockeye Dave Tomlinson of the St. John's Maple Leafs led the league with six shorthanded goals heading into the Atlantic Division semifinal against the Moncton Hawks.",
+    "correctedDescriptionLong": "A \"Hawks, Leafs at a glance\" sidebar in The Times-Transcript previews the best-of-seven AHL Atlantic Division semifinal between the Moncton Hawks and St. John's Maple Leafs, with Game 1 set for the Halifax Metro Centre on April 14, 1993. The sidebar highlights that former Richmond Sockeye Dave Tomlinson of the St. John's Maple Leafs led the entire AHL with six shorthanded goals during the regular season. An accompanying article features Hawks captain Rob Murray and coach Rob Laird embracing the underdog label ahead of the series, with the Leafs playing home games in Halifax due to a municipal workers' strike in St. John's.",
+    "correctedHeadline": "Hawks, Leafs at a glance",
+    "correctedByline": "",
+    "notes": "This scan is archive-relevant because of the explicit mention of former Sockeye Dave Tomlinson leading the AHL in shorthanded goals (6) while playing for the St. John's Maple Leafs. The draft's headline was correct, but the descriptions buried the Sockeyes connection entirely. The second article on the page (\"Halifax is home for now / Road trip never ends for Leafs\" by Steve MacLeod) is adjacent-column noise and not relevant to the Sockeyes.",
+    "_usage": {
+      "input_tokens": 4039,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 671,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "scan-735361916",
+  "imageId": "735361916",
+  "date": "1989-09-28",
+  "paper": "The Winnipeg Sun",
+  "page": "p58",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR contains two articles sharing the page — one about Mike Modano's performance against the Jets, and the main Sockeyes-relevant article \"Door open for rookie to shine\" by Brian Smiley. The draft correctly targets the latter. Matt Hervey (ex-1987 Richmond Sockeyes) is named as one of three rookie defencemen competing for a Jets roster spot following Brad Berry's shoulder separation. All key facts in the draft — names (Richison, Cronin, Hervey), Berry's injury, pre-season opponents (Pittsburgh, Los Angeles), and player characterisations — are confirmed by the OCR. Headline and byline are also accurate.",
+    "_usage": {
+      "input_tokens": 3346,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 314,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

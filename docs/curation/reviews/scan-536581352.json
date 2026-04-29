@@ -1,0 +1,35 @@
+{
+  "id": "scan-536581352",
+  "imageId": "536581352",
+  "date": "1987-04-22",
+  "paper": "The Abbotsford News",
+  "page": "p15",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The short description incorrectly states the game was a 'Western Canada Centennial Cup playoff' — the OCR clearly describes this as the 'Western Canada Centennial Cup championship' (western final), not yet the national Centennial Cup.",
+      "The long description says Humboldt won 'in overtime' which is correct per OCR ('twice in a 20-minute overtime period'), but the short description omits overtime and simply says '5-3' which is accurate enough. However the short description calls it a 'best-of-seven Western Canada Centennial Cup playoff' which conflates the western final with the national Centennial Cup final.",
+      "The long description says the Sockeyes lost '5-3 to the Saskatchewan champion Humboldt Broncos in overtime during game one of the best-of-seven Western Canada Centennial Cup championship series' — this is broadly correct but the series is the western final (Abbott Cup precursor context), not the Centennial Cup itself. The article calls it the 'Western Canada Centennial Cup championship', so this wording should be preserved.",
+      "The long description states both teams are 'guaranteed spots in the national four-team final' — this is accurate per the OCR and correct.",
+      "No byline is present in the OCR — the draft correctly leaves byline empty."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes lost 5-3 in overtime to the Humboldt Broncos in game one of the best-of-seven Western Canada Centennial Cup championship, but both teams are guaranteed spots in the national four-team final.",
+    "correctedDescriptionLong": "The Richmond Sockeyes, B.C. Junior Hockey League champions, dropped game one of the best-of-seven Western Canada Centennial Cup championship to the Saskatchewan champion Humboldt Broncos 5-3, with Humboldt scoring twice in a 20-minute overtime period. Despite the loss, both the Sockeyes and Broncos are assured of participating in the national four-team Centennial Cup final, as Humboldt is the host city and both western finalists are guaranteed berths. Sockeyes scorers in game one were Bryon Moller, Matt Hervey, and Jason Phillips. The article notes the Sockeyes had previously defeated the Red Deer Rustlers 9-1 in the seventh and deciding game of the B.C.-Alberta playoff.",
+    "correctedHeadline": "Sockeyes assured of Cup play",
+    "correctedByline": "",
+    "notes": "The headline is accurate per the OCR. The key fix is clarifying that this is the Western Canada Centennial Cup championship (western final), not the national Centennial Cup final. The OCR also contains adjacent-column noise from an unrelated article about B.C. Federation of Amateur Roller Skaters championships — that content should be ignored.",
+    "_usage": {
+      "input_tokens": 2796,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 772,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

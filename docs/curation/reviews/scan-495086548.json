@@ -1,0 +1,35 @@
+{
+  "id": "scan-495086548",
+  "imageId": "495086548",
+  "date": "1987-04-06",
+  "paper": "The Vancouver Sun",
+  "page": "p11",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says the Sockeyes swept Quesnel 'for the Mowatt Cup in two straight' — correct — but omits that this was their fourth consecutive series sweep, which is a notable detail from the OCR.",
+      "The draft describes the series as 'opening Centennial Cup tier two series game' in the short description, which is accurate, but the long description says they 'sweeping Quesnel Millionaires 5-1 for the Mowatt Cup' — the OCR says the Sockeyes 'polished off Quesnel Millionaires 5-1 Saturday to take the Mowatt Cup in two straight', so 'sweeping' (implying a sweep) is consistent but the draft says 'sweeping' when the OCR says 'two straight' — minor but acceptable.",
+      "The draft omits game-time details (7:30 p.m.) and the fact that games 1 and 2 are both at Richmond Arena before the series shifts to Red Deer.",
+      "The draft incorrectly spells 'Mowatt Cup' as 'Mowatt' — the OCR also spells it 'Mowatt', so this is consistent with the source, but the known correct spelling is 'Mowat Cup'. This is a minor OCR/period spelling issue; leaving as-is to match OCR.",
+      "Red Deer 'finished fourth overall in the Alberta Junior League' before their playoff run — this context is missing from the draft."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes, riding a 15-game playoff winning streak and their fourth consecutive series sweep, host Alberta champion Red Deer Rustlers on Tuesday in game one of a best-of-seven Centennial Cup tier-two elimination series at Richmond Arena.",
+    "correctedDescriptionLong": "The Richmond Sockeyes will put their 15-game playoff winning streak on the line Tuesday night at Richmond Arena when they host Alberta champion Red Deer Rustlers in game one of the best-of-seven Centennial Cup tier-two junior hockey elimination series. The Sockeyes defeated Quesnel Millionaires 5-1 on Saturday to claim the Mowatt Cup in two straight, their fourth consecutive series sweep. Red Deer, who finished fourth in the Alberta Junior League, advanced by defeating the Calgary Spurs in seven games, Calgary Canucks in seven, and St. Albert Saints in six. Game one is at 7:30 p.m. Tuesday, game two Wednesday at the same time and place, with the remainder of the series moving to Red Deer.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The headline \"Sockeyes, Red Deer to clash\" matches the OCR and is correct. No byline is present in the OCR. Key missing details from the draft include the fourth-consecutive-sweep context, the 7:30 p.m. game time, and Red Deer's fourth-place regular-season finish. Note: \"Mowatt Cup\" spelling follows the OCR; the historically correct spelling is \"Mowat Cup.\"",
+    "_usage": {
+      "input_tokens": 2618,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 839,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

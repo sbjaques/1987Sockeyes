@@ -1,0 +1,40 @@
+{
+  "id": "scan-495157862",
+  "imageId": "495157862",
+  "date": "1987-03-25",
+  "paper": "The Vancouver Sun",
+  "page": "p25",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Draft says 'their first B.C. Junior Hockey League championship in eight years' — OCR confirms this, so that is fine.",
+      "Draft says 'swept the BCJHL playoffs without a loss in three series' — OCR confirms 13 consecutive wins in three series, so that is accurate.",
+      "Draft says 'Captain Trevor Dickie' led the team — OCR confirms Dickie is captain, accurate.",
+      "Draft says 'defeated Kelowna Packers 3-2 on March 24, 1987' — date is plausible (paper is March 25), OCR says 'Tuesday night', consistent.",
+      "Draft says 'The team advances to face the Peace-Cariboo League champions in a best-of-nine final series beginning April 1' — OCR says the series begins April 3 (not April 1). OCR text: 'will be played in Richmond beginning April 3'.",
+      "Headline in draft is 'Sockeyes sweep BCJHL playoffs' — OCR clearly shows 'Sockeyes sweep BCJHL playoffs' (with a decorative 'S'), this is correct.",
+      "Byline in draft is 'Elliott Pap' — OCR clearly shows 'By ELLIOTT PAP', this is correct.",
+      "The bottom portion of the OCR contains adjacent-column noise about a hockey alumni/legends game (Boldirev, Sedlbauer, Schmautz, Shack, Henderson, Cournoyer, Sittler, Mahovlich, Mikita, Perreault) — this is unrelated to the Sockeyes article and should not be referenced in the description.",
+      "Photo caption names Dean Rutledge (#20) and Rob Sumner — draft does not mention these players in the photo, but that is a minor omission rather than an error. The draft does not incorrectly describe the photo.",
+      "Draft mentions 'swept the BCJHL playoffs without a loss in three series' but the key scorers (Jason Phillips, Steve Jaques, Brian Kozak, Bill Hardy, Pat Mangold) are not mentioned — minor omission, not an error."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes edge Kelowna Packers 3-2 to sweep the BCJHL playoffs and claim their first B.C. Junior Hockey League championship in eight years.",
+    "correctedDescriptionLong": "Orland Kurtenbach's Richmond Sockeyes defeated the Kelowna Packers 3-2 on Tuesday, March 24, 1987, at Richmond Arena to claim their first BCJHL championship in eight years, completing 13 consecutive wins across three playoff series without a loss. Captain Trevor Dickie, a former New Westminster Bruin, expressed confidence in the team's national title chances, while key goals came from Jason Phillips (including a shorthanded marker) and Pat Mangold. The Sockeyes next face the Peace-Cariboo League champions in a best-of-nine series beginning April 3 in Richmond, with the Alberta Junior League champions to follow.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The lower portion of the OCR is adjacent-column noise about a hockey legends/alumni game (Henderson, Cournoyer, Sittler, Mahovlich, Mikita, Perreault, etc.) and is unrelated to the Sockeyes article. The only factual error in the draft is the series start date: the draft says April 1, but the OCR clearly states April 3.",
+    "_usage": {
+      "input_tokens": 3375,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 961,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

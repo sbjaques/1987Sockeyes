@@ -1,0 +1,36 @@
+{
+  "id": "scan-561082905",
+  "imageId": "561082905",
+  "date": "1987-08-16",
+  "paper": "The Sunday News",
+  "page": "p47",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "tangential",
+    "issues": [
+      "The draft states 'PoCo defeated an Ontario team in overtime to win the national junior hockey championship' — this appears to be a minor/youth hockey story (likely ball hockey or a different junior level), not a major junior-A championship. The context and detail level suggest a lesser tournament, not the Centennial Cup or equivalent senior junior-A event.",
+      "The headline 'PoCo Wins National Championship in Overtime' is not supported by the OCR — no actual headline text is present in the OCR excerpt provided.",
+      "The byline is absent in the OCR, which the draft correctly leaves empty.",
+      "The OCR is a partial fragment — the article beginning (including any headline) is cut off; only the tail end of the article is present. The draft treats the fragment as a complete article summary, which is misleading.",
+      "The Sockeyes relevance is only tangential: Phillips is mentioned as a former Centennial Cup champion Richmond Sockeye, but the article is primarily about a PoCo team's national championship win, not about the Sockeyes.",
+      "The draft says 'opposing coaches Phillips and Dan Walton' but the OCR says 'Cablevision COcoaches Phillips and Dan Walton' — suggesting Phillips and Walton may both be coaches of PoCo (co-coaches), not opposing coaches. The OCR text 'COcoaches' appears to be a garbled rendering of 'co-coaches'."
+    ],
+    "correctedDescriptionShort": "A brief item notes that PoCo co-coach Phillips was a member of the Centennial Cup champion Richmond Sockeyes, mentioned in the context of PoCo's national championship overtime win.",
+    "correctedDescriptionLong": "The tail end of an article recounts PoCo's national championship win, secured in overtime when Steve Penner scored the winner for the third consecutive game. An \"OVERTIME\" sidebar notes that PoCo co-coaches Phillips and Dan Walton were opponents during the past BCJHL season — Phillips as a member of the Centennial Cup champion Richmond Sockeyes and Walton as a Langley Eagle. The OCR fragment is missing the article's opening, including its headline, so full context is limited. The Sockeyes connection is incidental: Phillips's Centennial Cup membership is mentioned as background colour.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR is a tail fragment only — the article's start and headline are missing. The draft incorrectly describes Phillips and Walton as \"opposing coaches\" when the OCR strongly implies they are co-coaches of PoCo (\"Cablevision COcoaches\"). The Sockeyes mention is purely incidental (Phillips as a former Sockeye), making this tangential to the archive's core subject. Editor should check whether the full page scan reveals the article headline and whether \"Phillips\" can be matched to a known Sockeyes roster member (no \"Phillips\" appears on the standard roster — closest is Jason Phillips, a player, not a coach).",
+    "_usage": {
+      "input_tokens": 2569,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 802,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

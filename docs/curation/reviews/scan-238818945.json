@@ -1,0 +1,36 @@
+{
+  "id": "scan-238818945",
+  "imageId": "238818945",
+  "date": "1995-03-05",
+  "paper": "South Florida Sun Sentinel",
+  "page": "p42",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft frames this as generic 'Panthers roster statistics and game recap' without flagging the Sockeyes-relevant content: Dave Tomlinson (1987 Richmond Sockeyes player) is explicitly mentioned as being returned to Cincinnati after brief Panthers appearances.",
+      "The short description does not mention Dave Tomlinson, who is the primary reason this clipping is archive-relevant.",
+      "The long description buries Dave Tomlinson in a list of notes rather than foregrounding him as the Sockeyes connection.",
+      "Randy Moller mentioned in the long description is NOT Bryon Moller of the Sockeyes — this is a different person (Florida Panthers defenceman Randy Moller); the draft does not conflate them, but the archive should be aware this is a coincidental name match and not a Sockeyes connection.",
+      "No headline was present in the OCR, which the draft correctly left blank.",
+      "No byline was present in the OCR, which the draft correctly left blank."
+    ],
+    "correctedDescriptionShort": "South Florida Sun Sentinel Florida Panthers statistics page (March 5, 1995) noting that ex-Richmond Sockeyes forward Dave Tomlinson was returned to the Cincinnati (IHL) affiliate after brief NHL action.",
+    "correctedDescriptionLong": "This page from the South Florida Sun Sentinel (March 5, 1995, p. 42) carries full Florida Panthers player and goaltender statistics through 21 games of the 1994–95 NHL season. A game-notes column confirms that centre Dave Tomlinson — a 1987 Richmond Sockeyes alumnus — was returned to the Cincinnati Cyclones (IHL) after playing only a few shifts against Ottawa and sitting out his final two games as a Panther. The page also includes brief recaps of the Maple Leafs' 3-2 win over Calgary and the Canucks' 5-4 victory over Los Angeles, and notes that defenceman Randy Moller (no relation to Sockeyes) sprained his knee on his first shift.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The primary Sockeyes relevance is Dave Tomlinson (North Vancouver, BC; 1987 Sockeyes roster) being reassigned to Cincinnati. Randy Moller mentioned here is Florida Panthers defenceman Randy Moller — a different person from Sockeyes player Bryon Moller; no conflation intended but worth noting for future searches.",
+    "_usage": {
+      "input_tokens": 3303,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 703,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "scan-508629153",
+  "imageId": "508629153",
+  "date": "1987-04-04",
+  "paper": "Times Colonist",
+  "page": "p32",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The draft says the second game was 'scheduled for Saturday night in Richmond' but the OCR says 'is here tonight', meaning it was scheduled for the same night (Friday) in the dateline city — actually the OCR dateline is RICHMOND (CP), meaning the game is in Richmond 'tonight', which is Saturday April 4 relative to the Friday game. However, the draft says 'scheduled for Saturday night in Richmond' which is a reasonable interpretation, but the key issue is the draft says the second game 'was scheduled' (past tense) whereas the OCR is written in present tense ('is here tonight'), suggesting this article was published day-of. Minor wording issue only — the factual content is essentially accurate.",
+      "The headline 'Sockeyes Open with 4-3 Win' is not confirmed by the OCR text; no headline is visible in the OCR. However, this is a reasonable inference and not clearly wrong.",
+      "The draft describes the Sockeyes as opening the series 'on Friday night' which matches the OCR. The location 'here' in the OCR refers to Richmond, consistent with the draft saying the second game is in Richmond."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes defeated the Quesnel Millionaires 4-3 in the opening game of the B.C. Tier-Two junior hockey championship series.",
+    "correctedDescriptionLong": "Richmond Sockeyes, B.C. Junior League champions, defeated the Quesnel Millionaires 4-3 in the opening game of the B.C. Tier-Two junior hockey championship Friday night. The second game of the best-of-three series between the Sockeyes and Quesnel, champions of the Peace-Cariboo League, was scheduled for Saturday night in Richmond.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR contains only a single short CP wire paragraph with no visible headline. The AI-drafted headline \"Sockeyes Open with 4-3 Win\" is plausible but unconfirmed by OCR — cleared the headline field since it cannot be verified. Factual content of the draft is accurate; only minor wording and tense cleanup applied. The dispatch is a CP (Canadian Press) wire item.",
+    "_usage": {
+      "input_tokens": 2519,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 643,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

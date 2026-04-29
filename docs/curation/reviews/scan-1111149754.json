@@ -1,0 +1,29 @@
+{
+  "id": "scan-1111149754",
+  "imageId": "1111149754",
+  "date": "1994-05-09",
+  "paper": "Telegraph-Journal",
+  "page": "p11",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "Neil Hodge",
+    "notes": "The draft is factually accurate against the OCR. Dave Tomlinson (ex-Sockeyes) is mentioned as a goal-scorer and appears in the photo caption, making this archive-worthy. Byline confirmed as \"By NEIL HODGE\" in the OCR. No headline text is discernible in the OCR beyond the publication/page metadata, so leaving headline blank is correct. All key facts — 5-0 score, Fisher and Gernander with two goals each, Tomlinson's goal, Beauregard's 130:21 shutout streak, 3-2 series lead — are confirmed by the OCR.",
+    "_usage": {
+      "input_tokens": 3324,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 314,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "scan-502054045",
+  "imageId": "502054045",
+  "date": "1987-03-25",
+  "paper": "The Province",
+  "page": "p20",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is wrong: the Sockeyes did NOT sweep — they won in five games (not four), and the OCR uses the scoreline 'Packers 2 Sockeyes 3' as the header, not a sweep headline. The actual headline from the OCR appears to be absent as large bold text but the article makes clear it was a five-game series win, not a sweep.",
+      "Player name misspelled in draft: 'Jason Philips' is spelled 'Phillips' in the roster but appears as 'Philips' in the OCR — the draft should reflect the OCR spelling or correct it consistently.",
+      "The long description omits that the game was tied 2-2 going into the final period (Pat Mangold tied it at 1:37 of the third on a power play), making the win more dramatic and contextually important.",
+      "The long description omits Matt Hervey's shoulder separation injury suffered Friday in Kelowna, which is a notable detail in the article.",
+      "The long description omits the upcoming Mowat Cup context: Richmond would next face the PCJHL champion (Quesnel leading Grande Prairie 2-0) in the best-of-three provincial final starting April 3-5.",
+      "The draft headline 'Richmond Sockeyes Sweep Kelowna Packers' is factually inaccurate — the series went five games, not a sweep (which would be four games in a best-of-nine)."
+    ],
+    "correctedHeadline": "Packers 2 Sockeyes 3",
+    "correctedByline": "Frank Luba",
+    "correctedDescriptionShort": "Richmond Sockeyes defeat Kelowna Packers 3-2 to win the BCJHL championship series in five games, extending their playoff winning streak to 13.",
+    "correctedDescriptionLong": "The Richmond Sockeyes edged the Kelowna Packers 3-2 on March 24, 1987 at Richmond Arena, winning the best-of-nine BCJHL championship series in five games before more than 1,100 fans. Jason Philips scored the winner at 9:33 of the third period, flipping a rebound past Kelowna goaltender Dusty Imoo after Pat Mangold had tied the game 2-2 on a power play; goaltender Frank Romeo was credited for a strong performance despite battling sinusitis. The win stretched Richmond's playoff winning streak to 13 games and set up a Mowat Cup provincial final, tentatively scheduled for April 3-5 in Richmond, against the PCJHL champion. Veteran defenceman Matt Hervey, who suffered a shoulder separation in Kelowna on Friday, watched the third period from the parking lot while rehabilitating.",
+    "notes": "The AI-generated headline \"Richmond Sockeyes Sweep Kelowna Packers\" is factually wrong — a five-game series in a best-of-nine is not a sweep. The OCR's in-article score header \"Packers 2 Sockeyes 3\" is used as the corrected headline since no large standalone headline is visible in the OCR. Editor should confirm the print headline if a cleaner scan is available. Also note the article spells the player's name \"Philips\" (one 'l') — roster has \"Phillips\" — OCR spelling retained in corrections.",
+    "_usage": {
+      "input_tokens": 3086,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 904,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

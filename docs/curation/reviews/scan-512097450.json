@@ -1,0 +1,36 @@
+{
+  "id": "scan-512097450",
+  "imageId": "512097450",
+  "date": "1987-05-08",
+  "paper": "Star-Phoenix",
+  "page": "p29",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "The paper's actual page from the OCR is 'Sports B13', not p29 as listed — however filename-derived attribution is considered reliable so this may be a section-page discrepancy; flagging for editor awareness.",
+      "The short description is accurate in substance but omits the 'grudge series' framing present in the article.",
+      "The long description mentions 'Thursday at the Uniplex' correctly, but states the final is 'on Saturday at 7:30 p.m.' without noting this is their ninth meeting with the Broncos in less than three weeks — a key detail in the article.",
+      "The byline is correctly left empty (no byline visible in OCR).",
+      "The headline in the OCR reads 'It's Sockeyes and Broncos in Centennial Cup final' — this matches the draft headline exactly, so no correction needed there.",
+      "The short description says 'advance to Centennial Cup final' which is accurate, but omits the 'grudge series' context that is central to the article's framing."
+    ],
+    "correctedDescriptionShort": "Richmond Sockeyes beat Pembroke Lumber Kings 9-3 in the Centennial Cup semifinal to set up a championship final grudge match against Humboldt Broncos on Saturday.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Pembroke Lumber Kings 9-3 in the Centennial Cup semifinal on Thursday at the Uniplex, advancing to the championship final against the Humboldt Broncos at 7:30 p.m. Saturday. The final will be the ninth meeting between the two teams in less than three weeks, with the Centennial Cup title now on the line. Coach Orland Kurtenbach acknowledged the team's grueling three-week road schedule but said the Sockeyes are exactly where they are supposed to be, stressing the need to focus for the championship.",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "OCR shows the page as 'Sports B13' while the filename attributes it as p29 — per instructions, filename-derived attribution is treated as reliable, but editor may wish to confirm. The headline matches the OCR exactly; no headline correction needed. Draft was largely accurate; corrections tighten the language and incorporate the 'ninth meeting / grudge series' framing central to the article.",
+    "_usage": {
+      "input_tokens": 2632,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 666,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

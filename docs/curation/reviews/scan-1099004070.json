@@ -1,0 +1,33 @@
+{
+  "id": "scan-1099004070",
+  "imageId": "1099004070",
+  "date": "1987-05-08",
+  "paper": "Daily Gleaner",
+  "page": "p24",
+  "review": {
+    "verdict": "needs-fix",
+    "sockeyesRelevance": "relevant",
+    "issues": [
+      "Headline is AI-invented — the OCR contains no headline text, only a Canadian Press wire paragraph.",
+      "Byline is correctly empty but the draft should note the CP wire attribution.",
+      "The draft's long description omits the goal scorers, which are explicitly listed in the OCR and are a key factual detail: Dean Rutledge, Steve Jaques, Matt Hervey, Brian Kozak, Paul Rutherford, Jason Phillips, Tony Bobbitt, Mike McCormick, and Bill Hardy."
+    ],
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "correctedDescriptionShort": "Richmond Sockeyes defeated the Pembroke Lumber Kings 9-3 in a Centennial Cup Junior A semifinal in Humboldt, Saskatchewan, advancing to the final against the Humboldt Broncos.",
+    "correctedDescriptionLong": "The Richmond Sockeyes defeated the Pembroke Lumber Kings 9-3 in a Centennial Cup Junior A semifinal on Thursday night in Humboldt, Saskatchewan. Richmond, which advanced from round-robin play with a 2-1 record, will face the Saskatchewan champion Humboldt Broncos in the sudden-death final on Saturday night. Goals were scored by Dean Rutledge, Steve Jaques, Matt Hervey, Brian Kozak, Paul Rutherford, Jason Phillips, Tony Bobbitt, Mike McCormick, and Bill Hardy. The article is a Canadian Press wire report with no byline or headline visible in the OCR.",
+    "notes": "No headline or byline appears in the OCR — the content is a CP wire dispatch. The AI-invented headline should be removed. Goal scorers are listed in the OCR and should be included in the long description for historical completeness.",
+    "_usage": {
+      "input_tokens": 2606,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 529,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

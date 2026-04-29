@@ -1,0 +1,29 @@
+{
+  "id": "scan-495246503",
+  "imageId": "495246503",
+  "date": "1987-04-23",
+  "paper": "The Vancouver Sun",
+  "page": "p61",
+  "review": {
+    "verdict": "accurate",
+    "sockeyesRelevance": "relevant",
+    "issues": [],
+    "correctedDescriptionShort": "",
+    "correctedDescriptionLong": "",
+    "correctedHeadline": "",
+    "correctedByline": "",
+    "notes": "The OCR does not contain a standalone headline for this article — the AI-drafted headline \"Sockeyes Steal One in Overtime\" appears to be a reasonable editorial inference from Kurtenbach's quote (\"We kind of stole one tonight\"), but it is not confirmed by the OCR text. The byline \"Sun News Services\" is confirmed. The factual summary in both the short and long descriptions accurately reflects the OCR content: 4-3 OT win, Bobbitt goal at 1:04, 2-1 series lead, Abbott Cup best-of-seven, series shifting to Richmond Arena. Note that the OCR is cut off mid-sentence (\"Kurtenbach said injured goal-.\"), so the long description reasonably omits the incomplete trailing detail.",
+    "_usage": {
+      "input_tokens": 2721,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 333,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}
